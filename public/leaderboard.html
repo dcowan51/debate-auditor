@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leaderboard — Act17:11</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <div class="logo-icon">17</div>
+      Act17:11
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="leaderboard.html" class="active">Leaderboard</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+    <div class="nav-search">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+      <input type="text" placeholder="Search creators or videos...">
+    </div>
+  </div>
+</nav>
+
+<section class="hero" style="padding-bottom:40px">
+  <h1 style="font-size:2.4rem">Creator Leaderboard</h1>
+  <p>All creators ranked by cumulative truth score. The more sessions analyzed, the more confident the score.</p>
+  <div class="score-legend" style="margin-top:20px">
+    <div class="legend-item"><div class="legend-dot" style="background:var(--green)"></div> 80%+ Reliable</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--yellow)"></div> 60-79% Caution</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--red-light)"></div> &lt;60% Unreliable</div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-header">
+    <h2 id="leaderboard-count">Rankings</h2>
+    <div class="sort-toggle">
+      <button class="sort-btn active" data-sort="score-desc">Highest First</button>
+      <button class="sort-btn" data-sort="score-asc">Lowest First</button>
+      <button class="sort-btn" data-sort="sessions">Most Analyzed</button>
+      <button class="sort-btn" data-sort="claims">Most Claims</button>
+    </div>
+  </div>
+  <div id="leaderboard-table"></div>
+</section>
+
+<!-- Stats summary -->
+<section class="section">
+  <div class="section-header"><h2>Overall Stats</h2></div>
+  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px" id="overall-stats"></div>
+</section>
+
+<footer>
+  <p>Act17:11 — Independent accuracy analysis for YouTube content creators. "They examined the Scriptures daily to see if what was said was true." — Acts 17:11</p>
+  <p style="margin-top:8px">Not affiliated with YouTube or any creator. All analyses are based on verifiable sources.</p>
+</footer>
+
+<script src="app.js"></script>
+<script>
+async function renderLeaderboard() {
+  const creators = await loadJSON('/data/creators.json');
+
+  document.getElementById('leaderboard-count').textContent = `Rankings (${creators.length} creators)`;
+
+  let sortMode = 'score-desc';
+
+  function render(mode) {
+    const sorted = [...creators];
+    if (mode === 'score-desc') sorted.sort((a, b) => b.cumulativeScore - a.cumulativeScore);
+    else if (mode === 'score-asc') sorted.sort((a, b) => a.cumulativeScore - b.cumulativeScore);
+    else if (mode === 'sessions') sorted.sort((a, b) => b.sessions - a.sessions);
+    else if (mode === 'claims') sorted.sort((a, b) => b.totalClaims - a.totalClaims);
+
+    document.getElementById('leaderboard-table').innerHTML = sorted.map((c, i) => {
+      const rank = i + 1;
+      const cls = scoreClass(c.cumulativeScore);
+      const color = scoreColor(c.cumulativeScore);
+      const accuracyPct = c.totalClaims > 0 ? Math.round((c.trueClaims / c.totalClaims) * 100) : 0;
+
+      return `
+        <a href="creator.html?id=${c.id}" style="text-decoration:none;color:inherit;display:block">
+          <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:20px 24px;margin-bottom:12px;display:grid;grid-template-columns:48px 56px 1fr auto;gap:20px;align-items:center;transition:background .2s;cursor:pointer" onmouseover="this.style.background='var(--bg-card-hover)'" onmouseout="this.style.background='var(--bg-card)'">
+
+            <!-- Rank -->
+            <div style="font-size:1.5rem;font-weight:800;color:${rank <= 3 ? color : 'var(--text-muted)'};text-align:center">${rank}</div>
+
+            <!-- Avatar -->
+            <div style="width:48px;height:48px;border-radius:50%;background:${c.avatarColor};display:flex;align-items:center;justify-content:center;font-weight:700;color:white;font-size:1rem">${c.initials}</div>
+
+            <!-- Info -->
+            <div>
+              <div style="font-weight:700;font-size:1rem;margin-bottom:4px">${c.name}</div>
+              <div style="font-size:0.8rem;color:var(--text-muted);margin-bottom:8px">${c.channel} · ${c.sessions} session${c.sessions > 1 ? 's' : ''} · ${c.totalClaims} claims checked</div>
+              <div style="display:flex;gap:6px;flex-wrap:wrap">
+                ${c.topics.slice(0, 4).map(t => `<span class="topic-tag">${t}</span>`).join('')}
+              </div>
+            </div>
+
+            <!-- Score -->
+            <div style="text-align:center;min-width:100px">
+              <div style="font-size:2rem;font-weight:800;color:${color}">${c.cumulativeScore}%</div>
+              <div style="font-size:0.7rem;text-transform:uppercase;letter-spacing:0.06em;color:${color};font-weight:600">${c.verdict}</div>
+              <div style="width:100%;height:4px;background:var(--border);border-radius:2px;margin-top:8px;overflow:hidden">
+                <div style="height:100%;width:${c.cumulativeScore}%;background:${color};border-radius:2px"></div>
+              </div>
+            </div>
+
+          </div>
+        </a>
+      `;
+    }).join('');
+  }
+
+  render(sortMode);
+
+  document.querySelectorAll('.sort-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      sortMode = btn.dataset.sort;
+      render(sortMode);
+    });
+  });
+
+  // Overall stats
+  const totalSessions = creators.reduce((s, c) => s + c.sessions, 0);
+  const totalClaims = creators.reduce((s, c) => s + c.totalClaims, 0);
+  const totalTrue = creators.reduce((s, c) => s + c.trueClaims, 0);
+  const avgScore = Math.round(creators.reduce((s, c) => s + c.cumulativeScore, 0) / creators.length);
+
+  document.getElementById('overall-stats').innerHTML = `
+    <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:24px;text-align:center">
+      <div style="font-size:2rem;font-weight:800;color:var(--accent-light)">${creators.length}</div>
+      <div style="font-size:0.75rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.06em">Creators</div>
+    </div>
+    <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:24px;text-align:center">
+      <div style="font-size:2rem;font-weight:800;color:var(--accent-light)">${totalSessions}</div>
+      <div style="font-size:0.75rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.06em">Videos Analyzed</div>
+    </div>
+    <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:24px;text-align:center">
+      <div style="font-size:2rem;font-weight:800;color:var(--accent-light)">${totalClaims.toLocaleString()}</div>
+      <div style="font-size:0.75rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.06em">Claims Checked</div>
+    </div>
+    <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:24px;text-align:center">
+      <div style="font-size:2rem;font-weight:800;color:${scoreColor(avgScore)}">${avgScore}%</div>
+      <div style="font-size:0.75rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.06em">Average Score</div>
+    </div>
+  `;
+}
+
+renderLeaderboard();
+</script>
+</body>
+</html>
