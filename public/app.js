@@ -1,18 +1,17 @@
 // ===== DEBATE AUDITOR — Dynamic Rendering Engine =====
 
-// Auto-detect base path for GitHub Pages subdirectory
-const BASE = window.location.pathname.includes('/debate-auditor') ? '/debate-auditor' : '';
-
 // Utility: get URL params (supports ?id=x and #id=x as fallback)
 function getParam(key) {
   return new URLSearchParams(window.location.search).get(key)
     || new URLSearchParams(window.location.hash.replace('#', '')).get(key);
 }
 
-// Utility: fetch JSON
+// Utility: fetch JSON using relative paths (works on any host/subdirectory)
 async function loadJSON(path) {
-  const res = await fetch(`${BASE}${path}`);
-  if (!res.ok) throw new Error(`Failed to load ${path}`);
+  // Strip leading slash to make path relative
+  const relativePath = path.startsWith('/') ? path.slice(1) : path;
+  const res = await fetch(relativePath);
+  if (!res.ok) throw new Error(`Failed to load ${relativePath}: ${res.status}`);
   return res.json();
 }
 
