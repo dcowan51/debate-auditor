@@ -363,25 +363,59 @@ async function renderAnalysis() {
 
   document.getElementById('tab-claims-count').textContent = `All Claims (${d.totalChecked})`;
 
-  // False claims
-  document.getElementById('false-claims-tab').innerHTML = a.falseClaims.map(fc => `
-    <div class="false-claim-detail">
-      <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px;flex-wrap:wrap">
-        <span class="rating">${fc.rating} · ${fc.confidence} Confidence</span>
-        ${fc.category ? `<span style="padding:3px 10px;border-radius:12px;font-size:0.65rem;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;${fc.category === 'Core' ? 'background:rgba(214,48,49,0.15);color:var(--red-light)' : fc.category === 'Support' ? 'background:rgba(225,112,85,0.15);color:var(--orange)' : 'background:rgba(136,136,160,0.15);color:var(--text-muted)'}">${fc.category} · ${fc.category === 'Core' ? '3x' : fc.category === 'Support' ? '2x' : '1x'} weight</span>` : ''}
-        <span style="font-size:0.75rem;color:var(--text-muted)">${fc.timestamp}</span>
-      </div>
-      <h4>"${fc.claim}"</h4>
-      <p class="evidence" style="margin-top:12px">${fc.evidence}</p>
-      <p class="settle">What would settle it: ${fc.settle}</p>
-      ${fc.sources && fc.sources.length > 0 ? `
-        <div style="margin-top:12px;padding-top:12px;border-top:1px solid var(--border)">
-          <div style="font-size:0.7rem;text-transform:uppercase;letter-spacing:0.06em;color:var(--accent-light);font-weight:600;margin-bottom:8px">Sources</div>
-          ${fc.sources.map(s => `<a href="${s.url}" target="_blank" rel="noopener" style="display:block;font-size:0.8rem;color:var(--accent-light);margin-bottom:4px;text-decoration:none;opacity:0.85">${s.label} &rarr;</a>`).join('')}
+  // False claims — with filters
+  const fcCategories = [...new Set(a.falseClaims.map(fc => fc.category).filter(Boolean))];
+  const fcRatings = [...new Set(a.falseClaims.map(fc => fc.rating.split(' ·')[0].trim()))];
+
+  function renderFalseClaims(catFilter, ratingFilter) {
+    let filtered = a.falseClaims;
+    if (catFilter !== 'all') filtered = filtered.filter(fc => fc.category === catFilter);
+    if (ratingFilter !== 'all') filtered = filtered.filter(fc => fc.rating.startsWith(ratingFilter));
+
+    return `
+      <div class="filter-bar">
+        <div class="filter-group">
+          <span class="filter-label">Weight:</span>
+          <button class="filter-btn ${catFilter === 'all' ? 'active' : ''}" data-fc-cat="all">All</button>
+          ${fcCategories.map(c => `<button class="filter-btn ${catFilter === c ? 'active' : ''}" data-fc-cat="${c}">${c}</button>`).join('')}
         </div>
-      ` : ''}
-    </div>
-  `).join('');
+        <div class="filter-group">
+          <span class="filter-label">Rating:</span>
+          <button class="filter-btn ${ratingFilter === 'all' ? 'active' : ''}" data-fc-rating="all">All</button>
+          ${fcRatings.map(r => `<button class="filter-btn ${ratingFilter === r ? 'active' : ''}" data-fc-rating="${r}">${r}</button>`).join('')}
+        </div>
+      </div>
+      <div style="font-size:0.8rem;color:var(--text-muted);margin-bottom:12px">Showing ${filtered.length} of ${a.falseClaims.length} false/misleading claims</div>
+      ${filtered.map(fc => `
+        <div class="false-claim-detail">
+          <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px;flex-wrap:wrap">
+            <span class="rating">${fc.rating} · ${fc.confidence} Confidence</span>
+            ${fc.category ? `<span style="padding:3px 10px;border-radius:12px;font-size:0.65rem;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;${fc.category === 'Core' ? 'background:rgba(214,48,49,0.15);color:var(--red-light)' : fc.category === 'Support' ? 'background:rgba(225,112,85,0.15);color:var(--orange)' : 'background:rgba(136,136,160,0.15);color:var(--text-muted)'}">${fc.category} · ${fc.category === 'Core' ? '3x' : fc.category === 'Support' ? '2x' : '1x'} weight</span>` : ''}
+            <span style="font-size:0.75rem;color:var(--text-muted)">${fc.timestamp}</span>
+          </div>
+          <h4>"${fc.claim}"</h4>
+          <p class="evidence" style="margin-top:12px">${fc.evidence}</p>
+          <p class="settle">What would settle it: ${fc.settle}</p>
+          ${fc.sources && fc.sources.length > 0 ? `
+            <div style="margin-top:12px;padding-top:12px;border-top:1px solid var(--border)">
+              <div style="font-size:0.7rem;text-transform:uppercase;letter-spacing:0.06em;color:var(--accent-light);font-weight:600;margin-bottom:8px">Sources</div>
+              ${fc.sources.map(s => `<a href="${s.url}" target="_blank" rel="noopener" style="display:block;font-size:0.8rem;color:var(--accent-light);margin-bottom:4px;text-decoration:none;opacity:0.85">${s.label} &rarr;</a>`).join('')}
+            </div>
+          ` : ''}
+        </div>
+      `).join('')}
+    `;
+  }
+
+  let fcCatFilter = 'all', fcRatingFilter = 'all';
+  document.getElementById('false-claims-tab').innerHTML = renderFalseClaims(fcCatFilter, fcRatingFilter);
+
+  document.getElementById('false-claims-tab').addEventListener('click', (e) => {
+    const catBtn = e.target.closest('[data-fc-cat]');
+    const ratBtn = e.target.closest('[data-fc-rating]');
+    if (catBtn) { fcCatFilter = catBtn.dataset.fcCat; document.getElementById('false-claims-tab').innerHTML = renderFalseClaims(fcCatFilter, fcRatingFilter); }
+    if (ratBtn) { fcRatingFilter = ratBtn.dataset.fcRating; document.getElementById('false-claims-tab').innerHTML = renderFalseClaims(fcCatFilter, fcRatingFilter); }
+  });
 
   // Stratagems
   document.getElementById('stratagems-tab').innerHTML = a.stratagems.map(s => `
@@ -399,17 +433,39 @@ async function renderAnalysis() {
     </div>
   `).join('');
 
-  // All claims
-  document.getElementById('all-claims-tab').innerHTML = `
-    <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:16px">All ${d.totalChecked} claims extracted from the transcript, in chronological order.</p>
-    ${a.allClaims.map(c => `
-      <div class="claim-item">
-        <div class="claim-num">${c.num}</div>
-        <div class="claim-text">${c.text} <span class="timestamp">${c.timestamp}</span></div>
-        <div class="claim-verdict ${claimClass(c.verdict)}">${claimLabel(c.verdict)}</div>
+  // All claims — with verdict filters
+  const verdictTypes = ['all', 'true', 'false', 'misleading', 'disputed'];
+  const verdictColors = { all: 'var(--text)', true: 'var(--green)', false: 'var(--red-light)', misleading: 'var(--orange)', disputed: 'var(--yellow)' };
+  const verdictCounts = { all: a.allClaims.length };
+  a.allClaims.forEach(c => { verdictCounts[c.verdict] = (verdictCounts[c.verdict] || 0) + 1; });
+
+  function renderAllClaims(filter) {
+    const filtered = filter === 'all' ? a.allClaims : a.allClaims.filter(c => c.verdict === filter);
+    return `
+      <div class="filter-bar">
+        <div class="filter-group">
+          <span class="filter-label">Show:</span>
+          ${verdictTypes.map(v => verdictCounts[v] ? `<button class="filter-btn ${filter === v ? 'active' : ''}" data-claim-filter="${v}" style="${filter === v ? 'color:' + verdictColors[v] : ''}">${claimLabel(v)} (${verdictCounts[v] || 0})</button>` : '').join('')}
+        </div>
       </div>
-    `).join('')}
-  `;
+      <div style="font-size:0.8rem;color:var(--text-muted);margin-bottom:12px">Showing ${filtered.length} of ${a.allClaims.length} claims</div>
+      ${filtered.map(c => `
+        <div class="claim-item">
+          <div class="claim-num">${c.num}</div>
+          <div class="claim-text">${c.text} <span class="timestamp">${c.timestamp}</span></div>
+          <div class="claim-verdict ${claimClass(c.verdict)}">${claimLabel(c.verdict)}</div>
+        </div>
+      `).join('')}
+    `;
+  }
+
+  let claimFilter = 'all';
+  document.getElementById('all-claims-tab').innerHTML = renderAllClaims(claimFilter);
+
+  document.getElementById('all-claims-tab').addEventListener('click', (e) => {
+    const btn = e.target.closest('[data-claim-filter]');
+    if (btn) { claimFilter = btn.dataset.claimFilter; document.getElementById('all-claims-tab').innerHTML = renderAllClaims(claimFilter); }
+  });
 
   // Scholarly splits
   if (a.scholarlySplits && a.scholarlySplits.length > 0) {
