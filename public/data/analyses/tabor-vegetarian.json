@@ -33,9 +33,16 @@
       "evidence": "The Hebrew text says selav, universally translated as 'quail' (Numbers 11:31-32). No major translation or commentary identifies these birds as pigeons or doves. This appears to be an error in recall.",
       "settle": "The Hebrew text is unambiguous.",
       "sources": [
-        { "label": "Numbers 11:31-32 — quail, not pigeons", "url": "https://www.biblegateway.com/passage/?search=Numbers+11%3A31-32&version=NRSVUE" },
-        { "label": "Common quail — the bird identified by Hebrew selav", "url": "https://en.wikipedia.org/wiki/Common_quail" }
-      ]
+        {
+          "label": "Numbers 11:31-32 — quail, not pigeons",
+          "url": "https://www.biblegateway.com/passage/?search=Numbers+11%3A31-32&version=NRSVUE"
+        },
+        {
+          "label": "Common quail — the bird identified by Hebrew selav",
+          "url": "https://en.wikipedia.org/wiki/Common_quail"
+        }
+      ],
+      "category": "Support"
     },
     {
       "claim": "Micah 6:6-8 attributed to Amos",
@@ -45,10 +52,20 @@
       "evidence": "'Shall I come with my firstborn son for my sin' (Micah 6:6-7) and 'what does the Lord require of you' (Micah 6:8) are from Micah, not Amos. Amos contains anti-sacrifice passages (5:21-24) but not these specific texts.",
       "settle": "Reading the texts.",
       "sources": [
-        { "label": "Micah 6:6-8 — the actual source passage", "url": "https://www.biblegateway.com/passage/?search=Micah+6%3A6-8&version=NRSVUE" },
-        { "label": "Amos 5:21-24 — Amos's anti-sacrifice passage (different text)", "url": "https://www.biblegateway.com/passage/?search=Amos+5%3A21-24&version=NRSVUE" },
-        { "label": "Book of Micah — authorship and content", "url": "https://en.wikipedia.org/wiki/Book_of_Micah" }
-      ]
+        {
+          "label": "Micah 6:6-8 — the actual source passage",
+          "url": "https://www.biblegateway.com/passage/?search=Micah+6%3A6-8&version=NRSVUE"
+        },
+        {
+          "label": "Amos 5:21-24 — Amos's anti-sacrifice passage (different text)",
+          "url": "https://www.biblegateway.com/passage/?search=Amos+5%3A21-24&version=NRSVUE"
+        },
+        {
+          "label": "Book of Micah — authorship and content",
+          "url": "https://en.wikipedia.org/wiki/Book_of_Micah"
+        }
+      ],
+      "category": "Background"
     },
     {
       "claim": "Hebrew 'paratz' means 'shredders who rip necks of animals'",
@@ -58,10 +75,20 @@
       "evidence": "The word in Jeremiah 7:11 is paritsim from the root parats, meaning 'to break through, burst open.' Standard lexical meaning: violent ones, robbers, breakers. The connection to specifically ripping animal necks is Tabor's interpretive gloss, not a standard lexical definition. BDB and HALOT do not support this specific meaning.",
       "settle": "Standard Hebrew lexicons.",
       "sources": [
-        { "label": "Jeremiah 7:11 — den of robbers passage", "url": "https://www.biblegateway.com/passage/?search=Jeremiah+7%3A11&version=NRSVUE" },
-        { "label": "Strong's H6530 — parits (robber, violent one)", "url": "https://www.blueletterbible.org/lexicon/h6530/kjv/wlc/0-1/" },
-        { "label": "Strong's H6555 — parats (to break through)", "url": "https://www.blueletterbible.org/lexicon/h6555/kjv/wlc/0-1/" }
-      ]
+        {
+          "label": "Jeremiah 7:11 — den of robbers passage",
+          "url": "https://www.biblegateway.com/passage/?search=Jeremiah+7%3A11&version=NRSVUE"
+        },
+        {
+          "label": "Strong's H6530 — parits (robber, violent one)",
+          "url": "https://www.blueletterbible.org/lexicon/h6530/kjv/wlc/0-1/"
+        },
+        {
+          "label": "Strong's H6555 — parats (to break through)",
+          "url": "https://www.blueletterbible.org/lexicon/h6555/kjv/wlc/0-1/"
+        }
+      ],
+      "category": "Support"
     },
     {
       "claim": "'Shakat is destroy... that's the slaughterer that kills the animals' (Isaiah 11:9)",
@@ -71,10 +98,20 @@
       "evidence": "The verb in Isaiah 11:9 is from the root shachat meaning 'to destroy, corrupt, ruin.' Tabor conflates this with the similar-sounding but different root shachat meaning 'to slaughter.' These are two distinct Hebrew roots with different consonants. The verse means 'they will not harm or destroy,' not 'they will not slaughter.'",
       "settle": "Hebrew lexical analysis of the consonantal text.",
       "sources": [
-        { "label": "Isaiah 11:9 — they will not hurt or destroy", "url": "https://www.biblegateway.com/passage/?search=Isaiah+11%3A9&version=NRSVUE" },
-        { "label": "Strong's H7843 — shachath (to destroy, corrupt)", "url": "https://www.blueletterbible.org/lexicon/h7843/kjv/wlc/0-1/" },
-        { "label": "Strong's H7819 — shachat (to slaughter) — different root", "url": "https://www.blueletterbible.org/lexicon/h7819/kjv/wlc/0-1/" }
-      ]
+        {
+          "label": "Isaiah 11:9 — they will not hurt or destroy",
+          "url": "https://www.biblegateway.com/passage/?search=Isaiah+11%3A9&version=NRSVUE"
+        },
+        {
+          "label": "Strong's H7843 — shachath (to destroy, corrupt)",
+          "url": "https://www.blueletterbible.org/lexicon/h7843/kjv/wlc/0-1/"
+        },
+        {
+          "label": "Strong's H7819 — shachat (to slaughter) — different root",
+          "url": "https://www.blueletterbible.org/lexicon/h7819/kjv/wlc/0-1/"
+        }
+      ],
+      "category": "Support"
     },
     {
       "claim": "Tyrian shekels were '99.99 certified from the mint at Tyre'",
@@ -84,9 +121,16 @@
       "evidence": "Numismatic and metallurgical studies show Tyrian shekels at approximately 92-97% silver purity. The figure '99.99%' is a significant overstatement. Tabor's broader point — that Tyrian shekels were accepted for their silver quality, not religious purity — is correct, but the specific number is wrong.",
       "settle": "Published metallurgical analyses of Tyrian shekels.",
       "sources": [
-        { "label": "Tyrian shekel — silver content and temple tax usage", "url": "https://en.wikipedia.org/wiki/Tyrian_shekel" },
-        { "label": "Temple tax — required Tyrian coinage", "url": "https://en.wikipedia.org/wiki/Temple_tax" }
-      ]
+        {
+          "label": "Tyrian shekel — silver content and temple tax usage",
+          "url": "https://en.wikipedia.org/wiki/Tyrian_shekel"
+        },
+        {
+          "label": "Temple tax — required Tyrian coinage",
+          "url": "https://en.wikipedia.org/wiki/Temple_tax"
+        }
+      ],
+      "category": "Background"
     },
     {
       "claim": "Isaiah 56:7 burnt offerings line is an interpolation",
@@ -96,10 +140,20 @@
       "evidence": "No mainstream critical commentary identifies this specific clause as a later addition. The Great Isaiah Scroll (1QIsa-a) from the Dead Sea Scrolls contains the phrase, dating it to at least the 2nd century BCE. This is Tabor's own speculation presented as though it is a recognized critical finding.",
       "settle": "Manuscript evidence and critical apparatus of Isaiah 56.",
       "sources": [
-        { "label": "Isaiah 56:7 — house of prayer for all peoples", "url": "https://www.biblegateway.com/passage/?search=Isaiah+56%3A7&version=NRSVUE" },
-        { "label": "Great Isaiah Scroll (1QIsa-a) — contains the phrase", "url": "https://en.wikipedia.org/wiki/Isaiah_scroll" },
-        { "label": "Dead Sea Scrolls — manuscript evidence", "url": "https://en.wikipedia.org/wiki/Dead_Sea_Scrolls" }
-      ]
+        {
+          "label": "Isaiah 56:7 — house of prayer for all peoples",
+          "url": "https://www.biblegateway.com/passage/?search=Isaiah+56%3A7&version=NRSVUE"
+        },
+        {
+          "label": "Great Isaiah Scroll (1QIsa-a) — contains the phrase",
+          "url": "https://en.wikipedia.org/wiki/Isaiah_scroll"
+        },
+        {
+          "label": "Dead Sea Scrolls — manuscript evidence",
+          "url": "https://en.wikipedia.org/wiki/Dead_Sea_Scrolls"
+        }
+      ],
+      "category": "Core"
     },
     {
       "claim": "Jeremiah 7:22 presented as a blanket divine rejection of all sacrifice",
@@ -109,10 +163,20 @@
       "evidence": "The full context of Jeremiah 7 is a condemnation of specific pagan abominations: burning incense to Baal (7:9), making cakes for the Queen of Heaven (7:18), and child sacrifice at Topheth (7:31). Tabor never mentions Baal, the Queen of Heaven, Topheth, or child sacrifice — the actual subjects of the chapter he cites. Additionally, the same Torah commands sacrificial festivals as perpetual covenant obligations (Exodus 12:24-27; Deuteronomy 16:1-17).",
       "settle": "Reading Jeremiah 7 in its entirety alongside the festival commands in Deuteronomy 16.",
       "sources": [
-        { "label": "Jeremiah 7 — full chapter context (Baal, Topheth, Queen of Heaven)", "url": "https://www.biblegateway.com/passage/?search=Jeremiah+7&version=NRSVUE" },
-        { "label": "Deuteronomy 16:1-17 — covenantal festival commands", "url": "https://www.biblegateway.com/passage/?search=Deuteronomy+16%3A1-17&version=NRSVUE" },
-        { "label": "Exodus 12:24-27 — Passover as perpetual obligation", "url": "https://www.biblegateway.com/passage/?search=Exodus+12%3A24-27&version=NRSVUE" }
-      ]
+        {
+          "label": "Jeremiah 7 — full chapter context (Baal, Topheth, Queen of Heaven)",
+          "url": "https://www.biblegateway.com/passage/?search=Jeremiah+7&version=NRSVUE"
+        },
+        {
+          "label": "Deuteronomy 16:1-17 — covenantal festival commands",
+          "url": "https://www.biblegateway.com/passage/?search=Deuteronomy+16%3A1-17&version=NRSVUE"
+        },
+        {
+          "label": "Exodus 12:24-27 — Passover as perpetual obligation",
+          "url": "https://www.biblegateway.com/passage/?search=Exodus+12%3A24-27&version=NRSVUE"
+        }
+      ],
+      "category": "Core"
     },
     {
       "claim": "Greek words for locusts and honey cakes differ by 'one letter'",
@@ -122,10 +186,20 @@
       "evidence": "akrides (locusts) vs. enkrides (honey cakes). The difference is more than one letter — the prefix eg- is added and the initial a is dropped. Tabor simplifies for effect. The broader point about the Ebionite textual substitution is well-attested (Epiphanius, Panarion 30.13.4-5).",
       "settle": "Comparing the Greek words directly.",
       "sources": [
-        { "label": "Ebionites — vegetarian practices and Gospel variants", "url": "https://en.wikipedia.org/wiki/Ebionites" },
-        { "label": "Epiphanius — Panarion heresy catalogue", "url": "https://en.wikipedia.org/wiki/Panarion" },
-        { "label": "Matthew 3:4 — locusts and wild honey passage", "url": "https://www.biblegateway.com/passage/?search=Matthew+3%3A4&version=NRSVUE" }
-      ]
+        {
+          "label": "Ebionites — vegetarian practices and Gospel variants",
+          "url": "https://en.wikipedia.org/wiki/Ebionites"
+        },
+        {
+          "label": "Epiphanius — Panarion heresy catalogue",
+          "url": "https://en.wikipedia.org/wiki/Panarion"
+        },
+        {
+          "label": "Matthew 3:4 — locusts and wild honey passage",
+          "url": "https://www.biblegateway.com/passage/?search=Matthew+3%3A4&version=NRSVUE"
+        }
+      ],
+      "category": "Background"
     }
   ],
   "stratagems": [

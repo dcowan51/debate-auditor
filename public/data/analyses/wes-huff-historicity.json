@@ -49,7 +49,8 @@
           "label": "Biblical Aramaic — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Biblical_Aramaic"
         }
-      ]
+      ],
+      "category": "Background"
     },
     {
       "claim": "Less than two decades ago, an inscription was discovered confirming a second Lysanias as tetrarch of Abilene under Tiberius and Pilate.",
@@ -71,7 +72,8 @@
           "label": "Abilene (ancient region) — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Abilene_(ancient_region)"
         }
-      ]
+      ],
+      "category": "Support"
     },
     {
       "claim": "Erasmus was Martin Luther's first and primary sparring partner during the Reformation.",
@@ -93,7 +95,8 @@
           "label": "De Libero Arbitrio (Erasmus) — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/De_libero_arbitrio_diatribe_sive_collatio"
         }
-      ]
+      ],
+      "category": "Background"
     },
     {
       "claim": "Christian communities were mostly female, mostly middle to lower class.",
@@ -115,7 +118,8 @@
           "label": "Sociology of early Christianity — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Sociology_of_early_Christianity"
         }
-      ]
+      ],
+      "category": "Support"
     },
     {
       "claim": "Christians became the most prolific producers of texts by the 4th century and set the standards for writing for non-Christian texts.",
@@ -137,7 +141,8 @@
           "label": "Scriptoria and early Christian manuscript production — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Scriptorium"
         }
-      ]
+      ],
+      "category": "Support"
     },
     {
       "claim": "The Gospel of Philip names characters popular in 4th-century Egypt because it was written in 4th-century Egypt.",
@@ -159,7 +164,8 @@
           "label": "Richard Bauckham, Jesus and the Eyewitnesses — Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Jesus_and_the_Eyewitnesses"
         }
-      ]
+      ],
+      "category": "Background"
     }
   ],
   "stratagems": [

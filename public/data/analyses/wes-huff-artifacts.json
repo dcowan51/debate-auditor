@@ -45,7 +45,8 @@
           "label": "British Library — Codex Sinaiticus",
           "url": "https://www.bl.uk/collection-items/codex-sinaiticus"
         }
-      ]
+      ],
+      "category": "Background"
     },
     {
       "claim": "P52 paleographers unanimously dated it to the beginning of the second century.",
@@ -67,7 +68,8 @@
           "label": "John Rylands Library — St John Fragment",
           "url": "https://www.library.manchester.ac.uk/rylands/special-collections/exploring/st-johns-fragment/"
         }
-      ]
+      ],
+      "category": "Support"
     },
     {
       "claim": "P1 was dug up on January 12, 1897.",
@@ -89,7 +91,8 @@
           "label": "Egypt Exploration Society — Oxyrhynchus",
           "url": "https://www.ees.ac.uk/oxyrhynchus"
         }
-      ]
+      ],
+      "category": "Background"
     },
     {
       "claim": "Pilate was removed from office under Caligula.",
@@ -111,7 +114,8 @@
           "label": "Josephus, Antiquities 18.4.2 — Pilate's recall",
           "url": "https://en.wikisource.org/wiki/The_Antiquities_of_the_Jews/Book_XVIII#Chapter_4"
         }
-      ]
+      ],
+      "category": "Background"
     },
     {
       "claim": "Tacitus described as one of the four most ancient biographers and writers in the Greco-Roman period.",
@@ -133,7 +137,8 @@
           "label": "Stanford Encyclopedia of Philosophy — Ancient Historiography",
           "url": "https://plato.stanford.edu/entries/historiography/"
         }
-      ]
+      ],
+      "category": "Background"
     },
     {
       "claim": "Huff conflates procurator vs. governor when the actual distinction is procurator vs. prefect.",
@@ -159,7 +164,8 @@
           "label": "Wikipedia — Pontius Pilate (title discussion)",
           "url": "https://en.wikipedia.org/wiki/Pontius_Pilate#Title"
         }
-      ]
+      ],
+      "category": "Background"
     },
     {
       "claim": "The accuracy of the seven books that we call the New Testament.",
@@ -177,7 +183,8 @@
           "label": "BibleGateway — New Testament overview",
           "url": "https://www.biblegateway.com/passage/?search=Matthew+1&version=NRSVUE"
         }
-      ]
+      ],
+      "category": "Background"
     }
   ],
   "stratagems": [

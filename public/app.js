@@ -256,8 +256,9 @@ async function renderAnalysis() {
   // False claims
   document.getElementById('false-claims-tab').innerHTML = a.falseClaims.map(fc => `
     <div class="false-claim-detail">
-      <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px;flex-wrap:wrap">
         <span class="rating">${fc.rating} · ${fc.confidence} Confidence</span>
+        ${fc.category ? `<span style="padding:3px 10px;border-radius:12px;font-size:0.65rem;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;${fc.category === 'Core' ? 'background:rgba(214,48,49,0.15);color:var(--red-light)' : fc.category === 'Support' ? 'background:rgba(225,112,85,0.15);color:var(--orange)' : 'background:rgba(136,136,160,0.15);color:var(--text-muted)'}">${fc.category} · ${fc.category === 'Core' ? '3x' : fc.category === 'Support' ? '2x' : '1x'} weight</span>` : ''}
         <span style="font-size:0.75rem;color:var(--text-muted)">${fc.timestamp}</span>
       </div>
       <h4>"${fc.claim}"</h4>
