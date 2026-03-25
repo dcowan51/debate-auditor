@@ -178,50 +178,257 @@
   ],
   "weightedAnalysis": {
     "categories": [
-      {"name": "Core", "claims": 8, "weight": 3, "trueWeighted": 21, "falseWeighted": 3, "disputedWeighted": 0},
-      {"name": "Support", "claims": 14, "weight": 2, "trueWeighted": 20, "falseWeighted": 8, "disputedWeighted": 0},
-      {"name": "Background", "claims": 10, "weight": 1, "trueWeighted": 8, "falseWeighted": 2, "disputedWeighted": 0}
+      {
+        "name": "Core",
+        "claims": 8,
+        "weight": 3,
+        "trueWeighted": 21,
+        "falseWeighted": 3,
+        "disputedWeighted": 0
+      },
+      {
+        "name": "Support",
+        "claims": 14,
+        "weight": 2,
+        "trueWeighted": 20,
+        "falseWeighted": 8,
+        "disputedWeighted": 0
+      },
+      {
+        "name": "Background",
+        "claims": 10,
+        "weight": 1,
+        "trueWeighted": 8,
+        "falseWeighted": 2,
+        "disputedWeighted": 0
+      }
     ],
     "errorImpact": 21,
     "interpretation": "At 21%, this session falls into secondary use only — useful for general orientation but individual claims require independent verification."
   },
   "allClaims": [
-    {"num": 1, "text": "Anselm of Canterbury was a medieval thinker/theologian who said Christians must pursue faith seeking understanding", "timestamp": "0:39", "verdict": "true"},
-    {"num": 2, "text": "The New Testament is a collection of 27 books", "timestamp": "2:06", "verdict": "true"},
-    {"num": 3, "text": "The NT was written over the course of 60 years", "timestamp": "2:14", "verdict": "true"},
-    {"num": 4, "text": "The NT was written by at least nine different authors", "timestamp": "2:14", "verdict": "true"},
-    {"num": 5, "text": "The NT was written in Greek", "timestamp": "2:23", "verdict": "true"},
-    {"num": 6, "text": "Translation of the Bible goes from the original Hebrew and Greek directly into modern translations (single step)", "timestamp": "3:17", "verdict": "true"},
-    {"num": 7, "text": "P66 is a late second / early third century copy of the Gospel of John that preserves a near-complete copy", "timestamp": "5:39", "verdict": "disputed"},
-    {"num": 8, "text": "Codex Sinaiticus is arguably the first Bible (Genesis to Revelation in one unit), from the fourth century", "timestamp": "5:48", "verdict": "true"},
-    {"num": 9, "text": "Codex Sinaiticus took 260 sheep to make", "timestamp": "5:56", "verdict": "false"},
-    {"num": 10, "text": "P1 is the first page of the Gospel of Matthew, dug up from Oxyrhynchus", "timestamp": "6:21", "verdict": "true"},
-    {"num": 11, "text": "P1 was dug up on January 12, 1897", "timestamp": "6:21", "verdict": "false"},
-    {"num": 12, "text": "P1 was the first manuscript of those near half-million papyri dug up at Oxyrhynchus", "timestamp": "6:21", "verdict": "true"},
-    {"num": 13, "text": "GA 2777 (a777) is a more than thousand-year-old gospels collection and one of the earliest illuminated manuscripts, with paintings of the life of Jesus alongside the Greek text", "timestamp": "6:44", "verdict": "true"},
-    {"num": 14, "text": "P52 (John Rylands 457) is a fragment of the Gospel of John, about the size of a credit card", "timestamp": "7:18", "verdict": "true"},
-    {"num": 15, "text": "P52 is housed at the John Rylands Library in Manchester, England", "timestamp": "7:36", "verdict": "true"},
-    {"num": 16, "text": "P52 was discovered in 1934 by C.H. Roberts, recently doctored from Oxford", "timestamp": "7:42", "verdict": "true"},
-    {"num": 17, "text": "P52 was written on both sides (from a codex), identifying it as a Christian writing", "timestamp": "8:15", "verdict": "true"},
-    {"num": 18, "text": "P52 contains a section of John 18 on both the front and the back", "timestamp": "9:27", "verdict": "true"},
-    {"num": 19, "text": "Ferdinand Baur, a student of Hegel, applied Hegelian dialectic (thesis-antithesis-synthesis) to the dating of the Gospels", "timestamp": "9:45", "verdict": "true"},
-    {"num": 20, "text": "Baur argued that John could not be dated earlier than 160 AD", "timestamp": "11:17", "verdict": "true"},
-    {"num": 21, "text": "Baur's reasoning stood as the consensus for roughly the next 100 years", "timestamp": "11:34", "verdict": "true"},
-    {"num": 22, "text": "Paleographers unanimously dated P52 to the beginning of the second century", "timestamp": "12:19", "verdict": "misleading"},
-    {"num": 23, "text": "John most likely wrote in Ephesus, about 1,700 miles / 2,700 km from Egypt", "timestamp": "13:12", "verdict": "true"},
-    {"num": 24, "text": "An ossuary is a bone box used in Jewish burial practice of the period", "timestamp": "14:42", "verdict": "true"},
-    {"num": 25, "text": "Onomastic congruence shows the NT gospels match first-century Palestinian name frequencies with correct qualifiers for popular names", "timestamp": "16:35", "verdict": "disputed"},
-    {"num": 26, "text": "The Gospel of Judas has only two names that fit (Jesus and Judas), while others match Egypt during the second and third centuries", "timestamp": "18:00", "verdict": "true"},
-    {"num": 27, "text": "Luke mentions 19 Greek names in the last half of Acts, two of which (Demetrius and Lydia) are completely unique, which matches the 10% unique-name rate for that region", "timestamp": "19:10", "verdict": "true"},
-    {"num": 28, "text": "Luke 3:1-3 contains seven historical characters and 22 historical references verified by archaeology and ancient sources", "timestamp": "21:26", "verdict": "true"},
-    {"num": 29, "text": "Tacitus assumes Christus is a name rather than a title", "timestamp": "23:00", "verdict": "true"},
-    {"num": 30, "text": "Tacitus gives Pontius Pilate the wrong title: procurator instead of prefect", "timestamp": "23:25", "verdict": "true"},
-    {"num": 31, "text": "Pilate was removed from office under Caligula (not Tiberius)", "timestamp": "23:59", "verdict": "misleading"},
-    {"num": 32, "text": "The Pilate Stone was found in Caesarea Maritima in 1961, confirming Pilate as governor/prefect of Judea", "timestamp": "24:14", "verdict": "true"},
-    {"num": 33, "text": "The Alexamenos graffito is approximately 1,900 years old, found on Palatine Hill, depicting a man on a cross with a donkey head, captioned Alexamenos worships his God", "timestamp": "25:36", "verdict": "true"},
-    {"num": 34, "text": "The Alexamenos graffito is the first depiction of Jesus on a cross", "timestamp": "25:36", "verdict": "true"},
-    {"num": 35, "text": "Cicero said the word cross should be far removed from a Roman citizen's body, mind, eyes, and ears — calling it a most cruel and disgusting penalty", "timestamp": "28:20", "verdict": "true"},
-    {"num": 36, "text": "1 Corinthians 1:23 says we preach Christ crucified, a stumbling block to Jews and foolishness to Gentiles, using Greek words scandalon and moros", "timestamp": "29:49", "verdict": "true"},
-    {"num": 37, "text": "CS Lewis said: Christianity, if false, is of no importance, and if true of infinite importance. The only thing it cannot be is moderately important", "timestamp": "34:23", "verdict": "true"}
-  ]
+    {
+      "num": 1,
+      "text": "Anselm of Canterbury was a medieval thinker/theologian who said Christians must pursue faith seeking understanding",
+      "timestamp": "0:39",
+      "verdict": "true"
+    },
+    {
+      "num": 2,
+      "text": "The New Testament is a collection of 27 books",
+      "timestamp": "2:06",
+      "verdict": "true"
+    },
+    {
+      "num": 3,
+      "text": "The NT was written over the course of 60 years",
+      "timestamp": "2:14",
+      "verdict": "true"
+    },
+    {
+      "num": 4,
+      "text": "The NT was written by at least nine different authors",
+      "timestamp": "2:14",
+      "verdict": "true"
+    },
+    {
+      "num": 5,
+      "text": "The NT was written in Greek",
+      "timestamp": "2:23",
+      "verdict": "true"
+    },
+    {
+      "num": 6,
+      "text": "Translation of the Bible goes from the original Hebrew and Greek directly into modern translations (single step)",
+      "timestamp": "3:17",
+      "verdict": "true"
+    },
+    {
+      "num": 7,
+      "text": "P66 is a late second / early third century copy of the Gospel of John that preserves a near-complete copy",
+      "timestamp": "5:39",
+      "verdict": "disputed"
+    },
+    {
+      "num": 8,
+      "text": "Codex Sinaiticus is arguably the first Bible (Genesis to Revelation in one unit), from the fourth century",
+      "timestamp": "5:48",
+      "verdict": "true"
+    },
+    {
+      "num": 9,
+      "text": "Codex Sinaiticus took 260 sheep to make",
+      "timestamp": "5:56",
+      "verdict": "false"
+    },
+    {
+      "num": 10,
+      "text": "P1 is the first page of the Gospel of Matthew, dug up from Oxyrhynchus",
+      "timestamp": "6:21",
+      "verdict": "true"
+    },
+    {
+      "num": 11,
+      "text": "P1 was dug up on January 12, 1897",
+      "timestamp": "6:21",
+      "verdict": "false"
+    },
+    {
+      "num": 12,
+      "text": "P1 was the first manuscript of those near half-million papyri dug up at Oxyrhynchus",
+      "timestamp": "6:21",
+      "verdict": "true"
+    },
+    {
+      "num": 13,
+      "text": "GA 2777 (a777) is a more than thousand-year-old gospels collection and one of the earliest illuminated manuscripts, with paintings of the life of Jesus alongside the Greek text",
+      "timestamp": "6:44",
+      "verdict": "true"
+    },
+    {
+      "num": 14,
+      "text": "P52 (John Rylands 457) is a fragment of the Gospel of John, about the size of a credit card",
+      "timestamp": "7:18",
+      "verdict": "true"
+    },
+    {
+      "num": 15,
+      "text": "P52 is housed at the John Rylands Library in Manchester, England",
+      "timestamp": "7:36",
+      "verdict": "true"
+    },
+    {
+      "num": 16,
+      "text": "P52 was discovered in 1934 by C.H. Roberts, recently doctored from Oxford",
+      "timestamp": "7:42",
+      "verdict": "true"
+    },
+    {
+      "num": 17,
+      "text": "P52 was written on both sides (from a codex), identifying it as a Christian writing",
+      "timestamp": "8:15",
+      "verdict": "true"
+    },
+    {
+      "num": 18,
+      "text": "P52 contains a section of John 18 on both the front and the back",
+      "timestamp": "9:27",
+      "verdict": "true"
+    },
+    {
+      "num": 19,
+      "text": "Ferdinand Baur, a student of Hegel, applied Hegelian dialectic (thesis-antithesis-synthesis) to the dating of the Gospels",
+      "timestamp": "9:45",
+      "verdict": "true"
+    },
+    {
+      "num": 20,
+      "text": "Baur argued that John could not be dated earlier than 160 AD",
+      "timestamp": "11:17",
+      "verdict": "true"
+    },
+    {
+      "num": 21,
+      "text": "Baur's reasoning stood as the consensus for roughly the next 100 years",
+      "timestamp": "11:34",
+      "verdict": "true"
+    },
+    {
+      "num": 22,
+      "text": "Paleographers unanimously dated P52 to the beginning of the second century",
+      "timestamp": "12:19",
+      "verdict": "misleading"
+    },
+    {
+      "num": 23,
+      "text": "John most likely wrote in Ephesus, about 1,700 miles / 2,700 km from Egypt",
+      "timestamp": "13:12",
+      "verdict": "true"
+    },
+    {
+      "num": 24,
+      "text": "An ossuary is a bone box used in Jewish burial practice of the period",
+      "timestamp": "14:42",
+      "verdict": "true"
+    },
+    {
+      "num": 25,
+      "text": "Onomastic congruence shows the NT gospels match first-century Palestinian name frequencies with correct qualifiers for popular names",
+      "timestamp": "16:35",
+      "verdict": "disputed"
+    },
+    {
+      "num": 26,
+      "text": "The Gospel of Judas has only two names that fit (Jesus and Judas), while others match Egypt during the second and third centuries",
+      "timestamp": "18:00",
+      "verdict": "true"
+    },
+    {
+      "num": 27,
+      "text": "Luke mentions 19 Greek names in the last half of Acts, two of which (Demetrius and Lydia) are completely unique, which matches the 10% unique-name rate for that region",
+      "timestamp": "19:10",
+      "verdict": "true"
+    },
+    {
+      "num": 28,
+      "text": "Luke 3:1-3 contains seven historical characters and 22 historical references verified by archaeology and ancient sources",
+      "timestamp": "21:26",
+      "verdict": "true"
+    },
+    {
+      "num": 29,
+      "text": "Tacitus assumes Christus is a name rather than a title",
+      "timestamp": "23:00",
+      "verdict": "true"
+    },
+    {
+      "num": 30,
+      "text": "Tacitus gives Pontius Pilate the wrong title: procurator instead of prefect",
+      "timestamp": "23:25",
+      "verdict": "true"
+    },
+    {
+      "num": 31,
+      "text": "Pilate was removed from office under Caligula (not Tiberius)",
+      "timestamp": "23:59",
+      "verdict": "misleading"
+    },
+    {
+      "num": 32,
+      "text": "The Pilate Stone was found in Caesarea Maritima in 1961, confirming Pilate as governor/prefect of Judea",
+      "timestamp": "24:14",
+      "verdict": "true"
+    },
+    {
+      "num": 33,
+      "text": "The Alexamenos graffito is approximately 1,900 years old, found on Palatine Hill, depicting a man on a cross with a donkey head, captioned Alexamenos worships his God",
+      "timestamp": "25:36",
+      "verdict": "true"
+    },
+    {
+      "num": 34,
+      "text": "The Alexamenos graffito is the first depiction of Jesus on a cross",
+      "timestamp": "25:36",
+      "verdict": "true"
+    },
+    {
+      "num": 35,
+      "text": "Cicero said the word cross should be far removed from a Roman citizen's body, mind, eyes, and ears — calling it a most cruel and disgusting penalty",
+      "timestamp": "28:20",
+      "verdict": "true"
+    },
+    {
+      "num": 36,
+      "text": "1 Corinthians 1:23 says we preach Christ crucified, a stumbling block to Jews and foolishness to Gentiles, using Greek words scandalon and moros",
+      "timestamp": "29:49",
+      "verdict": "true"
+    },
+    {
+      "num": 37,
+      "text": "CS Lewis said: Christianity, if false, is of no importance, and if true of infinite importance. The only thing it cannot be is moderately important",
+      "timestamp": "34:23",
+      "verdict": "true"
+    }
+  ],
+  "videoUrl": ""
 }

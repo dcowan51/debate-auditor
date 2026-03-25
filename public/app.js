@@ -210,6 +210,11 @@ async function renderAnalysis() {
   document.getElementById('date-analyzed').textContent = `Analyzed ${a.dateAnalyzed}`;
   document.getElementById('creator-link').innerHTML = `<a href="creator.html?id=${a.creatorId}">${a.channel}</a>`;
   document.getElementById('analyzed-range').textContent = `Full transcript (${a.analyzedRange})`;
+
+  // YouTube link
+  if (a.videoUrl) {
+    document.getElementById('youtube-link').innerHTML = `<a href="${a.videoUrl}" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;padding:8px 16px;background:rgba(214,48,49,0.12);border:1px solid rgba(214,48,49,0.3);border-radius:20px;color:#ff4444;font-size:0.85rem;font-weight:600;text-decoration:none;margin-top:12px">&#9654; Watch on YouTube</a>`;
+  }
   document.getElementById('thesis-text').textContent = a.thesis;
 
   // Dashboard

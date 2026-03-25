@@ -172,64 +172,341 @@
   ],
   "weightedAnalysis": {
     "categories": [
-      {"name": "Core", "claims": 6, "weight": 3, "trueWeighted": 18, "falseWeighted": 0, "disputedWeighted": 0},
-      {"name": "Support", "claims": 21, "weight": 2, "trueWeighted": 38, "falseWeighted": 4, "disputedWeighted": 0},
-      {"name": "Background", "claims": 12, "weight": 1, "trueWeighted": 8, "falseWeighted": 4, "disputedWeighted": 0}
+      {
+        "name": "Core",
+        "claims": 6,
+        "weight": 3,
+        "trueWeighted": 18,
+        "falseWeighted": 0,
+        "disputedWeighted": 0
+      },
+      {
+        "name": "Support",
+        "claims": 21,
+        "weight": 2,
+        "trueWeighted": 38,
+        "falseWeighted": 4,
+        "disputedWeighted": 0
+      },
+      {
+        "name": "Background",
+        "claims": 12,
+        "weight": 1,
+        "trueWeighted": 8,
+        "falseWeighted": 4,
+        "disputedWeighted": 0
+      }
     ],
     "errorImpact": 11.1,
     "interpretation": "At ~11%, this session places just above the <10% threshold. Usable with verification. Core claims are well-supported; errors concentrate in peripheral historical and demographic claims."
   },
   "allClaims": [
-    {"num": 1, "text": "The Bible consists of 66 books", "timestamp": "1:25", "verdict": "true"},
-    {"num": 2, "text": "Written over a period of 1,600 years", "timestamp": "1:25", "verdict": "disputed"},
-    {"num": 3, "text": "On three different continents", "timestamp": "1:25", "verdict": "true"},
-    {"num": 4, "text": "By close to 40 different authors", "timestamp": "1:34", "verdict": "true"},
-    {"num": 5, "text": "In three different languages", "timestamp": "1:34", "verdict": "true"},
-    {"num": 6, "text": "Jesus would have been speaking mostly in Aramaic", "timestamp": "4:44", "verdict": "true"},
-    {"num": 7, "text": "His followers wrote in Greek, the lingua franca of the day", "timestamp": "4:53", "verdict": "true"},
-    {"num": 8, "text": "Modern English translations are translated directly from the original languages (Hebrew, Greek, Aramaic)", "timestamp": "6:08", "verdict": "true"},
-    {"num": 9, "text": "There are about 12 verses in the entirety of the Bible that are translated from Aramaic", "timestamp": "6:26", "verdict": "false"},
-    {"num": 10, "text": "Translators take into consideration previous translations (French, German, Latin)", "timestamp": "6:34", "verdict": "true"},
-    {"num": 11, "text": "The NT has multiple lines of transmission, not a single line like the telephone game", "timestamp": "7:21", "verdict": "true"},
-    {"num": 12, "text": "Between the 1st and 4th centuries, hundreds if not thousands of copies of the OT and NT existed across the ancient world", "timestamp": "8:40", "verdict": "true"},
-    {"num": 13, "text": "Copies spread to Europe, Asia, North Africa, the Middle East, and the British Isles", "timestamp": "8:47", "verdict": "true"},
-    {"num": 14, "text": "The ancient world had a very established literary community which was almost always male, educated, and literate", "timestamp": "9:20", "verdict": "true"},
-    {"num": 15, "text": "Christian communities were mostly female", "timestamp": "9:27", "verdict": "misleading"},
-    {"num": 16, "text": "Christian communities were mostly middle to lower class", "timestamp": "9:27", "verdict": "misleading"},
-    {"num": 17, "text": "Christian communities were mostly illiterate", "timestamp": "9:36", "verdict": "misleading"},
-    {"num": 18, "text": "Christians became the most prolific producers of texts", "timestamp": "9:36", "verdict": "misleading"},
-    {"num": 19, "text": "By the 4th century, Christians set the standards for writing for non-Christian texts as well", "timestamp": "9:43", "verdict": "misleading"},
-    {"num": 20, "text": "The King James was translated between 1604 and 1611", "timestamp": "10:16", "verdict": "true"},
-    {"num": 21, "text": "The KJV was produced from a printed edition of the Hebrew OT and seven printed editions of the Greek NT", "timestamp": "10:16", "verdict": "true"},
-    {"num": 22, "text": "Five editions by Erasmus, then two updates by Stephanus and Beza", "timestamp": "10:23", "verdict": "true"},
-    {"num": 23, "text": "Erasmus's Third Edition was the primary text for the KJV", "timestamp": "10:40", "verdict": "true"},
-    {"num": 24, "text": "Erasmus produced the Third Edition with approximately half a dozen Greek manuscripts", "timestamp": "10:48", "verdict": "true"},
-    {"num": 25, "text": "The oldest manuscript Erasmus had went back to the 11th century", "timestamp": "11:05", "verdict": "true"},
-    {"num": 26, "text": "Erasmus did not trust that oldest manuscript", "timestamp": "11:05", "verdict": "true"},
-    {"num": 27, "text": "We now have approximately just north of 5,000 Greek NT manuscripts", "timestamp": "11:13", "verdict": "true"},
-    {"num": 28, "text": "Erasmus was Martin Luther's first and primary sparring partner during the Reformation", "timestamp": "10:31", "verdict": "misleading"},
-    {"num": 29, "text": "P66 is a late 2nd / early 3rd century copy of the Gospel of John", "timestamp": "12:39", "verdict": "true"},
-    {"num": 30, "text": "P66 preserves most of the Gospel of John", "timestamp": "12:56", "verdict": "true"},
-    {"num": 31, "text": "Christians popularized and proliferated the codex (book format)", "timestamp": "13:10", "verdict": "true"},
-    {"num": 32, "text": "The scroll was the primary writing device within the ancient world before the codex", "timestamp": "13:19", "verdict": "true"},
-    {"num": 33, "text": "John 5:4 was added to the margin of the Gospel of John somewhere in the 4th century", "timestamp": "17:20", "verdict": "true"},
-    {"num": 34, "text": "The verse explains that an angel would stir the waters at the Pool of Bethesda", "timestamp": "17:05", "verdict": "true"},
-    {"num": 35, "text": "Luke uses a word for 'account/narrative' (diēgēsis) that Josephus and Lucian also use", "timestamp": "21:27", "verdict": "true"},
-    {"num": 36, "text": "Lucian discusses how to write good history and says it must be a 'proper account'", "timestamp": "21:27", "verdict": "true"},
-    {"num": 37, "text": "Luke 3 lists Tiberius Caesar, Pontius Pilate, Herod the tetrarch of Galilee, Philip the tetrarch, and Lysanias the tetrarch of Abilene", "timestamp": "22:01", "verdict": "true"},
-    {"num": 38, "text": "Lysanias is described by Josephus as living before the time of Jesus", "timestamp": "22:41", "verdict": "true"},
-    {"num": 39, "text": "Until about 15 years ago, all scholars said Lysanias was Luke's mistake", "timestamp": "22:50", "verdict": "false"},
-    {"num": 40, "text": "Less than two decades ago, an inscription was discovered confirming a second Lysanias as tetrarch of Abilene under Tiberius and Pilate", "timestamp": "22:58", "verdict": "false"},
-    {"num": 41, "text": "The vast majority of scholars now accept Luke was not mistaken about Lysanias", "timestamp": "23:37", "verdict": "true"},
-    {"num": 42, "text": "A study examined the most popular Jewish names among Palestinian Jews between 330 BC and 200 AD using the NT, Josephus, Dead Sea Scrolls, and ossuaries", "timestamp": "25:17", "verdict": "true"},
-    {"num": 43, "text": "Other NT scholars narrowed the window to 50 BC–135 AD", "timestamp": "25:59", "verdict": "true"},
-    {"num": 44, "text": "Simon was the most popular Jewish name in this period and geographical location", "timestamp": "28:06", "verdict": "true"},
-    {"num": 45, "text": "The name-frequency and disambiguator patterns in the canonical Gospels and Acts match the expected distribution for 1st-century Palestine", "timestamp": "28:06", "verdict": "disputed"},
-    {"num": 46, "text": "The Gospels of Thomas, Philip, and Mary get the name frequencies wrong", "timestamp": "29:22", "verdict": "true"},
-    {"num": 47, "text": "The Gospel of Philip names characters popular in 4th-century Egypt because it was written in 4th-century Egypt", "timestamp": "29:46", "verdict": "misleading"},
-    {"num": 48, "text": "In John 6, Jesus asks Philip where to buy bread to feed the crowd", "timestamp": "31:47", "verdict": "true"},
-    {"num": 49, "text": "Luke says the feeding of the 5,000 happened near Bethsaida", "timestamp": "33:09", "verdict": "true"},
-    {"num": 50, "text": "John 12:21 says Philip was from Bethsaida in Galilee", "timestamp": "33:42", "verdict": "true"},
-    {"num": 51, "text": "The C.S. Lewis quote: Christianity, if false, is of no importance, and if true, of infinite importance. The only thing it cannot be is moderately important.", "timestamp": "37:58", "verdict": "true"}
-  ]
+    {
+      "num": 1,
+      "text": "The Bible consists of 66 books",
+      "timestamp": "1:25",
+      "verdict": "true"
+    },
+    {
+      "num": 2,
+      "text": "Written over a period of 1,600 years",
+      "timestamp": "1:25",
+      "verdict": "disputed"
+    },
+    {
+      "num": 3,
+      "text": "On three different continents",
+      "timestamp": "1:25",
+      "verdict": "true"
+    },
+    {
+      "num": 4,
+      "text": "By close to 40 different authors",
+      "timestamp": "1:34",
+      "verdict": "true"
+    },
+    {
+      "num": 5,
+      "text": "In three different languages",
+      "timestamp": "1:34",
+      "verdict": "true"
+    },
+    {
+      "num": 6,
+      "text": "Jesus would have been speaking mostly in Aramaic",
+      "timestamp": "4:44",
+      "verdict": "true"
+    },
+    {
+      "num": 7,
+      "text": "His followers wrote in Greek, the lingua franca of the day",
+      "timestamp": "4:53",
+      "verdict": "true"
+    },
+    {
+      "num": 8,
+      "text": "Modern English translations are translated directly from the original languages (Hebrew, Greek, Aramaic)",
+      "timestamp": "6:08",
+      "verdict": "true"
+    },
+    {
+      "num": 9,
+      "text": "There are about 12 verses in the entirety of the Bible that are translated from Aramaic",
+      "timestamp": "6:26",
+      "verdict": "false"
+    },
+    {
+      "num": 10,
+      "text": "Translators take into consideration previous translations (French, German, Latin)",
+      "timestamp": "6:34",
+      "verdict": "true"
+    },
+    {
+      "num": 11,
+      "text": "The NT has multiple lines of transmission, not a single line like the telephone game",
+      "timestamp": "7:21",
+      "verdict": "true"
+    },
+    {
+      "num": 12,
+      "text": "Between the 1st and 4th centuries, hundreds if not thousands of copies of the OT and NT existed across the ancient world",
+      "timestamp": "8:40",
+      "verdict": "true"
+    },
+    {
+      "num": 13,
+      "text": "Copies spread to Europe, Asia, North Africa, the Middle East, and the British Isles",
+      "timestamp": "8:47",
+      "verdict": "true"
+    },
+    {
+      "num": 14,
+      "text": "The ancient world had a very established literary community which was almost always male, educated, and literate",
+      "timestamp": "9:20",
+      "verdict": "true"
+    },
+    {
+      "num": 15,
+      "text": "Christian communities were mostly female",
+      "timestamp": "9:27",
+      "verdict": "misleading"
+    },
+    {
+      "num": 16,
+      "text": "Christian communities were mostly middle to lower class",
+      "timestamp": "9:27",
+      "verdict": "misleading"
+    },
+    {
+      "num": 17,
+      "text": "Christian communities were mostly illiterate",
+      "timestamp": "9:36",
+      "verdict": "misleading"
+    },
+    {
+      "num": 18,
+      "text": "Christians became the most prolific producers of texts",
+      "timestamp": "9:36",
+      "verdict": "misleading"
+    },
+    {
+      "num": 19,
+      "text": "By the 4th century, Christians set the standards for writing for non-Christian texts as well",
+      "timestamp": "9:43",
+      "verdict": "misleading"
+    },
+    {
+      "num": 20,
+      "text": "The King James was translated between 1604 and 1611",
+      "timestamp": "10:16",
+      "verdict": "true"
+    },
+    {
+      "num": 21,
+      "text": "The KJV was produced from a printed edition of the Hebrew OT and seven printed editions of the Greek NT",
+      "timestamp": "10:16",
+      "verdict": "true"
+    },
+    {
+      "num": 22,
+      "text": "Five editions by Erasmus, then two updates by Stephanus and Beza",
+      "timestamp": "10:23",
+      "verdict": "true"
+    },
+    {
+      "num": 23,
+      "text": "Erasmus's Third Edition was the primary text for the KJV",
+      "timestamp": "10:40",
+      "verdict": "true"
+    },
+    {
+      "num": 24,
+      "text": "Erasmus produced the Third Edition with approximately half a dozen Greek manuscripts",
+      "timestamp": "10:48",
+      "verdict": "true"
+    },
+    {
+      "num": 25,
+      "text": "The oldest manuscript Erasmus had went back to the 11th century",
+      "timestamp": "11:05",
+      "verdict": "true"
+    },
+    {
+      "num": 26,
+      "text": "Erasmus did not trust that oldest manuscript",
+      "timestamp": "11:05",
+      "verdict": "true"
+    },
+    {
+      "num": 27,
+      "text": "We now have approximately just north of 5,000 Greek NT manuscripts",
+      "timestamp": "11:13",
+      "verdict": "true"
+    },
+    {
+      "num": 28,
+      "text": "Erasmus was Martin Luther's first and primary sparring partner during the Reformation",
+      "timestamp": "10:31",
+      "verdict": "misleading"
+    },
+    {
+      "num": 29,
+      "text": "P66 is a late 2nd / early 3rd century copy of the Gospel of John",
+      "timestamp": "12:39",
+      "verdict": "true"
+    },
+    {
+      "num": 30,
+      "text": "P66 preserves most of the Gospel of John",
+      "timestamp": "12:56",
+      "verdict": "true"
+    },
+    {
+      "num": 31,
+      "text": "Christians popularized and proliferated the codex (book format)",
+      "timestamp": "13:10",
+      "verdict": "true"
+    },
+    {
+      "num": 32,
+      "text": "The scroll was the primary writing device within the ancient world before the codex",
+      "timestamp": "13:19",
+      "verdict": "true"
+    },
+    {
+      "num": 33,
+      "text": "John 5:4 was added to the margin of the Gospel of John somewhere in the 4th century",
+      "timestamp": "17:20",
+      "verdict": "true"
+    },
+    {
+      "num": 34,
+      "text": "The verse explains that an angel would stir the waters at the Pool of Bethesda",
+      "timestamp": "17:05",
+      "verdict": "true"
+    },
+    {
+      "num": 35,
+      "text": "Luke uses a word for 'account/narrative' (diēgēsis) that Josephus and Lucian also use",
+      "timestamp": "21:27",
+      "verdict": "true"
+    },
+    {
+      "num": 36,
+      "text": "Lucian discusses how to write good history and says it must be a 'proper account'",
+      "timestamp": "21:27",
+      "verdict": "true"
+    },
+    {
+      "num": 37,
+      "text": "Luke 3 lists Tiberius Caesar, Pontius Pilate, Herod the tetrarch of Galilee, Philip the tetrarch, and Lysanias the tetrarch of Abilene",
+      "timestamp": "22:01",
+      "verdict": "true"
+    },
+    {
+      "num": 38,
+      "text": "Lysanias is described by Josephus as living before the time of Jesus",
+      "timestamp": "22:41",
+      "verdict": "true"
+    },
+    {
+      "num": 39,
+      "text": "Until about 15 years ago, all scholars said Lysanias was Luke's mistake",
+      "timestamp": "22:50",
+      "verdict": "false"
+    },
+    {
+      "num": 40,
+      "text": "Less than two decades ago, an inscription was discovered confirming a second Lysanias as tetrarch of Abilene under Tiberius and Pilate",
+      "timestamp": "22:58",
+      "verdict": "false"
+    },
+    {
+      "num": 41,
+      "text": "The vast majority of scholars now accept Luke was not mistaken about Lysanias",
+      "timestamp": "23:37",
+      "verdict": "true"
+    },
+    {
+      "num": 42,
+      "text": "A study examined the most popular Jewish names among Palestinian Jews between 330 BC and 200 AD using the NT, Josephus, Dead Sea Scrolls, and ossuaries",
+      "timestamp": "25:17",
+      "verdict": "true"
+    },
+    {
+      "num": 43,
+      "text": "Other NT scholars narrowed the window to 50 BC–135 AD",
+      "timestamp": "25:59",
+      "verdict": "true"
+    },
+    {
+      "num": 44,
+      "text": "Simon was the most popular Jewish name in this period and geographical location",
+      "timestamp": "28:06",
+      "verdict": "true"
+    },
+    {
+      "num": 45,
+      "text": "The name-frequency and disambiguator patterns in the canonical Gospels and Acts match the expected distribution for 1st-century Palestine",
+      "timestamp": "28:06",
+      "verdict": "disputed"
+    },
+    {
+      "num": 46,
+      "text": "The Gospels of Thomas, Philip, and Mary get the name frequencies wrong",
+      "timestamp": "29:22",
+      "verdict": "true"
+    },
+    {
+      "num": 47,
+      "text": "The Gospel of Philip names characters popular in 4th-century Egypt because it was written in 4th-century Egypt",
+      "timestamp": "29:46",
+      "verdict": "misleading"
+    },
+    {
+      "num": 48,
+      "text": "In John 6, Jesus asks Philip where to buy bread to feed the crowd",
+      "timestamp": "31:47",
+      "verdict": "true"
+    },
+    {
+      "num": 49,
+      "text": "Luke says the feeding of the 5,000 happened near Bethsaida",
+      "timestamp": "33:09",
+      "verdict": "true"
+    },
+    {
+      "num": 50,
+      "text": "John 12:21 says Philip was from Bethsaida in Galilee",
+      "timestamp": "33:42",
+      "verdict": "true"
+    },
+    {
+      "num": 51,
+      "text": "The C.S. Lewis quote: Christianity, if false, is of no importance, and if true, of infinite importance. The only thing it cannot be is moderately important.",
+      "timestamp": "37:58",
+      "verdict": "true"
+    }
+  ],
+  "videoUrl": ""
 }
