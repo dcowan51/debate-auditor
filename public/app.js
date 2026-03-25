@@ -208,7 +208,7 @@ async function renderCreator() {
   const creator = creators.find(c => c.id === id);
   if (!creator) { document.body.innerHTML = '<p style="padding:40px;text-align:center">Creator not found.</p>'; return; }
 
-  document.title = `${creator.name} — Debate Auditor`;
+  document.title = `${creator.name} — Act17:11`;
 
   document.getElementById('creator-avatar').textContent = creator.initials;
   document.getElementById('creator-avatar').style.background = creator.avatarColor;
@@ -284,7 +284,7 @@ async function renderAnalysis() {
   const a = await loadJSON(`/data/analyses/${id}.json`);
   if (!a) { document.body.innerHTML = '<p style="padding:40px;text-align:center">Analysis not found.</p>'; return; }
 
-  document.title = `${a.videoTitle} — Debate Auditor`;
+  document.title = `${a.videoTitle} — Act17:11`;
 
   // Breadcrumb
   document.getElementById('breadcrumb').innerHTML = `<a href="index.html">Home</a> &rarr; <a href="creator.html?id=${a.creatorId}">${a.creatorName}</a> &rarr; Session ${a.sessionNumber}`;
