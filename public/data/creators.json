@@ -112,14 +112,16 @@
     "initials": "DM",
     "topics": [
       "Biblical Studies",
+      "Hebrew Grammar",
       "Textual Criticism",
       "Apologetics Critique",
-      "NT Scholarship"
+      "NT Scholarship",
+      "Divine Images"
     ],
-    "sessions": 1,
-    "totalClaims": 47,
-    "trueClaims": 30,
-    "cumulativeScore": 76,
+    "sessions": 2,
+    "totalClaims": 82,
+    "trueClaims": 49,
+    "cumulativeScore": 77,
     "verdict": "Caution",
     "corePositions": [
       "Wes Huff conflates textual criticism with historical criticism",
@@ -135,7 +137,8 @@
       "Accurately distinguishes textual criticism from historical criticism — a key methodological point."
     ],
     "analyses": [
-      "mcclellan-huff-scholarship"
+      "mcclellan-huff-scholarship",
+      "mcclellan-face-of-god"
     ]
   }
 ]

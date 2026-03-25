@@ -1,0 +1,470 @@
+{
+  "id": "mcclellan-face-of-god",
+  "creatorId": "dan-mcclellan",
+  "creatorName": "Dan McClellan",
+  "channel": "@maklelan",
+  "videoTitle": "A Hebrew Bible Commandment Knowingly Mistranslated",
+  "datePublished": "March 28, 2025",
+  "dateAnalyzed": "March 25, 2026",
+  "sessionNumber": 2,
+  "analyzedRange": "0:00–9:15",
+  "videoUrl": "https://youtu.be/9gF4YGKRXxc",
+  "thesis": "The Hebrew Bible commandment to 'see the face of God' three times a year is knowingly mistranslated as 'appear before' in virtually every English translation. The consonantal Hebrew text indicates the active verb 'to see' (qal stem), not the passive 'to appear' (niphal stem). The commandment originally referred to physically viewing a divine image in the temple.",
+  "dashboard": {
+    "sessionScore": 79,
+    "cumulativeScore": 77,
+    "cumulativeSessions": 2,
+    "trueClaims": 27,
+    "falseMisleading": 2,
+    "disputed": 4,
+    "totalChecked": 35,
+    "confidence": "High",
+    "verdict": "Caution",
+    "stratagems": 0,
+    "weaselWords": 5,
+    "errorImpact": null
+  },
+  "steelman": "The strongest version of McClellan's argument: The consonantal Hebrew text of the pilgrimage commandment in Exodus 23:17, 34:23-24, and Deuteronomy 16:16 preserves grammatical features (direct object marker 'et, the noun 'face,' and in Exodus 34:24 consonants that can only be qal) demonstrating that the original verb was active 'see the face of YHWH,' not passive 'appear before YHWH.' The Masoretic vocalization and the Septuagint translation both reflect a later theological correction motivated by the developing belief that seeing God is fatal. This is well established in critical scholarship. The Arad temple with its standing stone in the holy of holies provides archaeological evidence that Israelites had material representations of YHWH that could be physically 'seen.'",
+  "falseClaims": [
+    {
+      "claim": "The aspiration to see the face of God is known as 'the beatific vision'",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "0:00",
+      "evidence": "The 'beatific vision' (Latin: visio beatifica) is a technical term from Christian systematic theology, most fully developed by Thomas Aquinas (Summa Theologiae I-II, q.3, a.8), referring to the direct, unmediated perception of God's essence in the afterlife. The Hebrew Bible concept of 'seeing the face of God' in a temple context is not what scholars typically call 'the beatific vision.' The OT pilgrimage concept is more accurately described as 'cultic theophany' or 'seeing the divine face' (Hebrew: re'iyyat panim). While there is a thematic connection, applying the term to the OT temple context is anachronistic and imprecise.",
+      "settle": "The term 'beatific vision' is not standard scholarly nomenclature for the OT pilgrimage experience. McClellan appears to be using it loosely for a lay audience.",
+      "category": "Background",
+      "sources": [
+        {
+          "label": "Beatific vision — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Beatific_vision"
+        },
+        {
+          "label": "Psalm 42:2 NRSVUE — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=Psalm+42%3A2&version=NRSVUE"
+        },
+        {
+          "label": "Exodus 33:20 NRSVUE — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=Exodus+33%3A20&version=NRSVUE"
+        }
+      ]
+    },
+    {
+      "claim": "This is a 'knowing mistranslation' — translators knowingly mistranslate the commandment as 'appear before'",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "0:00, 5:21, 7:39",
+      "evidence": "Most English translations follow the Masoretic text's vowel pointing, which yields the niphal ('appear before'). Translating the received text as vocalized is standard translation methodology, not 'mistranslation.' Scholars who note the likely original qal reading in footnotes or commentaries are not engaging in deception. The NRSVUE itself renders Psalm 42:2 as 'behold the face of God' (active). McClellan's own acknowledgment at 5:21 that scholars note the issue but still translate it as 'appear before' undermines the deceptive implication — they are making an informed interpretive choice. The word 'mistranslation' implies error or deception; 'theologically motivated rendering' or 'interpretive tradition' would be more accurate.",
+      "settle": "The translation is debatable but calling it a 'knowing mistranslation' is polemically loaded. The translators are following a received text tradition (Masoretic + Septuagint), not fabricating meaning.",
+      "category": "Core",
+      "sources": [
+        {
+          "label": "Psalm 42:2 NRSVUE — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=Psalm+42%3A2&version=NRSVUE"
+        },
+        {
+          "label": "Deuteronomy 16:16 NRSVUE — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=Deuteronomy+16%3A16&version=NRSVUE"
+        },
+        {
+          "label": "Exodus 34:23-24 NRSVUE — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=Exodus+34%3A23-24&version=NRSVUE"
+        },
+        {
+          "label": "Isaiah 1:12 NRSVUE — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=Isaiah+1%3A12&version=NRSVUE"
+        },
+        {
+          "label": "1 Samuel 1:22 NRSVUE — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=1+Samuel+1%3A22&version=NRSVUE"
+        },
+        {
+          "label": "Tiqqun soferim — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tiqqun_soferim"
+        }
+      ]
+    }
+  ],
+  "stratagems": [],
+  "scholarlySplits": [
+    {
+      "claim": "1 Samuel 1:22 can be read as first person plural qal ('we will see') rather than niphal ('he will appear') — 60/40 favoring ambiguity",
+      "nature": "Supported by some text critics (e.g., those favoring 4QSam^a readings). Others accept the MT niphal as original; the first-person-plural reading requires assuming a different subject.",
+      "timestamp": "4:32"
+    },
+    {
+      "claim": "The standing stone at Arad was 'the deity' — it 'manifested the presence of the deity' — 55/45",
+      "nature": "Mainstream ANE scholarship holds masseboth served as markers of divine presence (Mettinger, Hendel). Some scholars distinguish between a symbol marking presence and an actual 'divine image' (tselem); a massebah is aniconic, not iconic.",
+      "timestamp": "6:57"
+    },
+    {
+      "claim": "John's Gospel presents Jesus as 'the divine image' in the ANE sense of manifesting God's presence — 50/50",
+      "nature": "Supported by scholars like Middleton and Herring; connects imago Dei theology to Johannine Christology. Others read John 14:9 and John 20:28 through Logos theology, incarnation, or high Christology without requiring the ANE divine-image framework.",
+      "timestamp": "8:05"
+    },
+    {
+      "claim": "Originally you would see the face of God three times a year when you went to the temple to look at the divine image — 55/45",
+      "nature": "Consistent with the work of scholars like Tryggve Mettinger (No Graven Image?) and others who argue early YHWH worship included material representations. Counter-argument: early Yahwism may have been aniconic even before Deuteronomistic reforms; the Arad massebah is aniconic (a plain stone), not a crafted image.",
+      "timestamp": "8:05"
+    }
+  ],
+  "trueClaims": [
+    "Psalm 42:2 does read 'When shall I come and behold the face of God' in the NRSVUE — confirmed",
+    "The aspiration to see the face of God does appear multiple times in the Hebrew Bible (Ps 11:7, 17:15, 27:4, 42:2, etc.)",
+    "Exodus 33:20-23 does describe God shielding Moses so he sees only God's back, with the statement that no one can see God's face and live",
+    "The Septuagint of Exodus 33:20 does read 'no one can see my face and live' (using prosopon for 'face')",
+    "Some literary layers of the Hebrew Bible do present seeing God's face as lethal while others treat it as desirable",
+    "Deuteronomy 16:16 does contain the pilgrimage commandment about three times a year",
+    "The verbal root is indeed ra'ah ('to see')",
+    "The niphal stem does function to make active verbs passive in Hebrew (simplified but fair)",
+    "The direct object marker 'et does appear before 'face of Adonai' in these passages",
+    "Passive verbs in Biblical Hebrew almost never take 'et as a definite direct object marker — well-established grammatical observation",
+    "The consonantal text is ambiguous between qal and niphal in most of these passages",
+    "The consonants of Exodus 34:24 (lir'ot without preformative he) are indeed those of the qal infinitive construct, not the niphal — strongest piece of evidence, widely accepted",
+    "The standard niphal construction of ra'ah when meaning 'appear to someone' uses lamed (not 'et) and does not use 'face of'",
+    "Isaiah 1:12 does present the same grammatical issue, and the consonantal text does support a qal reading 'to see my face'",
+    "The Septuagint does render the pilgrimage commandment mostly in the passive",
+    "The Masoretic vocalization does use niphal pointing in these passages",
+    "A temple was discovered at Arad with incense altars and a standing stone (massebah) in the holy of holies — well-documented archaeologically (Aharoni excavations, 1960s)",
+    "Ostraca from Arad do reference 'the house of YHWH' and priestly families",
+    "The high priest on Yom Kippur was required to fill the holy of holies with incense smoke per Leviticus 16:12-13",
+    "In the ancient Near East, kings were identified as 'the image of God' / divine images — well-documented in Egyptian and Mesopotamian royal ideology"
+  ],
+  "youtubeFlags": [
+    {
+      "type": "Clickbait Level",
+      "severity": "caution",
+      "text": "The opening hook ('did you know there's a commandment that is knowingly mistranslated') is designed for engagement but does track with the substantive content. MODERATE."
+    },
+    {
+      "type": "Title Accuracy",
+      "severity": "info",
+      "text": "The title about 'knowingly mistranslated' aligns with the video's content. No significant bait-and-switch."
+    },
+    {
+      "type": "Engagement Optimization",
+      "severity": "caution",
+      "text": "The phrase 'knowingly mistranslated' is repeated three times (0:00, 5:21, 7:39), serving as a rhetorical anchor likely designed for shareability."
+    },
+    {
+      "type": "Missing Nuance",
+      "severity": "warning",
+      "text": "A 9-minute YouTube video necessarily simplifies. Key omissions: no mention that the NRSVUE translates Psalm 42:2 as 'behold the face of God' (active), partially undercutting the 'every translation' claim. No discussion of tiqqune sopherim tradition by name. No acknowledgment that some scholars consider the passive rendering legitimate. No mention of specific scholars (Mettinger, Chavel, Middleton) whose work underpins these claims."
+    }
+  ],
+  "weightedAnalysis": {
+    "categories": [
+      {
+        "name": "Core linguistic argument (qal vs. niphal)",
+        "weight": "35%",
+        "score": "90/100"
+      },
+      {
+        "name": "Grammatical evidence ('et, 'face of,' Exodus 34:24 consonants)",
+        "weight": "25%",
+        "score": "85/100"
+      },
+      {
+        "name": "Archaeological claims (Arad temple)",
+        "weight": "15%",
+        "score": "80/100"
+      },
+      {
+        "name": "'Knowingly mistranslated' framing",
+        "weight": "10%",
+        "score": "55/100"
+      },
+      {
+        "name": "Theological-historical narrative (progressive restriction, divine image, John's Gospel)",
+        "weight": "15%",
+        "score": "70/100"
+      }
+    ],
+    "weightedTotal": "80.8/100",
+    "coreErrorRule": "Two misleading framings identified: 'knowingly mistranslated' overstates the case, and 'beatific vision' is anachronistic terminology. Neither is a factual error about the underlying Hebrew text. Penalty: -2 points.",
+    "patternRule": "Consistent pattern of accurately representing Hebrew grammatical evidence for the qal reading of ra'ah in pilgrimage commandments. Core linguistic claims are well-supported by critical scholarship. +3 reliability.",
+    "misquoteRule": "Biblical texts are accurately represented. The NRSVUE rendering of Psalm 42:2 is correctly quoted. No misquotes of primary texts detected. +2 reliability.",
+    "decontextualizationRule": "Does not acknowledge that the NRSVUE itself renders Psalm 42:2 actively ('behold the face of God'), partially undermining the 'every translation' claim. Does not name specific scholars. Does not discuss the tiqqune sopherim tradition. Penalty: -2 points.",
+    "confidenceRule": "Speaks with high confidence throughout. Most high-confidence claims track critical scholarship. Confidence on translator motives ('knowingly') is not empirically verifiable. Penalty: -1 point."
+  },
+  "weaselWords": [
+    {
+      "phrase": "pretty much every translation",
+      "timestamp": "0:00",
+      "note": "Slight overstatement; some translations do footnote the active reading."
+    },
+    {
+      "phrase": "knowingly mistranslated",
+      "timestamp": "0:00, 5:21, 7:39",
+      "note": "Loaded framing. 'Deliberate interpretive choice' or 'theologically motivated rendering' would be more neutral. Many translators would dispute that translating a Masoretic niphal constitutes a 'mistranslation.'"
+    },
+    {
+      "phrase": "good scholarship",
+      "timestamp": "5:21",
+      "note": "Unnamed; no citations given."
+    },
+    {
+      "phrase": "indisputably active",
+      "timestamp": "2:09",
+      "note": "Strong but largely warranted for Exodus 34:24 specifically."
+    },
+    {
+      "phrase": "representative sampling",
+      "timestamp": "3:15",
+      "note": "No actual data shown beyond a screen graphic the viewer cannot independently verify from the transcript alone."
+    }
+  ],
+  "speakerCard": {
+    "name": "Dan McClellan",
+    "handle": "@maklelan",
+    "credentials": "PhD Biblical Studies; scholar of Bible & religion",
+    "employer": "Scripture translation (per prior sessions)",
+    "sessions": [
+      {
+        "number": 1,
+        "score": 76,
+        "rating": "Caution",
+        "claims": 47,
+        "true": 22,
+        "falseMisleading": 6,
+        "disputed": 4
+      },
+      {
+        "number": 2,
+        "score": 79,
+        "rating": "Caution",
+        "claims": 35,
+        "true": 27,
+        "falseMisleading": 2,
+        "disputed": 4
+      }
+    ],
+    "cumulative": {
+      "totalClaims": 82,
+      "true": 49,
+      "truePercent": 59.8,
+      "falseMisleading": 8,
+      "falseMisleadingPercent": 9.8,
+      "disputed": 8,
+      "disputedPercent": 9.8,
+      "unverifiable": 17,
+      "unverifiablePercent": 20.7,
+      "score": 77,
+      "rating": "Caution"
+    },
+    "trend": "Slight improvement from Session 1 (76%) to Session 2 (79%). Core linguistic claims are well-supported. Main weakness remains rhetorical overstatement ('knowingly mistranslated') and occasional imprecise terminology ('beatific vision'). Strongest when presenting Hebrew grammatical evidence; weakest when editorializing about translator motives.",
+    "nextThreshold": "3 sessions for pattern lock"
+  },
+  "allClaims": [
+    {
+      "num": 1,
+      "text": "There is a commandment repeated multiple times in the Hebrew Bible that is knowingly mistranslated in virtually every English translation",
+      "timestamp": "0:00",
+      "verdict": "misleading"
+    },
+    {
+      "num": 2,
+      "text": "Psalm 42:2 reads 'When shall I come and behold the face of God'",
+      "timestamp": "0:00",
+      "verdict": "true"
+    },
+    {
+      "num": 3,
+      "text": "The aspiration to see the face of God is repeated a few times in the Hebrew Bible",
+      "timestamp": "0:00",
+      "verdict": "true"
+    },
+    {
+      "num": 4,
+      "text": "This aspiration is known as 'the beatific vision'",
+      "timestamp": "0:00",
+      "verdict": "misleading"
+    },
+    {
+      "num": 5,
+      "text": "In Exodus 33, Moses wants to see the glory of God, and God says he will cover Moses with his hand and Moses will see God's back but not his face, because no one can see God and live",
+      "timestamp": "0:00",
+      "verdict": "true"
+    },
+    {
+      "num": 6,
+      "text": "In the ancient Greek translation (Septuagint), Exodus 33 says 'no one can see my face and live'",
+      "timestamp": "0:00",
+      "verdict": "true"
+    },
+    {
+      "num": 7,
+      "text": "In some literary layers of the Bible, seeing the face of God is understood to be deadly",
+      "timestamp": "0:00",
+      "verdict": "true"
+    },
+    {
+      "num": 8,
+      "text": "Deuteronomy 16:16 contains one occurrence of the commandment about males appearing/seeing the face of God three times a year",
+      "timestamp": "1:11",
+      "verdict": "true"
+    },
+    {
+      "num": 9,
+      "text": "The verbal root in Deuteronomy 16:16 is ra'ah, which means 'to see'",
+      "timestamp": "1:11",
+      "verdict": "true"
+    },
+    {
+      "num": 10,
+      "text": "The niphal stem in Hebrew makes an active verb passive (so ra'ah becomes 'be seen' or 'appear')",
+      "timestamp": "1:11",
+      "verdict": "true"
+    },
+    {
+      "num": 11,
+      "text": "The verb in Deuteronomy 16:16 uses the definite direct object marker 'et before the phrase 'face of Adonai'",
+      "timestamp": "1:11",
+      "verdict": "true"
+    },
+    {
+      "num": 12,
+      "text": "Passive verbs in Biblical Hebrew almost never take a definite direct object marker because they are not transitive",
+      "timestamp": "1:11",
+      "verdict": "true"
+    },
+    {
+      "num": 13,
+      "text": "Exodus 34:23 contains another occurrence of the commandment",
+      "timestamp": "2:09",
+      "verdict": "true"
+    },
+    {
+      "num": 14,
+      "text": "The vowels under the verbal root for ra'ah in Exodus 34:23 indicate the passive (niphal)",
+      "timestamp": "2:09",
+      "verdict": "true"
+    },
+    {
+      "num": 15,
+      "text": "The consonants in the text could be either active or passive",
+      "timestamp": "2:09",
+      "verdict": "true"
+    },
+    {
+      "num": 16,
+      "text": "Exodus 34:24 contains a reference to this commandment where the consonants are 'indisputably active' — the infinitive construct form lir'ot lacks the preformative he that would be required for the niphal",
+      "timestamp": "2:09",
+      "verdict": "true"
+    },
+    {
+      "num": 17,
+      "text": "The niphal infinitive construct of this verb would require a preformative he before the resh following the lamed",
+      "timestamp": "2:09",
+      "verdict": "true"
+    },
+    {
+      "num": 18,
+      "text": "The consonants in Exodus 34:24 are indisputably those of the qal (active) form",
+      "timestamp": "2:09",
+      "verdict": "true"
+    },
+    {
+      "num": 19,
+      "text": "When the passive form of ra'ah appears meaning 'appear to someone,' it uses the preposition lamed (not the direct object marker 'et) and never uses 'face of'",
+      "timestamp": "3:15",
+      "verdict": "true"
+    },
+    {
+      "num": 20,
+      "text": "A representative sampling of all passive occurrences of ra'ah shows the pattern: 'appeared to X' with lamed, never 'appeared to the face of X'",
+      "timestamp": "3:15",
+      "verdict": "true"
+    },
+    {
+      "num": 21,
+      "text": "Isaiah 1:12 contains the phrase 'when you come to appear my face,' which is grammatically problematic, and reading the consonants without Masoretic vocalization yields 'when you come to see my face'",
+      "timestamp": "4:06",
+      "verdict": "true"
+    },
+    {
+      "num": 22,
+      "text": "1 Samuel 1:22 appears to be a standard niphal form, but the consonants are exactly identical to the first person plural qal form ('and we will see the face of God')",
+      "timestamp": "4:32",
+      "verdict": "disputed"
+    },
+    {
+      "num": 23,
+      "text": "The nun in 1 Samuel 1:22 can indicate either niphal or first person plural",
+      "timestamp": "4:32",
+      "verdict": "disputed"
+    },
+    {
+      "num": 24,
+      "text": "Good scholarship on these passages usually notes that the text actually says 'see the face of' but translates it as 'appear before' anyway",
+      "timestamp": "5:21",
+      "verdict": "true"
+    },
+    {
+      "num": 25,
+      "text": "This is a 'knowing mistranslation'",
+      "timestamp": "5:21",
+      "verdict": "misleading"
+    },
+    {
+      "num": 26,
+      "text": "The ancient Greek translation (Septuagint) rendered it most of the time in the passive ('appear before')",
+      "timestamp": "5:45",
+      "verdict": "true"
+    },
+    {
+      "num": 27,
+      "text": "The medieval vocalization added to the Masoretic text uses the niphal vocalization to indicate 'appear before'",
+      "timestamp": "5:45",
+      "verdict": "true"
+    },
+    {
+      "num": 28,
+      "text": "The consonants by themselves cannot mean the niphal in all occurrences of this commandment; frequently it can only be the active qal stem",
+      "timestamp": "5:45",
+      "verdict": "true"
+    },
+    {
+      "num": 29,
+      "text": "A temple was discovered in Arad in the Negev with a holy of holies containing incense altars and a standing stone representing Adonai",
+      "timestamp": "6:16",
+      "verdict": "true"
+    },
+    {
+      "num": 30,
+      "text": "Letters found at the Arad temple reference 'the house of Adonai' and mention priestly families known from the Bible, indicating it was a Yahwistic temple under Jerusalem's authority",
+      "timestamp": "6:16",
+      "verdict": "true"
+    },
+    {
+      "num": 31,
+      "text": "The divine image (standing stone) was the deity — it manifested the presence of the deity — and this is how you 'saw the face of God'",
+      "timestamp": "6:57",
+      "verdict": "disputed"
+    },
+    {
+      "num": 32,
+      "text": "Later traditions restricted access to the holy of holies progressively: first to priests, then only the high priest, then the high priest had to fill the space with smoke so he could not see God",
+      "timestamp": "7:15",
+      "verdict": "true"
+    },
+    {
+      "num": 33,
+      "text": "In the ancient Near East, certain humans were identified as 'the image of God' (divine image)",
+      "timestamp": "8:05",
+      "verdict": "true"
+    },
+    {
+      "num": 34,
+      "text": "In the Gospel of John, Jesus is the 'walking, talking, sentient divine image' who manifests God's presence — Thomas's exclamation 'my Lord and my God' reflects this",
+      "timestamp": "8:05",
+      "verdict": "disputed"
+    },
+    {
+      "num": 35,
+      "text": "Originally, you would see the face of God three times a year when you went to the temple to look at the divine image",
+      "timestamp": "8:05",
+      "verdict": "disputed"
+    }
+  ]
+}
