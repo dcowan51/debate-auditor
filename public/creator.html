@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aaron Abke — Debate Auditor</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <div class="logo-icon">DA</div>
+      Debate Auditor
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#" class="active">Creators</a></li>
+      <li><a href="#">Leaderboard</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+    <div class="nav-search">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+      <input type="text" placeholder="Search creators or videos...">
+    </div>
+  </div>
+</nav>
+
+<!-- PROFILE HEADER -->
+<div class="profile-header">
+  <div class="profile-avatar" style="background:#d63031">AA</div>
+  <div class="profile-info">
+    <h1>Aaron Abke</h1>
+    <div class="channel-name">@AaronAbke &middot; YouTube</div>
+    <div class="profile-stats">
+      <div class="profile-stat">
+        <div class="val">3</div>
+        <div class="lbl">Sessions</div>
+      </div>
+      <div class="profile-stat">
+        <div class="val">105</div>
+        <div class="lbl">Claims Checked</div>
+      </div>
+      <div class="profile-stat">
+        <div class="val">60</div>
+        <div class="lbl">True Claims</div>
+      </div>
+      <div class="profile-stat">
+        <div class="val">22</div>
+        <div class="lbl">Stratagems Found</div>
+      </div>
+    </div>
+    <div class="profile-topics">
+      <span class="topic-tag">Biblical Studies</span>
+      <span class="topic-tag">Gnosticism</span>
+      <span class="topic-tag">Theology</span>
+      <span class="topic-tag">Nonduality</span>
+      <span class="topic-tag">Paul &amp; the Apostles</span>
+    </div>
+  </div>
+  <div class="profile-score-large">
+    <div class="score-ring unreliable">
+      <div class="pct">57%</div>
+      <div class="verdict-label">Unreliable</div>
+    </div>
+    <div style="font-size:0.75rem;color:var(--text-muted);text-align:center">Cumulative<br>Truth Score</div>
+  </div>
+</div>
+
+<!-- SCORE TREND -->
+<div class="trend-bar">
+  <div class="trend-chart">
+    <h3>Score Trend Across Sessions</h3>
+    <div class="trend-sessions">
+      <div class="trend-session">
+        <div class="trend-bar-fill" style="height:63%;background:var(--yellow)">
+          <div class="bar-label" style="color:var(--yellow)">63%</div>
+        </div>
+        <div class="session-label">Session 1<br><span style="font-size:0.65rem">Caution</span></div>
+      </div>
+      <div class="trend-session">
+        <div class="trend-bar-fill" style="height:50%;background:var(--red-light)">
+          <div class="bar-label" style="color:var(--red-light)">50%</div>
+        </div>
+        <div class="session-label">Session 2<br><span style="font-size:0.65rem">Unreliable</span></div>
+      </div>
+      <div class="trend-session">
+        <div class="trend-bar-fill" style="height:59%;background:var(--red-light)">
+          <div class="bar-label" style="color:var(--red-light)">59%</div>
+        </div>
+        <div class="session-label">Session 3<br><span style="font-size:0.65rem">Unreliable</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- NOTABLE PATTERNS -->
+<section class="section">
+  <div class="section-header">
+    <h2>Notable Patterns</h2>
+  </div>
+  <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:24px">
+    <div style="display:grid;gap:16px">
+      <div style="display:flex;align-items:start;gap:12px">
+        <div style="width:8px;height:8px;border-radius:50%;background:var(--red-light);margin-top:7px;flex-shrink:0"></div>
+        <p style="font-size:0.85rem;color:var(--text-muted);line-height:1.6">Scripture citations are largely accurate, but interpretive frameworks and doctrinal characterizations carry heavy error loads.</p>
+      </div>
+      <div style="display:flex;align-items:start;gap:12px">
+        <div style="width:8px;height:8px;border-radius:50%;background:var(--red-light);margin-top:7px;flex-shrink:0"></div>
+        <p style="font-size:0.85rem;color:var(--text-muted);line-height:1.6">Core thesis claims tend to be historically falsifiable and falsified (e.g., gnosticism founded via Marcion).</p>
+      </div>
+      <div style="display:flex;align-items:start;gap:12px">
+        <div style="width:8px;height:8px;border-radius:50%;background:var(--orange);margin-top:7px;flex-shrink:0"></div>
+        <p style="font-size:0.85rem;color:var(--text-muted);line-height:1.6">Frequently employs Stratagem 11 (Induction with Concealed Counterexamples) &mdash; presenting evidence while hiding disconfirming data.</p>
+      </div>
+      <div style="display:flex;align-items:start;gap:12px">
+        <div style="width:8px;height:8px;border-radius:50%;background:var(--yellow);margin-top:7px;flex-shrink:0"></div>
+        <p style="font-size:0.85rem;color:var(--text-muted);line-height:1.6">Cumulative trajectory: Caution (63%) &rarr; Unreliable (55%) &rarr; Unreliable (57%). Slight uptick reflects high volume of accurate citations in longer videos.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CORE POSITIONS -->
+<section class="section">
+  <div class="section-header">
+    <h2>Core Positions</h2>
+  </div>
+  <div style="display:flex;flex-wrap:wrap;gap:8px">
+    <span style="padding:6px 14px;border-radius:20px;font-size:0.8rem;background:rgba(214,48,49,0.1);color:var(--red-light);border:1px solid rgba(214,48,49,0.2)">Paul founded gnosticism through Marcion</span>
+    <span style="padding:6px 14px;border-radius:20px;font-size:0.8rem;background:rgba(214,48,49,0.1);color:var(--red-light);border:1px solid rgba(214,48,49,0.2)">Protestantism = gnosticism</span>
+    <span style="padding:6px 14px;border-radius:20px;font-size:0.8rem;background:rgba(214,48,49,0.1);color:var(--red-light);border:1px solid rgba(214,48,49,0.2)">Docetism = Protestant Christology</span>
+    <span style="padding:6px 14px;border-radius:20px;font-size:0.8rem;background:rgba(253,203,110,0.1);color:var(--yellow);border:1px solid rgba(253,203,110,0.2)">Jesus taught love/works/forgiveness only</span>
+    <span style="padding:6px 14px;border-radius:20px;font-size:0.8rem;background:rgba(225,112,85,0.1);color:var(--orange);border:1px solid rgba(225,112,85,0.2)">Paul is the "shadow side" of Jesus</span>
+    <span style="padding:6px 14px;border-radius:20px;font-size:0.8rem;background:rgba(108,92,231,0.1);color:var(--accent-light);border:1px solid rgba(108,92,231,0.2)">Theosis through ego crucifixion</span>
+  </div>
+</section>
+
+<!-- ANALYZED VIDEOS -->
+<section class="section">
+  <div class="section-header">
+    <h2>Analyzed Videos</h2>
+  </div>
+  <div class="analyses-list">
+
+    <a href="analysis.html" class="analysis-row" style="text-decoration:none;color:inherit">
+      <div class="analysis-score-mini unreliable">59%</div>
+      <div class="analysis-info">
+        <h4>A Refutation of Gnosticism | Why Paul Is The Father of Gnosticism</h4>
+        <div class="subtitle">Session 3 &middot; Jan 23, 2025 &middot; 61 claims</div>
+      </div>
+      <div class="analysis-claims">
+        <span style="color:var(--green)">36 true</span>
+        <span style="color:var(--red-light)">17 false</span>
+        <span style="color:var(--yellow)">8 disputed</span>
+      </div>
+      <div class="analysis-date">Analyzed<br>Mar 25, 2026</div>
+    </a>
+
+    <div class="analysis-row">
+      <div class="analysis-score-mini unreliable">50%</div>
+      <div class="analysis-info">
+        <h4>Why I Left Christianity (And What I Found)</h4>
+        <div class="subtitle">Session 2 &middot; 20 claims checked</div>
+      </div>
+      <div class="analysis-claims">
+        <span style="color:var(--green)">10 true</span>
+        <span style="color:var(--red-light)">7 false</span>
+        <span style="color:var(--yellow)">3 disputed</span>
+      </div>
+      <div class="analysis-date">Analyzed<br>Mar 10, 2026</div>
+    </div>
+
+    <div class="analysis-row">
+      <div class="analysis-score-mini caution">63%</div>
+      <div class="analysis-info">
+        <h4>The Gospel of Thomas Explained</h4>
+        <div class="subtitle">Session 1 &middot; 24 claims checked</div>
+      </div>
+      <div class="analysis-claims">
+        <span style="color:var(--green)">14 true</span>
+        <span style="color:var(--red-light)">6 false</span>
+        <span style="color:var(--yellow)">4 disputed</span>
+      </div>
+      <div class="analysis-date">Analyzed<br>Feb 28, 2026</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>Debate Auditor &mdash; Independent accuracy analysis for YouTube content creators.</p>
+  <p style="margin-top:8px">Not affiliated with YouTube or any creator. All analyses are based on verifiable sources.</p>
+</footer>
+
+</body>
+</html>
