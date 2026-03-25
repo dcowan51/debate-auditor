@@ -1,0 +1,257 @@
+{
+  "id": "aaron-abke-gnosticism",
+  "creatorId": "aaron-abke",
+  "creatorName": "Aaron Abke",
+  "channel": "@AaronAbke",
+  "videoTitle": "A Refutation of Gnosticism | Why Paul Is The Father of Gnosticism",
+  "datePublished": "January 23, 2025",
+  "dateAnalyzed": "March 25, 2026",
+  "sessionNumber": 3,
+  "analyzedRange": "0:00–59:39",
+  "thesis": "Gnosticism was founded through Paul's teachings via Marcion of Sinope; both gnosticism and Protestant Christianity deviate from Jesus's true gospel of love, forgiveness, and present-tense salvation; Protestantism is structurally identical to gnosticism (dualism, secret knowledge, docetism) despite different vocabulary.",
+  "dashboard": {
+    "sessionScore": 59,
+    "cumulativeScore": 57,
+    "cumulativeSessions": 3,
+    "trueClaims": 36,
+    "falseMisleading": 17,
+    "disputed": 8,
+    "totalChecked": 61,
+    "confidence": "Medium-High",
+    "verdict": "Unreliable",
+    "stratagems": 8,
+    "weaselWords": 5,
+    "errorImpact": 35
+  },
+  "steelman": "Abke's strongest argument is that Jesus's synoptic teachings on love, forgiveness, and repentance are underemphasized in churches that center Pauline theology, and that the historical Marcionite crisis demonstrates the theological dangers of reading Paul without Jesus. This observation has genuine scholarly support (Harnack, Bauer) and represents a defensible theological position even if Abke's supporting arguments are frequently inaccurate.",
+  "falseClaims": [
+    {
+      "claim": "Gnosticism is founded or was founded upon Paul's teachings through a man named Marcion of Sinope.",
+      "rating": "Likely False",
+      "confidence": "High",
+      "timestamp": "10:13",
+      "evidence": "Reverses the historical chronology. Proto-Gnostic movements (Simon Magus, Cerinthus, Saturninus) predate Marcion by decades. Basilides and Valentinus developed independently. Harnack (Marcion: The Gospel of the Alien God, 1924) explicitly argued Marcion was NOT a Gnostic.",
+      "settle": "A scholarly source establishing Marcion as the chronological origin of Gnostic thought — none exists."
+    },
+    {
+      "claim": "This is also what essentially Protestantism teaches today — that Jesus is purely divine.",
+      "rating": "Likely False",
+      "confidence": "Very High",
+      "timestamp": "38:39",
+      "evidence": "Contradicts all major Protestant confessions. The Chalcedonian Definition (451 CE), affirmed by all mainstream Protestant traditions, declares Christ fully God and fully man in two natures. Westminster Confession (1646), ch. 8.2 affirms the same.",
+      "settle": "Any major Protestant confession teaching that Jesus had no human element — none exists."
+    },
+    {
+      "claim": "Rather than calling it the demiurge, they call it the devil. But it's the same concept.",
+      "rating": "Likely False",
+      "confidence": "High",
+      "timestamp": "24:45",
+      "evidence": "Conflates categorically different theological concepts. The Gnostic demiurge is the CREATOR of the material world. The Christian devil is a fallen creature who created nothing. These are structurally incompatible roles.",
+      "settle": "A systematic theology equating the two roles — none does."
+    },
+    {
+      "claim": "In 1 Corinthians Paul says that the Ten Commandments... are a Ministry of death.",
+      "rating": "Mostly False",
+      "confidence": "Very High",
+      "timestamp": "14:38",
+      "evidence": "Wrong book — the passage is 2 Corinthians 3:7, not 1 Corinthians. The full context is a typological comparison: Paul says the old covenant had glory but the new has greater glory.",
+      "settle": "The text itself, which is directly verifiable."
+    },
+    {
+      "claim": "Paul calls the disciples so-called Apostles... deceitful workmen, false apostles, messengers of Satan.",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "15:54",
+      "evidence": "2 Corinthians 11:13-15 refers to unnamed rival missionaries in Corinth, NOT the Twelve. Galatians 2:9 shows Paul affirming the Jerusalem leaders as acknowledged pillars.",
+      "settle": "Scholarly consensus on the identity of the super-apostles — favors rival missionaries, not the Twelve."
+    },
+    {
+      "claim": "If you're a slave, don't worry about getting free.",
+      "rating": "Likely False",
+      "confidence": "Very High",
+      "timestamp": "27:09",
+      "evidence": "Paul says the opposite. 1 Corinthians 7:21: Even if you can gain your freedom, make use of the opportunity. Paul explicitly encourages slaves to gain freedom if possible.",
+      "settle": "The text itself."
+    }
+  ],
+  "stratagems": [
+    {
+      "number": 11,
+      "name": "Induction with Concealed Counterexamples",
+      "instances": 3,
+      "entries": [
+        {
+          "quote": "Gnosticism is founded or was founded upon Paul's teachings through a man named Marcion of Sinope.",
+          "timestamp": "10:13",
+          "explanation": "Presents Marcion as the origin of gnosticism while concealing that Gnostic movements predated or developed independently of Marcion."
+        },
+        {
+          "quote": "This is also what essentially Protestantism teaches today — that Jesus is purely divine.",
+          "timestamp": "38:39",
+          "explanation": "Equates Protestant Christology with docetism while concealing that every major Protestant confession affirms the Chalcedonian Definition."
+        },
+        {
+          "quote": "Rather than calling it the demiurge, they call it the devil. But it's the same concept.",
+          "timestamp": "24:45",
+          "explanation": "Equates the Christian devil with the Gnostic demiurge while concealing the fundamental structural difference."
+        }
+      ]
+    },
+    {
+      "number": 1,
+      "name": "Extension of the Opponent's Proposition",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "The Orthodox Catholic Church represents probably the furthest possible deviation from truth... the assertion and emphasis that we are separate from God, which is an ontological impossibility.",
+          "timestamp": "5:41",
+          "explanation": "Extends Orthodox/Protestant teaching into an ontological claim it does not make. Classical Christian theology does not assert ontological separation from God."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "name": "Making the Opponent Angry",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "God's so angry at you that he wants to beat you and tear your flesh open and murder you upon a cross...",
+          "timestamp": "6:04",
+          "explanation": "A deliberately provocative caricature of penal substitutionary atonement designed to make the doctrine appear absurd."
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "name": "Rejection by Pejorative Classification",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "This is paganism. This is demonic. This is as far from the God who Jesus revealed as possible.",
+          "timestamp": "50:02",
+          "explanation": "Classifies penal substitutionary atonement under pejorative labels to dispose of the argument without engaging its theological defenders."
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "name": "Argumentum ad Personam",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "We just missed his message and walked right past it, censored it, and elevated this guy with a massive ego in his place.",
+          "timestamp": "44:42",
+          "explanation": "Attacks Paul's character as a substitute for engaging with Pauline theology's arguments."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "name": "Using the Opponent's Beliefs Against Them",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "In 1 Corinthians Paul says that the Ten Commandments... are a Ministry of death... ironically Jesus equates the Ten Commandments with eternal life.",
+          "timestamp": "14:38",
+          "explanation": "Sets Paul against Jesus to create an irreconcilable contradiction. Depends on citing the wrong book and omitting Paul's comparative argument."
+        }
+      ]
+    }
+  ],
+  "scholarlySplits": [
+    {
+      "claim": "At one point there were more Gnostic Christians than Orthodox",
+      "nature": "Some scholars (Bauer, Pagels) argue proto-orthodoxy was one of many competing movements; others (Hurtado, Bock) argue proto-orthodox Christianity was always the largest stream.",
+      "timestamp": "4:11"
+    },
+    {
+      "claim": "Isaiah 53 isn't talking about Jesus",
+      "nature": "Jewish interpretation identifies the Suffering Servant as Israel collectively; Christian interpretation identifies Jesus. Both are ancient traditions.",
+      "timestamp": "6:55"
+    },
+    {
+      "claim": "Paul believed Jesus would return in his lifetime",
+      "nature": "Schweitzer and others argue Paul expected an imminent parousia; Wright, Thiselton argue Paul's language is more nuanced.",
+      "timestamp": "27:02"
+    },
+    {
+      "claim": "Paul's three conversion accounts in Acts strongly contradict",
+      "nature": "Discrepancies exist but scholars debate whether these are true contradictions or perspectival variations.",
+      "timestamp": "19:42"
+    },
+    {
+      "claim": "Gospel of Thomas dates to first century, maybe second century",
+      "nature": "A minority (Crossan, Patterson) argue a 1st-century core; consensus dates the extant form to mid-2nd century.",
+      "timestamp": "3:01"
+    },
+    {
+      "claim": "The kingdom of heaven is within you — translation of entos hymon",
+      "nature": "'Within you' (internalist) vs. 'among you' / 'in your midst' (spatial). Many scholars prefer 'among you' given Jesus is addressing Pharisees.",
+      "timestamp": "7:57"
+    }
+  ],
+  "trueClaims": [
+    "Marcion of Sinope was an influential early Christian theologian",
+    "Marcion is widely regarded as the first major Christian heretic",
+    "Tertullian's Against Marcion is a five-book work",
+    "Around 140 CE Marcion proposed the first known Christian canon",
+    "Marcion's canon consisted of a redacted Luke and 10 Pauline Epistles",
+    "Jesus nowhere says the Romans 10:9 salvation formula in any gospel",
+    "Jesus lists the Commandments when asked about eternal life (Matt 19, Mark 10, Luke 18)",
+    "Loving God and neighbor fulfills the law and prophets — Matthew 22:37-40",
+    "1 Samuel 15:22 — obedience is better than sacrifice",
+    "Hosea 6:6 — I desire mercy, not sacrifice — Jesus quotes it twice (Matt 9:13, 12:7)"
+  ],
+  "youtubeFlags": [
+    {
+      "type": "Title Accuracy",
+      "severity": "warning",
+      "text": "The title 'A Refutation of Gnosticism' is partially misleading. ~40% refutes gnosticism; the majority refutes Protestantism and Pauline theology. The subtitle 'Why Paul Is The Father of Gnosticism' is historically false."
+    },
+    {
+      "type": "Implied Claims",
+      "severity": "caution",
+      "text": "The video strongly implies that anyone who follows Paul's teachings is following the intellectual lineage of 'the first and greatest heretic' (Marcion). Guilt-by-association framing never stated directly."
+    },
+    {
+      "type": "Monetization",
+      "severity": "info",
+      "text": "References to 'Forta University' throughout function as implicit promotion of a paid educational offering while making factual claims."
+    }
+  ],
+  "weightedAnalysis": {
+    "categories": [
+      {"name": "Core", "claims": 10, "weight": 3, "trueWeighted": 15, "falseWeighted": 15, "disputedWeighted": 0},
+      {"name": "Support", "claims": 22, "weight": 2, "trueWeighted": 20, "falseWeighted": 18, "disputedWeighted": 6},
+      {"name": "Background", "claims": 29, "weight": 1, "trueWeighted": 21, "falseWeighted": 3, "disputedWeighted": 5}
+    ],
+    "errorImpact": 35,
+    "interpretation": "At 35%, this session crosses into 'misleading overall.' Core and support claims carry a disproportionate error load while background-level Scripture citations are largely accurate."
+  },
+  "allClaims": [
+    {"num": 1, "text": "Early church fathers such as Tertullian, Hippolytus, and Origen really went to battle with the gnostics from the 2nd century onward", "timestamp": "3:47", "verdict": "true"},
+    {"num": 2, "text": "The gnostics actually threatened the very existence of the early Orthodox Church", "timestamp": "3:54", "verdict": "true"},
+    {"num": 3, "text": "At one point there probably was more Gnostic Christians than Orthodox Christians", "timestamp": "4:11", "verdict": "disputed"},
+    {"num": 6, "text": "The Gospel of Thomas and the Gospel of Truth are from first century, maybe second century AD", "timestamp": "3:01", "verdict": "disputed"},
+    {"num": 8, "text": "Marcion of Sinope (c. 85–160 CE) was an influential early Christian theologian and church leader", "timestamp": "10:34", "verdict": "true"},
+    {"num": 9, "text": "Marcion is widely regarded as the first and greatest Christian heretic of all time", "timestamp": "11:07", "verdict": "true"},
+    {"num": 11, "text": "Tertullian's Against Marcion is like five book volume", "timestamp": "11:21", "verdict": "true"},
+    {"num": 12, "text": "Around 140 CE Marcion proposed the first known Christian canon", "timestamp": "11:28", "verdict": "true"},
+    {"num": 13, "text": "Marcion's canon consisted primarily of a version of Luke's Gospel and 10 of Paul's Epistles", "timestamp": "11:37", "verdict": "true"},
+    {"num": 15, "text": "The Pastoral Epistles are known forgeries to critical scholars that are late 2nd century Pauline forgeries", "timestamp": "11:55", "verdict": "misleading"},
+    {"num": 17, "text": "Marcion's dualistic theology greatly influenced later Gnostic thought", "timestamp": "10:51", "verdict": "false"},
+    {"num": 18, "text": "Gnosticism is founded upon Paul's teachings through a man named Marcion of Sinope", "timestamp": "10:13", "verdict": "false"},
+    {"num": 24, "text": "In 1 Corinthians Paul says that the Ten Commandments are a Ministry of death", "timestamp": "14:38", "verdict": "false"},
+    {"num": 25, "text": "Jesus equates the Ten Commandments with eternal life in Matt 19, Mark 10, Luke 18", "timestamp": "14:59", "verdict": "true"},
+    {"num": 26, "text": "Paul calls the disciples so-called Apostles, deceitful workmen, false apostles, messengers of Satan", "timestamp": "15:54", "verdict": "misleading"},
+    {"num": 35, "text": "Paul was a lifelong Pharisee steeped in the temple sacrifice system", "timestamp": "8:22", "verdict": "misleading"},
+    {"num": 37, "text": "Jesus nowhere says the Romans 10:9 salvation formula in any gospel", "timestamp": "8:38", "verdict": "true"},
+    {"num": 43, "text": "Docetism is also what essentially Protestantism teaches today — that Jesus is purely divine", "timestamp": "38:39", "verdict": "false"},
+    {"num": 45, "text": "The devil in Christianity is the same concept as the gnostic demiurge", "timestamp": "24:45", "verdict": "false"},
+    {"num": 49, "text": "Paul told people if you're a slave don't worry about getting free", "timestamp": "27:09", "verdict": "false"},
+    {"num": 50, "text": "1 Samuel 15: Samuel says obedience is better than sacrifice", "timestamp": "30:21", "verdict": "true"},
+    {"num": 52, "text": "Jesus quoted Hosea 6:6 twice in the gospels", "timestamp": "30:36", "verdict": "true"},
+    {"num": 57, "text": "Jesus said deny yourself, take up your cross, follow me", "timestamp": "36:16", "verdict": "true"},
+    {"num": 61, "text": "If you do not forgive your brother, your heavenly father cannot and will not forgive you", "timestamp": "29:04", "verdict": "true"}
+  ]
+}

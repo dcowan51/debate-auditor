@@ -1,0 +1,280 @@
+{
+  "id": "tabor-vegetarian",
+  "creatorId": "james-tabor",
+  "creatorName": "Dr. James Tabor",
+  "channel": "YouTube",
+  "videoTitle": "Why Jesus Was a Vegetarian - Dr James D Tabor",
+  "datePublished": "March 2, 2025",
+  "dateAnalyzed": "March 19, 2026",
+  "sessionNumber": 1,
+  "analyzedRange": "0:00–28:59",
+  "thesis": "Jesus and his earliest followers (John the Baptist, James, the Ebionites) were vegetarians who rejected animal sacrifice, reflecting an 'original ideal' traceable from Genesis 1:29 through the prophetic tradition.",
+  "dashboard": {
+    "sessionScore": 79,
+    "cumulativeScore": null,
+    "cumulativeSessions": 1,
+    "trueClaims": 30,
+    "falseMisleading": 8,
+    "disputed": 5,
+    "totalChecked": 43,
+    "confidence": "Medium",
+    "verdict": "Caution",
+    "stratagems": 5,
+    "weaselWords": 3,
+    "errorImpact": 22
+  },
+  "steelman": "There is a demonstrable textual thread in the Hebrew Bible — from Genesis 1:29 through the prophetic critiques of sacrifice (Hosea 6:6, Isaiah 11, Micah 6:8) — that prioritizes ethical obedience over sacrificial ritual. This thread was picked up by identifiable first-century Jewish movements (Ebionites, Bannus-type ascetics) and is at least consistent with the practices attributed to John the Baptist and James the brother of Jesus in early sources. Whether Jesus himself was a vegetarian remains inferential, but the theological environment that produced him had ascetic and anti-sacrifice currents that deserve scholarly attention. The weakness of the argument is not in the existence of this thread — it is real — but in the claim that this thread represents the original or intended position of the Torah, rather than one voice in a multi-vocal canonical tradition that also commands sacrificial festivals as covenant obligations.",
+  "falseClaims": [
+    {
+      "claim": "Pigeons cover the desert floor (Numbers 11)",
+      "rating": "Likely False",
+      "confidence": "Medium",
+      "timestamp": "3:05",
+      "evidence": "The Hebrew text says selav, universally translated as 'quail' (Numbers 11:31-32). No major translation or commentary identifies these birds as pigeons or doves. This appears to be an error in recall.",
+      "settle": "The Hebrew text is unambiguous."
+    },
+    {
+      "claim": "Micah 6:6-8 attributed to Amos",
+      "rating": "Likely False",
+      "confidence": "High",
+      "timestamp": "11:50",
+      "evidence": "'Shall I come with my firstborn son for my sin' (Micah 6:6-7) and 'what does the Lord require of you' (Micah 6:8) are from Micah, not Amos. Amos contains anti-sacrifice passages (5:21-24) but not these specific texts.",
+      "settle": "Reading the texts."
+    },
+    {
+      "claim": "Hebrew 'paratz' means 'shredders who rip necks of animals'",
+      "rating": "Misleading",
+      "confidence": "Medium",
+      "timestamp": "5:35",
+      "evidence": "The word in Jeremiah 7:11 is paritsim from the root parats, meaning 'to break through, burst open.' Standard lexical meaning: violent ones, robbers, breakers. The connection to specifically ripping animal necks is Tabor's interpretive gloss, not a standard lexical definition. BDB and HALOT do not support this specific meaning.",
+      "settle": "Standard Hebrew lexicons."
+    },
+    {
+      "claim": "'Shakat is destroy... that's the slaughterer that kills the animals' (Isaiah 11:9)",
+      "rating": "Misleading",
+      "confidence": "Medium",
+      "timestamp": "10:21",
+      "evidence": "The verb in Isaiah 11:9 is from the root shachat meaning 'to destroy, corrupt, ruin.' Tabor conflates this with the similar-sounding but different root shachat meaning 'to slaughter.' These are two distinct Hebrew roots with different consonants. The verse means 'they will not harm or destroy,' not 'they will not slaughter.'",
+      "settle": "Hebrew lexical analysis of the consonantal text."
+    },
+    {
+      "claim": "Tyrian shekels were '99.99 certified from the mint at Tyre'",
+      "rating": "Mostly False",
+      "confidence": "High",
+      "timestamp": "24:50",
+      "evidence": "Numismatic and metallurgical studies show Tyrian shekels at approximately 92-97% silver purity. The figure '99.99%' is a significant overstatement. Tabor's broader point — that Tyrian shekels were accepted for their silver quality, not religious purity — is correct, but the specific number is wrong.",
+      "settle": "Published metallurgical analyses of Tyrian shekels."
+    },
+    {
+      "claim": "Isaiah 56:7 burnt offerings line is an interpolation",
+      "rating": "Misleading",
+      "confidence": "Medium",
+      "timestamp": "8:31",
+      "evidence": "No mainstream critical commentary identifies this specific clause as a later addition. The Great Isaiah Scroll (1QIsa-a) from the Dead Sea Scrolls contains the phrase, dating it to at least the 2nd century BCE. This is Tabor's own speculation presented as though it is a recognized critical finding.",
+      "settle": "Manuscript evidence and critical apparatus of Isaiah 56."
+    },
+    {
+      "claim": "Jeremiah 7:22 presented as a blanket divine rejection of all sacrifice",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "4:25",
+      "evidence": "The full context of Jeremiah 7 is a condemnation of specific pagan abominations: burning incense to Baal (7:9), making cakes for the Queen of Heaven (7:18), and child sacrifice at Topheth (7:31). Tabor never mentions Baal, the Queen of Heaven, Topheth, or child sacrifice — the actual subjects of the chapter he cites. Additionally, the same Torah commands sacrificial festivals as perpetual covenant obligations (Exodus 12:24-27; Deuteronomy 16:1-17).",
+      "settle": "Reading Jeremiah 7 in its entirety alongside the festival commands in Deuteronomy 16."
+    },
+    {
+      "claim": "Greek words for locusts and honey cakes differ by 'one letter'",
+      "rating": "Misleading",
+      "confidence": "Low",
+      "timestamp": "13:42",
+      "evidence": "akrides (locusts) vs. enkrides (honey cakes). The difference is more than one letter — the prefix eg- is added and the initial a is dropped. Tabor simplifies for effect. The broader point about the Ebionite textual substitution is well-attested (Epiphanius, Panarion 30.13.4-5).",
+      "settle": "Comparing the Greek words directly."
+    }
+  ],
+  "stratagems": [
+    {
+      "number": 1,
+      "name": "Extension (Generalization)",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "When Israel's in the wilderness... they're back to vegetarianism. They're eating a plant that produces this thing called manna.",
+          "timestamp": "1:29",
+          "explanation": "Tabor extends the manna narrative into a programmatic 'return to vegetarianism' when the text presents manna as God's miraculous provision, not an explicit anti-meat dietary program. The Israelites also had livestock with them (Exodus 12:38, 17:3)."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "name": "Using Opponent's Beliefs Against Them",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "When Jesus upholds no divorce... he said 'because of the hardness of your heart, from the beginning it has not been so.' I think he was doing the same thing with the diet.",
+          "timestamp": "25:55",
+          "explanation": "Takes an established dominical saying about divorce (explicitly in the Gospels) and analogically extends it to diet (never stated in the Gospels). Leverages audience trust in Jesus's marriage teaching to make the vegetarian argument seem like a direct parallel, when it is entirely inferential."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "name": "Induction with Concealed Counterexamples",
+      "instances": 2,
+      "entries": [
+        {
+          "quote": "As far as him eating fish, it's at the resurrection accounts of Luke and John, and it's to prove that he's not a ghost.",
+          "timestamp": "20:06",
+          "explanation": "Addresses the fish-eating evidence but omits the feeding of the 5,000 and 4,000 (Mark 6:41, 8:7; Matt 14:19, 15:36; Luke 9:16; John 6:11) — pre-resurrection narratives in all four Gospels where Jesus multiplies and distributes fish."
+        },
+        {
+          "quote": "In the day that I led you out of Egypt I did not command you to offer sacrifices. I only said obey my voice and follow me.",
+          "timestamp": "4:25",
+          "explanation": "Quotes Jeremiah 7:22-23 as a blanket divine rejection of all sacrifice while concealing the chapter's actual context: condemnation of Baal worship, the Queen of Heaven, and child sacrifice at Topheth. Also omits covenantal festival commands in Deuteronomy 16 and Exodus 12."
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "name": "Rejection by Odious Category",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "The Priestly strand... they're all for sacrifices and it's a big money-making thing believe me. Any Temple, temples are banks basically.",
+          "timestamp": "12:16",
+          "explanation": "By associating the Priestly source (P) with financial corruption, Tabor makes the pro-sacrifice textual tradition seem venal rather than theological, coloring the audience's perception without directly refuting its claims."
+        }
+      ]
+    }
+  ],
+  "scholarlySplits": [
+    {
+      "claim": "Jeremiah had access to a Torah without sacrificial laws",
+      "nature": "Connected to Documentary Hypothesis and Shapira scroll debate. Mainstream: sacrificial laws are ancient; Tabor/Dershowitz: Shapira scroll may preserve pre-Priestly Deuteronomy.",
+      "timestamp": "9:27"
+    },
+    {
+      "claim": "The original Eucharist was Jesus's replacement of the Passover lamb",
+      "nature": "Chilton's theory vs. traditional view. Chilton's view is a recognized minority position; mainstream sees Eucharist as connected to Passover.",
+      "timestamp": "18:45"
+    },
+    {
+      "claim": "Luke and John resurrection fish-eating accounts are late apologetic additions",
+      "nature": "Part of broader debate on resurrection narrative development. Critical scholars often see development; conservative scholars defend historicity of all accounts.",
+      "timestamp": "20:06"
+    },
+    {
+      "claim": "Paul's resurrection vision was the same type of experience as Peter's and James's",
+      "nature": "Related to nature of resurrection body debate. Some see Paul's experience as different from the Twelve's; others (including Tabor) see them as identical.",
+      "timestamp": "21:50"
+    },
+    {
+      "claim": "The Ebionites preserve the authentic practice of the earliest Jerusalem church",
+      "nature": "Baur/Tubingen trajectory vs. mainstream. Minority position with notable advocates (Eisenman, Tabor); majority sees Ebionites as later development.",
+      "timestamp": "14:06"
+    }
+  ],
+  "trueClaims": [
+    "Genesis 1:29 prescribes a plant-based diet (fruits, seeds) for humans",
+    "Genesis 9:3 is the first explicit permission to eat meat",
+    "Numbers 11:18-20 records God's angry response to meat-craving Israelites",
+    "Daniel 1:8-16 records Daniel refusing the king's food and thriving on vegetables/seeds",
+    "Jeremiah 7:22-23 states God did not command sacrifices at the Exodus (quotation accurate; interpretation debated)",
+    "Jeremiah 7:11 uses 'den of thieves/robbers' — Jesus cites this in Mark 11:17",
+    "Isaiah 56:7 'my house shall be called a house of prayer for all peoples'",
+    "Jesus quotes both Isaiah 56 and Jeremiah 7 in the temple cleansing (Mark 11:17)",
+    "Solomon's dedicatory prayer (1 Kings 8:22-53) focuses on prayer, not sacrifice",
+    "Jeremiah 8:8 references 'the false pen of the scribes'",
+    "Tabor co-authored a BAR article on the Shapira scroll, Winter 2021",
+    "Isaiah 11:9 says 'they will not hurt or destroy on all my holy mountain'",
+    "Hosea 6:6: 'I desire mercy, not sacrifice' — Jesus cites it in Matthew 9:13",
+    "Luke 7:33: John the Baptist 'came neither eating bread nor drinking wine'",
+    "Ebionites rejected Paul, denied the virgin birth, and practiced vegetarianism"
+  ],
+  "youtubeFlags": [
+    {
+      "type": "Title Accuracy",
+      "severity": "warning",
+      "text": "The title 'Why Jesus Was a Vegetarian' presents as established fact what the video argues as a probability. Tabor himself hedges frequently ('I think,' 'you can make a case'), but the title does not reflect that tentativeness."
+    },
+    {
+      "type": "Implied Claims",
+      "severity": "caution",
+      "text": "Tabor strongly implies — without explicitly stating — that Jesus never ate the Passover lamb. He presents Chilton's theory and the Ebionite tradition as suggestive but stops short of a direct claim."
+    },
+    {
+      "type": "Monetization",
+      "severity": "info",
+      "text": "No supplements, courses, or affiliate products promoted. Tabor mentions his own BAR article and blog, which is standard academic self-reference. No monetization concerns."
+    }
+  ],
+  "weightedAnalysis": {
+    "categories": [
+      {"name": "Core", "trueClaims": 8, "falseMisleading": 3, "weight": 3, "trueWeighted": 24, "falseWeighted": 9},
+      {"name": "Support", "trueClaims": 15, "falseMisleading": 3, "weight": 2, "trueWeighted": 30, "falseWeighted": 6},
+      {"name": "Background", "trueClaims": 7, "falseMisleading": 2, "weight": 1, "trueWeighted": 7, "falseWeighted": 2}
+    ],
+    "errorImpact": 22,
+    "interpretation": "At ~22%, this session falls into 'secondary use only.' Core argument is identifiable and draws on real textual traditions, but selective omission of counterevidence and decontextualization of key proof texts means specific claims and the overall framework require independent verification before citation."
+  },
+  "allClaims": [
+    {"num": 1, "text": "Genesis 1:29 prescribes a plant-based diet (fruits, seeds) for humans", "timestamp": "0:26", "verdict": "true"},
+    {"num": 2, "text": "Jesus quotes Genesis on marriage ('from the beginning it has not been so; the two become one')", "timestamp": "0:43", "verdict": "true"},
+    {"num": 3, "text": "Genesis 9 gives Noah and his children permission to eat meat for the first time", "timestamp": "1:06", "verdict": "true"},
+    {"num": 4, "text": "The meat permission in Genesis 9 is presented as an accommodation", "timestamp": "1:13", "verdict": "true"},
+    {"num": 5, "text": "In the wilderness, God returned the Israelites to vegetarianism via manna", "timestamp": "1:29", "verdict": "misleading"},
+    {"num": 6, "text": "Manna is 'some sticky desert plant'", "timestamp": "1:45", "verdict": "disputed"},
+    {"num": 7, "text": "The Israelites cried for meat, and God said he'd give them meat 'not for a day, not for a week, but a month until it comes out their noses'", "timestamp": "2:03", "verdict": "true"},
+    {"num": 8, "text": "'Pigeons' flew over and covered the desert floor", "timestamp": "3:05", "verdict": "false"},
+    {"num": 9, "text": "They started vomiting and getting sick from eating the meat without cooking it", "timestamp": "3:13", "verdict": "misleading"},
+    {"num": 10, "text": "Daniel refused the king's food and asked for 'zeroim' — the Genesis seed diet", "timestamp": "3:22", "verdict": "true"},
+    {"num": 11, "text": "Daniel and companions thrived on the seed diet in the story", "timestamp": "3:53", "verdict": "true"},
+    {"num": 12, "text": "Jeremiah 7 says: 'In the day that I led you out of Egypt I did not command you to offer sacrifices. I only said obey my voice and follow me'", "timestamp": "4:25", "verdict": "misleading"},
+    {"num": 13, "text": "Jeremiah quotes God: 'This House of Prayer which is called by my name you have made it a den of thieves'", "timestamp": "4:49", "verdict": "true"},
+    {"num": 14, "text": "Jesus is quoting Jeremiah when he says 'den of thieves'", "timestamp": "5:06", "verdict": "true"},
+    {"num": 15, "text": "The Hebrew word for 'thieves' in Jeremiah 7:11 is 'paratz,' meaning those who shred/rip apart/rip the necks of animals", "timestamp": "5:35", "verdict": "misleading"},
+    {"num": 16, "text": "'Den' means a cave or lair of a wild animal", "timestamp": "5:41", "verdict": "true"},
+    {"num": 17, "text": "Isaiah 56 says 'my house should be called a house of prayer for all people'", "timestamp": "6:14", "verdict": "true"},
+    {"num": 18, "text": "Jesus quotes both Isaiah 56 and Jeremiah 7 together", "timestamp": "6:22", "verdict": "true"},
+    {"num": 19, "text": "Solomon's prayer of temple dedication is in First Kings", "timestamp": "6:41", "verdict": "true"},
+    {"num": 20, "text": "Solomon's dedicatory prayer does not mention sacrifice; it focuses on prayer", "timestamp": "6:50", "verdict": "true"},
+    {"num": 21, "text": "The burnt offerings/sacrifices line in Isaiah 56:7 is an interpolation inserted between two verses about 'house of prayer'", "timestamp": "8:31", "verdict": "misleading"},
+    {"num": 22, "text": "The interpolated line can be removed and the text reads perfectly well in Hebrew and English", "timestamp": "8:54", "verdict": "misleading"},
+    {"num": 23, "text": "Jeremiah says 'the false pen of the scribes has made the Torah a lie'", "timestamp": "9:18", "verdict": "true"},
+    {"num": 24, "text": "Tabor has an article about the Shapira scroll in BAR magazine, winter issue 2021-22", "timestamp": "9:42", "verdict": "true"},
+    {"num": 25, "text": "Isaiah 11 (messianic chapter) says 'they will not hurt or destroy on all my holy mountain'", "timestamp": "10:07", "verdict": "true"},
+    {"num": 26, "text": "'Shakat' (destroy) in Isaiah 11:9 means 'the slaughterer that kills the animals'", "timestamp": "10:21", "verdict": "misleading"},
+    {"num": 27, "text": "'Holy Mountain' = the temple", "timestamp": "10:29", "verdict": "disputed"},
+    {"num": 28, "text": "Isaiah 65 and Isaiah 66 also contain anti-sacrifice sentiments", "timestamp": "10:36", "verdict": "true"},
+    {"num": 29, "text": "Hosea 6:6: 'I desire mercy not sacrifice' — Jesus quotes this ('go learn what this means')", "timestamp": "11:17", "verdict": "true"},
+    {"num": 30, "text": "Tabor references 'Hosea 66'", "timestamp": "11:26", "verdict": "false"},
+    {"num": 31, "text": "'Shall I come with my firstborn son... for my sin' and 'what does the Lord require of you to walk humbly, do justice, and love mercy' are attributed to Amos", "timestamp": "11:50", "verdict": "false"},
+    {"num": 32, "text": "Jesus calls Herod (Antipas) 'the fox'", "timestamp": "12:30", "verdict": "true"},
+    {"num": 33, "text": "Herod Antipas killed John the Baptist (Jesus's cousin)", "timestamp": "12:38", "verdict": "true"},
+    {"num": 34, "text": "John the Baptist doesn't eat meat, drink wine, or eat bread", "timestamp": "12:52", "verdict": "true"},
+    {"num": 35, "text": "The Q passage says John doesn't eat bread", "timestamp": "12:59", "verdict": "disputed"},
+    {"num": 36, "text": "Slavonic Josephus discusses the diet of John", "timestamp": "12:59", "verdict": "true"},
+    {"num": 37, "text": "The Ebionite texts / Gospel of the Hebrews preserve an alternate reading where the Greek word for locusts (akris) is changed to honey cakes — one letter different", "timestamp": "13:42", "verdict": "misleading"},
+    {"num": 38, "text": "Ebionites are the Jewish followers of Jesus who reject Paul, don't accept the virgin birth, say Jesus is a human being", "timestamp": "14:06", "verdict": "true"},
+    {"num": 39, "text": "Ebionites are vegetarian and reject sacrifices", "timestamp": "14:14", "verdict": "true"},
+    {"num": 40, "text": "The Gospel of the Hebrews contains the saying: 'Unless you cease sacrificing, the wrath of God will not depart from you'", "timestamp": "16:04", "verdict": "true"},
+    {"num": 41, "text": "King James Bible uses 'meat' to mean 'bread' / food in general (Old English usage)", "timestamp": "16:37", "verdict": "true"},
+    {"num": 42, "text": "Luke 7:33 parallel: 'John came neither eating bread nor drinking wine'; 'the son of man came eating and drinking' = eating bread and drinking wine", "timestamp": "17:01", "verdict": "true"},
+    {"num": 43, "text": "James (the brother of Jesus) does not drink wine", "timestamp": "17:10", "verdict": "disputed"},
+    {"num": 44, "text": "Paul in Romans 14 discusses some who eat 'only seeds' (vegetables) and others who eat meat and drink wine", "timestamp": "17:26", "verdict": "true"},
+    {"num": 45, "text": "Paul has met James", "timestamp": "17:50", "verdict": "true"},
+    {"num": 46, "text": "Paul didn't found the church in Rome", "timestamp": "18:30", "verdict": "true"},
+    {"num": 47, "text": "Bruce Chilton has argued the original Eucharist meaning was Jesus replacing the Passover lamb with bread and wine", "timestamp": "18:45", "verdict": "disputed"},
+    {"num": 48, "text": "Chilton published this in Bible Review (online accessible)", "timestamp": "19:38", "verdict": "true"},
+    {"num": 49, "text": "Jesus eating fish appears only in the resurrection accounts of Luke and John", "timestamp": "20:06", "verdict": "true"},
+    {"num": 50, "text": "The resurrection accounts progress from no appearances to one with doubting (Matthew) to many (Luke/John)", "timestamp": "20:14", "verdict": "true"},
+    {"num": 51, "text": "Paul said the resurrection body is not physical; 'flesh and blood' vs. 'life-giving spirit'", "timestamp": "21:11", "verdict": "true"},
+    {"num": 52, "text": "Josephus in his Life says he studied with Bannus and ate only roots and plants in the desert", "timestamp": "14:52", "verdict": "true"},
+    {"num": 53, "text": "Josephus later became a Pharisee", "timestamp": "15:00", "verdict": "true"},
+    {"num": 54, "text": "Zechariah 14: 'In that day there will be no traitor in the house of the Lord'", "timestamp": "23:41", "verdict": "true"},
+    {"num": 55, "text": "Temple traders would reject pilgrims' lambs by finding blemishes and sell certified replacements at inflated prices", "timestamp": "24:03", "verdict": "true"},
+    {"num": 56, "text": "Money was changed into Tyrian shekels — '99.99 certified from the mint at Tyre'", "timestamp": "24:42", "verdict": "false"},
+    {"num": 57, "text": "Tyrian shekels were accepted because of their silver purity, not because of religious 'purity' of the coin", "timestamp": "24:50", "verdict": "true"},
+    {"num": 58, "text": "The Testimonium Flavianum contains interpolations; an Arabic text exists that reads as a natural version without them", "timestamp": "7:48", "verdict": "true"},
+    {"num": 59, "text": "Jesus upholds no divorce: 'from the beginning it has not been so'; he quotes Genesis", "timestamp": "25:55", "verdict": "true"},
+    {"num": 60, "text": "Aronofsky's film Noah takes the vegetarian/anti-violence position", "timestamp": "26:29", "verdict": "true"}
+  ]
+}

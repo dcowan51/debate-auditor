@@ -8,7 +8,6 @@
 </head>
 <body>
 
-<!-- NAV -->
 <nav>
   <div class="nav-inner">
     <a href="index.html" class="nav-logo">
@@ -17,7 +16,6 @@
     </a>
     <ul class="nav-links">
       <li><a href="index.html" class="active">Home</a></li>
-      <li><a href="#">Creators</a></li>
       <li><a href="#">Leaderboard</a></li>
       <li><a href="#">About</a></li>
     </ul>
@@ -28,31 +26,27 @@
   </div>
 </nav>
 
-<!-- HERO -->
 <section class="hero">
   <h1>Know the truth score<br>before you watch.</h1>
   <p>Independent fact-check analysis of YouTube content. We score creators on historical, biblical, and logical accuracy so audiences can watch informed.</p>
   <div class="hero-stats">
     <div class="hero-stat">
-      <div class="num">142</div>
+      <div class="num" id="stat-videos">—</div>
       <div class="label">Videos Analyzed</div>
     </div>
     <div class="hero-stat">
-      <div class="num">38</div>
+      <div class="num" id="stat-creators">—</div>
       <div class="label">Creators Scored</div>
     </div>
     <div class="hero-stat">
-      <div class="num">8,400+</div>
+      <div class="num" id="stat-claims">—</div>
       <div class="label">Claims Checked</div>
     </div>
   </div>
 </section>
 
-<!-- HOW IT WORKS -->
 <section class="section">
-  <div class="section-header">
-    <h2>How It Works</h2>
-  </div>
+  <div class="section-header"><h2>How It Works</h2></div>
   <div class="how-grid">
     <div class="how-card">
       <div class="step-num">1</div>
@@ -72,243 +66,22 @@
   </div>
 </section>
 
-<!-- FEATURED CREATORS -->
 <section class="section">
-  <div class="section-header">
-    <h2>Featured Creators</h2>
-    <a href="#">View all creators &rarr;</a>
-  </div>
-  <div class="creators-grid">
-
-    <!-- Aaron Abke -->
-    <a href="creator.html" class="creator-card" style="text-decoration:none;color:inherit">
-      <div class="creator-card-top">
-        <div class="creator-avatar" style="background:#d63031">AA</div>
-        <div class="creator-info">
-          <h3>Aaron Abke</h3>
-          <div class="channel">@AaronAbke</div>
-        </div>
-      </div>
-      <div class="creator-score">
-        <div class="score-badge unreliable"><span class="dot"></span>57%</div>
-      </div>
-      <div class="creator-meta">
-        <span>3 sessions</span>
-        <span>105 claims checked</span>
-        <span>Verdict: Unreliable</span>
-      </div>
-      <div class="creator-topics">
-        <span class="topic-tag">Biblical Studies</span>
-        <span class="topic-tag">Gnosticism</span>
-        <span class="topic-tag">Theology</span>
-      </div>
-    </a>
-
-    <!-- Sample Creator 2 -->
-    <div class="creator-card">
-      <div class="creator-card-top">
-        <div class="creator-avatar" style="background:#00b894">IP</div>
-        <div class="creator-info">
-          <h3>InspiringPhilosophy</h3>
-          <div class="channel">@InspiringPhilosophy</div>
-        </div>
-      </div>
-      <div class="creator-score">
-        <div class="score-badge reliable"><span class="dot"></span>82%</div>
-      </div>
-      <div class="creator-meta">
-        <span>5 sessions</span>
-        <span>210 claims checked</span>
-        <span>Verdict: Reliable</span>
-      </div>
-      <div class="creator-topics">
-        <span class="topic-tag">Apologetics</span>
-        <span class="topic-tag">Philosophy</span>
-        <span class="topic-tag">History</span>
-      </div>
-    </div>
-
-    <!-- Sample Creator 3 -->
-    <div class="creator-card">
-      <div class="creator-card-top">
-        <div class="creator-avatar" style="background:#fdcb6e;color:#333">BE</div>
-        <div class="creator-info">
-          <h3>Bart Ehrman</h3>
-          <div class="channel">@bartdehrman</div>
-        </div>
-      </div>
-      <div class="creator-score">
-        <div class="score-badge caution"><span class="dot"></span>68%</div>
-      </div>
-      <div class="creator-meta">
-        <span>4 sessions</span>
-        <span>178 claims checked</span>
-        <span>Verdict: Caution</span>
-      </div>
-      <div class="creator-topics">
-        <span class="topic-tag">New Testament</span>
-        <span class="topic-tag">Textual Criticism</span>
-      </div>
-    </div>
-
-    <!-- Sample Creator 4 -->
-    <div class="creator-card">
-      <div class="creator-card-top">
-        <div class="creator-avatar" style="background:#6c5ce7">DW</div>
-        <div class="creator-info">
-          <h3>Dan Wallace</h3>
-          <div class="channel">@DanWallacePhD</div>
-        </div>
-      </div>
-      <div class="creator-score">
-        <div class="score-badge reliable"><span class="dot"></span>91%</div>
-      </div>
-      <div class="creator-meta">
-        <span>2 sessions</span>
-        <span>86 claims checked</span>
-        <span>Verdict: Reliable</span>
-      </div>
-      <div class="creator-topics">
-        <span class="topic-tag">Greek NT</span>
-        <span class="topic-tag">Manuscripts</span>
-      </div>
-    </div>
-
-    <!-- Sample Creator 5 -->
-    <div class="creator-card">
-      <div class="creator-card-top">
-        <div class="creator-avatar" style="background:#e17055">RB</div>
-        <div class="creator-info">
-          <h3>Religion For Breakfast</h3>
-          <div class="channel">@ReligionForBreakfast</div>
-        </div>
-      </div>
-      <div class="creator-score">
-        <div class="score-badge reliable"><span class="dot"></span>88%</div>
-      </div>
-      <div class="creator-meta">
-        <span>6 sessions</span>
-        <span>245 claims checked</span>
-        <span>Verdict: Reliable</span>
-      </div>
-      <div class="creator-topics">
-        <span class="topic-tag">Religious Studies</span>
-        <span class="topic-tag">History</span>
-      </div>
-    </div>
-
-    <!-- Sample Creator 6 -->
-    <div class="creator-card">
-      <div class="creator-card-top">
-        <div class="creator-avatar" style="background:#d63031">SP</div>
-        <div class="creator-info">
-          <h3>SpiritualPsychology</h3>
-          <div class="channel">@SpiritPsych</div>
-        </div>
-      </div>
-      <div class="creator-score">
-        <div class="score-badge unreliable"><span class="dot"></span>42%</div>
-      </div>
-      <div class="creator-meta">
-        <span>3 sessions</span>
-        <span>134 claims checked</span>
-        <span>Verdict: Unreliable</span>
-      </div>
-      <div class="creator-topics">
-        <span class="topic-tag">Mysticism</span>
-        <span class="topic-tag">Psychology</span>
-      </div>
-    </div>
-
-  </div>
+  <div class="section-header"><h2>Creators</h2></div>
+  <div class="creators-grid" id="creators-grid"></div>
 </section>
 
-<!-- RECENT ANALYSES -->
 <section class="section">
-  <div class="section-header">
-    <h2>Recent Analyses</h2>
-    <a href="#">View all &rarr;</a>
-  </div>
-  <div class="analyses-list">
-
-    <a href="analysis.html" class="analysis-row" style="text-decoration:none;color:inherit">
-      <div class="analysis-score-mini unreliable">59%</div>
-      <div class="analysis-info">
-        <h4>A Refutation of Gnosticism | Why Paul Is The Father of Gnosticism</h4>
-        <div class="subtitle">Aaron Abke &middot; @AaronAbke</div>
-      </div>
-      <div class="analysis-claims">
-        <span style="color:var(--green)">36 true</span>
-        <span style="color:var(--red-light)">17 false</span>
-        <span style="color:var(--yellow)">8 disputed</span>
-      </div>
-      <div class="analysis-date">Mar 25, 2026</div>
-    </a>
-
-    <div class="analysis-row">
-      <div class="analysis-score-mini reliable">85%</div>
-      <div class="analysis-info">
-        <h4>Did the Exodus Really Happen? Archaeological Evidence</h4>
-        <div class="subtitle">InspiringPhilosophy &middot; @InspiringPhilosophy</div>
-      </div>
-      <div class="analysis-claims">
-        <span style="color:var(--green)">42 true</span>
-        <span style="color:var(--red-light)">5 false</span>
-        <span style="color:var(--yellow)">3 disputed</span>
-      </div>
-      <div class="analysis-date">Mar 22, 2026</div>
-    </div>
-
-    <div class="analysis-row">
-      <div class="analysis-score-mini caution">65%</div>
-      <div class="analysis-info">
-        <h4>Why the Gospel of Thomas Matters More Than You Think</h4>
-        <div class="subtitle">Bart Ehrman &middot; @bartdehrman</div>
-      </div>
-      <div class="analysis-claims">
-        <span style="color:var(--green)">28 true</span>
-        <span style="color:var(--red-light)">10 false</span>
-        <span style="color:var(--yellow)">5 disputed</span>
-      </div>
-      <div class="analysis-date">Mar 18, 2026</div>
-    </div>
-
-    <div class="analysis-row">
-      <div class="analysis-score-mini unreliable">50%</div>
-      <div class="analysis-info">
-        <h4>Jesus Was a Buddhist Monk — The Hidden Truth</h4>
-        <div class="subtitle">SpiritualPsychology &middot; @SpiritPsych</div>
-      </div>
-      <div class="analysis-claims">
-        <span style="color:var(--green)">15 true</span>
-        <span style="color:var(--red-light)">12 false</span>
-        <span style="color:var(--yellow)">3 disputed</span>
-      </div>
-      <div class="analysis-date">Mar 15, 2026</div>
-    </div>
-
-    <div class="analysis-row">
-      <div class="analysis-score-mini reliable">93%</div>
-      <div class="analysis-info">
-        <h4>The Reliability of the New Testament Manuscripts</h4>
-        <div class="subtitle">Dan Wallace &middot; @DanWallacePhD</div>
-      </div>
-      <div class="analysis-claims">
-        <span style="color:var(--green)">52 true</span>
-        <span style="color:var(--red-light)">3 false</span>
-        <span style="color:var(--yellow)">1 disputed</span>
-      </div>
-      <div class="analysis-date">Mar 12, 2026</div>
-    </div>
-
-  </div>
+  <div class="section-header"><h2>Recent Analyses</h2></div>
+  <div class="analyses-list" id="analyses-list"></div>
 </section>
 
-<!-- FOOTER -->
 <footer>
-  <p>Debate Auditor &mdash; Independent accuracy analysis for YouTube content creators.</p>
+  <p>Debate Auditor — Independent accuracy analysis for YouTube content creators.</p>
   <p style="margin-top:8px">Not affiliated with YouTube or any creator. All analyses are based on verifiable sources.</p>
 </footer>
 
+<script src="app.js"></script>
+<script>renderHomepage();</script>
 </body>
 </html>

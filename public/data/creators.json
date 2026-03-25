@@ -1,0 +1,84 @@
+[
+  {
+    "id": "aaron-abke",
+    "name": "Aaron Abke",
+    "channel": "@AaronAbke",
+    "platform": "YouTube",
+    "avatarColor": "#d63031",
+    "initials": "AA",
+    "topics": ["Biblical Studies", "Gnosticism", "Theology", "Nonduality"],
+    "sessions": 3,
+    "totalClaims": 105,
+    "trueClaims": 60,
+    "cumulativeScore": 57,
+    "verdict": "Unreliable",
+    "corePositions": [
+      "Paul founded gnosticism through Marcion",
+      "Protestantism = gnosticism",
+      "Docetism = Protestant Christology",
+      "Jesus taught love/works/forgiveness only",
+      "Paul is the shadow side of Jesus",
+      "Theosis through ego crucifixion"
+    ],
+    "notablePatterns": [
+      "Scripture citations are largely accurate, but interpretive frameworks and doctrinal characterizations carry heavy error loads.",
+      "Core thesis claims tend to be historically falsifiable and falsified.",
+      "Frequently employs Stratagem 11 (Induction with Concealed Counterexamples).",
+      "Cumulative trajectory: Caution (63%) → Unreliable (55%) → Unreliable (57%)."
+    ],
+    "analyses": ["aaron-abke-gnosticism"]
+  },
+  {
+    "id": "wes-huff",
+    "name": "Wes Huff",
+    "channel": "@WesHuff",
+    "platform": "YouTube",
+    "avatarColor": "#00b894",
+    "initials": "WH",
+    "topics": ["NT Manuscripts", "Apologetics", "Archaeology", "Textual Criticism"],
+    "sessions": 2,
+    "totalClaims": 73,
+    "trueClaims": 58,
+    "cumulativeScore": 79,
+    "verdict": "Caution",
+    "corePositions": [
+      "NT is the most accurately transmitted ancient document collection",
+      "Archaeological artifacts corroborate the New Testament",
+      "Manuscript evidence supports biblical reliability"
+    ],
+    "notablePatterns": [
+      "Core claims about manuscript evidence are well-supported and within academic expertise.",
+      "Peripheral factual details (dates, attributions) carry most errors.",
+      "Uses cherry-picking of confirming archaeological evidence without addressing complications.",
+      "Popular-level lecture format leads to imprecise but not malicious claims."
+    ],
+    "analyses": ["wes-huff-artifacts", "wes-huff-historicity"]
+  },
+  {
+    "id": "james-tabor",
+    "name": "Dr. James Tabor",
+    "channel": "YouTube",
+    "platform": "YouTube",
+    "avatarColor": "#6c5ce7",
+    "initials": "JT",
+    "topics": ["Biblical Studies", "Early Christianity", "Vegetarianism", "Hebrew Bible"],
+    "sessions": 1,
+    "totalClaims": 43,
+    "trueClaims": 30,
+    "cumulativeScore": 79,
+    "verdict": "Caution",
+    "corePositions": [
+      "Jesus was a vegetarian",
+      "Hebrew Bible contains anti-sacrifice trajectory",
+      "Original Christianity was plant-based",
+      "Sacrifice texts are interpolations"
+    ],
+    "notablePatterns": [
+      "Strong Hebrew and Greek competence with legitimate textual observations.",
+      "Core thesis depends on systematic omission of counterevidence (Deuteronomy 16, feeding miracles).",
+      "Decontextualization of Jeremiah 7 (condemns Baal worship, not all sacrifice).",
+      "Academic credentials lend authority but thesis goes well beyond scholarly consensus."
+    ],
+    "analyses": ["tabor-vegetarian"]
+  }
+]

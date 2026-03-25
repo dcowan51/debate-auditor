@@ -1,0 +1,227 @@
+{
+  "id": "wes-huff-artifacts",
+  "creatorId": "wes-huff",
+  "creatorName": "Wes Huff",
+  "channel": "@WesHuff",
+  "videoTitle": "Ancient Artifacts that Confirm the Bible | Wes Huff lecture",
+  "datePublished": "Late 2024",
+  "dateAnalyzed": "2026-03-19",
+  "sessionNumber": 1,
+  "analyzedRange": "0:00–34:32",
+  "thesis": "Archaeological artifacts corroborate the historical reliability of the New Testament.",
+  "dashboard": {
+    "sessionScore": 78,
+    "cumulativeScore": null,
+    "cumulativeSessions": 1,
+    "trueClaims": 25,
+    "falseMisleading": 7,
+    "disputed": 4,
+    "totalChecked": 32,
+    "confidence": "Medium",
+    "verdict": "Caution",
+    "stratagems": 3,
+    "weaselWords": 4,
+    "errorImpact": 21
+  },
+  "steelman": "Huff's strongest argument is that the convergence of multiple independent lines of evidence — manuscript evidence, onomastic data, inscriptional finds, and hostile witness testimony (Alexamenos graffito) — creates a cumulative case for the historical rootedness of the NT documents in first-century Palestine, even if individual pieces of evidence have limitations.",
+  "falseClaims": [
+    {
+      "claim": "Codex Sinaiticus required 260 sheep.",
+      "rating": "Likely False",
+      "confidence": "High",
+      "timestamp": "5:56",
+      "evidence": "The scholarly estimate is approximately 360 animal skins (or 365 sheep/goats for 730 leaves). Daniel Wallace and the Codex Sinaiticus Project both cite ~360 animals. Huff's 260 understates this by roughly 100 animals.",
+      "settle": "Direct consultation of the Codex Sinaiticus Project's conservation records."
+    },
+    {
+      "claim": "P52 paleographers unanimously dated it to the beginning of the second century.",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "12:19",
+      "evidence": "While C.H. Roberts proposed 100-150 CE and this was widely accepted initially, the dating has been significantly challenged. Brent Nongbri (2005) argued it could be late second or early third century. Orsini & Clarysse (2012) proposed 125-175 CE. The John Rylands Library itself now states recent research points to a date nearer to 200 AD.",
+      "settle": "Carbon-14 dating (not yet performed due to the destructive nature of the test)."
+    },
+    {
+      "claim": "P1 was dug up on January 12, 1897.",
+      "rating": "Mostly False",
+      "confidence": "High",
+      "timestamp": "6:21",
+      "evidence": "According to published records, Grenfell and Hunt found P1 on the third or fourth day of excavation at Oxyrhynchus, which was January 13 or 14, 1897 — not January 12.",
+      "settle": "Grenfell's original excavation diary."
+    },
+    {
+      "claim": "Pilate was removed from office under Caligula.",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "23:59",
+      "evidence": "Pilate was recalled by Vitellius, the legate of Syria, acting under the authority of Emperor Tiberius. Tiberius died before Pilate arrived in Rome, so Caligula was emperor upon his arrival — but Pilate was not removed under Caligula. The removal was ordered under Tiberius's administration.",
+      "settle": "The sources (Josephus) are clear on this point."
+    },
+    {
+      "claim": "Tacitus described as one of the four most ancient biographers and writers in the Greco-Roman period.",
+      "rating": "Misleading",
+      "confidence": "Medium",
+      "timestamp": "22:34",
+      "evidence": "Tacitus (c. 56-120 AD) was a Roman historian, not a biographer. He wrote well after numerous major Greco-Roman historians and biographers (Herodotus, Thucydides, Polybius, Plutarch, Suetonius). The claim that he is one of the four most ancient writers is historically nonsensical. Huff may have meant one of the four most important Roman historians.",
+      "settle": "Clarification from Huff on what he intended."
+    },
+    {
+      "claim": "Huff conflates procurator vs. governor when the actual distinction is procurator vs. prefect.",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "23:25",
+      "evidence": "Huff says Pilate was commissioned not as a procurator but as a governor. The actual issue is that Tacitus calls Pilate a procurator when the Pilate Stone confirms he was a prefect (praefectus). The Gospels use the general Greek term hegemon (governor), which is not wrong but simply non-specific.",
+      "settle": "The evidence is already clear."
+    },
+    {
+      "claim": "The accuracy of the seven books that we call the New Testament.",
+      "rating": "Likely False",
+      "confidence": "Low",
+      "timestamp": "31:02",
+      "evidence": "Huff earlier correctly states the NT contains 27 books. At 31:02 he appears to say seven books rather than twenty-seven books. This is most likely a verbal slip or transcript error rather than a substantive claim.",
+      "settle": "Review of the audio."
+    }
+  ],
+  "stratagems": [
+    {
+      "number": 11,
+      "name": "Induction with Concealed Counterexamples (Cherry-Picking)",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "Every time we stick shovels in the ground we're doing things like corroborating theories",
+          "timestamp": "14:10",
+          "explanation": "Huff presents only archaeological evidence that corroborates the NT, creating the impression that the archaeological record uniformly supports biblical claims. He does not address well-known cases where archaeology has complicated or challenged NT accounts (e.g., the Quirinius census problem in Luke 2:1-2)."
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "name": "Generalization to Avoid the Specific Point",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "when you pick up your Bible and read through its pages you can at minimum see its trustworthiness as historically accurate documents however whether or not you then choose to embrace the Christian faith depends on far more than historical evidence",
+          "timestamp": "31:52",
+          "explanation": "Huff establishes that certain incidental details (names, places, titles) are historically accurate, then generalizes this into trustworthiness as historically accurate documents. The leap from verifying incidental details to verifying the central theological and miraculous claims conceals a significant gap."
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "name": "Argument from Authority (Argumentum ad Verecundiam)",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "sent it off to a group of individuals who were paleographers and papists, individuals who date manuscripts, all of them unanimously put it at the beginning of the second century",
+          "timestamp": "12:19",
+          "explanation": "Huff appeals to the unanimity of expert paleographers to establish P52's early date. However, this unanimity has been challenged significantly in recent scholarship (Nongbri 2005; Orsini & Clarysse 2012). The appeal overstates the current state of the field."
+        }
+      ]
+    }
+  ],
+  "scholarlySplits": [
+    {
+      "claim": "P52 dates to the early second century",
+      "nature": "Paleographic dating methodology debate. Traditional consensus: 100-150 CE. Growing minority (Nongbri, Orsini/Clarysse): 125-200+ CE.",
+      "timestamp": "12:19"
+    },
+    {
+      "claim": "P66 dates to the late second / early third century",
+      "nature": "Same paleographic dating debates. Traditional: ~200 CE. Nongbri argues possibly 4th century. Comfort argues possibly mid-2nd century.",
+      "timestamp": "5:39"
+    },
+    {
+      "claim": "John's Gospel was written in the first century (late)",
+      "nature": "Majority of scholars: 90-110 CE. Some: later. Baur's 160 CE dating is now largely abandoned.",
+      "timestamp": "12:49"
+    },
+    {
+      "claim": "Onomastic congruence proves the gospels were written in first-century Palestine",
+      "nature": "Bauckham's argument (2006) is influential but has been challenged on statistical methodology (van de Weghe 2022; Gregor & Blais rebuttal 2025).",
+      "timestamp": "16:35"
+    }
+  ],
+  "trueClaims": [
+    "Anselm of Canterbury coined faith seeking understanding — confirmed; Proslogion, originally titled Fides quaerens intellectum",
+    "The NT contains 27 books written in Greek — standard fact; universally accepted",
+    "The NT was written by multiple authors to multiple audiences — universally accepted in scholarship",
+    "P66 preserves a near-complete copy of the Gospel of John — confirmed; Bodmer Papyrus II",
+    "Codex Sinaiticus is from the fourth century and is among the earliest complete biblical manuscripts",
+    "P52 is housed at the John Rylands Library in Manchester — confirmed",
+    "P52 was identified by C.H. Roberts in 1934 — confirmed",
+    "P52 contains John 18 on recto and verso — confirmed; John 18:31-33 and 18:37-38",
+    "Ferdinand Christian Baur applied Hegelian dialectic to NT dating and dated John to ~160 AD",
+    "Christians adopted the codex form early compared to the broader ancient world",
+    "Jewish ossuaries were bone boxes used in secondary burial practice — confirmed",
+    "Onomastic congruence as a methodology exists and has been applied to the NT — Bauckham's Jesus and the Eyewitnesses (2006)",
+    "The canonical gospels use qualifiers for popular names (Simon called Peter, James son of Zebedee, etc.)",
+    "Tacitus refers to Christus in his account of the Neronian persecution — confirmed; Annals 15.44",
+    "Tacitus gives Pilate the title procurator rather than prefect — confirmed; well-known discrepancy"
+  ],
+  "youtubeFlags": [
+    {
+      "type": "Title Accuracy",
+      "severity": "warning",
+      "text": "The title Ancient Artifacts that confirm the Bible is stronger than the content warrants. Huff himself acknowledges that these are not proofs that the New Testament is true and that they have limits. The title implies confirmation; the lecture more accurately describes corroboration of incidental historical details."
+    },
+    {
+      "type": "Implied Claims",
+      "severity": "caution",
+      "text": "Huff strongly implies (without stating) that because incidental historical details are accurate, the theological and miraculous claims are also trustworthy. The cumulative case structure is designed to create this impression while explicit disclaimers provide plausible deniability."
+    },
+    {
+      "type": "Monetization",
+      "severity": "info",
+      "text": "None detected. This appears to be a church or conference lecture, not a monetized product pitch."
+    }
+  ],
+  "weightedAnalysis": {
+    "categories": [
+      {"name": "Core", "claims": 8, "weight": 3, "trueWeighted": 21, "falseWeighted": 3, "disputedWeighted": 0},
+      {"name": "Support", "claims": 14, "weight": 2, "trueWeighted": 20, "falseWeighted": 8, "disputedWeighted": 0},
+      {"name": "Background", "claims": 10, "weight": 1, "trueWeighted": 8, "falseWeighted": 2, "disputedWeighted": 0}
+    ],
+    "errorImpact": 21,
+    "interpretation": "At 21%, this session falls into secondary use only — useful for general orientation but individual claims require independent verification."
+  },
+  "allClaims": [
+    {"num": 1, "text": "Anselm of Canterbury was a medieval thinker/theologian who said Christians must pursue faith seeking understanding", "timestamp": "0:39", "verdict": "true"},
+    {"num": 2, "text": "The New Testament is a collection of 27 books", "timestamp": "2:06", "verdict": "true"},
+    {"num": 3, "text": "The NT was written over the course of 60 years", "timestamp": "2:14", "verdict": "true"},
+    {"num": 4, "text": "The NT was written by at least nine different authors", "timestamp": "2:14", "verdict": "true"},
+    {"num": 5, "text": "The NT was written in Greek", "timestamp": "2:23", "verdict": "true"},
+    {"num": 6, "text": "Translation of the Bible goes from the original Hebrew and Greek directly into modern translations (single step)", "timestamp": "3:17", "verdict": "true"},
+    {"num": 7, "text": "P66 is a late second / early third century copy of the Gospel of John that preserves a near-complete copy", "timestamp": "5:39", "verdict": "disputed"},
+    {"num": 8, "text": "Codex Sinaiticus is arguably the first Bible (Genesis to Revelation in one unit), from the fourth century", "timestamp": "5:48", "verdict": "true"},
+    {"num": 9, "text": "Codex Sinaiticus took 260 sheep to make", "timestamp": "5:56", "verdict": "false"},
+    {"num": 10, "text": "P1 is the first page of the Gospel of Matthew, dug up from Oxyrhynchus", "timestamp": "6:21", "verdict": "true"},
+    {"num": 11, "text": "P1 was dug up on January 12, 1897", "timestamp": "6:21", "verdict": "false"},
+    {"num": 12, "text": "P1 was the first manuscript of those near half-million papyri dug up at Oxyrhynchus", "timestamp": "6:21", "verdict": "true"},
+    {"num": 13, "text": "GA 2777 (a777) is a more than thousand-year-old gospels collection and one of the earliest illuminated manuscripts, with paintings of the life of Jesus alongside the Greek text", "timestamp": "6:44", "verdict": "true"},
+    {"num": 14, "text": "P52 (John Rylands 457) is a fragment of the Gospel of John, about the size of a credit card", "timestamp": "7:18", "verdict": "true"},
+    {"num": 15, "text": "P52 is housed at the John Rylands Library in Manchester, England", "timestamp": "7:36", "verdict": "true"},
+    {"num": 16, "text": "P52 was discovered in 1934 by C.H. Roberts, recently doctored from Oxford", "timestamp": "7:42", "verdict": "true"},
+    {"num": 17, "text": "P52 was written on both sides (from a codex), identifying it as a Christian writing", "timestamp": "8:15", "verdict": "true"},
+    {"num": 18, "text": "P52 contains a section of John 18 on both the front and the back", "timestamp": "9:27", "verdict": "true"},
+    {"num": 19, "text": "Ferdinand Baur, a student of Hegel, applied Hegelian dialectic (thesis-antithesis-synthesis) to the dating of the Gospels", "timestamp": "9:45", "verdict": "true"},
+    {"num": 20, "text": "Baur argued that John could not be dated earlier than 160 AD", "timestamp": "11:17", "verdict": "true"},
+    {"num": 21, "text": "Baur's reasoning stood as the consensus for roughly the next 100 years", "timestamp": "11:34", "verdict": "true"},
+    {"num": 22, "text": "Paleographers unanimously dated P52 to the beginning of the second century", "timestamp": "12:19", "verdict": "misleading"},
+    {"num": 23, "text": "John most likely wrote in Ephesus, about 1,700 miles / 2,700 km from Egypt", "timestamp": "13:12", "verdict": "true"},
+    {"num": 24, "text": "An ossuary is a bone box used in Jewish burial practice of the period", "timestamp": "14:42", "verdict": "true"},
+    {"num": 25, "text": "Onomastic congruence shows the NT gospels match first-century Palestinian name frequencies with correct qualifiers for popular names", "timestamp": "16:35", "verdict": "disputed"},
+    {"num": 26, "text": "The Gospel of Judas has only two names that fit (Jesus and Judas), while others match Egypt during the second and third centuries", "timestamp": "18:00", "verdict": "true"},
+    {"num": 27, "text": "Luke mentions 19 Greek names in the last half of Acts, two of which (Demetrius and Lydia) are completely unique, which matches the 10% unique-name rate for that region", "timestamp": "19:10", "verdict": "true"},
+    {"num": 28, "text": "Luke 3:1-3 contains seven historical characters and 22 historical references verified by archaeology and ancient sources", "timestamp": "21:26", "verdict": "true"},
+    {"num": 29, "text": "Tacitus assumes Christus is a name rather than a title", "timestamp": "23:00", "verdict": "true"},
+    {"num": 30, "text": "Tacitus gives Pontius Pilate the wrong title: procurator instead of prefect", "timestamp": "23:25", "verdict": "true"},
+    {"num": 31, "text": "Pilate was removed from office under Caligula (not Tiberius)", "timestamp": "23:59", "verdict": "misleading"},
+    {"num": 32, "text": "The Pilate Stone was found in Caesarea Maritima in 1961, confirming Pilate as governor/prefect of Judea", "timestamp": "24:14", "verdict": "true"},
+    {"num": 33, "text": "The Alexamenos graffito is approximately 1,900 years old, found on Palatine Hill, depicting a man on a cross with a donkey head, captioned Alexamenos worships his God", "timestamp": "25:36", "verdict": "true"},
+    {"num": 34, "text": "The Alexamenos graffito is the first depiction of Jesus on a cross", "timestamp": "25:36", "verdict": "true"},
+    {"num": 35, "text": "Cicero said the word cross should be far removed from a Roman citizen's body, mind, eyes, and ears — calling it a most cruel and disgusting penalty", "timestamp": "28:20", "verdict": "true"},
+    {"num": 36, "text": "1 Corinthians 1:23 says we preach Christ crucified, a stumbling block to Jews and foolishness to Gentiles, using Greek words scandalon and moros", "timestamp": "29:49", "verdict": "true"},
+    {"num": 37, "text": "CS Lewis said: Christianity, if false, is of no importance, and if true of infinite importance. The only thing it cannot be is moderately important", "timestamp": "34:23", "verdict": "true"}
+  ]
+}

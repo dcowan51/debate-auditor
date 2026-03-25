@@ -3,12 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Analysis: A Refutation of Gnosticism — Debate Auditor</title>
+  <title>Analysis — Debate Auditor</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<!-- NAV -->
 <nav>
   <div class="nav-inner">
     <a href="index.html" class="nav-logo">
@@ -17,7 +16,6 @@
     </a>
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
-      <li><a href="#">Creators</a></li>
       <li><a href="#">Leaderboard</a></li>
       <li><a href="#">About</a></li>
     </ul>
@@ -28,584 +26,86 @@
   </div>
 </nav>
 
-<!-- ANALYSIS HEADER -->
 <div class="analysis-header">
-  <div class="breadcrumb">
-    <a href="index.html">Home</a> &rarr; <a href="creator.html">Aaron Abke</a> &rarr; Session 3
-  </div>
-  <h1>A Refutation of Gnosticism | Why Paul Is The Father of Gnosticism</h1>
+  <div class="breadcrumb" id="breadcrumb"></div>
+  <h1 id="analysis-title">Loading...</h1>
   <div class="analysis-meta-row">
-    <div class="meta-item">
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
-      Published Jan 23, 2025
-    </div>
-    <div class="meta-item">
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
-      Analyzed Mar 25, 2026
-    </div>
-    <div class="meta-item">
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="m8 21 4-4 4 4"/></svg>
-      <a href="creator.html">@AaronAbke</a>
-    </div>
-    <div class="meta-item">
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20V10"/><path d="M18 20V4"/><path d="M6 20v-4"/></svg>
-      Full transcript (0:00&ndash;59:39)
-    </div>
+    <div class="meta-item" id="date-published"></div>
+    <div class="meta-item" id="date-analyzed"></div>
+    <div class="meta-item" id="creator-link"></div>
+    <div class="meta-item" id="analyzed-range"></div>
   </div>
-
-  <!-- Thesis -->
-  <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:20px;margin-bottom:8px">
+  <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:20px">
     <div style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--accent-light);font-weight:600;margin-bottom:8px">Thesis</div>
-    <p style="font-size:0.9rem;line-height:1.6;color:var(--text-muted)">Gnosticism was founded through Paul's teachings via Marcion of Sinope; both gnosticism and Protestant Christianity deviate from Jesus's true gospel of love, forgiveness, and present-tense salvation; Protestantism is structurally identical to gnosticism (dualism, secret knowledge, docetism) despite different vocabulary.</p>
+    <p style="font-size:0.9rem;line-height:1.6;color:var(--text-muted)" id="thesis-text"></p>
   </div>
 </div>
 
-<!-- DASHBOARD -->
 <div class="dashboard-panel">
   <div class="dashboard">
     <div class="dashboard-score">
-      <div class="score-ring unreliable">
-        <div class="pct">59%</div>
-        <div class="verdict-label">Unreliable</div>
+      <div class="score-ring" id="score-ring">
+        <div class="pct" id="session-pct">—</div>
+        <div class="verdict-label" id="session-verdict"></div>
       </div>
       <div style="font-size:0.75rem;color:var(--text-muted);text-align:center;margin-top:4px">Session Score</div>
       <div style="margin-top:12px;padding-top:12px;border-top:1px solid var(--border);text-align:center">
-        <div style="font-size:1.3rem;font-weight:700;color:var(--red-light)">57%</div>
-        <div style="font-size:0.7rem;color:var(--text-muted)">Cumulative (3 sessions)</div>
+        <div style="font-size:1.3rem;font-weight:700;color:var(--red-light)" id="cumulative-pct">—</div>
+        <div style="font-size:0.7rem;color:var(--text-muted)" id="cumulative-label"></div>
       </div>
     </div>
     <div class="dashboard-details">
-      <div class="dash-item">
-        <span class="dash-label">True Claims</span>
-        <span class="dash-value true-val">36</span>
-      </div>
-      <div class="dash-item">
-        <span class="dash-label">False / Misleading</span>
-        <span class="dash-value false-val">17</span>
-      </div>
-      <div class="dash-item">
-        <span class="dash-label">Disputed</span>
-        <span class="dash-value disputed-val">8</span>
-      </div>
-      <div class="dash-item">
-        <span class="dash-label">Total Checked</span>
-        <span class="dash-value">61</span>
-      </div>
-      <div class="dash-item">
-        <span class="dash-label">Confidence</span>
-        <span class="dash-value">Medium-High</span>
-      </div>
-      <div class="dash-item">
-        <span class="dash-label">Stratagems Detected</span>
-        <span class="dash-value false-val">8</span>
-      </div>
-      <div class="dash-item">
-        <span class="dash-label">Weasel-Word Flags</span>
-        <span class="dash-value disputed-val">5</span>
-      </div>
-      <div class="dash-item">
-        <span class="dash-label">Error Impact (Weighted)</span>
-        <span class="dash-value false-val">35%</span>
-      </div>
+      <div class="dash-item"><span class="dash-label">True Claims</span><span class="dash-value true-val" id="dash-true">—</span></div>
+      <div class="dash-item"><span class="dash-label">False / Misleading</span><span class="dash-value false-val" id="dash-false">—</span></div>
+      <div class="dash-item"><span class="dash-label">Disputed</span><span class="dash-value disputed-val" id="dash-disputed">—</span></div>
+      <div class="dash-item"><span class="dash-label">Total Checked</span><span class="dash-value" id="dash-total">—</span></div>
+      <div class="dash-item"><span class="dash-label">Confidence</span><span class="dash-value" id="dash-confidence">—</span></div>
+      <div class="dash-item"><span class="dash-label">Stratagems Detected</span><span class="dash-value false-val" id="dash-stratagems">—</span></div>
+      <div class="dash-item"><span class="dash-label">Weasel-Word Flags</span><span class="dash-value disputed-val" id="dash-weasel">—</span></div>
+      <div class="dash-item"><span class="dash-label">Error Impact (Weighted)</span><span class="dash-value false-val" id="dash-error">—</span></div>
     </div>
   </div>
 </div>
 
-<!-- TABS -->
 <div class="tabs-container">
   <div class="tab-buttons">
-    <button class="tab-btn active" data-tab="false-claims">Top False Claims</button>
-    <button class="tab-btn" data-tab="stratagems">Stratagems</button>
-    <button class="tab-btn" data-tab="all-claims">All Claims (61)</button>
-    <button class="tab-btn" data-tab="scholarly">Scholarly Splits</button>
-    <button class="tab-btn" data-tab="true-claims">True Claims</button>
+    <button class="tab-btn active" data-tab="false-claims-tab">Top False Claims</button>
+    <button class="tab-btn" data-tab="stratagems-tab">Stratagems</button>
+    <button class="tab-btn" data-tab="all-claims-tab" id="tab-claims-count">All Claims</button>
+    <button class="tab-btn" data-tab="scholarly-tab">Scholarly Splits</button>
+    <button class="tab-btn" data-tab="true-claims-tab">True Claims</button>
   </div>
 
-  <!-- TAB: TOP FALSE CLAIMS -->
-  <div class="tab-content active" id="false-claims">
-
-    <div class="false-claim-detail">
-      <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px">
-        <span class="rating">Likely False &middot; High Confidence</span>
-        <span style="font-size:0.75rem;color:var(--text-muted)">10:13</span>
-      </div>
-      <h4>"Gnosticism is founded or was founded upon Paul's teachings through a man named Marcion of Sinope."</h4>
-      <p class="evidence" style="margin-top:12px">Reverses the historical chronology. Proto-Gnostic movements (Simon Magus, Cerinthus, Saturninus) predate Marcion by decades. Basilides and Valentinus developed independently. Harnack (<em>Marcion: The Gospel of the Alien God</em>, 1924) explicitly argued Marcion was NOT a Gnostic.</p>
-      <p class="settle">What would settle it: A scholarly source establishing Marcion as the chronological origin of Gnostic thought &mdash; none exists.</p>
-    </div>
-
-    <div class="false-claim-detail">
-      <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px">
-        <span class="rating">Likely False &middot; Very High Confidence</span>
-        <span style="font-size:0.75rem;color:var(--text-muted)">38:39</span>
-      </div>
-      <h4>"This is also what essentially Protestantism teaches today &mdash; that Jesus is purely divine."</h4>
-      <p class="evidence" style="margin-top:12px">Contradicts all major Protestant confessions. The Chalcedonian Definition (451 CE), affirmed by all mainstream Protestant traditions, declares Christ fully God and fully man in two natures. Westminster Confession (1646), ch. 8.2 affirms the same.</p>
-      <p class="settle">What would settle it: Any major Protestant confession teaching that Jesus had no human element &mdash; none exists.</p>
-    </div>
-
-    <div class="false-claim-detail">
-      <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px">
-        <span class="rating">Likely False &middot; High Confidence</span>
-        <span style="font-size:0.75rem;color:var(--text-muted)">24:45</span>
-      </div>
-      <h4>"Rather than calling it the demiurge, they call it the devil. But it's the same concept."</h4>
-      <p class="evidence" style="margin-top:12px">Conflates categorically different theological concepts. The Gnostic demiurge is the CREATOR of the material world. The Christian devil is a fallen creature who created nothing. These are structurally incompatible roles. See Layton, <em>The Gnostic Scriptures</em> (1987).</p>
-      <p class="settle">What would settle it: A systematic theology equating the two roles &mdash; none does.</p>
-    </div>
-
-    <div class="false-claim-detail">
-      <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px">
-        <span class="rating">Mostly False &middot; Very High Confidence</span>
-        <span style="font-size:0.75rem;color:var(--text-muted)">14:38</span>
-      </div>
-      <h4>"In 1 Corinthians Paul says that the Ten Commandments... are a Ministry of death."</h4>
-      <p class="evidence" style="margin-top:12px">Wrong book &mdash; the passage is 2 Corinthians 3:7, not 1 Corinthians. The full context is a typological comparison: Paul says the old covenant had glory but the new has greater glory &mdash; not that the commandments are evil.</p>
-      <p class="settle">What would settle it: The text itself, which is directly verifiable.</p>
-    </div>
-
-    <div class="false-claim-detail">
-      <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px">
-        <span class="rating">Misleading &middot; High Confidence</span>
-        <span style="font-size:0.75rem;color:var(--text-muted)">15:54</span>
-      </div>
-      <h4>Paul calls the disciples "so-called Apostles... deceitful workmen, false apostles, messengers of Satan."</h4>
-      <p class="evidence" style="margin-top:12px">2 Corinthians 11:13-15 refers to unnamed rival missionaries in Corinth, NOT the Twelve. Mainstream scholarship identifies these as opponents, not the original apostles. Galatians 2:9 shows Paul affirming the Jerusalem leaders as "acknowledged pillars."</p>
-      <p class="settle">What would settle it: Scholarly consensus on the identity of the "super-apostles" &mdash; favors rival missionaries, not the Twelve.</p>
-    </div>
-
-    <div class="false-claim-detail">
-      <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px">
-        <span class="rating">Likely False &middot; Very High Confidence</span>
-        <span style="font-size:0.75rem;color:var(--text-muted)">27:09</span>
-      </div>
-      <h4>"If you're a slave, don't worry about getting free."</h4>
-      <p class="evidence" style="margin-top:12px">Paul says the opposite. 1 Corinthians 7:21: "Even if you can gain your freedom, make use of the opportunity." Paul explicitly encourages slaves to gain freedom if possible. Abke reverses Paul's instruction.</p>
-      <p class="settle">What would settle it: The text itself.</p>
-    </div>
-
-  </div>
-
-  <!-- TAB: STRATAGEMS -->
-  <div class="tab-content" id="stratagems">
-
-    <div class="stratagem-card">
-      <div class="strat-header">
-        <span class="strat-badge">Strat #11</span>
-        <span class="strat-title">Induction with Concealed Counterexamples</span>
-        <span class="strat-instances">3 instances</span>
-      </div>
-      <blockquote>"Gnosticism is founded or was founded upon Paul's teachings through a man named Marcion of Sinope."</blockquote>
-      <p class="strat-explanation">Presents Marcion as the origin of gnosticism while concealing that Gnostic movements predated or developed independently of Marcion. The leading Marcion scholar, Adolf Harnack, explicitly argued Marcion was NOT a Gnostic.</p>
-      <hr style="border:none;border-top:1px solid var(--border);margin:14px 0">
-      <blockquote>"This is also what essentially Protestantism teaches today &mdash; that Jesus is purely divine."</blockquote>
-      <p class="strat-explanation">Equates Protestant Christology with docetism while concealing that every major Protestant confession affirms the Chalcedonian Definition: Christ is fully God AND fully human.</p>
-      <hr style="border:none;border-top:1px solid var(--border);margin:14px 0">
-      <blockquote>"Rather than calling it the demiurge, they call it the devil. But it's the same concept."</blockquote>
-      <p class="strat-explanation">Equates the Christian devil with the Gnostic demiurge while concealing the fundamental structural difference: the demiurge is the CREATOR of the material world; the devil in Christianity is a fallen creature who creates nothing.</p>
-    </div>
-
-    <div class="stratagem-card">
-      <div class="strat-header">
-        <span class="strat-badge">Strat #1</span>
-        <span class="strat-title">Extension of the Opponent's Proposition</span>
-      </div>
-      <blockquote>"The Orthodox Catholic Church represents probably the furthest possible deviation from truth... the assertion and emphasis that we are separate from God, which is an ontological impossibility."</blockquote>
-      <p class="strat-explanation">Extends Orthodox/Protestant teaching into an ontological claim it does not make. Classical Christian theology does not assert ontological separation from God. Total depravity concerns moral inability, not ontological disconnection.</p>
-    </div>
-
-    <div class="stratagem-card">
-      <div class="strat-header">
-        <span class="strat-badge">Strat #8</span>
-        <span class="strat-title">Making the Opponent Angry</span>
-      </div>
-      <blockquote>"God's so angry at you that he wants to beat you and tear your flesh open and murder you upon a cross..."</blockquote>
-      <p class="strat-explanation">A deliberately provocative caricature of penal substitutionary atonement designed to make the doctrine appear absurd. No mainstream Christian theologian describes PSA this way.</p>
-    </div>
-
-    <div class="stratagem-card">
-      <div class="strat-header">
-        <span class="strat-badge">Strat #32</span>
-        <span class="strat-title">Rejection by Pejorative Classification</span>
-      </div>
-      <blockquote>"This is paganism. This is demonic. This is as far from the God who Jesus revealed as possible."</blockquote>
-      <p class="strat-explanation">Classifies penal substitutionary atonement under pejorative labels to dispose of the argument without engaging its theological defenders (Anselm, Calvin, Hodge, Packer, Schreiner).</p>
-    </div>
-
-    <div class="stratagem-card">
-      <div class="strat-header">
-        <span class="strat-badge">Strat #38</span>
-        <span class="strat-title">Argumentum ad Personam</span>
-      </div>
-      <blockquote>"We just missed his message and walked right past it, censored it, and elevated this guy with a massive ego in his place."</blockquote>
-      <p class="strat-explanation">Attacks Paul's character as a substitute for engaging with Pauline theology's arguments. The ad personam move allows the audience to dismiss Paul's writings based on character assessment rather than textual engagement.</p>
-    </div>
-
-    <div class="stratagem-card">
-      <div class="strat-header">
-        <span class="strat-badge">Strat #5</span>
-        <span class="strat-title">Using the Opponent's Beliefs Against Them</span>
-      </div>
-      <blockquote>"In 1 Corinthians Paul says that the Ten Commandments... are a Ministry of death... ironically Jesus equates the Ten Commandments with eternal life."</blockquote>
-      <p class="strat-explanation">Sets Paul against Jesus to create an irreconcilable contradiction. Depends on citing the wrong book (2 Corinthians, not 1 Corinthians), omitting Paul's comparative argument, and treating different rhetorical contexts as a direct contradiction.</p>
-    </div>
-
-  </div>
-
-  <!-- TAB: ALL CLAIMS -->
-  <div class="tab-content" id="all-claims">
-    <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:16px">All 61 claims extracted from the transcript, in chronological order. Click any claim for full context.</p>
-
-    <div class="claim-item">
-      <div class="claim-num">1</div>
-      <div class="claim-text">Early church fathers such as Tertullian, Hippolytus, and Origen "really went to battle" with the gnostics from the 2nd century onward <span class="timestamp">3:47</span></div>
-      <div class="claim-verdict true">True</div>
-    </div>
-    <div class="claim-item">
-      <div class="claim-num">2</div>
-      <div class="claim-text">The gnostics "actually threatened the very existence of the early Orthodox Church" <span class="timestamp">3:54</span></div>
-      <div class="claim-verdict true">True</div>
-    </div>
-    <div class="claim-item">
-      <div class="claim-num">3</div>
-      <div class="claim-text">"At one point there probably was more Gnostic Christians than Orthodox Christians" <span class="timestamp">4:11</span></div>
-      <div class="claim-verdict disputed">Disputed</div>
-    </div>
-    <div class="claim-item">
-      <div class="claim-num">6</div>
-      <div class="claim-text">The Gospel of Thomas and the Gospel of Truth are from "first century, maybe second century AD" <span class="timestamp">3:01</span></div>
-      <div class="claim-verdict disputed">Disputed</div>
-    </div>
-    <div class="claim-item">
-      <div class="claim-num">8</div>
-      <div class="claim-text">Marcion of Sinope (c. 85&ndash;160 CE) was an influential early Christian theologian and church leader <span class="timestamp">10:34</span></div>
-      <div class="claim-verdict true">True</div>
-    </div>
-    <div class="claim-item">
-      <div class="claim-num">11</div>
-      <div class="claim-text">"Tertullian's Against Marcion is like five book volume" <span class="timestamp">11:21</span></div>
-      <div class="claim-verdict true">True</div>
-    </div>
-    <div class="claim-item">
-      <div class="claim-num">12</div>
-      <div class="claim-text">"Around 140 CE Marcion proposed the first known Christian canon" <span class="timestamp">11:28</span></div>
-      <div class="claim-verdict true">True</div>
-    </div>
-    <div class="claim-item">
-      <div class="claim-num">15</div>
-      <div class="claim-text">The Pastoral Epistles "are known forgeries to critical scholars that are late 2nd century Pauline forgeries" <span class="timestamp">11:55</span></div>
-      <div class="claim-verdict misleading">Misleading</div>
-    </div>
-    <div class="claim-item">
-      <div class="claim-num">17</div>
-      <div class="claim-text">"Marcion's dualistic theology... greatly influenced later Gnostic thought" <span class="timestamp">10:51</span></div>
-      <div class="claim-verdict false">False</div>
-    </div>
-    <div class="claim-item">
-      <div class="claim-num">18</div>
-      <div class="claim-text">"Gnosticism is founded... upon Paul's teachings through a man named Marcion of Sinope" <span class="timestamp">10:13</span></div>
-      <div class="claim-verdict false">False</div>
-    </div>
-    <div class="claim-item">
-      <div class="claim-num">24</div>
-      <div class="claim-text">"In 1 Corinthians Paul says that the Ten Commandments... are a Ministry of death" <span class="timestamp">14:38</span></div>
-      <div class="claim-verdict false">False</div>
-    </div>
-    <div class="claim-item">
-      <div class="claim-num">25</div>
-      <div class="claim-text">Jesus equates the Ten Commandments with eternal life in Matt 19, Mark 10, Luke 18 <span class="timestamp">14:59</span></div>
-      <div class="claim-verdict true">True</div>
-    </div>
-    <div class="claim-item">
-      <div class="claim-num">26</div>
-      <div class="claim-text">Paul calls the disciples "so-called Apostles... false apostles, messengers of Satan" <span class="timestamp">15:54</span></div>
-      <div class="claim-verdict misleading">Misleading</div>
-    </div>
-    <div class="claim-item">
-      <div class="claim-num">35</div>
-      <div class="claim-text">Paul was "a lifelong Pharisee steeped in the temple sacrifice system" <span class="timestamp">8:22</span></div>
-      <div class="claim-verdict misleading">Misleading</div>
-    </div>
-    <div class="claim-item">
-      <div class="claim-num">37</div>
-      <div class="claim-text">Jesus "nowhere says" the Romans 10:9 salvation formula in any gospel <span class="timestamp">8:38</span></div>
-      <div class="claim-verdict true">True</div>
-    </div>
-    <div class="claim-item">
-      <div class="claim-num">43</div>
-      <div class="claim-text">Docetism is "also what essentially Protestantism teaches today &mdash; that Jesus is purely divine" <span class="timestamp">38:39</span></div>
-      <div class="claim-verdict false">False</div>
-    </div>
-    <div class="claim-item">
-      <div class="claim-num">45</div>
-      <div class="claim-text">The devil in Christianity is "the same concept" as the gnostic demiurge <span class="timestamp">24:45</span></div>
-      <div class="claim-verdict false">False</div>
-    </div>
-    <div class="claim-item">
-      <div class="claim-num">49</div>
-      <div class="claim-text">Paul told people "if you're a slave don't worry about getting free" <span class="timestamp">27:09</span></div>
-      <div class="claim-verdict false">False</div>
-    </div>
-    <div class="claim-item">
-      <div class="claim-num">50</div>
-      <div class="claim-text">1 Samuel 15: Samuel says "obedience is better than sacrifice" <span class="timestamp">30:21</span></div>
-      <div class="claim-verdict true">True</div>
-    </div>
-    <div class="claim-item">
-      <div class="claim-num">52</div>
-      <div class="claim-text">Jesus quoted Hosea 6:6 "twice in the gospels" <span class="timestamp">30:36</span></div>
-      <div class="claim-verdict true">True</div>
-    </div>
-    <div class="claim-item">
-      <div class="claim-num">57</div>
-      <div class="claim-text">Jesus said "deny yourself, take up your cross, follow me" <span class="timestamp">36:16</span></div>
-      <div class="claim-verdict true">True</div>
-    </div>
-    <div class="claim-item">
-      <div class="claim-num">61</div>
-      <div class="claim-text">"If you do not forgive your brother, your heavenly father cannot and will not forgive you" <span class="timestamp">29:04</span></div>
-      <div class="claim-verdict true">True</div>
-    </div>
-
-    <p style="font-size:0.8rem;color:var(--text-muted);margin-top:16px;text-align:center">Showing 22 of 61 claims. <a href="#">View full report &rarr;</a></p>
-  </div>
-
-  <!-- TAB: SCHOLARLY SPLITS -->
-  <div class="tab-content" id="scholarly">
-    <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:20px">Claims where there is a genuine scholarly divide &mdash; neither side is definitively settled.</p>
-
-    <div class="stratagem-card">
-      <div class="strat-header">
-        <span class="strat-badge" style="background:rgba(253,203,110,0.15);color:var(--yellow)">Disputed</span>
-        <span class="strat-title">Were Gnostic Christians ever the majority?</span>
-        <span class="strat-instances">4:11</span>
-      </div>
-      <p class="strat-explanation">Some scholars (Bauer, Pagels) argue proto-orthodoxy was one of many competing movements; others (Hurtado, Bock) argue proto-orthodox Christianity was always the largest stream. No firm numerical evidence exists for either side.</p>
-    </div>
-
-    <div class="stratagem-card">
-      <div class="strat-header">
-        <span class="strat-badge" style="background:rgba(253,203,110,0.15);color:var(--yellow)">Disputed</span>
-        <span class="strat-title">Isaiah 53 &mdash; About Jesus or Israel?</span>
-        <span class="strat-instances">6:55</span>
-      </div>
-      <p class="strat-explanation">Jewish interpretation identifies the Suffering Servant as Israel collectively; Christian interpretation identifies Jesus. Both are ancient traditions. Saying it's "about something entirely different" overstates the distance.</p>
-    </div>
-
-    <div class="stratagem-card">
-      <div class="strat-header">
-        <span class="strat-badge" style="background:rgba(253,203,110,0.15);color:var(--yellow)">Disputed</span>
-        <span class="strat-title">Did Paul expect Jesus to return in his lifetime?</span>
-        <span class="strat-instances">27:02</span>
-      </div>
-      <p class="strat-explanation">Schweitzer and others argue Paul expected an imminent parousia; Wright, Thiselton, and others argue Paul's language is more nuanced and his later letters show development. 1 Thess 4:15-17 uses "we" but Phil 1:20-24 contemplates death.</p>
-    </div>
-
-    <div class="stratagem-card">
-      <div class="strat-header">
-        <span class="strat-badge" style="background:rgba(253,203,110,0.15);color:var(--yellow)">Disputed</span>
-        <span class="strat-title">Do Paul's conversion accounts contradict?</span>
-        <span class="strat-instances">19:42</span>
-      </div>
-      <p class="strat-explanation">Discrepancies exist in Acts 9, 22, 26 (who heard/saw what), but scholars debate whether these are true contradictions (Ehrman, L&uuml;demann) or perspectival variations appropriate to different audiences (Witherington, Keener).</p>
-    </div>
-
-    <div class="stratagem-card">
-      <div class="strat-header">
-        <span class="strat-badge" style="background:rgba(253,203,110,0.15);color:var(--yellow)">Disputed</span>
-        <span class="strat-title">Gospel of Thomas &mdash; 1st or 2nd century?</span>
-        <span class="strat-instances">3:01</span>
-      </div>
-      <p class="strat-explanation">A minority (Crossan, Patterson) argue a 1st-century core; consensus (Gathercole, Goodacre, Perrin) dates the extant form to mid-2nd century. "First century" represents the minority position.</p>
-    </div>
-
-    <div class="stratagem-card">
-      <div class="strat-header">
-        <span class="strat-badge" style="background:rgba(253,203,110,0.15);color:var(--yellow)">Disputed</span>
-        <span class="strat-title">"The kingdom of heaven is within you" &mdash; translation?</span>
-        <span class="strat-instances">7:57</span>
-      </div>
-      <p class="strat-explanation">"Within you" (internalist) vs. "among you" / "in your midst" (spatial). Many scholars prefer "among you" given that Jesus is addressing Pharisees. The internalist reading supports Abke's thesis but is not the scholarly consensus.</p>
-    </div>
-
-  </div>
-
-  <!-- TAB: TRUE CLAIMS -->
-  <div class="tab-content" id="true-claims">
-    <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:16px">Claims verified as accurate with scholarly sources.</p>
-
-    <div class="claim-item">
-      <div class="claim-num" style="background:rgba(0,206,201,0.2);color:var(--green)">&#10003;</div>
-      <div class="claim-text">Marcion of Sinope was an influential early Christian theologian &mdash; Eusebius, <em>Ecclesiastical History</em> 4.11; Harnack, <em>Marcion</em></div>
-      <div class="claim-verdict true">True</div>
-    </div>
-    <div class="claim-item">
-      <div class="claim-num" style="background:rgba(0,206,201,0.2);color:var(--green)">&#10003;</div>
-      <div class="claim-text">Marcion is widely regarded as the first major Christian heretic &mdash; Irenaeus, <em>Against Heresies</em> 1.27</div>
-      <div class="claim-verdict true">True</div>
-    </div>
-    <div class="claim-item">
-      <div class="claim-num" style="background:rgba(0,206,201,0.2);color:var(--green)">&#10003;</div>
-      <div class="claim-text">Tertullian's Against Marcion is a five-book work (c. 207-212 CE)</div>
-      <div class="claim-verdict true">True</div>
-    </div>
-    <div class="claim-item">
-      <div class="claim-num" style="background:rgba(0,206,201,0.2);color:var(--green)">&#10003;</div>
-      <div class="claim-text">Around 140 CE Marcion proposed the first known Christian canon &mdash; Harnack; Gamble</div>
-      <div class="claim-verdict true">True</div>
-    </div>
-    <div class="claim-item">
-      <div class="claim-num" style="background:rgba(0,206,201,0.2);color:var(--green)">&#10003;</div>
-      <div class="claim-text">Marcion's canon consisted of a redacted Luke and 10 Pauline Epistles &mdash; Metzger</div>
-      <div class="claim-verdict true">True</div>
-    </div>
-    <div class="claim-item">
-      <div class="claim-num" style="background:rgba(0,206,201,0.2);color:var(--green)">&#10003;</div>
-      <div class="claim-text">Jesus "nowhere says" the Romans 10:9 salvation formula in any gospel &mdash; Pauline, not synoptic or Johannine</div>
-      <div class="claim-verdict true">True</div>
-    </div>
-    <div class="claim-item">
-      <div class="claim-num" style="background:rgba(0,206,201,0.2);color:var(--green)">&#10003;</div>
-      <div class="claim-text">Jesus lists the Commandments when asked about eternal life (Matt 19, Mark 10, Luke 18)</div>
-      <div class="claim-verdict true">True</div>
-    </div>
-    <div class="claim-item">
-      <div class="claim-num" style="background:rgba(0,206,201,0.2);color:var(--green)">&#10003;</div>
-      <div class="claim-text">Loving God and neighbor fulfills the law and prophets &mdash; Matthew 22:37-40</div>
-      <div class="claim-verdict true">True</div>
-    </div>
-    <div class="claim-item">
-      <div class="claim-num" style="background:rgba(0,206,201,0.2);color:var(--green)">&#10003;</div>
-      <div class="claim-text">1 Samuel 15:22 &mdash; "obedience is better than sacrifice"</div>
-      <div class="claim-verdict true">True</div>
-    </div>
-    <div class="claim-item">
-      <div class="claim-num" style="background:rgba(0,206,201,0.2);color:var(--green)">&#10003;</div>
-      <div class="claim-text">Hosea 6:6 &mdash; "I desire mercy, not sacrifice" &amp; Jesus quotes it twice (Matt 9:13, 12:7)</div>
-      <div class="claim-verdict true">True</div>
-    </div>
-
-    <p style="font-size:0.8rem;color:var(--text-muted);margin-top:16px;text-align:center">Showing 10 of 36 true claims. <a href="#">View full report &rarr;</a></p>
-  </div>
-
+  <div class="tab-content active" id="false-claims-tab"></div>
+  <div class="tab-content" id="stratagems-tab"></div>
+  <div class="tab-content" id="all-claims-tab"></div>
+  <div class="tab-content" id="scholarly-tab"></div>
+  <div class="tab-content" id="true-claims-tab"></div>
 </div>
 
-<!-- WEIGHTED ANALYSIS -->
-<section class="section">
-  <div class="section-header">
-    <h2>Weighted Error Analysis</h2>
-  </div>
-  <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:24px;overflow-x:auto">
-    <table style="width:100%;border-collapse:collapse;font-size:0.85rem">
-      <thead>
-        <tr style="border-bottom:2px solid var(--border)">
-          <th style="text-align:left;padding:10px 12px;color:var(--text-muted);font-weight:600">Category</th>
-          <th style="text-align:center;padding:10px 12px;color:var(--text-muted);font-weight:600">Claims</th>
-          <th style="text-align:center;padding:10px 12px;color:var(--text-muted);font-weight:600">Weight</th>
-          <th style="text-align:center;padding:10px 12px;color:var(--green);font-weight:600">True (weighted)</th>
-          <th style="text-align:center;padding:10px 12px;color:var(--red-light);font-weight:600">False (weighted)</th>
-          <th style="text-align:center;padding:10px 12px;color:var(--yellow);font-weight:600">Disputed (weighted)</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr style="border-bottom:1px solid var(--border)">
-          <td style="padding:10px 12px;font-weight:600">Core</td>
-          <td style="text-align:center;padding:10px 12px">10</td>
-          <td style="text-align:center;padding:10px 12px">3x</td>
-          <td style="text-align:center;padding:10px 12px;color:var(--green)">15</td>
-          <td style="text-align:center;padding:10px 12px;color:var(--red-light)">15</td>
-          <td style="text-align:center;padding:10px 12px;color:var(--yellow)">0</td>
-        </tr>
-        <tr style="border-bottom:1px solid var(--border)">
-          <td style="padding:10px 12px;font-weight:600">Support</td>
-          <td style="text-align:center;padding:10px 12px">22</td>
-          <td style="text-align:center;padding:10px 12px">2x</td>
-          <td style="text-align:center;padding:10px 12px;color:var(--green)">20</td>
-          <td style="text-align:center;padding:10px 12px;color:var(--red-light)">18</td>
-          <td style="text-align:center;padding:10px 12px;color:var(--yellow)">6</td>
-        </tr>
-        <tr style="border-bottom:1px solid var(--border)">
-          <td style="padding:10px 12px;font-weight:600">Background</td>
-          <td style="text-align:center;padding:10px 12px">29</td>
-          <td style="text-align:center;padding:10px 12px">1x</td>
-          <td style="text-align:center;padding:10px 12px;color:var(--green)">21</td>
-          <td style="text-align:center;padding:10px 12px;color:var(--red-light)">3</td>
-          <td style="text-align:center;padding:10px 12px;color:var(--yellow)">5</td>
-        </tr>
-        <tr style="border-top:2px solid var(--border);font-weight:700">
-          <td style="padding:10px 12px">Totals</td>
-          <td style="text-align:center;padding:10px 12px">61</td>
-          <td style="text-align:center;padding:10px 12px">&mdash;</td>
-          <td style="text-align:center;padding:10px 12px;color:var(--green)">56</td>
-          <td style="text-align:center;padding:10px 12px;color:var(--red-light)">36</td>
-          <td style="text-align:center;padding:10px 12px;color:var(--yellow)">11</td>
-        </tr>
-      </tbody>
-    </table>
-    <div style="margin-top:16px;padding:16px;background:rgba(214,48,49,0.08);border-radius:var(--radius-sm);border:1px solid rgba(214,48,49,0.2)">
-      <div style="font-size:0.8rem;font-weight:700;color:var(--red-light);margin-bottom:6px">Error Impact: 35% &mdash; Misleading Overall</div>
-      <p style="font-size:0.8rem;color:var(--text-muted);line-height:1.5">While background-level Scripture citations are largely accurate, core and support claims carry a disproportionate error load. The video's thesis-level claims are all false, and they are the claims that carry the argument.</p>
-    </div>
-  </div>
+<section class="section" id="weighted-section">
+  <div class="section-header"><h2>Weighted Error Analysis</h2></div>
+  <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:24px;overflow-x:auto" id="weighted-analysis"></div>
 </section>
 
-<!-- STEELMAN -->
 <section class="section">
-  <div class="section-header">
-    <h2>Steelman</h2>
-  </div>
+  <div class="section-header"><h2>Steelman</h2></div>
   <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:24px;border-left:4px solid var(--green)">
-    <p style="font-size:0.9rem;line-height:1.7;color:var(--text-muted)">Abke's strongest argument is that Jesus's synoptic teachings on love, forgiveness, and repentance are underemphasized in churches that center Pauline theology, and that the historical Marcionite crisis demonstrates the theological dangers of reading Paul without Jesus. This observation has genuine scholarly support (Harnack, Bauer) and represents a defensible theological position even if Abke's supporting arguments are frequently inaccurate.</p>
+    <p style="font-size:0.9rem;line-height:1.7;color:var(--text-muted)" id="steelman-text"></p>
   </div>
 </section>
 
-<!-- YOUTUBE FLAGS -->
 <section class="section">
-  <div class="section-header">
-    <h2>YouTube-Specific Flags</h2>
-  </div>
-  <div style="display:grid;gap:12px">
-    <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-sm);padding:16px 20px;display:flex;align-items:start;gap:12px">
-      <div style="width:8px;height:8px;border-radius:50%;background:var(--orange);margin-top:7px;flex-shrink:0"></div>
-      <div>
-        <div style="font-weight:600;font-size:0.85rem;margin-bottom:4px">Title / Thumbnail Accuracy</div>
-        <p style="font-size:0.8rem;color:var(--text-muted);line-height:1.5">The title "A Refutation of Gnosticism" is partially misleading. ~40% refutes gnosticism; the majority refutes Protestantism and Pauline theology. The subtitle "Why Paul Is The Father of Gnosticism" is historically false.</p>
-      </div>
-    </div>
-    <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-sm);padding:16px 20px;display:flex;align-items:start;gap:12px">
-      <div style="width:8px;height:8px;border-radius:50%;background:var(--yellow);margin-top:7px;flex-shrink:0"></div>
-      <div>
-        <div style="font-weight:600;font-size:0.85rem;margin-bottom:4px">Implied Claims</div>
-        <p style="font-size:0.8rem;color:var(--text-muted);line-height:1.5">The video strongly implies that anyone who follows Paul's teachings is following the intellectual lineage of "the first and greatest heretic" (Marcion). Guilt-by-association framing never stated directly.</p>
-      </div>
-    </div>
-    <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-sm);padding:16px 20px;display:flex;align-items:start;gap:12px">
-      <div style="width:8px;height:8px;border-radius:50%;background:var(--text-muted);margin-top:7px;flex-shrink:0"></div>
-      <div>
-        <div style="font-weight:600;font-size:0.85rem;margin-bottom:4px">Monetization Flags</div>
-        <p style="font-size:0.8rem;color:var(--text-muted);line-height:1.5">References to "Forta University" throughout function as implicit promotion of a paid educational offering while making factual claims.</p>
-      </div>
-    </div>
-  </div>
+  <div class="section-header"><h2>YouTube-Specific Flags</h2></div>
+  <div style="display:grid;gap:12px" id="youtube-flags"></div>
 </section>
 
-<!-- FOOTER -->
 <footer>
-  <p>Debate Auditor &mdash; Independent accuracy analysis for YouTube content creators.</p>
+  <p>Debate Auditor — Independent accuracy analysis for YouTube content creators.</p>
   <p style="margin-top:8px">Not affiliated with YouTube or any creator. All analyses are based on verifiable sources.</p>
 </footer>
 
-<!-- TAB SWITCHING JS -->
-<script>
-document.querySelectorAll('.tab-btn').forEach(btn => {
-  btn.addEventListener('click', () => {
-    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-    document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
-    btn.classList.add('active');
-    document.getElementById(btn.dataset.tab).classList.add('active');
-  });
-});
-</script>
-
+<script src="app.js"></script>
+<script>renderAnalysis();</script>
 </body>
 </html>
