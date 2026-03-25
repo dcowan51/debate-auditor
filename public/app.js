@@ -418,7 +418,14 @@ async function renderAnalysis() {
   });
 
   // Stratagems
-  document.getElementById('stratagems-tab').innerHTML = a.stratagems.map(s => `
+  document.getElementById('stratagems-tab').innerHTML = `
+    <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:20px 24px;margin-bottom:20px;border-left:4px solid var(--orange)">
+      <div style="font-size:0.95rem;font-weight:700;margin-bottom:8px;color:var(--orange)">What are Stratagems?</div>
+      <p style="font-size:0.85rem;color:var(--text-muted);line-height:1.6;margin-bottom:10px">Stratagems are rhetorical tricks and logical fallacies used to win an argument regardless of whether the position is true. We identify them using Arthur Schopenhauer's <em>The Art of Being Right</em> (1831), which cataloged 38 dishonest debate tactics that are still widely used today.</p>
+      <p style="font-size:0.85rem;color:var(--text-muted);line-height:1.6;margin-bottom:10px">Detecting stratagems doesn't mean the speaker is lying — it means they're using persuasion techniques that bypass evidence. A speaker can be right about a claim and still use a stratagem to argue for it.</p>
+      <a href="https://en.wikipedia.org/wiki/The_Art_of_Being_Right" target="_blank" rel="noopener" style="font-size:0.8rem;color:var(--accent-light);text-decoration:none">Learn more about Schopenhauer's 38 Stratagems &rarr;</a>
+    </div>
+  ` + a.stratagems.map(s => `
     <div class="stratagem-card">
       <div class="strat-header">
         <span class="strat-badge">Strat #${s.number}</span>
