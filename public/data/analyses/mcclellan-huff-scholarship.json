@@ -1,0 +1,582 @@
+{
+  "id": "mcclellan-huff-scholarship",
+  "creatorId": "dan-mcclellan",
+  "creatorName": "Dan McClellan",
+  "channel": "@maklelan",
+  "videoTitle": "Wes Huff doesn't know the scholarship",
+  "datePublished": "2025",
+  "dateAnalyzed": "March 25, 2026",
+  "sessionNumber": 1,
+  "analyzedRange": "0:00–36:15",
+  "videoUrl": "https://youtu.be/fDQzB77GOW0",
+  "thesis": "Wes Huff misrepresents his academic expertise and the scholarly consensus when making apologetic claims about the historical reliability of the New Testament on high-profile podcasts.",
+  "dashboard": {
+    "sessionScore": 76,
+    "cumulativeScore": null,
+    "cumulativeSessions": 1,
+    "trueClaims": 22,
+    "falseMisleading": 6,
+    "disputed": 4,
+    "totalChecked": 47,
+    "confidence": "Medium-High",
+    "verdict": "Caution",
+    "stratagems": 6,
+    "weaselWords": 4,
+    "errorImpact": null
+  },
+  "steelman": "The strongest version of Huff's position that McClellan does not adequately engage: (1) The Greco-Roman biography genre classification IS the mainstream scholarly consensus (Burridge 1992, widely accepted). Huff is not wrong to invoke it; the question is what conclusions follow from it. McClellan treats the genre appeal as if it were itself an apologetic invention. (2) Some serious scholars (Bauckham, Keener, Hengel) do argue for eyewitness-based tradition behind the gospels, even if they are in the minority. Huff's position is not academically isolated to the degree McClellan implies. (3) Huff's comparison of the chronological gap between Jesus's death and the gospels with the gap for other ancient figures is a legitimate methodological point in ancient history, even if the comparison to Tiberius specifically is strained because of the vast difference in corroborating evidence. (4) Textual criticism and historical reliability are not as hermetically sealed from each other as McClellan suggests. Textual critics do develop expertise in evaluating the transmission and reliability of sources, which is relevant (though not sufficient) to historical questions.",
+  "falseClaims": [
+    {
+      "claim": "James Barr's Fundamentalism was published 'in the mid-80s'",
+      "rating": "False",
+      "confidence": "High",
+      "timestamp": "25:06",
+      "evidence": "Barr's Fundamentalism was published in 1977 by SCM Press (London) and Westminster Press (Philadelphia). McClellan said 'I want to say was originally published in the mid 80s. I don't remember exactly when.'",
+      "settle": "The publication page of the book. Published 1977.",
+      "category": "Background",
+      "sources": [
+        {
+          "label": "James Barr, Fundamentalism — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fundamentalism_(James_Barr_book)"
+        },
+        {
+          "label": "James Barr (biblical scholar) — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/James_Barr_(biblical_scholar)"
+        }
+      ]
+    },
+    {
+      "claim": "The Greco-Roman biography genre classification is merely an apologetic ploy",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "7:02",
+      "evidence": "The classification of the gospels as Greco-Roman biography is the post-1992 scholarly consensus following Richard Burridge's What Are the Gospels? McClellan treats Huff's invocation of the genre as pure apologetics. Huff's use of genre to imply historicity may be apologetically motivated, but the genre identification itself is mainstream. McClellan blurs this distinction.",
+      "settle": "Acknowledging Burridge's consensus while critiquing the inferential leap from genre to historical reliability.",
+      "category": "Core",
+      "sources": [
+        {
+          "label": "Richard Burridge, What Are the Gospels? — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/What_Are_the_Gospels%3F"
+        },
+        {
+          "label": "Greco-Roman biography genre — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ancient_biography"
+        }
+      ]
+    },
+    {
+      "claim": "The Tiberius/Jesus comparison is 'wildly fallacious' and 'just ludicrous'",
+      "rating": "Overstated",
+      "confidence": "Medium",
+      "timestamp": "12:29",
+      "evidence": "The comparison is methodologically problematic due to vast differences in corroborating evidence, and McClellan is right about this. However, the comparison is a standard pedagogical tool in ancient history and is not inherently fallacious as a starting point. The error is in Huff's execution (suggesting parity), not in the comparison itself. McClellan's language exceeds what the evidence warrants.",
+      "settle": "Distinguishing between the validity of the comparison as a pedagogical tool and Huff's specific claims of parity.",
+      "category": "Core",
+      "sources": [
+        {
+          "label": "Velleius Paterculus — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Velleius_Paterculus"
+        },
+        {
+          "label": "Tiberius — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tiberius"
+        },
+        {
+          "label": "Historicity of Jesus — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Historicity_of_Jesus"
+        }
+      ]
+    },
+    {
+      "claim": "None of the gospels were written by anyone who ever knew or even met the historical Jesus",
+      "rating": "Disputed (stated as unqualified fact)",
+      "confidence": "Medium",
+      "timestamp": "8:42",
+      "evidence": "This is the majority view. However, serious scholars (Bauckham on John, some defenders of Matthean authorship) contest it. Stating it without qualification as settled fact overstates the consensus slightly.",
+      "settle": "A survey of current scholarship on gospel authorship, including minority positions.",
+      "category": "Core",
+      "sources": [
+        {
+          "label": "Authorship of the Johannine works — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Authorship_of_the_Johannine_works"
+        },
+        {
+          "label": "Richard Bauckham, Jesus and the Eyewitnesses — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jesus_and_the_Eyewitnesses"
+        },
+        {
+          "label": "Gospel of Matthew — Wikipedia (authorship section)",
+          "url": "https://en.wikipedia.org/wiki/Gospel_of_Matthew#Authorship_and_date"
+        }
+      ]
+    },
+    {
+      "claim": "Huff was 'just flagrantly lying' about scholarly literature on undesigned coincidences",
+      "rating": "Overstated",
+      "confidence": "Medium",
+      "timestamp": "34:48",
+      "evidence": "McClellan's underlying claim — that there are no detailed peer-reviewed responses to his criticisms of undesigned coincidences — appears to be correct. McLatchie confirmed this. However, 'flagrantly lying' implies conscious intent to deceive, whereas Huff may have genuinely (if incorrectly) believed such literature existed. McClellan elsewhere says he gives Huff the benefit of the doubt on other matters, creating an inconsistency.",
+      "settle": "Searching peer-reviewed NT journals for articles directly addressing McClellan's criticisms of undesigned coincidences.",
+      "category": "Support",
+      "sources": [
+        {
+          "label": "Undesigned coincidences — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Undesigned_coincidences"
+        },
+        {
+          "label": "Lydia McGrew — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lydia_McGrew"
+        }
+      ]
+    }
+  ],
+  "stratagems": [
+    {
+      "number": 8,
+      "name": "Making the Opponent Angry / Ad Hominem on Motive",
+      "instances": 3,
+      "entries": [
+        {
+          "quote": "What we're getting is an apologetic performance that is supposed to help people who really want this to be true and don't really know any better to feel like it's true.",
+          "timestamp": "4:02, 23:25, 35:27",
+          "explanation": "Repeatedly attributes Huff's conclusions to 'devotional theological commitments' rather than engaging with the possibility that Huff sincerely finds the evidence persuasive. While McClellan is entitled to note bias, the frequency and certainty with which he assigns motive edges into stratagem territory. Weasel-word flag: 'I think it's very clear' (1:02) introduces a subjective judgment as if it were transparent fact."
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "name": "Appeal to Authority (inverted: denying opponent's authority)",
+      "instances": 3,
+      "entries": [
+        {
+          "quote": "He's not credentialed yet. He's still working on his PhD... Wes Huff is not an expert in these things.",
+          "timestamp": "4:02, 23:02, 29:50",
+          "explanation": "McClellan repeatedly emphasizes that Huff is not credentialed and works outside his specialty. While factually grounded, the rhetorical weight placed on this is itself a form of authority argument — the implication being that only credentialed specialists can speak meaningfully on a topic."
+        }
+      ]
+    },
+    {
+      "number": 1,
+      "name": "Extension of the Opponent's Argument",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "According to what Wes has said about the 1600 years and all this stuff that means that Moses living in the 15th century BCE wrote the Pentateuch.",
+          "timestamp": "17:43",
+          "explanation": "McClellan infers that Huff's '1600 years' claim necessarily implies 15th-century Mosaic authorship. This is a reasonable inference given standard apologetic math, but McClellan presents it as certain when Huff did not explicitly state Mosaic authorship in the clip shown."
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "name": "Labeling / Poisoning the Well",
+      "instances": 4,
+      "entries": [
+        {
+          "quote": "This is not scholarship. This is again apologetics that wants you to think it is scholarship.",
+          "timestamp": "13:37, 16:22, 23:25, 35:27",
+          "explanation": "The binary framing of 'apologetics vs. scholarship' recurs throughout. While often warranted, it functions as a rhetorical label that forecloses the possibility that apologetic arguments can sometimes overlap with legitimate scholarly positions. Scholars like Richard Bauckham, Craig Keener, and N.T. Wright hold minority but academically serious positions on some of the same issues. Weasel-word flag: 'Just ludicrous' (12:29) — amplifying language that substitutes intensity for argument."
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "name": "Counter-Instance (using a single confirming witness)",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "I had a friend of mine chime in on Facebook, a friend who wrote this book, Jonathan Bernier.",
+          "timestamp": "21:27",
+          "explanation": "McClellan cites Bernier as a particularly strong confirming authority because Bernier argues for earlier NT dates yet still agrees that 99% consensus is false. This is effective argumentation, not fallacious per se, but it does function as an appeal to a single favorable authority."
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "name": "Appeal to the Audience (argumentum ad auditores)",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "I have heard from a number of colleagues who are experts in these fields that they don't appreciate that this is going on.",
+          "timestamp": "30:38",
+          "explanation": "McClellan invokes unnamed colleagues to suggest that the broader scholarly community is aligned with his critique. Without naming names or providing specific statements, this functions as an appeal to the audience's trust in McClellan's social network. Weasel-word flags: 'a number of colleagues' — vague quantification that cannot be verified; 'the trend is not in the direction of placing more and more trust' (15:51) — characterizes a complex scholarly landscape with a broad directional claim."
+        }
+      ]
+    }
+  ],
+  "scholarlySplits": [
+    {
+      "claim": "Gospels are not eyewitness testimony (majority view ~70-30 favoring McClellan's position; Bauckham, Keener, Hengel argue for eyewitness tradition)",
+      "nature": "McClellan presents the majority view as effectively the only scholarly view. However, minority scholars (Bauckham, Keener, Hengel) argue for eyewitness tradition behind the gospels.",
+      "timestamp": "8:42"
+    },
+    {
+      "claim": "None of the gospel authors knew Jesus (majority view ~75-25 favoring McClellan's position)",
+      "nature": "Some scholars defend traditional attributions of Matthew and John. The majority view holds the gospels are anonymous, but this is not universally accepted.",
+      "timestamp": "8:42"
+    },
+    {
+      "claim": "All 27 NT books were completed by end of 1st century (~60-40 favoring McClellan's position that this is false as consensus)",
+      "nature": "McClellan says this is false as consensus; 2 Peter and Pastorals may be 2nd century. Some scholars (including Bernier with caveats) argue for all-first-century dating.",
+      "timestamp": "20:49"
+    },
+    {
+      "claim": "The trend is away from trusting the traditions' connection to the historical Jesus",
+      "nature": "McClellan asserts this trend. However, the 'Third Quest' for the historical Jesus has in some respects increased confidence in certain traditions. Genuinely disputed; hard to characterize as a single trend.",
+      "timestamp": "15:51"
+    }
+  ],
+  "trueClaims": [
+    "Huff's specialization is in scribal habits and textual features, not historical criticism — confirmed by Huff's own academic profile and dissertation description",
+    "No NT manuscripts date to the time of Jesus — P52, the earliest candidate, dates to approximately 125-175 CE",
+    "P52 contains approximately 35-36 words — substantially correct, contains parts of about 7 lines on each side from John 18",
+    "Textual criticism and historical criticism are distinct fields with different methods and questions",
+    "The majority of scholars consider the gospels not to be eyewitness accounts — confirmed by multiple sources",
+    "Velleius Paterculus personally knew Tiberius and published during Tiberius's reign (circa 30 CE)",
+    "Calling Velleius Paterculus a 'paid propagandist' overstates the case — modern scholarship has rehabilitated Velleius as a partisan but valuable eyewitness source",
+    "Material evidence for Tiberius (inscriptions, coins, busts) vastly exceeds material evidence for Jesus",
+    "No direct archaeological attestation of Jesus dates to within a decade of his death",
+    "The book of Daniel was almost certainly completed in the 160s BCE — correct per scholarly consensus (167-163 BCE)",
+    "Huff's '99% of scholars' claim about first-century dating of all 27 NT books is inaccurate — confirmed, including by Bernier",
+    "Jonathan Bernier's dating windows extend into the 2nd century for 2 Peter and the Pastorals if pseudonymous",
+    "Huff is a PhD candidate, not yet a PhD holder — confirmed by academic profiles",
+    "Huff's 'word for word' claim about the Great Isaiah Scroll on Joe Rogan was inaccurate and he later retracted it",
+    "The 'word for word' claim traces to Gleason Archer's A Survey of Old Testament Introduction, which said 'more than 95 percent' — a critical qualifier Huff dropped"
+  ],
+  "youtubeFlags": [
+    {
+      "type": "Title Accuracy",
+      "severity": "caution",
+      "text": "Title 'Wes Huff doesn't know the scholarship' is a strong, unqualified claim. The video demonstrates that Huff misrepresents scholarly consensus on several points, but the title implies total ignorance rather than selective misrepresentation. Mildly sensationalized but defensible as a compression of the argument."
+    },
+    {
+      "type": "Implied Claims",
+      "severity": "warning",
+      "text": "The video implies that Huff is deliberately misleading audiences. McClellan explicitly says at 29:07 that he is 'not suggesting that this is all an intentional manipulative deception' regarding career path, but at 34:48 he says Huff was 'just flagrantly lying' about the scholarly literature. There is tension between charitable and uncharitable readings across the video."
+    },
+    {
+      "type": "Engagement Optimization",
+      "severity": "info",
+      "text": "The framing (responding to a high-profile podcast appearance) is standard commentary format. The personal confrontation narrative (community tab, plagiarism accusation) is presented late in the video and may function as engagement bait, though it is relevant to the thesis."
+    }
+  ],
+  "weightedAnalysis": {
+    "categories": [
+      {
+        "name": "Factual accuracy (verifiable claims)",
+        "weight": "40%",
+        "score": "82/100"
+      },
+      {
+        "name": "Representation of scholarly consensus",
+        "weight": "25%",
+        "score": "78/100"
+      },
+      {
+        "name": "Fairness to opponent",
+        "weight": "15%",
+        "score": "58/100"
+      },
+      {
+        "name": "Source quality",
+        "weight": "10%",
+        "score": "85/100"
+      },
+      {
+        "name": "Internal consistency",
+        "weight": "10%",
+        "score": "72/100"
+      }
+    ],
+    "weightedTotal": "76/100",
+    "coreErrorRule": "One clear factual error: claiming Barr's Fundamentalism was published in the 'mid-80s' (actually 1977). Minor slip. Penalty: -1 point.",
+    "patternRule": "Consistent pattern of accurately representing mainstream scholarly consensus on NT manuscript dating, gospel authorship, Daniel dating, textual criticism vs. historical criticism distinction, P52 dating. +3 reliability.",
+    "misquoteRule": "Quotes Bernier, Barr, and Sparks. The Bernier quote appears to be accurately represented. The Barr and Sparks quotes are read from printed pages. No misquotes detected. +2 reliability.",
+    "decontextualizationRule": "Does not acknowledge that the Greco-Roman biography classification is now a strong scholarly consensus (post-Burridge 1992), not merely an apologetic talking point. Penalty: -2 points. Does not acknowledge minority but academically serious scholars (Bauckham, Keener, Wright). Penalty: -1 point.",
+    "confidenceRule": "Speaks with high confidence throughout. Most high-confidence claims track the scholarly mainstream. However, confidence on motive-attribution is not empirically verifiable. Penalty: -1 point."
+  },
+  "allClaims": [
+    {
+      "num": 1,
+      "text": "Huff's specialization is in scribal habits and textual features, not in the historical reliability of New Testament narratives",
+      "timestamp": "1:02",
+      "verdict": "true"
+    },
+    {
+      "num": 2,
+      "text": "Huff's doctoral dissertation is about what paratextual features and scribal habits can tell us about how early Christian NT manuscripts were intended to be used (private vs. public)",
+      "timestamp": "1:48",
+      "verdict": "true"
+    },
+    {
+      "num": 3,
+      "text": "We do not have any manuscripts that date back to the time frame of Jesus",
+      "timestamp": "2:50",
+      "verdict": "true"
+    },
+    {
+      "num": 4,
+      "text": "At best, we might have one fragmentary manuscript with about 35-36 words on it dating to about 95-100 years after Jesus's death",
+      "timestamp": "2:50",
+      "verdict": "true"
+    },
+    {
+      "num": 5,
+      "text": "Textual criticism examines the transmission of manuscripts (whether what we have matches what was originally written), not the historical reliability of the content",
+      "timestamp": "2:50",
+      "verdict": "true"
+    },
+    {
+      "num": 6,
+      "text": "The majority of specialists would disagree with Huff's claim that the evidence supports early eyewitness testimony confirming Jesus predicted and accomplished his own death and resurrection",
+      "timestamp": "4:02",
+      "verdict": "true"
+    },
+    {
+      "num": 7,
+      "text": "Huff is not a specialist in historical criticism of the gospels",
+      "timestamp": "4:02",
+      "verdict": "true"
+    },
+    {
+      "num": 8,
+      "text": "The gospels fit within the historical framework of ancient Greco-Roman biography",
+      "timestamp": "7:02",
+      "verdict": "true"
+    },
+    {
+      "num": 9,
+      "text": "The gospels are more of a hybrid than a pure Greco-Roman biography genre",
+      "timestamp": "7:02",
+      "verdict": "disputed"
+    },
+    {
+      "num": 10,
+      "text": "The majority of scholars agree that the gospels are not eyewitness testimony",
+      "timestamp": "8:42",
+      "verdict": "true"
+    },
+    {
+      "num": 11,
+      "text": "None of the gospels were written by anyone who ever knew or met the historical Jesus",
+      "timestamp": "8:42",
+      "verdict": "disputed"
+    },
+    {
+      "num": 12,
+      "text": "Velleius Paterculus personally knew Tiberius and published his biography during the reign of Tiberius",
+      "timestamp": "8:42",
+      "verdict": "true"
+    },
+    {
+      "num": 13,
+      "text": "Calling Velleius Paterculus a 'paid propagandist' is pushing it",
+      "timestamp": "10:18",
+      "verdict": "true"
+    },
+    {
+      "num": 14,
+      "text": "We have inscriptions, coins, busts, bas reliefs, and other direct material evidence for Tiberius from people who personally knew him",
+      "timestamp": "11:09",
+      "verdict": "true"
+    },
+    {
+      "num": 15,
+      "text": "We have no inscription or direct archaeological attestation of Jesus dating to within a decade of his death",
+      "timestamp": "11:09",
+      "verdict": "true"
+    },
+    {
+      "num": 16,
+      "text": "Paul is actually writing before the gospel accounts",
+      "timestamp": "5:56",
+      "verdict": "true"
+    },
+    {
+      "num": 17,
+      "text": "The claim that Paul was 'literally thrown off a horse' on the Damascus road is not in Paul's own letters; this conflates Acts with Paul's account",
+      "timestamp": "5:56",
+      "verdict": "true"
+    },
+    {
+      "num": 18,
+      "text": "Huff's representation of the Bible as '66 books written over 1,600 years' presupposes the historicity of all narratives and traditional authorship attributions, including Mosaic authorship of the Pentateuch in the 15th century BCE",
+      "timestamp": "17:43",
+      "verdict": "true"
+    },
+    {
+      "num": 19,
+      "text": "The overwhelming majority of scholars agree that texts in the Hebrew Bible were written as late as the 160s BCE, specifically the book of Daniel",
+      "timestamp": "19:01",
+      "verdict": "true"
+    },
+    {
+      "num": 20,
+      "text": "The book of Daniel was almost certainly finished and compiled in the middle of the 2nd century BCE",
+      "timestamp": "19:01",
+      "verdict": "true"
+    },
+    {
+      "num": 21,
+      "text": "It is profoundly uninformed and misleading to suggest that 99% of historians, biblical scholars, and classicists would date all 27 NT books to before the end of the 1st century CE",
+      "timestamp": "20:49",
+      "verdict": "true"
+    },
+    {
+      "num": 22,
+      "text": "Jonathan Bernier wrote one of the strongest arguments for moving NT dating earlier and publicly confirmed McClellan's criticism was correct",
+      "timestamp": "21:27",
+      "verdict": "true"
+    },
+    {
+      "num": 23,
+      "text": "Even Bernier's argument includes dating windows extending into the 2nd century CE: up to 125 for 2 Peter and 150-175 for the pastoral epistles",
+      "timestamp": "22:03",
+      "verdict": "true"
+    },
+    {
+      "num": 24,
+      "text": "Huff is not yet credentialed (still working on his PhD)",
+      "timestamp": "23:02",
+      "verdict": "true"
+    },
+    {
+      "num": 25,
+      "text": "When Huff went on Joe Rogan and said the Great Isaiah Scroll matched the MT 'word for word,' he had to later come out and say that's not actually true",
+      "timestamp": "24:07",
+      "verdict": "true"
+    },
+    {
+      "num": 26,
+      "text": "Huff's 'word for word' claim was drawn from misremembering a passage from Gleason Archer, a mid-20th century conservative evangelical apologist",
+      "timestamp": "24:07",
+      "verdict": "true"
+    },
+    {
+      "num": 27,
+      "text": "There are zero detailed responses in the scholarly literature of the last 10 years that directly address McClellan's criticisms of undesigned coincidences",
+      "timestamp": "32:40",
+      "verdict": "true"
+    },
+    {
+      "num": 28,
+      "text": "Jonathan McLatchie, whose blog post Huff linked, has never published peer-reviewed research in any field related to the Bible or NT historical reliability",
+      "timestamp": "30:53",
+      "verdict": "true"
+    },
+    {
+      "num": 29,
+      "text": "McLatchie acknowledged in another blog post that Huff was wrong about there being detailed peer-reviewed engagements with McClellan's criticisms",
+      "timestamp": "32:40",
+      "verdict": "true"
+    },
+    {
+      "num": 30,
+      "text": "James Barr's book Fundamentalism was originally published in the mid-80s",
+      "timestamp": "25:06",
+      "verdict": "false"
+    },
+    {
+      "num": 31,
+      "text": "James Barr observed that conservative scholars disproportionately specialize in peripheral fields rather than central theological and critical fields",
+      "timestamp": "25:32",
+      "verdict": "true"
+    },
+    {
+      "num": 32,
+      "text": "Kenton Sparks in God's Word in Human Words observed that some evangelical scholars are poorly trained in critical issues because their views are not welcomed in academic settings",
+      "timestamp": "26:54",
+      "verdict": "true"
+    },
+    {
+      "num": 33,
+      "text": "The first biographer of Tiberius (Velleius Paterculus) was from the 1st century; the others (Cassius Dio, Suetonius, Tacitus) wrote in the 2nd century",
+      "timestamp": "8:42",
+      "verdict": "true"
+    },
+    {
+      "num": 34,
+      "text": "We have a 'handful of traditions' for Jesus's life; calling this 'a phenomenal amount of source information' is a significant exaggeration",
+      "timestamp": "15:51",
+      "verdict": "true"
+    },
+    {
+      "num": 35,
+      "text": "The trend in scholarship is not in the direction of placing more and more trust in the relationship between those traditions and the actual life of the historical Jesus",
+      "timestamp": "15:51",
+      "verdict": "disputed"
+    },
+    {
+      "num": 36,
+      "text": "Huff's community tab on YouTube was removed, not because of McClellan but because of a plagiarism accusation",
+      "timestamp": "34:06",
+      "verdict": "true"
+    },
+    {
+      "num": 37,
+      "text": "McClellan confronted Huff multiple times about the false claim regarding scholarly literature on undesigned coincidences, and Huff refused to acknowledge he was wrong or respond",
+      "timestamp": "34:06",
+      "verdict": "true"
+    },
+    {
+      "num": 38,
+      "text": "Paul writing before the gospel accounts is something Huff correctly states",
+      "timestamp": "5:56",
+      "verdict": "true"
+    },
+    {
+      "num": 39,
+      "text": "Greco-Roman biographies of historical figures are assessed with attention to contradictions between accounts; apologists resist doing this with the gospels due to presuppositions of inerrancy",
+      "timestamp": "13:04",
+      "verdict": "misleading"
+    },
+    {
+      "num": 40,
+      "text": "The actual content of the gospels and the actual content of other Greco-Roman biographies differ 'wildly' in the available corroborating data",
+      "timestamp": "7:02",
+      "verdict": "misleading"
+    },
+    {
+      "num": 41,
+      "text": "2nd century CE already has biased accounts written to serve the author's interests regarding Christian figures, not just 4th century",
+      "timestamp": "14:25",
+      "verdict": "true"
+    },
+    {
+      "num": 42,
+      "text": "After traditions about Jesus circulated, biographical accounts about him began to appear because he became 'a somebody from somewhere'",
+      "timestamp": "14:25",
+      "verdict": "true"
+    },
+    {
+      "num": 43,
+      "text": "Being a textual critic does not give you insight into historical-critical interrogation of manuscript content",
+      "timestamp": "2:50",
+      "verdict": "misleading"
+    },
+    {
+      "num": 44,
+      "text": "The comparison of Tiberius and Jesus as analogous biographical subjects is 'wildly fallacious'",
+      "timestamp": "12:29",
+      "verdict": "misleading"
+    },
+    {
+      "num": 45,
+      "text": "Huff fabricated the existence of scholarly literature addressing McClellan's criticisms in order to win an argument",
+      "timestamp": "34:48",
+      "verdict": "misleading"
+    },
+    {
+      "num": 46,
+      "text": "Lydia McGrew is the scholar who wrote the apologetic book on undesigned coincidences",
+      "timestamp": "30:53",
+      "verdict": "true"
+    },
+    {
+      "num": 47,
+      "text": "Wes Huff is a PhD candidate, not yet a PhD holder",
+      "timestamp": "23:02",
+      "verdict": "true"
+    }
+  ]
+}

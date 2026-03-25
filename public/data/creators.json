@@ -6,7 +6,12 @@
     "platform": "YouTube",
     "avatarColor": "#d63031",
     "initials": "AA",
-    "topics": ["Biblical Studies", "Gnosticism", "Theology", "Nonduality"],
+    "topics": [
+      "Biblical Studies",
+      "Gnosticism",
+      "Theology",
+      "Nonduality"
+    ],
     "sessions": 3,
     "totalClaims": 105,
     "trueClaims": 60,
@@ -26,7 +31,9 @@
       "Frequently employs Stratagem 11 (Induction with Concealed Counterexamples).",
       "Cumulative trajectory: Caution (63%) → Unreliable (55%) → Unreliable (57%)."
     ],
-    "analyses": ["aaron-abke-gnosticism"]
+    "analyses": [
+      "aaron-abke-gnosticism"
+    ]
   },
   {
     "id": "wes-huff",
@@ -35,7 +42,12 @@
     "platform": "YouTube",
     "avatarColor": "#00b894",
     "initials": "WH",
-    "topics": ["NT Manuscripts", "Apologetics", "Archaeology", "Textual Criticism"],
+    "topics": [
+      "NT Manuscripts",
+      "Apologetics",
+      "Archaeology",
+      "Textual Criticism"
+    ],
     "sessions": 2,
     "totalClaims": 73,
     "trueClaims": 58,
@@ -52,7 +64,10 @@
       "Uses cherry-picking of confirming archaeological evidence without addressing complications.",
       "Popular-level lecture format leads to imprecise but not malicious claims."
     ],
-    "analyses": ["wes-huff-artifacts", "wes-huff-historicity"]
+    "analyses": [
+      "wes-huff-artifacts",
+      "wes-huff-historicity"
+    ]
   },
   {
     "id": "james-tabor",
@@ -61,7 +76,12 @@
     "platform": "YouTube",
     "avatarColor": "#6c5ce7",
     "initials": "JT",
-    "topics": ["Biblical Studies", "Early Christianity", "Vegetarianism", "Hebrew Bible"],
+    "topics": [
+      "Biblical Studies",
+      "Early Christianity",
+      "Vegetarianism",
+      "Hebrew Bible"
+    ],
     "sessions": 1,
     "totalClaims": 43,
     "trueClaims": 30,
@@ -79,6 +99,43 @@
       "Decontextualization of Jeremiah 7 (condemns Baal worship, not all sacrifice).",
       "Academic credentials lend authority but thesis goes well beyond scholarly consensus."
     ],
-    "analyses": ["tabor-vegetarian"]
+    "analyses": [
+      "tabor-vegetarian"
+    ]
+  },
+  {
+    "id": "dan-mcclellan",
+    "name": "Dan McClellan",
+    "channel": "@maklelan",
+    "platform": "YouTube",
+    "avatarColor": "#0984e3",
+    "initials": "DM",
+    "topics": [
+      "Biblical Studies",
+      "Textual Criticism",
+      "Apologetics Critique",
+      "NT Scholarship"
+    ],
+    "sessions": 1,
+    "totalClaims": 47,
+    "trueClaims": 30,
+    "cumulativeScore": 76,
+    "verdict": "Caution",
+    "corePositions": [
+      "Wes Huff conflates textual criticism with historical criticism",
+      "Apologetics masquerades as scholarship on social media",
+      "Conservative evangelicals specialize in peripheral fields to avoid critical issues",
+      "Gospel-Tiberius comparison is fallacious due to vastly different evidence bases",
+      "99% consensus on first-century NT dating is false"
+    ],
+    "notablePatterns": [
+      "Strong command of scholarly consensus on NT dating, genre, and manuscript evidence.",
+      "Occasionally overstates the degree of scholarly unanimity on positions that favor his argument.",
+      "Editorial opinions and characterizations of motive sometimes presented as factual claims.",
+      "Accurately distinguishes textual criticism from historical criticism — a key methodological point."
+    ],
+    "analyses": [
+      "mcclellan-huff-scholarship"
+    ]
   }
 ]
