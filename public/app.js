@@ -263,6 +263,12 @@ async function renderAnalysis() {
       <h4>"${fc.claim}"</h4>
       <p class="evidence" style="margin-top:12px">${fc.evidence}</p>
       <p class="settle">What would settle it: ${fc.settle}</p>
+      ${fc.sources && fc.sources.length > 0 ? `
+        <div style="margin-top:12px;padding-top:12px;border-top:1px solid var(--border)">
+          <div style="font-size:0.7rem;text-transform:uppercase;letter-spacing:0.06em;color:var(--accent-light);font-weight:600;margin-bottom:8px">Sources</div>
+          ${fc.sources.map(s => `<a href="${s.url}" target="_blank" rel="noopener" style="display:block;font-size:0.8rem;color:var(--accent-light);margin-bottom:4px;text-decoration:none;opacity:0.85">${s.label} &rarr;</a>`).join('')}
+        </div>
+      ` : ''}
     </div>
   `).join('');
 

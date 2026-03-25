@@ -31,7 +31,25 @@
       "confidence": "High",
       "timestamp": "6:17–6:26",
       "evidence": "The speaker initially says '12 chapters,' corrects to '12 verses.' Both are wrong. The actual Aramaic content is approximately 269 verses: Daniel 2:4b–7:28 (~200 verses), Ezra 4:8–6:18 and 7:12–26 (~67 verses), Jeremiah 10:11, plus scattered words elsewhere. Ironically, '12 chapters' was closer to correct (~10 chapters).",
-      "settle": "Counting the Aramaic sections in a critical Hebrew/Aramaic OT."
+      "settle": "Counting the Aramaic sections in a critical Hebrew/Aramaic OT.",
+      "sources": [
+        {
+          "label": "Daniel 2:4b–7:28 (Aramaic section)",
+          "url": "https://www.biblegateway.com/passage/?search=Daniel+2%3A4-7%3A28&version=NRSVUE"
+        },
+        {
+          "label": "Ezra 4:8–6:18 (Aramaic section)",
+          "url": "https://www.biblegateway.com/passage/?search=Ezra+4%3A8-6%3A18&version=NRSVUE"
+        },
+        {
+          "label": "Jeremiah 10:11 (Aramaic verse)",
+          "url": "https://www.biblegateway.com/passage/?search=Jeremiah+10%3A11&version=NRSVUE"
+        },
+        {
+          "label": "Biblical Aramaic — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Biblical_Aramaic"
+        }
+      ]
     },
     {
       "claim": "Less than two decades ago, an inscription was discovered confirming a second Lysanias as tetrarch of Abilene under Tiberius and Pilate.",
@@ -39,7 +57,21 @@
       "confidence": "High",
       "timestamp": "22:50–23:14",
       "evidence": "The first inscription was discovered by Richard Pococke in 1737. A second, more complete inscription was published by Raphael Savignac in 1912. Both are over a century old. The underlying point (a second Lysanias existed) is correct, but the timeline is wrong by 100+ years.",
-      "settle": "Checking the publication history of the Abila inscriptions."
+      "settle": "Checking the publication history of the Abila inscriptions.",
+      "sources": [
+        {
+          "label": "Luke 3:1–2 (Lysanias reference)",
+          "url": "https://www.biblegateway.com/passage/?search=Luke+3%3A1-2&version=NRSVUE"
+        },
+        {
+          "label": "Lysanias — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lysanias"
+        },
+        {
+          "label": "Abilene (ancient region) — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Abilene_(ancient_region)"
+        }
+      ]
     },
     {
       "claim": "Erasmus was Martin Luther's first and primary sparring partner during the Reformation.",
@@ -47,7 +79,21 @@
       "confidence": "High",
       "timestamp": "10:31",
       "evidence": "Johann Eck was Luther's first and most persistent adversary, engaging him from the Leipzig Debate (1519) onward. Erasmus did not publicly engage Luther until De Libero Arbitrio in September 1524, seven years into the Reformation. Erasmus was a significant intellectual opponent but neither the first nor the primary one.",
-      "settle": "Chronology of Luther's public disputations and polemical exchanges."
+      "settle": "Chronology of Luther's public disputations and polemical exchanges.",
+      "sources": [
+        {
+          "label": "Leipzig Debate (1519) — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Leipzig_debate"
+        },
+        {
+          "label": "Johann Eck — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Johann_Eck"
+        },
+        {
+          "label": "De Libero Arbitrio (Erasmus) — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/De_libero_arbitrio_diatribe_sive_collatio"
+        }
+      ]
     },
     {
       "claim": "Christian communities were mostly female, mostly middle to lower class.",
@@ -55,7 +101,21 @@
       "confidence": "Medium",
       "timestamp": "9:27–9:36",
       "evidence": "Rodney Stark's The Rise of Christianity found that early Christianity attracted an unusual number from educated, cosmopolitan classes — not primarily the lower classes. Women were likely overrepresented (Stark), but 'mostly female' overstates the evidence. Wayne Meeks (The First Urban Christians) argued for a social cross-section.",
-      "settle": "A survey of current scholarship on early Christian social demographics."
+      "settle": "A survey of current scholarship on early Christian social demographics.",
+      "sources": [
+        {
+          "label": "The Rise of Christianity (Rodney Stark) — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Rise_of_Christianity"
+        },
+        {
+          "label": "Wayne Meeks, The First Urban Christians — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wayne_A._Meeks"
+        },
+        {
+          "label": "Sociology of early Christianity — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sociology_of_early_Christianity"
+        }
+      ]
     },
     {
       "claim": "Christians became the most prolific producers of texts by the 4th century and set the standards for writing for non-Christian texts.",
@@ -63,7 +123,21 @@
       "confidence": "Medium",
       "timestamp": "9:36–9:43",
       "evidence": "Larry Hurtado (Destroyer of the Gods) has argued that early Christians were unusually 'bookish' and text-oriented for their social composition, but 'the most prolific producers of texts' in the entire ancient world is an overstatement. Roman administrative, legal, and literary production was enormous.",
-      "settle": "Comparative analysis of text production rates across ancient communities."
+      "settle": "Comparative analysis of text production rates across ancient communities.",
+      "sources": [
+        {
+          "label": "Larry Hurtado, Destroyer of the Gods — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Larry_Hurtado"
+        },
+        {
+          "label": "Early Christian texts and codex adoption — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/History_of_the_book#Codex"
+        },
+        {
+          "label": "Scriptoria and early Christian manuscript production — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Scriptorium"
+        }
+      ]
     },
     {
       "claim": "The Gospel of Philip names characters popular in 4th-century Egypt because it was written in 4th-century Egypt.",
@@ -71,7 +145,21 @@
       "confidence": "Medium",
       "timestamp": "29:46",
       "evidence": "The Gospel of Philip is typically dated to the 3rd century (composed), though the surviving Coptic manuscript is from the 4th-century Nag Hammadi collection. Calling it a product of '4th-century Egypt' conflates the manuscript copy with the date of composition. The onomastic argument (from Bauckham) is also debated among scholars.",
-      "settle": "Peer-reviewed assessment of Bauckham's onomastic methodology applied to non-canonical texts."
+      "settle": "Peer-reviewed assessment of Bauckham's onomastic methodology applied to non-canonical texts.",
+      "sources": [
+        {
+          "label": "Gospel of Philip — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gospel_of_Philip"
+        },
+        {
+          "label": "Nag Hammadi library — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nag_Hammadi_library"
+        },
+        {
+          "label": "Richard Bauckham, Jesus and the Eyewitnesses — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jesus_and_the_Eyewitnesses"
+        }
+      ]
     }
   ],
   "stratagems": [

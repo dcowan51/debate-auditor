@@ -31,7 +31,21 @@
       "confidence": "High",
       "timestamp": "5:56",
       "evidence": "The scholarly estimate is approximately 360 animal skins (or 365 sheep/goats for 730 leaves). Daniel Wallace and the Codex Sinaiticus Project both cite ~360 animals. Huff's 260 understates this by roughly 100 animals.",
-      "settle": "Direct consultation of the Codex Sinaiticus Project's conservation records."
+      "settle": "Direct consultation of the Codex Sinaiticus Project's conservation records.",
+      "sources": [
+        {
+          "label": "Codex Sinaiticus Project — About the Codex",
+          "url": "https://codexsinaiticus.org/en/codex/"
+        },
+        {
+          "label": "Wikipedia — Codex Sinaiticus",
+          "url": "https://en.wikipedia.org/wiki/Codex_Sinaiticus"
+        },
+        {
+          "label": "British Library — Codex Sinaiticus",
+          "url": "https://www.bl.uk/collection-items/codex-sinaiticus"
+        }
+      ]
     },
     {
       "claim": "P52 paleographers unanimously dated it to the beginning of the second century.",
@@ -39,7 +53,21 @@
       "confidence": "High",
       "timestamp": "12:19",
       "evidence": "While C.H. Roberts proposed 100-150 CE and this was widely accepted initially, the dating has been significantly challenged. Brent Nongbri (2005) argued it could be late second or early third century. Orsini & Clarysse (2012) proposed 125-175 CE. The John Rylands Library itself now states recent research points to a date nearer to 200 AD.",
-      "settle": "Carbon-14 dating (not yet performed due to the destructive nature of the test)."
+      "settle": "Carbon-14 dating (not yet performed due to the destructive nature of the test).",
+      "sources": [
+        {
+          "label": "Wikipedia — Rylands Library Papyrus P52",
+          "url": "https://en.wikipedia.org/wiki/Rylands_Library_Papyrus_P52"
+        },
+        {
+          "label": "Nongbri (2005) — The Use and Abuse of P52",
+          "url": "https://doi.org/10.1163/157006105X00SEQ"
+        },
+        {
+          "label": "John Rylands Library — St John Fragment",
+          "url": "https://www.library.manchester.ac.uk/rylands/special-collections/exploring/st-johns-fragment/"
+        }
+      ]
     },
     {
       "claim": "P1 was dug up on January 12, 1897.",
@@ -47,7 +75,21 @@
       "confidence": "High",
       "timestamp": "6:21",
       "evidence": "According to published records, Grenfell and Hunt found P1 on the third or fourth day of excavation at Oxyrhynchus, which was January 13 or 14, 1897 — not January 12.",
-      "settle": "Grenfell's original excavation diary."
+      "settle": "Grenfell's original excavation diary.",
+      "sources": [
+        {
+          "label": "Wikipedia — Oxyrhynchus Papyri",
+          "url": "https://en.wikipedia.org/wiki/Oxyrhynchus_Papyri"
+        },
+        {
+          "label": "Wikipedia — Papyrus 1 (P1)",
+          "url": "https://en.wikipedia.org/wiki/Papyrus_1"
+        },
+        {
+          "label": "Egypt Exploration Society — Oxyrhynchus",
+          "url": "https://www.ees.ac.uk/oxyrhynchus"
+        }
+      ]
     },
     {
       "claim": "Pilate was removed from office under Caligula.",
@@ -55,7 +97,21 @@
       "confidence": "High",
       "timestamp": "23:59",
       "evidence": "Pilate was recalled by Vitellius, the legate of Syria, acting under the authority of Emperor Tiberius. Tiberius died before Pilate arrived in Rome, so Caligula was emperor upon his arrival — but Pilate was not removed under Caligula. The removal was ordered under Tiberius's administration.",
-      "settle": "The sources (Josephus) are clear on this point."
+      "settle": "The sources (Josephus) are clear on this point.",
+      "sources": [
+        {
+          "label": "Wikipedia — Pontius Pilate",
+          "url": "https://en.wikipedia.org/wiki/Pontius_Pilate"
+        },
+        {
+          "label": "Wikipedia — Pilate Stone",
+          "url": "https://en.wikipedia.org/wiki/Pilate_stone"
+        },
+        {
+          "label": "Josephus, Antiquities 18.4.2 — Pilate's recall",
+          "url": "https://en.wikisource.org/wiki/The_Antiquities_of_the_Jews/Book_XVIII#Chapter_4"
+        }
+      ]
     },
     {
       "claim": "Tacitus described as one of the four most ancient biographers and writers in the Greco-Roman period.",
@@ -63,7 +119,21 @@
       "confidence": "Medium",
       "timestamp": "22:34",
       "evidence": "Tacitus (c. 56-120 AD) was a Roman historian, not a biographer. He wrote well after numerous major Greco-Roman historians and biographers (Herodotus, Thucydides, Polybius, Plutarch, Suetonius). The claim that he is one of the four most ancient writers is historically nonsensical. Huff may have meant one of the four most important Roman historians.",
-      "settle": "Clarification from Huff on what he intended."
+      "settle": "Clarification from Huff on what he intended.",
+      "sources": [
+        {
+          "label": "Wikipedia — Tacitus",
+          "url": "https://en.wikipedia.org/wiki/Tacitus"
+        },
+        {
+          "label": "Wikipedia — Tacitus on Jesus (Annals 15.44)",
+          "url": "https://en.wikipedia.org/wiki/Tacitus_on_Jesus"
+        },
+        {
+          "label": "Stanford Encyclopedia of Philosophy — Ancient Historiography",
+          "url": "https://plato.stanford.edu/entries/historiography/"
+        }
+      ]
     },
     {
       "claim": "Huff conflates procurator vs. governor when the actual distinction is procurator vs. prefect.",
@@ -71,7 +141,25 @@
       "confidence": "High",
       "timestamp": "23:25",
       "evidence": "Huff says Pilate was commissioned not as a procurator but as a governor. The actual issue is that Tacitus calls Pilate a procurator when the Pilate Stone confirms he was a prefect (praefectus). The Gospels use the general Greek term hegemon (governor), which is not wrong but simply non-specific.",
-      "settle": "The evidence is already clear."
+      "settle": "The evidence is already clear.",
+      "sources": [
+        {
+          "label": "Wikipedia — Pilate Stone",
+          "url": "https://en.wikipedia.org/wiki/Pilate_stone"
+        },
+        {
+          "label": "Wikipedia — Tacitus on Jesus (procurator reference)",
+          "url": "https://en.wikipedia.org/wiki/Tacitus_on_Jesus"
+        },
+        {
+          "label": "BibleGateway — Matthew 27:2 (hegemon usage)",
+          "url": "https://www.biblegateway.com/passage/?search=Matthew+27%3A2&version=NRSVUE"
+        },
+        {
+          "label": "Wikipedia — Pontius Pilate (title discussion)",
+          "url": "https://en.wikipedia.org/wiki/Pontius_Pilate#Title"
+        }
+      ]
     },
     {
       "claim": "The accuracy of the seven books that we call the New Testament.",
@@ -79,7 +167,17 @@
       "confidence": "Low",
       "timestamp": "31:02",
       "evidence": "Huff earlier correctly states the NT contains 27 books. At 31:02 he appears to say seven books rather than twenty-seven books. This is most likely a verbal slip or transcript error rather than a substantive claim.",
-      "settle": "Review of the audio."
+      "settle": "Review of the audio.",
+      "sources": [
+        {
+          "label": "Wikipedia — Books of the New Testament",
+          "url": "https://en.wikipedia.org/wiki/Books_of_the_New_Testament"
+        },
+        {
+          "label": "BibleGateway — New Testament overview",
+          "url": "https://www.biblegateway.com/passage/?search=Matthew+1&version=NRSVUE"
+        }
+      ]
     }
   ],
   "stratagems": [

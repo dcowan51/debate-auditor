@@ -31,7 +31,12 @@
       "confidence": "High",
       "timestamp": "10:13",
       "evidence": "Reverses the historical chronology. Proto-Gnostic movements (Simon Magus, Cerinthus, Saturninus) predate Marcion by decades. Basilides and Valentinus developed independently. Harnack (Marcion: The Gospel of the Alien God, 1924) explicitly argued Marcion was NOT a Gnostic.",
-      "settle": "A scholarly source establishing Marcion as the chronological origin of Gnostic thought — none exists."
+      "settle": "A scholarly source establishing Marcion as the chronological origin of Gnostic thought — none exists.",
+      "sources": [
+        { "label": "Gnosticism — origins and history", "url": "https://en.wikipedia.org/wiki/Gnosticism" },
+        { "label": "Marcion of Sinope — not classified as Gnostic", "url": "https://en.wikipedia.org/wiki/Marcion_of_Sinope" },
+        { "label": "Simon Magus — proto-Gnostic figure predating Marcion", "url": "https://en.wikipedia.org/wiki/Simon_Magus" }
+      ]
     },
     {
       "claim": "This is also what essentially Protestantism teaches today — that Jesus is purely divine.",
@@ -39,7 +44,12 @@
       "confidence": "Very High",
       "timestamp": "38:39",
       "evidence": "Contradicts all major Protestant confessions. The Chalcedonian Definition (451 CE), affirmed by all mainstream Protestant traditions, declares Christ fully God and fully man in two natures. Westminster Confession (1646), ch. 8.2 affirms the same.",
-      "settle": "Any major Protestant confession teaching that Jesus had no human element — none exists."
+      "settle": "Any major Protestant confession teaching that Jesus had no human element — none exists.",
+      "sources": [
+        { "label": "Chalcedonian Definition — two natures of Christ", "url": "https://en.wikipedia.org/wiki/Chalcedonian_Definition" },
+        { "label": "Westminster Confession of Faith", "url": "https://en.wikipedia.org/wiki/Westminster_Confession_of_Faith" },
+        { "label": "Docetism — the heresy Abke describes", "url": "https://en.wikipedia.org/wiki/Docetism" }
+      ]
     },
     {
       "claim": "Rather than calling it the demiurge, they call it the devil. But it's the same concept.",
@@ -47,7 +57,11 @@
       "confidence": "High",
       "timestamp": "24:45",
       "evidence": "Conflates categorically different theological concepts. The Gnostic demiurge is the CREATOR of the material world. The Christian devil is a fallen creature who created nothing. These are structurally incompatible roles.",
-      "settle": "A systematic theology equating the two roles — none does."
+      "settle": "A systematic theology equating the two roles — none does.",
+      "sources": [
+        { "label": "Demiurge — Gnostic creator of the material world", "url": "https://en.wikipedia.org/wiki/Demiurge" },
+        { "label": "Devil in Christianity — fallen creature, not creator", "url": "https://en.wikipedia.org/wiki/Devil_in_Christianity" }
+      ]
     },
     {
       "claim": "In 1 Corinthians Paul says that the Ten Commandments... are a Ministry of death.",
@@ -55,7 +69,11 @@
       "confidence": "Very High",
       "timestamp": "14:38",
       "evidence": "Wrong book — the passage is 2 Corinthians 3:7, not 1 Corinthians. The full context is a typological comparison: Paul says the old covenant had glory but the new has greater glory.",
-      "settle": "The text itself, which is directly verifiable."
+      "settle": "The text itself, which is directly verifiable.",
+      "sources": [
+        { "label": "2 Corinthians 3:7 — the actual passage", "url": "https://www.biblegateway.com/passage/?search=2+Corinthians+3%3A7-11&version=NRSVUE" },
+        { "label": "Ministry of death in context of old vs new covenant", "url": "https://en.wikipedia.org/wiki/Second_Epistle_to_the_Corinthians" }
+      ]
     },
     {
       "claim": "Paul calls the disciples so-called Apostles... deceitful workmen, false apostles, messengers of Satan.",
@@ -63,7 +81,12 @@
       "confidence": "High",
       "timestamp": "15:54",
       "evidence": "2 Corinthians 11:13-15 refers to unnamed rival missionaries in Corinth, NOT the Twelve. Galatians 2:9 shows Paul affirming the Jerusalem leaders as acknowledged pillars.",
-      "settle": "Scholarly consensus on the identity of the super-apostles — favors rival missionaries, not the Twelve."
+      "settle": "Scholarly consensus on the identity of the super-apostles — favors rival missionaries, not the Twelve.",
+      "sources": [
+        { "label": "2 Corinthians 11:13-15 — false apostles passage", "url": "https://www.biblegateway.com/passage/?search=2+Corinthians+11%3A13-15&version=NRSVUE" },
+        { "label": "Galatians 2:9 — Paul affirms Jerusalem pillars", "url": "https://www.biblegateway.com/passage/?search=Galatians+2%3A9&version=NRSVUE" },
+        { "label": "Super-apostles — scholarly discussion", "url": "https://en.wikipedia.org/wiki/Super-apostles" }
+      ]
     },
     {
       "claim": "If you're a slave, don't worry about getting free.",
@@ -71,7 +94,11 @@
       "confidence": "Very High",
       "timestamp": "27:09",
       "evidence": "Paul says the opposite. 1 Corinthians 7:21: Even if you can gain your freedom, make use of the opportunity. Paul explicitly encourages slaves to gain freedom if possible.",
-      "settle": "The text itself."
+      "settle": "The text itself.",
+      "sources": [
+        { "label": "1 Corinthians 7:21 — Paul on slavery and freedom", "url": "https://www.biblegateway.com/passage/?search=1+Corinthians+7%3A21-23&version=NRSVUE" },
+        { "label": "1 Corinthians 7 — full chapter context", "url": "https://www.biblegateway.com/passage/?search=1+Corinthians+7&version=NRSVUE" }
+      ]
     }
   ],
   "stratagems": [
