@@ -1,6 +1,7 @@
 // ===== DEBATE AUDITOR — Dynamic Rendering Engine =====
 
-const BASE = '';
+// Auto-detect base path for GitHub Pages subdirectory
+const BASE = window.location.pathname.includes('/debate-auditor') ? '/debate-auditor' : '';
 
 // Utility: get URL params (supports ?id=x and #id=x as fallback)
 function getParam(key) {
