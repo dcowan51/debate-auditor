@@ -845,6 +845,198 @@ footer {
   font-style: italic;
 }
 
+/* ===== SCORE LEGEND ===== */
+.score-legend {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 32px;
+  padding: 12px 20px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+/* ===== SCORE BAR (creator cards) ===== */
+.score-bar-track {
+  width: 100%;
+  height: 4px;
+  background: var(--border);
+  border-radius: 2px;
+  margin-top: 12px;
+  overflow: hidden;
+}
+
+.score-bar-fill {
+  height: 100%;
+  border-radius: 2px;
+  transition: width 0.5s ease;
+}
+
+/* ===== SORT TOGGLE ===== */
+.sort-toggle {
+  display: flex;
+  gap: 4px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 2px;
+}
+
+.sort-btn {
+  padding: 5px 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  background: none;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all .2s;
+}
+
+.sort-btn:hover { color: var(--text); }
+.sort-btn.active { background: var(--accent); color: white; }
+
+/* ===== BACK TO TOP ===== */
+.back-to-top {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  box-shadow: var(--shadow);
+  z-index: 99;
+  transition: opacity .2s, transform .2s;
+}
+
+.back-to-top.visible { display: flex; }
+.back-to-top:hover { transform: scale(1.1); }
+
+/* ===== TLDR CARD ===== */
+.tldr-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px 24px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.tldr-item {
+  text-align: center;
+  padding: 8px;
+}
+
+.tldr-item .tldr-val {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 2px;
+}
+
+.tldr-item .tldr-label {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+/* ===== SEARCH RESULTS ===== */
+.search-results {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  margin-top: 4px;
+  max-height: 300px;
+  overflow-y: auto;
+  display: none;
+  z-index: 200;
+}
+
+.search-results.active { display: block; }
+
+.search-result-item {
+  padding: 10px 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: background .15s;
+  text-decoration: none;
+  color: var(--text);
+  font-size: 0.85rem;
+}
+
+.search-result-item:hover { background: var(--bg-card-hover); }
+
+.search-result-item .sr-score {
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+
+.nav-search { position: relative; }
+
+/* ===== SCORE RING VARIANTS ===== */
+.score-ring.caution .pct { color: var(--yellow); }
+.score-ring.caution .verdict-label { color: var(--yellow); }
+.score-ring.caution::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 6px solid transparent;
+  border-top-color: var(--yellow);
+  border-right-color: var(--yellow);
+  border-bottom-color: var(--yellow);
+  transform: rotate(-50deg);
+}
+
+.score-ring.reliable .pct { color: var(--green); }
+.score-ring.reliable .verdict-label { color: var(--green); }
+.score-ring.reliable::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 6px solid var(--green);
+  border-bottom-color: transparent;
+  transform: rotate(40deg);
+}
+
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
   .hero h1 { font-size: 2rem; }

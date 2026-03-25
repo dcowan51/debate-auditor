@@ -8,7 +8,6 @@ function getParam(key) {
 
 // Utility: fetch JSON using relative paths (works on any host/subdirectory)
 async function loadJSON(path) {
-  // Strip leading slash to make path relative
   const relativePath = path.startsWith('/') ? path.slice(1) : path;
   const res = await fetch(relativePath);
   if (!res.ok) throw new Error(`Failed to load ${relativePath}: ${res.status}`);
@@ -22,14 +21,18 @@ function scoreClass(score) {
   return 'unreliable';
 }
 
-// Utility: verdict from score
+function scoreColor(score) {
+  if (score >= 80) return 'var(--green)';
+  if (score >= 60) return 'var(--yellow)';
+  return 'var(--red-light)';
+}
+
 function verdictLabel(score) {
   if (score >= 80) return 'Reliable';
   if (score >= 60) return 'Caution';
   return 'Unreliable';
 }
 
-// Utility: verdict class for claim
 function claimClass(verdict) {
   if (verdict === 'true') return 'true';
   if (verdict === 'false') return 'false';
@@ -39,6 +42,69 @@ function claimClass(verdict) {
 
 function claimLabel(verdict) {
   return verdict.charAt(0).toUpperCase() + verdict.slice(1);
+}
+
+// Utility: format date nicely
+function formatDate(dateStr) {
+  if (!dateStr) return '';
+  const d = new Date(dateStr);
+  if (isNaN(d.getTime())) return dateStr; // return as-is if can't parse
+  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+}
+
+// ===== SEARCH =====
+function initSearch(creators, allAnalyses) {
+  const input = document.querySelector('.nav-search input');
+  if (!input) return;
+
+  // Create results dropdown
+  let dropdown = document.querySelector('.search-results');
+  if (!dropdown) {
+    dropdown = document.createElement('div');
+    dropdown.className = 'search-results';
+    input.parentElement.appendChild(dropdown);
+  }
+
+  input.addEventListener('input', () => {
+    const q = input.value.toLowerCase().trim();
+    if (q.length < 2) { dropdown.classList.remove('active'); return; }
+
+    const results = [];
+
+    // Search creators
+    creators.forEach(c => {
+      if (c.name.toLowerCase().includes(q) || c.channel.toLowerCase().includes(q) || c.topics.some(t => t.toLowerCase().includes(q))) {
+        results.push({ type: 'creator', name: c.name, subtitle: c.channel, score: c.cumulativeScore, url: `creator.html?id=${c.id}` });
+      }
+    });
+
+    // Search analyses
+    (allAnalyses || []).forEach(a => {
+      if (a.videoTitle.toLowerCase().includes(q) || a.thesis.toLowerCase().includes(q)) {
+        results.push({ type: 'video', name: a.videoTitle, subtitle: a.creatorName, score: a.dashboard.sessionScore, url: `analysis.html?id=${a.id}` });
+      }
+    });
+
+    if (results.length === 0) {
+      dropdown.innerHTML = '<div style="padding:12px 14px;font-size:0.8rem;color:var(--text-muted)">No results found</div>';
+    } else {
+      dropdown.innerHTML = results.slice(0, 8).map(r => `
+        <a href="${r.url}" class="search-result-item">
+          <span class="sr-score" style="background:${scoreColor(r.score)}20;color:${scoreColor(r.score)}">${r.score}%</span>
+          <div>
+            <div style="font-weight:600;font-size:0.8rem">${r.name}</div>
+            <div style="font-size:0.7rem;color:var(--text-muted)">${r.subtitle}</div>
+          </div>
+        </a>
+      `).join('');
+    }
+    dropdown.classList.add('active');
+  });
+
+  // Close on click outside
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('.nav-search')) dropdown.classList.remove('active');
+  });
 }
 
 // ===== HOMEPAGE =====
@@ -52,30 +118,54 @@ async function renderHomepage() {
   document.getElementById('stat-creators').textContent = creators.length;
   document.getElementById('stat-claims').textContent = totalClaims.toLocaleString() + '+';
 
-  // Creator cards
-  const grid = document.getElementById('creators-grid');
-  grid.innerHTML = creators.map(c => `
-    <a href="creator.html?id=${c.id}" class="creator-card" style="text-decoration:none;color:inherit">
-      <div class="creator-card-top">
-        <div class="creator-avatar" style="background:${c.avatarColor}">${c.initials}</div>
-        <div class="creator-info">
-          <h3>${c.name}</h3>
-          <div class="channel">${c.channel}</div>
+  // Sort state
+  let sortMode = 'score-asc'; // worst first (most interesting)
+
+  function renderCreatorGrid(mode) {
+    const sorted = [...creators];
+    if (mode === 'score-asc') sorted.sort((a, b) => a.cumulativeScore - b.cumulativeScore);
+    else if (mode === 'score-desc') sorted.sort((a, b) => b.cumulativeScore - a.cumulativeScore);
+    else sorted.sort((a, b) => b.sessions - a.sessions); // most analyzed
+
+    const grid = document.getElementById('creators-grid');
+    grid.innerHTML = sorted.map(c => `
+      <a href="creator.html?id=${c.id}" class="creator-card" style="text-decoration:none;color:inherit">
+        <div class="creator-card-top">
+          <div class="creator-avatar" style="background:${c.avatarColor}">${c.initials}</div>
+          <div class="creator-info">
+            <h3>${c.name}</h3>
+            <div class="channel">${c.channel}</div>
+          </div>
         </div>
-      </div>
-      <div class="creator-score">
-        <div class="score-badge ${scoreClass(c.cumulativeScore)}"><span class="dot"></span>${c.cumulativeScore}%</div>
-      </div>
-      <div class="creator-meta">
-        <span>${c.sessions} session${c.sessions > 1 ? 's' : ''}</span>
-        <span>${c.totalClaims} claims checked</span>
-        <span>Verdict: ${c.verdict}</span>
-      </div>
-      <div class="creator-topics">
-        ${c.topics.map(t => `<span class="topic-tag">${t}</span>`).join('')}
-      </div>
-    </a>
-  `).join('');
+        <div class="creator-score">
+          <div class="score-badge ${scoreClass(c.cumulativeScore)}"><span class="dot"></span>${c.cumulativeScore}%</div>
+        </div>
+        <div class="creator-meta">
+          <span>${c.sessions} session${c.sessions > 1 ? 's' : ''}</span>
+          <span>${c.totalClaims} claims checked</span>
+          <span>Verdict: ${c.verdict}</span>
+        </div>
+        <div class="creator-topics">
+          ${c.topics.map(t => `<span class="topic-tag">${t}</span>`).join('')}
+        </div>
+        <div class="score-bar-track">
+          <div class="score-bar-fill" style="width:${c.cumulativeScore}%;background:${scoreColor(c.cumulativeScore)}"></div>
+        </div>
+      </a>
+    `).join('');
+  }
+
+  renderCreatorGrid(sortMode);
+
+  // Sort buttons
+  document.querySelectorAll('.sort-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      sortMode = btn.dataset.sort;
+      renderCreatorGrid(sortMode);
+    });
+  });
 
   // Recent analyses — load all
   const allAnalyses = [];
@@ -103,9 +193,12 @@ async function renderHomepage() {
         <span style="color:var(--red-light)">${a.dashboard.falseMisleading} false</span>
         <span style="color:var(--yellow)">${a.dashboard.disputed} disputed</span>
       </div>
-      <div class="analysis-date">${a.dateAnalyzed}</div>
+      <div class="analysis-date">${formatDate(a.dateAnalyzed)}</div>
     </a>
   `).join('');
+
+  // Init search
+  initSearch(creators, allAnalyses);
 }
 
 // ===== CREATOR PROFILE =====
@@ -117,7 +210,6 @@ async function renderCreator() {
 
   document.title = `${creator.name} — Debate Auditor`;
 
-  // Header
   document.getElementById('creator-avatar').textContent = creator.initials;
   document.getElementById('creator-avatar').style.background = creator.avatarColor;
   document.getElementById('creator-name').textContent = creator.name;
@@ -126,23 +218,18 @@ async function renderCreator() {
   document.getElementById('stat-claims').textContent = creator.totalClaims;
   document.getElementById('stat-true').textContent = creator.trueClaims;
 
-  // Score ring
   const ring = document.getElementById('score-ring');
   ring.className = `score-ring ${scoreClass(creator.cumulativeScore)}`;
   document.getElementById('score-pct').textContent = `${creator.cumulativeScore}%`;
   document.getElementById('score-verdict').textContent = creator.verdict;
 
-  // Topics
   document.getElementById('creator-topics').innerHTML = creator.topics.map(t => `<span class="topic-tag">${t}</span>`).join('');
 
-  // Core positions
-  const posColors = {'Unreliable': 'var(--red-light)', 'Caution': 'var(--yellow)', 'Reliable': 'var(--green)'};
-  const posColor = posColors[creator.verdict] || 'var(--accent-light)';
+  const posColor = scoreColor(creator.cumulativeScore);
   document.getElementById('core-positions').innerHTML = creator.corePositions.map(p =>
     `<span style="padding:6px 14px;border-radius:20px;font-size:0.8rem;background:rgba(108,92,231,0.1);color:var(--accent-light);border:1px solid rgba(108,92,231,0.2)">${p}</span>`
   ).join('');
 
-  // Notable patterns
   document.getElementById('notable-patterns').innerHTML = creator.notablePatterns.map(p => `
     <div style="display:flex;align-items:start;gap:12px">
       <div style="width:8px;height:8px;border-radius:50%;background:${posColor};margin-top:7px;flex-shrink:0"></div>
@@ -150,8 +237,6 @@ async function renderCreator() {
     </div>
   `).join('');
 
-  // Load analyses
-  const analysesList = document.getElementById('analyses-list');
   const analyses = [];
   for (const aId of creator.analyses) {
     try {
@@ -160,11 +245,9 @@ async function renderCreator() {
     } catch (e) { /* skip */ }
   }
 
-  // Score trend
   const trendContainer = document.getElementById('trend-sessions');
-  trendContainer.innerHTML = analyses.map((a, i) => {
-    const cls = scoreClass(a.dashboard.sessionScore);
-    const color = cls === 'reliable' ? 'var(--green)' : cls === 'caution' ? 'var(--yellow)' : 'var(--red-light)';
+  trendContainer.innerHTML = analyses.map(a => {
+    const color = scoreColor(a.dashboard.sessionScore);
     return `
       <div class="trend-session">
         <div class="trend-bar-fill" style="height:${a.dashboard.sessionScore}%;background:${color}">
@@ -175,8 +258,7 @@ async function renderCreator() {
     `;
   }).join('');
 
-  // Analyzed videos
-  analysesList.innerHTML = analyses.map(a => `
+  document.getElementById('analyses-list').innerHTML = analyses.map(a => `
     <a href="analysis.html?id=${a.id}" class="analysis-row" style="text-decoration:none;color:inherit">
       <div class="analysis-score-mini ${scoreClass(a.dashboard.sessionScore)}">${a.dashboard.sessionScore}%</div>
       <div class="analysis-info">
@@ -188,9 +270,12 @@ async function renderCreator() {
         <span style="color:var(--red-light)">${a.dashboard.falseMisleading} false</span>
         <span style="color:var(--yellow)">${a.dashboard.disputed} disputed</span>
       </div>
-      <div class="analysis-date">Analyzed<br>${a.dateAnalyzed}</div>
+      <div class="analysis-date">Analyzed<br>${formatDate(a.dateAnalyzed)}</div>
     </a>
   `).join('');
+
+  // Init search
+  initSearch(creators, []);
 }
 
 // ===== ANALYSIS PAGE =====
@@ -207,20 +292,16 @@ async function renderAnalysis() {
   // Header
   document.getElementById('analysis-title').textContent = a.videoTitle;
   document.getElementById('date-published').textContent = `Published ${a.datePublished}`;
-  document.getElementById('date-analyzed').textContent = `Analyzed ${a.dateAnalyzed}`;
+  document.getElementById('date-analyzed').textContent = `Analyzed ${formatDate(a.dateAnalyzed)}`;
   document.getElementById('creator-link').innerHTML = `<a href="creator.html?id=${a.creatorId}">${a.channel}</a>`;
   document.getElementById('analyzed-range').textContent = `Full transcript (${a.analyzedRange})`;
 
   // YouTube embed + link
   if (a.videoUrl) {
-    // Extract video ID from various YouTube URL formats
     let videoId = '';
     const url = a.videoUrl;
-    if (url.includes('youtu.be/')) {
-      videoId = url.split('youtu.be/')[1].split(/[?&#]/)[0];
-    } else if (url.includes('v=')) {
-      videoId = url.split('v=')[1].split(/[&#]/)[0];
-    }
+    if (url.includes('youtu.be/')) videoId = url.split('youtu.be/')[1].split(/[?&#]/)[0];
+    else if (url.includes('v=')) videoId = url.split('v=')[1].split(/[&#]/)[0];
 
     document.getElementById('youtube-link').innerHTML = `
       <div style="margin-top:16px;border-radius:var(--radius);overflow:hidden;border:1px solid var(--border);background:#000">
@@ -231,16 +312,46 @@ async function renderAnalysis() {
       <a href="${a.videoUrl}" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;padding:8px 16px;background:rgba(214,48,49,0.12);border:1px solid rgba(214,48,49,0.3);border-radius:20px;color:#ff4444;font-size:0.85rem;font-weight:600;text-decoration:none;margin-top:12px">&#9654; Open on YouTube</a>
     `;
   }
+
+  // TL;DR Summary Card
+  const d = a.dashboard;
+  document.getElementById('tldr-card').innerHTML = `
+    <div class="tldr-item">
+      <div class="tldr-val" style="color:${scoreColor(d.sessionScore)}">${d.sessionScore}%</div>
+      <div class="tldr-label">Truth Score</div>
+    </div>
+    <div class="tldr-item">
+      <div class="tldr-val" style="color:var(--green)">${d.trueClaims}</div>
+      <div class="tldr-label">True Claims</div>
+    </div>
+    <div class="tldr-item">
+      <div class="tldr-val" style="color:var(--red-light)">${d.falseMisleading}</div>
+      <div class="tldr-label">False / Misleading</div>
+    </div>
+    <div class="tldr-item">
+      <div class="tldr-val" style="color:var(--orange)">${d.stratagems}</div>
+      <div class="tldr-label">Rhetorical Tricks</div>
+    </div>
+  `;
+
   document.getElementById('thesis-text').textContent = a.thesis;
 
   // Dashboard
-  const d = a.dashboard;
   const ring = document.getElementById('score-ring');
   ring.className = `score-ring ${scoreClass(d.sessionScore)}`;
   document.getElementById('session-pct').textContent = `${d.sessionScore}%`;
   document.getElementById('session-verdict').textContent = verdictLabel(d.sessionScore);
-  document.getElementById('cumulative-pct').textContent = `${d.cumulativeScore}%`;
-  document.getElementById('cumulative-label').textContent = `Cumulative (${d.cumulativeSessions} session${d.cumulativeSessions > 1 ? 's' : ''})`;
+
+  // Fix: cumulative score color
+  const cumEl = document.getElementById('cumulative-pct');
+  const cumScore = d.cumulativeScore || d.sessionScore;
+  cumEl.textContent = `${cumScore}%`;
+  cumEl.style.color = scoreColor(cumScore);
+
+  document.getElementById('cumulative-label').textContent = d.cumulativeScore
+    ? `Cumulative (${d.cumulativeSessions} session${d.cumulativeSessions > 1 ? 's' : ''})`
+    : 'First session';
+
   document.getElementById('dash-true').textContent = d.trueClaims;
   document.getElementById('dash-false').textContent = d.falseMisleading;
   document.getElementById('dash-disputed').textContent = d.disputed;
@@ -250,7 +361,6 @@ async function renderAnalysis() {
   document.getElementById('dash-weasel').textContent = d.weaselWords;
   document.getElementById('dash-error').textContent = d.errorImpact ? `${d.errorImpact}%` : 'N/A';
 
-  // Tab: total claims count
   document.getElementById('tab-claims-count').textContent = `All Claims (${d.totalChecked})`;
 
   // False claims
@@ -332,18 +442,22 @@ async function renderAnalysis() {
     `).join('')}
   `;
 
-  // Steelman
-  if (a.steelman) {
+  // Steelman — hide if empty
+  const steelmanSection = document.getElementById('steelman-section');
+  if (a.steelman && steelmanSection) {
     document.getElementById('steelman-text').textContent = a.steelman;
+  } else if (steelmanSection) {
+    steelmanSection.style.display = 'none';
   }
 
-  // YouTube flags
+  // YouTube flags — hide if empty
+  const ytSection = document.getElementById('youtube-flags-section');
   if (a.youtubeFlags && a.youtubeFlags.length > 0) {
     document.getElementById('youtube-flags').innerHTML = a.youtubeFlags.map(f => {
       const colors = { warning: 'var(--orange)', caution: 'var(--yellow)', info: 'var(--text-muted)' };
       return `
         <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-sm);padding:16px 20px;display:flex;align-items:start;gap:12px">
-          <div style="width:8px;height:8px;border-radius:50%;background:${colors[f.severity]};margin-top:7px;flex-shrink:0"></div>
+          <div style="width:8px;height:8px;border-radius:50%;background:${colors[f.severity] || 'var(--text-muted)'};margin-top:7px;flex-shrink:0"></div>
           <div>
             <div style="font-weight:600;font-size:0.85rem;margin-bottom:4px">${f.type}</div>
             <p style="font-size:0.8rem;color:var(--text-muted);line-height:1.5">${f.text}</p>
@@ -351,9 +465,12 @@ async function renderAnalysis() {
         </div>
       `;
     }).join('');
+  } else if (ytSection) {
+    ytSection.style.display = 'none';
   }
 
-  // Weighted analysis table
+  // Weighted analysis — hide if empty
+  const weightedSection = document.getElementById('weighted-section');
   if (a.weightedAnalysis) {
     const wa = a.weightedAnalysis;
     document.getElementById('weighted-analysis').innerHTML = `
@@ -386,6 +503,8 @@ async function renderAnalysis() {
         <p style="font-size:0.8rem;color:var(--text-muted);line-height:1.5">${wa.interpretation}</p>
       </div>
     `;
+  } else if (weightedSection) {
+    weightedSection.style.display = 'none';
   }
 
   // Tab switching
@@ -397,4 +516,13 @@ async function renderAnalysis() {
       document.getElementById(btn.dataset.tab).classList.add('active');
     });
   });
+
+  // Back to top button
+  const btt = document.getElementById('back-to-top');
+  if (btt) {
+    window.addEventListener('scroll', () => {
+      btt.classList.toggle('visible', window.scrollY > 400);
+    });
+    btt.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+  }
 }

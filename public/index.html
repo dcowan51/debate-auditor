@@ -43,6 +43,11 @@
       <div class="label">Claims Checked</div>
     </div>
   </div>
+  <div class="score-legend">
+    <div class="legend-item"><div class="legend-dot" style="background:var(--green)"></div> 80%+ Reliable</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--yellow)"></div> 60-79% Caution</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--red-light)"></div> &lt;60% Unreliable</div>
+  </div>
 </section>
 
 <section class="section">
@@ -67,7 +72,14 @@
 </section>
 
 <section class="section">
-  <div class="section-header"><h2>Creators</h2></div>
+  <div class="section-header">
+    <h2>Creators</h2>
+    <div class="sort-toggle">
+      <button class="sort-btn active" data-sort="score-asc">Lowest First</button>
+      <button class="sort-btn" data-sort="score-desc">Highest First</button>
+      <button class="sort-btn" data-sort="sessions">Most Analyzed</button>
+    </div>
+  </div>
   <div class="creators-grid" id="creators-grid"></div>
 </section>
 

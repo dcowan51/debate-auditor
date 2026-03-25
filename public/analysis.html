@@ -36,6 +36,10 @@
     <div class="meta-item" id="analyzed-range"></div>
   </div>
   <div id="youtube-link"></div>
+
+  <!-- TL;DR Summary -->
+  <div class="tldr-card" id="tldr-card"></div>
+
   <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:20px">
     <div style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--accent-light);font-weight:600;margin-bottom:8px">Thesis</div>
     <p style="font-size:0.9rem;line-height:1.6;color:var(--text-muted)" id="thesis-text"></p>
@@ -51,7 +55,7 @@
       </div>
       <div style="font-size:0.75rem;color:var(--text-muted);text-align:center;margin-top:4px">Session Score</div>
       <div style="margin-top:12px;padding-top:12px;border-top:1px solid var(--border);text-align:center">
-        <div style="font-size:1.3rem;font-weight:700;color:var(--red-light)" id="cumulative-pct">—</div>
+        <div style="font-size:1.3rem;font-weight:700" id="cumulative-pct">—</div>
         <div style="font-size:0.7rem;color:var(--text-muted)" id="cumulative-label"></div>
       </div>
     </div>
@@ -89,14 +93,14 @@
   <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:24px;overflow-x:auto" id="weighted-analysis"></div>
 </section>
 
-<section class="section">
+<section class="section" id="steelman-section">
   <div class="section-header"><h2>Steelman</h2></div>
   <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:24px;border-left:4px solid var(--green)">
     <p style="font-size:0.9rem;line-height:1.7;color:var(--text-muted)" id="steelman-text"></p>
   </div>
 </section>
 
-<section class="section">
+<section class="section" id="youtube-flags-section">
   <div class="section-header"><h2>YouTube-Specific Flags</h2></div>
   <div style="display:grid;gap:12px" id="youtube-flags"></div>
 </section>
@@ -105,6 +109,9 @@
   <p>Debate Auditor — Independent accuracy analysis for YouTube content creators.</p>
   <p style="margin-top:8px">Not affiliated with YouTube or any creator. All analyses are based on verifiable sources.</p>
 </footer>
+
+<!-- Back to top button -->
+<button class="back-to-top" id="back-to-top" title="Back to top">&#8593;</button>
 
 <script src="app.js"></script>
 <script>renderAnalysis();</script>
