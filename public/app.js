@@ -589,3 +589,183 @@ async function renderAnalysis() {
     btt.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
   }
 }
+
+// ===== ALL VIDEOS PAGE =====
+async function renderVideosPage() {
+  const creators = await loadJSON('/data/creators.json');
+
+  // Load all analyses
+  const allVideos = [];
+  for (const c of creators) {
+    for (const aId of c.analyses) {
+      try {
+        const a = await loadJSON(`/data/analyses/${aId}.json`);
+        a._creator = c;
+        allVideos.push(a);
+      } catch (e) { /* skip missing */ }
+    }
+  }
+
+  // Stats bar
+  const totalClaims = allVideos.reduce((s, a) => s + a.dashboard.totalChecked, 0);
+  const avgScore = allVideos.length > 0
+    ? Math.round(allVideos.reduce((s, a) => s + a.dashboard.sessionScore, 0) / allVideos.length)
+    : 0;
+  document.getElementById('stat-videos').textContent = allVideos.length;
+  document.getElementById('stat-claims').textContent = totalClaims.toLocaleString() + '+';
+  document.getElementById('stat-avg').textContent = avgScore + '%';
+
+  // Populate creator dropdown
+  const creatorSelect = document.getElementById('creator-filter');
+  const sortedCreators = [...creators].sort((a, b) => a.name.localeCompare(b.name));
+  sortedCreators.forEach(c => {
+    const opt = document.createElement('option');
+    opt.value = c.id;
+    opt.textContent = c.name;
+    creatorSelect.appendChild(opt);
+  });
+
+  // State
+  let verdictFilter = 'all';
+  let creatorFilter = 'all';
+  let sortMode = 'date-desc';
+  let searchQuery = '';
+
+  function getVerdictKey(score) {
+    if (score >= 80) return 'reliable';
+    if (score >= 60) return 'caution';
+    return 'unreliable';
+  }
+
+  function filterAndSort() {
+    let filtered = [...allVideos];
+
+    // Verdict filter
+    if (verdictFilter !== 'all') {
+      filtered = filtered.filter(a => getVerdictKey(a.dashboard.sessionScore) === verdictFilter);
+    }
+
+    // Creator filter
+    if (creatorFilter !== 'all') {
+      filtered = filtered.filter(a => a.creatorId === creatorFilter);
+    }
+
+    // Search
+    if (searchQuery.length >= 2) {
+      const q = searchQuery.toLowerCase();
+      filtered = filtered.filter(a =>
+        a.videoTitle.toLowerCase().includes(q) ||
+        a.thesis.toLowerCase().includes(q) ||
+        a.creatorName.toLowerCase().includes(q)
+      );
+    }
+
+    // Sort
+    if (sortMode === 'score-desc') filtered.sort((a, b) => b.dashboard.sessionScore - a.dashboard.sessionScore);
+    else if (sortMode === 'score-asc') filtered.sort((a, b) => a.dashboard.sessionScore - b.dashboard.sessionScore);
+    else if (sortMode === 'date-desc') filtered.sort((a, b) => new Date(b.dateAnalyzed) - new Date(a.dateAnalyzed));
+    else if (sortMode === 'date-asc') filtered.sort((a, b) => new Date(a.dateAnalyzed) - new Date(b.dateAnalyzed));
+    else if (sortMode === 'creator-asc') filtered.sort((a, b) => a.creatorName.localeCompare(b.creatorName));
+
+    return filtered;
+  }
+
+  function render() {
+    const filtered = filterAndSort();
+
+    document.getElementById('results-count').textContent =
+      `Showing ${filtered.length} of ${allVideos.length} videos`;
+
+    const grid = document.getElementById('video-cards-grid');
+    if (filtered.length === 0) {
+      grid.innerHTML = '<div style="text-align:center;padding:60px 20px;color:var(--text-muted);font-size:0.9rem">No videos match your filters.</div>';
+      return;
+    }
+
+    grid.innerHTML = filtered.map(a => {
+      const d = a.dashboard;
+      const score = d.sessionScore;
+      const cls = scoreClass(score);
+      const color = scoreColor(score);
+      const ytIcon = a.videoUrl ? `<a href="${a.videoUrl}" target="_blank" rel="noopener" class="yt-link" title="Watch on YouTube" onclick="event.stopPropagation()">&#9654; YouTube</a>` : '';
+
+      return `
+        <a href="analysis.html?id=${a.id}" class="video-card" style="text-decoration:none;color:inherit">
+          <div class="video-card-header">
+            <div class="video-card-creator">
+              <div class="video-card-avatar" style="background:${a._creator.avatarColor}">${a._creator.initials}</div>
+              <div>
+                <div class="video-card-creator-name">${a.creatorName}</div>
+                <div class="video-card-channel">${a.channel}</div>
+              </div>
+            </div>
+            <div class="video-card-score-badge ${cls}">
+              <span class="dot"></span>${score}%
+            </div>
+          </div>
+          <h3 class="video-card-title">${a.videoTitle}</h3>
+          <div class="video-card-verdict" style="color:${color}">${verdictLabel(score)}</div>
+          <div class="video-card-stats">
+            <div class="video-card-stat">
+              <span class="video-card-stat-val">${d.totalChecked}</span>
+              <span class="video-card-stat-label">Claims</span>
+            </div>
+            <div class="video-card-stat">
+              <span class="video-card-stat-val" style="color:var(--green)">${d.trueClaims}</span>
+              <span class="video-card-stat-label">True</span>
+            </div>
+            <div class="video-card-stat">
+              <span class="video-card-stat-val" style="color:var(--red-light)">${d.falseMisleading}</span>
+              <span class="video-card-stat-label">False</span>
+            </div>
+            <div class="video-card-stat">
+              <span class="video-card-stat-val" style="color:var(--yellow)">${d.disputed}</span>
+              <span class="video-card-stat-label">Disputed</span>
+            </div>
+          </div>
+          <div class="video-card-footer">
+            <span class="video-card-date">${formatDate(a.dateAnalyzed)}</span>
+            ${ytIcon}
+          </div>
+          <div class="score-bar-track">
+            <div class="score-bar-fill" style="width:${score}%;background:${color}"></div>
+          </div>
+        </a>
+      `;
+    }).join('');
+  }
+
+  // Initial render
+  render();
+
+  // Event listeners — verdict pills
+  document.getElementById('verdict-filter').addEventListener('click', (e) => {
+    const btn = e.target.closest('[data-verdict]');
+    if (!btn) return;
+    document.querySelectorAll('#verdict-filter .filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    verdictFilter = btn.dataset.verdict;
+    render();
+  });
+
+  // Creator dropdown
+  creatorSelect.addEventListener('change', () => {
+    creatorFilter = creatorSelect.value;
+    render();
+  });
+
+  // Sort dropdown
+  document.getElementById('sort-select').addEventListener('change', (e) => {
+    sortMode = e.target.value;
+    render();
+  });
+
+  // Search
+  document.getElementById('video-search').addEventListener('input', (e) => {
+    searchQuery = e.target.value.trim();
+    render();
+  });
+
+  // Init search
+  initSearch(creators, allVideos);
+}

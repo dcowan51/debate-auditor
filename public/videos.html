@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Videos — Act17:11</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <div class="logo-icon">17</div>
+      Act17:11
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="videos.html" class="active">Videos</a></li>
+      <li><a href="leaderboard.html">Leaderboard</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+    <div class="nav-search">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+      <input type="text" placeholder="Search creators or videos...">
+    </div>
+  </div>
+</nav>
+
+<!-- Stats Bar -->
+<section class="hero" style="padding-bottom:40px">
+  <h1 style="font-size:2.4rem">All Videos</h1>
+  <p>Every video we've analyzed, scored, and fact-checked — searchable and sortable.</p>
+  <div class="hero-stats">
+    <div class="hero-stat">
+      <div class="num" id="stat-videos">—</div>
+      <div class="label">Videos Analyzed</div>
+    </div>
+    <div class="hero-stat">
+      <div class="num" id="stat-claims">—</div>
+      <div class="label">Claims Checked</div>
+    </div>
+    <div class="hero-stat">
+      <div class="num" id="stat-avg">—</div>
+      <div class="label">Average Score</div>
+    </div>
+  </div>
+  <div class="score-legend" style="margin-top:20px">
+    <div class="legend-item"><div class="legend-dot" style="background:var(--green)"></div> 80%+ Reliable</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--yellow)"></div> 60-79% Caution</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--red-light)"></div> &lt;60% Unreliable</div>
+  </div>
+</section>
+
+<!-- Filter/Sort Controls -->
+<section class="section" style="padding-bottom:24px">
+  <div class="videos-controls" id="videos-controls">
+    <div class="controls-row">
+      <div class="control-group">
+        <label class="control-label">Verdict</label>
+        <div class="filter-pills" id="verdict-filter">
+          <button class="filter-btn active" data-verdict="all">All</button>
+          <button class="filter-btn" data-verdict="reliable">Reliable</button>
+          <button class="filter-btn" data-verdict="caution">Caution</button>
+          <button class="filter-btn" data-verdict="unreliable">Unreliable</button>
+        </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label">Creator</label>
+        <select class="control-select" id="creator-filter">
+          <option value="all">All Creators</option>
+        </select>
+      </div>
+      <div class="control-group">
+        <label class="control-label">Sort By</label>
+        <select class="control-select" id="sort-select">
+          <option value="score-desc">Score (high to low)</option>
+          <option value="score-asc">Score (low to high)</option>
+          <option value="date-desc" selected>Date analyzed (newest)</option>
+          <option value="date-asc">Date analyzed (oldest)</option>
+          <option value="creator-asc">Creator name (A-Z)</option>
+        </select>
+      </div>
+      <div class="control-group control-group-search">
+        <label class="control-label">Search</label>
+        <div class="control-search-wrap">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          <input type="text" class="control-search" id="video-search" placeholder="Search title or topic...">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Results count -->
+<section class="section" style="padding-bottom:8px">
+  <div id="results-count" style="font-size:0.8rem;color:var(--text-muted)"></div>
+</section>
+
+<!-- Video Cards Grid -->
+<section class="section">
+  <div class="video-cards-grid" id="video-cards-grid"></div>
+</section>
+
+<footer>
+  <p>Act17:11 — Independent accuracy analysis for YouTube content creators. "They examined the Scriptures daily to see if what was said was true." — Acts 17:11</p>
+  <p style="margin-top:8px">Not affiliated with YouTube or any creator. All analyses are based on verifiable sources.</p>
+</footer>
+
+<script src="app.js"></script>
+<script>renderVideosPage();</script>
+</body>
+</html>

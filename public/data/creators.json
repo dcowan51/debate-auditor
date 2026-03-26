@@ -32,6 +32,8 @@
       "Cumulative trajectory: Caution (63%) → Unreliable (55%) → Unreliable (57%)."
     ],
     "analyses": [
+      "aaron-abke-session1",
+      "aaron-abke-session2",
       "aaron-abke-gnosticism"
     ]
   },
