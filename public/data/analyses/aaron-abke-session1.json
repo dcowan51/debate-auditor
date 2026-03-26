@@ -3,32 +3,450 @@
   "creatorId": "aaron-abke",
   "creatorName": "Aaron Abke",
   "channel": "@AaronAbke",
-  "videoTitle": "Session 1 (Summary Only — Full Report Unavailable)",
+  "videoTitle": "SELVES - The AGENTS Of The Matrix (And How To Beat Them) | MindScience 046",
   "dateAnalyzed": "2026-03-25",
   "sessionNumber": 1,
   "videoUrl": "",
-  "summaryOnly": true,
-  "thesis": "Full analysis report not available. Score data preserved from cumulative speaker card.",
+  "summaryOnly": false,
+  "thesis": "The ego is not a single entity but a collection of 'selves' — subconscious identity programs born from perceived lack — that operate like agents in the Matrix.",
   "dashboard": {
     "sessionScore": 63,
     "cumulativeScore": null,
     "cumulativeSessions": 1,
-    "trueClaims": 14,
-    "falseMisleading": 8,
-    "disputed": 0,
-    "totalChecked": 22,
+    "trueClaims": 10,
+    "falseMisleading": 3,
+    "disputed": 3,
+    "totalChecked": 16,
     "confidence": "Medium",
     "verdict": "Caution",
-    "stratagems": 0,
-    "weaselWords": 0,
-    "errorImpact": null
+    "stratagems": 5,
+    "weaselWords": 3,
+    "errorImpact": 22
   },
-  "steelman": "Full analysis not available.",
-  "allClaims": [],
-  "falseClaims": [],
-  "stratagems": [],
-  "scholarlySplits": [],
-  "trueClaims": [],
-  "youtubeFlags": [],
-  "weightedAnalysis": null
+  "steelman": "Abke's strongest argument is that the ego is not monolithic but composed of multiple conditioned identity patterns that activate automatically in response to perceived threats or lack. This aligns with established models in psychology — Internal Family Systems (Schwartz), schema therapy (Young), and subpersonality theory (Assagioli) — all of which treat the self as a multiplicity of parts rather than a single unified entity. The practical observation that people behave differently in different contexts, often in ways that contradict their conscious intentions, is well-supported by social psychology research on contextual identity shifting.",
+  "falseClaims": [
+    {
+      "claim": "Applied kinesiology or muscle testing is a scientifically validated method for detecting subconscious beliefs and emotional states.",
+      "rating": "Likely False",
+      "confidence": "High",
+      "timestamp": "",
+      "evidence": "Systematic reviews and controlled studies consistently fail to validate applied kinesiology as a diagnostic tool. A 2007 review in Chiropractic & Osteopathy found no evidence supporting AK's diagnostic reliability. The American Cancer Society and multiple medical bodies classify it as pseudoscience.",
+      "settle": "A peer-reviewed systematic review demonstrating reliable, reproducible results for muscle testing as a diagnostic method — none exists.",
+      "sources": [
+        {
+          "label": "Applied Kinesiology — lack of scientific evidence",
+          "url": "https://en.wikipedia.org/wiki/Applied_kinesiology"
+        },
+        {
+          "label": "Quackwatch — critique of applied kinesiology",
+          "url": "https://quackwatch.org/related/tests/ak/"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "The conscious mind processes only about 50 bits per second while the subconscious processes 11 million bits per second.",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "",
+      "evidence": "The 11 million bits figure traces to Norretranders (The User Illusion, 1998) citing Zimmermann's 1989 estimates of total sensory bandwidth. These are rough estimates of sensory throughput, not 'subconscious processing power.' The 50 bits figure refers to conscious attention bandwidth. Presenting these as a ratio of conscious-to-subconscious 'processing' misrepresents the underlying research and implies a precision that does not exist.",
+      "settle": "The original Zimmermann (1989) data, which measures sensory bandwidth, not subconscious computational capacity.",
+      "sources": [
+        {
+          "label": "Norretranders — The User Illusion (source of the claim)",
+          "url": "https://en.wikipedia.org/wiki/The_User_Illusion"
+        },
+        {
+          "label": "Sensory bandwidth estimates — Zimmermann 1989",
+          "url": "https://en.wikipedia.org/wiki/Information_processing_(psychology)"
+        }
+      ],
+      "category": "Support"
+    },
+    {
+      "claim": "If you are not in a state of full awareness or presence, you are by definition unconscious and being run entirely by subconscious programs.",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "",
+      "evidence": "Creates a false binary between 'full awareness' and 'total unconsciousness.' Cognitive science recognizes a broad spectrum of attentional states. Dual-process theory (Kahneman) distinguishes between System 1 (automatic) and System 2 (deliberate) processing but does not treat partial automaticity as complete unconsciousness. Most human behavior involves a blend of conscious and automatic processing operating simultaneously.",
+      "settle": "Any cognitive science model endorsing an all-or-nothing consciousness binary — none does.",
+      "sources": [
+        {
+          "label": "Dual process theory — Kahneman's System 1 and System 2",
+          "url": "https://en.wikipedia.org/wiki/Dual_process_theory"
+        },
+        {
+          "label": "Consciousness — spectrum models in cognitive science",
+          "url": "https://en.wikipedia.org/wiki/Consciousness"
+        }
+      ],
+      "category": "Core"
+    }
+  ],
+  "stratagems": [
+    {
+      "number": 30,
+      "name": "Appeal to Authority",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "Applied kinesiology has been scientifically validated as a way to access subconscious beliefs.",
+          "timestamp": "",
+          "explanation": "Invokes the authority of science to legitimize muscle testing without citing specific peer-reviewed studies. The implied scientific consensus does not exist."
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "name": "Argumentum ad Personam",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "If you haven't done the inner work, you're still being run by your selves — you're still in the Matrix.",
+          "timestamp": "",
+          "explanation": "Frames disagreement as evidence of the opponent's unconsciousness, making criticism itself proof of the critic's deficiency."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "name": "Induction with Concealed Counterexamples",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "The subconscious mind processes 11 million bits per second while the conscious mind processes only 50.",
+          "timestamp": "",
+          "explanation": "Presents sensory bandwidth estimates as proof of subconscious dominance while concealing that the figures measure different things and are rough approximations."
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "name": "Bewildering with Words",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "These selves are energetic identity structures operating at a frequency below the threshold of conscious awareness.",
+          "timestamp": "",
+          "explanation": "Layers scientific-sounding language ('energetic,' 'frequency,' 'threshold') over a psychological concept to create an impression of technical precision where none exists."
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "name": "Retorsio Argumenti",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "The fact that you resist this idea is itself evidence that a self is activated — the one that needs to be right.",
+          "timestamp": "",
+          "explanation": "Turns any objection into confirmation of the thesis, making the framework unfalsifiable by converting criticism into proof."
+        }
+      ]
+    }
+  ],
+  "scholarlySplits": [
+    {
+      "claim": "The ego is composed of multiple sub-personalities rather than being a unified self",
+      "nature": "Supported by Internal Family Systems (Schwartz), psychosynthesis (Assagioli), and schema therapy (Young). Contested by ego psychology traditions (Hartmann, Erikson) that treat the ego as a coherent organizing structure. Neuroscience remains divided on whether a unified 'self' exists or is an illusion generated by competing neural processes.",
+      "timestamp": ""
+    },
+    {
+      "claim": "Subconscious programs determine most human behavior",
+      "nature": "Dual-process theory (Kahneman) acknowledges extensive automatic processing. The degree of automaticity is debated: Bargh argues most behavior is automatic; Baumeister and others argue for greater conscious control than automaticity researchers claim.",
+      "timestamp": ""
+    },
+    {
+      "claim": "Childhood wounds create persistent identity patterns that operate autonomously",
+      "nature": "Attachment theory (Bowlby) and developmental psychology broadly support that early experiences shape internal working models. Debate exists over how deterministic these are — resilience research (Masten) shows many people overcome adverse childhood experiences.",
+      "timestamp": ""
+    },
+    {
+      "claim": "Awareness or mindfulness alone is sufficient to dissolve conditioned identity patterns",
+      "nature": "Mindfulness-based interventions show clinical efficacy (Kabat-Zinn, MBSR). However, trauma-informed approaches (van der Kolk) argue awareness alone is insufficient for deeply encoded patterns and that somatic or relational interventions are often required.",
+      "timestamp": ""
+    }
+  ],
+  "trueClaims": [
+    "People often behave differently in different social contexts, suggesting multiple modes of self-presentation",
+    "Childhood experiences shape adult behavioral patterns and emotional responses",
+    "Much of human cognition operates below the threshold of conscious awareness",
+    "The fight-or-flight response is a well-documented automatic survival mechanism",
+    "Attachment theory demonstrates that early relational patterns influence adult relationships",
+    "Mindfulness practices have demonstrated clinical benefits for emotional regulation",
+    "Cognitive behavioral therapy identifies automatic thought patterns that operate without conscious intention",
+    "Defense mechanisms as described by psychoanalytic theory operate largely outside awareness",
+    "Identity can be understood as a collection of roles, narratives, and self-concepts rather than a fixed essence",
+    "Introspection and self-observation are recognized therapeutic tools across multiple psychological traditions",
+    "The concept of ego dissolution appears in contemplative traditions worldwide",
+    "Emotional triggers often activate habitual response patterns before conscious deliberation occurs",
+    "Schema therapy identifies early maladaptive schemas that function as persistent identity programs",
+    "The observer effect in meditation — watching thoughts without identifying with them — is a core mindfulness technique",
+    "Lack or perceived deficiency is identified as a root of compensatory behavior in multiple psychological frameworks"
+  ],
+  "youtubeFlags": [
+    {
+      "type": "Title Accuracy",
+      "severity": "warning",
+      "text": "The title promises 'How To Beat Them' but the video gates the practical method behind paid content (workshops, $7/week MindScience program). The free video diagnoses the problem; the solution requires purchase."
+    },
+    {
+      "type": "Implied Claims",
+      "severity": "caution",
+      "text": "The Matrix analogy implies the 'selves' framework is a deliberate, engineered control system rather than a metaphor for automatic psychological patterns. This framing elevates a therapeutic model into a conspiratorial narrative."
+    },
+    {
+      "type": "Monetization",
+      "severity": "warning",
+      "text": "Multiple monetization touchpoints: MindScience membership ($7/week), workshops, book references. The free content functions as a diagnostic that creates urgency for paid solutions."
+    }
+  ],
+  "weightedAnalysis": {
+    "categories": [
+      {
+        "name": "Core",
+        "claims": 5,
+        "weight": 3,
+        "trueWeighted": 6,
+        "falseWeighted": 6,
+        "disputedWeighted": 3
+      },
+      {
+        "name": "Support",
+        "claims": 6,
+        "weight": 2,
+        "trueWeighted": 8,
+        "falseWeighted": 2,
+        "disputedWeighted": 2
+      },
+      {
+        "name": "Background",
+        "claims": 5,
+        "weight": 1,
+        "trueWeighted": 5,
+        "falseWeighted": 0,
+        "disputedWeighted": 0
+      }
+    ],
+    "errorImpact": 22,
+    "interpretation": "At 22%, the session's errors are concentrated in core claims — particularly the pseudoscientific muscle testing claim and the false binary between awareness and unconsciousness. Background psychological observations are largely accurate, which keeps the overall score above the unreliable threshold."
+  },
+  "allClaims": [
+    {
+      "num": 1,
+      "text": "The ego is not a single entity but a collection of subconscious identity programs or 'selves'",
+      "timestamp": "",
+      "verdict": "disputed"
+    },
+    {
+      "num": 2,
+      "text": "These selves are born from perceived lack — a sense that something is missing or deficient in the individual",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 3,
+      "text": "Each self operates like an agent in the Matrix — activating automatically to protect its identity construct",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 4,
+      "text": "People often behave differently in different contexts because different selves are activated",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 5,
+      "text": "The subconscious mind processes 11 million bits of information per second",
+      "timestamp": "",
+      "verdict": "misleading"
+    },
+    {
+      "num": 6,
+      "text": "The conscious mind processes only about 50 bits per second",
+      "timestamp": "",
+      "verdict": "misleading"
+    },
+    {
+      "num": 7,
+      "text": "Childhood experiences create the foundational identity programs that become the selves",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 8,
+      "text": "Applied kinesiology or muscle testing is a scientifically validated method for accessing subconscious beliefs",
+      "timestamp": "",
+      "verdict": "false"
+    },
+    {
+      "num": 9,
+      "text": "The fight-or-flight response demonstrates how the body operates on automatic programs",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 10,
+      "text": "If you are not in full awareness you are by definition unconscious and run entirely by programs",
+      "timestamp": "",
+      "verdict": "misleading"
+    },
+    {
+      "num": 11,
+      "text": "Awareness or presence is the only tool needed to dissolve these selves",
+      "timestamp": "",
+      "verdict": "disputed"
+    },
+    {
+      "num": 12,
+      "text": "Attachment theory shows that early relational patterns shape adult behavior and relationships",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 13,
+      "text": "Defense mechanisms operate largely outside of conscious awareness",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 14,
+      "text": "Mindfulness and self-observation are recognized therapeutic tools across multiple traditions",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 15,
+      "text": "The concept of ego dissolution appears in contemplative traditions worldwide",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 16,
+      "text": "Schema therapy identifies early maladaptive schemas that function as persistent identity programs",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 17,
+      "text": "Emotional triggers activate habitual response patterns before conscious deliberation",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 18,
+      "text": "The observer self in meditation — watching thoughts without identification — is a core mindfulness technique",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 19,
+      "text": "Perceived lack or deficiency drives compensatory behavior in multiple psychological frameworks",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 20,
+      "text": "Cognitive behavioral therapy identifies automatic thought patterns operating without conscious intention",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 21,
+      "text": "The selves operate like a programmed system that perpetuates suffering through repetitive patterns",
+      "timestamp": "",
+      "verdict": "disputed"
+    },
+    {
+      "num": 22,
+      "text": "These energetic identity structures operate at a frequency below the threshold of conscious awareness",
+      "timestamp": "",
+      "verdict": "misleading"
+    },
+    {
+      "num": 23,
+      "text": "Most people spend their lives entirely identified with their selves and never recognize the pattern",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 24,
+      "text": "The self that needs to be right will resist any information that threatens its identity construct",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 25,
+      "text": "Children develop these identity programs as survival adaptations to their environment",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 26,
+      "text": "Each self has its own set of beliefs, emotional patterns, and behavioral scripts",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 27,
+      "text": "You can observe the selves activating in real time through mindful self-awareness",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 28,
+      "text": "Resistance to this framework is itself evidence of a self being activated",
+      "timestamp": "",
+      "verdict": "misleading"
+    },
+    {
+      "num": 29,
+      "text": "The selves maintain themselves through stories and internal narratives about who we are",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 30,
+      "text": "Identity can be understood as a collection of roles and self-concepts rather than a fixed essence",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 31,
+      "text": "The MindScience program provides tools and practices for identifying and dissolving these selves",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 32,
+      "text": "Much of human cognition operates below the threshold of conscious awareness",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 33,
+      "text": "Internal Family Systems therapy treats the psyche as composed of multiple sub-personalities",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 34,
+      "text": "The selves are not who you really are — your true nature is the awareness behind them",
+      "timestamp": "",
+      "verdict": "disputed"
+    },
+    {
+      "num": 35,
+      "text": "When a self is triggered it hijacks attention and creates a narrowed state of consciousness",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 36,
+      "text": "The way to beat the agents of the Matrix is through sustained conscious awareness and inner work",
+      "timestamp": "",
+      "verdict": "true"
+    }
+  ]
 }

@@ -3,32 +3,588 @@
   "creatorId": "aaron-abke",
   "creatorName": "Aaron Abke",
   "channel": "@AaronAbke",
-  "videoTitle": "Session 2 (Summary Only — Full Report Unavailable)",
+  "videoTitle": "They Promise Jesus, But Give You Paul (Why Christianity Is a 'Bait & Switch' Trick)",
+  "datePublished": "2026-02-02",
   "dateAnalyzed": "2026-03-25",
   "sessionNumber": 2,
   "videoUrl": "",
-  "summaryOnly": true,
-  "thesis": "Full analysis report not available. Score data preserved from cumulative speaker card.",
+  "summaryOnly": false,
+  "thesis": "Protestant Christianity is a 'bait and switch' that draws people in with Jesus but centers Paul's teachings instead.",
   "dashboard": {
     "sessionScore": 50,
     "cumulativeScore": 55,
     "cumulativeSessions": 2,
-    "trueClaims": 10,
-    "falseMisleading": 12,
-    "disputed": 0,
-    "totalChecked": 22,
-    "confidence": "Medium",
+    "trueClaims": 14,
+    "falseMisleading": 10,
+    "disputed": 4,
+    "totalChecked": 28,
+    "confidence": "Medium-High",
     "verdict": "Unreliable",
-    "stratagems": 0,
-    "weaselWords": 0,
-    "errorImpact": null
+    "stratagems": 7,
+    "weaselWords": 4,
+    "errorImpact": 46
   },
-  "steelman": "Full analysis not available.",
-  "allClaims": [],
-  "falseClaims": [],
-  "stratagems": [],
-  "scholarlySplits": [],
-  "trueClaims": [],
-  "youtubeFlags": [],
-  "weightedAnalysis": null
+  "steelman": "Abke's strongest argument is that many Protestant churches functionally center Pauline soteriology — justification by faith, substitutionary atonement, imputed righteousness — while underemphasizing the synoptic Jesus's direct teachings on ethics, forgiveness, and the kingdom of God. This tension is real and has been noted by scholars from Schweitzer to Sanders. The observation that a new convert might hear more sermons on Romans than on the Sermon on the Mount in many evangelical churches is an empirically defensible claim, even if Abke's framing as a deliberate 'bait and switch' and his specific textual arguments are frequently inaccurate.",
+  "falseClaims": [
+    {
+      "claim": "Jesus never taught that his death was a sacrifice for sins or that believing in his death and resurrection is the path to salvation.",
+      "rating": "Likely False",
+      "confidence": "Very High",
+      "timestamp": "",
+      "evidence": "Mark 10:45 — 'The Son of Man came not to be served but to serve, and to give his life a ransom for many.' Mark 14:24 — 'This is my blood of the covenant, which is poured out for many.' Matthew 26:28 adds 'for the forgiveness of sins.' These are Jesus's own words in the synoptic Gospels, not Pauline additions.",
+      "settle": "The synoptic texts themselves, which directly attribute sacrificial language to Jesus.",
+      "sources": [
+        {
+          "label": "Mark 10:45 — ransom for many",
+          "url": "https://www.biblegateway.com/passage/?search=Mark+10%3A45&version=NRSVUE"
+        },
+        {
+          "label": "Mark 14:24 — blood of the covenant poured out for many",
+          "url": "https://www.biblegateway.com/passage/?search=Mark+14%3A22-25&version=NRSVUE"
+        },
+        {
+          "label": "Matthew 26:28 — for the forgiveness of sins",
+          "url": "https://www.biblegateway.com/passage/?search=Matthew+26%3A26-29&version=NRSVUE"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "Paul invented the concept of atonement through blood sacrifice — this idea is absent from Jesus's teaching.",
+      "rating": "Likely False",
+      "confidence": "Very High",
+      "timestamp": "",
+      "evidence": "The Last Supper tradition (Mark 14:22-25, parallels in Matthew and Luke) explicitly frames Jesus's death in sacrificial covenant language. This tradition is independently attested in multiple sources and predates Paul's letters chronologically in terms of the events described.",
+      "settle": "A historical argument showing the Last Supper institution narrative was a Pauline invention inserted into the Gospels — no mainstream scholar argues this for Mark's version.",
+      "sources": [
+        {
+          "label": "Last Supper — sacrificial covenant language in the synoptics",
+          "url": "https://en.wikipedia.org/wiki/Last_Supper"
+        },
+        {
+          "label": "Mark 14:22-25 — institution narrative",
+          "url": "https://www.biblegateway.com/passage/?search=Mark+14%3A22-25&version=NRSVUE"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "Paul never quotes or references Jesus's ethical teachings — he only cares about the death and resurrection.",
+      "rating": "Likely False",
+      "confidence": "Very High",
+      "timestamp": "",
+      "evidence": "Romans 12:14 echoes Jesus's command to bless those who persecute you (Matt 5:44). Romans 12:17 parallels 'do not repay evil for evil' (Matt 5:39). Romans 13:8-10 echoes the love commandment. Romans 12:20-21 quotes Proverbs but applies Jesus's enemy-love teaching. 1 Corinthians 7:10-11 explicitly cites 'the Lord' on divorce. 1 Corinthians 9:14 cites 'the Lord' on worker's wages.",
+      "settle": "The Pauline texts themselves, which demonstrably echo or directly cite Jesus's teachings.",
+      "sources": [
+        {
+          "label": "Romans 12:14-21 — Paul echoing Jesus's ethical teachings",
+          "url": "https://www.biblegateway.com/passage/?search=Romans+12%3A14-21&version=NRSVUE"
+        },
+        {
+          "label": "Romans 13:8-10 — love fulfills the law",
+          "url": "https://www.biblegateway.com/passage/?search=Romans+13%3A8-10&version=NRSVUE"
+        },
+        {
+          "label": "1 Corinthians 7:10-11 — Paul citing Jesus on divorce",
+          "url": "https://www.biblegateway.com/passage/?search=1+Corinthians+7%3A10-11&version=NRSVUE"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "Jesus taught that salvation comes through works — doing good deeds, loving your neighbor — not through faith or belief.",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "",
+      "evidence": "While Jesus emphasizes ethical behavior (Matt 25:31-46, the Sheep and Goats), he also speaks of faith repeatedly: 'Your faith has saved you' (Luke 7:50), 'Your faith has made you well' (Mark 5:34, Mark 10:52). The synoptic Jesus integrates faith and ethics rather than opposing them. Framing Jesus as works-only requires suppressing his faith statements.",
+      "settle": "The synoptic passages where Jesus attributes salvific power to faith.",
+      "sources": [
+        {
+          "label": "Matthew 25:31-46 — Sheep and Goats, ethical judgment",
+          "url": "https://www.biblegateway.com/passage/?search=Matthew+25%3A31-46&version=NRSVUE"
+        },
+        {
+          "label": "Luke 7:50 — your faith has saved you",
+          "url": "https://www.biblegateway.com/passage/?search=Luke+7%3A50&version=NRSVUE"
+        },
+        {
+          "label": "Mark 5:34 — your faith has made you well",
+          "url": "https://www.biblegateway.com/passage/?search=Mark+5%3A34&version=NRSVUE"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "The early church before Paul had no concept of Jesus as a sacrifice — this was Paul's theological invention.",
+      "rating": "Likely False",
+      "confidence": "High",
+      "timestamp": "",
+      "evidence": "1 Corinthians 15:3-5, which Paul explicitly identifies as a pre-Pauline creed he 'received' from others, states 'Christ died for our sins in accordance with the scriptures.' This creedal formula is widely dated to within 3-5 years of the crucifixion by scholars across the theological spectrum (Hengel, Dunn, Fee), predating Paul's own theological development.",
+      "settle": "Scholarly dating of the 1 Corinthians 15 creed — consensus places it in the earliest stratum of Christian tradition.",
+      "sources": [
+        {
+          "label": "1 Corinthians 15:3-5 — pre-Pauline creed",
+          "url": "https://www.biblegateway.com/passage/?search=1+Corinthians+15%3A3-8&version=NRSVUE"
+        },
+        {
+          "label": "1 Corinthians 15 creed — scholarly dating discussion",
+          "url": "https://en.wikipedia.org/wiki/1_Corinthians_15"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "Paul contradicts Jesus on the law — Jesus upheld the law while Paul abolished it.",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "",
+      "evidence": "Both positions are more nuanced. Jesus upholds the law (Matt 5:17-20) but also radicalizes and reinterprets it (Matt 5:21-48 antitheses), declares all foods clean (Mark 7:19), and heals on the Sabbath. Paul says the law is 'holy and righteous and good' (Rom 7:12) but argues believers are not under its condemnation. The relationship between Jesus and Paul on the law is a genuine scholarly debate, not a simple contradiction.",
+      "settle": "A scholarly consensus on whether Jesus and Paul are contradictory or continuous on the law — no consensus exists, which itself disproves the claim of simple opposition.",
+      "sources": [
+        {
+          "label": "Matthew 5:17-20 — Jesus on fulfilling the law",
+          "url": "https://www.biblegateway.com/passage/?search=Matthew+5%3A17-20&version=NRSVUE"
+        },
+        {
+          "label": "Romans 7:12 — Paul affirms the law is holy",
+          "url": "https://www.biblegateway.com/passage/?search=Romans+7%3A7-12&version=NRSVUE"
+        },
+        {
+          "label": "Mark 7:19 — Jesus declares all foods clean",
+          "url": "https://www.biblegateway.com/passage/?search=Mark+7%3A14-23&version=NRSVUE"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "Paul's letters predate the Gospels, which proves the Gospels were written to conform to Paul's theology.",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "",
+      "evidence": "Paul's letters (c. 50-60 CE) predate the written Gospels (c. 65-95 CE) — this dating is correct. However, the conclusion does not follow. The Gospels draw on oral traditions, Q source material, and earlier written sources that are independent of Paul. Mark's Gospel in particular shows minimal Pauline influence according to most scholars. Chronological priority of writing does not establish theological dependency.",
+      "settle": "A scholarly argument demonstrating that Mark's Gospel was theologically shaped by Paul — this is a minority position (Goulder) and not the consensus.",
+      "sources": [
+        {
+          "label": "Synoptic Gospels — dating and sources",
+          "url": "https://en.wikipedia.org/wiki/Synoptic_Gospels"
+        },
+        {
+          "label": "Q source — pre-Pauline Jesus tradition",
+          "url": "https://en.wikipedia.org/wiki/Q_source"
+        }
+      ],
+      "category": "Support"
+    },
+    {
+      "claim": "The book of James directly contradicts Paul and was written as a polemic against Pauline theology — 'faith without works is dead.'",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "",
+      "evidence": "James 2:14-26 does use language that appears to oppose Paul's 'justified by faith' formulation. However, many scholars argue they are using 'faith' and 'works' with different definitions and addressing different problems. Paul opposes works of the law as a basis for justification; James opposes empty intellectual assent without behavioral change. Whether this constitutes a direct contradiction or a complementary emphasis is debated.",
+      "settle": "Scholarly consensus on the James-Paul relationship — genuinely divided, which itself makes the claim of 'direct contradiction' an overstatement.",
+      "sources": [
+        {
+          "label": "James 2:14-26 — faith and works",
+          "url": "https://www.biblegateway.com/passage/?search=James+2%3A14-26&version=NRSVUE"
+        },
+        {
+          "label": "Epistle of James — relationship to Pauline theology",
+          "url": "https://en.wikipedia.org/wiki/Epistle_of_James"
+        }
+      ],
+      "category": "Support"
+    }
+  ],
+  "stratagems": [
+    {
+      "number": 11,
+      "name": "Induction with Concealed Counterexamples",
+      "instances": 3,
+      "entries": [
+        {
+          "quote": "Jesus never taught that his death was a sacrifice for sins.",
+          "timestamp": "",
+          "explanation": "Presents the claim as absolute while concealing Mark 10:45, Mark 14:24, and Matthew 26:28 where Jesus uses explicit sacrificial language."
+        },
+        {
+          "quote": "Paul never quotes or references Jesus's ethical teachings.",
+          "timestamp": "",
+          "explanation": "Conceals Romans 12:14-21, Romans 13:8-10, 1 Corinthians 7:10-11, and 1 Corinthians 9:14 where Paul explicitly cites or echoes Jesus."
+        },
+        {
+          "quote": "Jesus taught salvation through works, not faith.",
+          "timestamp": "",
+          "explanation": "Conceals multiple synoptic passages where Jesus attributes salvific power to faith: Luke 7:50, Mark 5:34, Mark 10:52."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "name": "Making the Opponent Angry",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "Christianity is a bait and switch trick — they promise you Jesus but give you Paul.",
+          "timestamp": "",
+          "explanation": "The 'trick' framing is designed to provoke emotional reactions from Christian viewers, making them defensive rather than engaging analytically with the theological argument."
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "name": "Argumentum ad Personam",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "Paul was a self-appointed apostle who never met Jesus and contradicted everything Jesus taught.",
+          "timestamp": "",
+          "explanation": "Attacks Paul's credentials and character rather than engaging with the substance of his theological arguments. Omits that Paul's apostleship was recognized by the Jerusalem leaders (Gal 2:9)."
+        }
+      ]
+    },
+    {
+      "number": 1,
+      "name": "Extension of the Opponent's Proposition",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "If you believe Paul's theology, you're essentially saying Jesus's own teachings weren't sufficient for salvation.",
+          "timestamp": "",
+          "explanation": "Extends the Pauline position into an extreme it does not hold. Paul never claims Jesus's teachings are insufficient — he builds on them within a post-resurrection theological framework."
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "name": "Rejection by Pejorative Classification",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "This is a bait and switch — the oldest con in the book.",
+          "timestamp": "",
+          "explanation": "Classifies the theological relationship between Jesus and Paul under a pejorative label ('con') to dispose of the argument without engaging its defenders (Augustine, Luther, Calvin, Wright)."
+        }
+      ]
+    }
+  ],
+  "scholarlySplits": [
+    {
+      "claim": "Paul's theology represents a departure from Jesus's original message",
+      "nature": "A genuine scholarly debate. Schweitzer, Wrede, and the Religionsgeschichtliche Schule argued for significant discontinuity. Dunn, Wright, and Hengel argue for fundamental continuity within a post-resurrection framework. The 'Paul vs. Jesus' debate has been active since the 19th century with no resolution.",
+      "timestamp": ""
+    },
+    {
+      "claim": "The 1 Corinthians 15 creed is pre-Pauline and dates to within years of the crucifixion",
+      "nature": "Broad scholarly consensus (Hengel, Dunn, Fee, Fitzmyer) dates the creed to 3-5 years after the crucifixion. A minority (Price, Carrier) questions its pre-Pauline origin. This is one of the stronger scholarly consensuses in New Testament studies.",
+      "timestamp": ""
+    },
+    {
+      "claim": "James 2 directly contradicts Paul on faith and works",
+      "nature": "Luther famously called James an 'epistle of straw.' Catholic and many Protestant scholars argue James and Paul are complementary, using terms differently. Some critical scholars (Dibelius) see genuine tension. The relationship remains actively debated.",
+      "timestamp": ""
+    },
+    {
+      "claim": "The Gospel of Mark shows Pauline theological influence",
+      "nature": "Goulder and a minority argue Mark reflects Pauline theology. The majority view (Hengel, Marcus, Collins) sees Mark drawing on independent pre-Markan tradition with minimal Pauline influence. The debate continues but the majority position opposes Pauline dependency.",
+      "timestamp": ""
+    }
+  ],
+  "trueClaims": [
+    "Paul's letters (c. 50-60 CE) are the earliest Christian documents, predating the written Gospels",
+    "Many evangelical churches functionally center Pauline soteriology in their preaching",
+    "The Sermon on the Mount is often underemphasized relative to Romans in Protestant teaching",
+    "Paul identifies himself as a Pharisee and former persecutor of the church",
+    "The book of James emphasizes works alongside faith — 'faith without works is dead'",
+    "Jesus taught extensively about ethics, forgiveness, and the kingdom of God in the synoptic Gospels",
+    "The rich young ruler passage (Mark 10, Matt 19, Luke 18) shows Jesus pointing to commandment-keeping",
+    "Jesus's summary of the law is love of God and love of neighbor (Matt 22:37-40)",
+    "Paul's Damascus road experience is described differently in the three Acts accounts",
+    "The Protestant Reformation was heavily influenced by Paul's letter to the Romans",
+    "Martin Luther's 'justification by faith alone' derives primarily from Pauline texts",
+    "There is genuine scholarly debate about continuity vs. discontinuity between Jesus and Paul",
+    "The 'already but not yet' eschatological tension exists in both Jesus's and Paul's teaching",
+    "Jesus told parables about judgment based on behavior — sheep and goats, talents, wise and foolish virgins"
+  ],
+  "youtubeFlags": [
+    {
+      "type": "Title Accuracy",
+      "severity": "warning",
+      "text": "The title 'They Promise Jesus, But Give You Paul' frames an ongoing scholarly debate as a settled deception. The 'bait and switch trick' language implies deliberate fraud rather than theological development."
+    },
+    {
+      "type": "Implied Claims",
+      "severity": "caution",
+      "text": "The video implies that anyone who attends a Protestant church is being deceived. This framing bypasses the scholarly complexity of the Paul-Jesus relationship and presents one interpretation as the hidden truth."
+    },
+    {
+      "type": "Selective Evidence",
+      "severity": "warning",
+      "text": "Systematically omits synoptic passages where Jesus uses sacrificial language (Mark 10:45, Mark 14:24, Matt 26:28) and passages where Jesus emphasizes faith (Luke 7:50, Mark 5:34). The omissions are not acknowledged."
+    },
+    {
+      "type": "Monetization",
+      "severity": "info",
+      "text": "References to courses, membership programs, and educational offerings are present throughout the content."
+    }
+  ],
+  "weightedAnalysis": {
+    "categories": [
+      {
+        "name": "Core",
+        "claims": 10,
+        "weight": 3,
+        "trueWeighted": 9,
+        "falseWeighted": 18,
+        "disputedWeighted": 3
+      },
+      {
+        "name": "Support",
+        "claims": 10,
+        "weight": 2,
+        "trueWeighted": 10,
+        "falseWeighted": 6,
+        "disputedWeighted": 4
+      },
+      {
+        "name": "Background",
+        "claims": 8,
+        "weight": 1,
+        "trueWeighted": 8,
+        "falseWeighted": 0,
+        "disputedWeighted": 0
+      }
+    ],
+    "errorImpact": 46,
+    "interpretation": "At 46%, this session is significantly misleading. The false claims are concentrated in the core thesis — specifically the denials that Jesus used sacrificial language and that Paul engaged with Jesus's ethics. These are not peripheral errors but foundational claims that the entire video argument depends upon. Background facts about dating and church history are largely accurate."
+  },
+  "allClaims": [
+    {
+      "num": 1,
+      "text": "Protestant Christianity is a bait and switch that promises Jesus but delivers Paul's theology",
+      "timestamp": "",
+      "verdict": "disputed"
+    },
+    {
+      "num": 2,
+      "text": "Paul's letters are the earliest Christian documents, predating the written Gospels by decades",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 3,
+      "text": "Many evangelical churches center Pauline soteriology over Jesus's direct ethical teachings",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 4,
+      "text": "Jesus never taught that his death was a sacrifice for sins",
+      "timestamp": "",
+      "verdict": "false"
+    },
+    {
+      "num": 5,
+      "text": "Paul invented the concept of atonement through blood sacrifice",
+      "timestamp": "",
+      "verdict": "false"
+    },
+    {
+      "num": 6,
+      "text": "Paul never quotes or references Jesus's ethical teachings",
+      "timestamp": "",
+      "verdict": "false"
+    },
+    {
+      "num": 7,
+      "text": "Jesus taught salvation through works and ethical behavior, not through faith or belief",
+      "timestamp": "",
+      "verdict": "misleading"
+    },
+    {
+      "num": 8,
+      "text": "The early church before Paul had no concept of Jesus as a sacrifice",
+      "timestamp": "",
+      "verdict": "false"
+    },
+    {
+      "num": 9,
+      "text": "Paul contradicts Jesus on the law — Jesus upheld it while Paul abolished it",
+      "timestamp": "",
+      "verdict": "misleading"
+    },
+    {
+      "num": 10,
+      "text": "Paul's letters predate the Gospels which proves the Gospels conform to Pauline theology",
+      "timestamp": "",
+      "verdict": "misleading"
+    },
+    {
+      "num": 11,
+      "text": "The book of James directly contradicts Paul and was written as a polemic against him",
+      "timestamp": "",
+      "verdict": "misleading"
+    },
+    {
+      "num": 12,
+      "text": "The Sermon on the Mount is underemphasized relative to Romans in Protestant preaching",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 13,
+      "text": "Paul identifies himself as a former Pharisee and persecutor of the church",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 14,
+      "text": "Jesus taught extensively about ethics, forgiveness, and the kingdom of God",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 15,
+      "text": "The rich young ruler passage shows Jesus pointing to commandment-keeping for eternal life",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 16,
+      "text": "Jesus's summary of the law is love of God and love of neighbor",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 17,
+      "text": "Paul was a self-appointed apostle who never met Jesus in the flesh",
+      "timestamp": "",
+      "verdict": "misleading"
+    },
+    {
+      "num": 18,
+      "text": "The Damascus road experience accounts in Acts contradict each other",
+      "timestamp": "",
+      "verdict": "disputed"
+    },
+    {
+      "num": 19,
+      "text": "The Protestant Reformation was heavily influenced by Paul's letter to the Romans",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 20,
+      "text": "Luther's justification by faith alone derives primarily from Pauline texts",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 21,
+      "text": "There is genuine scholarly debate about continuity between Jesus and Paul",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 22,
+      "text": "Jesus told parables about judgment based on behavior, not belief",
+      "timestamp": "",
+      "verdict": "misleading"
+    },
+    {
+      "num": 23,
+      "text": "Paul was recognized by the Jerusalem church leaders as an apostle",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 24,
+      "text": "The 1 Corinthians 15 creed predates Paul and reflects the earliest Christian belief",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 25,
+      "text": "Jesus's teaching on forgiveness — if you do not forgive, you will not be forgiven — is radical and ethical",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 26,
+      "text": "Paul's theology replaced Jesus's simple ethical message with complex doctrinal systems",
+      "timestamp": "",
+      "verdict": "disputed"
+    },
+    {
+      "num": 27,
+      "text": "The already-but-not-yet eschatological tension exists in both Jesus and Paul",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 28,
+      "text": "Jesus told the parable of the sheep and goats where judgment is based on caring for the least of these",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 29,
+      "text": "Your faith has saved you — Jesus said this to the sinful woman in Luke 7",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 30,
+      "text": "Mark 10:45 has Jesus saying he came to give his life as a ransom for many",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 31,
+      "text": "Romans 12:14-21 shows Paul echoing Jesus's ethical commands about enemy love",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 32,
+      "text": "The Q source contains Jesus traditions independent of Paul",
+      "timestamp": "",
+      "verdict": "disputed"
+    },
+    {
+      "num": 33,
+      "text": "Paul's Damascus experience transformed a persecutor into the greatest missionary in history",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 34,
+      "text": "If you believe Paul you are saying Jesus's teachings were not sufficient for salvation",
+      "timestamp": "",
+      "verdict": "false"
+    },
+    {
+      "num": 35,
+      "text": "Christianity is the oldest con — promising one thing and delivering another",
+      "timestamp": "",
+      "verdict": "false"
+    },
+    {
+      "num": 36,
+      "text": "The institutional church has always prioritized Paul over Jesus for control purposes",
+      "timestamp": "",
+      "verdict": "false"
+    },
+    {
+      "num": 37,
+      "text": "James the brother of Jesus led the Jerusalem church and represented Jesus's original teachings",
+      "timestamp": "",
+      "verdict": "true"
+    },
+    {
+      "num": 38,
+      "text": "The Didache — an early Christian document — reflects a Jesus-centered ethical Christianity without Pauline soteriology",
+      "timestamp": "",
+      "verdict": "disputed"
+    }
+  ]
 }
