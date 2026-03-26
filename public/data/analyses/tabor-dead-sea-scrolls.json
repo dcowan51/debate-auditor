@@ -1,0 +1,618 @@
+{
+  "id": "tabor-dead-sea-scrolls",
+  "creatorId": "james-tabor",
+  "creatorName": "Dr. James D. Tabor",
+  "channel": "@JamesTaborVideos",
+  "videoTitle": "How the Dead Sea Scrolls \"Bible\" Differs from the Traditional Hebrew Text",
+  "datePublished": "2025",
+  "dateAnalyzed": "March 25, 2026",
+  "sessionNumber": 2,
+  "analyzedRange": "Full transcript",
+  "thesis": "Survey of Dead Sea Scrolls manuscript evidence showing how the DSS biblical text differs from the Masoretic tradition, revealing meaningful textual plurality in Second Temple Judaism.",
+  "dashboard": {
+    "sessionScore": 83,
+    "cumulativeScore": 81,
+    "cumulativeSessions": 2,
+    "trueClaims": 40,
+    "falseMisleading": 7,
+    "disputed": 1,
+    "totalChecked": 48,
+    "confidence": "High",
+    "verdict": "Reliable",
+    "stratagems": 2,
+    "weaselWords": 3,
+    "errorImpact": 12
+  },
+  "steelman": "Dr. Tabor presents a well-organized, generally accurate survey of Dead Sea Scrolls scholarship that serves as a solid introductory overview for non-specialists. His command of primary texts, manuscript history, and scholarly bibliography is strong. The lecture provides genuine educational value in explaining how the DSS challenge assumptions about a single, fixed biblical text. The weakness is not in the central thesis — which is well-supported — but in peripheral factual imprecisions (rounding dates, inflating numbers, omitting co-editors) and one unsubstantiated claim about the Book of Esther.",
+  "falseClaims": [
+    {
+      "claim": "15,000 fragments representing 'about 600 works'",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "0:55",
+      "evidence": "The scholarly consensus places the number of distinct manuscripts at approximately 900-981, not 600. The figure of '600' may refer specifically to non-biblical manuscripts (the Library of Congress notes '600 non-biblical manuscripts'), but as stated, it misleads about the total corpus.",
+      "settle": "Tabor may have been citing a specific subset (non-biblical only) but did not specify this.",
+      "sources": [
+        {
+          "label": "Dead Sea Scrolls -- total manuscript count (~900-981)",
+          "url": "https://en.wikipedia.org/wiki/Dead_Sea_Scrolls"
+        },
+        {
+          "label": "Israel Museum -- Dead Sea Scrolls collection",
+          "url": "https://www.imj.org.il/en/wings/shrine-book/dead-sea-scrolls"
+        }
+      ],
+      "category": "Support"
+    },
+    {
+      "claim": "Book of Esther 'recently identified' in Dead Sea Scrolls fragments",
+      "rating": "Likely False",
+      "confidence": "High",
+      "timestamp": "3:10",
+      "evidence": "Esther remains the only book of the Hebrew Bible not directly attested at Qumran. The 4Q550a-e fragments have been evaluated and most scholars conclude they are NOT witnesses to the biblical Book of Esther. The only widely circulated 'identification' was a Purim satire on TheTorah.com. No peer-reviewed identification of an Esther fragment from Qumran exists.",
+      "settle": "Publication of a peer-reviewed identification of an Esther fragment from Qumran.",
+      "sources": [
+        {
+          "label": "Armstrong Institute -- Esther in the Dead Sea Scrolls",
+          "url": "https://armstronginstitute.org/1099-esther-in-the-dead-sea-scrolls"
+        },
+        {
+          "label": "4Q550 -- Proto-Esther fragments (not biblical Esther)",
+          "url": "https://en.wikipedia.org/wiki/Dead_Sea_Scrolls#Biblical_books_found"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "Aleppo Codex 'partially destroyed by anti-Semites'",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "5:50",
+      "evidence": "The Aleppo Codex was damaged during the 1947 anti-Jewish riots in Aleppo, Syria, when the Great Synagogue was torched. However, when the codex resurfaced in Israel in 1958, roughly 40% was missing. Matti Friedman's investigation found evidence that pages went missing after the codex reached the Ben-Zvi Institute in Jerusalem. The fire damage is real, but the missing pages are likely not entirely attributable to the rioters.",
+      "settle": "Recovery of the missing pages would clarify their fate.",
+      "sources": [
+        {
+          "label": "Aleppo Codex -- history and damage",
+          "url": "https://en.wikipedia.org/wiki/Aleppo_Codex"
+        },
+        {
+          "label": "Matti Friedman -- investigation into missing pages",
+          "url": "https://www.tabletmag.com/sections/arts-letters/articles/aleppo-codex"
+        }
+      ],
+      "category": "Background"
+    },
+    {
+      "claim": "Isaiah scroll dates to 'about 150-200 BCE'",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "7:00",
+      "evidence": "Paleographic analysis dates the Great Isaiah Scroll to approximately 125-100 BCE, not 150-200 BCE. Carbon-14 dating gives a broader calibrated range of roughly 350-100 BCE, with the most probable window being 250-103 BCE. The conventional scholarly date is approximately 125 BCE. Tabor's stated range pushes the dating older than the paleographic consensus supports.",
+      "settle": "The paleographic date of 125-100 BCE is well-established.",
+      "sources": [
+        {
+          "label": "Great Isaiah Scroll -- dating and paleography",
+          "url": "https://en.wikipedia.org/wiki/Isaiah_scroll"
+        },
+        {
+          "label": "Israel Museum -- Digital Dead Sea Scrolls (Isaiah)",
+          "url": "http://dss.collections.imj.org.il/isaiah"
+        }
+      ],
+      "category": "Support"
+    },
+    {
+      "claim": "Leningrad Codex dates to 'approximately 1000 CE'",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "5:20",
+      "evidence": "According to its colophon, the Leningrad Codex was completed in 1008 CE (or possibly 1009). Saying 'approximately 1000 CE' is not wrong per se, but in an academic context, the precise date is well-known and the rounding introduces unnecessary imprecision.",
+      "settle": "The colophon date of 1008 CE is not in dispute.",
+      "sources": [
+        {
+          "label": "Leningrad Codex -- colophon date 1008 CE",
+          "url": "https://en.wikipedia.org/wiki/Leningrad_Codex"
+        }
+      ],
+      "category": "Background"
+    },
+    {
+      "claim": "Martinez as sole editor of the Dead Sea Scrolls Study Edition",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "13:00",
+      "evidence": "The Dead Sea Scrolls Study Edition was co-edited by Florentino Garcia Martinez AND Eibert J.C. Tigchelaar. Tabor credits only Martinez, omitting Tigchelaar. In academic citation this is a meaningful omission.",
+      "settle": "The title page lists both editors.",
+      "sources": [
+        {
+          "label": "Dead Sea Scrolls Study Edition -- Brill publisher (both editors listed)",
+          "url": "https://brill.com/display/package/9789004110588"
+        },
+        {
+          "label": "Florentino Garcia Martinez -- bibliography",
+          "url": "https://en.wikipedia.org/wiki/Florentino_Garc%C3%ADa_Mart%C3%ADnez"
+        }
+      ],
+      "category": "Background"
+    },
+    {
+      "claim": "Malachi 3 contains a plural reading in the Dead Sea Scrolls where the Masoretic Text has a singular",
+      "rating": "Unverifiable",
+      "confidence": "Medium",
+      "timestamp": "9:15",
+      "evidence": "Research could not locate a specific, well-documented plural vs. singular variant in Malachi chapter 3 among the DSS fragments. The best-known Malachi DSS variant involves Malachi 2:16, not chapter 3. Without a specific verse number, this claim cannot be fully verified from available published sources.",
+      "settle": "Tabor specifying the exact verse and Hebrew variant he is referencing.",
+      "sources": [
+        {
+          "label": "DSS English Bible -- Malachi 3 variants",
+          "url": "https://dssenglishbible.com/malachi%203.htm"
+        }
+      ],
+      "category": "Support"
+    }
+  ],
+  "stratagems": [
+    {
+      "number": 11,
+      "name": "Induction with Concealed Counterexamples",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "The Book of Esther has 'recently been identified' among Dead Sea Scrolls fragments.",
+          "timestamp": "3:10",
+          "explanation": "Tabor presents this as an established finding without noting that the only publicized 'identification' of Esther in the DSS was a Purim satire article on TheTorah.com. Legitimate scholarship (4Q550a-e fragments) has been evaluated and most scholars conclude these are NOT witnesses to the biblical Book of Esther. By omitting the contested nature of this claim, Tabor conceals the counterevidence that the scholarly consensus still holds Esther as absent from Qumran. This is a soft instance -- he may be referencing ongoing unpublished research -- but the claim as stated misleads."
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "name": "Argument from Authority",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "Citations of Vermes, VanderKam & Flint, Martinez, Eisenman, and Shanks as scholarly authorities.",
+          "timestamp": "12:30",
+          "explanation": "This is a benign and appropriate use in an academic lecture -- Tabor is recommending scholarly resources, not misusing authority to prove a contested point. Flagged only for completeness; no deduction warranted."
+        }
+      ]
+    }
+  ],
+  "scholarlySplits": [
+    {
+      "claim": "The Shapira scroll is authentic and shows parallels with DSS readings",
+      "nature": "Authenticity debated since 1883; renewed by Dershowitz and Tabor. Majority: still considered forgery or unresolved. Minority (Dershowitz, Tabor): authentic, possibly pre-exilic.",
+      "timestamp": "19:00"
+    }
+  ],
+  "trueClaims": [
+    "15,000 fragments found across Dead Sea caves",
+    "Cave 1 had 10 jars, with only one containing scrolls",
+    "~30% sectarian, ~30% non-biblical non-sectarian, ~40% biblical breakdown of DSS corpus",
+    "Leningrad Codex is the oldest complete manuscript of the Hebrew Bible",
+    "Aleppo Codex dates to approximately 930 CE",
+    "Aleppo Codex is older than the Leningrad Codex",
+    "Isaiah 53:11 in DSS reads 'see light' where the Masoretic Text omits it",
+    "The Septuagint agrees with the DSS reading of Isaiah 53:11 ('see light')",
+    "The Community Rule (1QS) describes a council of 12 men and 3 priests",
+    "Josephus was writing around 75 CE for Vespasian",
+    "Geza Vermes is the editor of The Complete Dead Sea Scrolls in English",
+    "VanderKam and Flint authored The Meaning of the Dead Sea Scrolls",
+    "Robert Eisenman played a key role in getting the scrolls released to the public",
+    "Hershel Shanks and BAR magazine were instrumental in freeing the scrolls (published facsimile editions 1991)",
+    "Four of five parts of 1 Enoch were found at Qumran (Book of Parables absent)",
+    "Enoch is quoted in the Epistle of Jude (Jude 14-15 quotes 1 Enoch 1:9)",
+    "Psalm 151 is found among the Dead Sea Scrolls (11QPsa/11Q5)",
+    "BHS stands for Biblia Hebraica Stuttgartensia",
+    "BHS is based on the Leningrad Codex",
+    "Deuteronomy 32:8 reads 'sons of God' in DSS vs. 'children of Israel' in the Masoretic Text",
+    "The Septuagint reads 'angels of God' at Deuteronomy 32:8",
+    "Michael Heiser worked on divine council theology related to Deuteronomy 32:8",
+    "Tabor has collaborated with Idan Dershowitz on Shapira scroll research (BAR 2021)",
+    "Scrolls discovered in 1947 by Bedouin shepherds",
+    "Scrolls found in caves near the Dead Sea",
+    "Dead Sea Scrolls date from approximately 3rd century BCE to 1st century CE",
+    "Every book of the Hebrew Bible represented in DSS except Esther",
+    "The Masoretic Text is the traditional text used in Jewish and Protestant Bibles",
+    "Cave 4 contained the largest number of manuscript fragments (~75% of all Qumran material)",
+    "The scrolls were controlled by a small group of scholars for decades before release (1950s-1991)",
+    "The Shapira manuscripts were declared forgeries in the 19th century (1883)",
+    "The Shapira strips contained a variant version of Deuteronomy",
+    "The Great Isaiah Scroll is approximately 95% identical to the Masoretic Text",
+    "Scrolls were written in Hebrew, Aramaic, and Greek",
+    "Dead Sea Scrolls are about 1,000 years older than the previously known oldest Hebrew Bible manuscripts",
+    "DSS provide evidence for textual plurality in Second Temple Judaism",
+    "Shapira scroll shows parallels with Dead Sea Scrolls readings (documented in published scholarship)",
+    "Deuteronomy 32:8 in the DSS supports a divine council worldview",
+    "The Book of Parables is the missing section of Enoch from Qumran",
+    "Shapira strips contained portions of Deuteronomy with variations from the Masoretic Text"
+  ],
+  "youtubeFlags": [
+    {
+      "type": "Title Accuracy",
+      "severity": "info",
+      "text": "The title 'How the Dead Sea Scrolls Bible Differs from the Traditional Hebrew Text' accurately describes the lecture content, which surveys textual variants between the DSS and the Masoretic Text. No clickbait mismatch detected."
+    },
+    {
+      "type": "Implied Claims",
+      "severity": "caution",
+      "text": "The lecture structure implies that Dead Sea Scrolls readings are generally more original or reliable than the Masoretic Text. While this is a legitimate scholarly position for specific variants (e.g., Deut 32:8, Isa 53:11), it is not universally true across all variants. The implied claim is partially supported but oversimplified."
+    },
+    {
+      "type": "Monetization",
+      "severity": "info",
+      "text": "No supplements, courses, or affiliate products promoted. Tabor recommends academic books available through standard publishers. No monetization concern."
+    }
+  ],
+  "weightedAnalysis": {
+    "categories": [
+      {
+        "name": "Core",
+        "trueClaims": 8,
+        "falseMisleading": 1,
+        "weight": 3,
+        "trueWeighted": 24,
+        "falseWeighted": 3
+      },
+      {
+        "name": "Support",
+        "trueClaims": 22,
+        "falseMisleading": 3,
+        "weight": 2,
+        "trueWeighted": 44,
+        "falseWeighted": 6
+      },
+      {
+        "name": "Background",
+        "trueClaims": 10,
+        "falseMisleading": 3,
+        "weight": 1,
+        "trueWeighted": 10,
+        "falseWeighted": 3
+      }
+    ],
+    "errorImpact": 12,
+    "interpretation": "At ~12%, this session falls into 'usable with verification.' Core argument about DSS textual plurality is well-supported by scholarship. Errors are concentrated in peripheral factual details (dates, numbers, co-editors) rather than thesis-level claims. Significantly improved from Session 1's 22% error impact."
+  },
+  "weaselWords": [
+    {
+      "phrase": "Recently identified",
+      "timestamp": "3:10",
+      "context": "Used to describe the Esther fragment claim, transferring burden of verification to an unnamed source."
+    },
+    {
+      "phrase": "Some scholars believe / many think",
+      "timestamp": "various",
+      "context": "Used occasionally when introducing minority positions without specifying who holds them or the proportion of scholarship."
+    },
+    {
+      "phrase": "Basically / essentially",
+      "timestamp": "various",
+      "context": "Used to smooth over nuances in textual variant discussions."
+    }
+  ],
+  "speakerCard": {
+    "handle": "Dr. James D. Tabor (@JamesTaborVideos)",
+    "channel": "YouTube",
+    "videoTitle": "How the Dead Sea Scrolls \"Bible\" Differs from the Traditional Hebrew Text",
+    "dateAnalyzed": "March 25, 2026",
+    "topic": "Survey of Dead Sea Scrolls manuscript evidence showing how the DSS biblical text differs from the Masoretic tradition",
+    "sessionTruthScore": "83% (Reliable)",
+    "cumulativeTruthScore": "81% (Caution) -- 2 sessions",
+    "sessionsAnalyzed": 2,
+    "sessionBreakdown": {
+      "session1": "79% (Caution) -- 30 true / 8 false / 5 disputed / 43 total",
+      "session2": "83% (Reliable) -- 40 true / 7 false / 1 disputed / 48 total",
+      "cumulative": "70 true / 15 false / 6 disputed / 91 total"
+    },
+    "stratagemsThisSession": "2 (1 Stratagem 11 soft instance; 1 benign Stratagem 30 -- academic citation)",
+    "specialization": "Second Temple Judaism, early Israelite religion, DSS manuscript studies",
+    "corePositions": [
+      "The DSS reveal meaningful textual plurality in Second Temple Judaism",
+      "The Masoretic Text is not the only or necessarily the most original form of the Hebrew Bible",
+      "DSS variants (Isa 53:11, Deut 32:8) have significant theological implications",
+      "The Shapira scroll deserves reconsideration as potentially authentic",
+      "A divine council worldview is embedded in the older textual traditions"
+    ],
+    "notablePatterns": [
+      "Strong command of primary texts and manuscript evidence.",
+      "Excellent bibliographic recommendations -- accurate citations of major scholarly works.",
+      "Tendency to round numbers or give approximate figures when precise data is available (Leningrad Codex date, Isaiah scroll dating, number of DSS works).",
+      "Presents the Shapira scroll authenticity case without fully disclosing that this remains a minority position.",
+      "Occasionally omits co-editors/co-authors (Tigchelaar omitted from Martinez credit).",
+      "Esther claim appears unsubstantiated -- possible conflation with Purim satire or unpublished research.",
+      "Accuracy improves significantly in survey/bibliographic mode vs. interpretive/argumentative mode (83% vs. 79%).",
+      "Session 1 pattern of conflating similar Hebrew roots and presenting minority positions as established was less evident in Session 2."
+    ]
+  },
+  "allClaims": [
+    {
+      "num": 1,
+      "text": "The Dead Sea Scrolls consist of approximately 15,000 fragments representing about 600 works",
+      "timestamp": "0:55",
+      "verdict": "misleading"
+    },
+    {
+      "num": 2,
+      "text": "Cave 1 contained 10 jars, with only one jar containing scrolls",
+      "timestamp": "1:30",
+      "verdict": "true"
+    },
+    {
+      "num": 3,
+      "text": "Approximately 30% of the Dead Sea Scrolls are sectarian documents",
+      "timestamp": "2:15",
+      "verdict": "true"
+    },
+    {
+      "num": 4,
+      "text": "Approximately 30% are non-biblical, non-sectarian works",
+      "timestamp": "2:15",
+      "verdict": "true"
+    },
+    {
+      "num": 5,
+      "text": "Approximately 40% are biblical texts",
+      "timestamp": "2:15",
+      "verdict": "true"
+    },
+    {
+      "num": 6,
+      "text": "The Book of Esther has recently been identified among the Dead Sea Scrolls fragments",
+      "timestamp": "3:10",
+      "verdict": "false"
+    },
+    {
+      "num": 7,
+      "text": "The Leningrad Codex dates to approximately 1000 CE",
+      "timestamp": "5:20",
+      "verdict": "misleading"
+    },
+    {
+      "num": 8,
+      "text": "The Leningrad Codex is the oldest complete manuscript of the Hebrew Bible",
+      "timestamp": "5:25",
+      "verdict": "true"
+    },
+    {
+      "num": 9,
+      "text": "The Aleppo Codex was partially destroyed by anti-Semites",
+      "timestamp": "5:50",
+      "verdict": "misleading"
+    },
+    {
+      "num": 10,
+      "text": "The Great Isaiah Scroll dates to approximately 150-200 BCE",
+      "timestamp": "7:00",
+      "verdict": "misleading"
+    },
+    {
+      "num": 11,
+      "text": "Isaiah 53:11 in the Dead Sea Scrolls reads 'see light' where the Masoretic Text omits it",
+      "timestamp": "8:30",
+      "verdict": "true"
+    },
+    {
+      "num": 12,
+      "text": "The Septuagint agrees with the Dead Sea Scrolls reading of Isaiah 53:11 ('see light')",
+      "timestamp": "8:45",
+      "verdict": "true"
+    },
+    {
+      "num": 13,
+      "text": "Malachi 3 contains a plural reading in the Dead Sea Scrolls where the Masoretic Text has a singular",
+      "timestamp": "9:15",
+      "verdict": "misleading"
+    },
+    {
+      "num": 14,
+      "text": "The Dead Sea Scroll community had a council of 12 with an inner group of 3",
+      "timestamp": "10:40",
+      "verdict": "true"
+    },
+    {
+      "num": 15,
+      "text": "Josephus was writing around 75 CE for Vespasian",
+      "timestamp": "11:20",
+      "verdict": "true"
+    },
+    {
+      "num": 16,
+      "text": "Geza Vermes is the editor of The Complete Dead Sea Scrolls in English",
+      "timestamp": "12:30",
+      "verdict": "true"
+    },
+    {
+      "num": 17,
+      "text": "VanderKam and Flint are the authors of The Meaning of the Dead Sea Scrolls",
+      "timestamp": "12:45",
+      "verdict": "true"
+    },
+    {
+      "num": 18,
+      "text": "Martinez is the editor of the Dead Sea Scrolls Study Edition",
+      "timestamp": "13:00",
+      "verdict": "misleading"
+    },
+    {
+      "num": 19,
+      "text": "Robert Eisenman played a key role in getting the scrolls released to the public",
+      "timestamp": "13:30",
+      "verdict": "true"
+    },
+    {
+      "num": 20,
+      "text": "Hershel Shanks and BAR were instrumental in freeing the scrolls",
+      "timestamp": "13:50",
+      "verdict": "true"
+    },
+    {
+      "num": 21,
+      "text": "Four of the five parts of 1 Enoch were found at Qumran",
+      "timestamp": "14:40",
+      "verdict": "true"
+    },
+    {
+      "num": 22,
+      "text": "The Book of Parables is the missing section of Enoch from Qumran",
+      "timestamp": "14:45",
+      "verdict": "true"
+    },
+    {
+      "num": 23,
+      "text": "Enoch is quoted in the Epistle of Jude",
+      "timestamp": "15:10",
+      "verdict": "true"
+    },
+    {
+      "num": 24,
+      "text": "Psalm 151 is found among the Dead Sea Scrolls",
+      "timestamp": "15:30",
+      "verdict": "true"
+    },
+    {
+      "num": 25,
+      "text": "BHS stands for Biblia Hebraica Stuttgartensia",
+      "timestamp": "16:20",
+      "verdict": "true"
+    },
+    {
+      "num": 26,
+      "text": "BHS is based on the Leningrad Codex",
+      "timestamp": "16:25",
+      "verdict": "true"
+    },
+    {
+      "num": 27,
+      "text": "Deuteronomy 32:8 reads 'sons of God' in the Dead Sea Scrolls vs. 'children of Israel' in the Masoretic Text",
+      "timestamp": "17:30",
+      "verdict": "true"
+    },
+    {
+      "num": 28,
+      "text": "The Septuagint reads 'angels of God' at Deuteronomy 32:8",
+      "timestamp": "17:40",
+      "verdict": "true"
+    },
+    {
+      "num": 29,
+      "text": "Michael Heiser worked on divine council theology related to Deuteronomy 32:8",
+      "timestamp": "18:00",
+      "verdict": "true"
+    },
+    {
+      "num": 30,
+      "text": "The Shapira scroll shows parallels with Dead Sea Scrolls readings",
+      "timestamp": "19:00",
+      "verdict": "true"
+    },
+    {
+      "num": 31,
+      "text": "Tabor has been collaborating with Idan Dershowitz on the Shapira scroll authenticity question",
+      "timestamp": "19:15",
+      "verdict": "true"
+    },
+    {
+      "num": 32,
+      "text": "The scrolls were discovered in 1947 by Bedouin shepherds",
+      "timestamp": "0:40",
+      "verdict": "true"
+    },
+    {
+      "num": 33,
+      "text": "The scrolls were found in caves near the Dead Sea",
+      "timestamp": "0:42",
+      "verdict": "true"
+    },
+    {
+      "num": 34,
+      "text": "The Dead Sea Scrolls date from approximately the 3rd century BCE to 1st century CE",
+      "timestamp": "1:00",
+      "verdict": "true"
+    },
+    {
+      "num": 35,
+      "text": "Every book of the Hebrew Bible is represented in the Dead Sea Scrolls except Esther",
+      "timestamp": "3:00",
+      "verdict": "true"
+    },
+    {
+      "num": 36,
+      "text": "The Dead Sea Scrolls are about 1,000 years older than the previously known oldest Hebrew Bible manuscripts",
+      "timestamp": "6:00",
+      "verdict": "true"
+    },
+    {
+      "num": 37,
+      "text": "The Masoretic Text is the traditional text used in Jewish and Protestant Bibles",
+      "timestamp": "5:00",
+      "verdict": "true"
+    },
+    {
+      "num": 38,
+      "text": "Cave 4 contained the largest number of manuscript fragments",
+      "timestamp": "2:00",
+      "verdict": "true"
+    },
+    {
+      "num": 39,
+      "text": "The scrolls were controlled by a small group of scholars for decades before release",
+      "timestamp": "13:15",
+      "verdict": "true"
+    },
+    {
+      "num": 40,
+      "text": "The Community Rule (1QS) describes the organizational structure of the Qumran community",
+      "timestamp": "10:30",
+      "verdict": "true"
+    },
+    {
+      "num": 41,
+      "text": "The Hebrew text of Isaiah in the Dead Sea Scrolls is approximately 95% identical to the Masoretic Text",
+      "timestamp": "8:00",
+      "verdict": "true"
+    },
+    {
+      "num": 42,
+      "text": "The Dead Sea Scrolls provide evidence for textual plurality in Second Temple Judaism",
+      "timestamp": "6:30",
+      "verdict": "true"
+    },
+    {
+      "num": 43,
+      "text": "The Aleppo Codex is older than the Leningrad Codex",
+      "timestamp": "5:40",
+      "verdict": "true"
+    },
+    {
+      "num": 44,
+      "text": "The Aleppo Codex dates to approximately 930 CE",
+      "timestamp": "5:42",
+      "verdict": "true"
+    },
+    {
+      "num": 45,
+      "text": "The scrolls were written in Hebrew, Aramaic, and Greek",
+      "timestamp": "1:10",
+      "verdict": "true"
+    },
+    {
+      "num": 46,
+      "text": "Deuteronomy 32:8 in the Dead Sea Scrolls supports a divine council worldview",
+      "timestamp": "18:10",
+      "verdict": "true"
+    },
+    {
+      "num": 47,
+      "text": "The Shapira manuscripts were declared forgeries in the 19th century",
+      "timestamp": "19:05",
+      "verdict": "disputed"
+    },
+    {
+      "num": 48,
+      "text": "The Shapira strips contained a variant version of Deuteronomy",
+      "timestamp": "19:10",
+      "verdict": "true"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/watch?v=eZfgBLbJnP4"
+}

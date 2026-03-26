@@ -72,7 +72,7 @@
   {
     "id": "james-tabor",
     "name": "Dr. James Tabor",
-    "channel": "YouTube",
+    "channel": "@JamesTaborVideos",
     "platform": "YouTube",
     "avatarColor": "#6c5ce7",
     "initials": "JT",
@@ -80,27 +80,36 @@
       "Biblical Studies",
       "Early Christianity",
       "Vegetarianism",
-      "Hebrew Bible"
+      "Hebrew Bible",
+      "Dead Sea Scrolls",
+      "Second Temple Judaism"
     ],
-    "sessions": 1,
-    "totalClaims": 43,
-    "trueClaims": 30,
-    "cumulativeScore": 79,
-    "verdict": "Caution",
+    "sessions": 2,
+    "totalClaims": 91,
+    "trueClaims": 70,
+    "cumulativeScore": 81,
+    "verdict": "Reliable",
     "corePositions": [
       "Jesus was a vegetarian",
       "Hebrew Bible contains anti-sacrifice trajectory",
       "Original Christianity was plant-based",
-      "Sacrifice texts are interpolations"
+      "Sacrifice texts are interpolations",
+      "DSS reveal meaningful textual plurality in Second Temple Judaism",
+      "The Masoretic Text is not the only or most original form of the Hebrew Bible",
+      "The Shapira scroll deserves reconsideration as potentially authentic",
+      "A divine council worldview is embedded in older textual traditions"
     ],
     "notablePatterns": [
-      "Strong Hebrew and Greek competence with legitimate textual observations.",
-      "Core thesis depends on systematic omission of counterevidence (Deuteronomy 16, feeding miracles).",
-      "Decontextualization of Jeremiah 7 (condemns Baal worship, not all sacrifice).",
-      "Academic credentials lend authority but thesis goes well beyond scholarly consensus."
+      "Strong command of primary texts and manuscript evidence.",
+      "Accuracy improves significantly in survey/bibliographic mode vs. interpretive/argumentative mode (83% vs. 79%).",
+      "Tendency to round numbers or give approximate figures when precise data is available.",
+      "Core thesis depends on systematic omission of counterevidence in interpretive sessions.",
+      "Excellent bibliographic recommendations -- accurate citations of major scholarly works.",
+      "Cumulative trajectory: Caution (79%) -> Reliable (83%)."
     ],
     "analyses": [
-      "tabor-vegetarian"
+      "tabor-vegetarian",
+      "tabor-dead-sea-scrolls"
     ]
   },
   {
