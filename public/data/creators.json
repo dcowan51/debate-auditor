@@ -12,10 +12,10 @@
       "Theology",
       "Nonduality"
     ],
-    "sessions": 3,
-    "totalClaims": 105,
-    "trueClaims": 60,
-    "cumulativeScore": 57,
+    "sessions": 4,
+    "totalClaims": 141,
+    "trueClaims": 77,
+    "cumulativeScore": 55,
     "verdict": "Unreliable",
     "corePositions": [
       "Paul founded gnosticism through Marcion",
@@ -23,18 +23,21 @@
       "Docetism = Protestant Christology",
       "Jesus taught love/works/forgiveness only",
       "Paul is the shadow side of Jesus",
-      "Theosis through ego crucifixion"
+      "Theosis through ego crucifixion",
+      "James rebuked Paul for 'faith alone'",
+      "Paul and James are irreconcilable"
     ],
     "notablePatterns": [
       "Scripture citations are largely accurate, but interpretive frameworks and doctrinal characterizations carry heavy error loads.",
       "Core thesis claims tend to be historically falsifiable and falsified.",
       "Frequently employs Stratagem 11 (Induction with Concealed Counterexamples).",
-      "Cumulative trajectory: Caution (63%) → Unreliable (55%) → Unreliable (57%)."
+      "Cumulative trajectory: Caution (63%) → Unreliable (50%) → Unreliable (59%) → Unreliable (47%). Cumulative: 55%."
     ],
     "analyses": [
       "aaron-abke-session1",
       "aaron-abke-session2",
-      "aaron-abke-gnosticism"
+      "aaron-abke-gnosticism",
+      "aaron-abke-faith-alone"
     ]
   },
   {

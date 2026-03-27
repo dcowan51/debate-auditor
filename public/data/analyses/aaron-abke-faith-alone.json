@@ -1,0 +1,616 @@
+{
+  "id": "aaron-abke-faith-alone",
+  "creatorId": "aaron-abke",
+  "creatorName": "Aaron Abke",
+  "channel": "@AaronAbke",
+  "videoTitle": "Why James Rebuked Paul for his \"Faith Alone\" Doctrine",
+  "datePublished": "",
+  "dateAnalyzed": "2026-03-26",
+  "sessionNumber": 4,
+  "analyzedRange": "0:00–58:34",
+  "thesis": "James directly rebuked Paul's faith-alone doctrine; Thomistic act/potency metaphysics proves faith apart from works is a metaphysical impossibility; Paul's teachings are inconsistent with Jesus.",
+  "dashboard": {
+    "sessionScore": 47,
+    "cumulativeScore": 55,
+    "cumulativeSessions": 4,
+    "trueClaims": 17,
+    "falseMisleading": 14,
+    "disputed": 5,
+    "totalChecked": 36,
+    "confidence": "Medium-High",
+    "verdict": "Unreliable",
+    "stratagems": 9,
+    "weaselWords": 5,
+    "errorImpact": 42
+  },
+  "steelman": "The strongest charitable reading of Abke's argument is that the Protestant sola fide doctrine, when detached from ethical practice, risks producing a morally complacent Christianity that contradicts Jesus's emphasis on loving action — and that James 2:14-26 represents an early corrective to exactly this tendency, whether directed at Paul or at a misuse of Paul.",
+  "falseClaims": [
+    {
+      "claim": "Martin Luther changed to 'double justification' at the end of his life",
+      "rating": "Likely False",
+      "confidence": "High",
+      "timestamp": "18:14",
+      "evidence": "No credible Luther scholarship supports this claim. Luther's final writings (including the 1545 autobiographical preface) reaffirm sola fide. 'Double justification' was a compromise formula proposed at the Regensburg Colloquy (1541) that both Luther and Rome rejected. Luther never adopted it.",
+      "settle": "A citation from Luther's late writings endorsing double justification — none exists.",
+      "sources": [
+        {
+          "label": "Theology of Martin Luther — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Theology_of_Martin_Luther"
+        },
+        {
+          "label": "Martin Luther and the Doctrine of Justification — Christian Study Library",
+          "url": "https://www.christianstudylibrary.org/article/martin-luther-and-doctrine-justification-faith-alone"
+        }
+      ],
+      "category": "Support"
+    },
+    {
+      "claim": "John Calvin hated the Book of James and wished it excluded from the canon",
+      "rating": "Likely False",
+      "confidence": "High",
+      "timestamp": "17:40",
+      "evidence": "Calvin accepted James as canonical and wrote a full commentary on it. Calvin argued James does not contradict Paul but addresses different concerns.",
+      "settle": "A citation from Calvin rejecting or wishing to exclude James — none exists.",
+      "sources": [
+        {
+          "label": "Calvin's Commentaries on the Catholic Epistles — CCEL",
+          "url": "https://ccel.org/ccel/calvin/calcom45/calcom45.ii.html"
+        },
+        {
+          "label": "John Calvin on Dead Faith — Called to Communion",
+          "url": "https://www.calledtocommunion.com/2019/09/john-calvin-on-dead-faith/"
+        }
+      ],
+      "category": "Support"
+    },
+    {
+      "claim": "Paul was 'a serial killer of Nazarene Christians'",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "44:21",
+      "evidence": "'Serial killer' is a modern forensic term implying repetitive individual homicide. Acts describes Paul approving of Stephen's execution (Acts 8:1), casting votes against Christians facing death (Acts 26:10), and imprisoning believers — not personally committing serial murder.",
+      "settle": "A source describing Paul personally killing multiple people — none exists.",
+      "sources": [
+        {
+          "label": "Paul the Apostle — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Paul_the_Apostle"
+        },
+        {
+          "label": "Acts 8:1-3 — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=Acts+8%3A1-3&version=NRSVUE"
+        }
+      ],
+      "category": "Background"
+    },
+    {
+      "claim": "'Hear O Israel the Lord your God is one' attributed to Isaiah 45:5",
+      "rating": "Likely False",
+      "confidence": "Very High",
+      "timestamp": "2:48",
+      "evidence": "This is the Shema from Deuteronomy 6:4, not Isaiah 45:5. Isaiah 45:5 reads: 'I am the LORD, and there is no other; besides me there is no god.' Different verse, different book.",
+      "settle": "N/A — straightforward textual misattribution.",
+      "sources": [
+        {
+          "label": "Deuteronomy 6:4 — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=Deuteronomy+6%3A4&version=NRSVUE"
+        },
+        {
+          "label": "Isaiah 45:5 — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=Isaiah+45%3A5&version=NRSVUE"
+        }
+      ],
+      "category": "Background"
+    },
+    {
+      "claim": "John 8:48 cited for 'whoever continues in sin is the slave of sin'",
+      "rating": "Misleading",
+      "confidence": "Very High",
+      "timestamp": "3:06",
+      "evidence": "The verse is John 8:34, not 8:48. John 8:48 is where the Jews accuse Jesus of being a Samaritan with a demon.",
+      "settle": "N/A — straightforward verse error.",
+      "sources": [
+        {
+          "label": "John 8:34 — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=John+8%3A34&version=NRSVUE"
+        },
+        {
+          "label": "John 8:48 — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=John+8%3A48&version=NRSVUE"
+        }
+      ],
+      "category": "Background"
+    },
+    {
+      "claim": "F.F. Powell described as 'a scholar'",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "40:51",
+      "evidence": "Powell is a journalist and former Sunday School curriculum writer, not a credentialed biblical scholar. Amazon author biography describes Powell as 'a journalist who has written Sunday School material for the Southern Baptist Convention' with no academic credentials in biblical studies listed.",
+      "settle": "Evidence of Powell holding an advanced degree in a relevant academic field — none found.",
+      "sources": [
+        {
+          "label": "Robbing Peter to Pay Paul — Amazon author page",
+          "url": "https://www.amazon.com/Robbing-Peter-Pay-Paul-Usurpation/dp/0595529070"
+        }
+      ],
+      "category": "Background"
+    },
+    {
+      "claim": "Dysnoetos means 'nonsense or unintelligible'",
+      "rating": "Misleading",
+      "confidence": "Very High",
+      "timestamp": "39:00",
+      "evidence": "Dysnoetos means 'hard to understand' or 'difficult of perception' — not 'nonsense' or 'unintelligible.' The verse says Paul's writings contain things 'hard to understand' which the ignorant and unstable twist — implying the content is valid but complex, not nonsensical.",
+      "settle": "A lexicon entry supporting 'nonsense' as a meaning of dysnoetos — none exists.",
+      "sources": [
+        {
+          "label": "G1425 dysnoetos — Blue Letter Bible",
+          "url": "https://www.blueletterbible.org/lexicon/g1425/esv/mgnt"
+        },
+        {
+          "label": "dysnoetos — Bill Mounce Greek Dictionary",
+          "url": "https://www.billmounce.com/greek-dictionary/dysnoetos"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "Paul's Romans 4:4-5 means righteous deeds are unnecessary",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "16:42",
+      "evidence": "Romans 4 is part of an argument about how Gentiles enter the covenant community without Torah observance, not a statement that ethical behavior is unnecessary. Paul repeatedly insists on ethical fruit: Romans 6:1-2, Romans 13:8-10, Galatians 5:6.",
+      "settle": "A passage where Paul explicitly says ethical behavior is unnecessary for believers — none exists.",
+      "sources": [
+        {
+          "label": "Romans 6:1-2 — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=Romans+6%3A1-2&version=NRSVUE"
+        },
+        {
+          "label": "Romans 13:8-10 — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=Romans+13%3A8-10&version=NRSVUE"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "The early church fathers 'did not realize' James was directly calling out Paul",
+      "rating": "Likely False",
+      "confidence": "High",
+      "timestamp": "17:14",
+      "evidence": "The tension between James and Paul was well known to the early church. Augustine, Origen, and other fathers discussed the James-Paul tension at length. The idea that they included James accidentally out of ignorance contradicts the extensive patristic discussions of this exact issue.",
+      "settle": "Evidence that no patristic author recognized the James-Paul tension — none exists.",
+      "sources": [
+        {
+          "label": "Epistle of James — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Epistle_of_James"
+        },
+        {
+          "label": "Epistle of St. James — New Advent Catholic Encyclopedia",
+          "url": "https://www.newadvent.org/cathen/08275b.htm"
+        }
+      ],
+      "category": "Core"
+    }
+  ],
+  "stratagems": [
+    {
+      "number": 1,
+      "name": "Extension of the Opponent's Proposition",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "Now to one who works, meaning does good deeds right, loves their neighbor as themselves, their wages are not reckoned as a gift but as something due",
+          "timestamp": "21:16",
+          "explanation": "Extends Paul's statement about 'works' (which in Romans 4 refers to Torah observance as a boundary marker) into a claim that Paul despises all good deeds. The New Perspective on Paul demonstrates 'works of the law' refers to identity-marking Torah observances, not moral acts of love."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "name": "Making the Opponent Angry",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "Christianity comes along preaching a kind of snake oil Gospel",
+          "timestamp": "5:35",
+          "explanation": "Characterizing Christianity as 'snake oil' is designed to provoke emotional reaction and delegitimize the opposing view through ridicule rather than argument."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "name": "Induction with Concealed Counterexamples",
+      "instances": 3,
+      "entries": [
+        {
+          "quote": "Salvation sozo is the Greek word it's not about a future being saved in a future afterlife",
+          "timestamp": "2:01",
+          "explanation": "Sozo is used across a wide semantic range in the NT, including future eschatological salvation (Romans 5:9, 1 Cor 3:15, 1 Peter 1:5). Abke presents only the present-tense usage while concealing the future-tense uses."
+        },
+        {
+          "quote": "Four times in the New Testament once in Matthew and thrice in Revelation Jesus is quoted as saying you will be judged according to your works",
+          "timestamp": "26:08",
+          "explanation": "True that these passages contain works-judgment language, but Abke conceals that Revelation also references the Lamb's Book of Life — not works alone — as determining final destiny (Rev 20:15)."
+        },
+        {
+          "quote": "Ebia says very explicitly Jesus gave no command of animal sacrifice circumcision or any of the other precepts of Moses",
+          "timestamp": "30:34",
+          "explanation": "Treats the Ebionite Gospel as authoritative testimony about the historical Jesus while concealing that the Ebionites were a sectarian group and this gospel survives only in fragmentary hostile quotation."
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "name": "Choosing Favorable Metaphors",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "What good would it do you to go around telling everybody I'm a master violinist... oh no no no I'm a violinist apart from works",
+          "timestamp": "14:04",
+          "explanation": "The violinist analogy replaces the theological category of 'faith' (pistis — trust, reliance) with a skill-claim, which structurally changes the argument. Skill is demonstrated by performance; trust in a person is a different category."
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "name": "Instance to the Contrary",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "I grew up in church seeing lots and lots of people scores of people come to our church cry confess repent say Jesus is their lord and they never come back again",
+          "timestamp": "5:01",
+          "explanation": "Uses anecdotal pastoral failure as a counterexample to overthrow the entire doctrine of justification by faith. The existence of insincere converts does not logically invalidate the doctrine."
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "name": "Rejection by Pejorative Classification",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "This is the definition of spiritual bypassing",
+          "timestamp": "1:13",
+          "explanation": "Labels faith-alone theology as 'spiritual bypassing' (a modern psychological term) rather than engaging its strongest formulations."
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "name": "Argumentum ad Personam",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "Paul is the voice of another who never met Jesus and was a serial killer of Nazarene Christians",
+          "timestamp": "44:14",
+          "explanation": "Shifts from evaluating Paul's theology to attacking Paul's character. 'Serial killer' is anachronistic and inflammatory; Acts describes Paul as a persecutor, not a personal killer."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "name": "Concealed Petitio Principii",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "Why is it an absolute logical fallacy and metaphysical fallacy to say that you can even have faith apart from works as Paul said",
+          "timestamp": "7:10",
+          "explanation": "States his conclusion as a premise before presenting the Thomistic argument. The question is framed as though the fallacy is already established."
+        }
+      ]
+    }
+  ],
+  "scholarlySplits": [
+    {
+      "claim": "James 2:14-26 is a direct response to Paul",
+      "nature": "Some scholars (Dibelius, Hengel) see a direct anti-Pauline polemic; others (Moo, Bauckham) see James addressing a separate misapplication or writing independently; many date James early enough that Paul's letters had not yet circulated.",
+      "timestamp": "0:16"
+    },
+    {
+      "claim": "Paul's 'works of the law' meaning — New Perspective vs traditional",
+      "nature": "New Perspective (Sanders, Dunn, Wright) argues 'works of the law' = Torah identity markers, not moral action; traditional Protestant reading sees Paul rejecting meritorious works; Catholic reading sees Paul rejecting works without grace.",
+      "timestamp": "16:42"
+    },
+    {
+      "claim": "Jesus taught present-tense-only salvation vs future eschatological salvation",
+      "nature": "C.H. Dodd championed 'realized eschatology'; majority scholarship (Schweitzer, Allison, Wright) holds Jesus taught both present and future eschatological salvation.",
+      "timestamp": "2:01"
+    },
+    {
+      "claim": "James was Jesus's 'hand-selected successor'",
+      "nature": "Eusebius and the Pseudo-Clementines suggest James was appointed leader; other traditions (Acts 1:15-26) show apostolic succession determined differently; 'hand-selected by Jesus' is not attested in any canonical or most non-canonical sources.",
+      "timestamp": "17:06"
+    },
+    {
+      "claim": "2 Peter authorship and dating",
+      "nature": "Majority of critical scholars consider 2 Peter pseudepigraphal (written c. 100-150 CE); conservative scholars defend Petrine authorship.",
+      "timestamp": "39:32"
+    }
+  ],
+  "trueClaims": [
+    "Martin Luther called James an 'epistle of straw'",
+    "'Many sweat hard at reconciling James with Paul but unsuccessfully' — legitimate Luther paraphrase",
+    "Thomas Aquinas taught that God is pure actuality (actus purus) with no potentiality",
+    "Aquinas developed act/potency based on Aristotle's metaphysical framework",
+    "'One potential cannot create change in another potential' — accurate Thomistic metaphysics",
+    "James 2:17 says 'Faith by itself, if it does not have works, is dead'",
+    "James 2:24: 'You see that a person is justified by works and not by faith alone'",
+    "John 8:34: Jesus said 'everyone who commits sin is a slave to sin' (content correct, wrong verse cited)",
+    "Isaiah 45:5 says 'beside me there is none else' (content correct, conflated with Deuteronomy 6:4)",
+    "2 Corinthians 3:7: Paul refers to the law on stone tablets as a 'ministry of death'",
+    "Matthew 16:27 and Revelation passages reference judgment 'according to works'",
+    "Paul in 2 Corinthians 11:23 said 'I am a better [servant of Christ]'",
+    "Paul in Galatians 1:20 says 'before God, I do not lie'",
+    "Jesus said 'this is how they will know you are my disciples, by your love for one another' (John 13:35)",
+    "Jesus said 'if you love me, keep my commandments' (John 14:15)",
+    "2 Peter 3:16 describes Paul's writings as containing things 'hard to understand'",
+    "Majority of critical scholars consider 2 Peter pseudepigraphal"
+  ],
+  "youtubeFlags": [
+    {
+      "type": "Title Accuracy",
+      "severity": "warning",
+      "text": "The title presupposes as fact what is actually a disputed scholarly interpretation. Many scholars argue James is addressing a misunderstanding of Paul, not Paul himself; others argue James predates Paul's letters entirely."
+    },
+    {
+      "type": "Implied Claims",
+      "severity": "caution",
+      "text": "Implies that Thomistic act/potency definitively settles the faith-vs-works debate, that near-death experiences constitute reliable theological evidence, and that A Course in Miracles illuminates Jesus's teachings — all presented without epistemological caveats."
+    },
+    {
+      "type": "Monetization",
+      "severity": "info",
+      "text": "References to 'Fora University' (Abke's paid content platform) appear at 1:53 and 53:44, interwoven with theological assertions, creating implicit advertisement within factual content."
+    }
+  ],
+  "weightedAnalysis": {
+    "categories": [
+      {
+        "name": "Core",
+        "claims": 12,
+        "weight": 3,
+        "trueWeighted": 18,
+        "falseWeighted": 18,
+        "disputedWeighted": 0
+      },
+      {
+        "name": "Support",
+        "claims": 14,
+        "weight": 2,
+        "trueWeighted": 18,
+        "falseWeighted": 10,
+        "disputedWeighted": 0
+      },
+      {
+        "name": "Background",
+        "claims": 10,
+        "weight": 1,
+        "trueWeighted": 7,
+        "falseWeighted": 3,
+        "disputedWeighted": 0
+      }
+    ],
+    "errorImpact": 42,
+    "interpretation": "At 42%, this session is firmly in 'misleading overall' territory. Core claims carry a disproportionate error load, particularly historical claims about the Reformation and systematic decontextualization of Paul."
+  },
+  "allClaims": [
+    {
+      "num": 1,
+      "text": "'Many sweat hard at reconciling James with Paul but unsuccessfully' — attributed to Martin Luther",
+      "timestamp": "0:08",
+      "verdict": "true"
+    },
+    {
+      "num": 2,
+      "text": "James was directly calling out Paul",
+      "timestamp": "0:16",
+      "verdict": "disputed"
+    },
+    {
+      "num": 3,
+      "text": "Jesus never taught 'believe in someone else's belief because they believed and now we're saved'",
+      "timestamp": "0:25",
+      "verdict": "true"
+    },
+    {
+      "num": 4,
+      "text": "Sozo is the Greek word for salvation",
+      "timestamp": "2:01",
+      "verdict": "true"
+    },
+    {
+      "num": 5,
+      "text": "Salvation in Jesus's teaching is not about a future being saved in a future afterlife",
+      "timestamp": "2:01",
+      "verdict": "disputed"
+    },
+    {
+      "num": 7,
+      "text": "'Hear O Israel the Lord your God is one' attributed to Isaiah 45:5",
+      "timestamp": "2:48",
+      "verdict": "false"
+    },
+    {
+      "num": 8,
+      "text": "Isaiah 45:5 says 'beside me there is none else'",
+      "timestamp": "2:57",
+      "verdict": "true"
+    },
+    {
+      "num": 9,
+      "text": "In John 8 (cited as 8:48), Jesus said 'whoever continues in sin is the slave of sin'",
+      "timestamp": "3:06",
+      "verdict": "misleading"
+    },
+    {
+      "num": 11,
+      "text": "Thomas Aquinas is 'widely considered the greatest Christian philosopher of all time'",
+      "timestamp": "6:56",
+      "verdict": "true"
+    },
+    {
+      "num": 12,
+      "text": "Aquinas developed act/potency based on Aristotle's metaphysical framework",
+      "timestamp": "7:28",
+      "verdict": "true"
+    },
+    {
+      "num": 13,
+      "text": "Aquinas said God is 'pure Act without any mixture of potency'",
+      "timestamp": "10:36",
+      "verdict": "true"
+    },
+    {
+      "num": 14,
+      "text": "'One potential cannot create change in another potential' — Aquinas/Aristotle",
+      "timestamp": "9:27",
+      "verdict": "true"
+    },
+    {
+      "num": 15,
+      "text": "In the Summa Theologica, Aquinas says the purpose of human life is to actualize potential in God",
+      "timestamp": "12:38",
+      "verdict": "misleading"
+    },
+    {
+      "num": 16,
+      "text": "James 2:17 says 'Faith by itself, if it does not have works, is dead'",
+      "timestamp": "13:34",
+      "verdict": "true"
+    },
+    {
+      "num": 17,
+      "text": "James was Jesus's blood brother",
+      "timestamp": "24:16",
+      "verdict": "disputed"
+    },
+    {
+      "num": 18,
+      "text": "James led the Jerusalem Church for almost 30 years",
+      "timestamp": "17:06",
+      "verdict": "true"
+    },
+    {
+      "num": 19,
+      "text": "James was Jesus's hand-selected successor",
+      "timestamp": "17:06",
+      "verdict": "disputed"
+    },
+    {
+      "num": 20,
+      "text": "The early church fathers did not realize James was directly calling out Paul",
+      "timestamp": "17:14",
+      "verdict": "false"
+    },
+    {
+      "num": 21,
+      "text": "John Calvin hated the Book of James",
+      "timestamp": "17:40",
+      "verdict": "false"
+    },
+    {
+      "num": 22,
+      "text": "Martin Luther called the Book of James an 'epistle of straw'",
+      "timestamp": "17:57",
+      "verdict": "true"
+    },
+    {
+      "num": 23,
+      "text": "Luther wished James was never included in the canon",
+      "timestamp": "18:06",
+      "verdict": "misleading"
+    },
+    {
+      "num": 24,
+      "text": "Calvin also wished James excluded from the canon",
+      "timestamp": "18:06",
+      "verdict": "false"
+    },
+    {
+      "num": 25,
+      "text": "Martin Luther at the end of his life changed to 'double justification'",
+      "timestamp": "18:14",
+      "verdict": "false"
+    },
+    {
+      "num": 26,
+      "text": "Paul never met Jesus",
+      "timestamp": "30:34",
+      "verdict": "true"
+    },
+    {
+      "num": 27,
+      "text": "Paul was 'a serial killer of Nazarene Christians'",
+      "timestamp": "44:21",
+      "verdict": "misleading"
+    },
+    {
+      "num": 28,
+      "text": "Paul in 2 Corinthians calls the Ten Commandments 'a ministry of death etched into stone tablets'",
+      "timestamp": "31:34",
+      "verdict": "true"
+    },
+    {
+      "num": 29,
+      "text": "Jesus equated eternal life to the Ten Commandments",
+      "timestamp": "31:44",
+      "verdict": "true"
+    },
+    {
+      "num": 30,
+      "text": "Ebia says explicitly Jesus gave no command of animal sacrifice circumcision or any of the other precepts of Moses",
+      "timestamp": "31:03",
+      "verdict": "misleading"
+    },
+    {
+      "num": 31,
+      "text": "Four times in the NT Jesus is quoted as saying you will be judged according to your works",
+      "timestamp": "26:08",
+      "verdict": "true"
+    },
+    {
+      "num": 32,
+      "text": "Paul said 'I am a better [servant of Christ]' than Jesus's 12 disciples",
+      "timestamp": "32:36",
+      "verdict": "misleading"
+    },
+    {
+      "num": 34,
+      "text": "Augustine in 412 wrote that James's epistle along with 1 John and 2 Peter were aimed to refute the faith alone doctrine found in Paul's writings",
+      "timestamp": "38:53",
+      "verdict": "misleading"
+    },
+    {
+      "num": 35,
+      "text": "2 Peter attributed Paul's writings as 'hard to understand nonsense or unintelligible'",
+      "timestamp": "39:00",
+      "verdict": "misleading"
+    },
+    {
+      "num": 36,
+      "text": "Peter definitely wouldn't have been able to write these complex Greek documents like 1 and 2 Peter",
+      "timestamp": "39:32",
+      "verdict": "disputed"
+    },
+    {
+      "num": 37,
+      "text": "The dating of 2 Peter is well after — 100 years after the historical Peter died",
+      "timestamp": "39:39",
+      "verdict": "true"
+    },
+    {
+      "num": 38,
+      "text": "F.F. Powell is 'a scholar'",
+      "timestamp": "40:51",
+      "verdict": "misleading"
+    },
+    {
+      "num": 40,
+      "text": "Jeremiah 7:3-6 says 'amend your ways and your doings'",
+      "timestamp": "44:47",
+      "verdict": "true"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/watch?v=Eo_HLzD2feI"
+}
