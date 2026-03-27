@@ -1,0 +1,456 @@
+{
+  "id": "aaron-abke-james-vs-paul",
+  "creatorId": "aaron-abke",
+  "creatorName": "Aaron Abke",
+  "channel": "@AaronAbke",
+  "videoTitle": "Scriptural PROOF That Jesus' Brother James REJECTED PAUL | Jesus Way Podcast 046",
+  "datePublished": "",
+  "dateAnalyzed": "2026-03-27",
+  "sessionNumber": 5,
+  "mode": 2,
+  "modeLabel": "Multi-Speaker",
+  "analyzedRange": "0:00–3:02:09",
+  "thesis": "Whether the Epistle of James was written as a direct literary refutation of Paul's letters, and whether there was an irreconcilable schism between Paul and the Jerusalem church under James.",
+  "dashboard": {
+    "sessionScore": 46,
+    "cumulativeScore": 53,
+    "cumulativeSessions": 5,
+    "trueClaims": 17,
+    "falseMisleading": 20,
+    "disputed": 10,
+    "totalChecked": 37,
+    "confidence": "Medium",
+    "verdict": "Unreliable",
+    "stratagems": 9,
+    "weaselWords": 7,
+    "errorImpact": 46
+  },
+  "steelman": "The strongest version of the speakers' argument is that genuine theological tensions existed between Paul and the Jerusalem church (which mainstream scholarship confirms), that James 2:14-26 likely engages and corrects a (mis)application of Pauline faith-language (which many scholars accept), and that Paul's letters reveal real conflicts with Jewish Christian authority figures that the book of Acts attempts to smooth over (which is widely acknowledged in critical scholarship).",
+  "falseClaims": [
+    {
+      "claim": "\"God is one\" appears only twice in the entire New Testament (Galatians 3:20 and James 2:19)",
+      "rating": "Likely False",
+      "confidence": "High",
+      "timestamp": "1:33:39",
+      "evidence": "The phrase 'God is one' or closely equivalent monotheistic confessions (heis ho theos) appear in at least six NT passages: Romans 3:30, 1 Corinthians 8:6, Galatians 3:20, Ephesians 4:6, 1 Timothy 2:5, and James 2:19.",
+      "settle": "A concordance search of the Greek NT for heis theos and variant forms.",
+      "sources": [
+        {
+          "label": "Romans 3:30 — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=Romans+3%3A30&version=NRSVUE"
+        },
+        {
+          "label": "1 Corinthians 8:6 — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=1+Corinthians+8%3A6&version=NRSVUE"
+        }
+      ],
+      "category": "Support"
+    },
+    {
+      "claim": "The Ascents of James is a 'pre-70 text'",
+      "rating": "Likely False",
+      "confidence": "High",
+      "timestamp": "2:48:48",
+      "evidence": "Robert E. Van Voorst, in The Ascents of James: History and Theology of a Jewish-Christian Community (the definitive scholarly monograph), dates the Ascents to the late second century, not pre-70 CE. The claim of pre-70 dating is a fringe position.",
+      "settle": "Reading Van Voorst's dating arguments directly.",
+      "sources": [
+        {
+          "label": "Ascents of James — Van Voorst (Scholars Press, 1989)",
+          "url": "https://en.wikipedia.org/wiki/Ascents_of_James"
+        }
+      ],
+      "category": "Support"
+    },
+    {
+      "claim": "Human DNA has been found in McDonald's hamburgers",
+      "rating": "Mostly False",
+      "confidence": "High",
+      "timestamp": "32:28",
+      "evidence": "A 2016 Clear Labs study found trace human DNA in one frozen vegetarian burger (not McDonald's). The contamination was attributed to manufacturing contact (hair, skin cells), not intentional inclusion of human flesh. No credible study has found human DNA specifically in McDonald's hamburgers.",
+      "settle": "Reading the original Clear Labs study methodology and findings.",
+      "sources": [
+        {
+          "label": "PolitiFact fact-check on human DNA in burgers",
+          "url": "https://www.politifact.com/factchecks/2024/apr/29/viral-image/yes-a-2016-study-found-human-dna-in-some-hot-dog-s/"
+        }
+      ],
+      "category": "Background"
+    },
+    {
+      "claim": "Romans 3:7 shows Paul admitting to and justifying lying",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "38:48",
+      "evidence": "Romans 3:7 is universally recognized by Pauline scholars as a passage of rhetorical diatribe — a common Greco-Roman rhetorical device where the author voices a hypothetical objector's argument in order to refute it. Paul is not speaking in his own voice. Romans 3:8 shows Paul rejecting this reasoning: 'Their condemnation is deserved.'",
+      "settle": "Reading any critical commentary on Romans 3:1-8.",
+      "sources": [
+        {
+          "label": "Romans 3:7-8 — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=Romans+3%3A7-8&version=NRSVUE"
+        },
+        {
+          "label": "Diatribe in Romans — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Epistle_to_the_Romans"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "Acts is 'unanimously' recognized in scholarship as 'an apology for Paul'",
+      "rating": "Misleading",
+      "confidence": "Medium",
+      "timestamp": "19:46",
+      "evidence": "While many scholars recognize a pro-Pauline tendency in Acts, the claim of 'unanimous' consensus is overstated. Scholars disagree significantly about Acts' primary purpose: theological historiography (Conzelmann), political apologetic to Rome (Walaskay), narrative theology of the Spirit (Tannehill), legitimation of Gentile Christianity (Esler). Paul-apologetic is one strand among many.",
+      "settle": "A survey of Acts scholarship showing the range of proposed purposes.",
+      "sources": [
+        {
+          "label": "Acts of the Apostles — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Acts_of_the_Apostles"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "Paul's 'super-apostles' and 'false apostles' in 2 Corinthians 11-12 definitively refer to the Jerusalem Twelve",
+      "rating": "Misleading",
+      "confidence": "Medium",
+      "timestamp": "2:01:44",
+      "evidence": "This is one of the most debated identification questions in Pauline scholarship. Many scholars (Barrett, Kasemann) distinguish between 'super-apostles' (possibly Jerusalem leaders) and 'false apostles' (rival missionaries in Corinth). Others (Thrall, Furnish) argue the 'super-apostles' are the rival missionaries themselves, not the Twelve.",
+      "settle": "Comparing the major commentaries on 2 Corinthians 11:5 and 11:13.",
+      "sources": [
+        {
+          "label": "Second Epistle to the Corinthians — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Second_Epistle_to_the_Corinthians"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "Pliny the Younger killed Christians specifically for refusing to eat meat sacrificed to idols",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "2:38:50",
+      "evidence": "Pliny's letter to Trajan (Epistulae X.96, c. 110 CE) describes testing suspected Christians by having them invoke Roman gods, offer incense and wine to Trajan's image, and curse Christ. He does not describe forcing Christians to eat meat sacrificed to idols as the specific test. Execution was for refusal of Roman religious worship broadly.",
+      "settle": "Reading Pliny's actual letter to Trajan.",
+      "sources": [
+        {
+          "label": "Pliny the Younger on Christians — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pliny_the_Younger_on_Christians"
+        }
+      ],
+      "category": "Support"
+    },
+    {
+      "claim": "1 Corinthians 9:19-23 is an admission of deliberate deception",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "34:00",
+      "evidence": "Pauline scholars recognize this passage as describing missionary accommodation — adapting one's approach to different audiences — a common strategy in both Jewish and Greco-Roman rhetorical traditions. The passage does not describe deception about beliefs but flexibility in cultural practice. This is the overwhelming scholarly consensus.",
+      "settle": "Reading scholarly commentaries on 1 Corinthians 9.",
+      "sources": [
+        {
+          "label": "1 Corinthians 9:19-23 — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=1+Corinthians+9%3A19-23&version=NRSVUE"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "Paul was a member of the Herodian family",
+      "rating": "Misleading",
+      "confidence": "Low",
+      "timestamp": "46:48",
+      "evidence": "This claim derives primarily from Robert Eisenman's work (James the Brother of Jesus, 1997). Eisenman connects Paul's mention of 'Herodion' in Romans 16:11 and Paul's Roman citizenship to possible Herodian connections. This theory has virtually no support in mainstream Pauline scholarship and is considered speculative.",
+      "settle": "Peer-reviewed assessment of Eisenman's Herodian hypothesis.",
+      "sources": [
+        {
+          "label": "Paul the Apostle — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Paul_the_Apostle"
+        }
+      ],
+      "category": "Support"
+    },
+    {
+      "claim": "The Nazarenes rejected all liturgical commandments except the Ten Commandments",
+      "rating": "Misleading",
+      "confidence": "Medium",
+      "timestamp": "1:20:10",
+      "evidence": "Patristic sources (Epiphanius, Panarion 29; Jerome) describe the Nazarenes as Torah-observant Jewish Christians who kept the entire Mosaic law including circumcision, Sabbath, and dietary laws — not just the Ten Commandments. This claim conflates Nazarene practice with a much later Protestant distinction between moral and ceremonial law.",
+      "settle": "Reading patristic descriptions of Nazarene Torah observance.",
+      "sources": [
+        {
+          "label": "Nazarene (sect) — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nazarene_(sect)"
+        },
+        {
+          "label": "Epiphanius Panarion 29 — Early Church Texts",
+          "url": "https://www.earlychurchtexts.com/public/epiphanius_on_the_nazarenes.htm"
+        }
+      ],
+      "category": "Core"
+    }
+  ],
+  "stratagems": [
+    {
+      "number": 1,
+      "name": "The Extension (Generalization)",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "So to the weak, I pretended to be one of them, that I might win the weak. I become all things to all men so that I may by all means save them. So this is what where I come from. We call this... deceit.",
+          "timestamp": "34:00",
+          "explanation": "The passage in 1 Corinthians 9:19-23 is extended from missionary adaptability (the mainstream scholarly reading) to categorical deception. Paul's rhetorical accommodation is generalized into an admission of systematic lying."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Homonymy (Equivocation)",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "He says works of the law. I mean, even the Ten Commandments is still part of the law.",
+          "timestamp": "1:19:06",
+          "explanation": "Paul's phrase 'works of the law' (erga nomou) is treated as univocal when scholars have long debated whether it refers to Torah observance broadly, boundary markers (circumcision, dietary laws, Sabbath), or the entire Mosaic code."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "name": "Using the Opponent's Beliefs Against Them",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "Even the father of Protestant Christianity, Martin Luther, fully acknowledged this schism... Martin Luther didn't think that this was a harmonizable passage.",
+          "timestamp": "2:48",
+          "explanation": "Luther is deployed as a hostile witness against Paul — the irony being that Luther's point was that James was wrong (Luther called James 'an epistle of straw'), not Paul. The speakers reverse Luther's conclusion while citing his observation."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "name": "Induction with Concealed Counterexamples",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "[Throughout the conversation]",
+          "timestamp": "multiple",
+          "explanation": "The speakers selectively present passages from Paul's letters that appear negative while omitting passages where Paul affirms the law (Romans 3:31, Romans 7:12, Romans 13:8-10). These counterexamples are acknowledged only once, dismissively, as Paul being 'nervous' before going to Jerusalem."
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "name": "Choosing Metaphors Favorable to Your Proposition",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "He was essentially like deep state... he was a member of the Herodian family. He was an agent of the high priest.",
+          "timestamp": "46:41",
+          "explanation": "Modern political language ('deep state,' 'false flags,' 'infiltration') is used to reframe first-century events through a conspiratorial lens, biasing the audience's perception without providing historical evidence."
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "name": "Counter-Instance (Refuting by Exception)",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "The Jesus of the gospels... never was seen giving anybody a demon but was actually seen casting out demons left and right... Satan cannot drive out Satan.",
+          "timestamp": "44:05",
+          "explanation": "Paul's 'thorn in the flesh' passage is used to construct a counter-instance against Paul's Jesus being the real Jesus. This assumes the 'angel of Satan' must be literal demonic possession rather than affliction (the majority scholarly view)."
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "name": "Argumentum ad Auditores (Appeal to the Audience)",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "And what leads to a better world? Faith with works or faith without works? Faith with works obviously... We are supposed to do good works and we're supposed to earn our salvation.",
+          "timestamp": "1:28:33",
+          "explanation": "Complex theological debate is reduced to a crowd-pleasing moral comparison. The audience is positioned to side with the speakers through a rhetorical question whose answer is obvious, sidestepping actual theological nuance."
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "name": "Argumentum ad Verecundiam (Appeal to Authority — Selective)",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "Jerome writes about in his commentary to the Galatians and says that when Paul says 'they asked me to remember the poor' the poor is kind of the designation of the Jerusalem church, the Ebionites.",
+          "timestamp": "1:09:30",
+          "explanation": "Jerome's commentary is cited as authoritative, but Jerome himself was a defender of Paul's legitimacy. The speakers selectively use Jerome's historical observation while ignoring his theological conclusions."
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "name": "Rejection by Pejorative Classification",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "I mean, he sounds like a mad man. Like, I'm surprised anyone can take this guy seriously... he sounds like a mental patient.",
+          "timestamp": "2:09:07",
+          "explanation": "Rather than engaging with Paul's rhetorical strategy in 2 Corinthians 10-13 (widely recognized as ironic self-parody), the speakers categorize his rhetoric as literal insanity, dismissing the argument by pathologizing the arguer."
+        }
+      ]
+    }
+  ],
+  "scholarlySplits": [
+    {
+      "claim": "James 2 directly responds to Paul's Romans/Galatians",
+      "nature": "Majority: James engages a Pauline slogan; Minority: James has no knowledge of Paul; Third camp: James responds to a distortion of Paul, not Paul himself. Consensus leans toward some engagement with Pauline tradition, but NOT that the entire epistle is a systematic rebuttal of specific letters.",
+      "timestamp": "1:51"
+    },
+    {
+      "claim": "Identity of 'super-apostles' in 2 Corinthians 11",
+      "nature": "Some scholars identify them as Jerusalem leaders; others as rival missionaries at Corinth; others distinguish between super-apostles and false apostles. No consensus — actively debated.",
+      "timestamp": "2:01:44"
+    },
+    {
+      "claim": "Paul's collection was rejected by Jerusalem",
+      "nature": "Argument from silence in Acts and Paul's letters; some scholars find this persuasive, others note arguments from silence are inherently weak. Minority position gaining traction but not consensus.",
+      "timestamp": "1:47:49"
+    },
+    {
+      "claim": "Whether 'works of the law' means the whole Torah or specific boundary markers",
+      "nature": "Dunn/Wright: ethnic boundary markers; traditional Protestant: entire Torah; others: Qumran-style halakhic rulings. Actively debated; no consensus.",
+      "timestamp": "1:19:06"
+    },
+    {
+      "claim": "Paul's relationship with Jerusalem leadership",
+      "nature": "Range from harmonious cooperation to active hostility. Consensus: genuine tensions existed, but total rejection is a minority view.",
+      "timestamp": "multiple"
+    },
+    {
+      "claim": "Acts 15 historical reliability",
+      "nature": "Range from substantially historical to largely literary construction. Moderate consensus that some historical meeting occurred; details heavily debated.",
+      "timestamp": "11:31"
+    },
+    {
+      "claim": "Dating of James's epistle",
+      "nature": "Range from 40s CE (very early) to 90s CE (pseudepigraphical). No consensus on date, which affects whether literary dependence on Paul is possible.",
+      "timestamp": "multiple"
+    }
+  ],
+  "trueClaims": [
+    "James 2:14-26 engages with a Pauline formulation about faith and works — majority scholarly agreement",
+    "Luther did express deep tension between James and Paul — called James 'an epistle of straw' in 1522 preface",
+    "Paul teaches in 1 Corinthians 8-10 that eating food offered to idols is permissible in some circumstances",
+    "Acts 15:13-21 quotes Amos 9:11-12 in a form closer to the LXX than the MT",
+    "There were genuine tensions between Paul and the Jerusalem leadership — widely accepted based on Galatians 2:1-14",
+    "Paul defends his apostleship repeatedly in his letters — Galatians 1-2, 1 Corinthians 9:1-3, 2 Corinthians 10-13",
+    "Paul explicitly states he did not receive his gospel from the Jerusalem apostles — Galatians 1:11-12",
+    "The criterion of embarrassment is a legitimate historical-critical tool",
+    "Paul acknowledges that not everyone considers him an apostle — 1 Corinthians 9:2",
+    "Acts 13:6-12 records Paul striking Elymas blind",
+    "2 Timothy 1:15 records that 'all who are in Asia turned away from me'",
+    "Paul uses the Abraham example in Galatians 3:6-9 and James uses it in James 2:21-24",
+    "Letters of recommendation were a common practice in the ancient Mediterranean",
+    "The Clementine literature contains anti-Pauline traditions — widely recognized in scholarship",
+    "Paul acknowledges a 'thorn in the flesh' and 'angel of Satan' in 2 Corinthians 12:7",
+    "Galatians 2:11-14 describes Paul opposing Peter at Antioch",
+    "Paul says 'what they were makes no difference to me' about the Jerusalem leaders in Galatians 2:6"
+  ],
+  "youtubeFlags": [
+    {
+      "type": "Title Accuracy",
+      "severity": "warning",
+      "text": "Title states 'Scriptural PROOF' for a position that is actually a scholarly minority view. Most Jamesian scholars hold James 2 engages a Pauline slogan but the entire epistle is not a systematic rebuttal of specific Pauline letters."
+    },
+    {
+      "type": "Conspiracy Framing",
+      "severity": "warning",
+      "text": "Modern political language ('deep state,' 'infiltration,' 'agent') applied to first-century events without historical warrant, creating conspiratorial framing throughout the conversation."
+    },
+    {
+      "type": "Unverified Claims",
+      "severity": "caution",
+      "text": "Human DNA in McDonald's claim (32:28) is a debunked internet rumor presented casually as fact mid-conversation, suggesting insufficient source-checking even for non-biblical claims."
+    }
+  ],
+  "weightedAnalysis": {
+    "categories": [
+      {
+        "name": "Core",
+        "claims": 15,
+        "weight": 3,
+        "trueWeighted": 15,
+        "falseWeighted": 30,
+        "disputedWeighted": 0
+      },
+      {
+        "name": "Support",
+        "claims": 15,
+        "weight": 2,
+        "trueWeighted": 16,
+        "falseWeighted": 14,
+        "disputedWeighted": 20
+      },
+      {
+        "name": "Background",
+        "claims": 7,
+        "weight": 1,
+        "trueWeighted": 4,
+        "falseWeighted": 3,
+        "disputedWeighted": 0
+      }
+    ],
+    "errorImpact": 46,
+    "interpretation": "At 46%, this session is firmly in 'misleading overall' territory. Core claims about Paul's deception, Acts as unanimous apologetic, and Nazarene theology carry disproportionate error loads. The conversation's strongest material involves genuinely attested Paul-Jerusalem tensions, but these are framed through conspiratorial language and selective evidence."
+  },
+  "allClaims": [
+    { "num": 1, "text": "The previous episode has about 125k views", "timestamp": "0:49", "verdict": "true" },
+    { "num": 2, "text": "James chapter 2 is a clear refutation of Paul's writing in Romans 3", "timestamp": "1:51", "verdict": "disputed" },
+    { "num": 3, "text": "Paul uses the example of Abraham offering his son as proof of justification by faith alone apart from works", "timestamp": "1:58", "verdict": "misleading" },
+    { "num": 4, "text": "Martin Luther 'fully acknowledged this schism' and said James refutes Paul in chapter 2", "timestamp": "2:41", "verdict": "true" },
+    { "num": 5, "text": "Luther quote: 'Many sweat hard at reconciling James with Paul, but unsuccessfully...'", "timestamp": "2:48", "verdict": "true" },
+    { "num": 6, "text": "Luther quote: 'If anyone can harmonize these sayings, I'll put my doctor's cap on him...'", "timestamp": "3:04", "verdict": "true" },
+    { "num": 7, "text": "Martin Luther didn't think James 2 and Romans 3 were harmonizable", "timestamp": "3:10", "verdict": "true" },
+    { "num": 8, "text": "Nazarene Christians had multiple attestations that Saul attempted to kill James or was involved in his stoning under Ananas in 64 CE", "timestamp": "3:42", "verdict": "disputed" },
+    { "num": 9, "text": "Acts 15 begins about circumcision for salvation but ends about what's needed to enter the synagogue", "timestamp": "12:02", "verdict": "disputed" },
+    { "num": 10, "text": "James's four requirements in Acts 15 are purity commands", "timestamp": "19:02", "verdict": "disputed" },
+    { "num": 11, "text": "Acts 15:21 connects the Gentile requirements to hearing Moses read in the synagogue every Sabbath", "timestamp": "19:20", "verdict": "true" },
+    { "num": 12, "text": "In 1 Corinthians 8, Paul teaches it's okay to eat meat sacrificed to idols, including eating in an idol's temple", "timestamp": "21:05", "verdict": "true" },
+    { "num": 13, "text": "Peter says in the Clementine Recognitions that eating meat sacrificed to idols opens you up for demonic possession", "timestamp": "22:34", "verdict": "true" },
+    { "num": 14, "text": "Acts is 'unanimously' recognized in scholarship as an apology for Paul", "timestamp": "19:46", "verdict": "misleading" },
+    { "num": 15, "text": "James in Acts 15 quotes from the Greek Septuagint, not the Hebrew Bible", "timestamp": "25:48", "verdict": "true" },
+    { "num": 16, "text": "There is a 'famous mistranslation' in the Greek Septuagint of Amos 9 that James quotes", "timestamp": "26:03", "verdict": "disputed" },
+    { "num": 17, "text": "James would have never quoted the Greek Septuagint in a Jewish meeting; he would quote the Hebrew Bible", "timestamp": "25:56", "verdict": "disputed" },
+    { "num": 18, "text": "The criterion of embarrassment proves events described in Acts were real historical events", "timestamp": "27:50", "verdict": "misleading" },
+    { "num": 19, "text": "2 Timothy 1:15 — Paul says 'All those in Asia have turned away from me'", "timestamp": "28:26", "verdict": "true" },
+    { "num": 20, "text": "The Essenes were debating the issue of meat sacrificed to idols with other Jewish sects", "timestamp": "24:28", "verdict": "disputed" },
+    { "num": 21, "text": "1 Corinthians 9:19-23 ('I became all things to all people') is an admission of deliberate deception", "timestamp": "34:00", "verdict": "false" },
+    { "num": 22, "text": "James the Just was 'without flesh consumption from birth' according to early attestations", "timestamp": "36:23", "verdict": "true" },
+    { "num": 23, "text": "The Nazarenes and Ebionites were all vegetarian", "timestamp": "36:34", "verdict": "disputed" },
+    { "num": 24, "text": "Paul calls the weak 'those who eat only vegetables' in 1 Corinthians", "timestamp": "36:34", "verdict": "misleading" },
+    { "num": 25, "text": "Romans 3:7 shows Paul justifying lying", "timestamp": "38:48", "verdict": "false" },
+    { "num": 26, "text": "Paul calls the Ten Commandments 'a ministry of death etched into stone tablets' (2 Corinthians 3)", "timestamp": "1:20:59", "verdict": "true" },
+    { "num": 27, "text": "Jesus said 'the only way to eternal life is to keep the commandments' listing five of them in Matthew", "timestamp": "1:22:52", "verdict": "true" },
+    { "num": 28, "text": "Paul says 'Jesus abolished the law in his flesh'", "timestamp": "1:23:19", "verdict": "misleading" },
+    { "num": 29, "text": "Marcion was the first real champion of Paul's letters", "timestamp": "1:23:28", "verdict": "true" },
+    { "num": 30, "text": "Many scholars think Paul's letters that Marcion was reading would have looked 'wildly different' from what we have today", "timestamp": "1:23:44", "verdict": "disputed" },
+    { "num": 31, "text": "'God is one' appears only twice in the entire New Testament: Galatians 3:20 and James 2:19", "timestamp": "1:33:39", "verdict": "false" },
+    { "num": 32, "text": "Paul uses the word 'boast' approximately 56-64 times in his seven undisputed letters vs about 3 times in the six disputed letters", "timestamp": "1:32:22", "verdict": "true" },
+    { "num": 33, "text": "No other organized faction of Christianity existed in the 50s AD besides the Jerusalem church", "timestamp": "1:55:18", "verdict": "misleading" },
+    { "num": 34, "text": "Paul's collection/offering to Jerusalem was rejected — scholars argue Luke's 'aching silence' suggests rejection", "timestamp": "1:47:49", "verdict": "disputed" },
+    { "num": 35, "text": "Dorotheos of Tyre records that Paul/Saul threw James from the temple pinnacle, citing Abdias", "timestamp": "2:47:15", "verdict": "misleading" },
+    { "num": 36, "text": "The Ascents of James is a 'pre-70 text'", "timestamp": "2:48:48", "verdict": "false" },
+    { "num": 37, "text": "Human DNA has been found in McDonald's hamburgers", "timestamp": "32:28", "verdict": "false" },
+    { "num": 38, "text": "Pliny the Younger killed Christians who refused to eat meat sacrificed to idols", "timestamp": "2:38:50", "verdict": "misleading" },
+    { "num": 39, "text": "Paul was a member of the Herodian family", "timestamp": "46:48", "verdict": "misleading" },
+    { "num": 40, "text": "Paul admits to robbery: 'I robbed other churches' (2 Corinthians 11:8)", "timestamp": "2:05:03", "verdict": "misleading" },
+    { "num": 41, "text": "Paul in Acts 13 strikes somebody blind as a punishment miracle", "timestamp": "48:12", "verdict": "true" },
+    { "num": 42, "text": "The Nazarenes rejected all liturgical commandments except the Ten Commandments", "timestamp": "1:20:10", "verdict": "false" },
+    { "num": 43, "text": "In 2 Corinthians 11-12, Paul's references to 'super-apostles' and 'false apostles' refer to the Jerusalem Twelve", "timestamp": "2:01:44", "verdict": "disputed" },
+    { "num": 44, "text": "The word 'angelos' in 2 Corinthians 12:7 means 'angel,' not 'messenger'", "timestamp": "42:41", "verdict": "misleading" },
+    { "num": 45, "text": "Recognitions of Clement 4:35 — Peter says believe no teacher without testimony from James", "timestamp": "1:43:58", "verdict": "true" },
+    { "num": 46, "text": "90% of sermons taught on Sundays are based on Paul's teachings, not Jesus's", "timestamp": "2:12:55", "verdict": "misleading" },
+    { "num": 47, "text": "Paul's 'boast' word count comparison between disputed and undisputed letters", "timestamp": "1:32:00", "verdict": "true" }
+  ],
+  "videoUrl": "https://youtu.be/EYlsAmaGyuc?si=am72xmIlgm1pA5ZR"
+}
