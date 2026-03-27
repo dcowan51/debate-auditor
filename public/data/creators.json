@@ -154,5 +154,37 @@
       "mcclellan-huff-scholarship",
       "mcclellan-face-of-god"
     ]
+  },
+  {
+    "id": "metaphysics-mike",
+    "name": "Metaphysics Mike",
+    "channel": "@metaphysicsmike",
+    "platform": "YouTube",
+    "avatarColor": "#e17055",
+    "initials": "MM",
+    "topics": [
+      "New Testament textual criticism",
+      "Biblical Unitarianism",
+      "Anti-Trinitarianism",
+      "Manuscript variants"
+    ],
+    "sessions": 1,
+    "totalClaims": 30,
+    "trueClaims": 14,
+    "cumulativeScore": 47,
+    "verdict": "Unreliable",
+    "corePositions": [
+      "Biblical Unitarian",
+      "Anti-Trinitarian textual criticism",
+      "Trinitarian conspiracy thesis"
+    ],
+    "notablePatterns": [
+      "Inverts scholarly consensus on John 1:18.",
+      "Three of seven claimed variants unverifiable from standard critical apparatus.",
+      "Methodologically inconsistent — appeals to oldest manuscripts when convenient but argues against them when inconvenient."
+    ],
+    "analyses": [
+      "metaphysics-mike-trinity"
+    ]
   }
 ]

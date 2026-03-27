@@ -1,0 +1,358 @@
+{
+  "id": "metaphysics-mike-trinity",
+  "creatorId": "metaphysics-mike",
+  "creatorName": "Metaphysics Mike",
+  "channel": "@metaphysicsmike",
+  "videoTitle": "7 Times Trinitarians Changed The Bible For The Trinity",
+  "dateAnalyzed": "2026-03-26",
+  "sessionNumber": 1,
+  "analyzedRange": "0:00-10:33",
+  "thesis": "Trinitarian scribes, translators, and copyists systematically altered biblical manuscripts to support the doctrine of the Trinity. Seven textual variants are presented as evidence.",
+  "dashboard": {
+    "sessionScore": 47,
+    "cumulativeScore": null,
+    "cumulativeSessions": 1,
+    "trueClaims": 14,
+    "falseMisleading": 14,
+    "disputed": 2,
+    "totalChecked": 30,
+    "confidence": "Medium",
+    "verdict": "Unreliable",
+    "stratagems": 4,
+    "weaselWords": 5,
+    "errorImpact": 56
+  },
+  "steelman": "The strongest version of this argument is that textual variants do exist in Christologically significant passages, and that scribal tendencies toward theological harmonization are well-documented in the scholarly literature (Ehrman, The Orthodox Corruption of Scripture, 1993). Several of the seven examples cited — particularly 1 Timothy 3:16 and the Johannine Comma — are genuine text-critical problems where Trinitarian influence on transmission is plausible and widely discussed by scholars.",
+  "falseClaims": [
+    {
+      "claim": "Codex Vaticanus reads 'who' in 1 Timothy 3:16",
+      "rating": "False",
+      "confidence": "Very High",
+      "timestamp": "",
+      "evidence": "Codex Vaticanus does not contain 1 Timothy at all. The manuscript ends at Hebrews 9:14 and is missing the Pastoral Epistles entirely.",
+      "settle": "Any critical apparatus or manuscript catalog listing the contents of Codex Vaticanus.",
+      "sources": [
+        {
+          "label": "Codex Vaticanus — contents and lacunae",
+          "url": "https://en.wikipedia.org/wiki/Codex_Vaticanus"
+        },
+        {
+          "label": "1 Timothy 3:16 — textual variants",
+          "url": "https://www.biblegateway.com/passage/?search=1+Timothy+3%3A16&version=NRSVUE"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "KJV essentially alone reads 'God' in 1 Timothy 3:16",
+      "rating": "False",
+      "confidence": "High",
+      "timestamp": "",
+      "evidence": "The NKJV and Geneva Bible also read 'God' in this verse. The claim that the KJV is essentially alone is factually incorrect.",
+      "settle": "Comparison of English translations at 1 Timothy 3:16.",
+      "sources": [
+        {
+          "label": "1 Timothy 3:16 NKJV — also reads 'God'",
+          "url": "https://www.biblegateway.com/passage/?search=1+Timothy+3%3A16&version=NKJV"
+        }
+      ],
+      "category": "Support"
+    },
+    {
+      "claim": "Clement of Alexandria quoted John 1:18 as 'son'",
+      "rating": "False",
+      "confidence": "High",
+      "timestamp": "",
+      "evidence": "Clement's extant quotations of John 1:18 use 'theos' (God), not 'huios' (son). The claim inverts the patristic evidence.",
+      "settle": "Clement's actual quotations in the Stromata and other extant works.",
+      "sources": [
+        {
+          "label": "Clement of Alexandria — works and theology",
+          "url": "https://en.wikipedia.org/wiki/Clement_of_Alexandria"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "'Theos' in John 1:18 is a Trinitarian corruption of the original 'huios'",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "",
+      "evidence": "The NA28 critical text reads 'monogenes theos' (unique God), not 'monogenes huios' (unique Son). The earliest and best manuscripts (P66, P75, Sinaiticus, Vaticanus) support 'theos.' Calling this a 'corruption' inverts the current scholarly consensus.",
+      "settle": "The NA28/UBS5 critical apparatus for John 1:18.",
+      "sources": [
+        {
+          "label": "John 1:18 — textual history",
+          "url": "https://en.wikipedia.org/wiki/John_1:18"
+        },
+        {
+          "label": "John 1:18 NRSVUE",
+          "url": "https://www.biblegateway.com/passage/?search=John+1%3A18&version=NRSVUE"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "'Many scholars believe' that 'Jesus' in Jude 5 is a Trinitarian alteration",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "",
+      "evidence": "The scholarly trend is actually moving toward accepting 'Jesus' as the harder and more likely original reading. The NA28 prints 'Jesus' as the main text. Calling this a Trinitarian alteration inverts the direction of the textual evidence.",
+      "settle": "The NA28 critical apparatus for Jude 5.",
+      "sources": [
+        {
+          "label": "Epistle of Jude — textual criticism",
+          "url": "https://en.wikipedia.org/wiki/Epistle_of_Jude"
+        },
+        {
+          "label": "Jude 1:5 NRSVUE",
+          "url": "https://www.biblegateway.com/passage/?search=Jude+1%3A5&version=NRSVUE"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "Late manuscripts of Titus 3:6 add 'God' to create a Trinitarian reading",
+      "rating": "False",
+      "confidence": "High",
+      "timestamp": "",
+      "evidence": "This variant is not attested in standard critical apparatuses. The claim is unverifiable from the NA28 or UBS5.",
+      "settle": "The NA28/UBS5 critical apparatus for Titus 3:6.",
+      "sources": [
+        {
+          "label": "Titus 3:6 NRSVUE",
+          "url": "https://www.biblegateway.com/passage/?search=Titus+3%3A6&version=NRSVUE"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "Hebrews 13:20 has a variant reading 'our God Jesus'",
+      "rating": "False",
+      "confidence": "High",
+      "timestamp": "",
+      "evidence": "This variant is not attested in standard critical apparatuses. The claim is unverifiable from the NA28 or UBS5.",
+      "settle": "The NA28/UBS5 critical apparatus for Hebrews 13:20.",
+      "sources": [
+        {
+          "label": "Hebrews 13:20 NRSVUE",
+          "url": "https://www.biblegateway.com/passage/?search=Hebrews+13%3A20&version=NRSVUE"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "Codex Alexandrinus reads 'body of God' in John 19:40",
+      "rating": "False",
+      "confidence": "High",
+      "timestamp": "",
+      "evidence": "This variant is not attested in standard critical apparatuses for John 19:40. The claim is unverifiable.",
+      "settle": "The NA28/UBS5 critical apparatus for John 19:40 and the contents of Codex Alexandrinus.",
+      "sources": [
+        {
+          "label": "Codex Alexandrinus — contents",
+          "url": "https://en.wikipedia.org/wiki/Codex_Alexandrinus"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "The Johannine Comma appears only in the 'latest' Latin manuscripts",
+      "rating": "False",
+      "confidence": "High",
+      "timestamp": "",
+      "evidence": "The Comma Johanneum appears in Latin manuscripts from the 5th century onward. Calling these the 'latest' manuscripts is misleading — they are late relative to the earliest Greek manuscripts, but the Comma has a long Latin attestation history.",
+      "settle": "The textual history of the Johannine Comma.",
+      "sources": [
+        {
+          "label": "Johannine Comma — history and attestation",
+          "url": "https://en.wikipedia.org/wiki/Johannine_Comma"
+        }
+      ],
+      "category": "Support"
+    },
+    {
+      "claim": "The KJV Johannine Comma 'replaces' the original text",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "",
+      "evidence": "The Comma is an addition to the text, not a replacement of it. The original text of 1 John 5:7-8 is preserved in critical editions; the Comma is an interpolation added alongside it, not a substitution.",
+      "settle": "Comparison of 1 John 5:7-8 in KJV vs. critical text editions.",
+      "sources": [
+        {
+          "label": "1 John 5:7-8 KJV — includes the Comma",
+          "url": "https://www.biblegateway.com/passage/?search=1+John+5%3A7-8&version=KJV"
+        }
+      ],
+      "category": "Support"
+    }
+  ],
+  "stratagems": [
+    {
+      "number": 11,
+      "name": "Induction with Concealed Counterexamples",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "John 1:18 consensus presented as supporting 'son' when NA28 reads 'theos'",
+          "timestamp": "",
+          "explanation": "Inverts the scholarly consensus on John 1:18. The earliest and best manuscripts support 'monogenes theos,' but this is presented as a Trinitarian corruption rather than the likely original reading."
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "name": "Forcing a Conclusion by Unverifiable Premises",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "Claims about Titus 3:6, Hebrews 13:20, and John 19:40 variants",
+          "timestamp": "",
+          "explanation": "Three of seven claimed textual variants are unverifiable from standard critical apparatuses. The conclusion of systematic Trinitarian corruption is forced by premises that cannot be checked."
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "name": "Misleading Terminology",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "Describes normal textual variants as 'corruption'",
+          "timestamp": "",
+          "explanation": "Uses the loaded term 'corruption' to describe what text critics call 'variants' — a normal and well-understood phenomenon in manuscript transmission that does not imply intentional fraud."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "name": "Extension",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "Implies all major textual discrepancies surround Trinitarianism",
+          "timestamp": "",
+          "explanation": "Extends seven examples into a sweeping claim about systematic alteration. The vast majority of NT textual variants are non-Christological (spelling, word order, harmonization)."
+        }
+      ]
+    }
+  ],
+  "scholarlySplits": [
+    {
+      "claim": "Whether 'theos' or 'huios' is original in John 1:18",
+      "nature": "NA28 prints 'monogenes theos' but minority of scholars (Ehrman initially, later revised) argue for 'huios.' Majority favors 'theos' based on P66, P75, Sinaiticus, Vaticanus.",
+      "timestamp": ""
+    },
+    {
+      "claim": "Whether 'Jesus' or 'Lord' is original in Jude 5",
+      "nature": "NA28 prints 'Jesus' as harder reading. Some scholars prefer 'Lord' or 'God' as original. Genuine text-critical dispute.",
+      "timestamp": ""
+    },
+    {
+      "claim": "Whether 'theos' or 'hos' is original in 1 Timothy 3:16",
+      "nature": "Virtually all modern critical texts read 'hos' (who). 'Theos' (God) is a later Byzantine reading. One of the clearest cases of theological alteration in manuscript tradition.",
+      "timestamp": ""
+    },
+    {
+      "claim": "Whether scribal changes to Christologically significant passages were intentional or accidental",
+      "nature": "Ehrman (Orthodox Corruption of Scripture) argues many were intentional; others (Royse, Head) argue most transmission is characterized by carelessness rather than theology.",
+      "timestamp": ""
+    }
+  ],
+  "trueClaims": [
+    "1 Timothy 3:16 has a textual variant between 'who' (hos) and 'God' (theos)",
+    "Modern critical texts read 'who' rather than 'God' in 1 Timothy 3:16",
+    "John 1:18 has a textual variant between 'only-begotten God' and 'only-begotten Son'",
+    "P66 and P75 are early papyri that attest to 'theos' in John 1:18",
+    "Codex Sinaiticus reads 'theos' in John 1:18",
+    "Jude 5 has a textual variant involving 'Jesus,' 'Lord,' and 'God'",
+    "The Johannine Comma (1 John 5:7-8) is absent from the earliest Greek manuscripts",
+    "The Johannine Comma first appears in Latin tradition",
+    "Erasmus initially omitted the Comma from his Greek New Testament",
+    "Erasmus later included the Comma under ecclesiastical pressure",
+    "Textual variants exist in Christologically significant passages",
+    "Bart Ehrman has written about orthodox corruption of scripture",
+    "The KJV includes the Johannine Comma",
+    "Modern critical editions (NA28/UBS5) omit the Johannine Comma from the main text"
+  ],
+  "youtubeFlags": [
+    {
+      "type": "Title Accuracy",
+      "severity": "warning",
+      "text": "The title '7 Times Trinitarians Changed The Bible' implies intentional, proven alteration. Three of the seven claimed variants are unverifiable from standard critical apparatuses, and others invert scholarly consensus."
+    },
+    {
+      "type": "Implied Claims",
+      "severity": "warning",
+      "text": "The video implies a coordinated conspiracy of Trinitarian scribes systematically altering manuscripts. Mainstream textual criticism recognizes scribal tendencies but does not support a conspiracy thesis."
+    },
+    {
+      "type": "Methodological Inconsistency",
+      "severity": "caution",
+      "text": "Appeals to oldest manuscripts when they support the argument (1 Tim 3:16) but argues against oldest manuscripts when they do not (John 1:18). Methodologically inconsistent application of text-critical principles."
+    }
+  ],
+  "weightedAnalysis": {
+    "categories": [
+      {
+        "name": "Core",
+        "claims": 16,
+        "weight": 3,
+        "trueWeighted": 21,
+        "falseWeighted": 27,
+        "disputedWeighted": 0
+      },
+      {
+        "name": "Support",
+        "claims": 8,
+        "weight": 2,
+        "trueWeighted": 8,
+        "falseWeighted": 8,
+        "disputedWeighted": 0
+      },
+      {
+        "name": "Background",
+        "claims": 6,
+        "weight": 1,
+        "trueWeighted": 5,
+        "falseWeighted": 0,
+        "disputedWeighted": 1
+      }
+    ],
+    "errorImpact": 56,
+    "interpretation": "At 56%, this session is misleading overall. Core claims carry a disproportionate error load — the central thesis depends on inverted consensus (John 1:18), a manuscript that does not contain the cited book (Vaticanus/1 Timothy), and three unverifiable variants."
+  },
+  "allClaims": [
+    { "num": 1, "text": "Codex Vaticanus reads 'who' in 1 Timothy 3:16", "timestamp": "", "verdict": "false" },
+    { "num": 2, "text": "1 Timothy 3:16 has a textual variant between 'who' (hos) and 'God' (theos)", "timestamp": "", "verdict": "true" },
+    { "num": 3, "text": "Modern critical texts read 'who' rather than 'God' in 1 Timothy 3:16", "timestamp": "", "verdict": "true" },
+    { "num": 4, "text": "KJV essentially alone reads 'God' in 1 Timothy 3:16", "timestamp": "", "verdict": "false" },
+    { "num": 5, "text": "John 1:18 has a textual variant between 'only-begotten God' and 'only-begotten Son'", "timestamp": "", "verdict": "true" },
+    { "num": 6, "text": "P66 and P75 are early papyri that attest to 'theos' in John 1:18", "timestamp": "", "verdict": "true" },
+    { "num": 7, "text": "Codex Sinaiticus reads 'theos' in John 1:18", "timestamp": "", "verdict": "true" },
+    { "num": 8, "text": "John 1:18 has genuine text-critical significance for Christology", "timestamp": "", "verdict": "true" },
+    { "num": 9, "text": "Clement of Alexandria quoted John 1:18 as 'son'", "timestamp": "", "verdict": "false" },
+    { "num": 10, "text": "Jude 5 has a textual variant involving 'Jesus,' 'Lord,' and 'God'", "timestamp": "", "verdict": "true" },
+    { "num": 11, "text": "Textual variants exist in Christologically significant passages", "timestamp": "", "verdict": "true" },
+    { "num": 12, "text": "'Theos' in John 1:18 is a Trinitarian corruption of the original 'huios'", "timestamp": "", "verdict": "false" },
+    { "num": 13, "text": "The Johannine Comma (1 John 5:7-8) is absent from the earliest Greek manuscripts", "timestamp": "", "verdict": "true" },
+    { "num": 14, "text": "The Johannine Comma first appears in Latin tradition", "timestamp": "", "verdict": "true" },
+    { "num": 15, "text": "Every OT passage cited by the NT has textual problems", "timestamp": "", "verdict": "misleading" },
+    { "num": 16, "text": "Scribal changes were always intentionally theological", "timestamp": "", "verdict": "misleading" },
+    { "num": 17, "text": "'Many scholars believe' Jesus in Jude 5 is a Trinitarian alteration", "timestamp": "", "verdict": "misleading" },
+    { "num": 18, "text": "The textual variant in Jude 5 is a genuine scholarly dispute", "timestamp": "", "verdict": "disputed" },
+    { "num": 19, "text": "Late manuscripts of Titus 3:6 add 'God' to create a Trinitarian reading", "timestamp": "", "verdict": "false" },
+    { "num": 20, "text": "Some scribal variants may reflect theological motivation", "timestamp": "", "verdict": "disputed" },
+    { "num": 21, "text": "Hebrews 13:20 has a variant reading 'our God Jesus'", "timestamp": "", "verdict": "false" },
+    { "num": 22, "text": "The Johannine Comma is found only in late Latin manuscripts", "timestamp": "", "verdict": "misleading" },
+    { "num": 23, "text": "Codex Alexandrinus reads 'body of God' in John 19:40", "timestamp": "", "verdict": "false" },
+    { "num": 24, "text": "Erasmus initially omitted the Comma from his Greek New Testament", "timestamp": "", "verdict": "true" },
+    { "num": 25, "text": "The KJV Johannine Comma 'replaces' the original text", "timestamp": "", "verdict": "misleading" },
+    { "num": 26, "text": "The Johannine Comma appears only in the 'latest' Latin manuscripts", "timestamp": "", "verdict": "false" },
+    { "num": 27, "text": "Erasmus later included the Comma under ecclesiastical pressure", "timestamp": "", "verdict": "true" },
+    { "num": 28, "text": "Bart Ehrman has written about orthodox corruption of scripture", "timestamp": "", "verdict": "true" },
+    { "num": 29, "text": "The vast majority of textual variants surround Trinitarian doctrine", "timestamp": "", "verdict": "misleading" },
+    { "num": 30, "text": "Modern critical editions (NA28/UBS5) omit the Johannine Comma from the main text", "timestamp": "", "verdict": "true" }
+  ],
+  "videoUrl": ""
+}
