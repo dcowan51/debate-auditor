@@ -1,0 +1,340 @@
+{
+  "id": "nazarene-way-parable",
+  "creatorId": "nazarene-way",
+  "creatorName": "Nazarene Way Church",
+  "channel": "@NazareneWay",
+  "videoTitle": "The Most Offensive Parable Jesus Ever Told",
+  "datePublished": "",
+  "dateAnalyzed": "2026-03-27",
+  "sessionNumber": 1,
+  "analyzedRange": "0:00–17:46",
+  "thesis": "The Parable of the Laborers (Matt 20:1-16) teaches non-transactional faith; framed within Nazarene/Ebionite restorationism, vegetarian-Jesus thesis, and anti-Pauline theology.",
+  "dashboard": {
+    "sessionScore": 37,
+    "cumulativeScore": 37,
+    "cumulativeSessions": 1,
+    "trueClaims": 10,
+    "falseMisleading": 11,
+    "disputed": 6,
+    "totalChecked": 27,
+    "confidence": "Medium",
+    "verdict": "Unreliable",
+    "stratagems": 5,
+    "weaselWords": 3,
+    "errorImpact": 51
+  },
+  "steelman": "The strongest charitable reading of the overall argument is that the historical Jesus's message of radical compassion, humility, and non-transactional faith has been obscured by centuries of institutional theology, and that recovering the Jewish roots of Jesus's movement — including its emphasis on care for the poor and critique of religious legalism — is a worthwhile spiritual project.",
+  "falseClaims": [
+    {
+      "claim": "Jesus never called himself the son of God",
+      "rating": "Likely False",
+      "confidence": "High",
+      "timestamp": "12:49",
+      "evidence": "In Mark 14:61-62, when the high priest asks 'Are you the Messiah, the Son of the Blessed One?', Jesus responds 'I am' (ego eimi). Jesus also repeatedly refers to God as 'my Father' (Matthew 7:21, 10:32-33, 11:27), which functionally operates as a son-of-God claim.",
+      "settle": "Comparison of Synoptic trial narratives (Mark 14:61-62, Matt 26:63-64, Luke 22:67-70).",
+      "sources": [
+        {
+          "label": "Mark 14:61-62 — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=Mark+14%3A61-62&version=NRSVUE"
+        },
+        {
+          "label": "Son of God (Christianity) — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Son_of_God_(Christianity)"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "Jesus celebrated Passover by eating only unleavened bread (no lamb)",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "3:50",
+      "evidence": "Omits the Passover lamb commanded in Exodus 12:3-8 and Deuteronomy 16:2, and the Synoptic Gospels' explicit references to preparing the Passover lamb (Mark 14:12, Luke 22:7-8).",
+      "settle": "Full reading of Exodus 12 alongside the Synoptic Last Supper accounts.",
+      "sources": [
+        {
+          "label": "Exodus 12:3-8 — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=Exodus+12%3A3-8&version=NRSVUE"
+        },
+        {
+          "label": "Mark 14:12 — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=Mark+14%3A12&version=NRSVUE"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "Jesus taught his followers not to eat flesh",
+      "rating": "Likely False",
+      "confidence": "High",
+      "timestamp": "3:22",
+      "evidence": "No canonical gospel records this teaching. Canonical evidence includes Jesus eating fish (Luke 24:42-43), multiplying fish (Mark 6:41, 8:7), and preparing Passover (which per Torah included lamb). The vegetarian-Jesus tradition derives from the 2nd-century Gospel of the Ebionites, not from Jesus's attested words.",
+      "settle": "Survey of all canonical and early non-canonical dietary references attributed to Jesus.",
+      "sources": [
+        {
+          "label": "Luke 24:42-43 — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=Luke+24%3A42-43&version=NRSVUE"
+        },
+        {
+          "label": "Gospel of the Ebionites — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gospel_of_the_Ebionites"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "'Benadam' is the Aramaic term for 'son of man'",
+      "rating": "Mostly False",
+      "confidence": "High",
+      "timestamp": "12:49",
+      "evidence": "'Ben Adam' is Hebrew. The Aramaic equivalent is 'bar enash' or 'bar nasha', as attested in Daniel 7:13 (Biblical Aramaic). The speaker conflates Hebrew and Aramaic.",
+      "settle": "Lexicographic check of 'son of man' in Hebrew vs. Aramaic.",
+      "sources": [
+        {
+          "label": "Daniel 7:13 — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=Daniel+7%3A13&version=NRSVUE"
+        },
+        {
+          "label": "Son of man — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Son_of_man"
+        }
+      ],
+      "category": "Support"
+    },
+    {
+      "claim": "The Ebionites were Jesus's first group / original movement",
+      "rating": "Misleading",
+      "confidence": "Medium",
+      "timestamp": "1:32",
+      "evidence": "The Ebionites are first attested in 2nd-century sources (Irenaeus, Adversus Haereses ~180 CE). Whether they represent direct continuity with the Jerusalem church is debated, not established fact.",
+      "settle": "Review of patristic and archaeological evidence for Ebionite origins.",
+      "sources": [
+        {
+          "label": "Ebionites — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ebionites"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "The Gospel of the Hebrews is 'otherwise known as the Hebrew gospel of Matthew'",
+      "rating": "Misleading",
+      "confidence": "Medium",
+      "timestamp": "6:15",
+      "evidence": "Modern scholarship distinguishes at least three Jewish-Christian gospels: the Gospel of the Hebrews, the Gospel of the Nazarenes, and the Gospel of the Ebionites. The relationship between any of these and canonical Matthew is debated. The equation collapses critical distinctions.",
+      "settle": "Comparative analysis of surviving fragments against canonical Matthew.",
+      "sources": [
+        {
+          "label": "Gospel of the Hebrews — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gospel_of_the_Hebrews"
+        },
+        {
+          "label": "Jewish-Christian gospels — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jewish%E2%80%93Christian_gospels"
+        }
+      ],
+      "category": "Support"
+    },
+    {
+      "claim": "Modern Judaism was 'concocted by the rabbinic movement in 300 CE'",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "3:05",
+      "evidence": "Rabbinic Judaism developed over centuries (Mishnah ~200 CE, Jerusalem Talmud ~400 CE, Babylonian Talmud ~500 CE). The dating to '300 CE' is imprecise, and 'concocted' implies deliberate fabrication rather than organic religious evolution.",
+      "settle": "Timeline of rabbinic literature and institutional development.",
+      "sources": [
+        {
+          "label": "Rabbinic Judaism — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rabbinic_Judaism"
+        }
+      ],
+      "category": "Support"
+    },
+    {
+      "claim": "Jesus never followed the 'doctrinary legalistic laws and ways of the Pharisees'",
+      "rating": "Misleading",
+      "confidence": "Medium",
+      "timestamp": "3:13",
+      "evidence": "Jesus shared key Pharisaic commitments (resurrection, monotheism, prophetic authority, synagogue worship) while disputing specific halakhic applications. The blanket 'never followed' is unsupported by Gospel evidence.",
+      "settle": "Systematic comparison of Jesus's halakhic positions with known Pharisaic teaching.",
+      "sources": [
+        {
+          "label": "Pharisees — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pharisees"
+        }
+      ],
+      "category": "Core"
+    }
+  ],
+  "stratagems": [
+    {
+      "number": 11,
+      "name": "Induction with Concealed Counterexamples",
+      "instances": 2,
+      "entries": [
+        {
+          "quote": "Do not eat flesh… How Jesus celebrated Passover is by eating unleavened bread, flat bread without yeast, and gathering around with your family.",
+          "timestamp": "3:22",
+          "explanation": "Cites the Torah's Passover narrative while entirely omitting that the same text (Exodus 12:3-8) commands slaughtering and eating a lamb as the central act. Deuteronomy 16:2 and the Synoptic Gospels (Mark 14:12, Luke 22:7-8) explicitly reference the Passover lamb."
+        },
+        {
+          "quote": "Jesus never called himself God. He never called himself the son of God.",
+          "timestamp": "12:49",
+          "explanation": "Uses only the 'son of man' designation while concealing that in Mark 14:61-62, Jesus affirms 'I am' when asked if he is the Son of the Blessed One. Also omits Jesus repeatedly calling God 'my Father' (Matthew 7:21, 10:32-33, 11:27)."
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "name": "Labeling to Dismiss",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "the Roman pagan Catholic Church / the Roman pagan cult / the concoction meth message… of the Roman pagan Catholic Church and Christians",
+          "timestamp": "2:22",
+          "explanation": "Pejorative labels ('pagan,' 'cult,' 'meth message') substitute for evidence-based engagement with proto-orthodox Christianity or patristic scholarship."
+        }
+      ]
+    },
+    {
+      "number": 1,
+      "name": "Extension / Generalization",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "Jesus never followed the doctrinary legalistic laws and ways of the Pharisees.",
+          "timestamp": "3:13",
+          "explanation": "Jesus's disputes with Pharisees on specific halakhic points are extended into a blanket claim that he 'never followed' any Pharisaic practices. Jesus attended synagogue (Luke 4:16), observed festivals, and shared core Pharisaic theological commitments."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "name": "False Premises",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "Do not eat flesh. And observe the Sabbath. Observe the same exact holidays that Jesus observed.",
+          "timestamp": "3:22",
+          "explanation": "Presents Jesus's vegetarianism as established fact, then builds Passover theology upon it. No canonical gospel attributes a vegetarian teaching to Jesus. The vegetarian premise comes from the 2nd-century Gospel of the Ebionites."
+        }
+      ]
+    }
+  ],
+  "scholarlySplits": [
+    {
+      "claim": "The earliest followers of Jesus used the Gospel of the Hebrews",
+      "nature": "Whether the Jerusalem church used a Hebrew/Aramaic gospel distinct from canonical Matthew is debated. Jerome claimed the Nazarenes used such a text; modern scholars are divided on its nature and date.",
+      "timestamp": "6:09"
+    },
+    {
+      "claim": "Jesus followed 'the way of the Nazarenes'",
+      "nature": "Whether a pre-Easter 'Nazarene' movement with distinctive practices existed is debated. Majority: 'Nazarene' is a post-Easter designation; minority: pre-Easter sect identity.",
+      "timestamp": "3:13"
+    },
+    {
+      "claim": "Rabbinic Judaism is a rebranding of Pharisaism",
+      "nature": "Scholarly consensus acknowledges Pharisaic roots but 'rebranding' overstates continuity and understates transformation.",
+      "timestamp": "3:05"
+    },
+    {
+      "claim": "Jesus's movement taught vegetarianism",
+      "nature": "The Gospel of the Ebionites presents a vegetarian Jesus. Canonical Gospels do not. Scholarly majority: no evidence for vegetarian Jesus; small minority: Ebionite texts preserve authentic tradition.",
+      "timestamp": "3:22"
+    },
+    {
+      "claim": "Ebionites = Jesus's original movement",
+      "nature": "Some scholars (e.g., Bauckham) see partial continuity; others see the Ebionites as a 2nd-century development. No consensus.",
+      "timestamp": "1:32"
+    },
+    {
+      "claim": "Jesus never claimed to be God",
+      "nature": "In Synoptics, Jesus does not make explicit ontological God-claims. In John, claims are more elevated. Whether the historical Jesus made such claims is debated. Majority of critical scholars: no explicit God-claim in Synoptics; Johannine claims likely later development.",
+      "timestamp": "12:49"
+    }
+  ],
+  "trueClaims": [
+    "The figure 'Ebian' as a founder never existed — scholarly consensus confirms patristic fabrication",
+    "Jesus was not a 'Christian' — the term first appears in Acts 11:26 at Antioch, after Jesus's death",
+    "Jesus's original disciples were not Christians — designation postdates the movement's founding",
+    "Jesus's followers internally called themselves 'people of the way' — attested in Acts 9:2, 19:9, 24:14",
+    "Externally they were known as the sect of the Nazarenes — Acts 24:5",
+    "Jesus never explicitly called himself God (in the Synoptic Gospels) — mainstream critical scholarship",
+    "Jesus referred to himself as the 'son of man' — over 80 occurrences across all four Gospels",
+    "Jesus preached monotheism / following the one true God — Mark 12:29",
+    "'The last will be first and the first will be last' — direct quotation from Matthew 20:16",
+    "Unleavened bread during Passover commemorates hasty departure from Egypt — Exodus 12:39"
+  ],
+  "youtubeFlags": [
+    {
+      "type": "Title Accuracy",
+      "severity": "caution",
+      "text": "The title 'The Most Offensive Parable Jesus Ever Told' is clickbait-adjacent. The Parable of the Laborers (Matthew 20:1-16) is not widely regarded in scholarship as Jesus's 'most offensive' parable. The parable itself is read fairly; the surrounding theological framework is where factual problems arise."
+    },
+    {
+      "type": "Implied Claims",
+      "severity": "warning",
+      "text": "Implies the Nazarene Way Church represents a historically continuous tradition from Jesus's original movement (no evidence of institutional or doctrinal continuity presented). Implies Paul's teachings are categorically opposed to Jesus's. Implies eating flesh is contrary to Jesus's teaching."
+    }
+  ],
+  "weightedAnalysis": {
+    "categories": [
+      {
+        "name": "Core",
+        "claims": 8,
+        "weight": 3,
+        "trueWeighted": 9,
+        "falseWeighted": 15,
+        "disputedWeighted": 0
+      },
+      {
+        "name": "Support",
+        "claims": 10,
+        "weight": 2,
+        "trueWeighted": 10,
+        "falseWeighted": 10,
+        "disputedWeighted": 0
+      },
+      {
+        "name": "Background",
+        "claims": 9,
+        "weight": 1,
+        "trueWeighted": 0,
+        "falseWeighted": 1,
+        "disputedWeighted": 6
+      }
+    ],
+    "errorImpact": 51,
+    "interpretation": "At 51%, this session is firmly in 'misleading overall' territory. Core claims carry the heaviest error load — the Passover lamb omission, vegetarian-Jesus thesis, and 'son of God' denial are all high-confidence errors that undermine the sermon's central framework."
+  },
+  "allClaims": [
+    { "num": 1, "text": "The Ebionites (Ebianim) were Jesus's first group / original movement", "timestamp": "1:32", "verdict": "misleading" },
+    { "num": 2, "text": "'Ebian' as a named founder figure never existed; patristic fabrication", "timestamp": "2:08", "verdict": "true" },
+    { "num": 3, "text": "Epiphanius took an account from pseudo-Tertullian about the figure 'Ebian'", "timestamp": "1:59", "verdict": "true" },
+    { "num": 4, "text": "Biblical scholars know the figure of Ebian never existed", "timestamp": "2:14", "verdict": "true" },
+    { "num": 5, "text": "The Roman/Catholic Church created a straw man of Jesus's original movement", "timestamp": "2:22", "verdict": "disputed" },
+    { "num": 6, "text": "Jesus was not a Christian", "timestamp": "2:31", "verdict": "true" },
+    { "num": 7, "text": "Jesus's disciples (excluding Paul) were not Christians", "timestamp": "2:31", "verdict": "true" },
+    { "num": 8, "text": "Jesus's followers called themselves 'people of the way' / 'disciples of the way'", "timestamp": "2:42", "verdict": "true" },
+    { "num": 9, "text": "Externally, they were known as the Nazarenes / sect of the Nazarenes", "timestamp": "2:49", "verdict": "true" },
+    { "num": 10, "text": "Jesus would not consider himself Jewish if alive today", "timestamp": "2:57", "verdict": "disputed" },
+    { "num": 11, "text": "Modern Judaism was concocted by the rabbinic movement in 300 CE", "timestamp": "3:05", "verdict": "misleading" },
+    { "num": 12, "text": "The rabbinic movement was 'basically a rebranding of the Pharisees'", "timestamp": "3:05", "verdict": "disputed" },
+    { "num": 13, "text": "Jesus never followed the 'doctrinary legalistic laws and ways of the Pharisees'", "timestamp": "3:13", "verdict": "misleading" },
+    { "num": 14, "text": "Jesus followed 'the way of the Nazarenes'", "timestamp": "3:13", "verdict": "disputed" },
+    { "num": 15, "text": "Jesus's teaching included: do not eat flesh", "timestamp": "3:22", "verdict": "false" },
+    { "num": 16, "text": "Jesus celebrated Passover by eating unleavened bread (no lamb mentioned)", "timestamp": "3:50", "verdict": "misleading" },
+    { "num": 17, "text": "The earliest followers of Jesus followed the Gospel of the Hebrews", "timestamp": "6:09", "verdict": "disputed" },
+    { "num": 18, "text": "The Gospel of the Hebrews is 'otherwise known as the Hebrew gospel of Matthew'", "timestamp": "6:15", "verdict": "misleading" },
+    { "num": 19, "text": "The Gospel of the Hebrews was missing the first two chapters (of Matthew)", "timestamp": "6:34", "verdict": "disputed" },
+    { "num": 20, "text": "The Gospel of the Hebrews was 'burned and destroyed' by the Roman church", "timestamp": "6:43", "verdict": "false" },
+    { "num": 21, "text": "Jesus never called himself God", "timestamp": "12:49", "verdict": "disputed" },
+    { "num": 22, "text": "Jesus never called himself the son of God", "timestamp": "12:49", "verdict": "false" },
+    { "num": 23, "text": "Jesus called himself the son of man", "timestamp": "12:49", "verdict": "true" },
+    { "num": 24, "text": "'Benadam' is the Aramaic term for 'son of man'", "timestamp": "12:49", "verdict": "false" },
+    { "num": 25, "text": "Jesus preached following the one true God (monotheism)", "timestamp": "12:25", "verdict": "true" },
+    { "num": 26, "text": "Paul's doctrine was 'follow faith and you'll be saved' — distinct from Jesus's teaching", "timestamp": "12:32", "verdict": "misleading" },
+    { "num": 27, "text": "'The last will be first and the first will be last' — direct quotation from Jesus", "timestamp": "11:56", "verdict": "true" }
+  ],
+  "videoUrl": "https://youtu.be/zEzj0n4PWHw"
+}

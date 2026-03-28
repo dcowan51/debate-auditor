@@ -189,5 +189,42 @@
     "analyses": [
       "metaphysics-mike-trinity"
     ]
+  },
+  {
+    "id": "nazarene-way",
+    "name": "Nazarene Way Church",
+    "channel": "@NazareneWay",
+    "platform": "YouTube",
+    "avatarColor": "#2d3436",
+    "initials": "NW",
+    "topics": [
+      "Ebionite Studies",
+      "Vegetarian Jesus",
+      "Anti-Pauline Theology",
+      "Jewish-Christian Origins",
+      "Restorationism"
+    ],
+    "sessions": 1,
+    "totalClaims": 27,
+    "trueClaims": 10,
+    "cumulativeScore": 37,
+    "verdict": "Unreliable",
+    "corePositions": [
+      "Jesus was a vegetarian; his movement prohibited flesh consumption",
+      "The Passover should be observed without a lamb",
+      "Jesus never claimed divinity or divine sonship",
+      "The Ebionites/Nazarenes represent Jesus's original movement",
+      "Paul's theology is a departure from Jesus's actual teaching",
+      "Modern Judaism and Christianity both distort the original message"
+    ],
+    "notablePatterns": [
+      "Consistent omission of counterevidence from cited sources (Passover lamb, fish miracles, 'son of God' affirmation).",
+      "Repeated pejorative labeling of proto-orthodox Christianity ('pagan cult,' 'meth message').",
+      "Conflation of distinct scholarly categories (Gospel of Hebrews ≠ Gospel of Nazarenes ≠ Gospel of Ebionites).",
+      "Hebrew/Aramaic linguistic errors presented with confidence."
+    ],
+    "analyses": [
+      "nazarene-way-parable"
+    ]
   }
 ]
