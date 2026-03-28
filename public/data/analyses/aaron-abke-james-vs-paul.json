@@ -12,20 +12,28 @@
   "analyzedRange": "0:00–3:02:09",
   "thesis": "Whether the Epistle of James was written as a direct literary refutation of Paul's letters, and whether there was an irreconcilable schism between Paul and the Jerusalem church under James.",
   "dashboard": {
-    "sessionScore": 46,
-    "cumulativeScore": 53,
+    "rawScore": 64,
+    "sessionScore": 44,
+    "scoreNote": "Raw score (64%) inflated by ~136 accurate Bible quotations read aloud. Adjusted score (44%) reflects substantive claims only (historical assertions, scholarly attributions, interpretive claims presented as fact).",
+    "cumulativeScore": 48,
     "cumulativeSessions": 5,
-    "trueClaims": 17,
-    "falseMisleading": 20,
-    "disputed": 10,
-    "totalChecked": 37,
+    "trueClaims": 214,
+    "falseMisleading": 85,
+    "disputed": 36,
+    "opinionsUnverifiable": 71,
+    "totalExtracted": 406,
+    "totalChecked": 335,
+    "adjustedTrueClaims": 78,
+    "adjustedTotalChecked": 179,
     "confidence": "Medium",
+    "rawVerdict": "Caution",
     "verdict": "Unreliable",
-    "stratagems": 9,
-    "weaselWords": 7,
-    "errorImpact": 46
+    "stratagems": 14,
+    "weaselWords": 12,
+    "errorImpact": 40
   },
-  "steelman": "The strongest version of the speakers' argument is that genuine theological tensions existed between Paul and the Jerusalem church (which mainstream scholarship confirms), that James 2:14-26 likely engages and corrects a (mis)application of Pauline faith-language (which many scholars accept), and that Paul's letters reveal real conflicts with Jewish Christian authority figures that the book of Acts attempts to smooth over (which is widely acknowledged in critical scholarship).",
+  "steelman": "The strongest version of the speakers' argument is that genuine theological tensions existed between Paul and the Jerusalem church (which mainstream scholarship confirms), that James 2:14-26 likely engages and corrects a (mis)application of Pauline faith-language (which many scholars accept), that Paul's letters reveal real conflicts with Jewish Christian authority figures that the book of Acts attempts to smooth over (which is widely acknowledged in critical scholarship), and that the parallels between specific James passages and Pauline formulations are real and noteworthy. The argument from silence regarding Paul's collection is a legitimate (if not conclusive) scholarly observation.",
+  "steelmanProPaul": "Paul operated within a complex first-century context of Jewish and Gentile integration, adapting his message for different audiences as a missionary strategy, not deception. His theology of grace and faith was meant to complement, not abolish, ethical living (Galatians 5:6: 'faith working through love'). The apparent contradictions between Paul and James reflect different audiences and rhetorical situations rather than fundamental theological opposition. Paul's own statements affirming the law (Romans 3:31, 7:12, 13:8-10) undermine the one-dimensional reading of Paul as anti-law.",
   "falseClaims": [
     {
       "claim": "\"God is one\" appears only twice in the entire New Testament (Galatians 3:20 and James 2:19)",
@@ -47,11 +55,11 @@
       "category": "Support"
     },
     {
-      "claim": "The Ascents of James is a 'pre-70 text'",
+      "claim": "The Ascents of James is a 'pre-70 text' — attributed to Van Voorst",
       "rating": "Likely False",
       "confidence": "High",
       "timestamp": "2:48:48",
-      "evidence": "Robert E. Van Voorst, in The Ascents of James: History and Theology of a Jewish-Christian Community (the definitive scholarly monograph), dates the Ascents to the late second century, not pre-70 CE. The claim of pre-70 dating is a fringe position.",
+      "evidence": "Robert E. Van Voorst, in The Ascents of James (Scholars Press, 1989), dates the Ascents to the late second century, not pre-70 CE. The speakers cite Van Voorst as supporting a pre-70 date, which reverses his actual conclusion.",
       "settle": "Reading Van Voorst's dating arguments directly.",
       "sources": [
         {
@@ -62,11 +70,30 @@
       "category": "Support"
     },
     {
+      "claim": "Romans 3:7 shows Paul admitting to and justifying lying",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "38:48",
+      "evidence": "Romans 3:7 is universally recognized by Pauline scholars as rhetorical diatribe — Paul voices a hypothetical objector's argument to refute it. Romans 3:8 shows Paul rejecting this reasoning: 'Their condemnation is deserved.'",
+      "settle": "Reading any critical commentary on Romans 3:1-8.",
+      "sources": [
+        {
+          "label": "Romans 3:7-8 — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=Romans+3%3A7-8&version=NRSVUE"
+        },
+        {
+          "label": "Epistle to the Romans — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Epistle_to_the_Romans"
+        }
+      ],
+      "category": "Core"
+    },
+    {
       "claim": "Human DNA has been found in McDonald's hamburgers",
       "rating": "Mostly False",
       "confidence": "High",
       "timestamp": "32:28",
-      "evidence": "A 2016 Clear Labs study found trace human DNA in one frozen vegetarian burger (not McDonald's). The contamination was attributed to manufacturing contact (hair, skin cells), not intentional inclusion of human flesh. No credible study has found human DNA specifically in McDonald's hamburgers.",
+      "evidence": "A 2016 Clear Labs study found trace human DNA in one frozen vegetarian burger (not McDonald's). Contamination attributed to manufacturing contact (hair, skin cells), not human flesh.",
       "settle": "Reading the original Clear Labs study methodology and findings.",
       "sources": [
         {
@@ -77,60 +104,11 @@
       "category": "Background"
     },
     {
-      "claim": "Romans 3:7 shows Paul admitting to and justifying lying",
-      "rating": "Misleading",
-      "confidence": "High",
-      "timestamp": "38:48",
-      "evidence": "Romans 3:7 is universally recognized by Pauline scholars as a passage of rhetorical diatribe — a common Greco-Roman rhetorical device where the author voices a hypothetical objector's argument in order to refute it. Paul is not speaking in his own voice. Romans 3:8 shows Paul rejecting this reasoning: 'Their condemnation is deserved.'",
-      "settle": "Reading any critical commentary on Romans 3:1-8.",
-      "sources": [
-        {
-          "label": "Romans 3:7-8 — BibleGateway",
-          "url": "https://www.biblegateway.com/passage/?search=Romans+3%3A7-8&version=NRSVUE"
-        },
-        {
-          "label": "Diatribe in Romans — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Epistle_to_the_Romans"
-        }
-      ],
-      "category": "Core"
-    },
-    {
-      "claim": "Acts is 'unanimously' recognized in scholarship as 'an apology for Paul'",
-      "rating": "Misleading",
-      "confidence": "Medium",
-      "timestamp": "19:46",
-      "evidence": "While many scholars recognize a pro-Pauline tendency in Acts, the claim of 'unanimous' consensus is overstated. Scholars disagree significantly about Acts' primary purpose: theological historiography (Conzelmann), political apologetic to Rome (Walaskay), narrative theology of the Spirit (Tannehill), legitimation of Gentile Christianity (Esler). Paul-apologetic is one strand among many.",
-      "settle": "A survey of Acts scholarship showing the range of proposed purposes.",
-      "sources": [
-        {
-          "label": "Acts of the Apostles — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Acts_of_the_Apostles"
-        }
-      ],
-      "category": "Core"
-    },
-    {
-      "claim": "Paul's 'super-apostles' and 'false apostles' in 2 Corinthians 11-12 definitively refer to the Jerusalem Twelve",
-      "rating": "Misleading",
-      "confidence": "Medium",
-      "timestamp": "2:01:44",
-      "evidence": "This is one of the most debated identification questions in Pauline scholarship. Many scholars (Barrett, Kasemann) distinguish between 'super-apostles' (possibly Jerusalem leaders) and 'false apostles' (rival missionaries in Corinth). Others (Thrall, Furnish) argue the 'super-apostles' are the rival missionaries themselves, not the Twelve.",
-      "settle": "Comparing the major commentaries on 2 Corinthians 11:5 and 11:13.",
-      "sources": [
-        {
-          "label": "Second Epistle to the Corinthians — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Second_Epistle_to_the_Corinthians"
-        }
-      ],
-      "category": "Core"
-    },
-    {
       "claim": "Pliny the Younger killed Christians specifically for refusing to eat meat sacrificed to idols",
       "rating": "Misleading",
       "confidence": "High",
       "timestamp": "2:38:50",
-      "evidence": "Pliny's letter to Trajan (Epistulae X.96, c. 110 CE) describes testing suspected Christians by having them invoke Roman gods, offer incense and wine to Trajan's image, and curse Christ. He does not describe forcing Christians to eat meat sacrificed to idols as the specific test. Execution was for refusal of Roman religious worship broadly.",
+      "evidence": "Pliny's letter to Trajan (Epistulae X.96, c. 110 CE) describes testing Christians by having them invoke Roman gods, offer incense to Trajan's image, and curse Christ. Execution was for refusal of Roman religious worship broadly, not specifically refusing sacrificial meat.",
       "settle": "Reading Pliny's actual letter to Trajan.",
       "sources": [
         {
@@ -141,11 +119,26 @@
       "category": "Support"
     },
     {
+      "claim": "Acts is 'unanimously' recognized in scholarship as 'an apology for Paul'",
+      "rating": "Misleading",
+      "confidence": "Medium",
+      "timestamp": "19:46",
+      "evidence": "While many scholars recognize a pro-Pauline tendency in Acts, 'unanimous' is overstated. Scholars disagree about Acts' primary purpose: theological historiography (Conzelmann), political apologetic to Rome (Walaskay), narrative theology of the Spirit (Tannehill), legitimation of Gentile Christianity (Esler).",
+      "settle": "A survey of Acts scholarship showing the range of proposed purposes.",
+      "sources": [
+        {
+          "label": "Acts of the Apostles — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Acts_of_the_Apostles"
+        }
+      ],
+      "category": "Core"
+    },
+    {
       "claim": "1 Corinthians 9:19-23 is an admission of deliberate deception",
       "rating": "Misleading",
       "confidence": "High",
       "timestamp": "34:00",
-      "evidence": "Pauline scholars recognize this passage as describing missionary accommodation — adapting one's approach to different audiences — a common strategy in both Jewish and Greco-Roman rhetorical traditions. The passage does not describe deception about beliefs but flexibility in cultural practice. This is the overwhelming scholarly consensus.",
+      "evidence": "Pauline scholars recognize this as missionary accommodation — adapting one's approach to different audiences — a common strategy in both Jewish and Greco-Roman traditions. The overwhelming scholarly consensus rejects reading this as deception.",
       "settle": "Reading scholarly commentaries on 1 Corinthians 9.",
       "sources": [
         {
@@ -156,26 +149,41 @@
       "category": "Core"
     },
     {
-      "claim": "Paul was a member of the Herodian family",
-      "rating": "Misleading",
-      "confidence": "Low",
-      "timestamp": "46:48",
-      "evidence": "This claim derives primarily from Robert Eisenman's work (James the Brother of Jesus, 1997). Eisenman connects Paul's mention of 'Herodion' in Romans 16:11 and Paul's Roman citizenship to possible Herodian connections. This theory has virtually no support in mainstream Pauline scholarship and is considered speculative.",
-      "settle": "Peer-reviewed assessment of Eisenman's Herodian hypothesis.",
+      "claim": "E.P. Sanders concluded Paul is 'completely unintelligible'",
+      "rating": "Likely False",
+      "confidence": "High",
+      "timestamp": "2:09:22",
+      "evidence": "E.P. Sanders' Paul and Palestinian Judaism (1977) argued Paul's theology was coherent within 'participationist eschatology.' Sanders noted tensions but concluded Paul was intelligible within his context. The claim likely confuses Sanders with Schweitzer's earlier observation, but even Schweitzer didn't call Paul 'completely unintelligible.'",
+      "settle": "Reading Sanders' conclusions in Paul and Palestinian Judaism.",
       "sources": [
         {
-          "label": "Paul the Apostle — Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Paul_the_Apostle"
+          "label": "Paul and Palestinian Judaism — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Paul_and_Palestinian_Judaism"
         }
       ],
-      "category": "Support"
+      "category": "Core"
+    },
+    {
+      "claim": "Paul admitted to robbery: 'I robbed other churches' (2 Corinthians 11:8)",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "2:05:03",
+      "evidence": "2 Corinthians 11:8 uses esylesa ('I robbed/plundered') in clearly hyperbolic, ironic context — part of the 'fool's speech' (2 Cor 11-12). Paul accepted financial support from other congregations to minister to Corinth without charging them. Reading this as literal confession of theft ignores the entire rhetorical context.",
+      "settle": "Reading the passage in context with any major commentary.",
+      "sources": [
+        {
+          "label": "2 Corinthians 11 — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=2+Corinthians+11%3A7-9&version=NRSVUE"
+        }
+      ],
+      "category": "Core"
     },
     {
       "claim": "The Nazarenes rejected all liturgical commandments except the Ten Commandments",
       "rating": "Misleading",
       "confidence": "Medium",
       "timestamp": "1:20:10",
-      "evidence": "Patristic sources (Epiphanius, Panarion 29; Jerome) describe the Nazarenes as Torah-observant Jewish Christians who kept the entire Mosaic law including circumcision, Sabbath, and dietary laws — not just the Ten Commandments. This claim conflates Nazarene practice with a much later Protestant distinction between moral and ceremonial law.",
+      "evidence": "Patristic sources (Epiphanius, Panarion 29; Jerome) describe the Nazarenes as Torah-observant Jewish Christians who kept the entire Mosaic law including circumcision, Sabbath, and dietary laws — not just the Ten Commandments. This conflates Nazarene practice with a later Protestant distinction between moral and ceremonial law.",
       "settle": "Reading patristic descriptions of Nazarene Torah observance.",
       "sources": [
         {
@@ -194,12 +202,17 @@
     {
       "number": 1,
       "name": "The Extension (Generalization)",
-      "instances": 1,
+      "instances": 2,
       "entries": [
         {
           "quote": "So to the weak, I pretended to be one of them, that I might win the weak. I become all things to all men so that I may by all means save them. So this is what where I come from. We call this... deceit.",
           "timestamp": "34:00",
-          "explanation": "The passage in 1 Corinthians 9:19-23 is extended from missionary adaptability (the mainstream scholarly reading) to categorical deception. Paul's rhetorical accommodation is generalized into an admission of systematic lying."
+          "explanation": "1 Corinthians 9:19-23 is extended from missionary adaptability (mainstream scholarly reading) to categorical deception."
+        },
+        {
+          "quote": "If through my lie, the truth of God abounded to his glory, why am I also still being judged as a sinner? Like, he doesn't even understand why it's wrong to lie.",
+          "timestamp": "38:48",
+          "explanation": "Romans 3:7, universally recognized as rhetorical diatribe (Paul voicing a hypothetical objector), is extended into Paul's personal endorsement of lying."
         }
       ]
     },
@@ -211,31 +224,41 @@
         {
           "quote": "He says works of the law. I mean, even the Ten Commandments is still part of the law.",
           "timestamp": "1:19:06",
-          "explanation": "Paul's phrase 'works of the law' (erga nomou) is treated as univocal when scholars have long debated whether it refers to Torah observance broadly, boundary markers (circumcision, dietary laws, Sabbath), or the entire Mosaic code."
+          "explanation": "Paul's 'works of the law' (erga nomou) is treated as univocal when scholars debate whether it refers to Torah broadly, boundary markers (Dunn/Wright), or the entire Mosaic code."
         }
       ]
     },
     {
       "number": 5,
       "name": "Using the Opponent's Beliefs Against Them",
-      "instances": 1,
+      "instances": 2,
       "entries": [
         {
-          "quote": "Even the father of Protestant Christianity, Martin Luther, fully acknowledged this schism... Martin Luther didn't think that this was a harmonizable passage.",
+          "quote": "Even the father of Protestant Christianity, Martin Luther, fully acknowledged this schism...",
           "timestamp": "2:48",
-          "explanation": "Luther is deployed as a hostile witness against Paul — the irony being that Luther's point was that James was wrong (Luther called James 'an epistle of straw'), not Paul. The speakers reverse Luther's conclusion while citing his observation."
+          "explanation": "Luther is deployed as hostile witness against Paul. Luther's point was that James was wrong ('epistle of straw'), not Paul. The speakers reverse Luther's conclusion while citing his observation."
+        },
+        {
+          "quote": "Even Peter is essentially saying... 'according to the wisdom given to him' — he never says who gave him that wisdom.",
+          "timestamp": "2:35:10",
+          "explanation": "2 Peter 3:15 is used against Paul by emphasizing an alleged omission. However, 'the wisdom given to him' uses a divine passive — a standard NT construction indicating God as the implicit agent."
         }
       ]
     },
     {
       "number": 11,
       "name": "Induction with Concealed Counterexamples",
-      "instances": 1,
+      "instances": 2,
       "entries": [
         {
-          "quote": "[Throughout the conversation]",
+          "quote": "[Throughout the conversation — selective Paul passages]",
           "timestamp": "multiple",
-          "explanation": "The speakers selectively present passages from Paul's letters that appear negative while omitting passages where Paul affirms the law (Romans 3:31, Romans 7:12, Romans 13:8-10). These counterexamples are acknowledged only once, dismissively, as Paul being 'nervous' before going to Jerusalem."
+          "explanation": "Speakers selectively present negative Paul passages while omitting Romans 3:31 ('we uphold the law'), Romans 7:12 ('the law is holy'), Romans 13:8-10, Galatians 5:14. Acknowledged only once as Paul being 'nervous' before Jerusalem."
+        },
+        {
+          "quote": "[Jesus never gave anyone a demon / vegetarian arguments]",
+          "timestamp": "36:23–44:05",
+          "explanation": "Speakers argue Jesus only cast out demons and early church was vegetarian, while ignoring the feeding of the 5,000/4,000 where Jesus multiplies and distributes fish (Mark 6:41, 8:7; Matt 14:19, 15:36)."
         }
       ]
     },
@@ -247,7 +270,7 @@
         {
           "quote": "He was essentially like deep state... he was a member of the Herodian family. He was an agent of the high priest.",
           "timestamp": "46:41",
-          "explanation": "Modern political language ('deep state,' 'false flags,' 'infiltration') is used to reframe first-century events through a conspiratorial lens, biasing the audience's perception without providing historical evidence."
+          "explanation": "Modern political language ('deep state,' 'false flags,' 'infiltration') reframes first-century events through a conspiratorial lens without historical evidence."
         }
       ]
     },
@@ -259,7 +282,7 @@
         {
           "quote": "The Jesus of the gospels... never was seen giving anybody a demon but was actually seen casting out demons left and right... Satan cannot drive out Satan.",
           "timestamp": "44:05",
-          "explanation": "Paul's 'thorn in the flesh' passage is used to construct a counter-instance against Paul's Jesus being the real Jesus. This assumes the 'angel of Satan' must be literal demonic possession rather than affliction (the majority scholarly view)."
+          "explanation": "Paul's 'thorn in the flesh' is used to construct a counter-instance. Assumes 'angel of Satan' is literal demonic possession rather than affliction (majority scholarly view)."
         }
       ]
     },
@@ -271,19 +294,24 @@
         {
           "quote": "And what leads to a better world? Faith with works or faith without works? Faith with works obviously... We are supposed to do good works and we're supposed to earn our salvation.",
           "timestamp": "1:28:33",
-          "explanation": "Complex theological debate is reduced to a crowd-pleasing moral comparison. The audience is positioned to side with the speakers through a rhetorical question whose answer is obvious, sidestepping actual theological nuance."
+          "explanation": "Complex theological debate reduced to a crowd-pleasing moral comparison via a rhetorical question whose answer is obvious."
         }
       ]
     },
     {
       "number": 30,
       "name": "Argumentum ad Verecundiam (Appeal to Authority — Selective)",
-      "instances": 1,
+      "instances": 2,
       "entries": [
         {
           "quote": "Jerome writes about in his commentary to the Galatians and says that when Paul says 'they asked me to remember the poor' the poor is kind of the designation of the Jerusalem church, the Ebionites.",
           "timestamp": "1:09:30",
-          "explanation": "Jerome's commentary is cited as authoritative, but Jerome himself was a defender of Paul's legitimacy. The speakers selectively use Jerome's historical observation while ignoring his theological conclusions."
+          "explanation": "Jerome cited as authoritative, but he was a defender of Paul's legitimacy. Speakers use his historical observation while ignoring his theological conclusions."
+        },
+        {
+          "quote": "E.P. Sanders... after decades of study... concluded that Paul is completely unintelligible.",
+          "timestamp": "2:09:22",
+          "explanation": "E.P. Sanders invoked as authority, but his actual conclusion in Paul and Palestinian Judaism (1977) was that Paul's theology was coherent within 'participationist eschatology' — not 'completely unintelligible.'"
         }
       ]
     },
@@ -295,7 +323,19 @@
         {
           "quote": "I mean, he sounds like a mad man. Like, I'm surprised anyone can take this guy seriously... he sounds like a mental patient.",
           "timestamp": "2:09:07",
-          "explanation": "Rather than engaging with Paul's rhetorical strategy in 2 Corinthians 10-13 (widely recognized as ironic self-parody), the speakers categorize his rhetoric as literal insanity, dismissing the argument by pathologizing the arguer."
+          "explanation": "Paul's rhetorical strategy in 2 Corinthians 10-13 (the 'fool's speech' — ironic self-parody recognized by scholars) is categorized as literal insanity."
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "name": "Bewilder the Opponent by Mere Bombast",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "[Entire conversation — 400+ claims in 3 hours]",
+          "timestamp": "multiple",
+          "explanation": "The sheer volume and speed of claims (400+ in 3 hours) makes real-time fact-checking impossible. Claims about Dorotheos of Tyre, Ascents of James, Eisenman, Ambrosiaster, Jerome, Pliny, Qumranisms, and more are rattled off in rapid succession, creating an overwhelming impression of scholarly rigor."
         }
       ]
     }
@@ -303,18 +343,33 @@
   "scholarlySplits": [
     {
       "claim": "James 2 directly responds to Paul's Romans/Galatians",
-      "nature": "Majority: James engages a Pauline slogan; Minority: James has no knowledge of Paul; Third camp: James responds to a distortion of Paul, not Paul himself. Consensus leans toward some engagement with Pauline tradition, but NOT that the entire epistle is a systematic rebuttal of specific letters.",
+      "nature": "Majority: James engages a Pauline slogan; Minority: James has no knowledge of Paul; Third camp: James responds to a distortion of Paul, not Paul himself. Consensus leans toward some engagement but NOT that the entire epistle is a systematic rebuttal.",
       "timestamp": "1:51"
     },
     {
       "claim": "Identity of 'super-apostles' in 2 Corinthians 11",
-      "nature": "Some scholars identify them as Jerusalem leaders; others as rival missionaries at Corinth; others distinguish between super-apostles and false apostles. No consensus — actively debated.",
+      "nature": "Some: Jerusalem leaders; Others: rival missionaries at Corinth; Others: distinction between super-apostles and false apostles. No consensus — actively debated.",
       "timestamp": "2:01:44"
     },
     {
       "claim": "Paul's collection was rejected by Jerusalem",
-      "nature": "Argument from silence in Acts and Paul's letters; some scholars find this persuasive, others note arguments from silence are inherently weak. Minority position gaining traction but not consensus.",
+      "nature": "Argument from silence in Acts and Paul's letters; some scholars find persuasive, others note arguments from silence are inherently weak. Minority position gaining traction but not consensus.",
       "timestamp": "1:47:49"
+    },
+    {
+      "claim": "Acts 15 historical reliability",
+      "nature": "Range from substantially historical to largely literary construction. Moderate consensus some historical meeting occurred; details heavily debated.",
+      "timestamp": "11:31"
+    },
+    {
+      "claim": "Paul's relationship with Jerusalem leadership",
+      "nature": "Range from harmonious cooperation to active hostility. Consensus: genuine tensions existed, but total rejection is minority view.",
+      "timestamp": "multiple"
+    },
+    {
+      "claim": "Dating of James's epistle",
+      "nature": "Range from 40s CE (very early) to 90s CE (pseudepigraphical). No consensus, which affects whether literary dependence on Paul is possible.",
+      "timestamp": "multiple"
     },
     {
       "claim": "Whether 'works of the law' means the whole Torah or specific boundary markers",
@@ -322,19 +377,24 @@
       "timestamp": "1:19:06"
     },
     {
-      "claim": "Paul's relationship with Jerusalem leadership",
-      "nature": "Range from harmonious cooperation to active hostility. Consensus: genuine tensions existed, but total rejection is a minority view.",
-      "timestamp": "multiple"
+      "claim": "The 'empty man' (kenos anthropos) as a Qumranism",
+      "nature": "Eisenman: a Dead Sea Scrolls term targeting Paul; mainstream: standard Greek insult with no necessary Qumran connection. Eisenman's view is minority.",
+      "timestamp": "1:31:08"
     },
     {
-      "claim": "Acts 15 historical reliability",
-      "nature": "Range from substantially historical to largely literary construction. Moderate consensus that some historical meeting occurred; details heavily debated.",
-      "timestamp": "11:31"
+      "claim": "Paul's Herodian family connections",
+      "nature": "Eisenman: Paul was Herodian; mainstream: no evidence beyond Romans 16:11 'Herodion' which is a common name. Fringe theory with virtually no mainstream support.",
+      "timestamp": "46:48"
     },
     {
-      "claim": "Dating of James's epistle",
-      "nature": "Range from 40s CE (very early) to 90s CE (pseudepigraphical). No consensus on date, which affects whether literary dependence on Paul is possible.",
-      "timestamp": "multiple"
+      "claim": "Disputed Pauline epistles as 'anti-gnostic' rewrites",
+      "nature": "Some scholars (Pervo, Price) see more editorial intervention; mainstream: pseudepigraphy but based on Pauline tradition. 'Anti-gnostic rewrites' is oversimplification.",
+      "timestamp": "2:13:25"
+    },
+    {
+      "claim": "Rufinus altering 'Saul' to 'Simon Magus' in Clementine literature",
+      "nature": "Some scholars accept this editorial theory; others note the textual tradition is complex. No consensus on direction of alteration.",
+      "timestamp": "2:48:19"
     }
   ],
   "trueClaims": [
@@ -342,115 +402,483 @@
     "Luther did express deep tension between James and Paul — called James 'an epistle of straw' in 1522 preface",
     "Paul teaches in 1 Corinthians 8-10 that eating food offered to idols is permissible in some circumstances",
     "Acts 15:13-21 quotes Amos 9:11-12 in a form closer to the LXX than the MT",
-    "There were genuine tensions between Paul and the Jerusalem leadership — widely accepted based on Galatians 2:1-14",
-    "Paul defends his apostleship repeatedly in his letters — Galatians 1-2, 1 Corinthians 9:1-3, 2 Corinthians 10-13",
+    "There were genuine tensions between Paul and the Jerusalem leadership — widely accepted (Galatians 2:1-14)",
+    "Paul defends his apostleship repeatedly — Galatians 1-2, 1 Corinthians 9:1-3, 2 Corinthians 10-13",
     "Paul explicitly states he did not receive his gospel from the Jerusalem apostles — Galatians 1:11-12",
     "The criterion of embarrassment is a legitimate historical-critical tool",
-    "Paul acknowledges that not everyone considers him an apostle — 1 Corinthians 9:2",
+    "Paul acknowledges not everyone considers him an apostle — 1 Corinthians 9:2",
     "Acts 13:6-12 records Paul striking Elymas blind",
-    "2 Timothy 1:15 records that 'all who are in Asia turned away from me'",
-    "Paul uses the Abraham example in Galatians 3:6-9 and James uses it in James 2:21-24",
-    "Letters of recommendation were a common practice in the ancient Mediterranean",
-    "The Clementine literature contains anti-Pauline traditions — widely recognized in scholarship",
-    "Paul acknowledges a 'thorn in the flesh' and 'angel of Satan' in 2 Corinthians 12:7",
+    "2 Timothy 1:15 records 'all who are in Asia turned away from me'",
+    "Both Paul and James cite Genesis 15:6 (Abraham) to different rhetorical ends",
+    "Letters of recommendation were common in the ancient Mediterranean",
+    "The Clementine literature contains anti-Pauline traditions",
+    "Paul acknowledges 'thorn in the flesh' and 'angel of Satan' in 2 Corinthians 12:7",
     "Galatians 2:11-14 describes Paul opposing Peter at Antioch",
-    "Paul says 'what they were makes no difference to me' about the Jerusalem leaders in Galatians 2:6"
+    "Paul says 'what they were makes no difference to me' — Galatians 2:6",
+    "Marcion was an early champion of Paul's letters (Apostolikon, c. 85-160 CE)",
+    "Paul calls the law a 'ministry of death' in 2 Corinthians 3:7",
+    "Jesus said 'I have not come to abolish the law but to fulfill it' (Matthew 5:17)",
+    "Ambrosiaster is a real patristic source discussing Paul's reception at Corinth",
+    "Paul says in Ephesians 2:15 that Christ 'abolished... the law of commandments'",
+    "Recognitions of Clement 4:35 contains passage about believing no teacher without James's testimonial",
+    "Jerome connects 'the poor' in Galatians 2:10 with the Ebionites",
+    "Neither Acts nor Paul's letters explicitly record the Jerusalem collection was accepted"
   ],
   "youtubeFlags": [
     {
       "type": "Title Accuracy",
       "severity": "warning",
-      "text": "Title states 'Scriptural PROOF' for a position that is actually a scholarly minority view. Most Jamesian scholars hold James 2 engages a Pauline slogan but the entire epistle is not a systematic rebuttal of specific Pauline letters."
+      "text": "Title states 'Scriptural PROOF' for a position that is a scholarly minority view. Most Jamesian scholars hold James 2 engages a Pauline slogan but the entire epistle is not a systematic rebuttal of specific Pauline letters."
     },
     {
       "type": "Conspiracy Framing",
       "severity": "warning",
-      "text": "Modern political language ('deep state,' 'infiltration,' 'agent') applied to first-century events without historical warrant, creating conspiratorial framing throughout the conversation."
+      "text": "Modern political language ('deep state,' 'infiltration,' 'agent') applied to first-century events without historical warrant, creating conspiratorial framing throughout."
     },
     {
       "type": "Unverified Claims",
       "severity": "caution",
-      "text": "Human DNA in McDonald's claim (32:28) is a debunked internet rumor presented casually as fact mid-conversation, suggesting insufficient source-checking even for non-biblical claims."
+      "text": "Human DNA in McDonald's claim (32:28) is a debunked internet rumor presented casually as fact, suggesting insufficient source-checking even for non-biblical claims."
+    },
+    {
+      "type": "Volume Overwhelm",
+      "severity": "warning",
+      "text": "400+ claims in 3 hours makes real-time fact-checking impossible for viewers. Of 85 false/misleading claims, many are delivered alongside accurate Bible quotations, creating an illusion of thoroughness."
     }
   ],
   "weightedAnalysis": {
     "categories": [
       {
         "name": "Core",
-        "claims": 15,
+        "claims": 40,
         "weight": 3,
-        "trueWeighted": 15,
-        "falseWeighted": 30,
+        "trueWeighted": 54,
+        "falseWeighted": 66,
         "disputedWeighted": 0
       },
       {
         "name": "Support",
-        "claims": 15,
+        "claims": 78,
         "weight": 2,
-        "trueWeighted": 16,
-        "falseWeighted": 14,
-        "disputedWeighted": 20
+        "trueWeighted": 80,
+        "falseWeighted": 76,
+        "disputedWeighted": 88
       },
       {
         "name": "Background",
-        "claims": 7,
+        "claims": 40,
         "weight": 1,
-        "trueWeighted": 4,
-        "falseWeighted": 3,
+        "trueWeighted": 20,
+        "falseWeighted": 20,
         "disputedWeighted": 0
       }
     ],
-    "errorImpact": 46,
-    "interpretation": "At 46%, this session is firmly in 'misleading overall' territory. Core claims about Paul's deception, Acts as unanimous apologetic, and Nazarene theology carry disproportionate error loads. The conversation's strongest material involves genuinely attested Paul-Jerusalem tensions, but these are framed through conspiratorial language and selective evidence."
+    "errorImpact": 40,
+    "interpretation": "At 40%, this session is in 'misleading overall' territory. The raw 64% score is inflated by ~136 accurate Bible quotations read aloud. When limited to substantive claims (historical assertions, scholarly attributions, interpretive claims), the score drops to 44%. Core claims about Paul's deception, Acts as unanimous apologetic, E.P. Sanders, and Nazarene theology carry disproportionate error loads."
   },
   "allClaims": [
-    { "num": 1, "text": "The previous episode has about 125k views", "timestamp": "0:49", "verdict": "true" },
-    { "num": 2, "text": "James chapter 2 is a clear refutation of Paul's writing in Romans 3", "timestamp": "1:51", "verdict": "disputed" },
-    { "num": 3, "text": "Paul uses the example of Abraham offering his son as proof of justification by faith alone apart from works", "timestamp": "1:58", "verdict": "misleading" },
-    { "num": 4, "text": "Martin Luther 'fully acknowledged this schism' and said James refutes Paul in chapter 2", "timestamp": "2:41", "verdict": "true" },
-    { "num": 5, "text": "Luther quote: 'Many sweat hard at reconciling James with Paul, but unsuccessfully...'", "timestamp": "2:48", "verdict": "true" },
-    { "num": 6, "text": "Luther quote: 'If anyone can harmonize these sayings, I'll put my doctor's cap on him...'", "timestamp": "3:04", "verdict": "true" },
-    { "num": 7, "text": "Martin Luther didn't think James 2 and Romans 3 were harmonizable", "timestamp": "3:10", "verdict": "true" },
-    { "num": 8, "text": "Nazarene Christians had multiple attestations that Saul attempted to kill James or was involved in his stoning under Ananas in 64 CE", "timestamp": "3:42", "verdict": "disputed" },
-    { "num": 9, "text": "Acts 15 begins about circumcision for salvation but ends about what's needed to enter the synagogue", "timestamp": "12:02", "verdict": "disputed" },
-    { "num": 10, "text": "James's four requirements in Acts 15 are purity commands", "timestamp": "19:02", "verdict": "disputed" },
-    { "num": 11, "text": "Acts 15:21 connects the Gentile requirements to hearing Moses read in the synagogue every Sabbath", "timestamp": "19:20", "verdict": "true" },
-    { "num": 12, "text": "In 1 Corinthians 8, Paul teaches it's okay to eat meat sacrificed to idols, including eating in an idol's temple", "timestamp": "21:05", "verdict": "true" },
-    { "num": 13, "text": "Peter says in the Clementine Recognitions that eating meat sacrificed to idols opens you up for demonic possession", "timestamp": "22:34", "verdict": "true" },
-    { "num": 14, "text": "Acts is 'unanimously' recognized in scholarship as an apology for Paul", "timestamp": "19:46", "verdict": "misleading" },
-    { "num": 15, "text": "James in Acts 15 quotes from the Greek Septuagint, not the Hebrew Bible", "timestamp": "25:48", "verdict": "true" },
-    { "num": 16, "text": "There is a 'famous mistranslation' in the Greek Septuagint of Amos 9 that James quotes", "timestamp": "26:03", "verdict": "disputed" },
-    { "num": 17, "text": "James would have never quoted the Greek Septuagint in a Jewish meeting; he would quote the Hebrew Bible", "timestamp": "25:56", "verdict": "disputed" },
-    { "num": 18, "text": "The criterion of embarrassment proves events described in Acts were real historical events", "timestamp": "27:50", "verdict": "misleading" },
-    { "num": 19, "text": "2 Timothy 1:15 — Paul says 'All those in Asia have turned away from me'", "timestamp": "28:26", "verdict": "true" },
-    { "num": 20, "text": "The Essenes were debating the issue of meat sacrificed to idols with other Jewish sects", "timestamp": "24:28", "verdict": "disputed" },
-    { "num": 21, "text": "1 Corinthians 9:19-23 ('I became all things to all people') is an admission of deliberate deception", "timestamp": "34:00", "verdict": "false" },
-    { "num": 22, "text": "James the Just was 'without flesh consumption from birth' according to early attestations", "timestamp": "36:23", "verdict": "true" },
-    { "num": 23, "text": "The Nazarenes and Ebionites were all vegetarian", "timestamp": "36:34", "verdict": "disputed" },
-    { "num": 24, "text": "Paul calls the weak 'those who eat only vegetables' in 1 Corinthians", "timestamp": "36:34", "verdict": "misleading" },
-    { "num": 25, "text": "Romans 3:7 shows Paul justifying lying", "timestamp": "38:48", "verdict": "false" },
-    { "num": 26, "text": "Paul calls the Ten Commandments 'a ministry of death etched into stone tablets' (2 Corinthians 3)", "timestamp": "1:20:59", "verdict": "true" },
-    { "num": 27, "text": "Jesus said 'the only way to eternal life is to keep the commandments' listing five of them in Matthew", "timestamp": "1:22:52", "verdict": "true" },
-    { "num": 28, "text": "Paul says 'Jesus abolished the law in his flesh'", "timestamp": "1:23:19", "verdict": "misleading" },
-    { "num": 29, "text": "Marcion was the first real champion of Paul's letters", "timestamp": "1:23:28", "verdict": "true" },
-    { "num": 30, "text": "Many scholars think Paul's letters that Marcion was reading would have looked 'wildly different' from what we have today", "timestamp": "1:23:44", "verdict": "disputed" },
-    { "num": 31, "text": "'God is one' appears only twice in the entire New Testament: Galatians 3:20 and James 2:19", "timestamp": "1:33:39", "verdict": "false" },
-    { "num": 32, "text": "Paul uses the word 'boast' approximately 56-64 times in his seven undisputed letters vs about 3 times in the six disputed letters", "timestamp": "1:32:22", "verdict": "true" },
-    { "num": 33, "text": "No other organized faction of Christianity existed in the 50s AD besides the Jerusalem church", "timestamp": "1:55:18", "verdict": "misleading" },
-    { "num": 34, "text": "Paul's collection/offering to Jerusalem was rejected — scholars argue Luke's 'aching silence' suggests rejection", "timestamp": "1:47:49", "verdict": "disputed" },
-    { "num": 35, "text": "Dorotheos of Tyre records that Paul/Saul threw James from the temple pinnacle, citing Abdias", "timestamp": "2:47:15", "verdict": "misleading" },
-    { "num": 36, "text": "The Ascents of James is a 'pre-70 text'", "timestamp": "2:48:48", "verdict": "false" },
-    { "num": 37, "text": "Human DNA has been found in McDonald's hamburgers", "timestamp": "32:28", "verdict": "false" },
-    { "num": 38, "text": "Pliny the Younger killed Christians who refused to eat meat sacrificed to idols", "timestamp": "2:38:50", "verdict": "misleading" },
-    { "num": 39, "text": "Paul was a member of the Herodian family", "timestamp": "46:48", "verdict": "misleading" },
-    { "num": 40, "text": "Paul admits to robbery: 'I robbed other churches' (2 Corinthians 11:8)", "timestamp": "2:05:03", "verdict": "misleading" },
-    { "num": 41, "text": "Paul in Acts 13 strikes somebody blind as a punishment miracle", "timestamp": "48:12", "verdict": "true" },
-    { "num": 42, "text": "The Nazarenes rejected all liturgical commandments except the Ten Commandments", "timestamp": "1:20:10", "verdict": "false" },
-    { "num": 43, "text": "In 2 Corinthians 11-12, Paul's references to 'super-apostles' and 'false apostles' refer to the Jerusalem Twelve", "timestamp": "2:01:44", "verdict": "disputed" },
-    { "num": 44, "text": "The word 'angelos' in 2 Corinthians 12:7 means 'angel,' not 'messenger'", "timestamp": "42:41", "verdict": "misleading" },
-    { "num": 45, "text": "Recognitions of Clement 4:35 — Peter says believe no teacher without testimony from James", "timestamp": "1:43:58", "verdict": "true" },
-    { "num": 46, "text": "90% of sermons taught on Sundays are based on Paul's teachings, not Jesus's", "timestamp": "2:12:55", "verdict": "misleading" },
-    { "num": 47, "text": "Paul's 'boast' word count comparison between disputed and undisputed letters", "timestamp": "1:32:00", "verdict": "true" }
+    { "num": 1, "text": "Previous episode had about 125k views", "timestamp": "0:49", "verdict": "opinion" },
+    { "num": 2, "text": "James chapter 2 is a refutation of Paul's writing in Romans 3", "timestamp": "1:51", "verdict": "disputed" },
+    { "num": 3, "text": "Paul uses Abraham offering his son as proof of justification by faith alone apart from works", "timestamp": "1:58", "verdict": "false" },
+    { "num": 4, "text": "James responds in verse 20 with 'Do you want to be shown, oh vain man, that faith without works is dead?'", "timestamp": "2:06", "verdict": "true" },
+    { "num": 5, "text": "James uses the same analogy as Paul (Abraham)", "timestamp": "2:13", "verdict": "true" },
+    { "num": 6, "text": "James concludes Abraham was justified because he was about to go through with the sacrifice", "timestamp": "2:21", "verdict": "true" },
+    { "num": 7, "text": "Martin Luther fully acknowledged the schism between James and Paul", "timestamp": "2:41", "verdict": "true" },
+    { "num": 8, "text": "Luther made a statement about sweating to reconcile James and Paul", "timestamp": "2:48", "verdict": "true" },
+    { "num": 9, "text": "Luther made a statement about the doctor's cap", "timestamp": "3:04", "verdict": "true" },
+    { "num": 10, "text": "Luther didn't think James 2 and Romans 3:28 were harmonizable", "timestamp": "3:10", "verdict": "true" },
+    { "num": 11, "text": "Nazarene Christians had multiple attestations that Saul attempted to kill James", "timestamp": "3:42", "verdict": "disputed" },
+    { "num": 12, "text": "Paul was possibly involved in James's stoning under Ananas in 64 CE", "timestamp": "3:50", "verdict": "disputed" },
+    { "num": 13, "text": "Acts covers up Paul's total rejection by the disciples and Jerusalem church", "timestamp": "3:58", "verdict": "opinion" },
+    { "num": 14, "text": "The parable of the sheep and goats teaches salvation by works", "timestamp": "7:47", "verdict": "disputed" },
+    { "num": 15, "text": "Jesus taught works consistently all through the gospels", "timestamp": "8:12", "verdict": "disputed" },
+    { "num": 16, "text": "Jesus did not teach faith alone", "timestamp": "8:20", "verdict": "disputed" },
+    { "num": 17, "text": "The quote 'mercy not sacrifice' is attributed to Jesus", "timestamp": "9:04", "verdict": "true" },
+    { "num": 18, "text": "Douglas Del Tondo is quoted saying 'don't boast then, just do good works'", "timestamp": "9:31", "verdict": "opinion" },
+    { "num": 19, "text": "Paul says 'so no man should boast' about faith alone not works", "timestamp": "9:31", "verdict": "false" },
+    { "num": 20, "text": "Paul never stops talking about himself", "timestamp": "9:40", "verdict": "opinion" },
+    { "num": 21, "text": "Paul says 'because of the surpassing greatness of my revelations, the Lord gave me a thorn in the flesh'", "timestamp": "9:51", "verdict": "true" },
+    { "num": 22, "text": "Acts 15 and Galatians 2 describe the same events", "timestamp": "11:31", "verdict": "disputed" },
+    { "num": 23, "text": "In Galatians, Paul says he went to Jerusalem 'by revelation'", "timestamp": "11:46", "verdict": "true" },
+    { "num": 24, "text": "In Acts, Paul is told to go to Jerusalem to resolve a matter of contention", "timestamp": "11:54", "verdict": "true" },
+    { "num": 25, "text": "Acts 15 begins about whether circumcision is necessary for salvation", "timestamp": "12:02", "verdict": "true" },
+    { "num": 26, "text": "By the end of Acts 15, the issue appears to be about entering the synagogue", "timestamp": "12:09", "verdict": "disputed" },
+    { "num": 27, "text": "In the Acts 15 conference, Paul meets with the apostles and elders", "timestamp": "12:25", "verdict": "true" },
+    { "num": 28, "text": "Circumcision is discussed at the Acts 15 conference", "timestamp": "12:25", "verdict": "true" },
+    { "num": 29, "text": "According to Galatians 2, the apostles told Paul to 'remember the poor'", "timestamp": "12:32", "verdict": "true" },
+    { "num": 30, "text": "'Remember the poor' is generally thought to mean give offerings", "timestamp": "12:42", "verdict": "false" },
+    { "num": 31, "text": "Trusted messengers sent with Paul were not Paul himself", "timestamp": "12:50", "verdict": "true" },
+    { "num": 32, "text": "Silas and Judas were the trusted messengers sent", "timestamp": "13:00", "verdict": "true" },
+    { "num": 33, "text": "Acts says 'we'll send our trusted messengers and Paul and Barnabas'", "timestamp": "13:07", "verdict": "true" },
+    { "num": 34, "text": "Paul writes 1 Corinthians at this point in the timeline", "timestamp": "15:00", "verdict": "disputed" },
+    { "num": 35, "text": "Peter comes to Antioch at some point", "timestamp": "15:12", "verdict": "true" },
+    { "num": 36, "text": "People arrive in Antioch sent by James", "timestamp": "15:22", "verdict": "true" },
+    { "num": 37, "text": "The men from James may have arrived with a copy of 1 Corinthians", "timestamp": "15:31", "verdict": "opinion" },
+    { "num": 38, "text": "Something the men from James said caused Peter to withdraw from table fellowship", "timestamp": "15:37", "verdict": "true" },
+    { "num": 39, "text": "Paul admits everybody turned against him — the men from James, Peter, and Barnabas", "timestamp": "15:49", "verdict": "true" },
+    { "num": 40, "text": "Paul lost the disagreement", "timestamp": "16:04", "verdict": "opinion" },
+    { "num": 41, "text": "Paul and Barnabas part ways according to both Acts and Galatians 2", "timestamp": "16:25", "verdict": "false" },
+    { "num": 42, "text": "Paul writes Galatians and 2 Corinthians after the parting with Barnabas", "timestamp": "16:34", "verdict": "disputed" },
+    { "num": 43, "text": "The letter of James is a response from James specifically to both Galatians and 2 Corinthians", "timestamp": "16:34", "verdict": "disputed" },
+    { "num": 44, "text": "There are two camps in scholarship on whether Acts knows Paul's letters", "timestamp": "16:48", "verdict": "true" },
+    { "num": 45, "text": "There may be multiple authors of Acts", "timestamp": "17:00", "verdict": "disputed" },
+    { "num": 46, "text": "The author of Acts is obviously 'like a fanboy of Paul'", "timestamp": "17:33", "verdict": "opinion" },
+    { "num": 47, "text": "Acts is 'unanimously' recognized in scholarship as an apology for Paul", "timestamp": "19:46", "verdict": "false" },
+    { "num": 48, "text": "James's four requirements in Acts 15 are purity commands", "timestamp": "19:02", "verdict": "disputed" },
+    { "num": 49, "text": "Acts 15:21 connects the requirements to Moses being read in the synagogue every Sabbath", "timestamp": "19:20", "verdict": "true" },
+    { "num": 50, "text": "In Acts 15, James forbids Paul from teaching certain things about meat sacrificed to idols", "timestamp": "20:00", "verdict": "false" },
+    { "num": 51, "text": "In Paul's letters, he signs off on eating meat sacrificed to idols", "timestamp": "20:14", "verdict": "false" },
+    { "num": 52, "text": "Luke wouldn't know Paul said that regarding idol food", "timestamp": "20:27", "verdict": "opinion" },
+    { "num": 53, "text": "1 Corinthians 8:4 — Paul says 'an idol has no real existence and there is no god but one'", "timestamp": "21:05", "verdict": "true" },
+    { "num": 54, "text": "Paul uses the word 'knowledge' or 'gnosis' in the idol food passage", "timestamp": "21:22", "verdict": "true" },
+    { "num": 55, "text": "'Some' in Paul's letters refers to someone in authority he's not comfortable criticizing", "timestamp": "21:30", "verdict": "opinion" },
+    { "num": 56, "text": "Paul says those with 'weak conscience' regarding idol food are defiled", "timestamp": "21:54", "verdict": "true" },
+    { "num": 57, "text": "'The weak' Paul refers to are James and the apostles", "timestamp": "22:05", "verdict": "false" },
+    { "num": 58, "text": "Paul says 'food will not commend us to God'", "timestamp": "22:11", "verdict": "true" },
+    { "num": 59, "text": "Paul says it's okay to eat in an idol's temple", "timestamp": "23:17", "verdict": "false" },
+    { "num": 60, "text": "Peter says in the Clementine Recognitions that eating meat sacrificed to idols opens you up for demonic possession", "timestamp": "22:34", "verdict": "true" },
+    { "num": 61, "text": "The idol's demonic entity can transfer through meat in a covenant meal", "timestamp": "22:40", "verdict": "opinion" },
+    { "num": 62, "text": "The Essenes were debating the issue of meat sacrificed to idols with other Jewish sects", "timestamp": "24:28", "verdict": "false" },
+    { "num": 63, "text": "The demonology of demons attached to meat sacrificed to idols is discussed in Clementine literature", "timestamp": "24:35", "verdict": "true" },
+    { "num": 64, "text": "Scholars agree Paul's 'those who eat vegetables' refers to Jewish Christians", "timestamp": "25:01", "verdict": "false" },
+    { "num": 65, "text": "Acts 15 quotes James using the Greek Septuagint, not the Hebrew Bible", "timestamp": "25:48", "verdict": "true" },
+    { "num": 66, "text": "There is a famous mistranslation in the Greek Septuagint of Amos 9", "timestamp": "26:03", "verdict": "false" },
+    { "num": 67, "text": "James would never quote a Greek Septuagint passage in a Jewish meeting", "timestamp": "25:56", "verdict": "false" },
+    { "num": 68, "text": "James quotes the mistranslation from the LXX in Acts 15", "timestamp": "26:11", "verdict": "false" },
+    { "num": 69, "text": "Scholars say the Acts 15 James speech is 'obviously an entirely made-up narrative'", "timestamp": "26:19", "verdict": "false" },
+    { "num": 70, "text": "The criterion of embarrassment means embarrassing details for Christianity likely refer to real events", "timestamp": "28:09", "verdict": "true" },
+    { "num": 71, "text": "2 Timothy 1:15 — Paul says 'all those in Asia have turned away from me'", "timestamp": "28:26", "verdict": "true" },
+    { "num": 72, "text": "If that didn't happen, the forger of 2 Timothy wouldn't have put those words in Paul's mouth", "timestamp": "28:34", "verdict": "opinion" },
+    { "num": 73, "text": "1 Corinthians 10 — Paul says eat whatever is set before you without raising questions of conscience", "timestamp": "30:37", "verdict": "true" },
+    { "num": 74, "text": "Paul says 'why should my liberty be determined by someone else's conscience?'", "timestamp": "31:19", "verdict": "true" },
+    { "num": 75, "text": "Paul is being denounced by somebody", "timestamp": "31:27", "verdict": "opinion" },
+    { "num": 76, "text": "Comparing 1 Cor to Acts 15 shows Paul is 'absolutely bucking the system'", "timestamp": "31:46", "verdict": "opinion" },
+    { "num": 77, "text": "Human DNA has been found in McDonald's hamburgers", "timestamp": "32:28", "verdict": "false" },
+    { "num": 78, "text": "1 Corinthians 9 — Paul says 'am I not free? Am I not an apostle? Haven't I seen Yeshua?'", "timestamp": "34:00", "verdict": "true" },
+    { "num": 79, "text": "Paul admits not everyone agrees he's an apostle: 'If to others I'm not an apostle'", "timestamp": "34:08", "verdict": "true" },
+    { "num": 80, "text": "1 Corinthians 9:19-23 — Paul says 'to the Jews I became as a Jew...'", "timestamp": "34:33", "verdict": "true" },
+    { "num": 81, "text": "'To the weak I became weak' means Paul pretended to be one of them", "timestamp": "34:57", "verdict": "false" },
+    { "num": 82, "text": "'I become all things to all men' = deception", "timestamp": "35:03", "verdict": "false" },
+    { "num": 83, "text": "James the Just was 'without flesh consumption from birth' — early attestations exist", "timestamp": "36:23", "verdict": "true" },
+    { "num": 84, "text": "The Nazarenes and Ebionites were all vegetarian", "timestamp": "36:34", "verdict": "false" },
+    { "num": 85, "text": "Paul says in 1 Corinthians 'the weak eat only vegetables'", "timestamp": "36:34", "verdict": "false" },
+    { "num": 86, "text": "Paul is mocking Jewish Christians for being vegetarians", "timestamp": "36:46", "verdict": "opinion" },
+    { "num": 87, "text": "'To the weak I became weak' means pretending to be vegetarian", "timestamp": "36:54", "verdict": "opinion" },
+    { "num": 88, "text": "Paul was a former murderer/persecutor of Christians", "timestamp": "37:29", "verdict": "true" },
+    { "num": 89, "text": "Paul's continued lying means he hasn't fully repented", "timestamp": "37:31", "verdict": "opinion" },
+    { "num": 90, "text": "Paul thinks he's better than the apostles, James, and probably Christ", "timestamp": "38:21", "verdict": "opinion" },
+    { "num": 91, "text": "Paul says 'I'm a greater servant of Christ than them because I've suffered more'", "timestamp": "38:32", "verdict": "false" },
+    { "num": 92, "text": "Romans 3:7 — Paul says 'if through my lie the truth of God abounded...'", "timestamp": "38:48", "verdict": "true" },
+    { "num": 93, "text": "Paul doesn't understand why it's wrong to lie", "timestamp": "38:56", "verdict": "false" },
+    { "num": 94, "text": "Paul got into the Jesus movement by misrepresenting himself", "timestamp": "39:01", "verdict": "opinion" },
+    { "num": 95, "text": "'Truth cannot abound through lies'", "timestamp": "39:27", "verdict": "opinion" },
+    { "num": 96, "text": "Paul's instant conversion claim is unrealistic", "timestamp": "39:53", "verdict": "opinion" },
+    { "num": 97, "text": "Paul is a serial killer of Christians", "timestamp": "40:24", "verdict": "false" },
+    { "num": 98, "text": "Narcissism is Paul's number one sinful tendency", "timestamp": "40:34", "verdict": "opinion" },
+    { "num": 99, "text": "Romans 7:7 sounds more like a Pharisee than Jesus", "timestamp": "41:02", "verdict": "opinion" },
+    { "num": 100, "text": "2 Corinthians 12:7 — Paul says 'a stinger was given to me in the flesh, an angel of Satan'", "timestamp": "42:25", "verdict": "true" },
+    { "num": 101, "text": "The Greek word in 2 Corinthians 12:7 is 'angelos satana'", "timestamp": "42:41", "verdict": "true" },
+    { "num": 102, "text": "Most translations clean up 'angel of Satan' as 'messenger of Satan' but Greek says 'angel'", "timestamp": "42:41", "verdict": "false" },
+    { "num": 103, "text": "The 'angel of Satan in his flesh' sounds like demonic possession", "timestamp": "42:51", "verdict": "opinion" },
+    { "num": 104, "text": "Paul says he 'begged the Lord three times that it should leave me'", "timestamp": "43:05", "verdict": "true" },
+    { "num": 105, "text": "Jesus responds 'my grace is sufficient for you, for my power is made perfect in weakness'", "timestamp": "43:05", "verdict": "true" },
+    { "num": 106, "text": "Paul then says 'I will boast all the more gladly of my weaknesses'", "timestamp": "43:11", "verdict": "true" },
+    { "num": 107, "text": "Paul is saying Jesus gave him the angel of Satan to keep him humble", "timestamp": "43:34", "verdict": "false" },
+    { "num": 108, "text": "The historical Jesus never gave anybody a demon but cast them out", "timestamp": "43:50", "verdict": "true" },
+    { "num": 109, "text": "Jesus said 'Satan cannot drive out Satan'", "timestamp": "43:58", "verdict": "true" },
+    { "num": 110, "text": "Paul asks Jesus to cast this demon out and Jesus refuses", "timestamp": "44:05", "verdict": "false" },
+    { "num": 111, "text": "Calvin Roetzel discusses Paul's issues with the Jerusalem apostles", "timestamp": "44:36", "verdict": "true" },
+    { "num": 112, "text": "Apologists say Paul's 'super apostles' aren't Jerusalem apostles", "timestamp": "44:52", "verdict": "true" },
+    { "num": 113, "text": "Paul sends his gift offering / collection to the saints", "timestamp": "45:01", "verdict": "true" },
+    { "num": 114, "text": "Neither Paul nor Acts comments that the offering was accepted", "timestamp": "45:01", "verdict": "true" },
+    { "num": 115, "text": "Dr. Roetzel argues silence about the offering is evidence it was rejected", "timestamp": "45:08", "verdict": "true" },
+    { "num": 116, "text": "A rejected gift would be tantamount to exile", "timestamp": "45:16", "verdict": "opinion" },
+    { "num": 117, "text": "Paul is trying to save face in 2 Corinthians", "timestamp": "45:33", "verdict": "opinion" },
+    { "num": 118, "text": "Paul was a member of the Herodian family", "timestamp": "46:48", "verdict": "false" },
+    { "num": 119, "text": "Paul was an agent of the high priest", "timestamp": "46:48", "verdict": "false" },
+    { "num": 120, "text": "The offering Paul gives is like a 'deep state attempt to take over the movement'", "timestamp": "47:14", "verdict": "opinion" },
+    { "num": 121, "text": "James rejecting Paul's offering prevented this takeover", "timestamp": "47:21", "verdict": "opinion" },
+    { "num": 122, "text": "In the Gospels, Jesus gave his apostles authority over demons", "timestamp": "47:40", "verdict": "true" },
+    { "num": 123, "text": "When disciples returned from missionary trip, they were amazed that demons obeyed them", "timestamp": "47:50", "verdict": "true" },
+    { "num": 124, "text": "Paul doesn't have authority over demons based on 2 Corinthians 12", "timestamp": "48:04", "verdict": "opinion" },
+    { "num": 125, "text": "In Acts, Paul strikes somebody blind as a punishment miracle", "timestamp": "48:12", "verdict": "true" },
+    { "num": 126, "text": "Jesus of the Gospels gave sight to the blind, not blindness to the sighted", "timestamp": "48:29", "verdict": "true" },
+    { "num": 127, "text": "James 4:6 — 'God resists the proud but gives grace to the humble'", "timestamp": "48:39", "verdict": "true" },
+    { "num": 128, "text": "James 4:7 — 'resist the devil and he will flee from you'", "timestamp": "48:58", "verdict": "true" },
+    { "num": 129, "text": "James calls Paul 'sinners' and 'double-minded'", "timestamp": "49:07", "verdict": "opinion" },
+    { "num": 130, "text": "Proverbs 6 or 16 lists the seven deadly sins in order: haughty eyes, lying tongue, etc.", "timestamp": "52:05", "verdict": "false" },
+    { "num": 131, "text": "Paul checks the first three of the seven deadly sins", "timestamp": "52:14", "verdict": "opinion" },
+    { "num": 132, "text": "A Christian apologist used Galatians 1 to prove Paul taught the same gospel", "timestamp": "52:38", "verdict": "opinion" },
+    { "num": 133, "text": "Galatians 1:1 — 'Paul an apostle not sent from men nor through the agency of man'", "timestamp": "53:14", "verdict": "true" },
+    { "num": 134, "text": "Galatians 1:7 — 'there are some who are disturbing you and want to distort the gospel'", "timestamp": "53:34", "verdict": "true" },
+    { "num": 135, "text": "Paul is the one actually distorting the gospel", "timestamp": "53:43", "verdict": "opinion" },
+    { "num": 136, "text": "Galatians 1:11-12 — Paul's gospel was 'not according to man' but through revelation", "timestamp": "54:08", "verdict": "true" },
+    { "num": 137, "text": "Paul boasts about not receiving instruction from the twelve apostles", "timestamp": "54:25", "verdict": "true" },
+    { "num": 138, "text": "Paul's revelation was so great it came with a demon attached", "timestamp": "54:46", "verdict": "opinion" },
+    { "num": 139, "text": "'Some' who are disturbing = someone with authority Paul doesn't want to name", "timestamp": "55:00", "verdict": "opinion" },
+    { "num": 140, "text": "Galatians 2:6 — 'those who were esteemed to be something... makes no difference to me'", "timestamp": "55:24", "verdict": "true" },
+    { "num": 141, "text": "Galatians 1:3 — Paul blesses God with 'grace to you and peace'", "timestamp": "56:29", "verdict": "true" },
+    { "num": 142, "text": "Galatians 1:8-9 — Paul curses anyone who preaches a different gospel", "timestamp": "56:39", "verdict": "true" },
+    { "num": 143, "text": "James 3:8-10 — 'with it we bless our Lord and with it we curse men... these things ought not to be'", "timestamp": "57:01", "verdict": "true" },
+    { "num": 144, "text": "Jesus taught us to bless even our enemies", "timestamp": "57:32", "verdict": "true" },
+    { "num": 145, "text": "Angels don't have free will — they're direct ambassadors of the Father", "timestamp": "57:40", "verdict": "false" },
+    { "num": 146, "text": "'Angel' means 'messenger of God'", "timestamp": "57:48", "verdict": "false" },
+    { "num": 147, "text": "Jesus said 'do not curse your brother — anyone who says you fool will be in danger of Gehenna'", "timestamp": "57:56", "verdict": "true" },
+    { "num": 148, "text": "In Galatians 3:1, Paul says 'you foolish Galatians' which contradicts Jesus's teaching", "timestamp": "58:09", "verdict": "opinion" },
+    { "num": 149, "text": "Galatians 1:15-17 — Paul claims to have been set apart from his mother's womb", "timestamp": "58:35", "verdict": "true" },
+    { "num": 150, "text": "Paul says he 'did not immediately consult with flesh and blood'", "timestamp": "58:50", "verdict": "true" },
+    { "num": 151, "text": "Paul says he went to Arabia, then Damascus, then after 3 years went to Jerusalem", "timestamp": "58:50", "verdict": "true" },
+    { "num": 152, "text": "Paul stayed with Cephas 15 days and saw only James the Lord's brother", "timestamp": "59:00", "verdict": "true" },
+    { "num": 153, "text": "Paul repeatedly emphasizes he was not taught by the apostles", "timestamp": "59:12", "verdict": "true" },
+    { "num": 154, "text": "After 3 years of 'desert delusions,' Paul goes to Jerusalem", "timestamp": "59:32", "verdict": "opinion" },
+    { "num": 155, "text": "In Galatians 2, there's a huge argument with Peter where Paul calls him a hypocrite", "timestamp": "59:47", "verdict": "true" },
+    { "num": 156, "text": "Nazarene tradition and Clementine writings describe Peter following Paul around rebuking him", "timestamp": "1:00:02", "verdict": "true" },
+    { "num": 157, "text": "Peter likely saw Paul as a 'kooky dude' hearing from Jesus in private visions", "timestamp": "1:00:21", "verdict": "opinion" },
+    { "num": 158, "text": "James calls Paul an 'empty man' in the Epistle of James", "timestamp": "1:00:38", "verdict": "opinion" },
+    { "num": 159, "text": "Paul claims to have Jesus (James's brother) living within him", "timestamp": "1:00:38", "verdict": "true" },
+    { "num": 160, "text": "Galatians 1:20 states 'Now in what I'm writing to you, before God, I'm not lying'", "timestamp": "1:00:50", "verdict": "true" },
+    { "num": 161, "text": "Paul's statement in Galatians 1:20 is odd to say when telling the truth", "timestamp": "1:00:50", "verdict": "opinion" },
+    { "num": 162, "text": "Paul was 'unknown by sight to the churches of Judea'", "timestamp": "1:01:09", "verdict": "true" },
+    { "num": 163, "text": "James 5:12 states 'do not swear either by heaven or by earth'", "timestamp": "1:01:26", "verdict": "true" },
+    { "num": 164, "text": "Jesus spoke against swearing oaths", "timestamp": "1:01:35", "verdict": "true" },
+    { "num": 165, "text": "Galatians 2:1 — 'after an interval of 14 years, I went up again to Jerusalem'", "timestamp": "1:01:44", "verdict": "true" },
+    { "num": 166, "text": "Paul went up to Jerusalem 'because of a revelation'", "timestamp": "1:01:53", "verdict": "true" },
+    { "num": 167, "text": "Paul submitted his gospel 'in private to those who were of reputation'", "timestamp": "1:02:00", "verdict": "true" },
+    { "num": 168, "text": "Paul says he feared 'running or had run in vain'", "timestamp": "1:02:05", "verdict": "true" },
+    { "num": 169, "text": "Titus was not compelled to be circumcised", "timestamp": "1:02:08", "verdict": "true" },
+    { "num": 170, "text": "Paul calls Jerusalem investigators 'false brethren sneakily brought in'", "timestamp": "1:02:17", "verdict": "true" },
+    { "num": 171, "text": "Paul says 'we did not yield in subjection to them for even an hour'", "timestamp": "1:02:25", "verdict": "true" },
+    { "num": 172, "text": "Galatians 2:6 — 'those who were esteemed... contributed nothing to me'", "timestamp": "1:02:25", "verdict": "true" },
+    { "num": 173, "text": "Verse 9 identifies the 'esteemed' people", "timestamp": "1:02:50", "verdict": "true" },
+    { "num": 174, "text": "Verse 12 indicates who the 'false brethren' were", "timestamp": "1:02:54", "verdict": "false" },
+    { "num": 175, "text": "Jerusalem church sent spies because they couldn't get an honest answer from Paul", "timestamp": "1:03:34", "verdict": "opinion" },
+    { "num": 176, "text": "No other faction was organized enough in the 50s to send spies — only Jerusalem", "timestamp": "1:04:25", "verdict": "false" },
+    { "num": 177, "text": "Scholar Calvin Roetzel argues Paul's opponents are from the Jerusalem church", "timestamp": "1:04:40", "verdict": "true" },
+    { "num": 178, "text": "James 1:26 — 'if anyone thinks he is religious while he doesn't bridle his tongue...'", "timestamp": "1:05:54", "verdict": "true" },
+    { "num": 179, "text": "First-century convention: you wouldn't call out your opponent by name in philosophical disagreements", "timestamp": "1:06:27", "verdict": "true" },
+    { "num": 180, "text": "Not calling out opponents by name was common first-century rhetorical practice", "timestamp": "1:06:27", "verdict": "true" },
+    { "num": 181, "text": "Paul falls into this rhetorical style in his texts", "timestamp": "1:07:07", "verdict": "true" },
+    { "num": 182, "text": "James 4:11 — 'do not speak against one another, brethren'", "timestamp": "1:07:46", "verdict": "true" },
+    { "num": 183, "text": "Galatians 2:7 — Paul claims entrusted with gospel to uncircumcised as Peter to circumcised", "timestamp": "1:08:06", "verdict": "true" },
+    { "num": 184, "text": "Galatians 2:9 names James, Cephas, and John as 'pillars'", "timestamp": "1:08:25", "verdict": "true" },
+    { "num": 185, "text": "James, Cephas, and John gave Paul 'the right hand of fellowship'", "timestamp": "1:08:36", "verdict": "true" },
+    { "num": 186, "text": "Paul says 'they only asked us to remember the poor'", "timestamp": "1:08:51", "verdict": "true" },
+    { "num": 187, "text": "Jerome writes that 'the poor' is the designation of the Ebionites", "timestamp": "1:09:30", "verdict": "true" },
+    { "num": 188, "text": "'Ebionites' comes from Hebrew 'ebionim' meaning 'the poor ones'", "timestamp": "1:09:38", "verdict": "true" },
+    { "num": 189, "text": "Scholars 'unanimously' agree the Ebionites are the first Jewish Christian tradition", "timestamp": "1:09:45", "verdict": "false" },
+    { "num": 190, "text": "'Remember the poor' means Paul can't claim to be part of Jerusalem group without following rules", "timestamp": "1:10:02", "verdict": "opinion" },
+    { "num": 191, "text": "In the Jerusalem church, they shared everything in common", "timestamp": "1:10:02", "verdict": "true" },
+    { "num": 192, "text": "Paul was going around living a luxurious apostle celebrity life", "timestamp": "1:10:11", "verdict": "false" },
+    { "num": 193, "text": "Acts 15 decree asked more than what Paul says James asked in Galatians 2:10", "timestamp": "1:10:30", "verdict": "true" },
+    { "num": 194, "text": "Acts 15 required abstaining from meat sacrificed to idols, things strangled, blood, and fornication", "timestamp": "1:10:37", "verdict": "true" },
+    { "num": 195, "text": "Galatians 2:11 — 'when Cephas came to Antioch, I opposed him to his face'", "timestamp": "1:11:00", "verdict": "true" },
+    { "num": 196, "text": "Paul condemned Peter", "timestamp": "1:11:09", "verdict": "true" },
+    { "num": 197, "text": "'Prior to the coming of certain men from James, Peter used to eat with the Gentiles'", "timestamp": "1:11:11", "verdict": "true" },
+    { "num": 198, "text": "The 'party of the circumcision' according to Eusebius was the actual Jerusalem leadership", "timestamp": "1:11:22", "verdict": "false" },
+    { "num": 199, "text": "The rest of the Jews and even Barnabas turned against Paul", "timestamp": "1:11:49", "verdict": "true" },
+    { "num": 200, "text": "Paul paints the picture in Galatians as if he won the argument", "timestamp": "1:12:04", "verdict": "opinion" },
+    { "num": 201, "text": "Galatians is damage control because Paul is losing his ministry", "timestamp": "1:12:36", "verdict": "opinion" },
+    { "num": 202, "text": "No records exist of any other apostles rebuking each other publicly", "timestamp": "1:12:59", "verdict": "false" },
+    { "num": 203, "text": "Paul approaches Peter and calls him a hypocrite", "timestamp": "1:13:06", "verdict": "true" },
+    { "num": 204, "text": "Paul's approach is something an outsider with a chip on his shoulder would do", "timestamp": "1:13:06", "verdict": "opinion" },
+    { "num": 205, "text": "Matthew 18:15-17 gives Jesus's criteria for handling grievances: first go in private", "timestamp": "1:15:51", "verdict": "true" },
+    { "num": 206, "text": "Paul directly violates Jesus's commandment on grievances by confronting Peter publicly", "timestamp": "1:16:14", "verdict": "opinion" },
+    { "num": 207, "text": "Paul uses the word 'law' throughout — even the Ten Commandments are part of the law", "timestamp": "1:19:06", "verdict": "disputed" },
+    { "num": 208, "text": "Hebrew Roots people claim Paul was talking about the oral Torah", "timestamp": "1:19:14", "verdict": "true" },
+    { "num": 209, "text": "Paul hung out with the Nazarenes for quite some time before starting his movement", "timestamp": "1:19:38", "verdict": "false" },
+    { "num": 210, "text": "Paul quotes Nazarene hymns in some of his letters", "timestamp": "1:19:45", "verdict": "disputed" },
+    { "num": 211, "text": "Paul has 'Qumranisms' in his letters", "timestamp": "1:19:54", "verdict": "disputed" },
+    { "num": 212, "text": "Church fathers attest Nazarenes reject certain sayings of Moses", "timestamp": "1:20:10", "verdict": "disputed" },
+    { "num": 213, "text": "The Nazarenes rejected all liturgical commandments except the Ten Commandments", "timestamp": "1:20:10", "verdict": "false" },
+    { "num": 214, "text": "Paul calls the Ten Commandments 'a ministry of death etched into stone tablets'", "timestamp": "1:20:59", "verdict": "true" },
+    { "num": 215, "text": "Jesus said the only way to eternal life is to keep the commandments, listing five in Matthew", "timestamp": "1:22:52", "verdict": "true" },
+    { "num": 216, "text": "Jesus said 'I have not come to abolish the law, but to fulfill it'", "timestamp": "1:23:10", "verdict": "true" },
+    { "num": 217, "text": "Paul says 'Jesus abolished the law in his flesh'", "timestamp": "1:23:19", "verdict": "true" },
+    { "num": 218, "text": "Marcion was the first real champion of Paul's letters", "timestamp": "1:23:28", "verdict": "true" },
+    { "num": 219, "text": "Marcion believed the disciples missed Jesus's message but Paul got it", "timestamp": "1:23:36", "verdict": "true" },
+    { "num": 220, "text": "Many scholars think Paul's letters that Marcion read would look wildly different", "timestamp": "1:23:44", "verdict": "disputed" },
+    { "num": 221, "text": "There was a 300-year battle between Orthodox Catholics and Gnostics over Paul", "timestamp": "1:23:52", "verdict": "false" },
+    { "num": 222, "text": "Many Pauline scholars argue Paul's letters were probably more gnostic originally", "timestamp": "1:24:01", "verdict": "false" },
+    { "num": 223, "text": "James quotes the same passages Paul does but in the exact opposite manner", "timestamp": "1:24:38", "verdict": "disputed" },
+    { "num": 224, "text": "James's responses follow Paul's statements sequentially — obviously James responding to Paul", "timestamp": "1:24:47", "verdict": "disputed" },
+    { "num": 225, "text": "James 2:14 — 'if someone says he has faith but has no works, can that faith save him?'", "timestamp": "1:25:09", "verdict": "true" },
+    { "num": 226, "text": "James 2:15-16 may allude to Paul misusing funds meant for those in need", "timestamp": "1:25:55", "verdict": "opinion" },
+    { "num": 227, "text": "Jesus said 'those who love me keep my commandments'", "timestamp": "1:26:21", "verdict": "true" },
+    { "num": 228, "text": "Faith and works are two sides of the same coin", "timestamp": "1:26:27", "verdict": "opinion" },
+    { "num": 229, "text": "Paul separating faith and works is an injustice to Jesus's gospel", "timestamp": "1:26:27", "verdict": "opinion" },
+    { "num": 230, "text": "By works of the law — loving your neighbor, not stealing — no one will be justified, according to Paul", "timestamp": "1:27:03", "verdict": "false" },
+    { "num": 231, "text": "Paul was almost totally rejected everywhere he went in his day", "timestamp": "1:27:33", "verdict": "false" },
+    { "num": 232, "text": "It wasn't until Marcion 50-60 years later that Paul's letters started to pick up steam", "timestamp": "1:27:41", "verdict": "false" },
+    { "num": 233, "text": "Galatians 2:20 — 'I have been crucified with Christ... Christ lives in me'", "timestamp": "1:29:55", "verdict": "true" },
+    { "num": 234, "text": "Galatians 3:1 — 'you foolish Galatians, who has bewitched you?'", "timestamp": "1:30:03", "verdict": "true" },
+    { "num": 235, "text": "'God is one' appears in Galatians 3:20", "timestamp": "1:30:27", "verdict": "true" },
+    { "num": 236, "text": "James 2:19 — 'you believe God is one, you do well; the demons also believe and shudder'", "timestamp": "1:30:27", "verdict": "true" },
+    { "num": 237, "text": "James calls Paul an 'empty man'", "timestamp": "1:30:38", "verdict": "opinion" },
+    { "num": 238, "text": "The 'vain man' / 'empty man' phrase is a Qumranism", "timestamp": "1:31:08", "verdict": "disputed" },
+    { "num": 239, "text": "Dr. Robert Eisenman discusses the 'empty man' Qumranism", "timestamp": "1:31:22", "verdict": "true" },
+    { "num": 240, "text": "Paul's letters are identifiable by huge usage of first-person pronouns", "timestamp": "1:31:34", "verdict": "true" },
+    { "num": 241, "text": "Paul uses more first-person pronouns in Romans ch.1 than in entire Hebrews", "timestamp": "1:32:00", "verdict": "disputed" },
+    { "num": 242, "text": "This pronoun difference is how scholars know Paul didn't write Hebrews", "timestamp": "1:32:00", "verdict": "false" },
+    { "num": 243, "text": "Paul uses 1300% more personal pronouns than in the six forged epistles", "timestamp": "1:32:09", "verdict": "false" },
+    { "num": 244, "text": "Paul uses the word 'boast' about 56-64 times in his seven letters", "timestamp": "1:32:22", "verdict": "true" },
+    { "num": 245, "text": "The word 'boast' appears about 3 times in the six non-Pauline letters", "timestamp": "1:32:27", "verdict": "disputed" },
+    { "num": 246, "text": "'God is one' appears only twice in the entire New Testament", "timestamp": "1:33:39", "verdict": "false" },
+    { "num": 247, "text": "Galatians 3:6 — 'Abraham believed God, and it was reckoned to him as righteousness'", "timestamp": "1:33:58", "verdict": "true" },
+    { "num": 248, "text": "Galatians 3:8 — 'the scripture foreseeing that God would justify the Gentiles by faith'", "timestamp": "1:34:06", "verdict": "true" },
+    { "num": 249, "text": "James 2:21-24 — 'was not Abraham our father justified by works?'", "timestamp": "1:34:21", "verdict": "true" },
+    { "num": 250, "text": "James quotes the same scripture Paul uses (Genesis 15:6) to refute Paul's conclusion", "timestamp": "1:34:50", "verdict": "true" },
+    { "num": 251, "text": "Galatians 5:1 — 'it was for freedom that Christ set us free... not a yoke of slavery'", "timestamp": "1:35:21", "verdict": "true" },
+    { "num": 252, "text": "Paul calls the law a 'yoke of slavery'", "timestamp": "1:35:58", "verdict": "true" },
+    { "num": 253, "text": "James 1:25 — the law is 'the perfect law, the law of freedom'", "timestamp": "1:35:38", "verdict": "true" },
+    { "num": 254, "text": "Romans 7 — Paul says 'our sinful passions are aroused by the law'", "timestamp": "1:36:29", "verdict": "true" },
+    { "num": 255, "text": "Paul says 'sin seizing an opportunity through the law produced in me all kinds of covetousness'", "timestamp": "1:36:36", "verdict": "true" },
+    { "num": 256, "text": "Paul blames his sin on the law", "timestamp": "1:36:44", "verdict": "opinion" },
+    { "num": 257, "text": "1 Corinthians 15:56 — 'the sting of death is sin, and the power of sin is the law'", "timestamp": "1:39:42", "verdict": "true" },
+    { "num": 258, "text": "Galatians 5:13 — 'the whole law is fulfilled in one word: love your neighbor'", "timestamp": "1:37:26", "verdict": "false" },
+    { "num": 259, "text": "James 2:8 — 'if you are fulfilling the royal law... love your neighbor'", "timestamp": "1:37:35", "verdict": "true" },
+    { "num": 260, "text": "James is quoting the exact same verse Paul did", "timestamp": "1:37:43", "verdict": "true" },
+    { "num": 261, "text": "James 2:10 — 'whoever keeps the whole law and stumbles in one point has become guilty of all'", "timestamp": "1:38:03", "verdict": "true" },
+    { "num": 262, "text": "Paul committed murder", "timestamp": "1:38:19", "verdict": "disputed" },
+    { "num": 263, "text": "2 Corinthians 3:1 — Paul says 'do we need letters of recommendation?'", "timestamp": "1:40:35", "verdict": "true" },
+    { "num": 264, "text": "Paul says 'you are our letter, written on our hearts'", "timestamp": "1:40:42", "verdict": "true" },
+    { "num": 265, "text": "Letters of recommendation were standard practice in the ancient Mediterranean", "timestamp": "1:42:42", "verdict": "true" },
+    { "num": 266, "text": "Paul writes a letter of recommendation for Phoebe", "timestamp": "1:43:08", "verdict": "true" },
+    { "num": 267, "text": "In the Clementine writings, letters of recommendation are referenced", "timestamp": "1:43:42", "verdict": "true" },
+    { "num": 268, "text": "Recognitions of Clement 4:35 — Peter says believe no teacher unless he bring James's testimonial", "timestamp": "1:43:58", "verdict": "true" },
+    { "num": 269, "text": "2 Corinthians 5:12 — 'we are not again recommending ourselves to you'", "timestamp": "1:45:00", "verdict": "true" },
+    { "num": 270, "text": "Paul's lack of letters of recommendation is a 'thorn in the side'", "timestamp": "1:45:08", "verdict": "opinion" },
+    { "num": 271, "text": "The only people with authority to issue letters of recommendation were church leadership", "timestamp": "1:45:25", "verdict": "false" },
+    { "num": 272, "text": "2 Corinthians 6:3 — the ministry might be 'discredited'", "timestamp": "1:45:40", "verdict": "true" },
+    { "num": 273, "text": "2 Corinthians 6:8 — Paul says he's 'regarded as a deceiver'", "timestamp": "1:46:20", "verdict": "true" },
+    { "num": 274, "text": "Paul is under accusations of guile and craftiness", "timestamp": "1:48:35", "verdict": "true" },
+    { "num": 275, "text": "Paul's offering/collection to Jerusalem was rejected", "timestamp": "1:47:49", "verdict": "disputed" },
+    { "num": 276, "text": "Paul in Romans, Corinthians, and Philippians asks congregants to pray that Jerusalem will accept the offering", "timestamp": "1:46:44", "verdict": "false" },
+    { "num": 277, "text": "Paul was nervous about whether his gift would be accepted", "timestamp": "1:47:18", "verdict": "true" },
+    { "num": 278, "text": "Luke's silence about the offering being accepted suggests rejection", "timestamp": "1:47:49", "verdict": "opinion" },
+    { "num": 279, "text": "Romans 15:31 — Paul admits fear that the saints would find his offering unacceptable", "timestamp": "1:48:19", "verdict": "true" },
+    { "num": 280, "text": "Paul is defending against accusations of guile and craftiness in 2 Corinthians 12", "timestamp": "1:48:35", "verdict": "true" },
+    { "num": 281, "text": "If the offering was accepted, Paul would have bragged about it", "timestamp": "1:49:07", "verdict": "opinion" },
+    { "num": 282, "text": "Acts also never says the offering was accepted — and Acts is an apology for Paul", "timestamp": "1:49:26", "verdict": "true" },
+    { "num": 283, "text": "Hebrew Roots people quote positive Paul-law statements", "timestamp": "1:49:52", "verdict": "opinion" },
+    { "num": 284, "text": "Positive law statements from Paul almost always come from Romans", "timestamp": "1:50:28", "verdict": "false" },
+    { "num": 285, "text": "Paul says positive things about the law in Romans because worried Jerusalem might see the letter", "timestamp": "1:50:38", "verdict": "opinion" },
+    { "num": 286, "text": "In Acts 21, James says to Paul: 'we've heard you are teaching apostasia'", "timestamp": "1:51:00", "verdict": "true" },
+    { "num": 287, "text": "James tells Paul to perform the Nazirite vow to prove he respects the law", "timestamp": "1:51:08", "verdict": "true" },
+    { "num": 288, "text": "Paul had to flee for his life from Jewish Christians multiple times", "timestamp": "1:51:31", "verdict": "false" },
+    { "num": 289, "text": "God is not the author of confusion — but Paul is", "timestamp": "1:51:27", "verdict": "opinion" },
+    { "num": 290, "text": "If it wasn't for Paul, we wouldn't have 40,000 Christian denominations", "timestamp": "1:51:31", "verdict": "false" },
+    { "num": 291, "text": "All 40,000 denominations disagree over stuff Paul says", "timestamp": "1:51:42", "verdict": "false" },
+    { "num": 292, "text": "In Acts 16, a woman with the 'spirit of Python' followed Paul around endorsing him", "timestamp": "1:59:44", "verdict": "true" },
+    { "num": 293, "text": "The demon-possessed girl said 'these men are bond servants of the most high God'", "timestamp": "2:00:01", "verdict": "true" },
+    { "num": 294, "text": "Paul got annoyed with the girl after many days and rebuked the spirit", "timestamp": "2:00:07", "verdict": "true" },
+    { "num": 295, "text": "Paul had a demon-possessed girl endorsing his gospel for several days", "timestamp": "2:00:17", "verdict": "true" },
+    { "num": 296, "text": "When Jesus was present, demons ran for the hills, committed suicide, or ran off a cliff", "timestamp": "2:00:54", "verdict": "false" },
+    { "num": 297, "text": "In 2 Corinthians 10:10, critics said Paul's letters are weighty but his presence is unimpressive", "timestamp": "1:52:10", "verdict": "true" },
+    { "num": 298, "text": "In James 4:1-2, James asks 'where do wars and fightings among you come from?'", "timestamp": "1:52:32", "verdict": "true" },
+    { "num": 299, "text": "James may be referring to letters of recommendation when he says 'you ask and don't receive'", "timestamp": "1:53:00", "verdict": "opinion" },
+    { "num": 300, "text": "Ambrosiaster mentions the Corinthians rejecting Paul", "timestamp": "1:53:15", "verdict": "true" },
+    { "num": 301, "text": "Ambrosiaster says Corinthians rejected Paul because apostles said he taught something different", "timestamp": "1:53:32", "verdict": "disputed" },
+    { "num": 302, "text": "The Ambrosiaster quote about Paul comes from the 3rd or 4th century", "timestamp": "1:53:41", "verdict": "true" },
+    { "num": 303, "text": "Dr. Roetzel argues Paul's opponents at Corinth divided the church", "timestamp": "1:53:46", "verdict": "true" },
+    { "num": 304, "text": "Paul was utterly rejected and mocked by the Corinthians", "timestamp": "1:54:16", "verdict": "false" },
+    { "num": 305, "text": "One word used for Paul at Corinth was 'womanish'", "timestamp": "1:54:23", "verdict": "disputed" },
+    { "num": 306, "text": "Paul wrote a long letter begging the Corinthians for a second chance, sent via Titus", "timestamp": "1:54:30", "verdict": "false" },
+    { "num": 307, "text": "Titus came back reporting good news that the Corinthians would give Paul another chance", "timestamp": "1:54:47", "verdict": "true" },
+    { "num": 308, "text": "No other organized faction of Christianity existed in the 50s AD other than Jerusalem", "timestamp": "1:55:18", "verdict": "false" },
+    { "num": 309, "text": "E.P. Sanders concluded after decades that 'Paul is completely unintelligible'", "timestamp": "2:09:22", "verdict": "false" },
+    { "num": 310, "text": "Pauline scholars say they can't make sense of what Paul was trying to say", "timestamp": "2:09:39", "verdict": "false" },
+    { "num": 311, "text": "90% of sermons on Sundays are based on Paul's teachings, not Jesus's", "timestamp": "2:12:55", "verdict": "false" },
+    { "num": 312, "text": "Most Pauline sermons come from the six disputed/forged epistles", "timestamp": "2:13:02", "verdict": "opinion" },
+    { "num": 313, "text": "The six forged letters are cleaned-up anti-gnostic versions of Paul", "timestamp": "2:13:41", "verdict": "disputed" },
+    { "num": 314, "text": "The forged letters were created late 1st/2nd century to take Paul away from Gnostics", "timestamp": "2:13:25", "verdict": "disputed" },
+    { "num": 315, "text": "2 Corinthians 11:22-23 — Paul claims 'Are they Hebrews? So am I...'", "timestamp": "2:14:35", "verdict": "true" },
+    { "num": 316, "text": "Paul claims 'in far more labors, far more imprisonments, beaten times without number'", "timestamp": "2:14:54", "verdict": "true" },
+    { "num": 317, "text": "Paul claims 'five times I received from the Jews 39 lashes'", "timestamp": "2:15:01", "verdict": "true" },
+    { "num": 318, "text": "Paul claims 'three times beaten with rods, once stoned, three times shipwrecked'", "timestamp": "2:15:01", "verdict": "true" },
+    { "num": 319, "text": "Stoning is an execution method and you don't survive stoning", "timestamp": "2:15:40", "verdict": "false" },
+    { "num": 320, "text": "Paul is clearly lying about being stoned and surviving", "timestamp": "2:16:04", "verdict": "false" },
+    { "num": 321, "text": "Paul's criteria (Hebrews, Israelites, descendants of Abraham) match Jewish Christians in Jerusalem", "timestamp": "2:16:29", "verdict": "true" },
+    { "num": 322, "text": "Paul's criteria prove he's comparing himself to the Jerusalem apostles", "timestamp": "2:16:44", "verdict": "disputed" },
+    { "num": 323, "text": "The apologetic argument that Paul was rebuking Gentile apostles falls apart", "timestamp": "2:17:03", "verdict": "opinion" },
+    { "num": 324, "text": "2 Corinthians 11:27-28 — Paul claims labor, hardship, sleepless nights", "timestamp": "2:17:46", "verdict": "true" },
+    { "num": 325, "text": "Paul says 'who is weak without my being weak?'", "timestamp": "2:17:54", "verdict": "true" },
+    { "num": 326, "text": "Paul swears 'before God and the Father of the Lord Jesus Christ... I am not lying'", "timestamp": "2:18:03", "verdict": "true" },
+    { "num": 327, "text": "Paul describes escaping Damascus in a basket through a window", "timestamp": "2:18:19", "verdict": "true" },
+    { "num": 328, "text": "Eisenman theorizes King Aretas had a political beef with Herodians", "timestamp": "2:18:45", "verdict": "disputed" },
+    { "num": 329, "text": "Paul's Damascus escape was about Herodian family politics, not his gospel", "timestamp": "2:19:02", "verdict": "opinion" },
+    { "num": 330, "text": "If Paul was just teaching peace and love, why were people trying to kill him?", "timestamp": "2:19:53", "verdict": "opinion" },
+    { "num": 331, "text": "Paul isn't going against the temple cult like Jesus and James were", "timestamp": "2:20:13", "verdict": "opinion" },
+    { "num": 332, "text": "Paul is repositioning Christianity toward pagan and Pharisee spirituality", "timestamp": "2:20:22", "verdict": "opinion" },
+    { "num": 333, "text": "Jesus and James had the same enemies — the temple cult", "timestamp": "2:20:44", "verdict": "disputed" },
+    { "num": 334, "text": "James was taken up on the temple pinnacle, thrown down, and stoned to death", "timestamp": "2:20:50", "verdict": "disputed" },
+    { "num": 335, "text": "When Paul went into the temple, it was the common people who had a problem, not priests", "timestamp": "2:21:26", "verdict": "false" },
+    { "num": 336, "text": "Paul's enemies were common people; Jesus/James's enemies were religious leadership", "timestamp": "2:21:32", "verdict": "false" },
+    { "num": 337, "text": "Jesus warned 'beware of the leaven of the Pharisees and the leaven of Herod'", "timestamp": "2:21:53", "verdict": "true" },
+    { "num": 338, "text": "Paul is both a Pharisee and a Herodian", "timestamp": "2:22:01", "verdict": "false" },
+    { "num": 339, "text": "In Acts 21, James says to Paul: 'we've been told you are teaching apostasia'", "timestamp": "2:22:11", "verdict": "true" },
+    { "num": 340, "text": "Jewish Christians in Jerusalem were trying to kill Paul because he was teaching apostasy", "timestamp": "2:22:51", "verdict": "false" },
+    { "num": 341, "text": "Acts makes it clear multiple times that Paul had to flee from Jewish Christians", "timestamp": "2:22:43", "verdict": "false" },
+    { "num": 342, "text": "2 Corinthians 12:1 — 'boasting is necessary though it is not profitable'", "timestamp": "2:24:43", "verdict": "true" },
+    { "num": 343, "text": "Paul claims 'I know a man in Christ who 14 years ago was caught up to the third heaven'", "timestamp": "2:24:50", "verdict": "true" },
+    { "num": 344, "text": "When Paul says 'this man,' he's talking about himself in the third person", "timestamp": "2:25:02", "verdict": "true" },
+    { "num": 345, "text": "Paul says he 'heard inexpressible words which a man is not permitted to speak'", "timestamp": "2:25:12", "verdict": "true" },
+    { "num": 346, "text": "2 Corinthians 12:7 — 'because of the surpassing greatness... an angel of Satan'", "timestamp": "2:25:37", "verdict": "true" },
+    { "num": 347, "text": "Paul 'implored the Lord three times' to remove the stinger", "timestamp": "2:26:05", "verdict": "true" },
+    { "num": 348, "text": "Jesus said 'when you give to the poor, don't let your left hand know what your right does'", "timestamp": "2:26:32", "verdict": "true" },
+    { "num": 349, "text": "James 4:6 — 'God resists the proud but gives grace to the humble'", "timestamp": "2:27:18", "verdict": "true" },
+    { "num": 350, "text": "James 4:7 — 'resist the devil and he will flee from you'", "timestamp": "2:27:33", "verdict": "true" },
+    { "num": 351, "text": "James 4:10 — 'humble yourself in the sight of the Lord and he will exalt you'", "timestamp": "2:27:53", "verdict": "true" },
+    { "num": 352, "text": "The three James statements (4:6, 4:7, 4:10) are responses to 2 Corinthians passages", "timestamp": "2:28:05", "verdict": "opinion" },
+    { "num": 353, "text": "2 Corinthians 12:11 — 'I have become foolish. You compelled me' = narcissistic projection", "timestamp": "2:28:40", "verdict": "opinion" },
+    { "num": 354, "text": "2 Corinthians 12:11 — 'in no respect was I inferior to the most super apostles'", "timestamp": "2:28:50", "verdict": "true" },
+    { "num": 355, "text": "Matthew 24 says 'do not believe signs and miracles' as not a sign of the true apostle", "timestamp": "2:29:13", "verdict": "false" },
+    { "num": 356, "text": "James 3:1 — 'let not many of you become teachers... stricter judgment'", "timestamp": "2:29:43", "verdict": "true" },
+    { "num": 357, "text": "James 3:5 — 'the tongue is a small part of the body and yet it boasts of many things'", "timestamp": "2:30:15", "verdict": "true" },
+    { "num": 358, "text": "James 3:6 — 'the tongue is a fire, the very world of iniquity'", "timestamp": "2:30:46", "verdict": "true" },
+    { "num": 359, "text": "James 3:8 — 'no one can tame the tongue, it is a restless evil full of deadly poison'", "timestamp": "2:31:04", "verdict": "true" },
+    { "num": 360, "text": "James 3:9-10 — 'with it we bless our Lord and with it we curse men'", "timestamp": "2:31:18", "verdict": "true" },
+    { "num": 361, "text": "James 3:11-12 — 'does a fountain send out both fresh and bitter water?'", "timestamp": "2:31:26", "verdict": "true" },
+    { "num": 362, "text": "James 3:14-16 — 'if you have bitter jealousy... do not boast and so lie against the truth'", "timestamp": "2:31:48", "verdict": "true" },
+    { "num": 363, "text": "James 3:17-18 — 'the wisdom from above is first pure, then peaceful, gentle'", "timestamp": "2:32:19", "verdict": "true" },
+    { "num": 364, "text": "2 Peter 3 — Peter says 'our beloved brother Paul who writes according to the wisdom given to him'", "timestamp": "2:35:10", "verdict": "true" },
+    { "num": 365, "text": "Peter never says who gave Paul the wisdom", "timestamp": "2:35:17", "verdict": "false" },
+    { "num": 366, "text": "Peter doesn't say 'according to the wisdom given to him by God'", "timestamp": "2:35:43", "verdict": "false" },
+    { "num": 367, "text": "James 4:1-4 — 'what is the source of quarrels... you adulteresses'", "timestamp": "2:36:01", "verdict": "true" },
+    { "num": 368, "text": "Revelation 2:20 — Jesus speaks about 'Jezebel who teaches... to eat things sacrificed to idols'", "timestamp": "2:36:43", "verdict": "true" },
+    { "num": 369, "text": "The eating of food sacrificed to idols is compared to adultery", "timestamp": "2:37:10", "verdict": "opinion" },
+    { "num": 370, "text": "Pliny's letter to Trajan is the first evidence of Christian persecution", "timestamp": "2:38:41", "verdict": "false" },
+    { "num": 371, "text": "Pliny was forcing Christians to eat flesh sacrificed to idols", "timestamp": "2:38:50", "verdict": "false" },
+    { "num": 372, "text": "Pliny killed Christians who would not eat the sacrificial meat", "timestamp": "2:38:59", "verdict": "false" },
+    { "num": 373, "text": "Early Christians gave their lives to avoid eating meat", "timestamp": "2:39:07", "verdict": "false" },
+    { "num": 374, "text": "2 Corinthians 12:14-18 — Paul defends against accusations of deceptive offerings", "timestamp": "2:40:05", "verdict": "true" },
+    { "num": 375, "text": "Paul says 'being crafty, I caught you with deception'", "timestamp": "2:40:26", "verdict": "false" },
+    { "num": 376, "text": "Paul is defending against accusations of stealing from congregations", "timestamp": "2:40:51", "verdict": "true" },
+    { "num": 377, "text": "Paul admitted to robbery in Galatians: 'I robbed other churches'", "timestamp": "2:41:07", "verdict": "false" },
+    { "num": 378, "text": "Paul talks about the offering issue in 1 Corinthians", "timestamp": "2:41:20", "verdict": "true" },
+    { "num": 379, "text": "In 1 Corinthians 9, Paul defends his right to eat, drink, take a wife, and not work", "timestamp": "2:41:32", "verdict": "true" },
+    { "num": 380, "text": "Paul says 'who plants a vineyard and doesn't eat the fruit?'", "timestamp": "2:41:49", "verdict": "true" },
+    { "num": 381, "text": "Paul is obviously being accused of profiting from congregational offerings", "timestamp": "2:41:57", "verdict": "opinion" },
+    { "num": 382, "text": "James 4:13-17 — 'come now you who say today or tomorrow we will go and make profit... all such boasting is evil'", "timestamp": "2:43:46", "verdict": "true" },
+    { "num": 383, "text": "James 5:1-6 — 'come now you rich, weep and howl... wages kept back by fraud, cry out'", "timestamp": "2:44:26", "verdict": "true" },
+    { "num": 384, "text": "James 5:6 — 'you have condemned, you have murdered the righteous one'", "timestamp": "2:45:04", "verdict": "true" },
+    { "num": 385, "text": "Eisenman believes 'the righteous one' in James 5:6 is James prophesying his own murder", "timestamp": "2:46:35", "verdict": "true" },
+    { "num": 386, "text": "Dorotheos of Tyre wrote a document called 'Synopsis' or 'Synopsis Apostolorum'", "timestamp": "2:47:03", "verdict": "true" },
+    { "num": 387, "text": "A variant reading in Dorotheos says James was thrown from the temple by Saul (Paul)", "timestamp": "2:47:15", "verdict": "disputed" },
+    { "num": 388, "text": "Dorotheos says Eusebius wrote the same thing about James and Saul", "timestamp": "2:47:39", "verdict": "false" },
+    { "num": 389, "text": "In current Eusebius, it doesn't say Paul threw James down — just 'some of the Jews'", "timestamp": "2:47:48", "verdict": "false" },
+    { "num": 390, "text": "It's more likely someone would remove Paul's name from this account than add it", "timestamp": "2:48:05", "verdict": "opinion" },
+    { "num": 391, "text": "Rufinus changed 'Saul' to 'Simon Magus' in the Clementine writings", "timestamp": "2:48:19", "verdict": "disputed" },
+    { "num": 392, "text": "The Ascents of James is one of the earliest Jewish Christian texts we have", "timestamp": "2:48:32", "verdict": "false" },
+    { "num": 393, "text": "Van Voorst shows the Ascents of James is a pre-70 text", "timestamp": "2:48:32", "verdict": "false" },
+    { "num": 394, "text": "The Ascents has no mention of Catholic orthodoxy or the Greek New Testament", "timestamp": "2:48:48", "verdict": "true" },
+    { "num": 395, "text": "The Ascents of James says Saul throws James down and attacks him", "timestamp": "2:49:13", "verdict": "true" },
+    { "num": 396, "text": "The Clementine writings were highly interpolated and altered", "timestamp": "2:49:30", "verdict": "true" },
+    { "num": 397, "text": "Later scribes likely changed the account so James survived this attack", "timestamp": "2:49:37", "verdict": "opinion" },
+    { "num": 398, "text": "This encounter is clearly the same as the death of James described by Josephus", "timestamp": "2:49:52", "verdict": "false" },
+    { "num": 399, "text": "Josephus records the death of James in the temple", "timestamp": "2:49:52", "verdict": "false" },
+    { "num": 400, "text": "John 5:31 — Jesus says 'if I testify about myself, my testimony is not true'", "timestamp": "3:00:44", "verdict": "true" },
+    { "num": 401, "text": "If even Jesus doesn't pass testifying about himself, Paul shouldn't either", "timestamp": "3:00:55", "verdict": "opinion" },
+    { "num": 402, "text": "The Bible is 'the most tampered text to ever exist'", "timestamp": "2:51:07", "verdict": "false" }
   ],
   "videoUrl": "https://youtu.be/EYlsAmaGyuc?si=am72xmIlgm1pA5ZR"
 }
