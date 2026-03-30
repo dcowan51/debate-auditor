@@ -296,21 +296,32 @@ async function renderAnalysis() {
   document.getElementById('creator-link').innerHTML = `<a href="creator.html?id=${a.creatorId}">${a.channel}</a>`;
   document.getElementById('analyzed-range').textContent = `Full transcript (${a.analyzedRange})`;
 
-  // YouTube embed + link
+  // Source embed + link (YouTube, paper, book)
+  const contentType = a.contentType || 'video';
   if (a.videoUrl) {
-    let videoId = '';
     const url = a.videoUrl;
-    if (url.includes('youtu.be/')) videoId = url.split('youtu.be/')[1].split(/[?&#]/)[0];
-    else if (url.includes('v=')) videoId = url.split('v=')[1].split(/[&#]/)[0];
+    const isYouTube = url.includes('youtu.be/') || url.includes('youtube.com/');
 
-    document.getElementById('youtube-link').innerHTML = `
-      <div style="margin-top:16px;border-radius:var(--radius);overflow:hidden;border:1px solid var(--border);background:#000">
-        <div style="position:relative;padding-bottom:56.25%;height:0">
-          <iframe src="https://www.youtube.com/embed/${videoId}" style="position:absolute;top:0;left:0;width:100%;height:100%;border:none" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen></iframe>
+    if (isYouTube) {
+      let videoId = '';
+      if (url.includes('youtu.be/')) videoId = url.split('youtu.be/')[1].split(/[?&#]/)[0];
+      else if (url.includes('v=')) videoId = url.split('v=')[1].split(/[&#]/)[0];
+
+      document.getElementById('youtube-link').innerHTML = `
+        <div style="margin-top:16px;border-radius:var(--radius);overflow:hidden;border:1px solid var(--border);background:#000">
+          <div style="position:relative;padding-bottom:56.25%;height:0">
+            <iframe src="https://www.youtube.com/embed/${videoId}" style="position:absolute;top:0;left:0;width:100%;height:100%;border:none" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen></iframe>
+          </div>
         </div>
-      </div>
-      <a href="${a.videoUrl}" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;padding:8px 16px;background:rgba(214,48,49,0.12);border:1px solid rgba(214,48,49,0.3);border-radius:20px;color:#ff4444;font-size:0.85rem;font-weight:600;text-decoration:none;margin-top:12px">&#9654; Open on YouTube</a>
-    `;
+        <a href="${url}" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;padding:8px 16px;background:rgba(214,48,49,0.12);border:1px solid rgba(214,48,49,0.3);border-radius:20px;color:#ff4444;font-size:0.85rem;font-weight:600;text-decoration:none;margin-top:12px">&#9654; Open on YouTube</a>
+      `;
+    } else {
+      const icon = contentType === 'paper' ? '&#128196;' : contentType === 'book' ? '&#128214;' : '&#128279;';
+      const label = contentType === 'paper' ? 'View Paper' : contentType === 'book' ? 'View Book' : 'View Source';
+      document.getElementById('youtube-link').innerHTML = `
+        <a href="${url}" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;padding:8px 16px;background:rgba(108,92,231,0.12);border:1px solid rgba(108,92,231,0.3);border-radius:20px;color:var(--accent-light);font-size:0.85rem;font-weight:600;text-decoration:none;margin-top:16px">${icon} ${label}</a>
+      `;
+    }
   }
 
   // TL;DR Summary Card
@@ -674,11 +685,11 @@ async function renderVideosPage() {
     const filtered = filterAndSort();
 
     document.getElementById('results-count').textContent =
-      `Showing ${filtered.length} of ${allVideos.length} videos`;
+      `Showing ${filtered.length} of ${allVideos.length} analyses`;
 
     const grid = document.getElementById('video-cards-grid');
     if (filtered.length === 0) {
-      grid.innerHTML = '<div style="text-align:center;padding:60px 20px;color:var(--text-muted);font-size:0.9rem">No videos match your filters.</div>';
+      grid.innerHTML = '<div style="text-align:center;padding:60px 20px;color:var(--text-muted);font-size:0.9rem">No analyses match your filters.</div>';
       return;
     }
 
@@ -687,7 +698,18 @@ async function renderVideosPage() {
       const score = d.sessionScore;
       const cls = scoreClass(score);
       const color = scoreColor(score);
-      const ytIcon = a.videoUrl ? `<a href="${a.videoUrl}" target="_blank" rel="noopener" class="yt-link" title="Watch on YouTube" onclick="event.stopPropagation()">&#9654; YouTube</a>` : '';
+      const cType = a.contentType || 'video';
+      const isYT = a.videoUrl && (a.videoUrl.includes('youtu.be/') || a.videoUrl.includes('youtube.com/'));
+      let sourceLink = '';
+      if (a.videoUrl) {
+        if (isYT) {
+          sourceLink = `<a href="${a.videoUrl}" target="_blank" rel="noopener" class="yt-link" title="Watch on YouTube" onclick="event.stopPropagation()">&#9654; YouTube</a>`;
+        } else {
+          const icon = cType === 'paper' ? '&#128196;' : cType === 'book' ? '&#128214;' : '&#128279;';
+          const lbl = cType === 'paper' ? 'Paper' : cType === 'book' ? 'Book' : 'Source';
+          sourceLink = `<a href="${a.videoUrl}" target="_blank" rel="noopener" class="yt-link" title="View ${lbl}" onclick="event.stopPropagation()">${icon} ${lbl}</a>`;
+        }
+      }
 
       return `
         <a href="analysis.html?id=${a.id}" class="video-card" style="text-decoration:none;color:inherit">
@@ -725,7 +747,7 @@ async function renderVideosPage() {
           </div>
           <div class="video-card-footer">
             <span class="video-card-date">${formatDate(a.dateAnalyzed)}</span>
-            ${ytIcon}
+            ${sourceLink}
           </div>
           <div class="score-bar-track">
             <div class="score-bar-fill" style="width:${score}%;background:${color}"></div>

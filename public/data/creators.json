@@ -226,5 +226,42 @@
     "analyses": [
       "nazarene-way-parable"
     ]
+  },
+  {
+    "id": "gavin-ortlund",
+    "name": "Gavin Ortlund",
+    "channel": "@TruthUnites",
+    "platform": "YouTube",
+    "avatarColor": "#00cec9",
+    "initials": "GO",
+    "topics": [
+      "Historical Theology",
+      "Patristics",
+      "Sola Scriptura",
+      "Protestant Apologetics",
+      "Ecumenical Dialogue"
+    ],
+    "sessions": 1,
+    "totalClaims": 28,
+    "trueClaims": 25,
+    "cumulativeScore": 89,
+    "verdict": "Reliable",
+    "corePositions": [
+      "Sola scriptura = Bible as only infallible rule, not only source",
+      "Tradition has an important but subordinate role",
+      "Perspicuity applies to salvation essentials, not all passages",
+      "Church fathers show mixed but supportive evidence for scriptural primacy",
+      "The church recognized the canon; it did not create it"
+    ],
+    "notablePatterns": [
+      "Exceptionally irenic tone; repeatedly steelmans opponents.",
+      "Acknowledges weaknesses in own position (rare in this genre).",
+      "Selective but qualified use of patristic sources (Basil ch. 27 omitted but caveated).",
+      "High factual accuracy on textual and historical claims.",
+      "Invites further dialogue rather than claiming victory."
+    ],
+    "analyses": [
+      "gavin-ortlund-sola-scriptura"
+    ]
   }
 ]
