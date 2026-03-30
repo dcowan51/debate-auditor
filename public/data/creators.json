@@ -241,27 +241,33 @@
       "Protestant Apologetics",
       "Ecumenical Dialogue"
     ],
-    "sessions": 1,
-    "totalClaims": 28,
-    "trueClaims": 25,
-    "cumulativeScore": 89,
+    "sessions": 2,
+    "totalClaims": 63,
+    "trueClaims": 57,
+    "cumulativeScore": 90,
     "verdict": "Reliable",
     "corePositions": [
       "Sola scriptura = Bible as only infallible rule, not only source",
       "Tradition has an important but subordinate role",
       "Perspicuity applies to salvation essentials, not all passages",
       "Church fathers show mixed but supportive evidence for scriptural primacy",
-      "The church recognized the canon; it did not create it"
+      "The church recognized the canon; it did not create it",
+      "Early Christian worship was structurally simple: scripture, sermon, prayer, eucharist, giving",
+      "The Eucharist was central, weekly, and sacred — restricted to the baptized",
+      "Contemporary evangelicalism has drifted from historical norms on eucharistic frequency and sacredness"
     ],
     "notablePatterns": [
       "Exceptionally irenic tone; repeatedly steelmans opponents.",
       "Acknowledges weaknesses in own position (rare in this genre).",
-      "Selective but qualified use of patristic sources (Basil ch. 27 omitted but caveated).",
+      "Consistently names and cites secondary sources (Ferguson, McGowan, Gonzalez) — unusual transparency for YouTube.",
       "High factual accuracy on textual and historical claims.",
-      "Invites further dialogue rather than claiming victory."
+      "Turns critique inward on his own tradition (evangelicalism).",
+      "Very low stratagem count; primarily descriptive/pastoral rather than adversarial.",
+      "Cumulative trajectory: Reliable (89%) → Reliable (91%). Cumulative: 90%."
     ],
     "analyses": [
-      "gavin-ortlund-sola-scriptura"
+      "gavin-ortlund-sola-scriptura",
+      "gavin-ortlund-justin-martyr"
     ]
   }
 ]
