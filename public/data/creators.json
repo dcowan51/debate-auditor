@@ -411,9 +411,9 @@
     ],
     "sessions": 3,
     "totalClaims": 80,
-    "trueClaims": 58,
-    "cumulativeScore": 73,
-    "verdict": "Caution",
+    "trueClaims": 64,
+    "cumulativeScore": 80,
+    "verdict": "Reliable",
     "corePositions": [
       "Christ's divinity was believed before Nicaea",
       "Constantine did not force doctrine on the church",
@@ -428,7 +428,7 @@
       "Repeated use of 'plausible' without quantifying probability against alternatives.",
       "Dismissive framing of opposing views ('fable,' 'myth,' 'fairy tale').",
       "Acknowledges scholarly counterarguments fairly when directly engaged.",
-      "Cumulative trajectory: Reliable (87%) → Caution (64%) → Caution (64%). Cumulative: 73%."
+      "Cumulative trajectory: Reliable (87%) → Caution (64%) → Reliable (91%). Cumulative: 80%."
     ],
     "analyses": [
       "inspiring-philosophy-nicaea",

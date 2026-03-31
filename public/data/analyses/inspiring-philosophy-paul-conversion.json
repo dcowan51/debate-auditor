@@ -12,15 +12,15 @@
   "reportFile": "InspiringPhilosophy_Paul_Conversion_Story_Debate_Audit.md",
   "thesis": "The three accounts of Paul's conversion (Acts 9, 22, 26) are not contradictory but reflect the ancient literary convention of 'functional redundancy' — repetition with meaningful variation.",
   "dashboard": {
-    "sessionScore": 64,
-    "cumulativeScore": 73,
+    "sessionScore": 91,
+    "cumulativeScore": 80,
     "cumulativeSessions": 3,
     "trueClaims": 14,
     "falseMisleading": 0,
     "disputed": 6,
     "totalChecked": 22,
     "confidence": "High",
-    "verdict": "Caution",
+    "verdict": "Reliable",
     "stratagems": 3,
     "weaselWords": 1,
     "errorImpact": 0
