@@ -1170,6 +1170,8 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  overflow: hidden;
+  min-width: 0;
 }
 
 .video-card:hover {
