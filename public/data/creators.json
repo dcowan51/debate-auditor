@@ -284,28 +284,32 @@
       "Animal Ethics",
       "Early Jewish-Christianity"
     ],
-    "sessions": 1,
-    "totalClaims": 39,
-    "trueClaims": 22,
-    "cumulativeScore": 56,
+    "sessions": 2,
+    "totalClaims": 66,
+    "trueClaims": 35,
+    "cumulativeScore": 53,
     "verdict": "Unreliable",
     "corePositions": [
       "Opsarion/prosphagion = 'relish/food,' not 'fish'",
       "Luke 24 and John 21 are later editorial additions",
       "Earliest Christianity was vegetarian",
       "Pythagorean-Christian numerical symbolism in John 21",
-      "Hebrew Gospel traditions preserve earliest resurrection account"
+      "Hebrew Gospel traditions preserve earliest resurrection account",
+      "Jesus deliberately excluded lamb from the Last Supper as anti-sacrifice protest",
+      "The original Passover may never have included lamb"
     ],
     "notablePatterns": [
       "Heavy reliance on etymological arguments detached from contextual usage.",
-      "Selective citation of patristic sources to support vegetarian thesis.",
+      "Systematic omission of counterevidence from cited sources (gospels mention Passover lamb sacrifice in Last Supper preparation).",
+      "Severe decontextualization of prophetic texts (Jeremiah 7:22).",
       "Multiple unverifiable or garbled source citations (Finicius Arabius, LXX Lev 2:1).",
-      "Conflation of scholarly 'possible' with 'probable'.",
       "Documentary promotion (Seaspiracy, Christspiracy) embedded in factual claims — financial incentive noted.",
-      "Core thesis claims carry the highest error load; background factual claims are largely accurate."
+      "Core thesis claims carry the highest error load; background factual claims are largely accurate.",
+      "Cumulative trajectory: Unreliable (56%) → Unreliable (48%). Cumulative: 53%."
     ],
     "analyses": [
-      "christspiracy-gospel-catch"
+      "christspiracy-gospel-catch",
+      "christspiracy-passover-lamb"
     ]
   }
 ]
