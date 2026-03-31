@@ -1,0 +1,248 @@
+{
+  "id": "inspiring-philosophy-nicaea",
+  "creatorId": "inspiring-philosophy",
+  "creatorName": "InspiringPhilosophy (Michael Jones)",
+  "channel": "@InspiringPhilosophy",
+  "videoTitle": "The Truth about the Council of Nicaea",
+  "videoUrl": "https://www.youtube.com/watch?v=cSvEB6M1cWE",
+  "datePublished": "2012-08-10",
+  "dateAnalyzed": "2026-03-19",
+  "sessionNumber": 1,
+  "analyzedRange": "0:00–9:26",
+  "thesis": "The popular claim that the Council of Nicaea invented the divinity of Christ and created a new version of Christianity is a historically unsupported myth; the council confirmed pre-existing Orthodox belief and it was the Arians, not the Orthodox, who wielded political power afterward.",
+  "reportFile": "Debate Auditor - InspiringPhilosophy - Council of Nicaea.md",
+  "dashboard": {
+    "sessionScore": 87,
+    "cumulativeScore": 87,
+    "cumulativeSessions": 1,
+    "trueClaims": 26,
+    "falseMisleading": 3,
+    "disputed": 1,
+    "totalChecked": 30,
+    "confidence": "Medium",
+    "verdict": "Reliable",
+    "stratagems": 4,
+    "weaselWords": 2,
+    "errorImpact": 10.7
+  },
+  "steelman": "The popular-culture narrative of Nicaea (Constantine invented Christianity, the council picked the Bible, the divinity of Jesus was fabricated from scratch) is historically indefensible, and the Orthodox position on Christ's divinity predates 325 AD by centuries — which is true and well-supported by scholarship.",
+  "falseClaims": [
+    {
+      "claim": "Constantine did not push any particular theological view at the council",
+      "rating": "Misleading · Medium-High Confidence",
+      "confidence": "Medium-High",
+      "timestamp": "4:42",
+      "evidence": "Multiple historians argue Constantine actively influenced the council's outcome. Eusebius of Caesarea's own letter from the council suggests Constantine personally recommended the term homoousios. Whether Constantine understood the theology is debated, but presenting his role as purely passive mediation overstates the scholarly consensus.",
+      "settle": "A comprehensive study of Constantine's documented interventions at the council, cross-referencing Eusebius's letter with Athanasius's later accounts.",
+      "sources": [
+        {
+          "label": "Catholic Encyclopedia — First Council of Nicaea",
+          "url": "https://www.newadvent.org/cathen/11044a.htm"
+        }
+      ],
+      "category": "Support"
+    },
+    {
+      "claim": "The council formally denounced Gnosticism and other minor sects",
+      "rating": "Misleading · Medium Confidence",
+      "confidence": "Medium",
+      "timestamp": "5:47",
+      "evidence": "The 20 canons of Nicaea deal with church discipline, clergy ordination, readmission of lapsed Christians, and other practical matters. The Nicene Creed condemns Arianism specifically. No canon or conciliar decree contains a formal denunciation of Gnosticism.",
+      "settle": "Full text of all Nicene canons and decrees — none reference Gnosticism.",
+      "sources": [
+        {
+          "label": "The 20 Canons of Nicaea — NewAdvent.org",
+          "url": "https://www.newadvent.org/fathers/3801.htm"
+        },
+        {
+          "label": "EWTN — Nicaea I, 325",
+          "url": "https://www.ewtn.com/catholicism/library/nicaea-i-325-10323"
+        }
+      ],
+      "category": "Support"
+    },
+    {
+      "claim": "It wasn't until 380 AD under Theodosius that Christianity was the only legal religion",
+      "rating": "Misleading · Medium Confidence",
+      "confidence": "Medium",
+      "timestamp": "1:51",
+      "evidence": "The Edict of Thessalonica (380) made Nicene Christianity the state religion and declared other Christian beliefs heretical, but it did not immediately make all other religions illegal. Pagan temples were not universally closed until further legislation under Theodosius in 391–392, and enforcement was uneven for years.",
+      "settle": "Full text of the Edict of Thessalonica and the subsequent anti-pagan legislation of 391–392.",
+      "sources": [
+        {
+          "label": "Edict of Thessalonica — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Edict_of_Thessalonica"
+        },
+        {
+          "label": "Theodosius I — Britannica",
+          "url": "https://www.britannica.com/biography/Theodosius-I"
+        }
+      ],
+      "category": "Support"
+    }
+  ],
+  "stratagems": [
+    {
+      "number": 11,
+      "name": "Induction with Concealed Counterexamples",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "Most other heretical views of Christianity like Gnosticism had mostly died out by this point and the majority of those professing to be Christians were Orthodox Christians so there was not a wide variety of different views at the council.",
+          "timestamp": "2:40",
+          "explanation": "Presents a simplified picture of theological uniformity. While Gnosticism had declined, other heterodox movements (Marcionites, adoptionist groups, Monarchians) still existed in varying degrees. The core point that Nicaea addressed Arianism specifically is accurate."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Homonymy / Extension of Opponent's Proposition",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "They always give me this generic story to try to show me that the Council of Nicaea made up the divinity of Jesus and created a new version of Christianity.",
+          "timestamp": "0:27",
+          "explanation": "Frames all skeptical positions as a single extreme claim ('made up the divinity of Jesus'). More nuanced critiques concern the specific formulation of Christ's divinity (homoousios), not the existence of any high Christology before Nicaea."
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "name": "Odious Label (Verhasste Benennung)",
+      "instances": 2,
+      "entries": [
+        {
+          "quote": "This fable is easily debunked... this myth about the council, two complete fairy tale.",
+          "timestamp": "0:58",
+          "explanation": "Repeated framing of the opposing position as 'fable,' 'myth,' and 'fairy tale' primes the audience to reject the opposing view emotionally rather than evaluating it on evidence alone."
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "name": "Argumentum ad Auditores (Appeal to the Gallery)",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "Most of them suffered through one of the greatest Christian persecutions of all time… they were not the type of men who were fine with compromising their beliefs especially if a few years earlier they were willing to die for them.",
+          "timestamp": "3:12",
+          "explanation": "An emotional appeal to the audience's sympathy. The bishops' suffering is historically documented, but the argument that people who endured persecution would never compromise or evolve their beliefs is a non sequitur."
+        }
+      ]
+    }
+  ],
+  "scholarlySplits": [
+    {
+      "claim": "The Muratorian Fragment shows the canon was nearly complete by the end of the 2nd century",
+      "nature": "The dating of the Muratorian Fragment itself is disputed. Consensus dates it c. 170–200 AD; a minority (Sundberg, Hahneman) argues for a 4th-century date. If the earlier date holds, the canon was substantially formed (22/27 books) but 'nearly complete' slightly overstates it.",
+      "timestamp": "6:02"
+    }
+  ],
+  "trueClaims": [
+    "The Edict of Milan (313 AD) legalized Christianity — confirmed",
+    "Constantine did not make Christianity the official state religion — the Edict of Milan established neutrality, not establishment",
+    "Galerius issued an Edict of Toleration in 311 AD — the Edict of Serdica, April 30, 311",
+    "Arius preached that Jesus was not God but a created being — core Arian doctrine",
+    "A local council in Alexandria condemned Arius around 320–321 — Alexander convened a council of ~100 bishops",
+    "Constantine called the council in 325 AD — convened in June 325 at Nicaea",
+    "Most attendees were from the East — the overwhelming majority were Eastern bishops",
+    "Three parties at the council: Arian, Orthodox, Eusebian — essentially true, standard three-party framework",
+    "The Eusebian group objected to homoousios on terminological, not theological, grounds — earlier modalist use made some bishops uneasy",
+    "All but Arius and two bishops signed the creed — Theonas and Secundus refused",
+    "The council issued 20 canons — well-attested",
+    "The council addressed the date of Easter — confirmed",
+    "The council did not decide on the biblical canon — no historical evidence of canon discussion at Nicaea",
+    "The word Trinity was used by early church fathers before Nicaea — Theophilus of Antioch (c. 180 AD) and Tertullian (early 3rd century)",
+    "Constantine's sister (Constantia) on her deathbed urged support for Arius — attested in multiple sources",
+    "Arius died before being readmitted to communion — died in 336, the night before planned readmission",
+    "Eusebius of Nicomedia baptized Constantine before his death — May 22, 337 at Nicomedia",
+    "Jerome described the era as when the world 'groaned and found itself Arian' — well-attested Jerome quotation",
+    "Athanasius was banished five times — well-documented fact",
+    "The Council of Constantinople (381) reaffirmed the Nicene faith — Canon 1 explicitly reaffirms Nicaea",
+    "Arian bishops converted Germanic tribes to Arianism — Ulfilas was the key missionary to the Goths",
+    "Constantine outlawed gladiatorial games — ordered elimination in 325, though enforcement was uneven",
+    "Gladiator shows persisted until the fifth century — last recorded games in 404 AD under Honorius",
+    "No Gnostics or Ebionites were involved at the council — confirmed",
+    "Eusebius writes that some bishops tore up letters containing Arius's teachings — attested",
+    "After Constantine's death, Arians continued to gain ground against the Orthodox — confirmed"
+  ],
+  "youtubeFlags": [
+    {
+      "type": "Title Accuracy",
+      "severity": "info",
+      "text": "The title 'The Truth about the Council of Nicaea' is accurate to the video's content but the definite article 'The Truth' implies a settled, singular account when several claims involve simplifications. Mildly overstated but not deceptive."
+    },
+    {
+      "type": "Implied Claims",
+      "severity": "warning",
+      "text": "The video strongly implies that all skepticism about Nicaea originates from ignorance or bad faith. This frames the issue as settled rather than acknowledging that professional historians debate the degree of Constantine's influence and the political dimensions of the council."
+    },
+    {
+      "type": "Monetization",
+      "severity": "info",
+      "text": "None detected. No supplements, courses, or affiliate products promoted."
+    }
+  ],
+  "weightedAnalysis": {
+    "categories": [
+      {
+        "name": "Core",
+        "claims": 5,
+        "weight": 3,
+        "trueWeighted": 15,
+        "falseWeighted": 0,
+        "disputedWeighted": 0
+      },
+      {
+        "name": "Support",
+        "claims": 17,
+        "weight": 2,
+        "trueWeighted": 28,
+        "falseWeighted": 6,
+        "disputedWeighted": 0
+      },
+      {
+        "name": "Background",
+        "claims": 7,
+        "weight": 1,
+        "trueWeighted": 7,
+        "falseWeighted": 0,
+        "disputedWeighted": 0
+      }
+    ],
+    "errorImpact": 10.7,
+    "interpretation": "At ~11%, this video is in 'usable with verification' territory. The core thesis is well-supported and no core-level errors were detected. The three misleading claims concern overstatements about the council's actions and Constantine's neutrality."
+  },
+  "allClaims": [
+    { "num": 1, "text": "Before the Council of Nicaea there were several different competing views of Christ.", "timestamp": "0:00", "verdict": "true" },
+    { "num": 2, "text": "Emperor Constantine assembled bishops together to decide on one view of Christ.", "timestamp": "0:12", "verdict": "true" },
+    { "num": 3, "text": "On February 24th, 303 AD, the worst persecution of Christians began under Emperor Diocletian.", "timestamp": "1:08", "verdict": "true" },
+    { "num": 4, "text": "The persecution lasted until Emperor Galerius issued a general Edict of Tolerance in 311 AD.", "timestamp": "1:08", "verdict": "true" },
+    { "num": 5, "text": "In 313 AD, the Edict of Milan legalized Christianity.", "timestamp": "1:17", "verdict": "true" },
+    { "num": 6, "text": "Constantine did not make Christianity the official religion of the Empire.", "timestamp": "1:26", "verdict": "true" },
+    { "num": 7, "text": "Constantine outlawed Jews from stoning Christians.", "timestamp": "1:34", "verdict": "true" },
+    { "num": 8, "text": "Constantine outlawed gladiator shows.", "timestamp": "1:34", "verdict": "true" },
+    { "num": 9, "text": "Gladiator shows persisted until the fifth century.", "timestamp": "1:42", "verdict": "true" },
+    { "num": 10, "text": "It wasn't until 380 AD under Emperor Theodosius that Christianity was the only legal religion.", "timestamp": "1:51", "verdict": "misleading" },
+    { "num": 11, "text": "A pastor from Alexandria named Arius began preaching that Jesus was not God but a created being.", "timestamp": "2:00", "verdict": "true" },
+    { "num": 12, "text": "In 321 AD, a local council declared Arius a heretic.", "timestamp": "2:07", "verdict": "true" },
+    { "num": 13, "text": "Arius moved to Palestine where he gained a larger following.", "timestamp": "2:14", "verdict": "true" },
+    { "num": 14, "text": "Constantine officially called the council in 325 AD.", "timestamp": "2:31", "verdict": "true" },
+    { "num": 15, "text": "There were no Gnostics or Ebionites involved at the council.", "timestamp": "2:31", "verdict": "true" },
+    { "num": 16, "text": "Gnosticism had mostly died out by this point.", "timestamp": "2:40", "verdict": "true" },
+    { "num": 17, "text": "The majority of those professing to be Christians were Orthodox Christians.", "timestamp": "2:48", "verdict": "true" },
+    { "num": 18, "text": "Constantine originally invited over 1,800 bishops; only around 300 were able to attend.", "timestamp": "2:56", "verdict": "true" },
+    { "num": 19, "text": "Most attendees were from the east, with only about a dozen representing the west.", "timestamp": "3:04", "verdict": "true" },
+    { "num": 20, "text": "Most attending bishops had suffered through the Diocletianic persecution less than two decades earlier.", "timestamp": "3:12", "verdict": "true" },
+    { "num": 21, "text": "The Eusebian group agreed with the Orthodox on theology but differed on the use of homoousios.", "timestamp": "4:07", "verdict": "true" },
+    { "num": 22, "text": "The Eusebians objected to homoousios because earlier heretics (modalists) had used the term.", "timestamp": "4:25", "verdict": "true" },
+    { "num": 23, "text": "Constantine did not force Trinitarian views on the church; he presided but did not push a particular view.", "timestamp": "4:42", "verdict": "misleading" },
+    { "num": 24, "text": "All but Arius and two bishops signed the Nicene Creed.", "timestamp": "5:38", "verdict": "true" },
+    { "num": 25, "text": "The council formally denounced Gnosticism and other minor sects.", "timestamp": "5:47", "verdict": "misleading" },
+    { "num": 26, "text": "The council publicized twenty canon laws.", "timestamp": "5:47", "verdict": "true" },
+    { "num": 27, "text": "The council decided which day to formally celebrate Easter.", "timestamp": "5:47", "verdict": "true" },
+    { "num": 28, "text": "The council did not decide on the biblical canon.", "timestamp": "6:02", "verdict": "true" },
+    { "num": 29, "text": "The Muratorian Fragment shows the canon was nearly complete by the end of the second century.", "timestamp": "6:02", "verdict": "disputed" },
+    { "num": 30, "text": "The word Trinity can be found in early church fathers and early Christian writings.", "timestamp": "6:19", "verdict": "true" }
+  ]
+}

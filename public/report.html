@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Full Report — Act17:11</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <style>
+    .report-container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+    .report-back {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.85rem;
+      color: var(--accent-light);
+      text-decoration: none;
+      margin-bottom: 24px;
+    }
+    .report-back:hover { opacity: 0.8; }
+    .report-content {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 40px 36px;
+      line-height: 1.8;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+    .report-content h1 {
+      font-size: 1.6rem;
+      color: var(--text);
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+    .report-content h2 {
+      font-size: 1.2rem;
+      color: var(--accent-light);
+      margin-top: 36px;
+      margin-bottom: 12px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+    }
+    .report-content h3 {
+      font-size: 1rem;
+      color: var(--text);
+      margin-top: 24px;
+      margin-bottom: 8px;
+    }
+    .report-content h4 {
+      font-size: 0.9rem;
+      color: var(--text);
+      margin-top: 20px;
+      margin-bottom: 6px;
+    }
+    .report-content p {
+      margin-bottom: 12px;
+    }
+    .report-content strong {
+      color: var(--text);
+    }
+    .report-content em {
+      color: var(--text-muted);
+      font-style: italic;
+    }
+    .report-content a {
+      color: var(--accent-light);
+      text-decoration: none;
+    }
+    .report-content a:hover {
+      text-decoration: underline;
+    }
+    .report-content blockquote {
+      border-left: 3px solid var(--accent);
+      margin: 16px 0;
+      padding: 12px 20px;
+      background: rgba(108, 92, 231, 0.05);
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+      font-style: italic;
+    }
+    .report-content code {
+      background: rgba(255, 255, 255, 0.06);
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.85em;
+      font-family: 'SF Mono', 'Fira Code', monospace;
+    }
+    .report-content pre {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 20px;
+      overflow-x: auto;
+      margin: 16px 0;
+      font-size: 0.8rem;
+      line-height: 1.6;
+    }
+    .report-content pre code {
+      background: none;
+      padding: 0;
+    }
+    .report-content table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+      font-size: 0.85rem;
+    }
+    .report-content th, .report-content td {
+      border: 1px solid var(--border);
+      padding: 10px 14px;
+      text-align: left;
+    }
+    .report-content th {
+      background: rgba(108, 92, 231, 0.08);
+      color: var(--accent-light);
+      font-weight: 600;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .report-content hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 32px 0;
+    }
+    .report-content ul, .report-content ol {
+      margin-bottom: 12px;
+      padding-left: 24px;
+    }
+    .report-content li {
+      margin-bottom: 6px;
+    }
+    .report-loading {
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+    @media (max-width: 768px) {
+      .report-container { padding: 20px 12px 60px; }
+      .report-content { padding: 24px 16px; }
+      .report-content h1 { font-size: 1.3rem; }
+      .report-content h2 { font-size: 1.05rem; }
+      .report-content pre { padding: 12px; font-size: 0.7rem; }
+      .report-content table { font-size: 0.75rem; }
+      .report-content th, .report-content td { padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <div class="logo-icon">17</div>
+      Act17:11
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="videos.html">Analyses</a></li>
+      <li><a href="leaderboard.html">Leaderboard</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+    <button class="nav-hamburger" aria-label="Menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+    <div class="nav-search">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+      <input type="text" placeholder="Search creators or videos...">
+    </div>
+  </div>
+</nav>
+
+<div class="report-container">
+  <a href="javascript:history.back()" class="report-back">&larr; Back to Analysis</a>
+  <div id="report-content" class="report-loading">Loading report...</div>
+</div>
+
+<footer>
+  <p>Act17:11 — Independent accuracy analysis for YouTube content creators. "They examined the Scriptures daily to see if what was said was true." — Acts 17:11</p>
+  <p style="margin-top:8px">Not affiliated with YouTube or any creator. All analyses are based on verifiable sources.</p>
+</footer>
+
+<script>
+async function renderReport() {
+  const params = new URLSearchParams(window.location.search);
+  const file = params.get('file');
+  const analysisId = params.get('analysis');
+
+  if (!file) {
+    document.getElementById('report-content').innerHTML = '<p style="text-align:center;color:var(--red-light)">No report file specified.</p>';
+    return;
+  }
+
+  try {
+    const res = await fetch(`data/reports/${file}`);
+    if (!res.ok) throw new Error(`Report not found: ${res.status}`);
+    const md = await res.text();
+
+    document.getElementById('report-content').className = 'report-content';
+    document.getElementById('report-content').innerHTML = marked.parse(md);
+
+    // Update page title from first h1
+    const firstH1 = document.querySelector('.report-content h1');
+    if (firstH1) {
+      document.title = firstH1.textContent + ' — Act17:11';
+    }
+
+    // Update back link if we have an analysis ID
+    if (analysisId) {
+      document.querySelector('.report-back').href = `analysis.html?id=${analysisId}`;
+    }
+  } catch (err) {
+    document.getElementById('report-content').innerHTML = `<p style="text-align:center;color:var(--red-light)">Could not load report: ${err.message}</p>`;
+  }
+}
+
+renderReport();
+</script>
+</body>
+</html>

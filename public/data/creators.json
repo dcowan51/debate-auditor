@@ -354,5 +354,80 @@
       "mindshift-obj-morality",
       "mindshift-7-teachings"
     ]
+  },
+  {
+    "id": "david-hnotsari",
+    "name": "David H'Notsari",
+    "channel": "@DavidHNotsari",
+    "platform": "YouTube / BitChute / Amazon",
+    "avatarColor": "#636e72",
+    "initials": "DH",
+    "topics": [
+      "Ebionite Studies",
+      "Anti-Pauline Theology",
+      "Torah Observance",
+      "Jewish-Christian Origins",
+      "Textual Reconstruction"
+    ],
+    "sessions": 1,
+    "totalClaims": 18,
+    "trueClaims": 5,
+    "cumulativeScore": 28,
+    "verdict": "Unreliable",
+    "corePositions": [
+      "Paul is a false apostle",
+      "Gospel of the Hebrews is the original gospel",
+      "Clementine literature is authentically apostolic",
+      "Dispensationalism is false",
+      "Torah observance remains binding",
+      "Modern nations fulfill Esau/Edom prophecies",
+      "Written scripture is not infallible, only God is infallible"
+    ],
+    "notablePatterns": [
+      "Heavy use of pastoral authority framing ('little children').",
+      "Builds implicit arguments against Paul without naming him.",
+      "Presents editorial reconstruction as recovered originals.",
+      "Mixes accurate biblical citations with unsupported historical claims.",
+      "Internal contradiction between rejecting written scripture's authority and publishing a 774-page scripture compilation."
+    ],
+    "analyses": [
+      "david-hnotsari-the-rock"
+    ]
+  },
+  {
+    "id": "inspiring-philosophy",
+    "name": "InspiringPhilosophy (Michael Jones)",
+    "channel": "@InspiringPhilosophy",
+    "platform": "YouTube",
+    "avatarColor": "#00b894",
+    "initials": "IP",
+    "topics": [
+      "Church History",
+      "Council of Nicaea",
+      "Apologetics",
+      "Early Christianity",
+      "Trinitarian Theology"
+    ],
+    "sessions": 1,
+    "totalClaims": 30,
+    "trueClaims": 26,
+    "cumulativeScore": 87,
+    "verdict": "Reliable",
+    "corePositions": [
+      "Christ's divinity was believed before Nicaea",
+      "Constantine did not force doctrine on the church",
+      "Arians gained political power post-Nicaea",
+      "Popular skeptical narrative about Nicaea is a myth"
+    ],
+    "notablePatterns": [
+      "Strong on broad historical narrative; minor imprecisions on background details (dates, figures).",
+      "Overstates Constantine's neutrality and the council's scope.",
+      "Tendency to simplify theological complexity.",
+      "Dismissive framing of opposing views ('fable,' 'myth,' 'fairy tale').",
+      "No sources cited in video — unusual for historical claims of this specificity."
+    ],
+    "analyses": [
+      "inspiring-philosophy-nicaea"
+    ]
   }
 ]

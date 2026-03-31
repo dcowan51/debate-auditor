@@ -1,0 +1,301 @@
+{
+  "id": "david-hnotsari-the-rock",
+  "creatorId": "david-hnotsari",
+  "creatorName": "David H'Notsari",
+  "channel": "@DavidHNotsari",
+  "videoTitle": "The Rock of a Sure Foundation",
+  "videoUrl": "https://www.amazon.com/dp/B0D5L3BXY4",
+  "contentType": "book",
+  "datePublished": "2025-11-16",
+  "dateAnalyzed": "2026-03-28",
+  "sessionNumber": 1,
+  "analyzedRange": "pp. 3–13",
+  "thesis": "The canonical New Testament is corrupted by post-apostolic additions (primarily Pauline epistles); the 'original' scriptures consist of a reconstructed Gospel of the Hebrews and writings from the Jerusalem apostles only. Paul is implicitly rejected as a false apostle.",
+  "reportFile": "David_HNotsari_The_Rock_Debate_Audit.md",
+  "dashboard": {
+    "sessionScore": 28,
+    "cumulativeScore": 28,
+    "cumulativeSessions": 1,
+    "trueClaims": 5,
+    "falseMisleading": 8,
+    "disputed": 5,
+    "totalChecked": 18,
+    "confidence": "Medium",
+    "verdict": "Unreliable",
+    "stratagems": 6,
+    "weaselWords": 2,
+    "errorImpact": 48.7
+  },
+  "steelman": "The earliest Jesus movement was centered in Jerusalem under James and the Twelve, was Torah-observant, and had a theological character quite different from Pauline Christianity. The dominance of Paul's letters in the canonical New Testament may obscure the diversity of early Christian belief, and texts like the Didache and the Clementine literature preserve traditions from Jewish-Christian communities that deserve serious attention. Grace is indeed present throughout the Hebrew Bible, and dispensationalist theology — as a systematic framework — was a relatively late development (19th century, John Nelson Darby). Believers should take Jesus's own words as the highest authority.",
+  "falseClaims": [
+    {
+      "claim": "The 'Reconstructed Gospel of the Hebrews' represents the original New Covenant scripture",
+      "rating": "Likely False · High Confidence",
+      "confidence": "High",
+      "timestamp": "p. 9",
+      "evidence": "The Gospel of the Hebrews is a lost text known only from patristic fragments. The author's 'reconstruction' is an editorial compilation blending canonical Matthew with fragments from Jerome, Origen, Epiphanius, and other church fathers, plus material from the Protevangelium of James. This is a modern interpretive project, not a recovery of an ancient manuscript.",
+      "settle": "Discovery of a complete manuscript of the Gospel of the Hebrews for comparison.",
+      "sources": [
+        {
+          "label": "Hebrew Gospel hypothesis — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hebrew_Gospel_hypothesis"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "The Clementine literature are authentic apostolic documents from the hands of the Apostles",
+      "rating": "Likely False · High Confidence",
+      "confidence": "High",
+      "timestamp": "p. 8",
+      "evidence": "The Clementine Homilies and Recognitions are universally dated by scholars to the 3rd–4th century CE. They are pseudepigraphical (falsely attributed to Clement of Rome). Including them as 'documents from the hands of the Apostles' is a core historical error.",
+      "settle": "Manuscript evidence dating any Clementine text to the 1st century.",
+      "sources": [
+        {
+          "label": "Clementine literature — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Clementine_literature"
+        },
+        {
+          "label": "NASSCAL Pseudo-Clementines entry",
+          "url": "https://www.nasscal.com/e-clavis-christian-apocrypha/pseudo-clementines/"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "'Yahweh' is properly pronounced 'Yah-wuh'",
+      "rating": "Misleading · Medium Confidence",
+      "confidence": "Medium",
+      "timestamp": "p. 3",
+      "evidence": "The pronunciation of the Tetragrammaton is debated. The most common scholarly reconstructions are 'Yahweh' (two syllables, yah-WEH) based on Theodoret's testimony and Greek transliterations (Ιαβε). 'Yah-wuh' is a minority pronunciation not supported by the primary evidence.",
+      "settle": "Discovery of a vocalized ancient text containing the full name.",
+      "sources": [],
+      "category": "Background"
+    },
+    {
+      "claim": "Paul is implicitly a false apostle selected by the adversary",
+      "rating": "Misleading · High Confidence",
+      "confidence": "High",
+      "timestamp": "p. 5",
+      "evidence": "The entire letter builds a framework to reject Paul without naming him. This is misleading because: (a) the author never demonstrates specific contradictions between Paul and Jesus; (b) Paul's apostleship was acknowledged by the Jerusalem pillars including James and Peter (Galatians 2:9); (c) Acts records Paul's commission; and (d) 2 Peter 3:15-16, if accepted as authentic, refers to Paul's letters as scripture.",
+      "settle": "The author providing specific, documented contradictions between Jesus's recorded words and Paul's teachings, with contextual analysis.",
+      "sources": [],
+      "category": "Core"
+    },
+    {
+      "claim": "Matthew 24:11 and 24:24 ('false prophets/apostles') refer to Paul or Pauline teachers",
+      "rating": "Misleading · High Confidence",
+      "confidence": "High",
+      "timestamp": "p. 6",
+      "evidence": "The Matthean context is the Olivet Discourse, a prophecy about end-times tribulation. 'False prophets' (pseudoprophetai) refers to eschatological deceivers during the great tribulation, not to fellow apostles within the early church.",
+      "settle": "Any ancient source applying Matt 24:11 specifically to Paul.",
+      "sources": [],
+      "category": "Core"
+    },
+    {
+      "claim": "Today, Esau is 'masquerading as Jacob' and modern nations fulfill Ezekiel 36:5",
+      "rating": "Likely False · Medium Confidence",
+      "confidence": "Medium",
+      "timestamp": "p. 8",
+      "evidence": "There is no scholarly basis for identifying any modern nation-state or ethnic group with biblical Esau/Edom. The prophetic texts about Edom refer to the historical Edomite kingdom, which ceased to exist as a distinct polity in late antiquity.",
+      "settle": "Archaeological or genetic evidence linking a modern population to ancient Edom in the way the author implies.",
+      "sources": [],
+      "category": "Support"
+    },
+    {
+      "claim": "Esau is 'the only people in all of Scripture whom God hates'",
+      "rating": "Misleading · High Confidence",
+      "confidence": "High",
+      "timestamp": "p. 8",
+      "evidence": "Malachi 1:2-3 does say 'Esau I have hated,' but the claim that Esau is 'the only people in all of Scripture whom God hates' is an overstatement. The Hebrew Bible contains expressions of divine anger toward multiple nations (Amalekites, Canaanites). The word 'hate' in Malachi is widely understood as a comparative idiom meaning 'loved less.'",
+      "settle": "A comprehensive survey of all divine 'hatred' language in the Hebrew Bible.",
+      "sources": [],
+      "category": "Support"
+    },
+    {
+      "claim": "Written Scripture is not the unadulterated Word of God; only the Holy Spirit speaking directly constitutes the true Word",
+      "rating": "Misleading · Medium Confidence",
+      "confidence": "Medium",
+      "timestamp": "p. 8",
+      "evidence": "This claim is internally contradictory within the author's own project. He simultaneously argues that written scripture is unreliable because it passes through human hands, yet publishes a 774-page book of written scriptures that he compiled, translated, and edited.",
+      "settle": "The author clarifying which written texts he considers authoritative and why his editorial choices are more reliable than the canonical process he rejects.",
+      "sources": [],
+      "category": "Support"
+    }
+  ],
+  "stratagems": [
+    {
+      "number": 1,
+      "name": "Extension (Die Erweiterung)",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "If you see an apostle speaking things contrary to what the Master Himself said, then you know that person is not a true apostle but a pretender, a traitor, and a false apostle who was never chosen by the Master.",
+          "timestamp": "p. 5",
+          "explanation": "Extends the reasonable principle that an emissary should be consistent with the one who sent him into an absolute binary: any apparent disagreement = false apostle chosen by Satan. This eliminates the possibility of contextual application, progressive revelation, or legitimate interpretive development."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "name": "Concealed Petitio Principii",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "Most certainly I tell you, that the Master Yeshua did not instruct His disciples in ignorance... He certainly did not choose twelve 'inferior' apostles so that one greater and more knowledgeable than them could appear later.",
+          "timestamp": "pp. 4–5",
+          "explanation": "The entire argument assumes its own conclusion. The author presupposes that Paul teaches things contrary to Jesus, then constructs a framework that only works if the premise is already accepted. The reader is never shown specific contradictions."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "name": "Induction with Concealed Counterexamples",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "For the Master did not come to bring some pretended 'new dispensation.' Certainly not an alleged 'dispensation of grace,' because the Scriptures say that Noah found Grace in the eyes of the Most High.",
+          "timestamp": "p. 5",
+          "explanation": "Cites Genesis 6:8 and Exodus 20:6 to argue grace is not new. Conceals the counterexample that dispensationalism concerns the administration of God's relationship across periods, not the existence of grace. Jeremiah 31:31-34 ('I will make a new covenant... not like the covenant I made with their fathers') is not addressed."
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "name": "Argumentum ad Hominem",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "Little children do not accept the words of a man simply because he was put into a collection of writings compiled hundreds of years ago.",
+          "timestamp": "p. 6",
+          "explanation": "Rather than engaging with Pauline theology on its merits, the author attacks Paul's credibility by categorizing him as 'a man put into a collection of writings compiled hundreds of years ago.' This shifts the argument from content to source."
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "name": "Selective Appeal to Authority",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "I have assembled the following documents from the hands of the Apostles chosen by our Master and I'm giving them to you to guide you back into the true faith.",
+          "timestamp": "p. 8",
+          "explanation": "Presents the Clementine literature (3rd–4th century pseudepigraphical works) and his own reconstructed Gospel as documents 'from the hands of the Apostles.' Rejects the canonical process that included Paul's letters while claiming his own curated collection represents authentic apostolic authorship."
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "name": "Dismissal by Categorization",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "So when you hear men speaking pompous words which they themselves created that the Master Himself never uttered: words like 'dispensationalism' to promote an ideology that contradicts and seeks to invalidate the plain words of our Savior.",
+          "timestamp": "pp. 5–6",
+          "explanation": "Dismisses an entire theological tradition with substantial scholarly literature by categorizing its language as 'pompous words which they themselves created.' The word 'dispensation' (Greek: oikonomia) does appear in the Greek New Testament (Eph 1:10, 3:2, Col 1:25)."
+        }
+      ]
+    }
+  ],
+  "scholarlySplits": [
+    {
+      "claim": "The Gospel of the Hebrews predates canonical Matthew and represents the 'original' gospel",
+      "nature": "Majority view: canonical Matthew was composed in Greek; the Gospel of the Hebrews is a separate, later Jewish-Christian text. Minority view (Petri Luomanen, James Edwards): a Hebrew gospel tradition may have pre-Matthean roots.",
+      "timestamp": "pp. 9ff"
+    },
+    {
+      "claim": "Paul's theology contradicts Jesus's teachings",
+      "nature": "Some scholars (Hyam Maccoby, Barrie Wilson) argue Paul significantly departed from Jesus. Majority (N.T. Wright, James Dunn) argue Paul is a legitimate interpreter of Jesus's significance.",
+      "timestamp": "pp. 4–5"
+    },
+    {
+      "claim": "Grace is present throughout the Hebrew Bible, not only in the New Covenant",
+      "nature": "Most theologians agree grace is present in the Hebrew Bible. Disagreement is over whether there are distinct 'dispensations' of grace administration.",
+      "timestamp": "p. 5"
+    },
+    {
+      "claim": "The Didache preserves early apostolic teaching",
+      "nature": "Widely agreed to be an early text (late 1st–early 2nd century). Disputed whether it reflects direct apostolic teaching or early community practice.",
+      "timestamp": "TOC"
+    },
+    {
+      "claim": "'David the Prince' in Ezekiel 34 refers to a future literal Davidic figure, not just the Messiah",
+      "nature": "Most Christian scholars read this as messianic (= Jesus). Some Jewish scholars and a minority of Christian scholars read it as a future literal Davidic king distinct from a divine Messiah.",
+      "timestamp": "p. 7"
+    }
+  ],
+  "trueClaims": [
+    "The Sacred Name (YHWH) appears in Paleo Hebrew script in the Dead Sea Scrolls — confirmed by Emanuel Tov, Scribal Practices and Approaches (2004)",
+    "Yeshua had foreknowledge (citing Matt 26:10, John 16:30) — these verses do attribute supernatural knowledge to Jesus",
+    "2 Peter 2:1-3 warns of false teachers who will exploit with fabricated stories — accurate citation",
+    "The term 'dispensationalism' does not appear in Jesus's recorded words — true, it was developed by Darby in the 1830s",
+    "Genesis 6:8 states Noah found grace (Hebrew: חֵן, chen) in the eyes of YHWH — accurate citation"
+  ],
+  "youtubeFlags": [
+    {
+      "type": "Title / Document Accuracy",
+      "severity": "warning",
+      "text": "The title 'The Rock of a Sure Foundation: The Original New Covenant Scriptures' makes a strong factual claim — that this collection represents the original scriptures. This is not established through manuscript evidence or textual criticism. The 'Reconstructed Gospel of the Hebrews' is an editorial compilation, not a recovered ancient manuscript."
+    },
+    {
+      "type": "Implied Claims",
+      "severity": "warning",
+      "text": "The Table of Contents implies that by excluding all Pauline epistles and including the Clementine pseudepigrapha, the author has recovered the authentic apostolic canon. This is never explicitly argued with evidence — it is communicated structurally through editorial curation."
+    },
+    {
+      "type": "Monetization",
+      "severity": "info",
+      "text": "The Editor's Note includes an Amazon purchase link for the physical book. The author states 'I don't accept tithes, I don't take offerings' and asks supporters to spread the material instead. The author does sell the physical book but does not appear to run a donation-based ministry model."
+    }
+  ],
+  "weightedAnalysis": {
+    "categories": [
+      {
+        "name": "Core",
+        "claims": 7,
+        "weight": 3,
+        "trueWeighted": 3,
+        "falseWeighted": 12,
+        "disputedWeighted": 6
+      },
+      {
+        "name": "Support",
+        "claims": 7,
+        "weight": 2,
+        "trueWeighted": 4,
+        "falseWeighted": 6,
+        "disputedWeighted": 4
+      },
+      {
+        "name": "Background",
+        "claims": 4,
+        "weight": 1,
+        "trueWeighted": 2,
+        "falseWeighted": 1,
+        "disputedWeighted": 1
+      }
+    ],
+    "errorImpact": 48.7,
+    "interpretation": "At ~49%, this document is in 'misleading overall' territory. The error impact is heavily concentrated in core claims — the thesis-level assertions about the Clementine literature, the Gospel of the Hebrews, and Paul's apostleship all carry significant factual errors."
+  },
+  "allClaims": [
+    { "num": 1, "text": "The Sacred Name of the Creator was written in Paleo Hebrew letters in the Dead Sea Scrolls.", "timestamp": "p. 3", "verdict": "true" },
+    { "num": 2, "text": "'Yahweh' is properly pronounced 'Yah-wuh.'", "timestamp": "p. 3", "verdict": "misleading" },
+    { "num": 3, "text": "Yeshua had foreknowledge of all things (cites Matt 26:10, John 16:30).", "timestamp": "p. 4", "verdict": "true" },
+    { "num": 4, "text": "An Apostle cannot contradict the One by Whom he was sent.", "timestamp": "p. 5", "verdict": "disputed" },
+    { "num": 5, "text": "Simon Peter warned that self-serving men would come speaking fabricated words (2 Peter 2:2-3).", "timestamp": "p. 5", "verdict": "true" },
+    { "num": 6, "text": "The Master Himself never uttered the word 'dispensationalism.'", "timestamp": "p. 5", "verdict": "true" },
+    { "num": 7, "text": "Grace is not a 'new dispensation' because Noah found grace (Genesis 6:8).", "timestamp": "p. 5", "verdict": "disputed" },
+    { "num": 8, "text": "Matthew 5:18 records Jesus saying not one jot or tittle will pass from the Law.", "timestamp": "p. 6", "verdict": "true" },
+    { "num": 9, "text": "Matthew 24:11 and 24:24 ('false prophets') refer to Paul or Pauline teachers.", "timestamp": "p. 6", "verdict": "misleading" },
+    { "num": 10, "text": "Paul is implicitly a false apostle selected by the adversary.", "timestamp": "p. 5", "verdict": "misleading" },
+    { "num": 11, "text": "The Clementine literature are authentic apostolic documents from the hands of the Apostles.", "timestamp": "p. 8", "verdict": "false" },
+    { "num": 12, "text": "The 'Reconstructed Gospel of the Hebrews' represents the original New Covenant scripture.", "timestamp": "p. 9", "verdict": "false" },
+    { "num": 13, "text": "Today, Esau is 'masquerading as Jacob' and modern nations fulfill Ezekiel 36:5.", "timestamp": "p. 8", "verdict": "false" },
+    { "num": 14, "text": "Esau is 'the only people in all of Scripture whom God hates.'", "timestamp": "p. 8", "verdict": "misleading" },
+    { "num": 15, "text": "Written Scripture is not the unadulterated Word of God; only the Holy Spirit speaking directly is.", "timestamp": "p. 8", "verdict": "misleading" },
+    { "num": 16, "text": "The Gospel of the Hebrews predates canonical Matthew.", "timestamp": "pp. 9ff", "verdict": "disputed" },
+    { "num": 17, "text": "Paul's theology contradicts Jesus's teachings.", "timestamp": "pp. 4–5", "verdict": "disputed" },
+    { "num": 18, "text": "The Didache preserves early apostolic teaching.", "timestamp": "TOC", "verdict": "disputed" }
+  ]
+}

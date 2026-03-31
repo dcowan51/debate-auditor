@@ -324,6 +324,16 @@ async function renderAnalysis() {
     }
   }
 
+  // View Full Report button
+  if (a.reportFile) {
+    const reportBtn = document.createElement('a');
+    reportBtn.href = `report.html?file=${encodeURIComponent(a.reportFile)}&analysis=${a.id}`;
+    reportBtn.style.cssText = 'display:inline-flex;align-items:center;gap:6px;padding:8px 16px;background:rgba(0,206,201,0.12);border:1px solid rgba(0,206,201,0.3);border-radius:20px;color:var(--green);font-size:0.85rem;font-weight:600;text-decoration:none;margin-top:12px;margin-left:8px';
+    reportBtn.innerHTML = '&#128203; View Full Report';
+    const ytLink = document.getElementById('youtube-link');
+    if (ytLink) ytLink.appendChild(reportBtn);
+  }
+
   // TL;DR Summary Card
   const d = a.dashboard;
   document.getElementById('tldr-card').innerHTML = `
