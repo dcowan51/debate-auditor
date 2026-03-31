@@ -969,6 +969,31 @@ footer {
   letter-spacing: 0.06em;
 }
 
+/* ===== MEDIA + SUMMARY ROW (side-by-side video + TL;DR) ===== */
+.media-summary-row {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 20px;
+  align-items: start;
+  margin-top: 16px;
+}
+
+.media-col {
+  min-width: 0;
+}
+
+.summary-col {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+}
+
+.summary-col .tldr-card {
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 0;
+}
+
 /* ===== SEARCH RESULTS ===== */
 .search-results {
   position: absolute;
@@ -1424,6 +1449,8 @@ footer {
   .analysis-header { padding: 32px 16px 16px; }
   .analysis-header h1 { font-size: 1.3rem; }
   .analysis-meta-row { gap: 12px; font-size: 0.8rem; }
+  .media-summary-row { grid-template-columns: 1fr; }
+  .summary-col .tldr-card { grid-template-columns: repeat(2, 1fr); }
 
   /* --- Tabs --- */
   .tabs-container { padding: 0 16px 48px; }
