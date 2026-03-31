@@ -1,0 +1,172 @@
+{
+  "id": "inspiring-philosophy-paul-conversion",
+  "creatorId": "inspiring-philosophy",
+  "creatorName": "InspiringPhilosophy (Michael Jones)",
+  "channel": "@InspiringPhilosophy",
+  "videoTitle": "Paul's Conversion Story: Contradiction #32",
+  "videoUrl": "",
+  "datePublished": "2023-08-25",
+  "dateAnalyzed": "2026-03-31",
+  "sessionNumber": 3,
+  "analyzedRange": "0:00–8:09",
+  "reportFile": "InspiringPhilosophy_Paul_Conversion_Story_Debate_Audit.md",
+  "thesis": "The three accounts of Paul's conversion (Acts 9, 22, 26) are not contradictory but reflect the ancient literary convention of 'functional redundancy' — repetition with meaningful variation.",
+  "dashboard": {
+    "sessionScore": 64,
+    "cumulativeScore": 73,
+    "cumulativeSessions": 3,
+    "trueClaims": 14,
+    "falseMisleading": 0,
+    "disputed": 6,
+    "totalChecked": 22,
+    "confidence": "High",
+    "verdict": "Caution",
+    "stratagems": 3,
+    "weaselWords": 1,
+    "errorImpact": 0
+  },
+  "steelman": "The speaker presents a coherent, evidence-informed case that the three accounts of Paul's conversion reflect an ancient literary convention of meaningful variation rather than textual corruption or authorial error. This view is held by major scholars (Witherington, Licona, N.T. Wright) and finds support in the study of Greco-Roman biography. Even where specific scholarly attributions lack independent verification, the underlying argument from classical analogy is sound.",
+  "falseClaims": [],
+  "stratagems": [
+    {
+      "number": 2,
+      "name": "Homonymy / Hidden Extension",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "N.T. Wright states that differences in Paul's companion's experiences are explained by Luke's following Hellenistic Convention, where variation in narrative provides interest.",
+          "timestamp": "3:37",
+          "explanation": "Once functional redundancy is introduced, it becomes the dominant interpretive framework, and alternative explanations (multiple independent sources, authorial carelessness, textual transmission errors) are not seriously entertained."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "name": "Induction with Concealed Counterexamples",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "If Luke intended understanding he did not explicitly state it.",
+          "timestamp": "2:00",
+          "explanation": "Presents Ben Witherington's genitive/accusative distinction as preferred, then briefly concedes Dan Wallace's counter-claim that the grammatical argument is inconclusive. Resolves the tension too quickly when this grammatical debate remains genuinely contested among scholars."
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "name": "Argumentum ad Verecundiam (Appeal to Authority)",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "Michael Licona notes Plutarch often varied the details...",
+          "timestamp": "4:08",
+          "explanation": "Cites Licona's use of Plutarch variations as precedent, but the specific examples (Brutus/Anthony killing Herencius; Sartorius/Pompey statement timing) are not independently verified. Reliance on Licona's authority is circular — if the Plutarch examples are inaccurate, the analogy weakens."
+        }
+      ]
+    }
+  ],
+  "scholarlySplits": [
+    {
+      "claim": "Does the genitive/accusative distinction in akouō (Acts 9:7 vs. 22:9) resolve the hearing discrepancy?",
+      "nature": "Witherington argues yes; Wallace argues the argument is inconclusive. Roughly split, with slight edge to skeptics of the grammatical distinction.",
+      "timestamp": "2:00"
+    },
+    {
+      "claim": "Does 'functional redundancy' adequately explain the variations in Paul's conversion accounts?",
+      "nature": "Witherup, Licona, Wright argue yes. Critics like Ehrman argue it explains the fact of variation but not why Luke chose these particular variations if full clarity was the goal.",
+      "timestamp": "3:37"
+    },
+    {
+      "claim": "Are the three accounts historical records or literary paraphrases?",
+      "nature": "Evangelical/moderate scholarship: paraphrases respecting historical events. Critical scholarship: contradictions suggest varying sources or later theologization.",
+      "timestamp": "0:38"
+    }
+  ],
+  "trueClaims": [
+    "The three accounts of Paul's conversion appear in Acts 9, 22, and 26 — textual fact confirmed",
+    "Acts 9 states the men heard a voice but saw no person — Acts 9:7 confirmed",
+    "Acts 22 indicates the men saw light but didn't hear/understand the voice — Acts 22:9 confirmed",
+    "Acts 26:14 states 'we had all fallen to the ground' — explicitly confirmed",
+    "The genitive/accusative distinction in akouō is a recognized scholarly argument — documented in multiple commentaries",
+    "Dan Wallace critiques the genitive/accusative argument as inconclusive — well-documented",
+    "Functional redundancy is a real narrative technique in ancient literature — Witherup's 1992 peer-reviewed article",
+    "Peter's vision is retold with variations in Acts 10 and 11 — textually confirmed",
+    "Ancient authors (like Plutarch) varied narrative details in retelling stories — established in classical scholarship",
+    "Hellenistic historians and biographers employed variation as a compositional device — standard practice",
+    "Luke-Acts shows variations in repeated narratives — textually documented",
+    "Multiple authoritative scholars (Licona, Witherington, Wright) defend the consistency of the accounts",
+    "The Ananias figure appears in Acts 22 but not in Acts 26's account of Paul's commission — confirmed",
+    "Ancient authors including Luke operated within rhetorical traditions — mainstream scholarship"
+  ],
+  "youtubeFlags": [
+    {
+      "type": "Title Accuracy",
+      "severity": "info",
+      "text": "The title frames the three accounts as a 'contradiction' but the video argues they are not contradictory. Somewhat clickbaiting but consistent with the channel's series addressing alleged biblical contradictions. Content itself refutes the title's implication."
+    },
+    {
+      "type": "Implied Claims",
+      "severity": "info",
+      "text": "Implies functional redundancy is the standard scholarly explanation. It is gaining traction in evangelical and moderate scholarship, though not universal. Greco-Roman literary conventions as analogy to biblical narrative is mainstream classical scholarship."
+    },
+    {
+      "type": "Monetization",
+      "severity": "info",
+      "text": "No red flags for misleading monetization-driven claims. Standard educational YouTube content."
+    }
+  ],
+  "weightedAnalysis": {
+    "categories": [
+      {
+        "name": "Core",
+        "claims": 3,
+        "weight": 3,
+        "trueWeighted": 9,
+        "falseWeighted": 0,
+        "disputedWeighted": 0
+      },
+      {
+        "name": "Support",
+        "claims": 5,
+        "weight": 2,
+        "trueWeighted": 8,
+        "falseWeighted": 0,
+        "disputedWeighted": 0
+      },
+      {
+        "name": "Background",
+        "claims": 4,
+        "weight": 1,
+        "trueWeighted": 3,
+        "falseWeighted": 0,
+        "disputedWeighted": 0
+      }
+    ],
+    "errorImpact": 0,
+    "interpretation": "0% error rate. No false claims detected. Unverified specifics are present but do not constitute false claims. The speaker's core thesis is substantially well-grounded in mainstream scholarship."
+  },
+  "allClaims": [
+    { "num": 1, "text": "The three accounts of Paul's conversion appear in Acts 9, 22, and 26; one narrated by Luke, two are Paul's own speeches.", "timestamp": "0:00", "verdict": "true" },
+    { "num": 2, "text": "The three accounts contain differences: Acts 9 men heard voice but saw no one; Acts 22 men saw light but didn't hear voice; Acts 26 men fell to ground.", "timestamp": "0:16", "verdict": "true" },
+    { "num": 3, "text": "Distinguishing single-author variations from multi-author contradictions is important for evaluating reliability.", "timestamp": "0:38", "verdict": "disputed" },
+    { "num": 4, "text": "Acts 9:7 says 'the men heard a voice but didn't see a person speaking'; later accounts say they saw a light but didn't see Jesus in it.", "timestamp": "1:03", "verdict": "true" },
+    { "num": 5, "text": "The Greek word histēmi (used in Acts 9:7) is frequently used in Luke-Acts to refer to being stationary, fixed, or present.", "timestamp": "1:20", "verdict": "true" },
+    { "num": 6, "text": "Mike Licona claims: 'of the 61 occurrences of histami in Luke & Acts, 16 refer to being stopped in a stationary position.'", "timestamp": "1:28", "verdict": "disputed" },
+    { "num": 7, "text": "Paul uses a Greek verb (Acts 22:9) with a Semitic range where it can refer to both 'hearing' or 'understanding.'", "timestamp": "2:00", "verdict": "true" },
+    { "num": 8, "text": "Ben Witherington states: 'the verb with the accusative refers to both hearing and understanding something.'", "timestamp": "2:08", "verdict": "true" },
+    { "num": 9, "text": "In Acts 22:9, the grammatical structure (accusative) could mean the men did not understand the voice.", "timestamp": "2:17", "verdict": "true" },
+    { "num": 10, "text": "Dan Wallace notes there are many examples where akouō + accusative refers to merely hearing, not necessarily understanding.", "timestamp": "2:55", "verdict": "true" },
+    { "num": 11, "text": "Luke may have intended 'understanding' through his grammar, but this is not explicitly stated; the grammar permits multiple interpretations.", "timestamp": "3:20", "verdict": "true" },
+    { "num": 12, "text": "N.T. Wright states that differences are explained by Luke's following Hellenistic convention, where variation provides interest.", "timestamp": "3:37", "verdict": "disputed" },
+    { "num": 13, "text": "Ancient authors were expected to create variation when repeating stories; variation was not intended to be untruthful.", "timestamp": "3:52", "verdict": "true" },
+    { "num": 14, "text": "Licona notes Plutarch varies details: in Life of Brutus, Anthony retaliated by killing Herencius; in Life of Anthony, Anthony orders others to kill Herencius.", "timestamp": "4:08", "verdict": "disputed" },
+    { "num": 15, "text": "In Life of Sartorius, Sartorius makes a sarcastic statement after a battle; in Life of Pompey, the statement is made before the battle.", "timestamp": "4:27", "verdict": "disputed" },
+    { "num": 16, "text": "Ronald Witherup highlights variation in Peter's vision accounts in Acts 10-11, showing functional redundancy.", "timestamp": "4:35", "verdict": "true" },
+    { "num": 17, "text": "'Functional redundancy' is a narrative technique of repetition and variation serving as counterbalance to ensure full reception of the message.", "timestamp": "4:52", "verdict": "true" },
+    { "num": 18, "text": "Authors would tell the same story in varying ways to give a more complete picture.", "timestamp": "5:00", "verdict": "true" },
+    { "num": 19, "text": "Both accounts utilize techniques associated with functional redundancy: addition, truncation, change of order, and substitution.", "timestamp": "5:24", "verdict": "true" },
+    { "num": 20, "text": "E.P. Sanders says: 'the author of Luke & Acts avoided precise repetition... he disliked repetition like other ancient authors.'", "timestamp": "7:01", "verdict": "disputed" },
+    { "num": 21, "text": "Comparing Acts 22 and 26, the commission of Ananias in chapter 22 is said to be given by Christ; in chapter 26, the commission is from Jesus directly.", "timestamp": "7:32", "verdict": "true" },
+    { "num": 22, "text": "Luke and Paul exercised literary freedom with material, arranging it to get the desired point across, reflecting their saturation with rhetoric.", "timestamp": "8:02", "verdict": "true" }
+  ]
+}

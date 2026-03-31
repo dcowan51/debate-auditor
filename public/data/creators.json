@@ -406,28 +406,34 @@
       "Council of Nicaea",
       "Apologetics",
       "Early Christianity",
-      "Trinitarian Theology"
+      "Pauline Chronology",
+      "Biblical Contradictions"
     ],
-    "sessions": 1,
-    "totalClaims": 30,
-    "trueClaims": 26,
-    "cumulativeScore": 87,
-    "verdict": "Reliable",
+    "sessions": 3,
+    "totalClaims": 80,
+    "trueClaims": 58,
+    "cumulativeScore": 73,
+    "verdict": "Caution",
     "corePositions": [
       "Christ's divinity was believed before Nicaea",
       "Constantine did not force doctrine on the church",
       "Arians gained political power post-Nicaea",
-      "Popular skeptical narrative about Nicaea is a myth"
+      "Popular skeptical narrative about Nicaea is a myth",
+      "Paul's Damascus account is historically defensible",
+      "Acts' three conversion accounts reflect 'functional redundancy,' not contradiction"
     ],
     "notablePatterns": [
       "Strong on broad historical narrative; minor imprecisions on background details (dates, figures).",
-      "Overstates Constantine's neutrality and the council's scope.",
-      "Tendency to simplify theological complexity.",
+      "Tendency to present minority scholarly views (e.g., Campbell's Damascus theory) as more mainstream than consensus warrants.",
+      "Repeated use of 'plausible' without quantifying probability against alternatives.",
       "Dismissive framing of opposing views ('fable,' 'myth,' 'fairy tale').",
-      "No sources cited in video — unusual for historical claims of this specificity."
+      "Acknowledges scholarly counterarguments fairly when directly engaged.",
+      "Cumulative trajectory: Reliable (87%) → Caution (64%) → Caution (64%). Cumulative: 73%."
     ],
     "analyses": [
-      "inspiring-philosophy-nicaea"
+      "inspiring-philosophy-nicaea",
+      "inspiring-philosophy-damascus",
+      "inspiring-philosophy-paul-conversion"
     ]
   }
 ]
