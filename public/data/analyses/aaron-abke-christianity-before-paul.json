@@ -1,0 +1,284 @@
+{
+  "id": "aaron-abke-christianity-before-paul",
+  "creatorId": "aaron-abke",
+  "creatorName": "Aaron Abke",
+  "channel": "@AaronAbke",
+  "videoTitle": "Christianity Before Paul: The Essene Origins of the Jesus Movement",
+  "videoUrl": "https://www.academia.edu/145323369/Christianity_Before_Paul_Aaron_Abke_",
+  "contentType": "paper",
+  "datePublished": "2025-11-01",
+  "dateAnalyzed": "2026-03-31",
+  "sessionNumber": 6,
+  "analyzedRange": "Full paper (20 pages, §Introduction through §Anti-Sacrificial Theology)",
+  "reportFile": "Aaron_Abke_ChristianityBeforePaul_Debate_Audit.md",
+  "thesis": "The Jesus movement originated from Essene-type Judaism and shares four distinctive practices (atonement baptism, communal poverty, anti-sacrifice theology, vegetarianism) found exclusively in Essene-type communities; Paul's later Hellenization distorted this original Nazarene Christianity.",
+  "dashboard": {
+    "sessionScore": 63,
+    "cumulativeScore": 50,
+    "cumulativeSessions": 6,
+    "trueClaims": 20,
+    "falseMisleading": 4,
+    "disputed": 8,
+    "totalChecked": 32,
+    "confidence": "Medium",
+    "verdict": "Caution",
+    "stratagems": 5,
+    "weaselWords": 5,
+    "errorImpact": 37
+  },
+  "steelman": "The Essene-origin thesis has genuine scholarly backing. Parallels between Qumran and early Christianity — Isaiah 40:3, communal property structures, atonement baptism theology, anti-sacrifice sentiment — are noted by mainstream scholars including Frank Moore Cross, James VanderKam, and John Meier. The historical phylogeny framework is legitimate in religious studies. The paper is significantly more careful than Abke's video content and several evidentiary building blocks are sound. The Ebionim self-designation parallel and the Isaiah 40:3 double-application are among the more compelling connections in the scholarly literature.",
+  "falseClaims": [
+    {
+      "claim": "Four practices (atonement baptism, communal poverty, anti-sacrifice, vegetarianism) are shared 'exclusively' by Essene-type Judaism and the early Jesus movement",
+      "rating": "Likely False · High Confidence",
+      "confidence": "High",
+      "timestamp": "p. 8",
+      "evidence": "Opposition to animal sacrifice appears explicitly in the Hebrew Prophets (Isaiah 1:11–17; Hosea 6:6; Amos 5:21–24; Jeremiah 7:21–23) — texts shared across all Jewish groups. Abke himself cites these prophetic passages in this same paper, then claims the stance is exclusive to Essenes — an internal contradiction. Vegetarianism is attested among the Therapeutae (Philo, On the Contemplative Life). Ritual immersion for sin was widespread across Second Temple Judaism.",
+      "settle": "A systematic comparative study of all known Second Temple Jewish groups specifically ruling out each practice as present only in Essene-type communities.",
+      "sources": [
+        {
+          "label": "Sanders, E.P. — Judaism: Practice and Belief 63 BCE–66 CE",
+          "url": "https://www.scmpress.co.uk/"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "John the Baptist's 'locusts' (ἀκρίδες) were carob pods, not insects",
+      "rating": "Likely False · High Confidence",
+      "confidence": "High",
+      "timestamp": "p. 11",
+      "evidence": "The Greek ἀκρίδες (akrides) in Mark 1:6 and Matthew 3:4 is the standard word for locusts (insects), appearing in Leviticus 11:22 where locusts are listed as clean food. BDAG and Liddell-Scott give 'locust' as the primary meaning. R.T. France (NIGTC) and most modern commentators read it as insects. The carob interpretation is a motivated minority reading promoted by scholars sympathetic to the Essene hypothesis. Presented without flagging the debate.",
+      "settle": "Review of BDAG entry for ἀκρίς; France's NIGTC commentary on Mark 1:6; LXX usage in Leviticus 11:22.",
+      "sources": [],
+      "category": "Support"
+    },
+    {
+      "claim": "Anti-sacrificial theology was 'shared by no other known Jewish sectarian group in history'",
+      "rating": "Likely False · High Confidence",
+      "confidence": "High",
+      "timestamp": "p. 19",
+      "evidence": "The entire Hebrew prophetic tradition contains identical anti-sacrifice rhetoric (Isaiah, Amos, Hosea, Micah, Jeremiah) — texts read by all Jewish groups, not just Essenes. Philo's Therapeutae abstain from animal sacrifice. Philo's own allegorizing tradition spiritualizes sacrifice. Abke's own paper quotes these prophetic passages to corroborate the Essene position, then claims anti-sacrifice is exclusive to Essenes — a direct internal contradiction.",
+      "settle": "Review of Philo, On the Contemplative Life §§73–74; E.P. Sanders, Judaism: Practice and Belief.",
+      "sources": [],
+      "category": "Core"
+    },
+    {
+      "claim": "John P. Meier endorsed the claim that the Jerusalem community 'modeled its economic order on earlier Essene precedents'",
+      "rating": "Misleading · Medium-High Confidence",
+      "confidence": "Medium-High",
+      "timestamp": "p. 14",
+      "evidence": "Abke groups Meier with Eisenman and Tabor as endorsing this thesis. Meier in A Marginal Jew (Vol. 2, 1994) notes structural parallels between Essene practice and early Christianity, but explicitly avoids strong causal or genealogical claims. He does not conclude the Jerusalem church 'modeled itself' on Essene precedents. Grouping him with Eisenman (maximalist, minority-fringe) misrepresents Meier's actual position and creates a false impression of scholarly consensus.",
+      "settle": "Direct review of Meier, A Marginal Jew Vol. 2, chapters on John the Baptist and Jewish sectarian background.",
+      "sources": [],
+      "category": "Support"
+    }
+  ],
+  "stratagems": [
+    {
+      "number": 11,
+      "name": "Proof by Induction",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "These four particular practices are shared exclusively by the Essene-type of Judaism and the early Jesus movement... This striking fact warrants further investigation within the framework of historical phylogeny and sectarian lineage analysis.",
+          "timestamp": "p. 8",
+          "explanation": "After identifying four parallels, treats their co-occurrence as sufficient to establish Essene genealogical lineage. Shared practices in a small interconnected geographic community may reflect a common prophetic tradition rather than direct descent. The exclusivity claim is also false, undermining the induction's premises."
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "name": "Selective Appeal to Authority",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "One of the most influential contemporary scholars contributing to the theory that early Christianity emerged from an Essene-type stream... is Dr. James D. Tabor.",
+          "timestamp": "p. 7",
+          "explanation": "Tabor and Eisenman presented as authoritative without noting they represent a significant minority view. Major critical voices — E.P. Sanders, Larry Hurtado, N.T. Wright, John Collins — who are skeptical of strong Essene-Jesus identification are absent entirely."
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "name": "Selective Evidence",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "The Gospels consistently portray Jesus as both challenging the Temple's authority and predicting its destruction.",
+          "timestamp": "Throughout",
+          "explanation": "Systematically omits disconfirming evidence: Acts 2–5 depicts disciples worshipping daily at the Temple (Acts 2:46; 3:1); Jesus' Temple cleansing targets commercial exploitation, not sacrifice (Matt 21:13 cites Jer 7:11 — 'den of robbers'); Essene oath-taking conflicts with Jesus' teaching (Matt 5:34–37); the DSS never mention Jesus, John, or any NT figure."
+        }
+      ]
+    },
+    {
+      "number": 1,
+      "name": "Extension (Circular Framing)",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "This study seeks to recover... the pre-Pauline form of Christianity that flourished within first-century Judea before its later Hellenization through Pauline theology.",
+          "timestamp": "p. 4",
+          "explanation": "Begins from the contested assumption that there was a coherent, documentable 'pre-Pauline Christianity' that was subsequently suppressed — a claim that itself requires the very argument the paper is trying to make."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Equivocation on 'Essene-type'",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "...what some scholars call 'Essene-type Judaism', as the closest cultural and theological milieu from which the Jesus movement may have emerged.",
+          "timestamp": "p. 5",
+          "explanation": "The term 'Essene-type Judaism' is deliberately expansive — Matthew Black's definition encompasses virtually any anti-Jerusalem, anti-Pharisaic reform movement. This broadness makes the thesis difficult to falsify: any resemblance to any reform-minded Second Temple movement counts as 'Essene-type influence.'"
+        }
+      ]
+    }
+  ],
+  "scholarlySplits": [
+    {
+      "claim": "Jesus movement as Essene lineage (historical phylogeny thesis)",
+      "nature": "Minority position (Tabor, Eisenman) vs. mainstream scholarly caution (Sanders, Hurtado, VanderKam). Major parallels acknowledged broadly; causal/genealogical connection is contested.",
+      "timestamp": "p. 3"
+    },
+    {
+      "claim": "Cave 4 manuscripts (4QS) dated to ca. 150 BCE",
+      "nature": "On the early end of the scholarly range; many place them 100–75 BCE (Cross, Tov). Paleographic dating inherently carries a margin of error.",
+      "timestamp": "p. 6"
+    },
+    {
+      "claim": "4Q414 ('Baptismal Liturgy') describes atonement and sanctification rite",
+      "nature": "The text is fragmentary and partially reconstructed. Abke's quoted passage is from García Martínez & Tigchelaar's scholarly edition — legitimate — but the reconstruction is partial and readings are debated.",
+      "timestamp": "p. 10"
+    },
+    {
+      "claim": "Jerome's reading of 'remember the poor' (Gal 2:10) as community self-designation",
+      "nature": "Jerome's minority view vs. mainstream reading as referring to economically poor persons. Abke presents Jerome without noting this is a minority exegetical position.",
+      "timestamp": "p. 15"
+    },
+    {
+      "claim": "Paul's Jerusalem offering was likely rejected",
+      "nature": "Speculative historical reconstruction. Genuine ongoing debate (Roetzel, Dunn) but no direct textual evidence of rejection. Luke's 'silence' is an argument from absence.",
+      "timestamp": "p. 16"
+    },
+    {
+      "claim": "G. Uhlhorn Religious Dictionary: Ebionites were initially 'a common name for all Christians'",
+      "nature": "19th-century German Protestant reference work, unverifiable in available sources. Citation cannot be independently confirmed without library access to this specific edition.",
+      "timestamp": "p. 16"
+    },
+    {
+      "claim": "'Netser' (Hebrew: branch/shoot) is the Hebrew root of 'Nazarene'",
+      "nature": "One of several competing theories. Matthew 2:23 wordplay on Isaiah 11:1 is noted but mainstream scholarship more commonly derives 'Nazarene' from the town of Nazareth — a geographic gentillic consistent with all four Gospels and supported by BDAG.",
+      "timestamp": "p. 18"
+    },
+    {
+      "claim": "Eusebius, Proof of the Gospel 3.3: Jesus opposed animal sacrifice",
+      "nature": "Eusebius (4th century) is a secondary source citing earlier material. His reliability as evidence for Jesus's actual teachings is contested. Presented without noting the late date and polemical context.",
+      "timestamp": "p. 20"
+    }
+  ],
+  "trueClaims": [
+    "Paul's epistles (mid-1st century CE) constitute the earliest extant Christian writings — scholarly consensus",
+    "The earliest followers of Jesus conceived themselves as devout Jews, not founders of a new religion — mainstream position",
+    "Josephus identifies Pharisees, Sadducees, Essenes, and a fourth (Zealot-linked) movement (Jewish War 2.119–166; Antiquities 18.11–25) — verified",
+    "The Gospels consistently depict Jesus in conflict with Pharisees and Sadducees — textually confirmed",
+    "Josephus reports the Essenes number about four thousand (Jewish War 2.160–161) — verified",
+    "Qumran settlement accommodated no more than 150–200 residents at one time — archaeological consensus",
+    "The Dead Sea Scrolls reflect multiple related Essene or Zadokite groups, not a single sect — confirmed",
+    "Over 900 manuscripts discovered at Qumran; the majority are biblical or parabiblical — confirmed",
+    "Qumran underwent destruction from an earthquake around 31 BCE — confirmed",
+    "The Cave 1 copy (1QS) replaced 'ha-Rabbim' with 'Sons of Zadok' in key passages (Tov 2012; Collins 2010) — verified",
+    "1QS 3.6–9 declares cleansing from sin through spirit of holiness, not fleshly offerings — verified",
+    "Isaiah 40:3 was applied by the evangelists to John the Baptist AND by 1QS 8.13–14 to the Essene community — one of the most documented parallels in scholarship",
+    "Philo, Every Good Man Is Free 12.85–86: Essenes held all property in common — verified",
+    "1QS 1.11–13 and 5.1–3: members required to surrender all possessions to the community — verified",
+    "Acts 2:44–45; 4:32–35: Jerusalem community shared all in common — textually confirmed",
+    "Qumran's 'Ebionim' self-designation (4Q171, 4Q434, 1QM) means 'the Poor' — documented textual fact",
+    "Robert Eisenman: Ebionites viewed James highly and regarded Paul as 'the enemy' — accurate attribution to Eisenman's position",
+    "1QS 9.5–6: Qumran community understood 'sacrifice of the lips' as replacement for animal offerings — verified",
+    "Philo, Every Good Man Is Free 12.79: Essenes 'do not bring sacrifices of animals' — verified",
+    "Hebrews 10:4; 13:15: blood of bulls and goats cannot take away sins — accurate citation"
+  ],
+  "youtubeFlags": [
+    {
+      "type": "Title / Framing Accuracy",
+      "severity": "warning",
+      "text": "The title 'Christianity Before Paul' implies a recoverable, discrete Christianity prior to Paul that has been suppressed. This framing is itself contested: Paul's letters predate the written Gospels, making his the earliest Christian theological voice we actually possess. The phrase 'before Paul' installs as premise what the paper is trying to prove."
+    },
+    {
+      "type": "Academic Credential Flag",
+      "severity": "warning",
+      "text": "Abke has described this as a master's class submission, but the title page lists no institution, department, course number, or professor — standard requirements for any legitimate graduate submission. The paper meets 0 of 11 standard graduate Religious Studies submission requirements beyond basic prose formatting. It is more accurately described as a self-published position paper written in an academic register."
+    },
+    {
+      "type": "Platform / Monetization Context",
+      "severity": "info",
+      "text": "This paper appears designed to function as academic scaffolding for Abke's YouTube content — particularly his previously analyzed 'Bait & Switch' and 'James Rebuked Paul' videos. Released November 2025, it retroactively supplies citation infrastructure for arguments made rhetorically in those videos, presented in an academic register."
+    }
+  ],
+  "weightedAnalysis": {
+    "categories": [
+      {
+        "name": "Core",
+        "claims": 8,
+        "weight": 3,
+        "trueWeighted": 12,
+        "falseWeighted": 6,
+        "disputedWeighted": 6
+      },
+      {
+        "name": "Support",
+        "claims": 14,
+        "weight": 2,
+        "trueWeighted": 16,
+        "falseWeighted": 4,
+        "disputedWeighted": 4
+      },
+      {
+        "name": "Background",
+        "claims": 10,
+        "weight": 1,
+        "trueWeighted": 8,
+        "falseWeighted": 0,
+        "disputedWeighted": 2
+      }
+    ],
+    "errorImpact": 37,
+    "interpretation": "Error concentration falls primarily in interpretive/theological claims (the exclusivity argument, Meier misrepresentation, carob-locust reading). Historical and textual claims are mostly accurate. Pattern consistent with prior sessions: accurate on background facts, highest error load on thesis-level assertions."
+  },
+  "allClaims": [
+    { "num": 1, "text": "Paul's epistles (mid-1st century CE) constitute the earliest extant Christian writings.", "timestamp": "§Intro, p.2", "verdict": "true" },
+    { "num": 2, "text": "The earliest followers of Jesus conceived themselves as devout Jews, not founders of a new religion.", "timestamp": "§Intro, p.2", "verdict": "true" },
+    { "num": 3, "text": "The early Nazarene movement rejected animal sacrifice as part of its core identity.", "timestamp": "§Intro, p.2", "verdict": "disputed" },
+    { "num": 4, "text": "Four practices shared 'exclusively' by Essene-type Judaism and early Jesus movement: atonement baptism, communal poverty, anti-sacrifice, vegetarianism.", "timestamp": "§Essenes, p.8", "verdict": "false" },
+    { "num": 5, "text": "Josephus identifies Pharisees, Sadducees, Essenes, and a fourth (Zealot-linked) movement (Jewish War 2.119–166; Antiquities 18.11–25).", "timestamp": "§Essenes, p.4", "verdict": "true" },
+    { "num": 6, "text": "The Gospels consistently depict Jesus in conflict with Pharisees and Sadducees.", "timestamp": "§Essenes, p.4", "verdict": "true" },
+    { "num": 7, "text": "Josephus reports the Essenes number about four thousand (Jewish War 2.160–161).", "timestamp": "§Essenes, p.5", "verdict": "true" },
+    { "num": 8, "text": "Qumran settlement accommodated no more than 150–200 residents at one time.", "timestamp": "§Essenes, p.5", "verdict": "true" },
+    { "num": 9, "text": "The Dead Sea Scrolls reflect multiple related Essene or Zadokite groups, not a single sect.", "timestamp": "§DSS, p.6", "verdict": "true" },
+    { "num": 10, "text": "Over 900 manuscripts discovered at Qumran; the majority are biblical or parabiblical.", "timestamp": "§DSS, p.7", "verdict": "true" },
+    { "num": 11, "text": "Qumran underwent destruction from an earthquake around 31 BCE.", "timestamp": "§DSS, p.6", "verdict": "true" },
+    { "num": 12, "text": "Cave 4 manuscripts (4QS) dated paleographically to ca. 150 BCE.", "timestamp": "§DSS, p.6", "verdict": "disputed" },
+    { "num": 13, "text": "The Cave 1 copy (1QS) replaced 'ha-Rabbim' with 'Sons of Zadok' in key passages, reflecting Zadokite consolidation.", "timestamp": "§DSS, p.6", "verdict": "true" },
+    { "num": 14, "text": "1QS 3.6–9 declares cleansing from sin through spirit of holiness, not fleshly offerings.", "timestamp": "§Baptism, p.9", "verdict": "true" },
+    { "num": 15, "text": "4Q414 ('Baptismal Liturgy') describes a rite of atonement and sanctification.", "timestamp": "§Baptism, p.10", "verdict": "disputed" },
+    { "num": 16, "text": "Isaiah 40:3 was applied by the evangelists to John the Baptist AND by 1QS 8.13–14 to the Essene community.", "timestamp": "§John Baptist, p.12", "verdict": "true" },
+    { "num": 17, "text": "John the Baptist's 'diet of locusts' (Mark 1:6; Matt 3:4) refers to carob pods, not insects.", "timestamp": "§John Baptist, p.11", "verdict": "false" },
+    { "num": 18, "text": "Philo, Every Good Man Is Free 12.85–86: Essenes held all property in common.", "timestamp": "§Poverty, p.13", "verdict": "true" },
+    { "num": 19, "text": "1QS 1.11–13 and 5.1–3: members required to surrender all possessions to the community.", "timestamp": "§Poverty, p.14", "verdict": "true" },
+    { "num": 20, "text": "Acts 2:44–45; 4:32–35: Jerusalem community shared all in common.", "timestamp": "§Poverty, p.14", "verdict": "true" },
+    { "num": 21, "text": "John P. Meier endorsed the claim that the Jerusalem community 'modeled its economic order on earlier Essene precedents.'", "timestamp": "§Poverty, p.14", "verdict": "misleading" },
+    { "num": 22, "text": "Qumran's 'Ebionim' self-designation (4Q171, 4Q434, 1QM) means 'the Poor.'", "timestamp": "§Poor Ones, p.15", "verdict": "true" },
+    { "num": 23, "text": "Jerome, Commentary on Galatians: Paul's 'remember the poor' (Gal 2:10) refers to the Jerusalem community's self-designation.", "timestamp": "§Poor Ones, p.15", "verdict": "disputed" },
+    { "num": 24, "text": "Paul's offering for Jerusalem was likely rejected ('Luke's aching silence').", "timestamp": "§Poor Ones, p.16", "verdict": "disputed" },
+    { "num": 25, "text": "Robert Eisenman: Ebionites viewed James highly and regarded Paul as 'the enemy' or Anti-Christ.", "timestamp": "§Poor Ones, p.16", "verdict": "true" },
+    { "num": 26, "text": "G. Uhlhorn Religious Dictionary (3rd ed., vol. 2, p. 684): Ebionites were initially 'a common name for all Christians.'", "timestamp": "§Poor Ones, p.16", "verdict": "disputed" },
+    { "num": 27, "text": "'Netser' (Hebrew: branch/shoot) is the Hebrew root word for 'Nazarene.'", "timestamp": "§Branch, p.18", "verdict": "disputed" },
+    { "num": 28, "text": "Anti-sacrificial theology was 'shared by no other known Jewish sectarian group in history.'", "timestamp": "§Anti-Sacrifice, p.19", "verdict": "false" },
+    { "num": 29, "text": "1QS 9.5–6: Qumran community understood 'sacrifice of the lips' as replacement for animal offerings.", "timestamp": "§Anti-Sacrifice, p.19", "verdict": "true" },
+    { "num": 30, "text": "Philo, Every Good Man Is Free 12.79: Essenes 'do not bring sacrifices of animals.'", "timestamp": "§Anti-Sacrifice, p.19", "verdict": "true" },
+    { "num": 31, "text": "Eusebius, Proof of the Gospel 3.3: Jesus opposed animal sacrifice.", "timestamp": "§Anti-Sacrifice, p.20", "verdict": "disputed" },
+    { "num": 32, "text": "Hebrews 10:4; 13:15: blood of bulls and goats cannot take away sins.", "timestamp": "§Anti-Sacrifice, p.20", "verdict": "true" }
+  ]
+}
