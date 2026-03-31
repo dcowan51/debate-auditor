@@ -712,7 +712,7 @@ async function renderVideosPage() {
       }
 
       return `
-        <a href="analysis.html?id=${a.id}" class="video-card" style="text-decoration:none;color:inherit">
+        <div class="video-card" onclick="window.location.href='analysis.html?id=${a.id}'" style="text-decoration:none;color:inherit">
           <div class="video-card-header">
             <div class="video-card-creator">
               <div class="video-card-avatar" style="background:${a._creator.avatarColor}">${a._creator.initials}</div>
@@ -752,7 +752,7 @@ async function renderVideosPage() {
           <div class="score-bar-track">
             <div class="score-bar-fill" style="width:${score}%;background:${color}"></div>
           </div>
-        </a>
+        </div>
       `;
     }).join('');
   }
