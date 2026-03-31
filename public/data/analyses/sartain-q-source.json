@@ -1,0 +1,266 @@
+{
+  "id": "sartain-q-source",
+  "creatorId": "christopher-sartain",
+  "creatorName": "Christopher Sartain",
+  "channel": "RE 600 | Seminar in Biblical Studies",
+  "videoTitle": "Christianity Before Paul: The Q Source and the Early Jesus Movement",
+  "videoUrl": "",
+  "contentType": "paper",
+  "datePublished": "2026-04-27",
+  "dateAnalyzed": "2026-03-31",
+  "sessionNumber": 1,
+  "analyzedRange": "Full paper, pp.1–19",
+  "reportFile": "Sartain_QSource_ChristianityBeforePaul_Debate_Audit.md",
+  "thesis": "Q represents the earliest and most authentic strand of Jesus's teaching, predating Paul's influence; Paul invented blood atonement doctrine and created a faith-based religion fundamentally different from what Jesus actually taught.",
+  "dashboard": {
+    "sessionScore": 57,
+    "cumulativeScore": 57,
+    "cumulativeSessions": 1,
+    "trueClaims": 12,
+    "falseMisleading": 3,
+    "disputed": 15,
+    "totalChecked": 30,
+    "confidence": "High",
+    "verdict": "Unreliable",
+    "stratagems": 6,
+    "weaselWords": 6,
+    "errorImpact": 19
+  },
+  "steelman": "If we grant Q's existence as a written document predating Mark (the dominant Two-Source hypothesis position), Kloppenborg's stratification model placing Stage 1 in a sapiential, non-apocalyptic tradition, and the Didache's preservation of pre-Pauline community practice, then there is a coherent case that a strand of early Jesus tradition emphasized wisdom and works rather than atonement. The paper's genuine engagement with peer-reviewed Q scholarship (Kloppenborg, Koester, Wenham) and consistent Chicago footnote discipline meaningfully distinguish it from popular theology. The core observation — that Paul's letters rarely quote Jesus's wisdom sayings and emphasize crucifixion-atonement — is factually correct; the disputed question is interpretation, not data.",
+  "falseClaims": [
+    {
+      "claim": "Mark copied the Eucharist account nearly word for word from 1 Corinthians 11 (ca. 50 CE)",
+      "rating": "False · High Confidence",
+      "confidence": "High",
+      "timestamp": "p.7",
+      "evidence": "The verbal parallel between 1 Cor 11:23–25 and Mark 14:22–24 is acknowledged by mainstream NT scholars. However, direction of dependence is actively debated. Both texts may derive from independent pre-Pauline liturgical tradition. Paul's paralambanō formula (1 Cor 11:23; 15:3) signals received, not invented, tradition. Scholars including Bauckham, Dunn, and Jeremias argue for independent pre-Pauline eucharistic tradition.",
+      "settle": "A demonstrated terminus ante quem for the pre-Markan Passion narrative predating 1 Corinthians; or a clear literary dependency analysis ruling out independent liturgical tradition.",
+      "sources": [],
+      "category": "Support"
+    },
+    {
+      "claim": "No historical or textual evidence exists for a town called Nazaret or Nazareth during Jesus's lifetime",
+      "rating": "False · High Confidence",
+      "confidence": "High",
+      "timestamp": "p.8",
+      "evidence": "Directly contradicted by archaeology. Zvi Gal's 1992 survey identified Roman-period remains at the site. Ken Dark's Nazareth Archaeological Project (2006–2020) documented first-century CE domestic structures beneath the Sisters of Nazareth Convent, consistent with a small village. 'No historical or textual evidence' is a factual overclaim that does not engage current excavation reports.",
+      "settle": "The claim is effectively refuted by published excavation data. Engagement with Dark (2021) would be required to revive it.",
+      "sources": [],
+      "category": "Core"
+    },
+    {
+      "claim": "Paul intentionally chose not to emphasize Jesus's wisdom teachings because they contradicted his own theology",
+      "rating": "False · High Confidence",
+      "confidence": "High",
+      "timestamp": "p.13",
+      "evidence": "No evidence supports intentionality. Paul's letters focus on the crucified Christ, but this reflects theological emphasis, pastoral context, and audience — not demonstrated suppression. Paul's communities in Corinth were the very context where wisdom teachers existed and were not suppressed; Paul argued with them theologically (1 Cor 1–4). The parenthetical '(some would say hallucinatory)' introduces ridicule without citation.",
+      "settle": "A Pauline text explicitly referencing and rejecting Jesus's wisdom sayings. Absent that, intentionality is an inference projected onto a pattern.",
+      "sources": [],
+      "category": "Core"
+    }
+  ],
+  "stratagems": [
+    {
+      "number": 1,
+      "name": "Extension of Premises Beyond Natural Limits",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "The aim of this paper is to convincingly demonstrate that Q represents the earliest and most authentic strand of the Jesus movement prior to the Pauline strand that came to dominate modern Christianity.",
+          "timestamp": "pp.1–2",
+          "explanation": "Q's existence as a written document is the dominant but contested working hypothesis. The paper extends this hypothesis into a foundation for all subsequent claims — Q predating Mark, Q preserving 'authentic' teaching, Q representing the 'original' religion — without acknowledging that each step compounds the uncertainty of the previous one. By the time the paper reaches conclusions about Paul inventing Christianity, the argument stands several inferential layers removed from established evidence."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "name": "Petitio Principii / Circular Reasoning",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "one can only conclude that it must have been written prior to Mark, which was heavily influenced by Pauline soteriology and eschatology.",
+          "timestamp": "pp.7, 13",
+          "explanation": "Structurally circular: Q predates Mark because it lacks Pauline elements; Pauline elements in Mark are identified by comparison to Paul's letters; but whether Q predates Paul is precisely what the argument attempts to prove. Kloppenborg himself treats Q's stratification as a working hypothesis. The paper presents the conclusion as logical necessity without resolving the circularity."
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "name": "Appeal to Authority Rather Than Reason",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "John Kloppenborg argues convincingly that Q was in fact a written source employed by both Matthew and Luke…the only logical conclusion based upon all the available evidence is that Q existed in a written form.",
+          "timestamp": "pp.5–7, 12–13, 16–18",
+          "explanation": "Kloppenborg is repeatedly positioned as settling debates rather than advancing a position within an active scholarly conversation. The Farrer-Goodacre hypothesis receives approximately three sentences before Kloppenborg's conclusions are treated as definitive. Multiple contested claims — Q Stage 1 dating, Thomas-Q relationship, Q's eschatological character — are resolved by invoking Koester or Kloppenborg without engaging counter-arguments from equally credentialed scholars."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Extending Meaning Beyond Intended Sense",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "Paul states that he received the blood and body symbolism in the Eucharist by means of a revelation directly from Jesus…he simply invented it out of whole cloth based upon a purported private vision.",
+          "timestamp": "p.7",
+          "explanation": "1 Corinthians 11:23's phrase 'received from the Lord' uses paralambanō/paradidōmi — the same transmission vocabulary Paul employs in 1 Corinthians 15:3 for received communal tradition. This formula is standard in both Hellenistic and Jewish pedagogy for inherited tradition. The paper reads 'from the Lord' as a confession of private invention, a meaning the phrase does not require and the context does not support."
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "name": "Appeal to Attributed Motive",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "Paul intentionally chose not to emphasize Jesus's wisdom teachings because he knew those teachings completely contradicted his own visionary (some would say hallucinatory) post resurrection Christ.",
+          "timestamp": "p.13",
+          "explanation": "No direct evidence supports intentionality. The observable pattern — Paul rarely quotes Jesus's sayings — is extended to a psychological claim about deliberate suppression. The parenthetical '(some would say hallucinatory)' is editorializing that belongs in a blog post, not academic argumentation."
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "name": "Disparagement by Characterization",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "modern, mainstream Christianity is based on falsehoods invented by a self-appointed apostle who was more concerned with watering down Jesus's message to appease his Gentile converts than he was with preserving Jesus's genuine wisdom teachings.",
+          "timestamp": "p.2",
+          "explanation": "Characterizes Paul in evaluative language — 'self-appointed,' 'falsehoods,' 'watering down' — that exceeds what any of the cited evidence can support. Advocacy rhetoric in the framing section primes the reader to accept contested interpretations as self-evident conclusions throughout the paper."
+        }
+      ]
+    }
+  ],
+  "scholarlySplits": [
+    {
+      "claim": "Q exists as a written document",
+      "nature": "Source-critical methodology: majority Two-Source hypothesis vs. minority Farrer-Goodacre hypothesis (Luke used Matthew; Q never existed as a document). Paper presents Q as settled fact.",
+      "timestamp": "pp.5–7"
+    },
+    {
+      "claim": "Q predates Mark and Paul",
+      "nature": "Minority position (early pre-Markan Q) vs. majority (Q dated ~50–70 CE, contemporaneous with Paul). Most Q scholars place Q after Paul's earliest letters, not before.",
+      "timestamp": "pp.7, 13"
+    },
+    {
+      "claim": "Paul invented blood atonement doctrine",
+      "nature": "Minority (invention) vs. majority (development of received tradition). 1 Cor 15:3 uses paralambanō, the formula for received communal tradition. Pre-Pauline formulas in Rom 3:25 and 1 Cor 15:3–5 show signs of being inherited, not composed by Paul.",
+      "timestamp": "pp.1, 7"
+    },
+    {
+      "claim": "Nazareth did not exist during Jesus's lifetime",
+      "nature": "Fringe vs. mainstream. First-century CE domestic structures at Nazareth are now archaeologically attested (Dark 2006–2021). This is not a live scholarly debate; it is a refuted fringe position.",
+      "timestamp": "p.8"
+    },
+    {
+      "claim": "Nazoraios is sectarian, not a toponym",
+      "nature": "Minority (sectarian origin, Essene connection) vs. majority (toponym derived from Nazareth, with Nazoraios reflecting a dialectal form of Nazara).",
+      "timestamp": "pp.8–9"
+    },
+    {
+      "claim": "Didache is a pre-Pauline composition (~70 CE)",
+      "nature": "Minority (Milavec: 50–70 CE) vs. majority (Niederwimmer, Draper: 80–120 CE). Individual traditions in the Didache may be early, but the composition as a whole is post-Pauline by mainstream dating.",
+      "timestamp": "pp.7–8"
+    },
+    {
+      "claim": "Jesus and Paul represent two fundamentally different religions",
+      "nature": "Liberal/secular minority framework vs. majority position (theological diversity within developing Jewish-Christianity, with Paul representing one trajectory among several rather than a foreign imposition).",
+      "timestamp": "p.18"
+    }
+  ],
+  "trueClaims": [
+    "Q does not contain any information about the death and resurrection of Jesus — confirmed by definition from the Q reconstruction (double tradition absent in Mark)",
+    "All four canonical gospels were written at least 40 years after Jesus's crucifixion — confirmed; Mark ~70 CE, Matthew/Luke ~80–90 CE by mainstream scholarship",
+    "Matthew and Luke both used Mark as a primary source (Markan priority) — near-universal scholarly consensus",
+    "Q material appears in two distinct blocks in Luke (6:20–7:35; 9:57–13:34) — textbook Q scholarship confirmed",
+    "Matthew and Luke exhibit approximately 40% sequential agreement on Q material — standard figure in Q scholarship",
+    "The Didache contains no reference to Pauline blood atonement soteriology — factual observation about the document's content, confirmed",
+    "Matthew 2:23's 'He shall be called Nazoraios' fulfills no identifiable Old Testament prophecy — widely acknowledged in major commentaries (France, Keener)",
+    "Epiphanius (Panarion 29.1.3–7) states that the Nazarene sect predated Christ — the Panarion passage is genuine and accurately represented",
+    "Q was composed in three distinct literary stages (Kloppenborg) — confirmed; landmark contribution in The Formation of Q (2007)",
+    "The Gospel of Thomas shares approximately 40% of its verses in common with Q — confirmed per Koester's Ancient Christian Gospels (1990), accurately represented",
+    "Matthew 7:21 and 7:24–27 are attributed to Q — confirmed by IQP critical edition and Kloppenborg",
+    "Jesus was arrested and crucified primarily because of the Temple cleansing incident — mainstream scholarly position confirmed"
+  ],
+  "youtubeFlags": [
+    {
+      "type": "Title Accuracy",
+      "severity": "info",
+      "text": "Title accurately describes the paper's subject and primary evidentiary lens. No misleading framing in the title itself."
+    },
+    {
+      "type": "Academic Standards",
+      "severity": "warning",
+      "text": "Paper lacks institutional affiliation, named professor/instructor, formal abstract, and structured literature review — atypical for graduate-level work. Academic Standards Modifier of −8.5% applied, dropping adjusted score from 65% (Caution) to 56.5% (Unreliable). Chicago footnote discipline and genuine engagement with peer-reviewed sources distinguish this from popular theology."
+    },
+    {
+      "type": "Implied Claims",
+      "severity": "info",
+      "text": "Implies Q scholarship has conclusively settled Q's existence and early dating. Implies the Gospel of Thomas is a reliable witness to pre-Pauline Christianity. Implies Jesus's religion and Paul's religion are mutually exclusive — a framework that papers over significant theological diversity within both Q material and Pauline letters."
+    }
+  ],
+  "weightedAnalysis": {
+    "categories": [
+      {
+        "name": "Core",
+        "claims": 6,
+        "weight": 3,
+        "trueWeighted": 9,
+        "falseWeighted": 6,
+        "disputedWeighted": 0
+      },
+      {
+        "name": "Support",
+        "claims": 12,
+        "weight": 2,
+        "trueWeighted": 10,
+        "falseWeighted": 2,
+        "disputedWeighted": 0
+      },
+      {
+        "name": "Background",
+        "claims": 12,
+        "weight": 1,
+        "trueWeighted": 8,
+        "falseWeighted": 1,
+        "disputedWeighted": 0
+      }
+    ],
+    "errorImpact": 19,
+    "interpretation": "Base truth score 65% (12 true + 15 disputed × 0.5 / 30). Academic Standards Modifier −8.5% (4 FAIL, 4 PARTIAL, 1 UNVERIFIED from 12 graduate standards). Adjusted final score 56.5% — Unreliable. Three false claims carry disproportionate structural weight: the Nazareth nonexistence claim underpins the entire Nazoraios-as-sectarian argument (Claims 17–22); the Mark-copied-Paul claim supports the Q-predating-Mark argument; and Paul's intentional suppression is the paper's narrative climax."
+  },
+  "allClaims": [
+    { "num": 1, "text": "Blood atonement doctrine was invented by Paul; it did not come from Jesus or his direct disciples.", "timestamp": "p.1", "verdict": "disputed" },
+    { "num": 2, "text": "Paul taught a faith-based soteriology; Jesus taught a works-based soteriology.", "timestamp": "p.1", "verdict": "disputed" },
+    { "num": 3, "text": "Paul taught a future apocalyptic eschatology; Jesus taught a realized/participatory eschatology.", "timestamp": "p.1", "verdict": "disputed" },
+    { "num": 4, "text": "Q preserves the original, most authentic strand of Jesus's teaching.", "timestamp": "pp.1–2", "verdict": "disputed" },
+    { "num": 5, "text": "Q does not contain any information about the death and resurrection of Jesus.", "timestamp": "p.2", "verdict": "true" },
+    { "num": 6, "text": "All four canonical gospels were written at least 40 years after Jesus's crucifixion.", "timestamp": "p.3", "verdict": "true" },
+    { "num": 7, "text": "Matthew and Luke both used Mark as a primary source (Markan priority).", "timestamp": "p.3", "verdict": "true" },
+    { "num": 8, "text": "The Q material appears in two distinct blocks in Luke (6:20–7:35; 9:57–13:34).", "timestamp": "p.4", "verdict": "true" },
+    { "num": 9, "text": "Q was a written document, not merely an oral tradition.", "timestamp": "pp.6–7", "verdict": "disputed" },
+    { "num": 10, "text": "Matthew and Luke exhibit approximately 40% sequential agreement on Q material.", "timestamp": "p.6", "verdict": "true" },
+    { "num": 11, "text": "Mark copied the Eucharist account nearly word for word from 1 Corinthians 11 (ca. 50 CE).", "timestamp": "p.7", "verdict": "false" },
+    { "num": 12, "text": "1 Corinthians 11:23 shows Paul claimed to receive the Eucharist by direct revelation, not from Jesus's disciples.", "timestamp": "p.7", "verdict": "disputed" },
+    { "num": 13, "text": "The Didache dates to approximately 70 CE and is a pre-Pauline document.", "timestamp": "pp.7–8", "verdict": "disputed" },
+    { "num": 14, "text": "The Didache contains no reference to Pauline blood atonement soteriology.", "timestamp": "p.8", "verdict": "true" },
+    { "num": 15, "text": "Q and the Didache were written by the same early Jewish-Christian (Nazarene) community.", "timestamp": "p.8", "verdict": "disputed" },
+    { "num": 16, "text": "No historical or textual evidence exists for a town called Nazaret or Nazareth during Jesus's lifetime.", "timestamp": "p.8", "verdict": "false" },
+    { "num": 17, "text": "'Nazoraios' functions as a sectarian designation or ethnonym, not a toponym.", "timestamp": "p.8", "verdict": "disputed" },
+    { "num": 18, "text": "Matthew 2:23's 'He shall be called Nazoraios' fulfills no identifiable Old Testament prophecy.", "timestamp": "p.8", "verdict": "true" },
+    { "num": 19, "text": "The Nazoraioi were probably a subsect of the Essenes (Ossaeans).", "timestamp": "p.9", "verdict": "disputed" },
+    { "num": 20, "text": "Epiphanius (Panarion) states that the Nazarene sect predated Christ.", "timestamp": "p.9", "verdict": "true" },
+    { "num": 21, "text": "Pliny the Elder (Natural History) mentions a 'Tetrarchy of the Nazereni' based on census data from approximately 30 BCE.", "timestamp": "p.9", "verdict": "disputed" },
+    { "num": 22, "text": "Phonological fusion of Nazara and Ossaios yields 'Nazoraios' via rhotacism.", "timestamp": "p.10", "verdict": "disputed" },
+    { "num": 23, "text": "Q Stage 1 dates to within a decade or so after Jesus's death.", "timestamp": "p.13", "verdict": "disputed" },
+    { "num": 24, "text": "Q was composed in three distinct literary stages (Kloppenborg).", "timestamp": "p.13", "verdict": "true" },
+    { "num": 25, "text": "Paul intentionally chose not to emphasize Jesus's wisdom teachings because they contradicted his own theology.", "timestamp": "p.13", "verdict": "false" },
+    { "num": 26, "text": "The Gospel of Thomas shares approximately 40% of its verses in common with Q.", "timestamp": "p.11", "verdict": "true" },
+    { "num": 27, "text": "Q Stage 1 demonstrates a realized/participatory eschatology with no future apocalyptic component.", "timestamp": "pp.13–16", "verdict": "disputed" },
+    { "num": 28, "text": "Matthew 7:21 and 7:24–27 are Q sayings that demonstrate Jesus taught works-based soteriology.", "timestamp": "p.17", "verdict": "true" },
+    { "num": 29, "text": "James was Jesus's biological brother and his appointed successor per the Gospel of Thomas.", "timestamp": "p.17", "verdict": "disputed" },
+    { "num": 30, "text": "Jesus was arrested and crucified primarily because of the Temple cleansing incident.", "timestamp": "p.19", "verdict": "true" }
+  ]
+}

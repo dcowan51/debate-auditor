@@ -436,5 +436,43 @@
       "inspiring-philosophy-damascus",
       "inspiring-philosophy-paul-conversion"
     ]
+  },
+  {
+    "id": "christopher-sartain",
+    "name": "Christopher Sartain",
+    "channel": "RE 600 | Seminar in Biblical Studies",
+    "platform": "Academic",
+    "avatarColor": "#b2bec3",
+    "initials": "CS",
+    "topics": [
+      "Q Source",
+      "Synoptic Problem",
+      "Paul vs. Jesus",
+      "Early Christianity",
+      "Source Criticism"
+    ],
+    "sessions": 1,
+    "totalClaims": 30,
+    "trueClaims": 12,
+    "cumulativeScore": 57,
+    "verdict": "Unreliable",
+    "corePositions": [
+      "Q is a real, written, pre-Pauline and pre-Markan document representing original Christianity",
+      "Paul invented blood atonement; Jesus taught works-based soteriology",
+      "'Nazoraios' is sectarian, not geographic; Nazareth did not exist during Jesus's lifetime",
+      "Jesus and Paul represent two fundamentally different religions"
+    ],
+    "notablePatterns": [
+      "Heavy reliance on Kloppenborg as singular authority; circular reasoning in Q dating argument.",
+      "Factual overclaiming on Nazareth archaeology — directly contradicted by Ken Dark's 2006–2021 excavations.",
+      "Decontextualized reading of 1 Cor 11:23's paralambanō formula, which is standard received-tradition vocabulary.",
+      "Consistent Chicago footnote discipline and genuine engagement with peer-reviewed sources distinguish this paper from popular-level theology.",
+      "Counter-position engagement is present (Goodacre mentioned) but systematically insufficient.",
+      "Academic Standards Modifier of −8.5% applied: missing institutional affiliation, instructor, abstract, and formal literature review.",
+      "Cumulative trajectory: Unreliable (57%). Cumulative: 57%."
+    ],
+    "analyses": [
+      "sartain-q-source"
+    ]
   }
 ]
