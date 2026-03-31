@@ -286,8 +286,8 @@
     ],
     "sessions": 2,
     "totalClaims": 66,
-    "trueClaims": 35,
-    "cumulativeScore": 53,
+    "trueClaims": 36,
+    "cumulativeScore": 55,
     "verdict": "Unreliable",
     "corePositions": [
       "Opsarion/prosphagion = 'relish/food,' not 'fish'",
@@ -302,10 +302,10 @@
       "Heavy reliance on etymological arguments detached from contextual usage.",
       "Systematic omission of counterevidence from cited sources (gospels mention Passover lamb sacrifice in Last Supper preparation).",
       "Severe decontextualization of prophetic texts (Jeremiah 7:22).",
-      "Multiple unverifiable or garbled source citations (Finicius Arabius, LXX Lev 2:1).",
+      "Garbled but real source citation (Phrynichus Arabius cited as 'Finicius Arabius') with selective omission of the source's own concession that opsarion meant fish in common usage.",
       "Documentary promotion (Seaspiracy, Christspiracy) embedded in factual claims — financial incentive noted.",
       "Core thesis claims carry the highest error load; background factual claims are largely accurate.",
-      "Cumulative trajectory: Unreliable (56%) → Unreliable (48%). Cumulative: 53%."
+      "Cumulative trajectory: Unreliable (59%) → Unreliable (48%). Cumulative: 55%."
     ],
     "analyses": [
       "christspiracy-gospel-catch",
@@ -325,27 +325,34 @@
       "Biblical Criticism",
       "Ethics"
     ],
-    "sessions": 1,
-    "totalClaims": 42,
-    "trueClaims": 22,
-    "cumulativeScore": 52,
+    "sessions": 2,
+    "totalClaims": 74,
+    "trueClaims": 44,
+    "cumulativeScore": 59,
     "verdict": "Unreliable",
     "corePositions": [
       "God's morality is subjective, not objective",
       "God violates his own moral standards throughout the Bible",
       "Divine immutability means moral rules cannot change across covenants",
       "Morality is an evolved social construct, not divine command",
-      "The Bible's authors wrote to serve their own interests"
+      "The Bible's authors wrote to serve their own interests",
+      "Jesus's teachings contain ethical problems incompatible with divinity claims",
+      "'Thought crime' (Matt 5:27-28) collapses thought/action distinction",
+      "Turn the other cheek forbids all self-defense",
+      "Jesus endorsed slavery by analogy"
     ],
     "notablePatterns": [
       "Strong pattern of decontextualization — stripping covenant-conditional language from judgment passages.",
-      "Consistent use of emotionally charged language substitutions ('torture' for illness, 'sexual slavery' for captive marriage law, 'sent off to die' for divorce).",
-      "Conflates moral objectivism with moral absolutism — distinct philosophical positions.",
+      "Consistent use of emotionally charged language substitutions ('torture' for illness, 'sexual slavery' for captive marriage law).",
       "Generally accurate biblical citations with inaccurate contextual framing.",
-      "Preemptively dismisses counterarguments (e.g., Copan) without engaging them."
+      "Selective omission of Greek-language evidence that would complicate the argument.",
+      "Reads texts at maximum literalness when it serves the critique, while dismissing contextual/scholarly nuance as 'excuses.'",
+      "Preemptively dismisses counterarguments (e.g., Copan) without engaging them.",
+      "Cumulative trajectory: Unreliable (52%) → Caution (69%). Cumulative: 59%."
     ],
     "analyses": [
-      "mindshift-obj-morality"
+      "mindshift-obj-morality",
+      "mindshift-7-teachings"
     ]
   }
 ]

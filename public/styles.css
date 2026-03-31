@@ -1311,19 +1311,195 @@ footer {
   color: #ff4444;
 }
 
+/* ===== LEADERBOARD CARDS ===== */
+.lb-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px 24px;
+  margin-bottom: 12px;
+  display: grid;
+  grid-template-columns: 48px 56px 1fr auto;
+  gap: 20px;
+  align-items: center;
+  transition: background .2s;
+  cursor: pointer;
+}
+
+.lb-rank { font-size: 1.5rem; font-weight: 800; text-align: center; }
+.lb-avatar { width: 48px; height: 48px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; color: white; font-size: 1rem; flex-shrink: 0; }
+.lb-name { font-weight: 700; font-size: 1rem; margin-bottom: 4px; }
+.lb-meta { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 8px; }
+.lb-topics { display: flex; gap: 6px; flex-wrap: wrap; }
+.lb-score { text-align: center; min-width: 100px; }
+.lb-score-pct { font-size: 2rem; font-weight: 800; }
+.lb-score-verdict { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.06em; font-weight: 600; }
+.lb-score-bar { width: 100%; height: 4px; background: var(--border); border-radius: 2px; margin-top: 8px; overflow: hidden; }
+
+/* ===== OVERALL STATS GRID ===== */
+.overall-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+/* ===== HAMBURGER MENU ===== */
+.nav-hamburger {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--text);
+  cursor: pointer;
+  padding: 8px;
+  flex-shrink: 0;
+}
+
+.nav-hamburger svg {
+  display: block;
+}
+
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
+  /* --- Nav: hamburger menu --- */
+  .nav-hamburger { display: block; }
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 64px;
+    left: 0;
+    right: 0;
+    background: #0a0a0f;
+    backdrop-filter: none;
+    flex-direction: column;
+    padding: 16px 24px;
+    gap: 0;
+    border-bottom: 1px solid var(--border);
+    z-index: 100;
+  }
+  .nav-links.open { display: flex; }
+  .nav-links li { padding: 12px 0; border-bottom: 1px solid var(--border); }
+  .nav-links li:last-child { border-bottom: none; }
+  .nav-links a { font-size: 1rem; }
+  .nav-search { display: none; }
+  nav { position: sticky; }
+  .nav-inner { position: relative; }
+
+  /* --- Hero --- */
   .hero h1 { font-size: 2rem; }
   .hero-stats { gap: 24px; }
+  .hero { padding: 48px 20px 40px; }
+
+  /* --- Sections --- */
+  .section { padding: 0 16px 48px; }
+  .section-header { flex-direction: column; align-items: flex-start; gap: 12px; }
+
+  /* --- Creator cards grid --- */
   .creators-grid { grid-template-columns: 1fr; }
+
+  /* --- Creator card score badge --- */
+  .creator-score { position: static; margin-top: -4px; }
+  .creator-card-top { flex-wrap: wrap; }
+
+  /* --- How it works --- */
   .how-grid { grid-template-columns: 1fr; }
-  .profile-header { flex-direction: column; }
-  .dashboard { grid-template-columns: 1fr; }
+
+  /* --- Profile page --- */
+  .profile-header { flex-direction: column; align-items: center; text-align: center; padding: 32px 16px 24px; gap: 20px; }
+  .profile-topics { justify-content: center; }
+  .profile-stats { justify-content: center; gap: 20px; }
+  .profile-info h1 { font-size: 1.5rem; }
+
+  /* --- Dashboard panel --- */
+  .dashboard { grid-template-columns: 1fr; padding: 20px; }
   .dashboard-score { border-right: none; border-bottom: 1px solid var(--border); padding-right: 0; padding-bottom: 24px; }
-  .analysis-row { grid-template-columns: auto 1fr; }
+  .dashboard-details { grid-template-columns: 1fr; }
+  .dashboard-panel { padding: 0 16px 32px; }
+
+  /* --- Analysis rows --- */
+  .analysis-row { grid-template-columns: auto 1fr; padding: 12px 16px; gap: 12px; }
   .analysis-claims { display: none; }
-  .nav-search { display: none; }
+  .analysis-date { display: none; }
+
+  /* --- Analysis header --- */
+  .analysis-header { padding: 32px 16px 16px; }
+  .analysis-header h1 { font-size: 1.3rem; }
+  .analysis-meta-row { gap: 12px; font-size: 0.8rem; }
+
+  /* --- Tabs --- */
+  .tabs-container { padding: 0 16px 48px; }
+  .tab-buttons { overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+  .tab-buttons::-webkit-scrollbar { display: none; }
+  .tab-btn { padding: 10px 16px; font-size: 0.8rem; white-space: nowrap; flex-shrink: 0; }
+
+  /* --- TLDR card --- */
+  .tldr-card { grid-template-columns: repeat(2, 1fr); gap: 12px; padding: 16px; }
+
+  /* --- Claims list --- */
+  .claim-item { grid-template-columns: auto 1fr; gap: 10px; padding: 12px 16px; }
+  .claim-verdict { grid-column: 2; justify-self: start; }
+
+  /* --- Stratagem cards --- */
+  .stratagem-card { padding: 16px; }
+  .strat-header { flex-wrap: wrap; }
+  .strat-instances { margin-left: 0; }
+
+  /* --- False claims detail --- */
+  .false-claim-detail { padding: 16px; }
+
+  /* --- Video cards grid --- */
   .video-cards-grid { grid-template-columns: 1fr; }
+
+  /* --- Video card internals --- */
+  .video-card { padding: 16px; }
+  .video-card-stats { grid-template-columns: repeat(4, 1fr); gap: 4px; }
+  .video-card-stat-val { font-size: 0.95rem; }
+  .video-card-stat-label { font-size: 0.6rem; }
+
+  /* --- Videos page controls --- */
+  .videos-controls { padding: 16px; }
   .controls-row { flex-direction: column; gap: 14px; }
-  .control-select { width: 100%; }
+  .control-select { width: 100%; min-width: unset; }
+  .filter-pills { flex-wrap: wrap; }
+
+  /* --- Sort toggle --- */
+  .sort-toggle { flex-wrap: wrap; gap: 4px; }
+  .sort-btn { font-size: 0.7rem; padding: 5px 10px; }
+
+  /* --- Score legend --- */
+  .score-legend { flex-wrap: wrap; gap: 12px; padding: 10px 16px; }
+
+  /* --- Score bar track --- */
+  .score-bar-track { margin-top: 12px; }
+
+  /* --- Trend bar --- */
+  .trend-bar { padding: 0 16px 24px; }
+
+  /* --- Footer --- */
+  footer { padding: 32px 16px; }
+
+  /* --- Leaderboard cards --- */
+  .lb-card {
+    grid-template-columns: 40px 44px 1fr;
+    gap: 12px;
+    padding: 16px;
+  }
+  .lb-rank { font-size: 1.2rem; }
+  .lb-avatar { width: 44px; height: 44px; font-size: 0.85rem; }
+  .lb-score {
+    grid-column: 1 / -1;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-align: left;
+    min-width: unset;
+  }
+  .lb-score-pct { font-size: 1.4rem; }
+  .lb-score-bar { flex: 1; }
+  .lb-meta { font-size: 0.75rem; }
+
+  /* --- Overall stats grid --- */
+  .overall-stats-grid { grid-template-columns: repeat(2, 1fr); }
+
+  /* --- Back to top --- */
+  .back-to-top { bottom: 16px; right: 16px; width: 40px; height: 40px; }
 }

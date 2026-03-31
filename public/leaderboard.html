@@ -20,6 +20,9 @@
       <li><a href="leaderboard.html" class="active">Leaderboard</a></li>
       <li><a href="about.html">About</a></li>
     </ul>
+    <button class="nav-hamburger" aria-label="Menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
     <div class="nav-search">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
       <input type="text" placeholder="Search creators or videos...">
@@ -53,7 +56,7 @@
 <!-- Stats summary -->
 <section class="section">
   <div class="section-header"><h2>Overall Stats</h2></div>
-  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px" id="overall-stats"></div>
+  <div class="overall-stats-grid" id="overall-stats"></div>
 </section>
 
 <footer>
@@ -85,28 +88,28 @@ async function renderLeaderboard() {
 
       return `
         <a href="creator.html?id=${c.id}" style="text-decoration:none;color:inherit;display:block">
-          <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:20px 24px;margin-bottom:12px;display:grid;grid-template-columns:48px 56px 1fr auto;gap:20px;align-items:center;transition:background .2s;cursor:pointer" onmouseover="this.style.background='var(--bg-card-hover)'" onmouseout="this.style.background='var(--bg-card)'">
+          <div class="lb-card" onmouseover="this.style.background='var(--bg-card-hover)'" onmouseout="this.style.background='var(--bg-card)'">
 
             <!-- Rank -->
-            <div style="font-size:1.5rem;font-weight:800;color:${rank <= 3 ? color : 'var(--text-muted)'};text-align:center">${rank}</div>
+            <div class="lb-rank" style="color:${rank <= 3 ? color : 'var(--text-muted)'}">${rank}</div>
 
             <!-- Avatar -->
-            <div style="width:48px;height:48px;border-radius:50%;background:${c.avatarColor};display:flex;align-items:center;justify-content:center;font-weight:700;color:white;font-size:1rem">${c.initials}</div>
+            <div class="lb-avatar" style="background:${c.avatarColor}">${c.initials}</div>
 
             <!-- Info -->
-            <div>
-              <div style="font-weight:700;font-size:1rem;margin-bottom:4px">${c.name}</div>
-              <div style="font-size:0.8rem;color:var(--text-muted);margin-bottom:8px">${c.channel} · ${c.sessions} session${c.sessions > 1 ? 's' : ''} · ${c.totalClaims} claims checked</div>
-              <div style="display:flex;gap:6px;flex-wrap:wrap">
+            <div class="lb-info">
+              <div class="lb-name">${c.name}</div>
+              <div class="lb-meta">${c.channel} · ${c.sessions} session${c.sessions > 1 ? 's' : ''} · ${c.totalClaims} claims checked</div>
+              <div class="lb-topics">
                 ${c.topics.slice(0, 4).map(t => `<span class="topic-tag">${t}</span>`).join('')}
               </div>
             </div>
 
             <!-- Score -->
-            <div style="text-align:center;min-width:100px">
-              <div style="font-size:2rem;font-weight:800;color:${color}">${c.cumulativeScore}%</div>
-              <div style="font-size:0.7rem;text-transform:uppercase;letter-spacing:0.06em;color:${color};font-weight:600">${c.verdict}</div>
-              <div style="width:100%;height:4px;background:var(--border);border-radius:2px;margin-top:8px;overflow:hidden">
+            <div class="lb-score">
+              <div class="lb-score-pct" style="color:${color}">${c.cumulativeScore}%</div>
+              <div class="lb-score-verdict" style="color:${color}">${c.verdict}</div>
+              <div class="lb-score-bar">
                 <div style="height:100%;width:${c.cumulativeScore}%;background:${color};border-radius:2px"></div>
               </div>
             </div>

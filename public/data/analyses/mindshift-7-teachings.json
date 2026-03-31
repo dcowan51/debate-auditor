@@ -1,0 +1,323 @@
+{
+  "id": "mindshift-7-teachings",
+  "creatorId": "mindshift",
+  "creatorName": "Mindshift (Brandon)",
+  "channel": "@Mindshift",
+  "videoTitle": "Jesus' 7 Most Troubling Teachings",
+  "videoUrl": "https://youtu.be/XsQk5JS43j8",
+  "datePublished": "",
+  "dateAnalyzed": "2026-03-30",
+  "sessionNumber": 2,
+  "analyzedRange": "0:00–23:56",
+  "thesis": "Seven teachings attributed to Jesus in the Gospels are ethically problematic and undermine claims of his moral perfection and divinity.",
+  "dashboard": {
+    "sessionScore": 69,
+    "cumulativeScore": 59,
+    "cumulativeSessions": 2,
+    "trueClaims": 22,
+    "falseMisleading": 7,
+    "disputed": 3,
+    "totalChecked": 32,
+    "confidence": "Medium",
+    "verdict": "Caution",
+    "stratagems": 6,
+    "weaselWords": 4,
+    "errorImpact": 21.5
+  },
+  "steelman": "If Jesus is claimed to be a morally perfect divine being whose teachings are the apex of human ethics, then even minor ethical problems in those teachings become significant, and several of the passages cited do present genuine interpretive and ethical challenges that Christian theology has struggled with for centuries.",
+  "falseClaims": [
+    {
+      "claim": "Matt 5:27-28 does not distinguish fleeting thought from deliberate fantasizing",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "5:08",
+      "evidence": "The Greek verb epithumeo denotes deliberate, purposeful desire. The Septuagint uses this word for 'covet' in the Tenth Commandment (Exodus 20:17). The grammatical construction pros to epithumesai auten indicates intentional purpose. The text does distinguish between passing attraction and deliberate coveting.",
+      "settle": "A comprehensive Greek lexical analysis of epithumeo in the LXX and NT corpora.",
+      "sources": [
+        {
+          "label": "Staples — Misinterpreted Bible Passages #1: Matt 5:27-28",
+          "url": "https://www.jasonstaples.com/bible/most-misinterpreted-bible-passages-1-matthew-527-28/"
+        },
+        {
+          "label": "BibleHub Lexicon — Matt 5:28",
+          "url": "https://biblehub.com/lexicon/matthew/5-28.htm"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "'Eye for an eye' is 'clearly about justified retribution'",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "14:53",
+      "evidence": "Lex talionis (Exodus 21:23-27) was a limitation principle — it restricted vengeance to proportional response, replacing unlimited tribal retaliation. Describing it as 'clearly about justified retribution' omits its primary historical function as a moderation of violence.",
+      "settle": "A survey of ANE legal codes showing the function of talionic law in context.",
+      "sources": [
+        {
+          "label": "Bible.org — Jesus and the Law of Retaliation",
+          "url": "https://bible.org/seriespage/17-jesus-and-law-retaliation-lex-talionis-matthew-538-42"
+        },
+        {
+          "label": "Eye for an eye — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Eye_for_an_eye"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "Jesus 'literally taking away' all self-defense and protective force",
+      "rating": "Misleading",
+      "confidence": "Medium",
+      "timestamp": "15:06",
+      "evidence": "The 'right cheek' detail in Matt 5:39 is culturally significant: a strike on the right cheek with the right hand is a backhand, an act of social humiliation, not a violent assault. Scholars widely distinguish between Jesus's teaching on personal response to insult and the abolition of all protective or juridical force.",
+      "settle": "A detailed reconstruction of first-century honor-shame culture around the specific mechanics of striking the right cheek.",
+      "sources": [
+        {
+          "label": "Bible Project — What Jesus Meant by 'Turn the Other Cheek'",
+          "url": "https://bibleproject.com/articles/what-jesus-meant-turn-other-cheek-matthew-539/"
+        },
+        {
+          "label": "Working Preacher — Commentary on Matthew 5:38-48",
+          "url": "https://www.workingpreacher.org/commentaries/revised-common-lectionary/seventh-sunday-after-epiphany/commentary-on-matthew-538-48"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "Religious OCD stems 'mainly from this concept' (thought crime)",
+      "rating": "Misleading",
+      "confidence": "Medium",
+      "timestamp": "5:01",
+      "evidence": "Religious scrupulosity (a form of OCD) is a clinically recognized condition with multifactorial causes including genetic predisposition, neurological factors, and environmental triggers. The claim that it stems 'mainly' from the concept of thought crime is an overstatement not supported by clinical literature.",
+      "settle": "A meta-analysis of scrupulosity research examining the relative contribution of specific theological doctrines to OCD onset.",
+      "sources": [],
+      "category": "Support"
+    },
+    {
+      "claim": "Jesus 'never answered the questions' / gave 'political answers'",
+      "rating": "Misleading",
+      "confidence": "Medium",
+      "timestamp": "10:32",
+      "evidence": "Jesus does sometimes respond with counter-questions or parables, but 'never' is a sweeping overstatement. The Gospels contain numerous direct answers: the Greatest Commandment (Mark 12:29-31), resurrection (Mark 12:24-27), the rich young ruler (Mark 10:17-21), and many others.",
+      "settle": "A systematic cataloging of Jesus's direct vs. indirect responses in the Synoptics.",
+      "sources": [],
+      "category": "Support"
+    },
+    {
+      "claim": "If even one critique is correct, 'the entire structure of the claims of Jesus Christ fade entirely'",
+      "rating": "Likely False",
+      "confidence": "High",
+      "timestamp": "22:09",
+      "evidence": "This is a non sequitur. Finding ethical disagreements with specific teachings does not automatically invalidate all claims about a teacher's identity or mission. Within Christian theology, centuries of debate about difficult passages have not collapsed the framework. The argument commits the perfectionist fallacy.",
+      "settle": "Nothing empirical — this is a logical structure claim.",
+      "sources": [],
+      "category": "Core"
+    },
+    {
+      "claim": "Matt 6:25-34 constitutes advice against all economic planning",
+      "rating": "Misleading",
+      "confidence": "Medium",
+      "timestamp": "8:37",
+      "evidence": "The passage is situated within a discourse on spiritual priorities (Matt 6:19-34), culminating in 'Seek first the kingdom of God' (6:33). Most scholars read this as a teaching about anxiety and priorities, not a prohibition on all economic activity. The birds analogy illustrates trust, not a policy prescription.",
+      "settle": "A survey of reception history showing how early Christians understood and applied this passage.",
+      "sources": [],
+      "category": "Support"
+    }
+  ],
+  "stratagems": [
+    {
+      "number": 1,
+      "name": "Extension (Die Erweiterung)",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "This appears to forbid protective force, defending yourself, retaliation... If you actually applied this in all of life, you don't have any of that.",
+          "timestamp": "15:06",
+          "explanation": "Extends Jesus's teaching about personal response to insult (the 'right cheek' detail indicates a backhanded slap, an act of social humiliation) to encompass all self-defense, law enforcement, and the entire justice system."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "name": "Concealed Postulate (Verstecktes Postulat)",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "Jesus is talking about the master-slave relationship and hierarchy here without condemning it. He's talking about corporal punishment here without condemning it.",
+          "timestamp": "16:45",
+          "explanation": "Smuggles in the premise that using culturally familiar imagery in a parable constitutes moral endorsement of that imagery. The unstated postulate: 'failure to explicitly condemn X in every mention = endorsement of X.'"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "name": "Induction with Concealed Counterexamples",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "Everyone who looks is sweeping. It's not even trying to distinguish between a fleeting thought and deliberate fantasizing.",
+          "timestamp": "5:08",
+          "explanation": "Builds his case on the English translation while concealing significant scholarly evidence that the Greek verb epithumeo denotes deliberate, purposeful desire — not a fleeting glance. The Septuagint uses this same word for 'covet' in the Tenth Commandment."
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "name": "Generalization to Avoid Defeat (Verallgemeinerung)",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "A good thing to think about when you look at the teachings of Jesus or any teachings... is if it gets universalized, how will it work out?",
+          "timestamp": "7:41",
+          "explanation": "Universalizes teachings contextually addressed to specific audiences (disciples, followers), then judges them by whether they would function as comprehensive social policy."
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "name": "Instance to the Contrary (Instanz)",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "Do you know how many birds drop dead all the time? Do you know how many birds starve to death or freeze to death?",
+          "timestamp": "6:11",
+          "explanation": "Uses the empirical fact that some birds die to counter Jesus's analogy. However, Jesus's point is about divine care and the futility of anxiety — a rhetorical illustration, not a scientific claim about ornithological survival rates."
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "name": "Odious Label (Verhasste Benennung)",
+      "instances": 4,
+      "entries": [
+        {
+          "quote": "The institution of thought crime / the cult mentality / slavery endorsement",
+          "timestamp": "1:06",
+          "explanation": "Applies modern pejorative labels — 'thought crime' (Orwellian), 'cult mentality,' 'slavery endorsement' — to ancient texts. These carry strong negative modern connotations that prejudice the audience before analysis begins."
+        }
+      ]
+    }
+  ],
+  "scholarlySplits": [
+    {
+      "claim": "Jesus believed the end of the world was coming imminently",
+      "nature": "Majority position (Schweitzer, Ehrman, Allison) holds thoroughgoing eschatological expectations vs. significant minority (Borg, Crossan, Wright) who deny or redefine imminence.",
+      "timestamp": "6:39"
+    },
+    {
+      "claim": "Aionios in Matt 25:46 must mean the same duration for both 'punishment' and 'life'",
+      "nature": "Traditional majority (Augustine onward) holds parallel duration; significant minority (Ramelli, Konstan, Hart, Origen) argues aionios ≠ aidios and punishment may be age-limited.",
+      "timestamp": "12:38"
+    },
+    {
+      "claim": "Matt 6:25-34 reflects apocalyptic urgency about an imminent end",
+      "nature": "Depends on resolution of apocalyptic-Jesus debate. If apocalyptic Jesus is accepted, this follows. If not, the passage is read as wisdom teaching about spiritual priorities.",
+      "timestamp": "6:47"
+    }
+  ],
+  "trueClaims": [
+    "Matt 5:27-28 quotation is substantially accurate per NRSVUE",
+    "'You have heard it said' references Torah laws from the Pentateuch (Exodus 20:14, Exodus 21:24, etc.)",
+    "Trinitarian logic of self-contradiction: if Jesus is God and God gave the Mosaic law, then Jesus overriding it creates internal tension",
+    "Jesus escalates the Sermon on the Mount commands — mainstream scholarly position (Luz, Matthew 1-7, Fortress Press)",
+    "Matt 5:21-22 draws a connection between anger and murder",
+    "Matt 6:25-26 quotation is substantially accurate",
+    "Many birds die of starvation, exposure, and dehydration — well documented",
+    "Many children die of hunger — confirmed by UNICEF and WHO data",
+    "Paul believed the end was near — 1 Thessalonians 4:15-17, 1 Corinthians 7:29-31",
+    "Mark 4:11-12 quotation is substantially accurate",
+    "Christians widely claim Jesus desires all to be saved — based on 1 Timothy 2:4, 2 Peter 3:9",
+    "Matt 25:41 quotation accurate",
+    "Matt 25:46 quotation accurate",
+    "Matt 25:41-46 is part of the Olivet Discourse, sheep-and-goats parable",
+    "No one takes 'eternal life' metaphorically — true as a mainstream observation",
+    "Matt 5:38-39 quotation accurate",
+    "Luke 12:47-48 quotation accurate",
+    "Luke 12:47-48 is about readiness for judgment — standard interpretation",
+    "Jesus discusses master-slave imagery without condemning slavery — scholarly consensus",
+    "In all recorded words, Jesus never explicitly condemns slavery as an institution",
+    "Mark 9:43-47 quotation substantially accurate",
+    "The speaker acknowledges Jesus said some things that were 'morally ahead for its time'"
+  ],
+  "youtubeFlags": [
+    {
+      "type": "Title Accuracy",
+      "severity": "info",
+      "text": "The title 'Jesus' 7 Most Troubling Teachings' is broadly accurate to the content. The speaker does address seven teachings he finds troubling, though the framing implies these are objectively the 'most troubling' rather than subjectively selected."
+    },
+    {
+      "type": "Implied Claims",
+      "severity": "warning",
+      "text": "The video strongly implies — without stating directly — that deconversion is the rational response to these difficulties. The repeated pattern ('just read the text,' 'demand more from your God') creates an implied conclusion that honest engagement should lead away from faith."
+    },
+    {
+      "type": "Monetization",
+      "severity": "info",
+      "text": "Patreon acknowledgments at ~23:35-23:56. No supplements, courses, or products promoted alongside factual claims."
+    }
+  ],
+  "weightedAnalysis": {
+    "categories": [
+      {
+        "name": "Core",
+        "claims": 9,
+        "weight": 3,
+        "trueWeighted": 18,
+        "falseWeighted": 6,
+        "disputedWeighted": 3
+      },
+      {
+        "name": "Support",
+        "claims": 15,
+        "weight": 2,
+        "trueWeighted": 20,
+        "falseWeighted": 6,
+        "disputedWeighted": 4
+      },
+      {
+        "name": "Background",
+        "claims": 8,
+        "weight": 1,
+        "trueWeighted": 6,
+        "falseWeighted": 2,
+        "disputedWeighted": 0
+      }
+    ],
+    "errorImpact": 21.5,
+    "interpretation": "At ~20%, this session is in 'secondary use only' territory. The video contains useful observations and raises genuine questions, but the pattern of overstatement, selective omission of counter-evidence, and misleading framing means it should not be treated as a reliable standalone source."
+  },
+  "allClaims": [
+    { "num": 1, "text": "Matthew 5:27-28 quotation: 'You have heard it was said, You shall not commit adultery. But I say to you that everyone who looks at a woman with lust has already committed adultery with her in his heart.'", "timestamp": "1:18", "verdict": "true" },
+    { "num": 2, "text": "The 'you have heard it said' formula references laws from Moses in the Torah that were given to Moses by God.", "timestamp": "1:43", "verdict": "true" },
+    { "num": 3, "text": "If Jesus is God (part of the Trinity), then OT laws were given by Jesus himself, creating an internal contradiction when Jesus overrides them.", "timestamp": "0:26", "verdict": "true" },
+    { "num": 4, "text": "Jesus is 'escalating things' in the Sermon on the Mount, not softening the Law.", "timestamp": "2:14", "verdict": "true" },
+    { "num": 5, "text": "Jesus makes the same escalation with anger, equating it with murder (Matthew 5:21-22).", "timestamp": "2:26", "verdict": "true" },
+    { "num": 6, "text": "The text of Matt 5:27-28 does not distinguish between a fleeting thought and deliberate fantasizing.", "timestamp": "5:08", "verdict": "misleading" },
+    { "num": 7, "text": "The Greek word epithumeo in Matt 5:28 targets all lustful glances indiscriminately.", "timestamp": "5:08", "verdict": "misleading" },
+    { "num": 8, "text": "Matthew 6:25-26 quotation: 'Do not worry about your life... Look at the birds of the air.'", "timestamp": "5:32", "verdict": "true" },
+    { "num": 9, "text": "Many birds starve to death, freeze to death, or cannot get access to water.", "timestamp": "6:11", "verdict": "true" },
+    { "num": 10, "text": "Many children have died of hunger since the video started.", "timestamp": "6:18", "verdict": "true" },
+    { "num": 11, "text": "Jesus is 'just a man, not God, who is incorrect about when he thinks the end of the world is coming.'", "timestamp": "6:39", "verdict": "disputed" },
+    { "num": 12, "text": "Paul also believed the end was near.", "timestamp": "6:54", "verdict": "true" },
+    { "num": 13, "text": "Jesus's teaching in Matt 6:25-34 constitutes apocalyptic preaching driven by an imminent-end expectation.", "timestamp": "6:47", "verdict": "disputed" },
+    { "num": 14, "text": "Mark 4:11-12 quotation: 'To you has been given the secret of the kingdom of God. But for those outside, everything comes in parables, so that they may indeed see but not perceive.'", "timestamp": "9:48", "verdict": "true" },
+    { "num": 15, "text": "Jesus states that the purpose of parables is to prevent understanding and forgiveness among outsiders.", "timestamp": "9:53", "verdict": "true" },
+    { "num": 16, "text": "Christians for the next 2,000 years will claim Jesus's words are for everyone and that he desires all to be saved.", "timestamp": "10:16", "verdict": "true" },
+    { "num": 17, "text": "Matthew 25:41 quotation: 'Depart from me into the eternal fire prepared for the devil and his angels.'", "timestamp": "11:47", "verdict": "true" },
+    { "num": 18, "text": "Matthew 25:46 quotation: 'Those will go away into eternal punishment, but the righteous into eternal life.'", "timestamp": "12:05", "verdict": "true" },
+    { "num": 19, "text": "The passage (Matt 25:41-46) is spoken on the Mount of Olives in the parable of the sheep and the goats.", "timestamp": "12:08", "verdict": "true" },
+    { "num": 20, "text": "The same word 'eternal' (aionios) modifies both 'punishment' and 'life' in Matt 25:46; therefore the duration must be equivalent.", "timestamp": "12:38", "verdict": "disputed" },
+    { "num": 21, "text": "No one takes 'eternal life' metaphorically.", "timestamp": "12:49", "verdict": "true" },
+    { "num": 22, "text": "Matthew 5:38-39 quotation: 'You have heard that it was said, An eye for an eye... But I say to you, Do not resist an evil person.'", "timestamp": "14:17", "verdict": "true" },
+    { "num": 23, "text": "The 'eye for an eye' law in its original context is 'clearly about justified retribution.'", "timestamp": "14:53", "verdict": "misleading" },
+    { "num": 24, "text": "Jesus is 'literally taking away' protective force, self-defense, and retaliation.", "timestamp": "15:06", "verdict": "misleading" },
+    { "num": 25, "text": "Luke 12:47-48 quotation: 'That slave who knew what his master wanted... will receive a severe beating.'", "timestamp": "16:14", "verdict": "true" },
+    { "num": 26, "text": "Luke 12:47-48 is a parable about the importance of being ready for final judgment.", "timestamp": "16:29", "verdict": "true" },
+    { "num": 27, "text": "Jesus discusses the master-slave relationship and corporal punishment 'without condemning it.'", "timestamp": "16:53", "verdict": "true" },
+    { "num": 28, "text": "In all the recorded words of Jesus, he 'never once condemns the practice of owning another person as property.'", "timestamp": "17:40", "verdict": "true" },
+    { "num": 29, "text": "Mark 9:43-47 quotation: 'If your hand causes you to stumble, cut it off... It is better to enter the kingdom of God with one eye than to have two eyes and be thrown into hell.'", "timestamp": "19:07", "verdict": "true" },
+    { "num": 30, "text": "Religious OCD stems 'mainly from this concept' (the concept of thought crime).", "timestamp": "5:01", "verdict": "misleading" },
+    { "num": 31, "text": "Jesus 'never answered the questions' / gave 'political answers.'", "timestamp": "10:32", "verdict": "misleading" },
+    { "num": 32, "text": "If even one of these seven critiques is correct, 'the entire structure of the claims of Jesus Christ fade entirely.'", "timestamp": "22:09", "verdict": "false" }
+  ]
+}

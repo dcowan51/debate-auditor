@@ -11,18 +11,18 @@
   "analyzedRange": "0:00–27:51",
   "thesis": "Jesus did not eat fish; the Greek words translated as 'fish' in key gospel passages have broader meanings; the fish-eating passages (Luke 24, John 21) are later editorial additions; the earliest Christian tradition was vegetarian/plant-based.",
   "dashboard": {
-    "sessionScore": 56,
-    "cumulativeScore": 56,
+    "sessionScore": 59,
+    "cumulativeScore": 59,
     "cumulativeSessions": 1,
-    "trueClaims": 22,
-    "falseMisleading": 13,
+    "trueClaims": 23,
+    "falseMisleading": 12,
     "disputed": 4,
     "totalChecked": 39,
     "confidence": "Medium",
     "verdict": "Unreliable",
-    "stratagems": 6,
+    "stratagems": 5,
     "weaselWords": 4,
-    "errorImpact": 32
+    "errorImpact": 29
   },
   "steelman": "The strongest charitable reading: some Greek words translated uniformly as 'fish' in English (prosphagion, opsarion) do have broader semantic ranges than their English translations suggest; textual criticism of Luke 24 and John 21 raises legitimate questions about editorial layers; and the earliest Jewish-Christian communities (Ebionites, Nazarenes) appear to have practiced vegetarianism, suggesting this was at least one strand of early Christian practice. The speaker raises genuinely interesting questions about how confidently we can treat the 'fish breakfast' of John 21 as straightforward history.",
   "falseClaims": [
@@ -100,16 +100,6 @@
       "settle": "Read Davidson, Courtesans and Fishcakes (1997), especially chapters on opson.",
       "sources": [],
       "category": "Support"
-    },
-    {
-      "claim": "Finicius Arabius, a 2nd century CE Greek grammarian, confirmed that opson wasn't just fish.",
-      "rating": "Misleading · Unidentifiable authority",
-      "confidence": "High",
-      "timestamp": "16:04",
-      "evidence": "No classical author named 'Finicius Arabius' exists in any standard reference. Likely a garbled reference to Athenaeus of Naucratis or Julius Pollux.",
-      "settle": "Search classical prosopographies and grammarian indexes for 'Finicius Arabius.'",
-      "sources": [],
-      "category": "Core"
     },
     {
       "claim": "The Hebrew Gospel of Matthew is 'almost certainly earlier than the Greek one we read today.'",
@@ -237,18 +227,6 @@
           "explanation": "By consistently translating opsarion as 'relish' and prosphagion as 'food,' the speaker pre-loads the conclusion. Standard NT lexicons (BDAG, Thayer's, Strong's) render both words with 'fish' as the primary or co-primary meaning in their NT contexts."
         }
       ]
-    },
-    {
-      "number": 30,
-      "name": "Appeal to Authority (Misattributed or Unverifiable)",
-      "instances": 1,
-      "entries": [
-        {
-          "quote": "Finicius Arabius, a 2nd century CE Greek grammarian, confirmed that opson wasn't just fish.",
-          "timestamp": "16:04–16:14",
-          "explanation": "No ancient author named 'Finicius Arabius' can be identified in classical scholarship. This is likely a garbled reference to Athenaeus of Naucratis or possibly Julius Pollux. Citing an unverifiable authority by an incorrect name to support a core claim is a form of false appeal to authority."
-        }
-      ]
     }
   ],
   "scholarlySplits": [
@@ -295,7 +273,8 @@
     "Iamblichus's Life of Pythagoras contains the story of Pythagoras predicting fishermen's catch — attested",
     "Gospel of the Hebrews fragment describes the risen Jesus appearing to James and breaking bread — accurately reflects the preserved fragment",
     "Hegesippus describes James as never eating flesh — accurate per Eusebius, Ecclesiastical History 2.23",
-    "Romans 14:2 — Paul states some eat only vegetables and calls their faith 'weak' — accurate per the text"
+    "Romans 14:2 — Paul states some eat only vegetables and calls their faith 'weak' — accurate per the text",
+    "A 2nd-century CE Greek grammarian (Phrynichus Arabius, mispronounced as 'Finicius Arabius') confirmed opson/opsarion wasn't originally 'fish' — substantially true, though he acknowledged the word was commonly used for fish in his era"
   ],
   "youtubeFlags": [
     {
@@ -341,8 +320,8 @@
         "disputedWeighted": 0
       }
     ],
-    "errorImpact": 32,
-    "interpretation": "At 32%, this session approaches but does not quite reach the 'misleading overall' threshold (≥35%). Core thesis claims carry the heaviest error load — the opsarion claim, 200 CE papyrus claim, and unverifiable stylometric study undermine the central argument. Background factual claims are largely accurate."
+    "errorImpact": 29,
+    "interpretation": "At ~29%, this is below the 'misleading overall' threshold (≥35%) but still substantial. The video is usable only as a starting point for further research, not as a reliable standalone source. Core thesis claims carry the heaviest error load. Background factual claims are largely accurate."
   },
   "allClaims": [
     { "num": 1, "text": "Scholars across the board agree Mark came first and Matthew and Luke borrowed from it.", "timestamp": "4:07", "verdict": "true" },
@@ -374,7 +353,7 @@
     { "num": 27, "text": "In Homer's Iliad, opsarion is literally a relish made out of onions.", "timestamp": "14:24", "verdict": "true" },
     { "num": 28, "text": "Opsarion only shows up in John 21.", "timestamp": "11:17", "verdict": "false" },
     { "num": 29, "text": "Davidson's Courtesans and Fishcakes dedicates over 250 pages to showing opson could mean any side dish.", "timestamp": "15:09", "verdict": "misleading" },
-    { "num": 30, "text": "Finicius Arabius, a 2nd century CE Greek grammarian, confirmed that opson wasn't just fish.", "timestamp": "16:04", "verdict": "misleading" },
+    { "num": 30, "text": "Finicius Arabius, a 2nd century CE Greek grammarian, confirmed that opson wasn't just fish.", "timestamp": "16:04", "verdict": "true" },
     { "num": 31, "text": "Ichthus was an acronym for 'Jesus Christ, God's Son, Savior' used as a secret Christian symbol.", "timestamp": "17:02", "verdict": "true" },
     { "num": 32, "text": "One common way authorities tested suspected Christians was by forcing them to kill or eat animals in a ritual sacrifice.", "timestamp": "17:33", "verdict": "true" },
     { "num": 33, "text": "153 is a triangular number.", "timestamp": "17:58", "verdict": "true" },
