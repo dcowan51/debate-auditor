@@ -3,19 +3,17 @@
   "creatorId": "christspiracy",
   "creatorName": "Kam Waters",
   "channel": "@Christspiracy",
-  "platform": "YouTube",
   "videoTitle": "The Gospel Catch: Something Fishy About Jesus' Dinner?",
   "videoUrl": "https://youtu.be/IgKI-3zUXWw",
-  "datePublished": "2026",
+  "datePublished": "",
   "dateAnalyzed": "2026-03-30",
   "sessionNumber": 1,
-  "mode": 1,
-  "modeLabel": "Single Speaker",
-  "contentType": "video",
   "analyzedRange": "0:00–27:51",
   "thesis": "Jesus did not eat fish; the Greek words translated as 'fish' in key gospel passages have broader meanings; the fish-eating passages (Luke 24, John 21) are later editorial additions; the earliest Christian tradition was vegetarian/plant-based.",
   "dashboard": {
     "sessionScore": 56,
+    "cumulativeScore": 56,
+    "cumulativeSessions": 1,
     "trueClaims": 22,
     "falseMisleading": 13,
     "disputed": 4,
@@ -23,328 +21,376 @@
     "confidence": "Medium",
     "verdict": "Unreliable",
     "stratagems": 6,
-    "weaselWordFlags": 4
+    "weaselWords": 4,
+    "errorImpact": 32
   },
-  "scoreExplanation": "Session score = 22 true ÷ 39 total checked = 56%. The false/misleading claims cluster heavily around the core thesis claims, which lowers effective reliability significantly per the weighted heuristic. Core-error rule and pattern rule both triggered.",
-  "confidenceExplanation": "Confidence rated Medium: the domain involves genuine scholarly debate on some points, and some claims are unverifiable without specialized library access. However, several core claims are clearly falsifiable and falsified.",
   "steelman": "The strongest charitable reading: some Greek words translated uniformly as 'fish' in English (prosphagion, opsarion) do have broader semantic ranges than their English translations suggest; textual criticism of Luke 24 and John 21 raises legitimate questions about editorial layers; and the earliest Jewish-Christian communities (Ebionites, Nazarenes) appear to have practiced vegetarianism, suggesting this was at least one strand of early Christian practice. The speaker raises genuinely interesting questions about how confidently we can treat the 'fish breakfast' of John 21 as straightforward history.",
-  "reliabilityThreshold": {
-    "coreErrorRule": "TRIGGERED. Multiple core claims — those structurally essential to the thesis — are false or misleading: opsarion appears only in John 21 (FALSE — also John 6:9, 6:11); no papyrus mentions fish before 200 CE (MISLEADING); stylometric analysis at 96–98% accuracy (UNSUBSTANTIATED); 'Jesus the Nazarene' = sect label (FALSE per mainstream scholarship).",
-    "patternRule": "TRIGGERED. More than 3 factual errors identified (claims 13, 25, 28, 30, 46, plus multiple misleading claims).",
-    "misquoteRule": "No direct misquotation of scripture detected; however, the systematic mistranslation of opsarion as 'relish' functions similarly.",
-    "decontextualizationRule": "TRIGGERED. The citation of Matthew 16:9–10 and Mark 8:19–20 omits that the full feeding narratives in the same gospels explicitly include fish.",
-    "quantitativeHeuristic": {
-      "coreWeight3": { "claims": 10, "true": 4, "false": 6, "disputed": 0 },
-      "supportWeight2": { "claims": 15, "true": 11, "false": 4, "disputed": 0 },
-      "backgroundWeight1": { "claims": 22, "true": 22, "false": 0, "disputed": 0 },
-      "weightedTotal": 82,
-      "falseWeightedPoints": 26,
-      "errorImpact": "31.7%",
-      "interpretation": "Approaches 'misleading overall' threshold (≥35%). Usable only as a starting point for further research, not as a reliable standalone source."
+  "falseClaims": [
+    {
+      "claim": "Opsarion only shows up in John 21.",
+      "rating": "False",
+      "confidence": "High",
+      "timestamp": "11:17",
+      "evidence": "Opsarion (ὀψάριον) also appears in John 6:9 and 6:11 (the feeding of the 5,000).",
+      "settle": "Search for opsarion in a Greek NT concordance.",
+      "sources": [
+        {
+          "label": "John 6:9 — BibleGateway (Greek)",
+          "url": "https://www.biblegateway.com/passage/?search=John+6%3A9&version=NRSVUE"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "Fish doesn't even splash onto the manuscript record until 200 CE. No papyrus earlier.",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "6:12",
+      "evidence": "Fish (ichthus) appears in all four canonical feeding narratives. The earliest manuscripts containing these passages (P75, c. 175–225 CE; P66, c. 200 CE) include fish. No manuscript tradition of any gospel lacks fish from the feeding narratives.",
+      "settle": "Check the earliest papyri (P66, P75) for the feeding narratives.",
+      "sources": [
+        {
+          "label": "Papyrus 75 — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Papyrus_75"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "Stylometric analysis shows Luke 24 clusters closer to Acts at 96–98% accuracy.",
+      "rating": "Misleading · Unsubstantiated",
+      "confidence": "High",
+      "timestamp": "8:15",
+      "evidence": "No peer-reviewed study making this specific claim can be located. The precision of '96 to 98%' suggests a specific citation, but none is provided.",
+      "settle": "Search JSTOR, Google Scholar for stylometric studies on Luke 24 vs. Acts.",
+      "sources": [],
+      "category": "Core"
+    },
+    {
+      "claim": "Our earliest manuscripts read Jesus the Nazarene, not of Nazareth, but of the Nazarene sect.",
+      "rating": "Misleading to False",
+      "confidence": "High",
+      "timestamp": "25:10",
+      "evidence": "Mainstream scholarship overwhelmingly treats 'Nazarene/Nazoraios' as a geographic designation derived from Nazareth. The sectarian interpretation is a fringe position.",
+      "settle": "Consult BDAG entry for Ναζωραῖος and scholarly commentaries on Matthew 2:23.",
+      "sources": [
+        {
+          "label": "Nazarene (title) — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nazarene_(title)"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "In the Septuagint, Leviticus 2:1, prosphagion refers to oil or side offerings presented with bread.",
+      "rating": "Likely False",
+      "confidence": "Medium",
+      "timestamp": "14:08",
+      "evidence": "Prosphagion does not appear in the standard LXX text of Leviticus 2:1. The verse discusses grain offerings (σεμίδαλιν) and oil (ἔλαιον).",
+      "settle": "Check the LXX text of Leviticus 2:1 in Rahlfs or Göttingen edition.",
+      "sources": [],
+      "category": "Core"
+    },
+    {
+      "claim": "Davidson's Courtesans and Fishcakes shows opson could mean any side dish, especially vegetables.",
+      "rating": "Misleading",
+      "confidence": "Medium",
+      "timestamp": "15:09",
+      "evidence": "Davidson's book is primarily about ancient Greek obsession with fish and seafood as the premier form of opson. The speaker inverts the book's argument.",
+      "settle": "Read Davidson, Courtesans and Fishcakes (1997), especially chapters on opson.",
+      "sources": [],
+      "category": "Support"
+    },
+    {
+      "claim": "Finicius Arabius, a 2nd century CE Greek grammarian, confirmed that opson wasn't just fish.",
+      "rating": "Misleading · Unidentifiable authority",
+      "confidence": "High",
+      "timestamp": "16:04",
+      "evidence": "No classical author named 'Finicius Arabius' exists in any standard reference. Likely a garbled reference to Athenaeus of Naucratis or Julius Pollux.",
+      "settle": "Search classical prosopographies and grammarian indexes for 'Finicius Arabius.'",
+      "sources": [],
+      "category": "Core"
+    },
+    {
+      "claim": "The Hebrew Gospel of Matthew is 'almost certainly earlier than the Greek one we read today.'",
+      "rating": "Misleading",
+      "confidence": "Medium",
+      "timestamp": "23:12",
+      "evidence": "Most scholars treat the Gospel of the Hebrews/Nazarenes as related but separate texts known only through fragmentary patristic quotations. The claim it is 'almost certainly earlier' is not the mainstream scholarly position.",
+      "settle": "Consult Kloppenborg or Vielhauer on Jewish-Christian gospel fragments.",
+      "sources": [
+        {
+          "label": "Jewish-Christian gospels — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jewish%E2%80%93Christian_gospels"
+        }
+      ],
+      "category": "Support"
+    },
+    {
+      "claim": "The Didache and Irenaeus also mention bread, no fish regarding the feeding miracles.",
+      "rating": "Misleading",
+      "confidence": "Medium",
+      "timestamp": "5:52",
+      "evidence": "While the Didache's eucharistic prayers reference bread, this is a liturgical context, not a retelling of the feeding miracles. Selective patristic citation omits that the feeding narratives themselves include fish.",
+      "settle": "Read Didache 9–10 in full; compare with gospel feeding narratives.",
+      "sources": [],
+      "category": "Support"
+    },
+    {
+      "claim": "Clement of Alexandria, Arnobius, Cyril of Jerusalem, Augustine, Chrysostom, and Theodore of Heraclea all discuss the miracle only in terms of bread.",
+      "rating": "Misleading",
+      "confidence": "Medium",
+      "timestamp": "5:58",
+      "evidence": "Selective citation. Church fathers discussing the eucharistic significance of the feeding miracles naturally emphasize bread. This does not mean they denied fish was present in the narrative.",
+      "settle": "Check the full patristic commentaries on Matthew 14 and John 6.",
+      "sources": [],
+      "category": "Support"
+    },
+    {
+      "claim": "Church father Tertullian, one of our earliest sources, only mentions the honeycomb in Luke 24.",
+      "rating": "Misleading",
+      "confidence": "Medium",
+      "timestamp": "7:35",
+      "evidence": "Tertullian's reference reflects the textual variant in some manuscripts (Codex Bezae tradition). This is a genuine textual variant, but presenting it as evidence that fish was absent from the original text goes beyond what the manuscript evidence supports.",
+      "settle": "Consult Metzger's Textual Commentary on the Greek New Testament for Luke 24:42.",
+      "sources": [],
+      "category": "Support"
+    },
+    {
+      "claim": "NT Wright and John Dominic Crossan agree Luke 24 reads like crafted literature rather than straight history.",
+      "rating": "Misleading",
+      "confidence": "Medium",
+      "timestamp": "7:45",
+      "evidence": "Wright and Crossan have fundamentally opposed views on the resurrection. Pairing them implies agreement on the unreliability of Luke 24, but Wright sees crafted literature that conveys historical reality, while Crossan denies the historical resurrection. The agreement is superficial.",
+      "settle": "Compare Wright, Resurrection of the Son of God, with Crossan, The Historical Jesus.",
+      "sources": [],
+      "category": "Support"
+    },
+    {
+      "claim": "The stylometric gap suggests not just a different author but a different era altogether.",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "8:44",
+      "evidence": "Based on the unsubstantiated stylometric study (claim 19). Even if stylometric differences existed, 'different era' is an enormous inferential leap from stylistic variation.",
+      "settle": "Requires the underlying stylometric study to be verified first.",
+      "sources": [],
+      "category": "Support"
     }
-  },
-  "youtubeFlags": {
-    "titleAccuracy": "The title 'The Gospel Catch: Something Fishy About Jesus' Dinner?' accurately represents the video's content. No significant mismatch.",
-    "impliedClaims": "Implied: The early church was vegetarian and Jesus's original movement rejected animal products. Also implied: if one apologist (Wes Huff) made a mistake about Greek words, the mainstream position on Jesus eating fish is poorly informed.",
-    "monetizationFlags": "The speaker promotes two documentaries (Seaspiracy and Christspiracy: The Spirituality Secret) at both the beginning and end of the video. The speaker is the co-director and producer of both films. This creates a financial incentive to present the thesis as compellingly as possible."
-  },
+  ],
   "stratagems": [
     {
       "number": 11,
       "name": "Induction with Concealed Counterexamples",
-      "severity": "significant",
-      "timestamp": "5:37–6:17",
-      "quote": "In Matthew 16 and Mark 8, Jesus recalls multiplying the loaves alone. He doesn't mention the fish at all. That's huge… Fish doesn't even splash onto the manuscript record until 200 CE.",
-      "explanation": "Selectively cites recollection passages where Jesus mentions loaves and baskets — which is accurate — but conceals that the feeding narratives in all four gospels explicitly include fish. The 200 CE papyrus claim further conceals that opsarion appears in John 6:9, 11. The induction ('the earliest sources only mention bread') is built by hiding the counterexamples."
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "In Matthew 16 and Mark 8, Jesus recalls multiplying the loaves alone. He doesn't mention the fish at all. That's huge… Fish doesn't even splash onto the manuscript record until 200 CE.",
+          "timestamp": "5:37–6:17",
+          "explanation": "Selectively cites recollection passages where Jesus mentions loaves and baskets — which is accurate — but conceals that the feeding narratives in all four gospels explicitly include fish. The 200 CE papyrus claim further conceals that opsarion appears in John 6:9, 11."
+        }
+      ]
     },
     {
       "number": 5,
       "name": "Using Opponent's Beliefs Against Him",
-      "severity": "moderate",
-      "timestamp": "6:56–7:14",
-      "quote": "The long ending of Mark… is almost universally recognized even by apologists like Wes Huff as a later tack-on.",
-      "explanation": "Establishes consensus on the long ending of Mark — which is genuine — then leverages the audience's acceptance to imply Luke 24 and John 21 are similarly secondary. The comparison is structurally misleading: the long ending of Mark lacks manuscript support, while no manuscript of John lacks chapter 21."
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "The long ending of Mark… is almost universally recognized even by apologists like Wes Huff as a later tack-on.",
+          "timestamp": "6:56–7:14",
+          "explanation": "Establishes consensus on the long ending of Mark — which is genuine — then leverages the audience's acceptance to imply Luke 24 and John 21 are similarly secondary. The comparison is structurally misleading: the long ending of Mark lacks manuscript support, while no manuscript of John lacks chapter 21."
+        }
+      ]
     },
     {
       "number": 23,
       "name": "Extending the Opponent's Proposition Beyond Its Natural Limits",
-      "severity": "significant",
-      "timestamp": "14:03–16:22",
-      "quote": "Prosphagion doesn't necessarily mean fish. It simply means food or anything eaten with bread… Opsarion, same issue.",
-      "explanation": "Takes a legitimate lexical observation (these words have broader etymological roots) and extends it far beyond what the evidence supports. In NT-era Greek, opsarion had become a standard word for fish, as BDAG confirms. The etymological range centuries earlier does not determine contextual meaning in a 1st-century fishing narrative."
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "Prosphagion doesn't necessarily mean fish. It simply means food or anything eaten with bread… Opsarion, same issue.",
+          "timestamp": "14:03–16:22",
+          "explanation": "Takes a legitimate lexical observation (these words have broader etymological roots) and extends it far beyond what the evidence supports. In NT-era Greek, opsarion had become a standard word for fish, as BDAG confirms."
+        }
+      ]
     },
     {
       "number": 19,
       "name": "Generalizing from a Particular",
-      "severity": "moderate",
-      "timestamp": "23:55–25:03",
-      "quote": "If Mary raised James that way, are we supposed to believe that she raised Jesus differently?… If Jesus had eaten meat, Paul could have easily ended the debate.",
-      "explanation": "Generalizes from Hegesippus's description of James's asceticism to a universal claim about Jesus's practices. Assumes siblings share identical dietary practices. The argument from Paul's silence is similarly an unwarranted generalization from absence of evidence."
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "If Mary raised James that way, are we supposed to believe that she raised Jesus differently?… If Jesus had eaten meat, Paul could have easily ended the debate.",
+          "timestamp": "23:55–25:03",
+          "explanation": "Generalizes from Hegesippus's description of James's asceticism to a universal claim about Jesus's practices. Assumes siblings share identical dietary practices. The argument from Paul's silence is similarly an unwarranted generalization from absence of evidence."
+        }
+      ]
     },
     {
       "number": 12,
       "name": "Strategic Word Choice to Prejudge the Issue",
-      "severity": "moderate",
-      "timestamp": "14:03–14:28",
-      "quote": "Prosphagion… simply means food… Opsarion… originally meant any side dish or relish.",
-      "explanation": "By consistently translating opsarion as 'relish' and prosphagion as 'food,' the speaker pre-loads the conclusion. Standard NT lexicons (BDAG, Thayer's, Strong's) render both words with 'fish' as the primary or co-primary meaning in their NT contexts."
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "Prosphagion… simply means food… Opsarion… originally meant any side dish or relish.",
+          "timestamp": "14:03–14:28",
+          "explanation": "By consistently translating opsarion as 'relish' and prosphagion as 'food,' the speaker pre-loads the conclusion. Standard NT lexicons (BDAG, Thayer's, Strong's) render both words with 'fish' as the primary or co-primary meaning in their NT contexts."
+        }
+      ]
     },
     {
       "number": 30,
       "name": "Appeal to Authority (Misattributed or Unverifiable)",
-      "severity": "significant",
-      "timestamp": "16:04–16:14",
-      "quote": "Finicius Arabius, a 2nd century CE Greek grammarian, confirmed that opson wasn't just fish.",
-      "explanation": "No ancient author named 'Finicius Arabius' can be identified in classical scholarship. This is likely a garbled reference to Athenaeus of Naucratis or possibly Julius Pollux. Citing an unverifiable authority by an incorrect name to support a core claim is a form of false appeal to authority."
-    }
-  ],
-  "weaselWords": [
-    {
-      "term": "Most biblical scholars",
-      "timestamp": "4:25",
-      "quote": "Most biblical scholars call it legendary development.",
-      "note": "Transfers the claim to an unnamed majority without citation."
-    },
-    {
-      "term": "Many scholars / may",
-      "timestamp": "19:47",
-      "quote": "Many scholars believe [Gospel of Thomas] may preserve some of the earliest recorded sayings of Jesus.",
-      "note": "'Many scholars' and 'may' together create an unfalsifiable hedge."
-    },
-    {
-      "term": "Many reasonably assume",
-      "timestamp": "21:02",
-      "quote": "Many reasonably assume the fish are eaten.",
-      "note": "Attributes the mainstream reading to assumption rather than textual evidence."
-    },
-    {
-      "term": "Maybe the real opson",
-      "timestamp": "22:35",
-      "quote": "Maybe the real opson Jesus served wasn't seafood. It was food for thought.",
-      "note": "Rhetorically frames speculative interpretation as the 'real' meaning."
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "Finicius Arabius, a 2nd century CE Greek grammarian, confirmed that opson wasn't just fish.",
+          "timestamp": "16:04–16:14",
+          "explanation": "No ancient author named 'Finicius Arabius' can be identified in classical scholarship. This is likely a garbled reference to Athenaeus of Naucratis or possibly Julius Pollux. Citing an unverifiable authority by an incorrect name to support a core claim is a form of false appeal to authority."
+        }
+      ]
     }
   ],
   "scholarlySplits": [
     {
-      "claimNumber": 5,
       "claim": "Most scholars call Luke 5's expansion 'legendary development'",
-      "divide": "Whether Luke 5:1–11 represents historical memory or theological elaboration.",
-      "consensus": "Majority accepts some form of literary development from Mark; minority holds to historicity.",
+      "nature": "Whether Luke 5:1–11 represents historical memory or theological elaboration. Majority accepts some form of literary development from Mark; minority holds to historicity.",
       "timestamp": "4:25"
     },
     {
-      "claimNumber": 21,
       "claim": "Most scholars agree John 21 was tacked on later",
-      "divide": "Whether John 21 is original to the Fourth Gospel.",
-      "consensus": "Split: many scholars see it as a later appendix (Brown, Bultmann); significant minority defends originality (Porter, Bauckham). No manuscript lacks John 21.",
+      "nature": "Whether John 21 is original to the Fourth Gospel. Split: many scholars see it as a later appendix (Brown, Bultmann); significant minority defends originality (Porter, Bauckham). No manuscript lacks John 21.",
       "timestamp": "12:09"
     },
     {
-      "claimNumber": 24,
       "claim": "Prosphagion/opsarion mean 'food/relish' broadly, not 'fish' specifically",
-      "divide": "Lexical range of opsarion/prosphagion in 1st-century Greek.",
-      "consensus": "Consensus: both words had broader etymological origins but in NT usage primarily denote fish. Minority: broader meanings should be prioritized.",
+      "nature": "Lexical range of opsarion/prosphagion in 1st-century Greek. Consensus: both words had broader etymological origins but in NT usage primarily denote fish. Minority: broader meanings should be prioritized.",
       "timestamp": "14:03"
     },
     {
-      "claimNumber": 34,
       "claim": "Pythagoras taught vegetarianism and non-violence",
-      "divide": "Whether Pythagorean vegetarianism was universal or only practiced by some adherents.",
-      "consensus": "Ancient sources (Iamblichus, Porphyry, Diogenes Laertius) attest vegetarianism; but Aristoxenus denied Pythagoras was vegetarian. Genuine ancient debate.",
+      "nature": "Whether Pythagorean vegetarianism was universal or only practiced by some adherents. Ancient sources (Iamblichus, Porphyry, Diogenes Laertius) attest vegetarianism; but Aristoxenus denied Pythagoras was vegetarian. Genuine ancient debate.",
       "timestamp": "18:11"
     }
   ],
-  "mostlyTrueClaims": [
-    { "claimNumber": 1, "summary": "Markan priority is mainstream scholarly consensus — confirmed by virtually all critical NT introductions." },
-    { "claimNumber": 2, "summary": "Mark 1:16–20 contains no miraculous catch — accurate per the text." },
-    { "claimNumber": 3, "summary": "Matthew 4:18–22 parallels Mark with no miraculous catch — accurate." },
-    { "claimNumber": 4, "summary": "The miraculous catch in the calling narrative appears only in Luke 5:1–11 among the Synoptics." },
-    { "claimNumber": 6, "summary": "John 1:35–51 contains no mention of boats or fishing — accurate." },
-    { "claimNumber": 7, "summary": "Global fish kill estimates of 1.1–2.2 trillion annually — sourced from fishcount.org.uk." },
-    { "claimNumber": 9, "summary": "All four gospels emphasize bread/loaves in the feeding miracle narratives." },
-    { "claimNumber": 10, "summary": "In Matthew 16:9–10 and Mark 8:19–20, Jesus recalls feedings mentioning only loaves and baskets." },
-    { "claimNumber": 14, "summary": "Luke 24:42–43 is the only gospel passage where Jesus explicitly eats fish." },
-    { "claimNumber": 15, "summary": "The long ending of Mark (16:9–20) is widely recognized as secondary." },
-    { "claimNumber": 16, "summary": "The 'honeycomb' variant in Luke 24:42 is attested in Codex Bezae and some Old Latin manuscripts." },
-    { "claimNumber": 22, "summary": "John 20:30–31 reads as a plausible conclusion — widely recognized in Johannine scholarship." },
-    { "claimNumber": 23, "summary": "Three Greek words (prosphagion, opsarion, ichthus) appear in John 21 within a few verses." },
-    { "claimNumber": 32, "summary": "Roman authorities tested suspected Christians by demanding sacrifice — documented in Pliny's letter to Trajan." },
-    { "claimNumber": 33, "summary": "153 is a triangular number (1+2+3+…+17 = 153) — mathematically verified." },
-    { "claimNumber": 36, "summary": "265/153 ≈ √3 — mathematically verified Pythagorean approximation." },
-    { "claimNumber": 37, "summary": "Augustine discussed 153 as a triangular number — confirmed in Tractates on John 122.8–9." },
-    { "claimNumber": 39, "summary": "Gospel of Thomas saying 8 describes a fisherman keeping one large fish — accurate per Thomas 8." },
-    { "claimNumber": 40, "summary": "Iamblichus's Life of Pythagoras contains the story of Pythagoras predicting fishermen's catch — attested." },
-    { "claimNumber": 42, "summary": "Gospel of the Hebrews fragment describes the risen Jesus appearing to James and breaking bread — accurately reflects the preserved fragment." },
-    { "claimNumber": 43, "summary": "Hegesippus describes James as never eating flesh — accurate per Eusebius, Ecclesiastical History 2.23." },
-    { "claimNumber": 45, "summary": "Romans 14:2 — Paul states some eat only vegetables and calls their faith 'weak' — accurate per the text." }
+  "trueClaims": [
+    "Markan priority is mainstream scholarly consensus — confirmed by virtually all critical NT introductions",
+    "Mark 1:16–20 contains no miraculous catch — accurate per the text",
+    "Matthew 4:18–22 parallels Mark with no miraculous catch — accurate",
+    "The miraculous catch in the calling narrative appears only in Luke 5:1–11 among the Synoptics",
+    "John 1:35–51 contains no mention of boats or fishing — accurate",
+    "Global fish kill estimates of 1.1–2.2 trillion annually — sourced from fishcount.org.uk",
+    "Every gospel spotlights loaves in the blessing, breaking, and multiplying of the feeding miracles",
+    "In Matthew 16:9–10 and Mark 8:19–20, Jesus recalls feedings mentioning only loaves and baskets",
+    "Luke 24:42–43 is the only gospel passage where Jesus explicitly eats fish",
+    "The long ending of Mark (16:9–20) is widely recognized as secondary",
+    "The 'honeycomb' variant in Luke 24:42 is attested in Codex Bezae and some Old Latin manuscripts",
+    "John 20:30–31 reads as a plausible conclusion — widely recognized in Johannine scholarship",
+    "Three Greek words (prosphagion, opsarion, ichthus) appear in John 21 within a few verses",
+    "Roman authorities tested suspected Christians by demanding sacrifice — documented in Pliny's letter to Trajan",
+    "153 is a triangular number (1+2+3+…+17 = 153) — mathematically verified",
+    "265/153 ≈ √3 — mathematically verified Pythagorean approximation",
+    "Augustine discussed 153 as a triangular number — confirmed in Tractates on John 122.8–9",
+    "Gospel of Thomas saying 8 describes a fisherman keeping one large fish — accurate per Thomas 8",
+    "Iamblichus's Life of Pythagoras contains the story of Pythagoras predicting fishermen's catch — attested",
+    "Gospel of the Hebrews fragment describes the risen Jesus appearing to James and breaking bread — accurately reflects the preserved fragment",
+    "Hegesippus describes James as never eating flesh — accurate per Eusebius, Ecclesiastical History 2.23",
+    "Romans 14:2 — Paul states some eat only vegetables and calls their faith 'weak' — accurate per the text"
   ],
-  "falseOrMisleadingClaims": [
+  "youtubeFlags": [
     {
-      "claimNumber": 28,
-      "rating": "False",
-      "claim": "Opsarion only shows up in John 21.",
-      "explanation": "Opsarion (ὀψάριον) also appears in John 6:9 and 6:11 (the feeding of the 5,000).",
-      "timestamp": "11:17",
-      "confidence": "High"
+      "type": "Title Accuracy",
+      "severity": "info",
+      "text": "The title 'The Gospel Catch: Something Fishy About Jesus' Dinner?' accurately represents the video's content. No significant mismatch."
     },
     {
-      "claimNumber": 13,
-      "rating": "Misleading",
-      "claim": "Fish doesn't even splash onto the manuscript record until 200 CE. No papyrus earlier.",
-      "explanation": "Fish (ichthus) appears in all four canonical feeding narratives. The earliest manuscripts containing these passages (P75, c. 175–225 CE; P66, c. 200 CE) include fish. No manuscript tradition of any gospel lacks fish from the feeding narratives.",
-      "timestamp": "6:12",
-      "confidence": "High"
+      "type": "Implied Claims",
+      "severity": "warning",
+      "text": "Implied: The early church was vegetarian and Jesus's original movement rejected animal products. Also implied: if one apologist (Wes Huff) made a mistake about Greek words, the mainstream position on Jesus eating fish is poorly informed."
     },
     {
-      "claimNumber": 19,
-      "rating": "Misleading/Unsubstantiated",
-      "claim": "Stylometric analysis shows Luke 24 clusters closer to Acts at 96–98% accuracy.",
-      "explanation": "No peer-reviewed study making this specific claim can be located. The precision of '96 to 98%' suggests a specific citation, but none is provided.",
-      "timestamp": "8:15",
-      "confidence": "High"
-    },
-    {
-      "claimNumber": 46,
-      "rating": "Misleading to False",
-      "claim": "Our earliest manuscripts read Jesus the Nazarene, not of Nazareth, but of the Nazarene sect.",
-      "explanation": "Mainstream scholarship overwhelmingly treats 'Nazarene/Nazoraios' as a geographic designation derived from Nazareth. The sectarian interpretation is a fringe position.",
-      "timestamp": "25:10",
-      "confidence": "High"
-    },
-    {
-      "claimNumber": 25,
-      "rating": "Likely False",
-      "claim": "In the Septuagint, Leviticus 2:1, prosphagion refers to oil or side offerings presented with bread.",
-      "explanation": "Prosphagion does not appear in the standard LXX text of Leviticus 2:1. The verse discusses grain offerings (σεμίδαλιν) and oil (ἔλαιον).",
-      "timestamp": "14:08",
-      "confidence": "Medium"
-    },
-    {
-      "claimNumber": 29,
-      "rating": "Misleading",
-      "claim": "Davidson's Courtesans and Fishcakes shows opson could mean any side dish, especially vegetables.",
-      "explanation": "Davidson's book is primarily about ancient Greek obsession with fish and seafood as the premier form of opson. The speaker inverts the book's argument.",
-      "timestamp": "15:09",
-      "confidence": "Medium"
-    },
-    {
-      "claimNumber": 30,
-      "rating": "Misleading — unidentifiable authority",
-      "claim": "Finicius Arabius, a 2nd century CE Greek grammarian, confirmed that opson wasn't just fish.",
-      "explanation": "No classical author named 'Finicius Arabius' exists in any standard reference. Likely a garbled reference to Athenaeus of Naucratis or Julius Pollux.",
-      "timestamp": "16:04",
-      "confidence": "High"
-    },
-    {
-      "claimNumber": 41,
-      "rating": "Misleading",
-      "claim": "The Hebrew Gospel of Matthew is 'almost certainly earlier than the Greek one we read today.'",
-      "explanation": "Most scholars treat the Gospel of the Hebrews/Nazarenes as related but separate texts known only through fragmentary patristic quotations. The claim it is 'almost certainly earlier' is not the mainstream scholarly position.",
-      "timestamp": "23:12",
-      "confidence": "Medium"
-    },
-    {
-      "claimNumber": 11,
-      "rating": "Misleading",
-      "claim": "The Didache and Irenaeus also mention bread, no fish regarding the feeding miracles.",
-      "explanation": "While the Didache's eucharistic prayers reference bread, this is a liturgical context, not a retelling of the feeding miracles. Selective patristic citation omits that the feeding narratives themselves include fish.",
-      "timestamp": "5:52",
-      "confidence": "Medium"
-    },
-    {
-      "claimNumber": 12,
-      "rating": "Misleading",
-      "claim": "Clement of Alexandria, Arnobius, Cyril of Jerusalem, Augustine, Chrysostom, and Theodore of Heraclea all discuss the miracle only in terms of bread.",
-      "explanation": "Selective citation. Church fathers discussing the eucharistic significance of the feeding miracles naturally emphasize bread. This does not mean they denied fish was present in the narrative.",
-      "timestamp": "5:58",
-      "confidence": "Medium"
-    },
-    {
-      "claimNumber": 17,
-      "rating": "Misleading",
-      "claim": "Church father Tertullian, one of our earliest sources, only mentions the honeycomb in Luke 24.",
-      "explanation": "Tertullian's reference reflects the textual variant in some manuscripts (Codex Bezae tradition). This is a genuine textual variant, but presenting it as evidence that fish was absent from the original text goes beyond what the manuscript evidence supports.",
-      "timestamp": "7:35",
-      "confidence": "Medium"
-    },
-    {
-      "claimNumber": 18,
-      "rating": "Misleading",
-      "claim": "NT Wright and John Dominic Crossan agree Luke 24 reads like crafted literature rather than straight history.",
-      "explanation": "Wright and Crossan have fundamentally opposed views on the resurrection. Pairing them implies agreement on the unreliability of Luke 24, but Wright sees crafted literature that conveys historical reality, while Crossan denies the historical resurrection. The agreement is superficial.",
-      "timestamp": "7:45",
-      "confidence": "Medium"
-    },
-    {
-      "claimNumber": 20,
-      "rating": "Misleading",
-      "claim": "The stylometric gap suggests not just a different author but a different era altogether, decades or more after Luke's core was written.",
-      "explanation": "Based on the unsubstantiated stylometric study (claim 19). Even if stylometric differences existed, 'different era' is an enormous inferential leap from stylistic variation.",
-      "timestamp": "8:44",
-      "confidence": "High"
+      "type": "Monetization",
+      "severity": "warning",
+      "text": "The speaker promotes two documentaries (Seaspiracy and Christspiracy: The Spirituality Secret) at both the beginning and end of the video. The speaker is the co-director and producer of both films. This creates a financial incentive to present the thesis as compellingly as possible."
     }
   ],
-  "sourceVerification": [
-    {
-      "source": "BDAG lexicon — opsarion",
-      "assessment": "BDAG confirms opsarion means 'fish' in NT usage. The broader etymological range does not override contextual meaning in a fishing narrative."
-    },
-    {
-      "source": "James Davidson, Courtesans and Fishcakes (1997)",
-      "assessment": "The book's thesis is about the cultural centrality of fish in Greek dining, not about opson meaning vegetables. The speaker inverts the book's argument."
-    },
-    {
-      "source": "'Finicius Arabius'",
-      "assessment": "No classical author by this name exists in standard references. Likely a garbled reference to Athenaeus of Naucratis or Julius Pollux."
-    }
-  ],
+  "weightedAnalysis": {
+    "categories": [
+      {
+        "name": "Core",
+        "claims": 10,
+        "weight": 3,
+        "trueWeighted": 12,
+        "falseWeighted": 18,
+        "disputedWeighted": 0
+      },
+      {
+        "name": "Support",
+        "claims": 15,
+        "weight": 2,
+        "trueWeighted": 22,
+        "falseWeighted": 8,
+        "disputedWeighted": 0
+      },
+      {
+        "name": "Background",
+        "claims": 14,
+        "weight": 1,
+        "trueWeighted": 14,
+        "falseWeighted": 0,
+        "disputedWeighted": 0
+      }
+    ],
+    "errorImpact": 32,
+    "interpretation": "At 32%, this session approaches but does not quite reach the 'misleading overall' threshold (≥35%). Core thesis claims carry the heaviest error load — the opsarion claim, 200 CE papyrus claim, and unverifiable stylometric study undermine the central argument. Background factual claims are largely accurate."
+  },
   "allClaims": [
-    { "number": 1, "text": "Scholars across the board agree Mark came first and Matthew and Luke borrowed from it.", "timestamp": "4:07", "verdict": "True" },
-    { "number": 2, "text": "In Mark 1, there is no miraculous catch of fish when Jesus calls the disciples.", "timestamp": "4:12", "verdict": "True" },
-    { "number": 3, "text": "In Matthew's parallel, there is likewise no miraculous catch.", "timestamp": "4:18", "verdict": "True" },
-    { "number": 4, "text": "Only in Luke 5 does the scene expand into a miraculous catch.", "timestamp": "4:19", "verdict": "True" },
-    { "number": 5, "text": "Most biblical scholars call it legendary development.", "timestamp": "4:25", "verdict": "Disputed" },
-    { "number": 6, "text": "In John's gospel, when Jesus calls his first followers, no mention of even a boat.", "timestamp": "4:33", "verdict": "True" },
-    { "number": 7, "text": "Humans kill 1.1–2.2 trillion fish per year.", "timestamp": "2:48", "verdict": "True" },
-    { "number": 8, "text": "Another 20 million metric tons of bycatch annually.", "timestamp": "3:01", "verdict": "True" },
-    { "number": 9, "text": "Every gospel spotlights loaves in the blessing, breaking, and multiplying of the feeding miracles, with baskets of leftover bread collected.", "timestamp": "5:15", "verdict": "True" },
-    { "number": 10, "text": "In Matthew 16 and Mark 8, Jesus recalls multiplying loaves alone — no mention of fish.", "timestamp": "5:37", "verdict": "True" },
-    { "number": 11, "text": "The Didache and Irenaeus also mention bread, no fish regarding the feeding miracles.", "timestamp": "5:52", "verdict": "Misleading" },
-    { "number": 12, "text": "Clement of Alexandria, Arnobius, Cyril of Jerusalem, Augustine, Chrysostom, and Theodore of Heraclea all discuss the miracle only in terms of bread.", "timestamp": "5:58", "verdict": "Misleading" },
-    { "number": 13, "text": "Fish doesn't even splash onto the manuscript record until 200 CE. No papyrus earlier.", "timestamp": "6:12", "verdict": "Misleading" },
-    { "number": 14, "text": "Luke 24 is the only gospel where Jesus is shown eating fish.", "timestamp": "6:40", "verdict": "True" },
-    { "number": 15, "text": "The long ending of Mark (16:9–20) is almost universally recognized as a later addition.", "timestamp": "6:56", "verdict": "True" },
-    { "number": 16, "text": "Some manuscripts of Luke 24 say 'boiled fish,' others say 'broiled fish and honeycomb.'", "timestamp": "7:25", "verdict": "True" },
-    { "number": 17, "text": "Church father Tertullian, one of our earliest sources, only mentions the honeycomb in Luke 24.", "timestamp": "7:35", "verdict": "Misleading" },
-    { "number": 18, "text": "NT Wright and John Dominic Crossan agree Luke 24 reads like crafted literature rather than straight history.", "timestamp": "7:45", "verdict": "Misleading" },
-    { "number": 19, "text": "Stylometric analysis shows Luke 24 clusters closer to Acts than the rest of Luke at 96–98% accuracy.", "timestamp": "8:15", "verdict": "Misleading" },
-    { "number": 20, "text": "The stylometric gap suggests not just a different author but a different era altogether.", "timestamp": "8:44", "verdict": "Misleading" },
-    { "number": 21, "text": "Most scholars agree John 21 was tacked on later.", "timestamp": "12:09", "verdict": "Disputed" },
-    { "number": 22, "text": "John 20:30–31 sounds like a pretty natural conclusion.", "timestamp": "12:35", "verdict": "True" },
-    { "number": 23, "text": "Three different Greek words — prosphagion, opsarion, and ichthus — appear in John 21 within a few sentences.", "timestamp": "13:23", "verdict": "True" },
-    { "number": 24, "text": "Prosphagion simply means food or anything eaten with bread.", "timestamp": "14:03", "verdict": "Disputed" },
-    { "number": 25, "text": "In the Septuagint, Leviticus 2:1, prosphagion refers to oil or side offerings presented with bread.", "timestamp": "14:08", "verdict": "False" },
-    { "number": 26, "text": "Opsarion originally meant any side dish or relish served with bread.", "timestamp": "14:17", "verdict": "Disputed" },
-    { "number": 27, "text": "In Homer's Iliad, opsarion is literally a relish made out of onions.", "timestamp": "14:24", "verdict": "True" },
-    { "number": 28, "text": "Opsarion only shows up in John 21.", "timestamp": "11:17", "verdict": "False" },
-    { "number": 29, "text": "Davidson's Courtesans and Fishcakes dedicates over 250 pages to showing opson could mean any side dish.", "timestamp": "15:09", "verdict": "Misleading" },
-    { "number": 30, "text": "Finicius Arabius, a 2nd century CE Greek grammarian, confirmed that opson wasn't just fish.", "timestamp": "16:04", "verdict": "Misleading" },
-    { "number": 31, "text": "Ichthus was an acronym for 'Jesus Christ, God's Son, Savior' used as a secret Christian symbol.", "timestamp": "17:02", "verdict": "True" },
-    { "number": 32, "text": "One common way authorities tested suspected Christians was by forcing them to kill or eat animals in a ritual sacrifice.", "timestamp": "17:33", "verdict": "True" },
-    { "number": 33, "text": "153 is a triangular number.", "timestamp": "17:58", "verdict": "True" },
-    { "number": 34, "text": "Pythagoras taught non-violence, vegetarianism, and the rejection of animal sacrifice.", "timestamp": "18:11", "verdict": "Disputed" },
-    { "number": 35, "text": "Josephus and even Philo wrote about the connections between the Essenes and Pythagoreanism.", "timestamp": "18:29", "verdict": "True" },
-    { "number": 36, "text": "The vesica piscis width-to-height ratio is about 265 to 153, approximating the square root of three.", "timestamp": "18:37", "verdict": "True" },
-    { "number": 37, "text": "Augustine noted 153 was a triangular number symbolizing completeness and unity of all the faithful.", "timestamp": "19:02", "verdict": "True" },
-    { "number": 38, "text": "Elaine Pagels thinks the gospel of John is a polemic of Thomas.", "timestamp": "19:55", "verdict": "True" },
-    { "number": 39, "text": "In Gospel of Thomas saying 8, Jesus compares the kingdom to a fisherman who finds one large fish and throws the rest back.", "timestamp": "20:05", "verdict": "True" },
-    { "number": 40, "text": "In Iamblichus's Life of Pythagoras, Pythagoras approaches fishermen, guesses the exact number of fish, and they release them.", "timestamp": "20:35", "verdict": "True" },
-    { "number": 41, "text": "Jerome, Origen, and Epiphanius all reference a Hebrew Gospel of Matthew, almost certainly earlier than the Greek one we read today.", "timestamp": "23:12", "verdict": "Misleading" },
-    { "number": 42, "text": "In that Hebrew gospel, the risen Jesus appears first to James the Just, and they break bread together. No fish.", "timestamp": "23:30", "verdict": "True" },
-    { "number": 43, "text": "James, according to Hegesippus, was holy from his mother's womb and never ate flesh or even wore wool.", "timestamp": "23:55", "verdict": "True" },
-    { "number": 44, "text": "The Nazarenes and Ebionites rejected meat and animal sacrifice believing that Jesus came to end it.", "timestamp": "24:22", "verdict": "True" },
-    { "number": 45, "text": "Paul admits that some of the early followers only ate vegetables and calls them weak.", "timestamp": "24:38", "verdict": "True" },
-    { "number": 46, "text": "The inscription on the cross reads Jesus the Nazarene, not of Nazareth, but of the Nazarene sect.", "timestamp": "25:10", "verdict": "False" },
-    { "number": 47, "text": "Fish can recognize human faces and remember tasks for months. They signal pain with the same opioid receptors that we do.", "timestamp": "26:00", "verdict": "True" }
+    { "num": 1, "text": "Scholars across the board agree Mark came first and Matthew and Luke borrowed from it.", "timestamp": "4:07", "verdict": "true" },
+    { "num": 2, "text": "In Mark 1, there is no miraculous catch of fish when Jesus calls the disciples.", "timestamp": "4:12", "verdict": "true" },
+    { "num": 3, "text": "In Matthew's parallel, there is likewise no miraculous catch.", "timestamp": "4:18", "verdict": "true" },
+    { "num": 4, "text": "Only in Luke 5 does the scene expand into a miraculous catch.", "timestamp": "4:19", "verdict": "true" },
+    { "num": 5, "text": "Most biblical scholars call it legendary development.", "timestamp": "4:25", "verdict": "disputed" },
+    { "num": 6, "text": "In John's gospel, when Jesus calls his first followers, no mention of even a boat.", "timestamp": "4:33", "verdict": "true" },
+    { "num": 7, "text": "Humans kill 1.1–2.2 trillion fish per year.", "timestamp": "2:48", "verdict": "true" },
+    { "num": 8, "text": "Another 20 million metric tons of bycatch annually.", "timestamp": "3:01", "verdict": "true" },
+    { "num": 9, "text": "Every gospel spotlights loaves in the blessing, breaking, and multiplying of the feeding miracles, with baskets of leftover bread collected.", "timestamp": "5:15", "verdict": "true" },
+    { "num": 10, "text": "In Matthew 16 and Mark 8, Jesus recalls multiplying loaves alone — no mention of fish.", "timestamp": "5:37", "verdict": "true" },
+    { "num": 11, "text": "The Didache and Irenaeus also mention bread, no fish regarding the feeding miracles.", "timestamp": "5:52", "verdict": "misleading" },
+    { "num": 12, "text": "Clement of Alexandria, Arnobius, Cyril of Jerusalem, Augustine, Chrysostom, and Theodore of Heraclea all discuss the miracle only in terms of bread.", "timestamp": "5:58", "verdict": "misleading" },
+    { "num": 13, "text": "Fish doesn't even splash onto the manuscript record until 200 CE. No papyrus earlier.", "timestamp": "6:12", "verdict": "misleading" },
+    { "num": 14, "text": "Luke 24 is the only gospel where Jesus is shown eating fish.", "timestamp": "6:40", "verdict": "true" },
+    { "num": 15, "text": "The long ending of Mark (16:9–20) is almost universally recognized as a later addition.", "timestamp": "6:56", "verdict": "true" },
+    { "num": 16, "text": "Some manuscripts of Luke 24 say 'boiled fish,' others say 'broiled fish and honeycomb.'", "timestamp": "7:25", "verdict": "true" },
+    { "num": 17, "text": "Church father Tertullian, one of our earliest sources, only mentions the honeycomb in Luke 24.", "timestamp": "7:35", "verdict": "misleading" },
+    { "num": 18, "text": "NT Wright and John Dominic Crossan agree Luke 24 reads like crafted literature rather than straight history.", "timestamp": "7:45", "verdict": "misleading" },
+    { "num": 19, "text": "Stylometric analysis shows Luke 24 clusters closer to Acts than the rest of Luke at 96–98% accuracy.", "timestamp": "8:15", "verdict": "misleading" },
+    { "num": 20, "text": "The stylometric gap suggests not just a different author but a different era altogether.", "timestamp": "8:44", "verdict": "misleading" },
+    { "num": 21, "text": "Most scholars agree John 21 was tacked on later.", "timestamp": "12:09", "verdict": "disputed" },
+    { "num": 22, "text": "John 20:30–31 sounds like a pretty natural conclusion.", "timestamp": "12:35", "verdict": "true" },
+    { "num": 23, "text": "Three different Greek words — prosphagion, opsarion, and ichthus — appear in John 21 within a few sentences.", "timestamp": "13:23", "verdict": "true" },
+    { "num": 24, "text": "Prosphagion simply means food or anything eaten with bread.", "timestamp": "14:03", "verdict": "disputed" },
+    { "num": 25, "text": "In the Septuagint, Leviticus 2:1, prosphagion refers to oil or side offerings presented with bread.", "timestamp": "14:08", "verdict": "false" },
+    { "num": 26, "text": "Opsarion originally meant any side dish or relish served with bread.", "timestamp": "14:17", "verdict": "disputed" },
+    { "num": 27, "text": "In Homer's Iliad, opsarion is literally a relish made out of onions.", "timestamp": "14:24", "verdict": "true" },
+    { "num": 28, "text": "Opsarion only shows up in John 21.", "timestamp": "11:17", "verdict": "false" },
+    { "num": 29, "text": "Davidson's Courtesans and Fishcakes dedicates over 250 pages to showing opson could mean any side dish.", "timestamp": "15:09", "verdict": "misleading" },
+    { "num": 30, "text": "Finicius Arabius, a 2nd century CE Greek grammarian, confirmed that opson wasn't just fish.", "timestamp": "16:04", "verdict": "misleading" },
+    { "num": 31, "text": "Ichthus was an acronym for 'Jesus Christ, God's Son, Savior' used as a secret Christian symbol.", "timestamp": "17:02", "verdict": "true" },
+    { "num": 32, "text": "One common way authorities tested suspected Christians was by forcing them to kill or eat animals in a ritual sacrifice.", "timestamp": "17:33", "verdict": "true" },
+    { "num": 33, "text": "153 is a triangular number.", "timestamp": "17:58", "verdict": "true" },
+    { "num": 34, "text": "Pythagoras taught non-violence, vegetarianism, and the rejection of animal sacrifice.", "timestamp": "18:11", "verdict": "disputed" },
+    { "num": 35, "text": "Josephus and even Philo wrote about the connections between the Essenes and Pythagoreanism.", "timestamp": "18:29", "verdict": "true" },
+    { "num": 36, "text": "The vesica piscis width-to-height ratio is about 265 to 153, approximating the square root of three.", "timestamp": "18:37", "verdict": "true" },
+    { "num": 37, "text": "Augustine noted 153 was a triangular number symbolizing completeness and unity of all the faithful.", "timestamp": "19:02", "verdict": "true" },
+    { "num": 38, "text": "Elaine Pagels thinks the gospel of John is a polemic of Thomas.", "timestamp": "19:55", "verdict": "true" },
+    { "num": 39, "text": "In Gospel of Thomas saying 8, Jesus compares the kingdom to a fisherman who finds one large fish and throws the rest back.", "timestamp": "20:05", "verdict": "true" },
+    { "num": 40, "text": "In Iamblichus's Life of Pythagoras, Pythagoras approaches fishermen, guesses the exact number of fish, and they release them.", "timestamp": "20:35", "verdict": "true" },
+    { "num": 41, "text": "Jerome, Origen, and Epiphanius all reference a Hebrew Gospel of Matthew, almost certainly earlier than the Greek one we read today.", "timestamp": "23:12", "verdict": "misleading" },
+    { "num": 42, "text": "In that Hebrew gospel, the risen Jesus appears first to James the Just, and they break bread together. No fish.", "timestamp": "23:30", "verdict": "true" },
+    { "num": 43, "text": "James, according to Hegesippus, was holy from his mother's womb and never ate flesh or even wore wool.", "timestamp": "23:55", "verdict": "true" },
+    { "num": 44, "text": "The Nazarenes and Ebionites rejected meat and animal sacrifice believing that Jesus came to end it.", "timestamp": "24:22", "verdict": "true" },
+    { "num": 45, "text": "Paul admits that some of the early followers only ate vegetables and calls them weak.", "timestamp": "24:38", "verdict": "true" },
+    { "num": 46, "text": "The inscription on the cross reads Jesus the Nazarene, not of Nazareth, but of the Nazarene sect.", "timestamp": "25:10", "verdict": "false" },
+    { "num": 47, "text": "Fish can recognize human faces and remember tasks for months. They signal pain with the same opioid receptors that we do.", "timestamp": "26:00", "verdict": "true" }
   ]
 }

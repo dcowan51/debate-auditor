@@ -3,19 +3,17 @@
   "creatorId": "gavin-ortlund",
   "creatorName": "Gavin Ortlund",
   "channel": "@TruthUnites",
-  "platform": "YouTube",
   "videoTitle": "Sola Scriptura Defended",
   "videoUrl": "https://youtu.be/OlF57ewhXAI?si=iE5vbuSApPc-op4v",
-  "datePublished": "2026",
+  "datePublished": "",
   "dateAnalyzed": "2026-03-30",
   "sessionNumber": 1,
-  "mode": 1,
-  "modeLabel": "Single Speaker",
-  "contentType": "video",
   "analyzedRange": "00:00–26:14",
   "thesis": "A defense of the Protestant doctrine of sola scriptura, responding to five common Catholic and Eastern Orthodox objections and acknowledging two challenges to the view.",
   "dashboard": {
     "sessionScore": 89,
+    "cumulativeScore": 89,
+    "cumulativeSessions": 1,
     "trueClaims": 25,
     "falseMisleading": 0,
     "disputed": 3,
@@ -23,154 +21,157 @@
     "confidence": "Medium-High",
     "verdict": "Reliable",
     "stratagems": 2,
-    "weaselWordFlags": 1
+    "weaselWords": 1,
+    "errorImpact": 0
   },
-  "scoreExplanation": "Session score = 25 true ÷ 28 total checked = 89%. Three claims scored as Disputed reflect genuine scholarly disagreements rather than factual errors. No claims scored as false or misleading. Verdict: Reliable (≥80%).",
-  "confidenceExplanation": "Confidence rated Medium-High rather than High because the domain (historical theology, patristics) involves significant interpretive judgments where scholarly consensus is less firm than in, say, textual or chronological claims. The factual backbone of the presentation, however, is solid.",
   "steelman": "Sola scriptura, properly understood, is not a radical rejection of tradition but a carefully articulated hierarchy of authority in which Scripture serves as the final and highest — though not the sole — norm for Christian doctrine, a position that has historical roots in the church fathers' own practice of appealing to Scripture as the ultimate standard even while valuing tradition.",
-  "reliabilityThreshold": {
-    "coreErrorRule": "No core errors detected. The central claims about what sola scriptura means, what the WCF says, and what the biblical texts state are all accurate.",
-    "patternRule": "Fewer than 3 factual errors. No pattern of unreliability.",
-    "misquoteRule": "One minor verbal inaccuracy: Ortlund says 'whoever descends from the sacred scriptures' when the standard translation reads 'whoever dissents from the sacred scriptures.' This appears to be a verbal slip rather than a deliberate misquotation.",
-    "decontextualizationRule": "The Basil citation (claim [16]) omits chapter 27 of the same work, which is the strongest patristic defense of unwritten tradition. However, Ortlund explicitly qualifies that the church fathers were not 'all in favor of sola scriptura' and calls the evidence 'messy.' Not scored as a core error given the explicit caveats.",
-    "quantitativeHeuristic": {
-      "coreWeight3": { "claims": 8, "true": 8, "false": 0, "disputed": 0 },
-      "supportWeight2": { "claims": 14, "true": 11, "false": 0, "disputed": 3 },
-      "backgroundWeight1": { "claims": 6, "true": 6, "false": 0, "disputed": 0 },
-      "weightedTotal": 58,
-      "falseWeightedPoints": 0,
-      "errorImpact": "0%",
-      "errorImpactWithDisputed": "5.2%",
-      "interpretation": "<10% — usable with verification."
-    }
-  },
-  "youtubeFlags": {
-    "titleAccuracy": "The title 'Sola Scriptura Defended' accurately describes the content. No clickbait mismatch detected.",
-    "impliedClaims": "Ortlund implies, without stating explicitly, that the Protestant position on sola scriptura is more historically grounded than its detractors claim. This is the structural thesis of the video and is supported by the arguments presented, though the strength of the evidence is debatable.",
-    "monetizationFlags": "None. No supplements, courses, affiliate products, or paid content promoted alongside factual claims."
-  },
+  "falseClaims": [],
   "stratagems": [
     {
       "number": 11,
       "name": "Induction with Concealed Counterexamples",
-      "severity": "partial",
-      "timestamp": "12:24–12:57",
-      "quote": "But we are not content simply because this is the tradition of the fathers. What is important is that the fathers followed the meaning of scripture.",
-      "explanation": "Ortlund cites Basil's On the Holy Spirit to show that Basil subordinated tradition to scripture. However, chapter 27 (§66) of the same work contains one of the strongest patristic defenses of unwritten apostolic tradition: 'Of the beliefs and practices... some we possess derived from written teaching; others we have received delivered to us in a mystery by the tradition of the apostles; and both of these in relation to true religion have the same force.' Ortlund mitigates this by saying 'I'm not saying the church fathers were all in favor of sola scriptura' and by calling the historical evidence 'messy,' which partially disarms the concern."
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "But we are not content simply because this is the tradition of the fathers. What is important is that the fathers followed the meaning of scripture.",
+          "timestamp": "12:24–12:57",
+          "explanation": "Ortlund cites Basil's On the Holy Spirit to show that Basil subordinated tradition to scripture. However, chapter 27 (§66) of the same work contains one of the strongest patristic defenses of unwritten apostolic tradition: 'Of the beliefs and practices... some we possess derived from written teaching; others we have received delivered to us in a mystery by the tradition of the apostles; and both of these in relation to true religion have the same force.' Ortlund mitigates this by saying 'I'm not saying the church fathers were all in favor of sola scriptura' and by calling the historical evidence 'messy,' which partially disarms the concern."
+        }
+      ]
     },
     {
       "number": 28,
       "name": "Argumentum ad Auditores",
-      "severity": "mild",
-      "timestamp": "08:29",
-      "quote": "If you hear nothing else in this entire video just hear this: don't say that Protestants believe that the Bible is all you have or all you need.",
-      "explanation": "A direct appeal to the audience's sense of fairness, foregrounding the caricature concern to build goodwill before presenting the substantive case. This is a very mild instance — it functions more as effective communication than manipulation."
-    }
-  ],
-  "weaselWords": [
-    {
-      "term": "I would argue / arguably",
-      "timestamp": "20:44",
-      "quote": "and I've argued that various points of these doctrines you don't see until several centuries into the church so arguably you don't see them in the second century with respect to say the Immaculate Conception for example",
-      "note": "The hedge 'arguably' and 'I've argued' soften what is presented as a historical claim. The claim itself is largely accurate, but the hedging is noted."
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "If you hear nothing else in this entire video just hear this: don't say that Protestants believe that the Bible is all you have or all you need.",
+          "timestamp": "08:29",
+          "explanation": "A direct appeal to the audience's sense of fairness, foregrounding the caricature concern to build goodwill before presenting the substantive case. This is a very mild instance — it functions more as effective communication than manipulation."
+        }
+      ]
     }
   ],
   "scholarlySplits": [
     {
-      "claimNumber": 12,
       "claim": "The 'coincident view' (Tradition I) describes the early church's understanding of scripture and tradition",
-      "divide": "Oberman's Tradition I / Tradition II taxonomy is widely used but contested. Some Catholic scholars (e.g., Yves Congar) argue the two-source view is present earlier than Oberman allows.",
-      "consensus": "Oberman's framework is mainstream in Protestant and many Catholic historical-theology circles; the debate is over when Tradition II emerged, not whether the taxonomy is useful.",
+      "nature": "Oberman's Tradition I / Tradition II taxonomy is widely used but contested. Some Catholic scholars (e.g., Yves Congar) argue the two-source view is present earlier than Oberman allows. Oberman's framework is mainstream in Protestant and many Catholic historical-theology circles; the debate is over when Tradition II emerged, not whether the taxonomy is useful.",
       "timestamp": "12:57"
     },
     {
-      "claimNumber": 27,
       "claim": "The Immaculate Conception is not attested in the second century",
-      "divide": "Catholic scholars point to the Mary–Eve typology in Justin Martyr and Irenaeus (2nd c.) as implicit foundations. Protestant and some Catholic historians note no explicit doctrine until later centuries.",
-      "consensus": "Consensus: no explicit Immaculate Conception doctrine in 2nd century. Disputed: whether 2nd-century Marian typology constitutes implicit attestation.",
+      "nature": "Catholic scholars point to the Mary–Eve typology in Justin Martyr and Irenaeus (2nd c.) as implicit foundations. Protestant and some Catholic historians note no explicit doctrine until later centuries. Consensus: no explicit Immaculate Conception doctrine in 2nd century. Disputed: whether 2nd-century Marian typology constitutes implicit attestation.",
       "timestamp": "20:52"
     },
     {
-      "claimNumber": 29,
       "claim": "Ignatius of Antioch 'would have been someone who knew the apostles'",
-      "divide": "Traditional dating (martyrdom c. 107–110 AD) makes apostolic acquaintance plausible. Some scholars (e.g., Timothy Barnes) argue for a later dating (c. 140s), which would eliminate apostolic contact.",
-      "consensus": "Majority view: traditional dating c. 107–110 is probable; apostolic acquaintance is plausible but not certain. Minority: later dating challenges this.",
+      "nature": "Traditional dating (martyrdom c. 107–110 AD) makes apostolic acquaintance plausible. Some scholars (e.g., Timothy Barnes) argue for a later dating (c. 140s), which would eliminate apostolic contact. Majority view: traditional dating c. 107–110 is probable; apostolic acquaintance is plausible but not certain.",
       "timestamp": "25:17"
     }
   ],
-  "mostlyTrueClaims": [
-    { "claimNumber": 1, "summary": "WCF perspicuity definition — quotation matches WCF 1.7 almost verbatim." },
-    { "claimNumber": 2, "summary": "Perspicuity concerns salvation matters specifically — correctly represents WCF's qualified scope." },
-    { "claimNumber": 3, "summary": "Sola scriptura = only infallible rule, not only source — standard formulation in Reformed theology (Turretin, Muller)." },
-    { "claimNumber": 4, "summary": "No historic Protestant confession equates sola scriptura with 'Bible only' — WCF, Belgic Confession, Thirty-Nine Articles all reference tradition alongside Scripture's supreme authority." },
-    { "claimNumber": 5, "summary": "Calvin and Luther affirmed ecumenical creeds and councils." },
-    { "claimNumber": 9, "summary": "Canon not finalized in earliest centuries — first matching Protestant NT list is Athanasius's 39th Festal Letter (367 AD)." },
-    { "claimNumber": 13, "summary": "Webster's Church of Rome at the Bar of History contains patristic quotation appendices — confirmed." },
-    { "claimNumber": 14, "summary": "Basil argued about 'through whom' vs. 'with whom' in On the Holy Spirit — confirmed (chapters V, VII, VIII)." },
-    { "claimNumber": 19, "summary": "2 Timothy 3:16 says scriptures are God-breathed — confirmed (Greek: θεόπνευστος)." },
-    { "claimNumber": 20, "summary": "2 Peter 1:20–21 on prophets carried by the Holy Spirit — confirmed." },
-    { "claimNumber": 21, "summary": "John 10:35 'the scripture cannot be broken' — confirmed." },
-    { "claimNumber": 22, "summary": "Admission that these three passages don't alone establish sola scriptura — honest and significant concession." },
-    { "claimNumber": 23, "summary": "Matthew 15:3 quotation — confirmed against NRSVUE." },
-    { "claimNumber": 24, "summary": "Matthew 15:6 quotation — confirmed against NRSVUE." },
-    { "claimNumber": 25, "summary": "Pharisees had oral tradition — confirmed (Josephus, Antiquities 13.297; later codified in the Mishnah)." },
-    { "claimNumber": 26, "summary": "Eastern Orthodox reject papacy and Immaculate Conception — confirmed." },
-    { "claimNumber": 28, "summary": "Ignatius letters dated c. 107 AD — standard traditional dating per Eusebius." },
-    { "claimNumber": 30, "summary": "Ignatius shows episcopal government and high eucharistic theology — confirmed (Letter to the Smyrnaeans 8; Ephesians 20)." },
-    { "claimNumber": 31, "summary": "Protestants who hold episcopal government and real presence — confirmed (Anglicans, Lutherans)." },
-    { "claimNumber": 32, "summary": "'Mathetes' means 'disciple' — confirmed (Greek μαθητής)." },
-    { "claimNumber": 33, "summary": "Trinity and Chalcedonian Christology as organic scriptural developments — standard Protestant claim." },
-    { "claimNumber": 8, "summary": "Some traditions prefer 'prima scriptura' — confirmed (Anglican three-legged stool, Wesleyan Quadrilateral)." }
+  "trueClaims": [
+    "WCF perspicuity definition — quotation matches WCF 1.7 almost verbatim",
+    "Perspicuity concerns salvation matters specifically — correctly represents WCF's qualified scope",
+    "Sola scriptura = only infallible rule, not only source — standard formulation in Reformed theology (Turretin, Muller)",
+    "No historic Protestant confession equates sola scriptura with 'Bible only' — WCF, Belgic Confession, Thirty-Nine Articles all reference tradition alongside Scripture's supreme authority",
+    "Calvin and Luther affirmed ecumenical creeds and councils",
+    "Canon not finalized in earliest centuries — first matching Protestant NT list is Athanasius's 39th Festal Letter (367 AD)",
+    "Webster's Church of Rome at the Bar of History contains patristic quotation appendices — confirmed",
+    "Basil argued about 'through whom' vs. 'with whom' in On the Holy Spirit — confirmed (chapters V, VII, VIII)",
+    "2 Timothy 3:16 says scriptures are God-breathed — confirmed (Greek: θεόπνευστος)",
+    "2 Peter 1:20–21 on prophets carried by the Holy Spirit — confirmed",
+    "John 10:35 'the scripture cannot be broken' — confirmed",
+    "Admission that these three passages don't alone establish sola scriptura — honest and significant concession",
+    "Matthew 15:3 quotation — confirmed against NRSVUE",
+    "Matthew 15:6 quotation — confirmed against NRSVUE",
+    "Pharisees had oral tradition — confirmed (Josephus, Antiquities 13.297; later codified in the Mishnah)",
+    "Eastern Orthodox reject papacy and Immaculate Conception — confirmed",
+    "Ignatius letters dated c. 107 AD — standard traditional dating per Eusebius",
+    "Ignatius shows episcopal government and high eucharistic theology — confirmed (Letter to the Smyrnaeans 8; Ephesians 20)",
+    "Protestants who hold episcopal government and real presence — confirmed (Anglicans, Lutherans)",
+    "'Mathetes' means 'disciple' — confirmed (Greek μαθητής)",
+    "Trinity and Chalcedonian Christology as organic scriptural developments — standard Protestant claim",
+    "Some traditions prefer 'prima scriptura' — confirmed (Anglican three-legged stool, Wesleyan Quadrilateral)",
+    "The Protestant view is that the church did not give us the Bible but recognized it",
+    "Thoughtful Protestants have always recognized that tradition has an important place",
+    "The Bible mentions oral tradition"
   ],
-  "falseOrMisleadingClaims": [],
-  "sourceVerification": [
+  "youtubeFlags": [
     {
-      "source": "Matthew 15:1–9",
-      "assessment": "Ortlund uses this passage to argue that Jesus drew a meaningful distinction between the 'word of God' and 'human tradition.' Fair reading in immediate context. Catholic/Orthodox scholars counter that Pharisaic traditions are not equivalent to Sacred Tradition. Ortlund frames it as a question rather than a proof. Fair usage, though applicability to sola scriptura debate is contested."
+      "type": "Title Accuracy",
+      "severity": "info",
+      "text": "The title 'Sola Scriptura Defended' accurately describes the content. No clickbait mismatch detected."
     },
     {
-      "source": "Basil the Great, On the Holy Spirit",
-      "assessment": "The specific claim that Basil subordinated tradition to scripture has textual support. However, chapter 27 (§66) explicitly defends unwritten apostolic traditions as having 'the same force' as written scripture. Ortlund's mitigation ('the historical evidence is messy'; 'none of them are sola scriptura in a pure and proper sense') is honest and significant, but the omission of chapter 27 from the very work being cited remains notable."
-    },
-    {
-      "source": "Augustine, De Unitate Ecclesiae",
-      "assessment": "Ortlund's rendering uses 'descends' where standard translations have 'dissents' — appears to be a verbal slip. The theological point is supported by this and other Augustinian passages. Augustine's broader corpus also contains strong statements on episcopal and papal authority (e.g., Contra Epistolam Manichaei 5.6), complicating any straightforward Protestant appropriation."
+      "type": "Implied Claims",
+      "severity": "info",
+      "text": "Ortlund implies, without stating explicitly, that the Protestant position on sola scriptura is more historically grounded than its detractors claim. This is the structural thesis of the video and is supported by the arguments presented, though the strength of the evidence is debatable."
     }
   ],
+  "weightedAnalysis": {
+    "categories": [
+      {
+        "name": "Core",
+        "claims": 8,
+        "weight": 3,
+        "trueWeighted": 24,
+        "falseWeighted": 0,
+        "disputedWeighted": 0
+      },
+      {
+        "name": "Support",
+        "claims": 14,
+        "weight": 2,
+        "trueWeighted": 22,
+        "falseWeighted": 0,
+        "disputedWeighted": 6
+      },
+      {
+        "name": "Background",
+        "claims": 6,
+        "weight": 1,
+        "trueWeighted": 6,
+        "falseWeighted": 0,
+        "disputedWeighted": 0
+      }
+    ],
+    "errorImpact": 0,
+    "interpretation": "At 0% error impact, this session is exceptionally clean. No claims scored as false or misleading. The three disputed claims reflect genuine scholarly disagreements rather than factual errors. Usable with verification."
+  },
   "allClaims": [
-    { "number": 1, "text": "The perspicuity of scripture is defined in the Westminster Confession of Faith as: 'those things which are necessary to be known, believed, and observed for salvation are so clearly propounded and opened in some place of scripture or another, that not only the learned but the unlearned, in a due use of the ordinary means, may attain unto a sufficient understanding of them.'", "timestamp": "06:27", "verdict": "True" },
-    { "number": 2, "text": "The perspicuity of scripture, per the WCF, is specifically about understanding the message of salvation, not a claim that the Bible is perspicuous in general in some unqualified sense.", "timestamp": "06:57", "verdict": "True" },
-    { "number": 3, "text": "Sola scriptura has always been maintained as the view that the Bible is the only infallible rule for theology, not the only source for theology.", "timestamp": "07:14", "verdict": "True" },
-    { "number": 4, "text": "No historic Protestant confession has held sola scriptura to mean the Bible is the only source for theology.", "timestamp": "07:22", "verdict": "True" },
-    { "number": 5, "text": "Calvin and Luther affirmed the early ecumenical creeds and councils.", "timestamp": "09:16", "verdict": "True" },
-    { "number": 6, "text": "Thoughtful Protestants have always recognized that tradition has an important place.", "timestamp": "09:08", "verdict": "True" },
-    { "number": 7, "text": "The Bible mentions oral tradition.", "timestamp": "09:16", "verdict": "True" },
-    { "number": 8, "text": "Some Protestant traditions prefer the term 'prima scriptura.'", "timestamp": "08:53", "verdict": "True" },
-    { "number": 9, "text": "The canon of scripture had not been finalized in the earliest centuries of the church.", "timestamp": "11:00", "verdict": "True" },
-    { "number": 10, "text": "In the earliest centuries, scripture and tradition had a lot of overlap and were interwoven.", "timestamp": "10:51", "verdict": "True" },
-    { "number": 11, "text": "It took a long time to get to a fully articulated two-source view of divine revelation.", "timestamp": "11:08", "verdict": "True" },
-    { "number": 12, "text": "The 'coincident view' is the term for the early church understanding that scripture and tradition coincide in content.", "timestamp": "12:57", "verdict": "Disputed" },
-    { "number": 13, "text": "William Webster's book The Church of Rome at the Bar of History contains in its first appendix a series of quotes from church fathers on the authority of scripture.", "timestamp": "11:24", "verdict": "True" },
-    { "number": 14, "text": "Basil the Great, in his book On the Holy Spirit, argued against those who would use the phrase 'through whom' rather than 'with whom' referring to the Son of God.", "timestamp": "12:24", "verdict": "True" },
-    { "number": 15, "text": "In making his case, Basil appealed to prior tradition of what previous church fathers had said.", "timestamp": "12:40", "verdict": "True" },
-    { "number": 16, "text": "Basil then said: 'but we are not content simply because this is the tradition of the fathers. What is important is that the fathers followed the meaning of scripture.'", "timestamp": "12:40", "verdict": "True" },
-    { "number": 17, "text": "Augustine, in On the Unity of the Church, said: 'Whoever descends from the sacred scriptures, even if they are found in all places in which the church is designated, are not the church.'", "timestamp": "13:04", "verdict": "True" },
-    { "number": 18, "text": "Francis Turretin quoted this passage in Augustine to argue that succession of doctrine is a superior way to determine the true church than succession of office.", "timestamp": "13:21", "verdict": "True" },
-    { "number": 19, "text": "2 Timothy 3:16 says the scriptures are God-breathed.", "timestamp": "15:04", "verdict": "True" },
-    { "number": 20, "text": "2 Peter 1:20–21 says those who wrote prophecies of scripture were carried along by the Holy Spirit.", "timestamp": "15:11", "verdict": "True" },
-    { "number": 21, "text": "John 10:35 records Jesus saying 'the scripture cannot be broken.'", "timestamp": "15:19", "verdict": "True" },
-    { "number": 22, "text": "These three passages (2 Tim 3:16, 2 Pet 1:20–21, John 10:35) do not in themselves establish sola scriptura.", "timestamp": "15:04", "verdict": "True" },
-    { "number": 23, "text": "In Matthew 15:3, Jesus says: 'Why do you break the commandment of God for the sake of your tradition?'", "timestamp": "16:29", "verdict": "True" },
-    { "number": 24, "text": "In Matthew 15:6, Jesus says: 'For the sake of your tradition you have made void the word of God.'", "timestamp": "16:38", "verdict": "True" },
-    { "number": 25, "text": "The Pharisees were the Jewish religious leaders of the day and had oral tradition.", "timestamp": "16:12", "verdict": "True" },
-    { "number": 26, "text": "Eastern Christians do not believe in the papacy or the Immaculate Conception.", "timestamp": "20:36", "verdict": "True" },
-    { "number": 27, "text": "The Immaculate Conception is not attested until several centuries into the church (specifically, not in the second century).", "timestamp": "20:52", "verdict": "Disputed" },
-    { "number": 28, "text": "The letters of Ignatius are thought to have been written around 107 AD.", "timestamp": "25:10", "verdict": "True" },
-    { "number": 29, "text": "Ignatius would have been someone who knew the apostles.", "timestamp": "25:17", "verdict": "Disputed" },
-    { "number": 30, "text": "The letters of Ignatius show an episcopal form of church government as well as a high view of the Eucharist coming in very early.", "timestamp": "25:10", "verdict": "True" },
-    { "number": 31, "text": "There are Protestants who believe in episcopal church government and in the real presence of Christ in the Eucharist.", "timestamp": "25:32", "verdict": "True" },
-    { "number": 32, "text": "The 'letter by someone named Mathetes' — Ortlund says this 'just means disciple.'", "timestamp": "25:02", "verdict": "True" },
-    { "number": 33, "text": "The doctrine of the Trinity and the person of Christ as defined by Chalcedon are organic developments out of what is already in scripture.", "timestamp": "20:12", "verdict": "True" },
-    { "number": 34, "text": "The Protestant view is that the church did not give us the Bible but recognized it.", "timestamp": "22:13", "verdict": "True" }
+    { "num": 1, "text": "The perspicuity of scripture is defined in the Westminster Confession of Faith as: 'those things which are necessary to be known, believed, and observed for salvation are so clearly propounded and opened in some place of scripture or another, that not only the learned but the unlearned, in a due use of the ordinary means, may attain unto a sufficient understanding of them.'", "timestamp": "06:27", "verdict": "true" },
+    { "num": 2, "text": "The perspicuity of scripture, per the WCF, is specifically about understanding the message of salvation, not a claim that the Bible is perspicuous in general in some unqualified sense.", "timestamp": "06:57", "verdict": "true" },
+    { "num": 3, "text": "Sola scriptura has always been maintained as the view that the Bible is the only infallible rule for theology, not the only source for theology.", "timestamp": "07:14", "verdict": "true" },
+    { "num": 4, "text": "No historic Protestant confession has held sola scriptura to mean the Bible is the only source for theology.", "timestamp": "07:22", "verdict": "true" },
+    { "num": 5, "text": "Calvin and Luther affirmed the early ecumenical creeds and councils.", "timestamp": "09:16", "verdict": "true" },
+    { "num": 6, "text": "Thoughtful Protestants have always recognized that tradition has an important place.", "timestamp": "09:08", "verdict": "true" },
+    { "num": 7, "text": "The Bible mentions oral tradition.", "timestamp": "09:16", "verdict": "true" },
+    { "num": 8, "text": "Some Protestant traditions prefer the term 'prima scriptura.'", "timestamp": "08:53", "verdict": "true" },
+    { "num": 9, "text": "The canon of scripture had not been finalized in the earliest centuries of the church.", "timestamp": "11:00", "verdict": "true" },
+    { "num": 10, "text": "In the earliest centuries, scripture and tradition had a lot of overlap and were interwoven.", "timestamp": "10:51", "verdict": "true" },
+    { "num": 11, "text": "It took a long time to get to a fully articulated two-source view of divine revelation.", "timestamp": "11:08", "verdict": "true" },
+    { "num": 12, "text": "The 'coincident view' is the term for the early church understanding that scripture and tradition coincide in content.", "timestamp": "12:57", "verdict": "disputed" },
+    { "num": 13, "text": "William Webster's book The Church of Rome at the Bar of History contains in its first appendix a series of quotes from church fathers on the authority of scripture.", "timestamp": "11:24", "verdict": "true" },
+    { "num": 14, "text": "Basil the Great, in his book On the Holy Spirit, argued against those who would use the phrase 'through whom' rather than 'with whom' referring to the Son of God.", "timestamp": "12:24", "verdict": "true" },
+    { "num": 15, "text": "In making his case, Basil appealed to prior tradition of what previous church fathers had said.", "timestamp": "12:40", "verdict": "true" },
+    { "num": 16, "text": "Basil then said: 'but we are not content simply because this is the tradition of the fathers. What is important is that the fathers followed the meaning of scripture.'", "timestamp": "12:40", "verdict": "true" },
+    { "num": 17, "text": "Augustine, in On the Unity of the Church, said: 'Whoever descends from the sacred scriptures, even if they are found in all places in which the church is designated, are not the church.'", "timestamp": "13:04", "verdict": "true" },
+    { "num": 18, "text": "Francis Turretin quoted this passage in Augustine to argue that succession of doctrine is a superior way to determine the true church than succession of office.", "timestamp": "13:21", "verdict": "true" },
+    { "num": 19, "text": "2 Timothy 3:16 says the scriptures are God-breathed.", "timestamp": "15:04", "verdict": "true" },
+    { "num": 20, "text": "2 Peter 1:20–21 says those who wrote prophecies of scripture were carried along by the Holy Spirit.", "timestamp": "15:11", "verdict": "true" },
+    { "num": 21, "text": "John 10:35 records Jesus saying 'the scripture cannot be broken.'", "timestamp": "15:19", "verdict": "true" },
+    { "num": 22, "text": "These three passages (2 Tim 3:16, 2 Pet 1:20–21, John 10:35) do not in themselves establish sola scriptura.", "timestamp": "15:04", "verdict": "true" },
+    { "num": 23, "text": "In Matthew 15:3, Jesus says: 'Why do you break the commandment of God for the sake of your tradition?'", "timestamp": "16:29", "verdict": "true" },
+    { "num": 24, "text": "In Matthew 15:6, Jesus says: 'For the sake of your tradition you have made void the word of God.'", "timestamp": "16:38", "verdict": "true" },
+    { "num": 25, "text": "The Pharisees were the Jewish religious leaders of the day and had oral tradition.", "timestamp": "16:12", "verdict": "true" },
+    { "num": 26, "text": "Eastern Christians do not believe in the papacy or the Immaculate Conception.", "timestamp": "20:36", "verdict": "true" },
+    { "num": 27, "text": "The Immaculate Conception is not attested until several centuries into the church (specifically, not in the second century).", "timestamp": "20:52", "verdict": "disputed" },
+    { "num": 28, "text": "The letters of Ignatius are thought to have been written around 107 AD.", "timestamp": "25:10", "verdict": "true" },
+    { "num": 29, "text": "Ignatius would have been someone who knew the apostles.", "timestamp": "25:17", "verdict": "disputed" },
+    { "num": 30, "text": "The letters of Ignatius show an episcopal form of church government as well as a high view of the Eucharist coming in very early.", "timestamp": "25:10", "verdict": "true" },
+    { "num": 31, "text": "There are Protestants who believe in episcopal church government and in the real presence of Christ in the Eucharist.", "timestamp": "25:32", "verdict": "true" },
+    { "num": 32, "text": "The 'letter by someone named Mathetes' — Ortlund says this 'just means disciple.'", "timestamp": "25:02", "verdict": "true" },
+    { "num": 33, "text": "The doctrine of the Trinity and the person of Christ as defined by Chalcedon are organic developments out of what is already in scripture.", "timestamp": "20:12", "verdict": "true" },
+    { "num": 34, "text": "The Protestant view is that the church did not give us the Bible but recognized it.", "timestamp": "22:13", "verdict": "true" }
   ]
 }

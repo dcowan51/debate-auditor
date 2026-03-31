@@ -3,19 +3,17 @@
   "creatorId": "christspiracy",
   "creatorName": "Kam Waters",
   "channel": "@Christspiracy",
-  "platform": "YouTube",
   "videoTitle": "Did Jesus Eat the Passover Lamb?",
   "videoUrl": "",
-  "datePublished": "2026",
+  "datePublished": "",
   "dateAnalyzed": "2026-03-30",
   "sessionNumber": 2,
-  "mode": 1,
-  "modeLabel": "Single Speaker",
-  "contentType": "video",
   "analyzedRange": "0:00–6:15",
   "thesis": "Jesus deliberately excluded lamb from the Last Supper as a protest against animal sacrifice, and the original Passover may never have included lamb at all.",
   "dashboard": {
     "sessionScore": 48,
+    "cumulativeScore": 53,
+    "cumulativeSessions": 2,
     "trueClaims": 13,
     "falseMisleading": 10,
     "disputed": 4,
@@ -23,257 +21,344 @@
     "confidence": "Medium",
     "verdict": "Unreliable",
     "stratagems": 6,
-    "weaselWordFlags": 5
+    "weaselWords": 5,
+    "errorImpact": 51
   },
-  "scoreExplanation": "Session score = 13 true ÷ 27 total checked = 48%. Core-error rule and pattern rule both triggered. The central claim — that no gospel mentions a Passover lamb in connection with the Last Supper — is directly contradicted by Luke 22:7 and Mark 14:12.",
-  "confidenceExplanation": "Medium. The theological domain involves genuine scholarly debate, and several claims touch contested areas of historical-critical research. However, the core factual claims (gospel text, Josephus numbers, study figures) can be verified against primary sources with high confidence.",
   "steelman": "The strongest charitable reading: the canonical gospels' institution narratives do not explicitly describe Jesus eating lamb at the table; some prophetic texts prioritize mercy over sacrifice; certain early Jewish-Christian communities rejected animal sacrifice; and legitimate scholarly debate exists about the pre-Israelite origins of the Passover ritual. A more careful, qualified version of this argument — that the Last Supper traditions emphasize bread and wine while the role of the lamb is theologically reinterpreted — would be defensible within academic discourse.",
-  "reliabilityThreshold": {
-    "coreErrorRule": "TRIGGERED. The central claim — that no gospel mentions a Passover lamb in connection with the Last Supper — is directly contradicted by Luke 22:7 and Mark 14:12, which explicitly reference sacrificing the Passover lamb in preparation for the meal.",
-    "patternRule": "TRIGGERED. More than three factual errors: (1) 'no gospel mentions lamb' claim; (2) 20,000-per-hour calculation; (3) 62% figure (actual: 69%); (4) decontextualization of Jeremiah 7:22; (5) 'My father's house' conflation of John 2 and Mark 11.",
-    "misquoteRule": "NOT TRIGGERED. Direct quotations of Scripture are largely accurate in wording, though contextual deployment is misleading.",
-    "decontextualizationRule": "TRIGGERED. Jeremiah 7:22 is a core proof text and its decontextualization is severe. The chapter condemns Baal worship, Queen of Heaven cakes, and child sacrifice at Topheth — not sacrifice per se.",
-    "quantitativeHeuristic": {
-      "coreWeight3": { "claims": 4, "true": 0, "false": 3, "disputed": 1 },
-      "supportWeight2": { "claims": 19, "true": 9, "false": 7, "disputed": 3 },
-      "backgroundWeight1": { "claims": 4, "true": 4, "false": 0, "disputed": 0 },
-      "weightedTotal": 54,
-      "falseWeightedPoints": 23,
-      "errorImpact": "51%",
-      "interpretation": "≥35% = misleading overall. At 51%, this content is substantially misleading in its aggregate claims."
+  "falseClaims": [
+    {
+      "claim": "At Jesus's Last Supper, no lamb was present — 'not in Matthew, not in Mark, not in Luke, not in John.'",
+      "rating": "False",
+      "confidence": "High",
+      "timestamp": "0:20–0:28",
+      "evidence": "Luke 22:7: 'Then came the day of Unleavened Bread, on which the Passover lamb had to be sacrificed.' Mark 14:12: 'On the first day of Unleavened Bread, when they sacrificed the Passover lamb.' Both gospels explicitly reference the lamb in the meal's preparation.",
+      "settle": "Read Luke 22:7–8 and Mark 14:12 in any standard translation.",
+      "sources": [
+        {
+          "label": "Luke 22:7 — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=Luke+22%3A7-8&version=NRSVUE"
+        },
+        {
+          "label": "Mark 14:12 — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=Mark+14%3A12&version=NRSVUE"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "Jeremiah 7:22 states: 'I did not command your ancestors concerning burnt offerings or sacrifices.'",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "1:28–1:38",
+      "evidence": "Severe decontextualization. Jeremiah 7 condemns syncretistic worship — Baal worship (7:9), Queen of Heaven cakes (7:18), child sacrifice at Topheth (7:31). It is prophetic rhetoric critiquing the attitude behind sacrifice, not a blanket rejection. Exodus 12, Leviticus 1–7, Deuteronomy 16 extensively command sacrifice.",
+      "settle": "Read Jeremiah 7 in full context, especially verses 9, 18, and 31.",
+      "sources": [
+        {
+          "label": "Jeremiah 7 — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=Jeremiah+7&version=NRSVUE"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "That's over 20,000 per hour.",
+      "rating": "False",
+      "confidence": "High",
+      "timestamp": "0:52",
+      "evidence": "Josephus records 256,500 lambs over the Passover period. Lambs were sacrificed in a ~3-hour afternoon window, yielding ~85,500/hour. Over a full week: ~3,048/hour. The figure 20,000 corresponds to no plausible calculation.",
+      "settle": "Divide Josephus's figure by the relevant time window.",
+      "sources": [
+        {
+          "label": "Josephus, Jewish War 6.9.3 — Encyclopaedia",
+          "url": "https://en.wikipedia.org/wiki/Josephus_on_Jesus"
+        }
+      ],
+      "category": "Support"
+    },
+    {
+      "claim": "The Nazarenes and Ebionites, led by James the brother of Jesus after his crucifixion.",
+      "rating": "Misleading",
+      "confidence": "Medium",
+      "timestamp": "3:57–4:06",
+      "evidence": "James led the Jerusalem church (Gal 2:9, Acts 15). The Ebionites as a named sect are first attested late 1st–2nd century CE. Direct organizational continuity between James's community and later Ebionites is disputed.",
+      "settle": "Review patristic and archaeological evidence for Ebionite origins.",
+      "sources": [
+        {
+          "label": "Ebionites — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ebionites"
+        }
+      ],
+      "category": "Support"
+    },
+    {
+      "claim": "Portions in Last Supper paintings increased by 62%.",
+      "rating": "False (minor)",
+      "confidence": "High",
+      "timestamp": "4:41–4:53",
+      "evidence": "The Wansink & Wansink (2010) study found main course portions grew 69%, plate size 66%, bread 23%. The figure 62% does not appear in the study.",
+      "settle": "Check Wansink & Wansink (2010), International Journal of Obesity.",
+      "sources": [
+        {
+          "label": "Wansink & Wansink (2010) — PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/"
+        }
+      ],
+      "category": "Support"
+    },
+    {
+      "claim": "Jesus said 'My father's house was meant to be a house of prayer.'",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "1:15",
+      "evidence": "Conflation of two accounts. 'My father's house' is from John 2:16 (early ministry cleansing). The Synoptic Passion-week cleansing (Mark 11:17) quotes Isaiah 56:7: 'My house shall be called a house of prayer for all nations.'",
+      "settle": "Compare John 2:16 with Mark 11:17.",
+      "sources": [
+        {
+          "label": "John 2:16 — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=John+2%3A16&version=NRSVUE"
+        },
+        {
+          "label": "Mark 11:17 — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=Mark+11%3A17&version=NRSVUE"
+        }
+      ],
+      "category": "Support"
+    },
+    {
+      "claim": "Da Vinci's Last Supper shows an empty plate in front of Jesus where the lamb should be.",
+      "rating": "Misleading",
+      "confidence": "Medium",
+      "timestamp": "4:53–5:06",
+      "evidence": "The painting shows food (fish, bread, wine, herbs) on the table — not an 'empty plate.' The absence of lamb is notable but attributing a deliberate encoded anti-lamb message to Da Vinci is speculative.",
+      "settle": "Examine high-resolution images of Da Vinci's Last Supper.",
+      "sources": [],
+      "category": "Support"
+    },
+    {
+      "claim": "In the Elephantine Passover letter there's no mention of lamb — only bread.",
+      "rating": "Misleading",
+      "confidence": "Medium",
+      "timestamp": "1:56",
+      "evidence": "The papyrus is fragmentary and damaged. It instructs observing the Feast of Unleavened Bread at a military garrison that may not have had temple access for sacrifice. Absence in a damaged fragment does not demonstrate original exclusion of lamb.",
+      "settle": "Consult Bezalel Porten's edition of the Elephantine papyri.",
+      "sources": [
+        {
+          "label": "Elephantine papyri — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Elephantine_papyri"
+        }
+      ],
+      "category": "Support"
+    },
+    {
+      "claim": "Melchizedek brought Abraham bread and wine when he 'passed over into the land.'",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "2:39",
+      "evidence": "Genesis 14:18 records Melchizedek's bread and wine, but the context is Abraham returning from rescuing Lot after the Battle of Siddim (Gen 14:14–16). The phrase 'passed over into the land' is an invention to retroject Passover language.",
+      "settle": "Read Genesis 14:14–18 in context.",
+      "sources": [
+        {
+          "label": "Genesis 14 — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=Genesis+14&version=NRSVUE"
+        }
+      ],
+      "category": "Support"
+    },
+    {
+      "claim": "Jesus shut down the entire system for a whole day.",
+      "rating": "Misleading",
+      "confidence": "Medium",
+      "timestamp": "1:06–1:15",
+      "evidence": "Mark 11:15–16 records Jesus overturning tables. The temple complex was ~35 acres. The episode likely affected the commercial area, not the entire sacrificial apparatus. No source indicates temple sacrifice was fully interrupted.",
+      "settle": "Read Mark 11:15–16 and consult E.P. Sanders, Jesus and Judaism (1985).",
+      "sources": [
+        {
+          "label": "Mark 11:15-16 — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=Mark+11%3A15-16&version=NRSVUE"
+        }
+      ],
+      "category": "Support"
     }
-  },
-  "youtubeFlags": {
-    "titleAccuracy": "The title 'Did Jesus Eat the Passover Lamb?' frames the video as an open question. The content is entirely one-directional: it argues Jesus did not eat lamb. The question format is a framing device, not a genuine inquiry.",
-    "impliedClaims": "Strongly implies: (a) Jesus was vegetarian or opposed to eating meat; (b) 'true' Christianity rejected animal sacrifice; (c) mainstream Christianity has distorted Jesus's original anti-sacrifice message.",
-    "monetizationFlags": "The video explicitly promotes the film Christspiracy at beginning and end. The entire video functions as promotional content for the film. The film's thesis is intertwined with factual claims, making it difficult to separate documentary claims from marketing."
-  },
+  ],
   "stratagems": [
     {
       "number": 1,
       "name": "Extension (Amplification)",
-      "severity": "significant",
-      "timestamp": "0:20–0:28",
-      "quote": "At Jesus's last supper, the most iconic Passover meal in history, there was none. Not in Matthew, not in Mark, not in Luke, not in John.",
-      "explanation": "Extends the claim from 'no explicit description of Jesus eating lamb at the table' to 'no lamb was present at all.' This erases explicit Synoptic testimony that the Passover lamb was sacrificed in preparation (Luke 22:7, Mark 14:12)."
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "At Jesus's last supper, the most iconic Passover meal in history, there was none. Not in Matthew, not in Mark, not in Luke, not in John.",
+          "timestamp": "0:20–0:28",
+          "explanation": "Extends the claim from 'no explicit description of Jesus eating lamb at the table' to 'no lamb was present at all.' This erases explicit Synoptic testimony that the Passover lamb was sacrificed in preparation (Luke 22:7, Mark 14:12)."
+        }
+      ]
     },
     {
       "number": 5,
       "name": "Using Opponent's Beliefs Against Them",
-      "severity": "significant",
-      "timestamp": "1:28–1:38",
-      "quote": "Jeremiah 7:22 states: 'I did not command your ancestors concerning burnt offerings or sacrifices.'",
-      "explanation": "Uses a text sacred to the audience to argue against sacrifice, while concealing that Jeremiah 7 condemns idolatrous practices (Baal worship, Queen of Heaven cakes, child sacrifice at Topheth), not making a blanket rejection of Yahwistic sacrifice."
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "Jeremiah 7:22 states: 'I did not command your ancestors concerning burnt offerings or sacrifices.'",
+          "timestamp": "1:28–1:38",
+          "explanation": "Uses a text sacred to the audience to argue against sacrifice, while concealing that Jeremiah 7 condemns idolatrous practices (Baal worship, Queen of Heaven cakes, child sacrifice at Topheth), not making a blanket rejection of Yahwistic sacrifice."
+        }
+      ]
     },
     {
       "number": 11,
       "name": "Induction with Concealed Counterexamples",
-      "severity": "significant",
-      "timestamp": "3:07–3:16",
-      "quote": "Nowhere, not once in any gospel does it say he ate lamb. Bread is mentioned, wine is mentioned, but the lamb, it's never mentioned.",
-      "explanation": "Constructs an inductive argument from the institution narrative alone while concealing that Mark 14:12 and Luke 22:7–8 explicitly describe the Passover lamb being sacrificed for this meal. Also suppresses: feeding miracles with fish, post-resurrection fish eating (Luke 24:42–43), and Jesus cooking fish (John 21:9–13)."
-    },
-    {
-      "number": 11,
-      "name": "Induction with Concealed Counterexamples (second instance)",
-      "severity": "moderate",
-      "timestamp": "3:57–4:27",
-      "quote": "The Nazarenes and Ebianites led by James the brother of Jesus after his crucifixion preserved teachings against blood sacrifice and even flesh consumption.",
-      "explanation": "Selects one strand of early Christian practice (Ebionite vegetarianism) while concealing the overwhelming mainstream witness: Peter's vision (Acts 10–11), Paul on eating meat (1 Cor 8–10, Romans 14), Jerusalem Council (Acts 15)."
+      "instances": 2,
+      "entries": [
+        {
+          "quote": "Nowhere, not once in any gospel does it say he ate lamb. Bread is mentioned, wine is mentioned, but the lamb, it's never mentioned.",
+          "timestamp": "3:07–3:16",
+          "explanation": "Constructs an inductive argument from the institution narrative alone while concealing that Mark 14:12 and Luke 22:7–8 explicitly describe the Passover lamb being sacrificed for this meal. Also suppresses: feeding miracles with fish, post-resurrection fish eating (Luke 24:42–43), and Jesus cooking fish (John 21:9–13)."
+        },
+        {
+          "quote": "The Nazarenes and Ebianites led by James the brother of Jesus after his crucifixion preserved teachings against blood sacrifice and even flesh consumption.",
+          "timestamp": "3:57–4:27",
+          "explanation": "Selects one strand of early Christian practice (Ebionite vegetarianism) while concealing the overwhelming mainstream witness: Peter's vision (Acts 10–11), Paul on eating meat (1 Cor 8–10, Romans 14), Jerusalem Council (Acts 15)."
+        }
+      ]
     },
     {
       "number": 30,
       "name": "Argument from Authority (Selective)",
-      "severity": "moderate",
-      "timestamp": "3:25–3:32",
-      "quote": "According to many scholars, including Christian theologian Bruce Chilton…",
-      "explanation": "Chilton's minority position is presented as representative of 'many scholars,' implying broad consensus. The mainstream view — that the Last Supper was a Passover meal or at minimum a meal in the Passover season — is not acknowledged."
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "According to many scholars, including Christian theologian Bruce Chilton…",
+          "timestamp": "3:25–3:32",
+          "explanation": "Chilton's minority position is presented as representative of 'many scholars,' implying broad consensus. The mainstream view — that the Last Supper was a Passover meal or at minimum a meal in the Passover season — is not acknowledged."
+        }
+      ]
     },
     {
       "number": 14,
       "name": "Claim Victory Despite Defeat",
-      "severity": "moderate",
-      "timestamp": "3:50",
-      "quote": "It was a bold reversal. The lamb was gone on purpose.",
-      "explanation": "After presenting disputed, misleading, and false claims, declares the conclusion as established fact with no qualifying language."
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "It was a bold reversal. The lamb was gone on purpose.",
+          "timestamp": "3:50",
+          "explanation": "After presenting disputed, misleading, and false claims, declares the conclusion as established fact with no qualifying language."
+        }
+      ]
     }
-  ],
-  "weaselWords": [
-    { "term": "Some say", "timestamp": "0:12", "quote": "Some say a Passover without lamb is unthinkable.", "note": "Unnamed opposition set up as straw man." },
-    { "term": "Some say / others argue", "timestamp": "2:07", "quote": "Some say eating the Passover always meant eating lamb. But others argue…", "note": "False balance framing." },
-    { "term": "Could… have been", "timestamp": "2:43", "quote": "Could the lamb have just been a later edition…?", "note": "Question format implies conclusion while maintaining deniability." },
-    { "term": "Scholars have connected", "timestamp": "2:52", "quote": "Scholars have connected the Exodus account to earlier Mesopotamian and Egyptian rights…", "note": "Unnamed authorities cited for fringe position." },
-    { "term": "Could the artist have known", "timestamp": "5:06", "quote": "Could the artist have known something we don't?", "note": "Rhetorical question implies Da Vinci encoded a secret anti-lamb message." }
   ],
   "scholarlySplits": [
     {
-      "claimNumber": 11,
       "claim": "The Feast of Unleavened Bread originated separately from and before the Passover lamb tradition",
-      "divide": "Historical-critical scholars debate whether Pesach (pastoral, lamb) and Matzot (agricultural, bread) were originally separate festivals later merged.",
-      "consensus": "Consensus: they were likely separate festivals merged in the Deuteronomic reform. Both sides agree Exodus 12 combines them.",
+      "nature": "Historical-critical scholars debate whether Pesach (pastoral, lamb) and Matzot (agricultural, bread) were originally separate festivals later merged. Consensus: they were likely separate festivals merged in the Deuteronomic reform. Both sides agree Exodus 12 combines them.",
       "timestamp": "1:48"
     },
     {
-      "claimNumber": 13,
       "claim": "'Passover' originally referred to passing through the Red Sea, not the lamb sacrifice",
-      "divide": "Etymological debate. Hebrew pesach may derive from 'pass over,' 'skip,' 'limp,' or 'protect.'",
-      "consensus": "Majority: pesach relates to God 'passing over' Israelite houses (Exodus 12:13). The 'passing through the Red Sea' reading is not a mainstream scholarly position.",
+      "nature": "Etymological debate. Hebrew pesach may derive from 'pass over,' 'skip,' 'limp,' or 'protect.' Majority: pesach relates to God 'passing over' Israelite houses (Exodus 12:13). The 'passing through the Red Sea' reading is not a mainstream scholarly position.",
       "timestamp": "2:17"
     },
     {
-      "claimNumber": 16,
       "claim": "The Passover blood-on-doorpost ritual derives from pagan apotropaic threshold rites",
-      "divide": "Some scholars (e.g., Segal, Prosic) trace Exodus 12 elements to pre-Israelite apotropaic rituals.",
-      "consensus": "Minority position in critical scholarship; mainstream theology treats the Passover as a unique Israelite institution.",
+      "nature": "Some scholars (e.g., Segal, Prosic) trace Exodus 12 elements to pre-Israelite apotropaic rituals. Minority position in critical scholarship; mainstream theology treats the Passover as a unique Israelite institution.",
       "timestamp": "2:43"
     },
     {
-      "claimNumber": 28,
       "claim": "'Den of thieves' is a mistranslation — the original carried a darker meaning",
-      "divide": "Greek lēstēs means 'robber/bandit/revolutionary,' not petty 'thief' (kleptēs).",
-      "consensus": "Scholarly consensus agrees lēstēs is better rendered 'bandits' or 'robbers.' Whether this changes the theological meaning significantly is debated.",
+      "nature": "Greek lēstēs means 'robber/bandit/revolutionary,' not petty 'thief' (kleptēs). Scholarly consensus agrees lēstēs is better rendered 'bandits' or 'robbers.' Whether this changes the theological meaning significantly is debated.",
       "timestamp": "5:30"
     }
   ],
-  "mostlyTrueClaims": [
-    { "claimNumber": 3, "summary": "Josephus records approximately 256,500 lambs slaughtered at Passover — confirmed in Jewish War 6.9.3." },
-    { "claimNumber": 5, "summary": "Mark records a two-day temple visit: scouting (11:11) then cleansing (11:15–17) — confirmed." },
-    { "claimNumber": 10, "summary": "Jesus quoted Hosea 6:6 ('I desire mercy, not sacrifice') twice — confirmed at Matthew 9:13 and 12:7." },
-    { "claimNumber": 19, "summary": "Bruce Chilton argues the Last Supper was a substitutional ritual protest — confirmed in Rabbi Jesus (2000)." },
-    { "claimNumber": 20, "summary": "In Old English, 'meat' (mete) meant food generally — confirmed by standard lexicography." },
-    { "claimNumber": 21, "summary": "Deuteronomy 32:14 uses the phrase 'blood of grapes' — confirmed." },
-    { "claimNumber": 23, "summary": "Jerome and Epiphanius both reference a Hebrew gospel used by Jewish Christians — confirmed." },
-    { "claimNumber": 22, "summary": "The Ebionites rejected animal sacrifice and advocated vegetarianism — confirmed by Epiphanius (Panarion 30.16.5)." },
-    { "claimNumber": 24, "summary": "A fragment attributed to the Gospel of the Ebionites contains Jesus expressing reluctance to eat Passover flesh — confirmed via Epiphanius." },
-    { "claimNumber": 25, "summary": "Wansink & Wansink (2010) study analyzed Last Supper paintings and found increased food portions — confirmed (though speaker misquotes 69% as 62%)." },
-    { "claimNumber": 26, "summary": "Da Vinci's Last Supper does not depict lamb on the table — confirmed by art historians." },
-    { "claimNumber": 27, "summary": "Jesus said 'I am the good shepherd' (John 10:11) — confirmed." },
-    { "claimNumber": 28, "summary": "Mark 11:18 records priests seeking to destroy Jesus after the temple episode — confirmed." }
+  "trueClaims": [
+    "Josephus records approximately 256,500 lambs slaughtered at Passover — confirmed in Jewish War 6.9.3",
+    "Mark records a two-day temple visit: scouting (11:11) then cleansing (11:15–17) — confirmed",
+    "Jesus quoted Hosea 6:6 ('I desire mercy, not sacrifice') twice — confirmed at Matthew 9:13 and 12:7",
+    "Bruce Chilton argues the Last Supper was a substitutional ritual protest — confirmed in Rabbi Jesus (2000)",
+    "In Old English, 'meat' (mete) meant food generally — confirmed by standard lexicography",
+    "Deuteronomy 32:14 uses the phrase 'blood of grapes' — confirmed",
+    "The Ebionites rejected animal sacrifice and advocated vegetarianism — confirmed by Epiphanius (Panarion 30.16.5)",
+    "Jerome and Epiphanius both reference a Hebrew gospel used by Jewish Christians — confirmed",
+    "A fragment attributed to the Gospel of the Ebionites contains Jesus expressing reluctance to eat Passover flesh — confirmed via Epiphanius",
+    "Wansink & Wansink (2010) study analyzed Last Supper paintings and found increased food portions — confirmed (though speaker misquotes 69% as 62%)",
+    "Da Vinci's Last Supper does not depict lamb on the table — confirmed by art historians",
+    "Jesus said 'I am the good shepherd' (John 10:11) — confirmed",
+    "Mark 11:18 records priests seeking to destroy Jesus after the temple episode — confirmed"
   ],
-  "falseOrMisleadingClaims": [
+  "youtubeFlags": [
     {
-      "claimNumber": 2,
-      "rating": "False",
-      "claim": "At Jesus's Last Supper, no lamb was present — 'not in Matthew, not in Mark, not in Luke, not in John.'",
-      "explanation": "Luke 22:7: 'Then came the day of Unleavened Bread, on which the Passover lamb had to be sacrificed.' Mark 14:12: 'On the first day of Unleavened Bread, when they sacrificed the Passover lamb.' Both gospels explicitly reference the lamb in the meal's preparation.",
-      "timestamp": "0:20–0:28",
-      "confidence": "High"
+      "type": "Title Accuracy",
+      "severity": "caution",
+      "text": "The title 'Did Jesus Eat the Passover Lamb?' frames the video as an open question. The content is entirely one-directional: it argues Jesus did not eat lamb. The question format is a framing device, not a genuine inquiry."
     },
     {
-      "claimNumber": 9,
-      "rating": "Misleading",
-      "claim": "Jeremiah 7:22 states: 'I did not command your ancestors concerning burnt offerings or sacrifices.'",
-      "explanation": "Severe decontextualization. Jeremiah 7 condemns syncretistic worship — Baal worship (7:9), Queen of Heaven cakes (7:18), child sacrifice at Topheth (7:31). It is prophetic rhetoric critiquing the attitude behind sacrifice, not a blanket rejection. Exodus 12, Leviticus 1–7, Deuteronomy 16 extensively command sacrifice.",
-      "timestamp": "1:28–1:38",
-      "confidence": "High"
+      "type": "Implied Claims",
+      "severity": "warning",
+      "text": "Strongly implies: (a) Jesus was vegetarian or opposed to eating meat; (b) 'true' Christianity rejected animal sacrifice; (c) mainstream Christianity has distorted Jesus's original anti-sacrifice message."
     },
     {
-      "claimNumber": 4,
-      "rating": "False",
-      "claim": "That's over 20,000 per hour.",
-      "explanation": "Josephus records 256,500 lambs over the Passover period. Lambs were sacrificed in a ~3-hour afternoon window, yielding ~85,500/hour. Over a full week: ~3,048/hour. The figure 20,000 corresponds to no plausible calculation.",
-      "timestamp": "0:52",
-      "confidence": "High"
-    },
-    {
-      "claimNumber": 22,
-      "rating": "Misleading",
-      "claim": "The Nazarenes and Ebionites led by James the brother of Jesus after his crucifixion.",
-      "explanation": "James led the Jerusalem church (Gal 2:9, Acts 15). The Ebionites as a named sect are first attested late 1st–2nd century CE. Direct organizational continuity between James's community and later Ebionites is disputed.",
-      "timestamp": "3:57–4:06",
-      "confidence": "Medium"
-    },
-    {
-      "claimNumber": 25,
-      "rating": "False (minor)",
-      "claim": "Portions in Last Supper paintings increased by 62%.",
-      "explanation": "The Wansink & Wansink (2010) study found main course portions grew 69%, plate size 66%, bread 23%. The figure 62% does not appear in the study.",
-      "timestamp": "4:41–4:53",
-      "confidence": "High"
-    },
-    {
-      "claimNumber": 7,
-      "rating": "Misleading",
-      "claim": "Jesus said 'My father's house was meant to be a house of prayer.'",
-      "explanation": "Conflation of two accounts. 'My father's house' is from John 2:16 (early ministry cleansing). The Synoptic Passion-week cleansing (Mark 11:17) quotes Isaiah 56:7: 'My house shall be called a house of prayer for all nations.'",
-      "timestamp": "1:15",
-      "confidence": "High"
-    },
-    {
-      "claimNumber": 26,
-      "rating": "Misleading",
-      "claim": "Da Vinci's Last Supper shows an empty plate in front of Jesus where the lamb should be.",
-      "explanation": "The painting shows food (fish, bread, wine, herbs) on the table — not an 'empty plate.' The absence of lamb is notable but attributing a deliberate encoded anti-lamb message to Da Vinci is speculative.",
-      "timestamp": "4:53–5:06",
-      "confidence": "Medium"
-    },
-    {
-      "claimNumber": 12,
-      "rating": "Misleading",
-      "claim": "In the Elephantine Passover letter there's no mention of lamb — only bread.",
-      "explanation": "The papyrus is fragmentary and damaged. It instructs observing the Feast of Unleavened Bread at a military garrison that may not have had temple access for sacrifice. Absence in a damaged fragment does not demonstrate original exclusion of lamb.",
-      "timestamp": "1:56",
-      "confidence": "Medium"
-    },
-    {
-      "claimNumber": 15,
-      "rating": "Misleading",
-      "claim": "Melchizedek brought Abraham bread and wine when he 'passed over into the land.'",
-      "explanation": "Genesis 14:18 records Melchizedek's bread and wine, but the context is Abraham returning from rescuing Lot after the Battle of Siddim (Gen 14:14–16). The phrase 'passed over into the land' is an invention to retroject Passover language.",
-      "timestamp": "2:39",
-      "confidence": "High"
-    },
-    {
-      "claimNumber": 6,
-      "rating": "Misleading",
-      "claim": "Jesus shut down the entire system for a whole day.",
-      "explanation": "Mark 11:15–16 records Jesus overturning tables. The temple complex was ~35 acres. The episode likely affected the commercial area, not the entire sacrificial apparatus. No source indicates temple sacrifice was fully interrupted.",
-      "timestamp": "1:06–1:15",
-      "confidence": "Medium"
+      "type": "Monetization",
+      "severity": "warning",
+      "text": "The video explicitly promotes the film Christspiracy at beginning and end. The entire video functions as promotional content for the film. The film's thesis is intertwined with factual claims, making it difficult to separate documentary claims from marketing."
     }
   ],
-  "sourceVerification": [
-    {
-      "source": "Jeremiah 7 (full chapter context)",
-      "assessment": "The chapter condemns syncretistic worship alongside sacrifice — Baal worship (7:9), Queen of Heaven cakes (7:18), child sacrifice at Topheth (7:31). Verse 22 is prophetic rhetoric, not a blanket rejection of sacrifice. Severe decontextualization."
-    },
-    {
-      "source": "The Gospels — Last Supper preparation",
-      "assessment": "Luke 22:7 and Mark 14:12 explicitly reference the Passover lamb being sacrificed in preparation for the meal. The speaker's claim that 'not in Matthew, not in Mark, not in Luke, not in John' is directly contradicted by two of the four gospels cited."
-    },
-    {
-      "source": "Wansink & Wansink (2010), International Journal of Obesity",
-      "assessment": "Confirmed the study exists. Main courses grew 69%, not 62% as claimed. Plate size grew 66%, bread 23%."
-    }
-  ],
+  "weightedAnalysis": {
+    "categories": [
+      {
+        "name": "Core",
+        "claims": 4,
+        "weight": 3,
+        "trueWeighted": 0,
+        "falseWeighted": 9,
+        "disputedWeighted": 3
+      },
+      {
+        "name": "Support",
+        "claims": 19,
+        "weight": 2,
+        "trueWeighted": 18,
+        "falseWeighted": 14,
+        "disputedWeighted": 6
+      },
+      {
+        "name": "Background",
+        "claims": 4,
+        "weight": 1,
+        "trueWeighted": 4,
+        "falseWeighted": 0,
+        "disputedWeighted": 0
+      }
+    ],
+    "errorImpact": 51,
+    "interpretation": "At 51%, this session is firmly in 'misleading overall' territory. The central claim — that no gospel mentions a Passover lamb in connection with the Last Supper — is directly contradicted by Luke 22:7 and Mark 14:12. Core claims carry the heaviest error load."
+  },
   "allClaims": [
-    { "number": 1, "text": "Millions of lambs are still slaughtered for Passover and Easter tradition to this day.", "timestamp": "0:12", "verdict": "True" },
-    { "number": 2, "text": "At Jesus's Last Supper, no lamb was present — 'not in Matthew, not in Mark, not in Luke, not in John.'", "timestamp": "0:20–0:28", "verdict": "False" },
-    { "number": 3, "text": "Josephus records as many as 256,000 lambs slaughtered in one Passover week.", "timestamp": "0:42–0:52", "verdict": "True" },
-    { "number": 4, "text": "That's over 20,000 per hour.", "timestamp": "0:52", "verdict": "False" },
-    { "number": 5, "text": "Mark tells us Jesus entered the temple the day before like he was scouting it out, then returned.", "timestamp": "0:59–1:06", "verdict": "True" },
-    { "number": 6, "text": "Jesus flipped the tables and stopped people from bringing animals in and out, shutting down the entire system for a whole day.", "timestamp": "1:06–1:15", "verdict": "Misleading" },
-    { "number": 7, "text": "Jesus said 'My father's house was meant to be a house of prayer.'", "timestamp": "1:15", "verdict": "Misleading" },
-    { "number": 8, "text": "They had turned it into 'a den of thieves.'", "timestamp": "1:23", "verdict": "True" },
-    { "number": 9, "text": "Jeremiah 7:22 states: 'I did not command your ancestors concerning burnt offerings or sacrifices.'", "timestamp": "1:28–1:38", "verdict": "Misleading" },
-    { "number": 10, "text": "Jesus twice echoed this, quoting Hosea: 'I desire mercy, not sacrifice.'", "timestamp": "1:38", "verdict": "True" },
-    { "number": 11, "text": "The Feast of Unleavened Bread came first, before the Passover lamb tradition.", "timestamp": "1:48–1:56", "verdict": "Disputed" },
-    { "number": 12, "text": "In the Elephantine Passover letter, a 5th-century BC text, there's no mention of lamb — only bread.", "timestamp": "1:56", "verdict": "Misleading" },
-    { "number": 13, "text": "For some, Passover referred not to lamb at all, but the act of passing through the Red Sea into freedom.", "timestamp": "2:17–2:24", "verdict": "Disputed" },
-    { "number": 14, "text": "There's record into the 7th century of Hebrews in Medina practicing Passover with only bread, no lamb.", "timestamp": "2:32", "verdict": "True" },
-    { "number": 15, "text": "Melchizedek brought Abraham bread and wine, not lamb, when he 'passed over into the land.'", "timestamp": "2:39", "verdict": "Misleading" },
-    { "number": 16, "text": "The lamb may have been a later addition, possibly influenced by pagan threshold rituals.", "timestamp": "2:43–2:52", "verdict": "Disputed" },
-    { "number": 17, "text": "Scholars have connected the Exodus account to earlier Mesopotamian and Egyptian rites that marked doorways with blood.", "timestamp": "2:52", "verdict": "Disputed" },
-    { "number": 18, "text": "Nowhere, not once in any gospel does it say Jesus ate lamb.", "timestamp": "3:07–3:16", "verdict": "True" },
-    { "number": 19, "text": "Bruce Chilton argued the Last Supper was a substitutional ritual protest.", "timestamp": "3:25–3:32", "verdict": "True" },
-    { "number": 20, "text": "In Old English, bread was often referred to as 'meat.'", "timestamp": "3:40", "verdict": "True" },
-    { "number": 21, "text": "Deuteronomy refers to 'the blood of grapes.'", "timestamp": "3:40–3:50", "verdict": "True" },
-    { "number": 22, "text": "The Nazarenes and Ebionites, led by James the brother of Jesus, preserved teachings against blood sacrifice and flesh consumption.", "timestamp": "3:57–4:06", "verdict": "Misleading" },
-    { "number": 23, "text": "Church fathers Jerome and Epiphanius spoke of a Hebrew gospel used by these earliest Hebrew Christians, possibly older than the Greek text.", "timestamp": "4:06–4:19", "verdict": "True" },
-    { "number": 24, "text": "In one surviving fragment, Jesus says: 'I have no desire to eat the flesh of this Passover.'", "timestamp": "4:19–4:27", "verdict": "True" },
-    { "number": 25, "text": "A study by the International Journal of Obesity showed that portions in Last Supper paintings have increased by 62%.", "timestamp": "4:41–4:53", "verdict": "False" },
-    { "number": 26, "text": "Da Vinci's Last Supper shows an empty plate in front of Jesus where the lamb should be.", "timestamp": "4:53–5:06", "verdict": "Misleading" },
-    { "number": 27, "text": "Jesus said: 'I am the good shepherd. And the good shepherd lays down his life for the sheep.'", "timestamp": "5:06–5:14", "verdict": "True" },
-    { "number": 28, "text": "Mark's gospel says when Jesus flipped the tables, priests began plotting to destroy him.", "timestamp": "5:14–5:21", "verdict": "True" }
+    { "num": 1, "text": "Millions of lambs are still slaughtered for Passover and Easter tradition to this day.", "timestamp": "0:12", "verdict": "true" },
+    { "num": 2, "text": "At Jesus's Last Supper, no lamb was present — 'not in Matthew, not in Mark, not in Luke, not in John.'", "timestamp": "0:20–0:28", "verdict": "false" },
+    { "num": 3, "text": "Josephus records as many as 256,000 lambs slaughtered in one Passover week.", "timestamp": "0:42–0:52", "verdict": "true" },
+    { "num": 4, "text": "That's over 20,000 per hour.", "timestamp": "0:52", "verdict": "false" },
+    { "num": 5, "text": "Mark tells us Jesus entered the temple the day before like he was scouting it out, then returned.", "timestamp": "0:59–1:06", "verdict": "true" },
+    { "num": 6, "text": "Jesus flipped the tables and stopped people from bringing animals in and out, shutting down the entire system for a whole day.", "timestamp": "1:06–1:15", "verdict": "misleading" },
+    { "num": 7, "text": "Jesus said 'My father's house was meant to be a house of prayer.'", "timestamp": "1:15", "verdict": "misleading" },
+    { "num": 8, "text": "They had turned it into 'a den of thieves.'", "timestamp": "1:23", "verdict": "true" },
+    { "num": 9, "text": "Jeremiah 7:22 states: 'I did not command your ancestors concerning burnt offerings or sacrifices.'", "timestamp": "1:28–1:38", "verdict": "misleading" },
+    { "num": 10, "text": "Jesus twice echoed this, quoting Hosea: 'I desire mercy, not sacrifice.'", "timestamp": "1:38", "verdict": "true" },
+    { "num": 11, "text": "The Feast of Unleavened Bread came first, before the Passover lamb tradition.", "timestamp": "1:48–1:56", "verdict": "disputed" },
+    { "num": 12, "text": "In the Elephantine Passover letter, a 5th-century BC text, there's no mention of lamb — only bread.", "timestamp": "1:56", "verdict": "misleading" },
+    { "num": 13, "text": "For some, Passover referred not to lamb at all, but the act of passing through the Red Sea into freedom.", "timestamp": "2:17–2:24", "verdict": "disputed" },
+    { "num": 14, "text": "There's record into the 7th century of Hebrews in Medina practicing Passover with only bread, no lamb.", "timestamp": "2:32", "verdict": "true" },
+    { "num": 15, "text": "Melchizedek brought Abraham bread and wine, not lamb, when he 'passed over into the land.'", "timestamp": "2:39", "verdict": "misleading" },
+    { "num": 16, "text": "The lamb may have been a later addition, possibly influenced by pagan threshold rituals.", "timestamp": "2:43–2:52", "verdict": "disputed" },
+    { "num": 17, "text": "Scholars have connected the Exodus account to earlier Mesopotamian and Egyptian rites that marked doorways with blood.", "timestamp": "2:52", "verdict": "disputed" },
+    { "num": 18, "text": "Nowhere, not once in any gospel does it say Jesus ate lamb.", "timestamp": "3:07–3:16", "verdict": "true" },
+    { "num": 19, "text": "Bruce Chilton argued the Last Supper was a substitutional ritual protest.", "timestamp": "3:25–3:32", "verdict": "true" },
+    { "num": 20, "text": "In Old English, bread was often referred to as 'meat.'", "timestamp": "3:40", "verdict": "true" },
+    { "num": 21, "text": "Deuteronomy refers to 'the blood of grapes.'", "timestamp": "3:40–3:50", "verdict": "true" },
+    { "num": 22, "text": "The Nazarenes and Ebionites, led by James the brother of Jesus, preserved teachings against blood sacrifice and flesh consumption.", "timestamp": "3:57–4:06", "verdict": "misleading" },
+    { "num": 23, "text": "Church fathers Jerome and Epiphanius spoke of a Hebrew gospel used by these earliest Hebrew Christians, possibly older than the Greek text.", "timestamp": "4:06–4:19", "verdict": "true" },
+    { "num": 24, "text": "In one surviving fragment, Jesus says: 'I have no desire to eat the flesh of this Passover.'", "timestamp": "4:19–4:27", "verdict": "true" },
+    { "num": 25, "text": "A study by the International Journal of Obesity showed that portions in Last Supper paintings have increased by 62%.", "timestamp": "4:41–4:53", "verdict": "false" },
+    { "num": 26, "text": "Da Vinci's Last Supper shows an empty plate in front of Jesus where the lamb should be.", "timestamp": "4:53–5:06", "verdict": "misleading" },
+    { "num": 27, "text": "Jesus said: 'I am the good shepherd. And the good shepherd lays down his life for the sheep.'", "timestamp": "5:06–5:14", "verdict": "true" },
+    { "num": 28, "text": "Mark's gospel says when Jesus flipped the tables, priests began plotting to destroy him.", "timestamp": "5:14–5:21", "verdict": "true" }
   ]
 }
