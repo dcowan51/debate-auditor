@@ -269,5 +269,43 @@
       "gavin-ortlund-sola-scriptura",
       "gavin-ortlund-justin-martyr"
     ]
+  },
+  {
+    "id": "christspiracy",
+    "name": "Kip Andersen",
+    "channel": "@Christspiracy",
+    "platform": "YouTube",
+    "avatarColor": "#fdcb6e",
+    "initials": "KA",
+    "topics": [
+      "Vegetarian Jesus",
+      "Greek Lexicography",
+      "Textual Criticism",
+      "Animal Ethics",
+      "Early Jewish-Christianity"
+    ],
+    "sessions": 1,
+    "totalClaims": 39,
+    "trueClaims": 22,
+    "cumulativeScore": 56,
+    "verdict": "Unreliable",
+    "corePositions": [
+      "Opsarion/prosphagion = 'relish/food,' not 'fish'",
+      "Luke 24 and John 21 are later editorial additions",
+      "Earliest Christianity was vegetarian",
+      "Pythagorean-Christian numerical symbolism in John 21",
+      "Hebrew Gospel traditions preserve earliest resurrection account"
+    ],
+    "notablePatterns": [
+      "Heavy reliance on etymological arguments detached from contextual usage.",
+      "Selective citation of patristic sources to support vegetarian thesis.",
+      "Multiple unverifiable or garbled source citations (Finicius Arabius, LXX Lev 2:1).",
+      "Conflation of scholarly 'possible' with 'probable'.",
+      "Documentary promotion (Seaspiracy, Christspiracy) embedded in factual claims — financial incentive noted.",
+      "Core thesis claims carry the highest error load; background factual claims are largely accurate."
+    ],
+    "analyses": [
+      "christspiracy-gospel-catch"
+    ]
   }
 ]
