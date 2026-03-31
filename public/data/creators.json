@@ -311,5 +311,41 @@
       "christspiracy-gospel-catch",
       "christspiracy-passover-lamb"
     ]
+  },
+  {
+    "id": "mindshift",
+    "name": "Mindshift (Brandon)",
+    "channel": "@Mindshift",
+    "platform": "YouTube",
+    "avatarColor": "#e84393",
+    "initials": "MS",
+    "topics": [
+      "Philosophy of Religion",
+      "Atheism",
+      "Biblical Criticism",
+      "Ethics"
+    ],
+    "sessions": 1,
+    "totalClaims": 42,
+    "trueClaims": 22,
+    "cumulativeScore": 52,
+    "verdict": "Unreliable",
+    "corePositions": [
+      "God's morality is subjective, not objective",
+      "God violates his own moral standards throughout the Bible",
+      "Divine immutability means moral rules cannot change across covenants",
+      "Morality is an evolved social construct, not divine command",
+      "The Bible's authors wrote to serve their own interests"
+    ],
+    "notablePatterns": [
+      "Strong pattern of decontextualization — stripping covenant-conditional language from judgment passages.",
+      "Consistent use of emotionally charged language substitutions ('torture' for illness, 'sexual slavery' for captive marriage law, 'sent off to die' for divorce).",
+      "Conflates moral objectivism with moral absolutism — distinct philosophical positions.",
+      "Generally accurate biblical citations with inaccurate contextual framing.",
+      "Preemptively dismisses counterarguments (e.g., Copan) without engaging them."
+    ],
+    "analyses": [
+      "mindshift-obj-morality"
+    ]
   }
 ]

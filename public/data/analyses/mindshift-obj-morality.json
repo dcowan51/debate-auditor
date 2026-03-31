@@ -1,0 +1,501 @@
+{
+  "id": "mindshift-obj-morality",
+  "creatorId": "mindshift",
+  "creatorName": "Mindshift (Brandon)",
+  "channel": "@Mindshift",
+  "videoTitle": "God's Hypocrisy: The Case Against Objective Morality",
+  "videoUrl": "https://youtu.be/4pdYmIwxYTE?si=CeiS1Aqrzqlbl9B1",
+  "datePublished": "",
+  "dateAnalyzed": "2026-03-30",
+  "sessionNumber": 1,
+  "analyzedRange": "0:00–43:57",
+  "thesis": "God's morality is not objective because God himself violates 20 moral principles that should be objectively wrong according to the Bible.",
+  "dashboard": {
+    "sessionScore": 52,
+    "cumulativeScore": 52,
+    "cumulativeSessions": 1,
+    "trueClaims": 22,
+    "falseMisleading": 16,
+    "disputed": 4,
+    "totalChecked": 42,
+    "confidence": "Medium",
+    "verdict": "Unreliable",
+    "stratagems": 7,
+    "weaselWords": 4,
+    "errorImpact": 40
+  },
+  "steelman": "If God's moral character is truly immutable and he is the source of objective morality, then significant tensions exist between certain divine commands/actions in the Old Testament and the moral principles attributed to God elsewhere in Scripture. These tensions deserve honest engagement rather than dismissal, and they constitute a genuine philosophical challenge to simplistic versions of divine command theory.",
+  "falseClaims": [
+    {
+      "claim": "Mayan sacrifice was 'most likely a lie perpetuated by missionaries'",
+      "rating": "Likely False",
+      "confidence": "Very High",
+      "timestamp": "21:29",
+      "evidence": "Strong archaeological evidence confirms Mayan human sacrifice: skeletal remains, DNA evidence from Chichen Itza (National Geographic 2024 study), codex depictions, and excavations at Palenque and Calakmul.",
+      "settle": "N/A — already settled by archaeology.",
+      "sources": [
+        {
+          "label": "Human sacrifice in Maya culture — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Human_sacrifice_in_Maya_culture"
+        }
+      ],
+      "category": "Support"
+    },
+    {
+      "claim": "God 'accepted' Jephthah's child sacrifice and 'made him go through with it'",
+      "rating": "Likely False",
+      "confidence": "High",
+      "timestamp": "23:28",
+      "evidence": "Judges 11 never states God accepted or endorsed the sacrifice. Judges is a narrative of Israel's moral decline ('everyone did what was right in his own eyes' — Judges 21:25). Jeremiah 7:31, 19:5, and 32:35 explicitly deny God ever commanded human sacrifice.",
+      "settle": "A passage stating God approved Jephthah's act — none exists.",
+      "sources": [
+        {
+          "label": "Jeremiah 7:31 — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=Jeremiah+7%3A31&version=NRSVUE"
+        },
+        {
+          "label": "Judges 11 — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=Judges+11&version=NRSVUE"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "God 'tortured' David's infant son for 7 days",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "5:46",
+      "evidence": "2 Samuel 12:15-18 says the child became 'very ill' and died on the seventh day. 'Torture' is an emotionally charged substitution not supported by the text. The Hebrew verb is nagap (to strike/afflict), not a torture term.",
+      "settle": "Read 2 Samuel 12:15-18; lexical analysis of the Hebrew verb.",
+      "sources": [
+        {
+          "label": "2 Samuel 12:15-18 — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=2+Samuel+12%3A15-18&version=NRSVUE"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "There are about 630 laws in the Old Testament",
+      "rating": "Mostly False",
+      "confidence": "Very High",
+      "timestamp": "2:24",
+      "evidence": "The established count is 613 mitzvot (Talmud, Makkot 23b; Maimonides' Sefer HaMitzvot). No scholarly source gives 630.",
+      "settle": "Check Talmud Makkot 23b and Maimonides' enumeration.",
+      "sources": [
+        {
+          "label": "613 commandments — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/613_commandments"
+        }
+      ],
+      "category": "Background"
+    },
+    {
+      "claim": "Only female witches were killed",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "33:49",
+      "evidence": "Exodus 22:18 uses the feminine form, but Leviticus 20:27 prescribes death for both male and female practitioners: 'A man or a woman who is a medium or a wizard shall be put to death.'",
+      "settle": "Read Leviticus 20:27.",
+      "sources": [
+        {
+          "label": "Leviticus 20:27 — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=Leviticus+20%3A27&version=NRSVUE"
+        }
+      ],
+      "category": "Support"
+    },
+    {
+      "claim": "Menstruation requires a 'sin penance'",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "33:56",
+      "evidence": "Leviticus 15:19-30 prescribes a purification offering for ritual cleanness, not moral atonement. The Hebrew chatat offering addresses ceremonial impurity, not sin in the moral sense. Jacob Milgrom's Leviticus commentary (Anchor Bible) distinguishes purification from sin offerings.",
+      "settle": "Consult Milgrom, Leviticus 1-16 (Anchor Bible) on the chatat offering.",
+      "sources": [
+        {
+          "label": "Leviticus 15 — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=Leviticus+15&version=NRSVUE"
+        }
+      ],
+      "category": "Support"
+    },
+    {
+      "claim": "Nehemiah 13:23-30 concerns 'interracial marriage' as a 'great evil'",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "36:30",
+      "evidence": "The text's concern is religious syncretism and covenantal identity, not race. Nehemiah objects to marriages with women who worship foreign gods. Ruth (a Moabite) is celebrated precisely because she adopted Yahweh worship. Rahab (Canaanite) and Uriah (Hittite) are similarly honored.",
+      "settle": "Compare with the book of Ruth and Rahab's inclusion in Matthew's genealogy.",
+      "sources": [
+        {
+          "label": "Nehemiah 13 — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=Nehemiah+13%3A23-30&version=NRSVUE"
+        },
+        {
+          "label": "Book of Ruth — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Book_of_Ruth"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "Mixed wives and children were 'sent off essentially to die'",
+      "rating": "Mostly False",
+      "confidence": "High",
+      "timestamp": "37:05",
+      "evidence": "Nehemiah 13 and Ezra 10 describe divorce and sending away, but 'sent off to die' is not in the text and is an unsupported inference. Harsh treatment is directed at the men (Nehemiah 13:25), not mass death of children.",
+      "settle": "Read Ezra 10 and Nehemiah 13:25 for the actual described actions.",
+      "sources": [
+        {
+          "label": "Ezra 10 — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=Ezra+10&version=NRSVUE"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "42,000 killed in Judges 12 'because their accent offended'",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "37:12",
+      "evidence": "The Ephraimites initiated an armed invasion against Gilead (Judges 12:1-4). The Shibboleth accent test was a battlefield identification method to catch fleeing enemy soldiers, not a cause of the conflict.",
+      "settle": "Read Judges 12:1-4 for the full context of the military conflict.",
+      "sources": [
+        {
+          "label": "Judges 12 — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=Judges+12%3A1-6&version=NRSVUE"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "Hebrews 13:8 proves God's moral commands can never change",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "1:37",
+      "evidence": "Hebrews 13:8 ('Jesus Christ is the same yesterday and today and forever') refers to Christ's nature and faithfulness, not to the permanence of every OT legal code. Most theologians distinguish ontological immutability from covenantal progression.",
+      "settle": "Exegetical analysis of Hebrews 13:8 in context; Grudem, Systematic Theology ch. 11.",
+      "sources": [
+        {
+          "label": "Hebrews 13:8 — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=Hebrews+13%3A8&version=NRSVUE"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "Isaiah 13:16: God punishes people by having their infants dashed in pieces",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "5:30",
+      "evidence": "Isaiah 13 is an oracle against Babylon describing the consequences of military conquest by the Medes (v. 17). The verse describes what invading armies will do, presented as prophetic judgment — not a divine moral command for all time.",
+      "settle": "Read Isaiah 13 in full, noting v. 1 ('oracle against Babylon') and v. 17 (the Medes as agents).",
+      "sources": [
+        {
+          "label": "Isaiah 13 — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=Isaiah+13&version=NRSVUE"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "Moses ordered the killing of all little boys who had been spared (Numbers 31)",
+      "rating": "Misleading",
+      "confidence": "Medium",
+      "timestamp": "6:25",
+      "evidence": "Numbers 31:17 records Moses's command to kill male children (not 'little boys' specifically) in the context of the Midianite war. The framing as 'little boys who had been spared' adds emotional coloring not present in the text, and omits the ancient Near Eastern warfare context.",
+      "settle": "Read Numbers 31 in full; consult Copan, Is God a Moral Monster? on ANE warfare conventions.",
+      "sources": [
+        {
+          "label": "Numbers 31 — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=Numbers+31&version=NRSVUE"
+        }
+      ],
+      "category": "Support"
+    },
+    {
+      "claim": "Proverbs 1:26: God says 'I will laugh at your calamity, I will mock you'",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "13:43",
+      "evidence": "Proverbs 1:20-33 is personified Wisdom speaking, not a direct divine speech act. Wisdom warns those who have repeatedly rejected her counsel (vv. 24-25) that consequences will follow. The passage is about the natural results of rejecting wisdom, not arbitrary divine cruelty.",
+      "settle": "Read Proverbs 1:20-33 noting the speaker is personified Wisdom, not God directly.",
+      "sources": [
+        {
+          "label": "Proverbs 1 — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=Proverbs+1%3A20-33&version=NRSVUE"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "God commits child sacrifice himself — Jesus",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "24:11",
+      "evidence": "Christian theology distinguishes the voluntary, substitutionary atonement of Christ (an adult who consented — John 10:18: 'No one takes my life from me; I lay it down of my own accord') from child sacrifice (involuntary killing of children to appease a deity). Equating the two collapses a fundamental theological distinction.",
+      "settle": "Compare John 10:17-18 (voluntary sacrifice) with Jeremiah 7:31 (condemnation of child sacrifice).",
+      "sources": [
+        {
+          "label": "John 10:17-18 — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=John+10%3A17-18&version=NRSVUE"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "God punished David by having all his wives raped publicly",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "26:34",
+      "evidence": "2 Samuel 12:11-12 records Nathan's prophecy that consequences will arise from David's own household. The text describes Absalom's actions (2 Sam 16:22) as a consequence of David's sin, not as God orchestrating rape. The prophetic genre distinguishes between divine permission of consequences and divine command.",
+      "settle": "Read 2 Samuel 12:11-12 and 16:22 in narrative context; consult Anderson, 2 Samuel (WBC).",
+      "sources": [
+        {
+          "label": "2 Samuel 12:11-12 — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=2+Samuel+12%3A11-12&version=NRSVUE"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "Women worth 2/3 of a man",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "33:02",
+      "evidence": "Leviticus 27:3-4 gives differential votive valuations for temple dedications — these are economic assessments of labor value for temple service, not statements about human worth or dignity. The same passage also differentiates by age. Galatians 3:28 and Genesis 1:27 (image of God) present a different theological framework.",
+      "settle": "Read Leviticus 27 in full; consult Milgrom on votive valuations.",
+      "sources": [
+        {
+          "label": "Leviticus 27 — BibleGateway",
+          "url": "https://www.biblegateway.com/passage/?search=Leviticus+27&version=NRSVUE"
+        }
+      ],
+      "category": "Support"
+    }
+  ],
+  "stratagems": [
+    {
+      "number": 1,
+      "name": "Extension (Generalization)",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "I'm going to list 20 things that should be objectively wrong according to God... surely if we have 20 things that are objectively wrong according to this Bible according to this God then the number one person who should never break them without excuse would be God himself",
+          "timestamp": "0:33–1:12",
+          "explanation": "Extends the Christian claim about objective morality into a claim that God must personally follow every human moral instruction. Most theologians distinguish between God's moral commands for creatures and God's sovereign prerogatives as Creator. The extension makes the thesis easier to attack."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "name": "Use Your Opponent's Beliefs Against Him (False Premises)",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "I'd like to point you to all of the verses about God's immutability meaning God does not change he is the same yesterday today and forever... if these things were important to God at one point and they were wrong at one point they should be wrong now",
+          "timestamp": "1:37–1:52",
+          "explanation": "Uses a premise the audience accepts (immutability) but extends it beyond what most theologians argue. Hebrews 13:8 is about Christ's nature, not the permanence of every OT legal code. Most distinguish ontological immutability from covenantal progression."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "name": "Induction with Concealed Counterexamples",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "God did not forgive at all... Adam and Eve messed up one time before they knew what right or wrong was and he cursed everybody for all time",
+          "timestamp": "12:06–12:30",
+          "explanation": "Builds an inductive case that God is unforgiving while concealing substantial counterevidence: the prodigal son parable (Luke 15), God's repeated forgiveness of Israel (Judges cycle), the entire sacrificial system designed for atonement, Psalm 103:12, Micah 7:18-19. The Bible's dominant narrative arc is about forgiveness and restoration."
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "name": "Misleading Metaphor / Loaded Language",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "was to torture and then kill David's infant son for 7 days",
+          "timestamp": "5:46",
+          "explanation": "2 Samuel 12:15-18 says the child became 'very ill' and died on the seventh day. Substituting 'torture' for 'illness' inflames the audience but is not supported by the source text. This pattern recurs throughout ('sexual slavery,' 'sent off to die,' 'forced cannibalism') — consistently selecting the most inflammatory possible reading."
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "name": "Drawing False Consequences",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "God accepts of child sacrifice. He gave a victory to this man because of what he was willing to give up which was his daughter.",
+          "timestamp": "23:28–23:53",
+          "explanation": "Draws a false consequence from Judges 11. The text records that Jephthah made a rash vow and God granted victory — but never states God endorsed the sacrifice. Judges consistently presents moral decline ('everyone did what was right in his own eyes' — 21:25). Jeremiah 7:31 and 19:5 explicitly state God never commanded human sacrifice."
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "name": "Finding One Instance to the Contrary",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "how did we get a change in God's opinion on divorce... why did the law change",
+          "timestamp": "20:18–20:43",
+          "explanation": "Finds one instance where biblical law shifts (divorce from Moses to Jesus) and uses it to invalidate the entire concept of objective morality. Jesus himself explains this shift: 'Because of your hardness of heart Moses allowed you to divorce... but from the beginning it was not so' (Matthew 19:8). The change is explicitly addressed as a concession, not a contradiction."
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "name": "Argument from Authority (Selective Dismissal)",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "before you give me the hyperbole example... that really is founded in 'Is God a Moral Monster' by Paul Copan, I'd encourage you to see the follow-up",
+          "timestamp": "7:36–7:46",
+          "explanation": "Preemptively dismisses one of the most cited academic responses to his argument (Copan's work) without engaging its actual arguments, directing the audience to unspecified 'follow-ups.' Selectively neutralizes an authority without substantive rebuttal."
+        }
+      ]
+    }
+  ],
+  "scholarlySplits": [
+    {
+      "claim": "God 'sent' a lying spirit (1 Kings 22:21-23) — does God deceive?",
+      "nature": "Theologians divide on whether God actively deceives vs. permits deception as judicial hardening. Majority view: God permitted deception on one already committed to falsehood. Minority: God actively deceives.",
+      "timestamp": "3:39"
+    },
+    {
+      "claim": "Numbers 31 virgins kept for 'sexual slavery'",
+      "nature": "Scholars divide on whether captive women became wives with protections (Deuteronomy 21:10-14) or were exploited. Majority: regulated marriage with protections was intended. Critical scholars: exploitation regardless of legal framing.",
+      "timestamp": "6:31"
+    },
+    {
+      "claim": "Jephthah's daughter — literal sacrifice or perpetual virginity/dedication?",
+      "nature": "Ancient and modern scholars split on whether Jephthah killed his daughter or dedicated her to temple service. Majority modern view: literal sacrifice occurred. Significant minority (esp. Jewish tradition): dedication to lifelong service.",
+      "timestamp": "23:28"
+    },
+    {
+      "claim": "Numbers 5 (Sotah ritual) — does it cause abortion?",
+      "nature": "Scholars divide on whether 'thigh falling away' is a euphemism for miscarriage. Traditional Jewish law prohibited the ritual for pregnant women. Some modern scholars read it as abortifacient.",
+      "timestamp": "34:05"
+    }
+  ],
+  "trueClaims": [
+    "Multiple versions of the Ten Commandments exist — Exodus 20, Deuteronomy 5, and Exodus 34 present distinct formulations",
+    "Matthew 5:17 quotation accurately quoted — Jesus states he came to fulfill, not abolish, the law",
+    "God hardened Pharaoh's heart — multiple Exodus passages state this",
+    "1 Samuel 15:2-3: God commands destruction of Amalekites including children — accurate quotation",
+    "Saul lost his throne for incomplete obedience in 1 Samuel 15 — he spared Agag and the best livestock",
+    "Deuteronomy 4:24: God is called a 'consuming fire, a jealous God' — accurate",
+    "1 Corinthians 10:22: Paul references God's jealousy — accurate",
+    "Psalm 94:1: God is called 'God of vengeance' — accurate",
+    "Leviticus 26:25: God threatens a sword for covenant vengeance — accurate",
+    "Isaiah 59:17: God puts on 'garments of vengeance' — accurate",
+    "Touching of the Ark causing death (Uzzah) — 2 Samuel 6:6-7 confirms",
+    "Aaron's sons killed for improper fire offering — Leviticus 10:1-2 (Nadab and Abihu)",
+    "Joshua 24:19: 'He will not forgive your transgressions' — accurate quotation (context: covenant-renewal warning)",
+    "2 Kings 24:4: 'The Lord was not willing to forgive' — accurate (context: specific to Manasseh's bloodshed)",
+    "Deuteronomy 29:20: 'The Lord will never be willing to forgive them' — accurate (context: conditional on idolatry)",
+    "Leviticus 26:29: 'You shall eat the flesh of your sons and daughters' — accurate quotation",
+    "Jeremiah 19:9: Cannibalism prophecy during siege — accurate quotation",
+    "Matthew 19: Jesus limits divorce exception to sexual immorality — accurate",
+    "Solomon had 700 wives (1 Kings 11:3) — accurate per biblical text",
+    "Genesis 9:25: Curse of Canaan to servitude — the verse exists and says this",
+    "Leviticus 25:44: Slaves may be acquired from surrounding nations — accurate quotation",
+    "The man gathering sticks on the Sabbath was executed — Numbers 15:32-36 confirms"
+  ],
+  "youtubeFlags": [
+    {
+      "type": "Title Accuracy",
+      "severity": "caution",
+      "text": "The title 'God's Hypocrisy: The Case Against Objective Morality' reasonably describes the content, though 'hypocrisy' implies intentional deception — a characterization rather than a demonstrated conclusion."
+    },
+    {
+      "type": "Implied Claims",
+      "severity": "warning",
+      "text": "Implies that divine command theory requires God to personally obey every command he gives to humans. Implies any single exception to a moral rule disproves objective morality — conflating moral objectivism with moral absolutism. Implies Bible's authors fabricated God's words to serve their own interests."
+    },
+    {
+      "type": "Monetization",
+      "severity": "info",
+      "text": "Speaker promotes Patreon at the end (43:41) and references prior videos throughout. No supplements, courses, or paid products promoted alongside factual claims."
+    }
+  ],
+  "weightedAnalysis": {
+    "categories": [
+      {
+        "name": "Core",
+        "claims": 18,
+        "weight": 3,
+        "trueWeighted": 27,
+        "falseWeighted": 24,
+        "disputedWeighted": 3
+      },
+      {
+        "name": "Support",
+        "claims": 14,
+        "weight": 2,
+        "trueWeighted": 14,
+        "falseWeighted": 10,
+        "disputedWeighted": 4
+      },
+      {
+        "name": "Background",
+        "claims": 10,
+        "weight": 1,
+        "trueWeighted": 6,
+        "falseWeighted": 3,
+        "disputedWeighted": 1
+      }
+    ],
+    "errorImpact": 40,
+    "interpretation": "At 40%, this session exceeds the 'misleading overall' threshold (>=35%). The video's argument relies heavily on decontextualized citations and emotionally charged language substitutions that cumulatively produce a misleading picture, even though many individual biblical citations are textually accurate."
+  },
+  "allClaims": [
+    { "num": 1, "text": "There are multiple versions of the Ten Commandments.", "timestamp": "2:24", "verdict": "true" },
+    { "num": 2, "text": "There are about 630 laws in the Old Testament.", "timestamp": "2:24", "verdict": "false" },
+    { "num": 3, "text": "God is immutable — 'the same yesterday, today, and forever' (Hebrews 13:8 applied to moral law).", "timestamp": "1:37", "verdict": "misleading" },
+    { "num": 4, "text": "Jesus says in Matthew 5:17 'Do not think that I have come to abolish the law or the prophets; I have come to fulfill them.'", "timestamp": "2:00", "verdict": "true" },
+    { "num": 5, "text": "Rahab lied for soldiers and was blessed/preserved by God.", "timestamp": "3:30", "verdict": "true" },
+    { "num": 6, "text": "1 Kings 22:21-23: God sent a lying spirit to deceive prophets.", "timestamp": "3:39", "verdict": "disputed" },
+    { "num": 7, "text": "Isaiah 13:16: God punishes people by having their infants dashed in pieces.", "timestamp": "5:30", "verdict": "misleading" },
+    { "num": 8, "text": "God 'tortured' and killed David's infant son for 7 days.", "timestamp": "5:46", "verdict": "misleading" },
+    { "num": 9, "text": "God hardened Pharaoh's heart so he could perform the plague of killing firstborns.", "timestamp": "6:03", "verdict": "true" },
+    { "num": 10, "text": "Moses ordered the killing of all little boys who had been spared (Numbers 31).", "timestamp": "6:25", "verdict": "misleading" },
+    { "num": 11, "text": "The girls were kept for sexual slavery (Numbers 31).", "timestamp": "6:31", "verdict": "disputed" },
+    { "num": 12, "text": "1 Samuel 15:2-3: God commands killing of man, woman, child, infant against Amalekites.", "timestamp": "7:19", "verdict": "true" },
+    { "num": 13, "text": "Saul lost his throne for not killing the king and a few sheep.", "timestamp": "7:55", "verdict": "true" },
+    { "num": 14, "text": "Deuteronomy 4:24: 'The Lord your God is a consuming fire, a jealous God.'", "timestamp": "9:04", "verdict": "true" },
+    { "num": 15, "text": "1 Corinthians 10:22: Paul talks about the jealousy of the Lord.", "timestamp": "9:22", "verdict": "true" },
+    { "num": 16, "text": "Psalm 94:1: 'Oh Lord, the God of vengeance.'", "timestamp": "10:20", "verdict": "true" },
+    { "num": 17, "text": "Leviticus 26:25: God brings a sword to execute vengeance.", "timestamp": "10:28", "verdict": "true" },
+    { "num": 18, "text": "Isaiah 59:17: God puts on a garment of vengeance.", "timestamp": "10:43", "verdict": "true" },
+    { "num": 19, "text": "Someone touched the Ark of the Covenant to steady it and God struck them dead.", "timestamp": "10:49", "verdict": "true" },
+    { "num": 20, "text": "Aaron's sons didn't do the fire ritual correctly and were struck dead.", "timestamp": "10:56", "verdict": "true" },
+    { "num": 21, "text": "Joshua 24:19: God 'will not forgive your transgressions or your sins.'", "timestamp": "12:30", "verdict": "true" },
+    { "num": 22, "text": "2 Kings 24:3-4: 'The Lord was not willing to forgive.'", "timestamp": "12:46", "verdict": "true" },
+    { "num": 23, "text": "Deuteronomy 29:20: 'The Lord will never be willing to forgive them.'", "timestamp": "12:55", "verdict": "true" },
+    { "num": 24, "text": "Proverbs 1:24-30: God says 'I will laugh at your calamity, I will mock you when your fear cometh.'", "timestamp": "13:43", "verdict": "misleading" },
+    { "num": 25, "text": "Girls who are not virgins on their wedding night are to be stoned.", "timestamp": "16:22", "verdict": "true" },
+    { "num": 26, "text": "Moses allowed divorce; Jesus limited it to adultery only (Matthew 19:3).", "timestamp": "19:30", "verdict": "true" },
+    { "num": 27, "text": "Mayan sacrifice claims were 'most likely a lie perpetuated by missionaries.'", "timestamp": "21:29", "verdict": "false" },
+    { "num": 28, "text": "Jephthah made a deal with God and God made him go through with child sacrifice (unlike Abraham).", "timestamp": "23:28", "verdict": "false" },
+    { "num": 29, "text": "God commits child sacrifice himself — Jesus.", "timestamp": "24:11", "verdict": "misleading" },
+    { "num": 30, "text": "Marriage in the Bible includes man-slave, man-concubines, and polygamy up to 700 wives (Solomon).", "timestamp": "24:59", "verdict": "true" },
+    { "num": 31, "text": "God punished David by having all his wives raped publicly by someone David knew.", "timestamp": "26:34", "verdict": "misleading" },
+    { "num": 32, "text": "Women worth 2/3 of a man.", "timestamp": "33:02", "verdict": "misleading" },
+    { "num": 33, "text": "Only female witches were killed.", "timestamp": "33:49", "verdict": "misleading" },
+    { "num": 34, "text": "Menstruation requires a sin penance.", "timestamp": "33:56", "verdict": "misleading" },
+    { "num": 35, "text": "The 'magic trial' of eating a dirt potion for women accused of cheating (Numbers 5).", "timestamp": "34:05", "verdict": "disputed" },
+    { "num": 36, "text": "Leviticus 26:29: God threatens forced cannibalism — eat the flesh of sons and daughters.", "timestamp": "35:05", "verdict": "true" },
+    { "num": 37, "text": "Jeremiah 19:9: God threatens to make people eat sons and daughters.", "timestamp": "35:29", "verdict": "true" },
+    { "num": 38, "text": "Nehemiah 13:23-30: Interracial marriage seen as 'great evil.'", "timestamp": "36:30", "verdict": "misleading" },
+    { "num": 39, "text": "Mixed wives and children 'sent off essentially to die.'", "timestamp": "37:05", "verdict": "false" },
+    { "num": 40, "text": "42,000 killed in Judges 12 because their accent offended.", "timestamp": "37:12", "verdict": "misleading" },
+    { "num": 41, "text": "Leviticus 25:44: You can only buy slaves from neighboring nations.", "timestamp": "37:28", "verdict": "true" },
+    { "num": 42, "text": "A man who was picking up sticks on the Sabbath was killed by God.", "timestamp": "31:24", "verdict": "true" }
+  ]
+}
