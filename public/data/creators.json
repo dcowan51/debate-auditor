@@ -12,10 +12,10 @@
       "Theology",
       "Nonduality"
     ],
-    "sessions": 6,
-    "totalClaims": 352,
-    "trueClaims": 175,
-    "cumulativeScore": 50,
+    "sessions": 7,
+    "totalClaims": 409,
+    "trueClaims": 217,
+    "cumulativeScore": 53,
     "verdict": "Unreliable",
     "corePositions": [
       "Paul founded gnosticism through Marcion",
@@ -26,14 +26,16 @@
       "Theosis through ego crucifixion",
       "James rebuked Paul for 'faith alone'",
       "Paul and James are irreconcilable",
-      "Paul was a Herodian 'deep state' agent who deceived early Christians"
+      "Paul was a Herodian 'deep state' agent who deceived early Christians",
+      "Jesus categorically opposed blood sacrifice; atonement was a metaphysical inversion of demonic blood ritual"
     ],
     "notablePatterns": [
       "Scripture citations are largely accurate, but interpretive frameworks and doctrinal characterizations carry heavy error loads.",
       "Core thesis claims tend to be historically falsifiable and falsified.",
-      "Frequently employs Stratagem 11 (Induction with Concealed Counterexamples).",
-      "Multi-speaker conversations amplify conspiratorial framing ('deep state,' 'infiltration') absent from solo content.",
-      "Cumulative trajectory: Caution (63%) → Unreliable (50%) → Unreliable (59%) → Unreliable (47%) → Unreliable (44%) → Caution (63%). Cumulative: 50%."
+      "Frequently employs Stratagem 11 (Induction with Concealed Counterexamples) — cites favorable proof texts while omitting contradicting passages from the same source.",
+      "Multi-speaker conversations amplify conspiratorial framing ('deep state,' 'infiltration,' 'parasite class') absent from solo content.",
+      "Commercial supplement claims integrated into theological content flow without evidence-quality distinction.",
+      "Cumulative trajectory: Caution (63%) → Unreliable (50%) → Unreliable (59%) → Unreliable (47%) → Unreliable (44%) → Caution (63%) → Caution (74%). Cumulative: 53%."
     ],
     "analyses": [
       "aaron-abke-session1",
@@ -41,7 +43,8 @@
       "aaron-abke-gnosticism",
       "aaron-abke-faith-alone",
       "aaron-abke-james-vs-paul",
-      "aaron-abke-christianity-before-paul"
+      "aaron-abke-christianity-before-paul",
+      "aaron-abke-jesus-way-047"
     ]
   },
   {

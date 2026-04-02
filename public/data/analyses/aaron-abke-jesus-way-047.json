@@ -1,0 +1,291 @@
+{
+  "id": "aaron-abke-jesus-way-047",
+  "creatorId": "aaron-abke",
+  "creatorName": "Aaron Abke",
+  "channel": "@AaronAbke",
+  "videoTitle": "Jesus Didn't Die For Sins, He Died BECAUSE of Them (The Devil's Playbook) | Jesus Way Podcast 047",
+  "videoUrl": "https://youtu.be/RPMtVywkSe0",
+  "contentType": "video",
+  "datePublished": "2026-01-01",
+  "dateAnalyzed": "2026-04-02",
+  "sessionNumber": 7,
+  "analyzedRange": "0:04–1:34:45",
+  "reportFile": "Aaron_Abke_JesusWay047_SevenDeadlySins_Debate_Audit.md",
+  "thesis": "The seven deadly sins (Proverbs 6:16-19) are the seven greatest openings for 'negative polarity' to influence human consciousness; Jesus opposed blood sacrifice as a pagan/demonic system; atonement was not substitutionary but a metaphysical inversion of dark ritual power; Christians must pursue ethical transformation (works) rather than faith-only salvation.",
+  "dashboard": {
+    "sessionScore": 74,
+    "cumulativeScore": 53,
+    "cumulativeSessions": 7,
+    "trueClaims": 42,
+    "falseMisleading": 9,
+    "disputed": 6,
+    "totalChecked": 57,
+    "confidence": "Medium",
+    "verdict": "Caution",
+    "stratagems": 6,
+    "weaselWords": 4,
+    "errorImpact": 23
+  },
+  "steelman": "The strongest charitable reading of this episode's thesis is that Jesus's ethical teaching centered on inner transformation (the heart conditions that produce sin) rather than ritual compliance or doctrinal assent, and that his confrontation of the Jerusalem temple system was rooted in authentic prophetic tradition (Hosea, Amos, Jeremiah) that prioritized justice and covenant faithfulness over sacrificial performance — a position with genuine mainstream scholarly support.",
+  "falseClaims": [
+    {
+      "claim": "Jeremiah 7:11 describes 'murder, violent ones, shredders of flesh'",
+      "rating": "False · High Confidence",
+      "confidence": "High",
+      "timestamp": "48:53",
+      "evidence": "All major translations render this as 'den of robbers/violent men' — describing the temple as a refuge for criminals, not a site of active slaughter. The Hebrew paritsim = lawless ones who hide there. Jesus's and Jeremiah's use condemns moral hypocrites using the sacred space as a safe harbor, not the sacrificial system. The verse is straightforwardly verifiable in any standard translation.",
+      "settle": "Read Jeremiah 7:11 in any standard translation alongside vv. 9-12.",
+      "sources": [],
+      "category": "Core"
+    },
+    {
+      "claim": "Hosea 6:6 is a blanket condemnation of animal sacrifice as pagan blood magic",
+      "rating": "Misleading · High Confidence",
+      "confidence": "High",
+      "timestamp": "47:01",
+      "evidence": "Scholarly consensus (Wolff, Mays, Andersen & Freedman; Willgren et al., Bulletin for Biblical Research 28/3) reads Hosea 6:6 as a prophetic priority claim — hesed (covenant love) over zebach (sacrifice) — not an abolition decree. Hosea 8:13 implies proper sacrifice retains value when covenant faithfulness accompanies it. The chapter's subject is Israel's covenantal fickleness, not the mechanics of sacrifice.",
+      "settle": "Full-chapter reading of Hosea 6, plus lexical analysis of hesed in its covenantal context.",
+      "sources": [],
+      "category": "Core"
+    },
+    {
+      "claim": "Matthew 12:7 context = Jesus condemning animal sacrifice",
+      "rating": "Misleading · High Confidence",
+      "confidence": "High",
+      "timestamp": "47:42",
+      "evidence": "Matthew 12:1-8 concerns the disciples plucking grain on the Sabbath — no animal is mentioned. Jesus defends them by citing David eating showbread (vv. 3-4) and priests doing Sabbath work (v. 5). Verse 7 applies Hosea 6:6 to Sabbath observance as a religious performance, not to animal sacrifice. The context is unambiguous.",
+      "settle": "Read Matthew 12:1-8 in full.",
+      "sources": [],
+      "category": "Core"
+    },
+    {
+      "claim": "Acts 15:29 'no blood' = prohibition on killing and eating animals",
+      "rating": "Misleading · High Confidence",
+      "confidence": "High",
+      "timestamp": "51:33",
+      "evidence": "Acts 15:29 reads: 'abstain from what has been sacrificed to idols, and from blood, and from what has been strangled, and from sexual immorality.' The paired mention of 'what has been strangled' — animals killed without draining blood — confirms the dietary context of Leviticus 17:10-14. All major commentaries (Fitzmyer, Keener, Witherington) read 'blood' as dietary blood consumption, not violence against animals.",
+      "settle": "Read Acts 15:20 and 15:29 with the context of Leviticus 17:10-14.",
+      "sources": [],
+      "category": "Core"
+    },
+    {
+      "claim": "Liquid vitamins are 3 to 20 times more bioavailable than capsule vitamins / capsules have less than 50% absorption",
+      "rating": "Misleading · Medium Confidence",
+      "confidence": "Medium",
+      "timestamp": "5:37",
+      "evidence": "No peer-reviewed literature supports the 3-20x range. A 2022 study suggested liquid may absorb more easily but explicitly stated 'more research is needed.' The <50% blanket absorption claim for capsules is unattributed in any peer-reviewed source. These figures circulate in supplement marketing without scientific attribution. Claim appears in a paid sponsor segment for Tropical Oasis Supplements.",
+      "settle": "A peer-reviewed pharmacokinetic study comparing matched formulations across delivery formats.",
+      "sources": [],
+      "category": "Support"
+    },
+    {
+      "claim": "The human body has a biofield measurable 'up to 12 feet away'",
+      "rating": "Misleading · Medium Confidence",
+      "confidence": "Medium",
+      "timestamp": "11:06",
+      "evidence": "The human heart produces a measurable electromagnetic field, confirmed by HeartMath Institute research. However, the specific 'up to 12 feet' figure is not documented in peer-reviewed literature and is frequently cited in wellness marketing without attribution. 'We know without question' and 'we can measure different layers at 12 feet' overstates the scientific status of the claim.",
+      "settle": "A cited peer-reviewed study from a recognized institution measuring the human biofield at 12 feet.",
+      "sources": [],
+      "category": "Background"
+    },
+    {
+      "claim": "The Hebrew Gospel of Matthew is the earliest gospel account",
+      "rating": "Misleading · High Confidence",
+      "confidence": "High",
+      "timestamp": "49:03",
+      "evidence": "Mainstream scholarship (two-source hypothesis, supported by the vast majority of NT scholars) identifies Mark as the earliest canonical gospel (~65-70 CE). The canonical Greek Matthew shows literary dependence on Mark in over 90% of Markan passages. Papias's reference to a 'Hebrew Matthew' (c. 130 CE) is considered by most scholars to refer to a sayings collection or a different document, not the canonical Greek Gospel.",
+      "settle": "Review of the standard source-critical arguments for Markan priority (Streeter, Kümmel).",
+      "sources": [],
+      "category": "Support"
+    },
+    {
+      "claim": "Barnabas sided with the apostles against Paul / rebuked Paul in Galatians 2",
+      "rating": "Misleading · High Confidence",
+      "confidence": "High",
+      "timestamp": "1:08:47",
+      "evidence": "Galatians 2:13 (NRSVUE): 'And the other Jews joined him in this hypocrisy, so that even Barnabas was led astray by their hypocrisy.' Paul is narrating the failure of Barnabas and others to maintain Gentile table fellowship — a failure Paul criticizes. The speaker's account inverts the episode: Abke presents Barnabas as righteously rebuking Paul, when in fact Paul is criticizing Barnabas for siding with Peter's withdrawal.",
+      "settle": "Read Galatians 2:11-14 in full.",
+      "sources": [],
+      "category": "Support"
+    },
+    {
+      "claim": "Paul failed the Matthew 18:15 protocol by rebuking Peter publicly before going privately",
+      "rating": "Misleading · Medium Confidence",
+      "confidence": "Medium",
+      "timestamp": "1:08:10",
+      "evidence": "Matthew 18:15 governs personal offenses between individual believers. The Antioch incident (Galatians 2) involved a public action by Peter — withdrawing from Gentile table fellowship in view of the whole community — that had immediate corporate consequences for Gentile Christians. Public correction of public actions by public leaders is a recognized pastoral category in the same Matthean tradition (Matthew 18:17 escalates to community involvement). The protocol application is more nuanced than the speaker's framing allows.",
+      "settle": "Examination of whether Matthew 18:15 applies to semi-public leadership failures with communal implications, per contextual NT scholarship.",
+      "sources": [],
+      "category": "Support"
+    }
+  ],
+  "stratagems": [
+    {
+      "number": 12,
+      "name": "Choosing Analogies Favorable to One's Position",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "In all dark arts, all satanic cults and black magic rituals, we know that blood magic is the premier practice, and sacrificing a victim is almost always required for negatively polarized systems… God can't forgive his own precious children without murder and violence and blood magic. Sorry, but that's what Satan does.",
+          "timestamp": "1:29:11",
+          "explanation": "The sustained use of 'blood magic,' 'satanic system,' 'demonic aggregors,' 'blood ritual,' and 'black magic transaction' to characterize both the Jerusalem temple cult and substitutionary atonement theology functions as an argument by disgust rather than by evidence. The language predisposes listeners to reject traditional atonement theology and Jewish sacrifice before any textual evidence is examined. No distinction is made between the speaker's metaphysical interpretation and the actual mechanics of first-century Jewish atonement theology as documented in Levitical literature and Second Temple sources."
+        }
+      ]
+    },
+    {
+      "number": 1,
+      "name": "Extension / Widening the Dispute Beyond Its Natural Scope",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "These seven deadly sins are the seven best ways to go as hard towards the way of death, the negative polarity as possible.",
+          "timestamp": "0:04",
+          "explanation": "The video title asserts a complete refutation of substitutionary atonement. The actual video spends fewer than 10 of its 95 minutes developing this thesis, and then only in metaphysical/esoteric terms (polarity inversion, metaphysical karma). The bulk of the episode is a general discussion of the seven deadly sins — content that does not necessarily require or prove the title thesis. The title promise is never formally argued; it is merely asserted in the final segment."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "name": "Induction with Concealed Counterexamples",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "Hosea 6:6 is, in case somebody wants to say 'Well, he means a metaphorical sacrifice, not animal sacrifice' — Nope. Sorry. Go read Hosea 6:6. The context is clear. Hosea is rebuking or condemning the practice of animal sacrifice. Because it is without any question at all a pagan practice.",
+          "timestamp": "46:44",
+          "explanation": "The speaker claims Hosea 6:6, Matthew 9:13, and Matthew 12:7 collectively prove Jesus condemned all animal sacrifice. He does not address: (a) Matthew 5:23-24 — Jesus instructing people to bring offerings to the altar; (b) Luke 22:15 — Jesus's desire to eat the Passover (which included a sacrificial lamb); (c) Matthew 8:4 / Luke 17:14 — Jesus instructing healed lepers to offer the Moses-commanded sacrifice; (d) John 2:13-17 — Jesus cleansing the temple of commerce, not sacrifice. All counterevidence is drawn from the same source texts the speaker cites."
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "name": "Argument ad Personam / Character Assassination",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "Paul jumped to the conclusions of judging by appearances and did what? He falsely accused Peter of being a hypocrite. And it was so egregious that even Paul's traveling companion Barnabas chose to side with the apostles.",
+          "timestamp": "1:02:42",
+          "explanation": "Paul is characterized as a narcissist who never heard Jesus's teachings, committed the seventh deadly sin (false witness), and failed Galatians 2 on character grounds. This framing bypasses Paul's actual theological arguments and makes them appear self-disqualifying. The Barnabas account is additionally inverted — Galatians 2:13 says Barnabas was 'led astray' by Peter's hypocrisy, which Paul criticizes, not the reverse."
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "name": "Appeal to Disgust / Argumentum ad Nauseam",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "So many of those people are participating in the genocide of innocent animals at the same time because they've split their mind to say violence against this group is not okay, but violence against this group is okay. And I mean, what are billions of cows? Are they not innocent? Do they not shed blood? Feel pain? Fear. Anxiety. Dread.",
+          "timestamp": "51:03",
+          "explanation": "The emotional crescendo connecting Gaza genocide to meat consumption substitutes visceral reaction for argument. The repeated mention of dread, fear, anxiety, and 'genocide' of animals is designed to produce the same response as discussion of human atrocities. While the underlying ethical position may have legitimate arguments, this passage substitutes emotional escalation for them."
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "name": "Arousing Anger and Emotion to Bias the Audience",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "It makes me think of this parasite class that runs the world and everything, all the violence in the Middle East, what's happened in Gaza. It's all fueled by pride.",
+          "timestamp": "35:32",
+          "explanation": "Extended discussion of geopolitical violence (Gaza, 'parasite class'), near-death experience narratives, and apocalyptic framing emotionally primes listeners toward anti-violence conclusions before any exegetical case is made. Near-death experience anecdotes are presented as corroborating evidence for metaphysical claims about the afterlife and karmic judgment, bypassing the evidentiary standard that would normally govern such claims."
+        }
+      ]
+    }
+  ],
+  "scholarlySplits": [
+    {
+      "claim": "Jesus emerged from the Essene type of Judaism",
+      "nature": "Minority position (Eisenman, some DSS scholars); mainstream holds the Essene connection as possible but undemonstrated. John the Baptist / general Galilean Judaism connections are more broadly supported.",
+      "timestamp": "17:33"
+    },
+    {
+      "claim": "The 'Two Ways' teaching is a Dead Sea Scroll fragment",
+      "nature": "The Qumran Two Spirits text (1QS 3-4) and the Didache Two Ways are related traditions, not the same text. 1QS is a DSS text but the Didache Two Ways opening is not identical to any DSS fragment.",
+      "timestamp": "17:48"
+    },
+    {
+      "claim": "The Didache is a first-century text per scholarly consensus",
+      "nature": "Strong early dating camp (Milavec) vs. Ehrman and others who prefer late 1st / early 2nd century range. 'Scholarly consensus' for first century is an overstatement; Two Ways section (Did. 1-6) may be late 1st century, but later sections likely reflect early 2nd-century development.",
+      "timestamp": "17:56"
+    },
+    {
+      "claim": "The early Christian movement was strictly pacifist",
+      "nature": "Pacifist rigorist tradition (Harnack, Hornus) vs. Helgeland's 1970s-80s challenge. Archaeological and epigraphic evidence of Christian soldiers by late 2nd century complicates 'strictly pacifist' as a universal characterization. Hunter (1992, Religious Studies Review) notes the consensus shifted significantly.",
+      "timestamp": "50:14"
+    },
+    {
+      "claim": "The Hebrew Gospel of Matthew is the earliest gospel account",
+      "nature": "Matthean priority tradition (Papias reference, c. 130 CE) vs. two-source hypothesis. Markan priority is the dominant scholarly position; Hebrew Matthew's identification with the canonical Gospel adds a further unresolved complication.",
+      "timestamp": "49:03"
+    }
+  ],
+  "trueClaims": [
+    "The Didache opens with the 'Two Ways' passage — confirmed in Did. 1:1",
+    "1 John 4:8 states 'God is love' — accurate in all major translations",
+    "Proverbs 6:16-19 lists 'six things the LORD hates, seven that are an abomination' — accurate, NRSVUE",
+    "'Seven deadly sins' is not a biblical phrase — correct; formalized in medieval Christianity",
+    "Matthew 15:19 — 'For out of the heart come evil thoughts, murder, adultery, sexual immorality, theft, false witness, slander.' — accurate, NRSVUE",
+    "Deuteronomy 4:24 — 'For the LORD your God is a devouring fire, a jealous God.' — accurate",
+    "Luke 14:11 — 'For all who exalt themselves will be humbled' — accurate",
+    "Jesus quoted Hosea 6:6 in Matthew 9:13 and Matthew 12:7 — confirmed in both passages",
+    "Jesus quoted Jeremiah 7:11 during the temple cleansing — confirmed in Matthew 21:13, Mark 11:17, Luke 19:46",
+    "Mark 11:18 — chief priests and scribes sought to kill Jesus after the temple cleansing — accurate",
+    "Mark 14:55 — council sought testimony against Jesus but found none — accurate",
+    "John 5:14 — 'Do not sin any more, so that nothing worse happens to you' — accurate",
+    "John 8:34 — 'everyone who commits sin is a slave to sin' — accurate",
+    "Matthew 5:18 — 'not one letter, not one stroke of a letter, will pass from the law' — accurate",
+    "Luke 13:24 uses agōnizesthe from agōnizomai ('to strive strenuously') — accurate",
+    "Paul confronted Peter publicly in Galatians 2 — Galatians 2:11-14 confirms this",
+    "The Essenes are documented in ancient sources as opposing the Jerusalem temple establishment — confirmed in Josephus, DSS, 4QMMT",
+    "Hugh Schonfield's The Passover Plot argues Jesus deliberately engineered events to fulfill messianic prophecy — accurate summary of the 1965 thesis",
+    "The Didache is a Jewish-Christian text — widely affirmed in scholarship",
+    "Soil mineral content has declined due to modern agricultural practices — documented in Davis et al. (2004, HortScience) and Worthington (2001)",
+    "Glyphosate has government protection via executive order — Executive Order signed February 2026 invoking Defense Production Act for legal immunity to glyphosate manufacturers",
+    "Glyphosate is not permitted in USDA organic certified products — accurate per USDA National Organic Program standards"
+  ],
+  "youtubeFlags": [
+    {
+      "type": "Title Accuracy",
+      "severity": "warning",
+      "text": "Title promises a focused argument against substitutionary atonement ('Jesus Didn't Die FOR Sins, He Died BECAUSE of Them'). Fewer than 10 of the 95 minutes address this thesis directly, and it is argued solely through esoteric polarity metaphysics rather than systematic biblical exegesis. The seven deadly sins discussion occupies the majority of the video but does not by itself prove the title's atonement claim."
+    },
+    {
+      "type": "Monetization",
+      "severity": "warning",
+      "text": "Paid sponsor segment (Tropical Oasis Supplements, 5:11–6:36) contains factual claims about soil mineral depletion, liquid vitamin bioavailability (3-20x), and glyphosate immunity presented with the same register as theological content, without distinguishing sponsored claims from independently verified ones. The 3-20x bioavailability figure is a marketing claim without peer-reviewed support."
+    },
+    {
+      "type": "Implied Claims",
+      "severity": "info",
+      "text": "Implies modern Pauline Christianity is a tool of 'negative polarity' / demonic forces. Implies consuming animal products aligns one with 'hands that shed innocent blood.' Implies near-death experience testimonies constitute evidence for metaphysical claims. Implies 'the parasite class,' Gaza violence, and human trafficking are causally downstream of the sin of pride."
+    }
+  ],
+  "weightedAnalysis": {
+    "categories": [
+      {
+        "name": "Core",
+        "claims": 9,
+        "weight": 3,
+        "trueWeighted": 9,
+        "falseWeighted": 12
+      },
+      {
+        "name": "Support",
+        "claims": 34,
+        "weight": 2,
+        "trueWeighted": 50,
+        "falseWeighted": 4
+      },
+      {
+        "name": "Background",
+        "claims": 7,
+        "weight": 1,
+        "trueWeighted": 4,
+        "falseWeighted": 3
+      }
+    ],
+    "errorImpact": 23,
+    "interpretation": "Session score 74% (42/57) is inflated by a high volume of accurately quoted scripture. Error impact analysis (23%) reveals the weight of false claims falls disproportionately on core thesis-bearing assertions. The Jeremiah 7:11 misquote, Hosea 6:6 misread, Matthew 12:7 decontextualization, and Acts 15:29 misread are all core-category failures. Session score 74% is borderline Caution (not Reliable) because core exegetical architecture is undermined. Cumulative site score (7 sessions): 217/409 = 53% Unreliable."
+  }
+}
