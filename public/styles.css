@@ -201,8 +201,9 @@ nav {
   padding: 24px;
   transition: background .2s, transform .15s, box-shadow .2s;
   cursor: pointer;
-  position: relative;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .creator-card:hover {
@@ -243,11 +244,7 @@ nav {
   color: var(--text-muted);
 }
 
-.creator-score {
-  position: absolute;
-  top: 24px;
-  right: 24px;
-}
+.creator-score { display: none; }
 
 .score-badge {
   display: inline-flex;
@@ -1510,7 +1507,6 @@ footer {
   .creators-grid { grid-template-columns: 1fr; }
 
   /* --- Creator card score badge --- */
-  .creator-score { position: static; margin-top: -4px; }
   .creator-card-top { flex-wrap: wrap; }
 
   /* --- How it works --- */

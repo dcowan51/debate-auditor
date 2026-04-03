@@ -136,20 +136,14 @@ async function renderHomepage() {
             <h3>${c.name}</h3>
             <div class="channel">${c.channel}</div>
           </div>
-        </div>
-        <div class="creator-score">
-          <div class="score-badge ${scoreClass(c.cumulativeScore)}"><span class="dot"></span>${c.cumulativeScore}%</div>
+          <div class="score-badge ${scoreClass(c.cumulativeScore)}" style="margin-left:auto;flex-shrink:0"><span class="dot"></span>${c.cumulativeScore}% <span class="badge-verdict">${c.verdict}</span></div>
         </div>
         <div class="creator-meta">
           <span>${c.sessions} session${c.sessions > 1 ? 's' : ''}</span>
           <span>${c.totalClaims} claims checked</span>
-          <span>Verdict: ${c.verdict}</span>
         </div>
         <div class="creator-topics">
           ${c.topics.map(t => `<span class="topic-tag">${t}</span>`).join('')}
-        </div>
-        <div class="score-bar-track">
-          <div class="score-bar-fill" style="width:${c.cumulativeScore}%;background:${scoreColor(c.cumulativeScore)}"></div>
         </div>
       </a>
     `).join('');
