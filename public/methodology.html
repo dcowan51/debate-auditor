@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Methodology — Act17:11</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* ── Page-level overrides ───────────────────────────── */
+    .method-hero { text-align:center; padding: 80px 24px 48px; }
+    .method-hero h1 { font-size:2.8rem; font-weight:800; margin-bottom:16px; }
+    .method-hero p  { font-size:1rem; color:var(--text-muted); max-width:640px; margin:0 auto; line-height:1.7; }
+
+    /* Sticky section index */
+    .method-index {
+      display:flex; flex-wrap:wrap; gap:8px; justify-content:center;
+      padding:24px; position:sticky; top:60px; z-index:10;
+      background:rgba(10,10,15,0.92); backdrop-filter:blur(8px);
+      border-bottom:1px solid var(--border);
+    }
+    .method-index a {
+      font-size:0.78rem; font-weight:600; padding:6px 14px;
+      border-radius:20px; border:1px solid var(--border);
+      color:var(--text-muted); text-decoration:none;
+      transition:all .2s;
+    }
+    .method-index a:hover { background:var(--bg-card-hover); color:var(--text); }
+
+    /* Sections */
+    .method-section {
+      max-width:820px; margin:0 auto 0; padding:72px 24px 0;
+    }
+    .method-section:last-of-type { padding-bottom:80px; }
+
+    .method-label {
+      font-size:0.72rem; font-weight:700; letter-spacing:0.1em;
+      text-transform:uppercase; color:var(--accent-light);
+      margin-bottom:12px;
+    }
+    .method-section h2 {
+      font-size:2rem; font-weight:800; margin-bottom:20px; line-height:1.2;
+    }
+    .method-section > p {
+      font-size:0.92rem; color:var(--text-muted); line-height:1.75;
+      margin-bottom:32px; max-width:680px;
+    }
+
+    /* Card grid */
+    .m-card {
+      background:var(--bg-card); border:1px solid var(--border);
+      border-radius:var(--radius); padding:28px;
+      margin-bottom:16px;
+    }
+    .m-card h3 { font-size:1.05rem; font-weight:700; margin-bottom:10px; }
+    .m-card p  { font-size:0.88rem; color:var(--text-muted); line-height:1.7; margin:0; }
+
+    .m-grid-2 { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+    .m-grid-3 { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }
+
+    /* Step list */
+    .step-list { display:grid; gap:16px; }
+    .step { display:flex; gap:16px; align-items:start; }
+    .step-num {
+      width:34px; height:34px; border-radius:50%;
+      background:var(--accent); display:flex; align-items:center;
+      justify-content:center; font-weight:800; font-size:0.85rem;
+      color:white; flex-shrink:0;
+    }
+    .step-body h4 { font-size:0.95rem; font-weight:700; margin-bottom:4px; }
+    .step-body p  { font-size:0.85rem; color:var(--text-muted); line-height:1.65; margin:0; }
+
+    /* Verdict cards */
+    .verdict-card {
+      border-radius:var(--radius); padding:28px;
+      display:flex; flex-direction:column; gap:8px;
+    }
+    .verdict-card.reliable  { background:rgba(0,206,201,0.07);  border:1px solid rgba(0,206,201,0.25); }
+    .verdict-card.caution   { background:rgba(253,203,110,0.07); border:1px solid rgba(253,203,110,0.25); }
+    .verdict-card.unreliable{ background:rgba(214,48,49,0.07);   border:1px solid rgba(214,48,49,0.25); }
+
+    .verdict-score {
+      font-size:2.2rem; font-weight:800; line-height:1;
+    }
+    .verdict-card.reliable   .verdict-score  { color:var(--green); }
+    .verdict-card.caution    .verdict-score  { color:var(--yellow); }
+    .verdict-card.unreliable .verdict-score  { color:var(--red-light); }
+
+    .verdict-label {
+      font-size:0.8rem; font-weight:700; letter-spacing:0.05em; text-transform:uppercase;
+    }
+    .verdict-card.reliable   .verdict-label { color:var(--green); }
+    .verdict-card.caution    .verdict-label { color:var(--yellow); }
+    .verdict-card.unreliable .verdict-label { color:var(--red-light); }
+
+    .verdict-card p { font-size:0.82rem; color:var(--text-muted); line-height:1.65; margin:0; }
+
+    /* Claim type pills */
+    .claim-types { display:grid; gap:12px; }
+    .claim-type {
+      display:flex; gap:14px; align-items:start;
+      background:var(--bg-card); border:1px solid var(--border);
+      border-radius:var(--radius-sm); padding:16px 18px;
+    }
+    .claim-pill {
+      padding:4px 12px; border-radius:12px; font-size:0.72rem;
+      font-weight:700; flex-shrink:0; margin-top:2px;
+    }
+    .claim-pill.true       { background:rgba(0,206,201,0.15);  color:var(--green); }
+    .claim-pill.false      { background:rgba(214,48,49,0.15);   color:var(--red-light); }
+    .claim-pill.disputed   { background:rgba(253,203,110,0.15); color:var(--yellow); }
+    .claim-type p { font-size:0.85rem; color:var(--text-muted); line-height:1.6; margin:0; }
+
+    /* Weight tags */
+    .weight-row { display:flex; flex-direction:column; gap:10px; }
+    .weight-item { display:flex; align-items:center; gap:12px; }
+    .weight-tag {
+      padding:4px 12px; border-radius:12px; font-size:0.72rem;
+      font-weight:700; white-space:nowrap;
+    }
+    .weight-tag.core       { background:rgba(214,48,49,0.15);   color:var(--red-light); }
+    .weight-tag.support    { background:rgba(225,112,85,0.15);   color:#e17055; }
+    .weight-tag.background { background:rgba(108,92,231,0.15);   color:var(--accent-light); }
+    .weight-item p { font-size:0.85rem; color:var(--text-muted); margin:0; line-height:1.5; }
+
+    /* Formula box */
+    .formula-box {
+      background:var(--bg-card); border:1px solid var(--border);
+      border-radius:var(--radius); padding:28px; text-align:center;
+    }
+    .formula {
+      font-size:1.15rem; font-weight:700; color:var(--text);
+      font-family:monospace; letter-spacing:0.02em; margin-bottom:12px;
+    }
+    .formula span { color:var(--accent-light); }
+
+    /* Stratagem list */
+    .stratagem-grid { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+    .stratagem-item {
+      background:var(--bg-card); border:1px solid var(--border);
+      border-radius:var(--radius-sm); padding:14px 16px;
+      display:flex; gap:12px; align-items:start;
+    }
+    .stratagem-num {
+      font-size:0.75rem; font-weight:800; color:var(--accent-light);
+      background:rgba(108,92,231,0.12); border-radius:6px;
+      padding:3px 7px; flex-shrink:0;
+    }
+    .stratagem-item p { font-size:0.8rem; color:var(--text-muted); margin:0; line-height:1.5; }
+    .stratagem-item strong { color:var(--text); font-size:0.82rem; }
+
+    /* Rule list */
+    .rule-list { display:grid; gap:10px; }
+    .rule-item {
+      display:flex; gap:12px; align-items:start;
+      background:var(--bg-card); border:1px solid var(--border);
+      border-radius:var(--radius-sm); padding:14px 16px;
+    }
+    .rule-icon { font-size:1rem; flex-shrink:0; margin-top:1px; }
+    .rule-item h4 { font-size:0.88rem; font-weight:700; margin-bottom:3px; }
+    .rule-item p  { font-size:0.82rem; color:var(--text-muted); line-height:1.55; margin:0; }
+
+    /* Source hierarchy */
+    .source-hierarchy { display:grid; gap:10px; }
+    .source-tier {
+      display:flex; gap:14px; align-items:center;
+      background:var(--bg-card); border:1px solid var(--border);
+      border-radius:var(--radius-sm); padding:14px 18px;
+    }
+    .source-rank {
+      font-size:1.1rem; font-weight:800; color:var(--accent-light);
+      width:28px; text-align:center; flex-shrink:0;
+    }
+    .source-tier h4 { font-size:0.88rem; font-weight:700; margin-bottom:2px; }
+    .source-tier p  { font-size:0.8rem; color:var(--text-muted); margin:0; }
+
+    /* Divider */
+    .method-divider {
+      border:none; border-top:1px solid var(--border);
+      max-width:820px; margin:0 auto;
+    }
+
+    /* Not scored */
+    .not-scored { display:grid; gap:10px; }
+    .not-scored-item {
+      display:flex; gap:12px; align-items:start;
+    }
+    .x-icon {
+      width:22px; height:22px; border-radius:50%;
+      background:rgba(214,48,49,0.15); color:var(--red-light);
+      display:flex; align-items:center; justify-content:center;
+      font-size:0.75rem; font-weight:800; flex-shrink:0; margin-top:2px;
+    }
+    .not-scored-item p { font-size:0.88rem; color:var(--text-muted); line-height:1.65; margin:0; }
+
+    @media (max-width: 640px) {
+      .method-hero h1 { font-size:2rem; }
+      .method-section h2 { font-size:1.6rem; }
+      .m-grid-2, .m-grid-3, .stratagem-grid { grid-template-columns:1fr; }
+      .method-index { top:0; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <div class="logo-icon">17</div>
+      Act17:11
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="videos.html">Analyses</a></li>
+      <li><a href="leaderboard.html">Leaderboard</a></li>
+      <li><a href="methodology.html" class="active">Methodology</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="suggest.html">Suggest</a></li>
+    </ul>
+    <button class="nav-hamburger" aria-label="Menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+    <div class="nav-search">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+      <input type="text" placeholder="Search creators or analyses...">
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<div class="method-hero">
+  <h1>Methodology</h1>
+  <p>Every analysis follows the same documented process. No exceptions, no hidden criteria. Here is exactly how we score every video, paper, and book on this site.</p>
+</div>
+
+<!-- Section index -->
+<nav class="method-index" aria-label="Jump to section">
+  <a href="#process">The Process</a>
+  <a href="#claim-types">Claim Types</a>
+  <a href="#scoring">Scoring Formula</a>
+  <a href="#verdicts">Verdicts</a>
+  <a href="#weighting">Claim Weighting</a>
+  <a href="#stratagems">Stratagems</a>
+  <a href="#threshold">Threshold Rules</a>
+  <a href="#sources">Source Hierarchy</a>
+  <a href="#not-scored">What We Don't Score</a>
+</nav>
+
+<!-- 1. The Process -->
+<section class="method-section" id="process">
+  <div class="method-label">Step by Step</div>
+  <h2>The Analysis Process</h2>
+  <p>Every video or paper goes through the same eight-step audit before a score is published. Nothing is scored until the full process is complete.</p>
+
+  <div class="step-list">
+    <div class="step">
+      <div class="step-num">1</div>
+      <div class="step-body">
+        <h4>Full Transcript Review</h4>
+        <p>We work from the complete transcript of the video — every word, not just highlighted moments. No cherry-picking from either direction.</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <div class="step-body">
+        <h4>Claim Extraction</h4>
+        <p>Every atomic factual claim is pulled from the transcript with its exact timestamp and direct quote. These include: scripture citations, historical dates, scholarly attributions, statistical figures, and any assertion that can be independently verified.</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">3</div>
+      <div class="step-body">
+        <h4>Source Verification</h4>
+        <p>Each claim is checked against primary texts, peer-reviewed scholarship, and reference-grade sources. We document what we checked and why the claim passes or fails. We note when evidence is genuinely mixed.</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">4</div>
+      <div class="step-body">
+        <h4>Claim Rating</h4>
+        <p>Each claim is assigned one of four verdicts: True, False/Misleading, Disputed, or Not Checkable. Only checkable claims count toward the score.</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">5</div>
+      <div class="step-body">
+        <h4>Stratagem Detection</h4>
+        <p>We identify rhetorical techniques that mislead without technically lying — cherry-picking, false dilemmas, loaded framing, equivocation. These are mapped to Schopenhauer's 38 stratagems, a documented taxonomy of argumentative misdirection.</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">6</div>
+      <div class="step-body">
+        <h4>Steelman Construction</h4>
+        <p>We write the strongest possible version of the speaker's argument — the version a fair and knowledgeable advocate would make. This protects against strawmanning and is published alongside every analysis.</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">7</div>
+      <div class="step-body">
+        <h4>Threshold Rule Check</h4>
+        <p>Six automatic rules can trigger a score override — for example, if a core false claim destroys the video's central thesis, or if the speaker misquotes a primary source. These rules are documented and applied consistently.</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">8</div>
+      <div class="step-body">
+        <h4>Score Calculation</h4>
+        <p>True claims ÷ total checked claims = session score. Cumulative scores are tracked across all sessions for each creator, building a long-term accuracy picture.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="method-divider">
+
+<!-- 2. Claim Types -->
+<section class="method-section" id="claim-types">
+  <div class="method-label">Rating Scale</div>
+  <h2>Claim Types</h2>
+  <p>Every factual claim extracted from a transcript is assigned one of these four verdicts. Theological opinions and interpretations are excluded — only claims that can be checked against sources count.</p>
+
+  <div class="claim-types">
+    <div class="claim-type">
+      <span class="claim-pill true">TRUE</span>
+      <p>The claim is accurate as stated. The evidence supports it and there is no material qualification needed. True claims count positively toward the score.</p>
+    </div>
+    <div class="claim-type">
+      <span class="claim-pill false">FALSE / MISLEADING</span>
+      <p>The claim is factually wrong, or accurate in letter but structured to create a false impression — for example, quoting a statistic out of context to imply the opposite conclusion. False claims count negatively toward the score.</p>
+    </div>
+    <div class="claim-type">
+      <span class="claim-pill disputed">DISPUTED</span>
+      <p>Credentialed scholars are genuinely divided on this question, with defensible positions on both sides. Disputed claims are documented and disclosed but are excluded from the score calculation — we don't penalize speakers for landing on one side of a real scholarly debate.</p>
+    </div>
+    <div class="claim-type" style="border-color:var(--border)">
+      <span class="claim-pill" style="background:rgba(108,92,231,0.12);color:var(--accent-light)">NOT CHECKABLE</span>
+      <p>Claims that are purely interpretive, prophetic, or theological — "God intended this passage to mean…" — cannot be verified against external evidence and are excluded from scoring entirely.</p>
+    </div>
+  </div>
+</section>
+
+<hr class="method-divider">
+
+<!-- 3. Scoring -->
+<section class="method-section" id="scoring">
+  <div class="method-label">The Math</div>
+  <h2>Scoring Formula</h2>
+  <p>The Truth Score is calculated from checkable claims only. Disputed claims and non-checkable claims are set aside. The formula is straightforward and applied the same way to every video.</p>
+
+  <div class="formula-box" style="margin-bottom:20px">
+    <div class="formula"><span>True Claims</span> ÷ <span>Total Checkable Claims</span> × 100 = <span>Session Score</span></div>
+    <p style="font-size:0.82rem;color:var(--text-muted);margin:0">Example: 28 true out of 38 total checkable = 73.7% → rounded to 74%</p>
+  </div>
+
+  <div class="m-grid-2" style="margin-bottom:20px">
+    <div class="m-card">
+      <h3>Session Score</h3>
+      <p>The accuracy percentage for a single video or paper. Every analysis produces one session score. This is what appears on each analysis card.</p>
+    </div>
+    <div class="m-card">
+      <h3>Cumulative Score</h3>
+      <p>The running total across all sessions for a creator: all true claims ÷ all checked claims. This is the number that appears on creator profiles and the leaderboard.</p>
+    </div>
+  </div>
+
+  <div class="m-card">
+    <h3>Academic Standards Modifier</h3>
+    <p style="margin-bottom:12px">Written papers (not videos) are held to academic formatting standards. When a paper is presented in an academic context but omits basic scholarly conventions, a modifier is applied to the session score before it is published.</p>
+    <div style="display:grid;gap:8px">
+      <div style="display:flex;align-items:center;gap:10px">
+        <span style="padding:3px 10px;border-radius:12px;font-size:0.7rem;font-weight:700;background:rgba(214,48,49,0.12);color:var(--red-light)">FAIL −1.5%</span>
+        <span style="font-size:0.82rem;color:var(--text-muted)">per missing standard (institutional affiliation, abstract, literature review, citations)</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:10px">
+        <span style="padding:3px 10px;border-radius:12px;font-size:0.7rem;font-weight:700;background:rgba(253,203,110,0.12);color:var(--yellow)">PARTIAL −0.5%</span>
+        <span style="font-size:0.82rem;color:var(--text-muted)">per standard that is present but incomplete</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="method-divider">
+
+<!-- 4. Verdicts -->
+<section class="method-section" id="verdicts">
+  <div class="method-label">Score Bands</div>
+  <h2>Verdicts</h2>
+  <p>Every session score and cumulative score maps to one of three verdicts. These thresholds are fixed and apply to every creator and every video without exception.</p>
+
+  <div class="m-grid-3" style="margin-bottom:20px">
+    <div class="verdict-card reliable">
+      <div class="verdict-score">80%+</div>
+      <div class="verdict-label">Reliable</div>
+      <p>Mostly accurate. Minor errors on background or peripheral details. The central thesis and supporting claims hold up to scrutiny. Audiences can engage with this content with reasonable confidence.</p>
+    </div>
+    <div class="verdict-card caution">
+      <div class="verdict-score">60–79%</div>
+      <div class="verdict-label">Caution</div>
+      <p>A significant mix of accurate and inaccurate claims. Some core or supporting claims are false or misleading. Verify specific assertions before citing or repeating them.</p>
+    </div>
+    <div class="verdict-card unreliable">
+      <div class="verdict-score">&lt;60%</div>
+      <div class="verdict-label">Unreliable</div>
+      <p>Significant factual errors, often in thesis-level claims. The content's core argument is likely false or constructed on a demonstrably inaccurate foundation.</p>
+    </div>
+  </div>
+
+  <div class="m-card">
+    <h3>Important: Verdicts are not about theological position</h3>
+    <p>A speaker can score Reliable while arguing for a minority theological view, and a speaker can score Unreliable while holding a mainstream position. The verdict reflects factual accuracy, not whether we agree with the conclusion.</p>
+  </div>
+</section>
+
+<hr class="method-divider">
+
+<!-- 5. Weighting -->
+<section class="method-section" id="weighting">
+  <div class="method-label">Not All Claims Are Equal</div>
+  <h2>Claim Weighting</h2>
+  <p>The session score is based on simple true ÷ total arithmetic. But we also run a separate <strong>Error Impact</strong> calculation — a weighted analysis that assesses how much the errors damage the video's core argument. This appears in every full report but does not replace the primary score.</p>
+
+  <div class="m-card" style="margin-bottom:16px">
+    <div class="weight-row">
+      <div class="weight-item">
+        <span class="weight-tag core">CORE · 3×</span>
+        <p>Thesis-level claims that the video's entire argument depends on. A false core claim is the most damaging kind of error — it can invalidate the video's central point even if most other claims are true.</p>
+      </div>
+      <div class="weight-item">
+        <span class="weight-tag support">SUPPORT · 2×</span>
+        <p>Evidence claims that back the thesis — data points, historical examples, quoted scholarship. False support claims weaken the case without necessarily destroying it.</p>
+      </div>
+      <div class="weight-item">
+        <span class="weight-tag background">BACKGROUND · 1×</span>
+        <p>Incidental context — dates, biographical details, publication years, supporting color. Errors here are noted but carry minimal weight against the overall argument.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="formula-box">
+    <div class="formula" style="font-size:1rem">Error Impact = <span>Weighted False Points</span> ÷ <span>Total Weighted Points</span> × 100</div>
+    <p style="font-size:0.82rem;color:var(--text-muted);margin:0">Error Impact ≥ 35% flags the content as misleading overall, even if the raw claim count looks better.</p>
+  </div>
+</section>
+
+<hr class="method-divider">
+
+<!-- 6. Stratagems -->
+<section class="method-section" id="stratagems">
+  <div class="method-label">Rhetorical Techniques</div>
+  <h2>Schopenhauer's 38 Stratagems</h2>
+  <p>Factual accuracy is only part of the picture. A speaker can be technically accurate while constructing a deeply misleading argument through selective framing, false dilemmas, or equivocation. We track these using Arthur Schopenhauer's <em>The Art of Being Right</em> — a 19th-century taxonomy of argumentative misdirection that maps cleanly onto modern online rhetoric.</p>
+  <p>Stratagems are noted and explained in every full report. They are not factored into the numerical score but are disclosed so audiences can evaluate the argument's structure, not just its data.</p>
+
+  <div class="stratagem-grid">
+    <div class="stratagem-item">
+      <span class="stratagem-num">S1</span>
+      <div><strong>Extension</strong><p>Expanding the opponent's argument beyond what they actually claimed, then refuting the exaggerated version.</p></div>
+    </div>
+    <div class="stratagem-item">
+      <span class="stratagem-num">S2</span>
+      <div><strong>Equivocation</strong><p>Using the same word in two different senses to make an argument appear to follow when it doesn't.</p></div>
+    </div>
+    <div class="stratagem-item">
+      <span class="stratagem-num">S3</span>
+      <div><strong>Generalization</strong><p>Taking a specific, limited finding and applying it universally without justification.</p></div>
+    </div>
+    <div class="stratagem-item">
+      <span class="stratagem-num">S11</span>
+      <div><strong>Concealed Counterexamples</strong><p>Presenting an induction as if it applies universally while suppressing known exceptions that would weaken the conclusion.</p></div>
+    </div>
+    <div class="stratagem-item">
+      <span class="stratagem-num">S12</span>
+      <div><strong>Pre-loading Terms</strong><p>Defining key terms in an advantageous way before the argument begins, so the conclusion is already embedded in the definitions.</p></div>
+    </div>
+    <div class="stratagem-item">
+      <span class="stratagem-num">S33</span>
+      <div><strong>Genetic Fallacy</strong><p>Dismissing a position by attacking its origin rather than its content — explaining why someone believes something instead of engaging what they believe.</p></div>
+    </div>
+    <div class="stratagem-item">
+      <span class="stratagem-num">S35</span>
+      <div><strong>Authority Appeal</strong><p>Citing credentials or expert consensus as a substitute for argument, rather than as supporting evidence alongside argument.</p></div>
+    </div>
+    <div class="stratagem-item" style="border-style:dashed;border-color:var(--accent-light)">
+      <span class="stratagem-num" style="color:var(--text-muted)">+31</span>
+      <div><strong style="color:var(--text-muted)">More in full reports</strong><p>All 38 stratagems are documented. Each full analysis report discloses which were identified and why.</p></div>
+    </div>
+  </div>
+</section>
+
+<hr class="method-divider">
+
+<!-- 7. Threshold Rules -->
+<section class="method-section" id="threshold">
+  <div class="method-label">Score Overrides</div>
+  <h2>Reliability Threshold Rules</h2>
+  <p>Six automatic rules can override or flag a score regardless of the raw true/false count. These rules exist because not all errors have equal consequences — a single core misquote can be more damaging than a dozen peripheral errors.</p>
+
+  <div class="rule-list">
+    <div class="rule-item">
+      <div class="rule-icon">🔴</div>
+      <div>
+        <h4>Core-Error Rule</h4>
+        <p>If a claim that is central to the video's thesis is demonstrably false, the score is flagged regardless of how many peripheral claims are accurate. Truth in the margins doesn't redeem a false foundation.</p>
+      </div>
+    </div>
+    <div class="rule-item">
+      <div class="rule-icon">🔴</div>
+      <div>
+        <h4>Pattern Rule</h4>
+        <p>If false or misleading claims appear in a consistent pattern across multiple categories, the content is flagged as systematically unreliable — not just inaccurate on isolated points.</p>
+      </div>
+    </div>
+    <div class="rule-item">
+      <div class="rule-icon">🔴</div>
+      <div>
+        <h4>Misquote Rule</h4>
+        <p>If a primary source (scripture, ancient text, historical document) is misquoted or fabricated, the score is flagged. Misquoting the sources the argument depends on is treated as a serious failure of scholarly integrity.</p>
+      </div>
+    </div>
+    <div class="rule-item">
+      <div class="rule-icon">🟡</div>
+      <div>
+        <h4>Decontextualization Rule</h4>
+        <p>If an accurate quote is structurally removed from its context to imply a meaning the original source does not support, this is flagged even if the quote itself is verbatim.</p>
+      </div>
+    </div>
+    <div class="rule-item">
+      <div class="rule-icon">🟡</div>
+      <div>
+        <h4>Confidence Rule</h4>
+        <p>Claims in a speaker's stated area of expertise are held to a higher standard. A biblical scholar misidentifying a book of the Bible carries more weight than a generalist making the same error.</p>
+      </div>
+    </div>
+    <div class="rule-item">
+      <div class="rule-icon">🟡</div>
+      <div>
+        <h4>Resistance Rule</h4>
+        <p>If a speaker has been previously corrected on a claim and repeats it in a later session without addressing the correction, this is flagged. Repeated errors are treated as more significant than first-time errors.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="method-divider">
+
+<!-- 8. Sources -->
+<section class="method-section" id="sources">
+  <div class="method-label">What We Check Against</div>
+  <h2>Source Hierarchy</h2>
+  <p>Every claim is verified against the highest available source tier. We do not use Wikipedia as a primary source, and we do not accept a creator's own previous work as verification of their claims.</p>
+
+  <div class="source-hierarchy">
+    <div class="source-tier">
+      <div class="source-rank">1</div>
+      <div>
+        <h4>Primary Texts</h4>
+        <p>Scripture in original languages (Hebrew, Greek, Aramaic), ancient documents, original manuscripts, papyri, inscriptions, and first-edition published works being cited.</p>
+      </div>
+    </div>
+    <div class="source-tier">
+      <div class="source-rank">2</div>
+      <div>
+        <h4>Peer-Reviewed Scholarship</h4>
+        <p>Journal articles and academic press monographs with peer review — biblical studies, ancient history, archaeology, linguistics, theology. Standard academic reference grammars (GKC, BDB, BDAG, Wallace).</p>
+      </div>
+    </div>
+    <div class="source-tier">
+      <div class="source-rank">3</div>
+      <div>
+        <h4>Reference Works</h4>
+        <p>Major Bible dictionaries and encyclopedias (NIDB, ABD, IVP), recognized scholarly commentaries, and encyclopedic reference works with documented editorial standards.</p>
+      </div>
+    </div>
+    <div class="source-tier">
+      <div class="source-rank">4</div>
+      <div>
+        <h4>Reputable Secondary Sources</h4>
+        <p>Wikipedia used only when paired with a Tier 1–3 source, or for non-contested background facts. Reputable journalism for contemporary events. Never used alone for theological or historical claims.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="method-divider">
+
+<!-- 9. Not Scored -->
+<section class="method-section" id="not-scored">
+  <div class="method-label">Boundaries</div>
+  <h2>What We Don't Score</h2>
+  <p>We do not score theological opinions, interpretations, or positions that are inherently a matter of faith rather than verifiable fact. This is intentional — and important.</p>
+
+  <div class="not-scored">
+    <div class="not-scored-item">
+      <div class="x-icon">✕</div>
+      <p><strong style="color:var(--text)">Theological interpretations.</strong> Whether a speaker believes Jesus is God, whether they hold to Calvinist or Arminian soteriology, whether they accept the Trinity — these are not scored. We check factual claims about what Scripture says, not whether someone's doctrinal conclusion is correct.</p>
+    </div>
+    <div class="not-scored-item">
+      <div class="x-icon">✕</div>
+      <p><strong style="color:var(--text)">Prophetic or experiential claims.</strong> Claims like "God told me…" or "I believe the Spirit is moving…" cannot be externally verified and are excluded from scoring.</p>
+    </div>
+    <div class="not-scored-item">
+      <div class="x-icon">✕</div>
+      <p><strong style="color:var(--text)">Minority scholarly views held in good faith.</strong> If a speaker adopts a minority position that has genuine scholarly advocates — even if most experts disagree — we document the scholarly split and exclude it from the score as disputed. We don't penalize intellectual honesty about contested questions.</p>
+    </div>
+    <div class="not-scored-item">
+      <div class="x-icon">✕</div>
+      <p><strong style="color:var(--text)">Editorial opinions and rhetorical framing.</strong> A speaker calling a position "absurd" or "obvious" is expressing an opinion, not a factual claim. These are flagged as weasel-words or stratagems where relevant, but they don't count in the score.</p>
+    </div>
+  </div>
+
+  <div class="m-card" style="margin-top:24px;border-left:3px solid var(--accent-light)">
+    <h3 style="color:var(--accent-light)">The Berean Standard</h3>
+    <p>The Bereans in Acts 17:11 didn't reject Paul — they examined what he said against the Scriptures to see if it was true. We apply the same standard. Accuracy and theological diversity are not opposites. You can hold any theological position and still score Reliable. The question is always: are the factual claims you're making actually true?</p>
+  </div>
+</section>
+
+<footer>
+  <p>Act17:11 — Independent accuracy analysis for YouTube content creators. "They examined the Scriptures daily to see if what was said was true." — Acts 17:11</p>
+  <p style="margin-top:8px">Not affiliated with YouTube or any creator. All analyses are based on verifiable sources.</p>
+</footer>
+
+</body>
+</html>
