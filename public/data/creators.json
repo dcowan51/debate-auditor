@@ -477,5 +477,41 @@
     "analyses": [
       "sartain-q-source"
     ]
+  },
+  {
+    "id": "kipp-davis",
+    "name": "Dr. Kipp Davis",
+    "channel": "@DrKippDavis",
+    "platform": "YouTube",
+    "avatarColor": "#0984e3",
+    "initials": "KD",
+    "topics": [
+      "Dead Sea Scrolls",
+      "Manuscript Studies",
+      "Biblical Apologetics",
+      "NT Textual Criticism",
+      "Antiquities Ethics"
+    ],
+    "sessions": 1,
+    "totalClaims": 38,
+    "trueClaims": 28,
+    "cumulativeScore": 74,
+    "verdict": "Caution",
+    "corePositions": [
+      "McDowell's conversion narrative evolved substantially across 5 decades, acquiring manuscript-hunting details absent from the 1972 original",
+      "McDowell's involvement in the unprovenanced antiquities market mirrors the credibility problems he claims manuscripts resolve",
+      "Narrative embellishment in living memory undermines apologist claims about the reliability of ancient eyewitness testimony"
+    ],
+    "notablePatterns": [
+      "Davis is a credentialed DSS specialist (PhD, University of Manchester) operating squarely within his field; most errors are peripheral not substantive.",
+      "Notable irony: cites Leviticus 21 instead of 18/20 in a video critiquing McDowell's textual precision.",
+      "'Same fragment' claim connecting P137 to McDowell's 2013 mask event is the most under-evidenced claim in the video.",
+      "Minor lapses into loaded language ('hoax,' 'mythmaking') where evidence supports only 'embellishment.'",
+      "Positions himself as a personal witness (attended same conferences, knows the scholars) — adds credibility but introduces advocacy framing.",
+      "Cumulative trajectory: Caution (74%). Cumulative: 74%."
+    ],
+    "analyses": [
+      "kipp-davis-mcdowell-manuscript"
+    ]
   }
 ]

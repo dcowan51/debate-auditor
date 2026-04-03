@@ -1,0 +1,144 @@
+{
+  "id": "kipp-davis-mcdowell-manuscript",
+  "creatorId": "kipp-davis",
+  "creatorName": "Dr. Kipp Davis",
+  "channel": "@DrKippDavis",
+  "videoTitle": "Josh McDowell: Manuscript Hunting and Mythmaking for Jesus",
+  "videoUrl": "",
+  "contentType": "video",
+  "dateAnalyzed": "2026-04-03",
+  "sessionNumber": 1,
+  "sessionScore": 74,
+  "cumulativeScore": 74,
+  "cumulativeSessions": 1,
+  "verdict": "Caution",
+  "trueClaims": 28,
+  "falseMisleading": 6,
+  "disputed": 4,
+  "totalChecked": 38,
+  "confidence": "High",
+  "errorImpact": 21,
+  "stratagems": [
+    {
+      "number": 2,
+      "name": "Generalization",
+      "severity": "Moderate",
+      "description": "Infers from documented narrative embellishment that McDowell's entire apologetic output is unreliable — eliding the distinction between personal testimony and the scholarly argument structure of ETDAV."
+    },
+    {
+      "number": 12,
+      "name": "Framing Through Loaded Metaphor",
+      "severity": "Mild",
+      "description": "Title uses 'mythmaking' — implying deliberate fabrication — where the evidence supports embellishment and reconstructive memory, not necessarily intentional deception."
+    },
+    {
+      "number": 35,
+      "name": "Appeal to Own Authority",
+      "severity": "Mild",
+      "description": "Repeatedly invokes his PhD, DSS specialty, and personal relationships with key figures as implicit warrants, functioning rhetorically to short-circuit scrutiny."
+    }
+  ],
+  "falseClaims": [
+    {
+      "claim": "The SWBTS fragment contained texts from Leviticus 21 that condemns homosexuality",
+      "verdict": "Misleading",
+      "confidence": "High",
+      "impact": "Medium",
+      "notes": "The relevant prohibitions are in Leviticus 18 and 20, not 21. Leviticus 21 addresses priestly physical disqualifications. The underlying argument is correct; only the chapter citation is wrong.",
+      "timestamp": "41:26"
+    },
+    {
+      "claim": "Patterson solicited millions to acquire eight fragments for SWBTS",
+      "verdict": "Likely false (fragment count)",
+      "confidence": "Medium",
+      "impact": "Low",
+      "notes": "SWBTS's own April 2020 statement describes six fragments purchased in two acquisitions in 2010. Eight were in negotiation but six were ultimately purchased.",
+      "timestamp": "41:06"
+    },
+    {
+      "claim": "The supposed first-century Mark was 'a 3rd century fragment'",
+      "verdict": "Misleading by simplification",
+      "confidence": "Medium",
+      "impact": "Low",
+      "notes": "P.Oxy. 5345 (P137) was dated 'late 2nd or earlier 3rd century CE' at publication. Calling it simply '3rd century' drops the early endpoint and overstates the distance from a first-century claim.",
+      "timestamp": "47:35"
+    },
+    {
+      "claim": "This was the same fragment that McDowell had claimed to discover in his 2013 talk",
+      "verdict": "Potentially misleading",
+      "confidence": "Medium",
+      "impact": "Medium",
+      "notes": "Davis conflates P137 (from the EES Oxyrhynchus collection, shown by Obbink in 2011) with Carroll's mask-dismounting at McDowell's December 2013 event. No direct evidence links these two distinct provenance chains.",
+      "timestamp": "43:50"
+    },
+    {
+      "claim": "Sean McDowell is 'an assistant professor in the Christian apologetics program at Biola University'",
+      "verdict": "Likely outdated",
+      "confidence": "Low-Medium",
+      "impact": "Low",
+      "notes": "By 2023 Biola identifies Sean McDowell as Associate Professor at Talbot School of Theology. May have been accurate at production but imprecise at publication.",
+      "timestamp": "1:22"
+    },
+    {
+      "claim": "The Baylor 2012 event 'was itself a hoax at which no new discoveries were actually made'",
+      "verdict": "Imprecise characterization",
+      "confidence": "Medium",
+      "impact": "Low",
+      "notes": "'Hoax' implies intentional deception of the audience, which Davis does not demonstrate. The accurate characterization is that no discoveries were made and the event was theatrically staged.",
+      "timestamp": "44:10"
+    }
+  ],
+  "reportFile": "KippDavis_McDowell_ManuscriptHunting_Debate_Audit.md",
+  "sources": [
+    {
+      "claim": "ETDAV ranked 13th in Christianity Today's 2006 top 50 most influential evangelical books",
+      "source": "Christianity Today archives",
+      "url": ""
+    },
+    {
+      "claim": "World Magazine list appeared in 1999; ETDAV in top 100, not top 40",
+      "source": "World News Group",
+      "url": "https://wng.org/articles/the-centurys-top-100-books-1617636488"
+    },
+    {
+      "claim": "SWBTS fragment contents — Leviticus 18/20, not 21",
+      "source": "Brent Nongbri, Variant Readings",
+      "url": "https://brentnongbri.com/2020/04/08/statement-on-the-so-called-dead-sea-scrolls-of-southwestern-baptist-theological-seminary/"
+    },
+    {
+      "claim": "P137 (P.Oxy. 5345) dated 'late 2nd or earlier 3rd century CE'",
+      "source": "The Oxyrhynchus Papyri LXXXIII (2018)",
+      "url": "https://en.wikipedia.org/wiki/Papyrus_137"
+    },
+    {
+      "claim": "Dirk Obbink attempted to sell P137 to Museum of Bible in November 2011",
+      "source": "Wikipedia: Dirk Obbink",
+      "url": "https://en.wikipedia.org/wiki/Dirk_Obbink"
+    },
+    {
+      "claim": "Wallace announced first-century Mark in February 2012 debate with Ehrman",
+      "source": "The Gospel Coalition",
+      "url": "https://www.thegospelcoalition.org/blogs/justin-taylor/an-interview-with-daniel-b-wallace-on-the-new-testament-manuscripts/"
+    },
+    {
+      "claim": "Paige Patterson fired in 2018 over mishandling of sexual assault allegation",
+      "source": "Christianity Today",
+      "url": "https://www.christianitytoday.com/2018/05/paige-patterson-fired-southwestern-baptist-seminary-sbc/"
+    },
+    {
+      "claim": "Gospel of Jesus Wife identified as forgery by Ariel Sabar in 2016",
+      "source": "Wikipedia: Gospel of Jesus' Wife",
+      "url": "https://en.wikipedia.org/wiki/Gospel_of_Jesus%27_Wife"
+    },
+    {
+      "claim": "Schøyen Collection DSS forgeries confirmed",
+      "source": "Elgvin & Langlois, Revue de Qumran 113 (2019)",
+      "url": "https://michaellanglois.org/medias/elgvin-langlois-2019-looking-back-more-dead-sea-scrolls-forgeries-in-the-schoyen-collection-rq-113-pp111-133.pdf"
+    },
+    {
+      "claim": "Carl McIntyre was founder and president of the International Council of Christian Churches",
+      "source": "Wikipedia: Carl McIntire",
+      "url": "https://en.wikipedia.org/wiki/Carl_McIntire"
+    }
+  ]
+}
