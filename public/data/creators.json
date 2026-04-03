@@ -175,23 +175,31 @@
       "Anti-Trinitarianism",
       "Manuscript variants"
     ],
-    "sessions": 1,
-    "totalClaims": 30,
-    "trueClaims": 14,
+    "sessions": 2,
+    "totalClaims": 47,
+    "trueClaims": 22,
     "cumulativeScore": 47,
     "verdict": "Unreliable",
     "corePositions": [
-      "Biblical Unitarian",
-      "Anti-Trinitarian textual criticism",
-      "Trinitarian conspiracy thesis"
+      "Biblical Unitarian / Oneness — God is strictly one person",
+      "Holy Spirit and Logos are extensions/modes of the Father, not distinct persons",
+      "NT creation texts teach instrumental divine speech, not a personal pre-existent Christ",
+      "Trinitarian readings are historically conditioned eisegesis",
+      "Trinitarian conspiracy thesis — manuscript variants deliberately altered"
     ],
     "notablePatterns": [
-      "Inverts scholarly consensus on John 1:18.",
-      "Three of seven claimed variants unverifiable from standard critical apparatus.",
-      "Methodologically inconsistent — appeals to oldest manuscripts when convenient but argues against them when inconvenient."
+      "Stratagem 11 (Concealed Counterexamples) repeated across both sessions — structural habit, not a one-time error.",
+      "Sessions 1 and 2 produce identical Truth Scores (47%), confirming a stable pattern rather than an anomaly.",
+      "NT Greek grammar claims asserted without citation, contradicting standard reference grammars (GKC, Wallace).",
+      "Second Temple Jewish diversity consistently erased to present a falsely uniform messianic backdrop.",
+      "Core errors cluster around claims unverifiable quickly by a lay audience (linguistics, Greek grammar, Jewish history).",
+      "Inverts scholarly consensus on John 1:18; three of seven claimed variants unverifiable from standard critical apparatus.",
+      "Methodologically inconsistent — appeals to oldest manuscripts when convenient but argues against them when inconvenient.",
+      "Cumulative trajectory: Unreliable (47%) → Unreliable (47%). Cumulative: 47%."
     ],
     "analyses": [
-      "metaphysics-mike-trinity"
+      "metaphysics-mike-trinity",
+      "metaphysics-mike-7000-reasons"
     ]
   },
   {

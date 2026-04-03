@@ -1,0 +1,131 @@
+{
+  "id": "metaphysics-mike-7000-reasons",
+  "creatorId": "metaphysics-mike",
+  "creatorName": "Metaphysics Mike",
+  "channel": "@metaphysicsmike",
+  "videoTitle": "7,000+ Reasons The LORD Is Absolutely NOT Tri-Personal",
+  "videoUrl": "https://youtu.be/VDTraUZDU3M?si=TFdOkriYovuFWD3u",
+  "contentType": "video",
+  "dateAnalyzed": "2026-04-03",
+  "sessionNumber": 2,
+  "sessionScore": 47,
+  "cumulativeScore": 47,
+  "cumulativeSessions": 2,
+  "verdict": "Unreliable",
+  "trueClaims": 8,
+  "falseMisleading": 6,
+  "disputed": 3,
+  "totalChecked": 17,
+  "confidence": "Medium",
+  "errorImpact": 51,
+  "stratagems": [
+    {
+      "number": 1,
+      "name": "Extension",
+      "severity": "High",
+      "description": "Demands Trinitarianism require plural speech forms (e.g., 'We stretched out the heavens alone') — a criterion no Trinitarian theologian has ever endorsed. Fabricates a falsification condition that the actual position does not imply."
+    },
+    {
+      "number": 2,
+      "name": "Equivocation",
+      "severity": "Medium",
+      "description": "Exploits ambiguity of 'alone' (Heb. לְבַדִּי) in Isa 44:24. In context this means without other gods (anti-polytheism polemic), not without intra-divine persons. The entire Isa 44:24 argument collapses if the two senses are distinguished."
+    },
+    {
+      "number": 11,
+      "name": "Induction with Concealed Counterexamples",
+      "severity": "High",
+      "description": "Claims plural divine references can be 'counted on one hand' while suppressing Gen 1:26, Gen 3:22, Gen 11:7, Isa 6:8, and the divine council Psalms. Pattern repeated from Session 1."
+    },
+    {
+      "number": 12,
+      "name": "Pre-loading Advantageous Terms",
+      "severity": "High",
+      "description": "Pre-defines the Logos as 'God's literal impersonal speech' before the exegetical question is settled, then reads every NT creation text through this frame without acknowledging the Wisdom/Logos hypostasis tradition."
+    },
+    {
+      "number": 33,
+      "name": "Circumstantial Argument / Genetic Fallacy",
+      "severity": "Medium",
+      "description": "Explains why Trinitarians hold their view through historical conditioning rather than engaging the exegetical arguments. Substitutes a causal-psychological account for substantive refutation."
+    }
+  ],
+  "falseClaims": [
+    {
+      "claim": "Plural biblical references to God can be 'counted on one hand'",
+      "verdict": "Likely False",
+      "confidence": "High",
+      "impact": "High",
+      "notes": "Gen 1:26, Gen 3:22, Gen 11:7, Isa 6:8 are four named examples before consulting the broader divine council Psalms (Ps 82:1; 89:7).",
+      "timestamp": "0:14"
+    },
+    {
+      "claim": "There is no evidence in linguistics that singular pronouns are used to refer to a plurality of persons",
+      "verdict": "False",
+      "confidence": "High",
+      "impact": "High",
+      "notes": "GKC §124g documents the pluralis majestatis; Joüon-Muraoka §136d discusses plural of excellence. Both are standard introductory Hebrew grammar textbooks.",
+      "timestamp": "2:24"
+    },
+    {
+      "claim": "Trinitarian use of collective singular necessarily entails partialism",
+      "verdict": "Misleading",
+      "confidence": "High",
+      "impact": "High",
+      "notes": "Trinitarian theology holds that singular pronouns apply because three Persons share one undivided divine essence, not because each Person is a part. Partialism is the heresy that each Person is one-third of God — explicitly condemned by classical Trinitarianism.",
+      "timestamp": "3:05"
+    },
+    {
+      "claim": "Dia + genitive in NT creation texts rules out personal agency, indicating only impersonal instrumental causation",
+      "verdict": "Misleading",
+      "confidence": "Medium-High",
+      "impact": "High",
+      "notes": "Wallace, Greek Grammar Beyond the Basics (pp. 368–369) treats instrumental dia as compatible with personal agents. Heb 1:2 surrounds the construction with highly personal predicates.",
+      "timestamp": "4:40"
+    },
+    {
+      "claim": "NT creation passages are not saying Jesus was a conscious person who created the world with the Father",
+      "verdict": "Misleading",
+      "confidence": "Medium-High",
+      "impact": "High",
+      "notes": "Col 1:15–20 uses personal pronouns throughout (en autō, autos estin pro pantōn). John 1:1–3 uses pros ton theon (relational personal preposition). The impersonal-word reading requires systematic reinterpretation against the grain of the syntax.",
+      "timestamp": "5:08"
+    },
+    {
+      "claim": "The Messiah was not understood by pre-Christian Jews as a pre-existent spirit being",
+      "verdict": "Misleading",
+      "confidence": "Medium",
+      "impact": "Medium",
+      "notes": "1 Enoch 46–48 describes the Son of Man as named before creation; 4 Ezra 12–13 reflects a pre-existent heavenly figure; 11Q13 presents a heavenly redeemer. Pre-existence was not foreign to Second Temple messianic thinking.",
+      "timestamp": "5:33"
+    }
+  ],
+  "reportFile": "Metaphysics_Mike_7000_Reasons_NOT_TriPersonal_Report.md",
+  "sources": [
+    {
+      "claim": "Pluralis majestatis documented in standard Hebrew grammars",
+      "source": "GKC §124g; Joüon-Muraoka §136d",
+      "url": ""
+    },
+    {
+      "claim": "Dia + genitive compatible with personal agency",
+      "source": "Wallace, Greek Grammar Beyond the Basics (Zondervan, 1996), pp. 368–369",
+      "url": ""
+    },
+    {
+      "claim": "Logos as personal pre-existent agent in John 1",
+      "source": "Bauckham, God Crucified (Eerdmans, 1998)",
+      "url": ""
+    },
+    {
+      "claim": "Second Temple messianic pre-existence traditions",
+      "source": "Collins, The Scepter and the Star (Eerdmans, 2010)",
+      "url": ""
+    },
+    {
+      "claim": "Partialism condemned in classical Trinitarian theology",
+      "source": "Catholic Encyclopedia: Trinity",
+      "url": "https://www.newadvent.org/cathen/15047a.htm"
+    }
+  ]
+}
