@@ -116,7 +116,7 @@ nav {
 .hero {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 80px 24px 60px;
+  padding: 80px 24px 48px;
   text-align: center;
 }
 
@@ -178,7 +178,7 @@ nav {
 }
 
 .section-header h2 {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-weight: 700;
 }
 
@@ -393,8 +393,9 @@ nav {
 }
 
 .how-card p {
-  font-size: 0.85rem;
+  font-size: 0.92rem;
   color: var(--text-muted);
+  line-height: 1.65;
 }
 
 /* ===== FOOTER ===== */
@@ -403,7 +404,7 @@ footer {
   padding: 40px 24px;
   text-align: center;
   color: var(--text-muted);
-  font-size: 0.8rem;
+  font-size: 0.88rem;
 }
 
 /* ===== CREATOR PROFILE PAGE ===== */
@@ -1409,8 +1410,8 @@ footer {
 .form-optional  { color: var(--text-muted); font-weight: 400; }
 
 .form-input {
-  background: var(--bg);
-  border: 1px solid var(--border);
+  background: var(--bg-card-hover);
+  border: 1px solid rgba(255,255,255,0.08);
   border-radius: var(--radius-sm);
   color: var(--text);
   font-family: inherit;
