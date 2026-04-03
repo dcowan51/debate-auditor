@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suggest a Video — Act17:11</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <div class="logo-icon">17</div>
+      Act17:11
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="videos.html">Analyses</a></li>
+      <li><a href="leaderboard.html">Leaderboard</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="suggest.html" class="active">Suggest</a></li>
+    </ul>
+    <button class="nav-hamburger" aria-label="Menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+    <div class="nav-search">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+      <input type="text" placeholder="Search creators or analyses...">
+    </div>
+  </div>
+</nav>
+
+<section class="hero" style="padding-bottom:32px">
+  <h1 style="font-size:2.4rem">Suggest a Video</h1>
+  <p>Know a video, paper, or book that needs a fact-check? Send it our way and we'll add it to the review queue.</p>
+</section>
+
+<section class="section" style="max-width:680px">
+  <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:36px">
+
+    <form id="suggest-form" novalidate>
+
+      <div class="form-group">
+        <label class="form-label" for="video-url">Video / Paper URL <span class="form-required">*</span></label>
+        <input
+          class="form-input"
+          type="url"
+          id="video-url"
+          name="video_url"
+          placeholder="https://youtube.com/watch?v=..."
+          required
+        >
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="reason">Why does this need analysis? <span class="form-required">*</span></label>
+        <textarea
+          class="form-input form-textarea"
+          id="reason"
+          name="reason"
+          placeholder="What claims are being made? Why do you think they need fact-checking?"
+          required
+        ></textarea>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label" for="submitter-name">Your name <span class="form-optional">(optional)</span></label>
+          <input
+            class="form-input"
+            type="text"
+            id="submitter-name"
+            name="submitter_name"
+            placeholder="Anonymous"
+          >
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="submitter-email">Your email <span class="form-optional">(optional)</span></label>
+          <input
+            class="form-input"
+            type="email"
+            id="submitter-email"
+            name="submitter_email"
+            placeholder="you@example.com"
+          >
+        </div>
+      </div>
+
+      <button class="form-submit" type="submit" id="submit-btn">
+        <span id="submit-label">Submit Suggestion</span>
+      </button>
+
+    </form>
+
+    <div id="form-success" class="form-message form-message--success" hidden>
+      Thanks — we'll review your submission.
+    </div>
+
+    <div id="form-error" class="form-message form-message--error" hidden>
+      Something went wrong sending your submission. Please try again or email us directly.
+    </div>
+
+  </div>
+
+  <p style="margin-top:20px;font-size:0.8rem;color:var(--text-muted);text-align:center">
+    Submissions are reviewed manually. Not every suggestion will be analyzed, but all are read.
+  </p>
+</section>
+
+<footer>
+  <p>Act17:11 — Independent accuracy analysis for YouTube content creators. "They examined the Scriptures daily to see if what was said was true." — Acts 17:11</p>
+  <p style="margin-top:8px">Not affiliated with YouTube or any creator. All analyses are based on verifiable sources.</p>
+</footer>
+
+<!-- EmailJS -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>
+  // ─── EmailJS configuration ──────────────────────────────────────────────────
+  // Replace these three values with your real EmailJS credentials:
+  const EMAILJS_PUBLIC_KEY  = 'YOUR_PUBLIC_KEY';
+  const EMAILJS_SERVICE_ID  = 'YOUR_SERVICE_ID';
+  const EMAILJS_TEMPLATE_ID = 'YOUR_TEMPLATE_ID';
+  // ────────────────────────────────────────────────────────────────────────────
+
+  emailjs.init({ publicKey: EMAILJS_PUBLIC_KEY });
+
+  const form       = document.getElementById('suggest-form');
+  const submitBtn  = document.getElementById('submit-btn');
+  const submitLbl  = document.getElementById('submit-label');
+  const successMsg = document.getElementById('form-success');
+  const errorMsg   = document.getElementById('form-error');
+
+  form.addEventListener('submit', async function(e) {
+    e.preventDefault();
+
+    // Basic required-field check
+    const url    = document.getElementById('video-url').value.trim();
+    const reason = document.getElementById('reason').value.trim();
+    if (!url || !reason) {
+      document.getElementById('video-url').classList.toggle('form-input--error', !url);
+      document.getElementById('reason').classList.toggle('form-input--error', !reason);
+      return;
+    }
+
+    // Loading state
+    submitBtn.disabled = true;
+    submitLbl.textContent = 'Sending…';
+    successMsg.hidden = true;
+    errorMsg.hidden   = true;
+
+    try {
+      await emailjs.sendForm(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, form);
+      form.hidden       = true;
+      successMsg.hidden = false;
+    } catch (err) {
+      console.error('EmailJS error:', err);
+      errorMsg.hidden = false;
+      submitBtn.disabled  = false;
+      submitLbl.textContent = 'Submit Suggestion';
+    }
+  });
+
+  // Clear error highlight on input
+  form.querySelectorAll('.form-input').forEach(el => {
+    el.addEventListener('input', () => el.classList.remove('form-input--error'));
+  });
+</script>
+</body>
+</html>

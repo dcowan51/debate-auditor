@@ -1383,6 +1383,102 @@ footer {
   display: block;
 }
 
+/* ===== SUGGEST FORM ===== */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 20px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.form-row .form-group { margin-bottom: 0; }
+
+.form-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.form-required { color: var(--accent-light); margin-left: 2px; }
+.form-optional  { color: var(--text-muted); font-weight: 400; }
+
+.form-input {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text);
+  font-family: inherit;
+  font-size: 0.9rem;
+  padding: 10px 14px;
+  transition: border-color .2s, box-shadow .2s;
+  outline: none;
+  width: 100%;
+}
+
+.form-input::placeholder { color: var(--text-muted); }
+
+.form-input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(108, 92, 231, 0.15);
+}
+
+.form-input--error {
+  border-color: var(--red-light);
+  box-shadow: 0 0 0 3px rgba(214, 48, 49, 0.12);
+}
+
+.form-textarea {
+  resize: vertical;
+  min-height: 120px;
+  line-height: 1.6;
+}
+
+.form-submit {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+  padding: 11px 28px;
+  background: var(--accent);
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: background .2s, opacity .2s;
+}
+
+.form-submit:hover:not(:disabled) { background: var(--accent-light); color: var(--bg); }
+.form-submit:disabled { opacity: 0.55; cursor: not-allowed; }
+
+.form-message {
+  padding: 14px 18px;
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-top: 4px;
+}
+
+.form-message--success {
+  background: rgba(0, 206, 201, 0.1);
+  border: 1px solid rgba(0, 206, 201, 0.3);
+  color: var(--green);
+}
+
+.form-message--error {
+  background: rgba(214, 48, 49, 0.1);
+  border: 1px solid rgba(214, 48, 49, 0.3);
+  color: var(--red-light);
+}
+
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
   /* --- Nav: hamburger menu --- */
@@ -1529,4 +1625,7 @@ footer {
 
   /* --- Back to top --- */
   .back-to-top { bottom: 16px; right: 16px; width: 40px; height: 40px; }
+
+  /* --- Suggest form --- */
+  .form-row { grid-template-columns: 1fr; }
 }
