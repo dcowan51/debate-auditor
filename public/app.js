@@ -732,35 +732,19 @@ async function renderVideosPage() {
               </div>
             </div>
             <div class="video-card-score-badge ${cls}">
-              <span class="dot"></span>${score}%
+              <span class="dot"></span>${score}% <span class="badge-verdict">${verdictLabel(score)}</span>
             </div>
           </div>
           <h3 class="video-card-title">${a.videoTitle}</h3>
-          <div class="video-card-verdict" style="color:${color}">${verdictLabel(score)}</div>
-          <div class="video-card-stats">
-            <div class="video-card-stat">
-              <span class="video-card-stat-val">${d.totalChecked}</span>
-              <span class="video-card-stat-label">Claims</span>
-            </div>
-            <div class="video-card-stat">
-              <span class="video-card-stat-val" style="color:var(--green)">${d.trueClaims}</span>
-              <span class="video-card-stat-label">True</span>
-            </div>
-            <div class="video-card-stat">
-              <span class="video-card-stat-val" style="color:var(--red-light)">${d.falseMisleading}</span>
-              <span class="video-card-stat-label">False</span>
-            </div>
-            <div class="video-card-stat">
-              <span class="video-card-stat-val" style="color:var(--yellow)">${d.disputed}</span>
-              <span class="video-card-stat-label">Disputed</span>
-            </div>
+          <div class="video-card-stats-inline">
+            <span>${d.totalChecked} claims</span>
+            <span style="color:var(--green)">${d.trueClaims} true</span>
+            <span style="color:var(--red-light)">${d.falseMisleading} false</span>
+            <span style="color:var(--yellow)">${d.disputed} disputed</span>
           </div>
           <div class="video-card-footer">
             <span class="video-card-date">${formatDate(a.dateAnalyzed)}</span>
             ${sourceLink}
-          </div>
-          <div class="score-bar-track">
-            <div class="score-bar-fill" style="width:${score}%;background:${color}"></div>
           </div>
         </div>
       `;

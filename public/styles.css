@@ -1251,6 +1251,14 @@ footer {
   font-weight: 700;
   font-size: 0.85rem;
   flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.badge-verdict {
+  font-size: 0.7rem;
+  font-weight: 600;
+  opacity: 0.9;
+  letter-spacing: 0.03em;
 }
 
 .video-card-score-badge.reliable { background: rgba(0,206,201,0.15); color: var(--green); }
@@ -1273,37 +1281,15 @@ footer {
   line-height: 1.4;
 }
 
-.video-card-verdict {
-  font-size: 0.7rem;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
+.video-card-stats-inline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  font-size: 0.8rem;
   font-weight: 600;
-}
-
-.video-card-stats {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 8px;
-  padding: 12px 0;
+  padding: 8px 0;
   border-top: 1px solid var(--border);
-  border-bottom: 1px solid var(--border);
-}
-
-.video-card-stat {
-  text-align: center;
-}
-
-.video-card-stat-val {
-  display: block;
-  font-size: 1.1rem;
-  font-weight: 700;
-}
-
-.video-card-stat-label {
-  font-size: 0.65rem;
   color: var(--text-muted);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
 }
 
 .video-card-footer {
