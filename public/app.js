@@ -401,24 +401,28 @@ async function renderAnalysis() {
         </div>
       </div>
       <div style="font-size:0.8rem;color:var(--text-muted);margin-bottom:12px">Showing ${filtered.length} of ${a.falseClaims.length} false/misleading claims</div>
-      ${filtered.map(fc => `
-        <div class="false-claim-detail">
-          <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px;flex-wrap:wrap">
-            <span class="rating">${fc.rating} · ${fc.confidence} Confidence</span>
-            ${fc.category ? `<span style="padding:3px 10px;border-radius:12px;font-size:0.65rem;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;${fc.category === 'Core' ? 'background:rgba(214,48,49,0.15);color:var(--red-light)' : fc.category === 'Support' ? 'background:rgba(225,112,85,0.15);color:var(--orange)' : 'background:rgba(136,136,160,0.15);color:var(--text-muted)'}">${fc.category} · ${fc.category === 'Core' ? '3x' : fc.category === 'Support' ? '2x' : '1x'} weight</span>` : ''}
-            <span style="font-size:0.75rem;color:var(--text-muted)">${fc.timestamp}</span>
+      ${filtered.map(fc => {
+        const catColor = fc.category === 'Core' ? 'var(--red-light)' : fc.category === 'Support' ? 'var(--orange)' : 'var(--text-muted)';
+        const borderColor = fc.category === 'Core' ? '#d63031' : fc.category === 'Support' ? '#e17055' : '#636e72';
+        return `
+        <div class="false-claim-detail" style="border-left:3px solid ${borderColor}">
+          <div class="fc-meta-row">
+            <span class="rating">${fc.rating}</span>
+            <span class="fc-confidence">${fc.confidence} Confidence</span>
+            ${fc.category ? `<span class="fc-weight-tag" style="color:${catColor}">${fc.category} · ${fc.category === 'Core' ? '3×' : fc.category === 'Support' ? '2×' : '1×'} weight</span>` : ''}
+            <span class="fc-timestamp">${fc.timestamp}</span>
           </div>
           <h4>"${fc.claim}"</h4>
-          <p class="evidence" style="margin-top:12px">${fc.evidence}</p>
+          <p class="evidence">${fc.evidence}</p>
           <p class="settle">What would settle it: ${fc.settle}</p>
           ${fc.sources && fc.sources.length > 0 ? `
-            <div style="margin-top:12px;padding-top:12px;border-top:1px solid var(--border)">
-              <div style="font-size:0.7rem;text-transform:uppercase;letter-spacing:0.06em;color:var(--accent-light);font-weight:600;margin-bottom:8px">Sources</div>
-              ${fc.sources.map(s => `<a href="${s.url}" target="_blank" rel="noopener" style="display:block;font-size:0.8rem;color:var(--accent-light);margin-bottom:4px;text-decoration:none;opacity:0.85">${s.label} &rarr;</a>`).join('')}
+            <div class="fc-sources">
+              <div class="fc-sources-label">Sources</div>
+              ${fc.sources.map(s => `<a href="${s.url}" target="_blank" rel="noopener" class="fc-source-link">${s.label} &rarr;</a>`).join('')}
             </div>
           ` : ''}
         </div>
-      `).join('')}
+      `}).join('')}
     `;
   }
 

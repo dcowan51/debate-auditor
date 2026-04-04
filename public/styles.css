@@ -809,39 +809,101 @@ footer {
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 24px;
-  margin-bottom: 16px;
+  padding: 20px 24px;
+  margin-bottom: 14px;
 }
 
-.false-claim-detail h4 {
-  font-size: 1rem;
-  margin-bottom: 8px;
-  color: var(--red-light);
+.fc-meta-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
 }
 
 .false-claim-detail .rating {
   display: inline-block;
-  padding: 4px 12px;
-  border-radius: 12px;
-  font-size: 0.75rem;
-  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 10px;
+  font-size: 0.72rem;
+  font-weight: 700;
   background: rgba(214,48,49,0.12);
   color: var(--red-light);
-  margin-bottom: 12px;
+  white-space: nowrap;
+}
+
+.fc-confidence {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  padding: 3px 10px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.05);
+  white-space: nowrap;
+}
+
+.fc-weight-tag {
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.05);
+  white-space: nowrap;
+}
+
+.fc-timestamp {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-left: auto;
+}
+
+.false-claim-detail h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: var(--text);
+  line-height: 1.4;
 }
 
 .false-claim-detail .evidence {
   font-size: 0.85rem;
   color: var(--text-muted);
-  line-height: 1.6;
-  margin-bottom: 8px;
+  line-height: 1.65;
+  margin-bottom: 10px;
 }
 
 .false-claim-detail .settle {
   font-size: 0.8rem;
   color: var(--accent-light);
   font-style: italic;
+  margin-bottom: 0;
 }
+
+.fc-sources {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+}
+
+.fc-sources-label {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.fc-source-link {
+  display: inline-block;
+  font-size: 0.8rem;
+  color: var(--accent-light);
+  text-decoration: none;
+  margin-right: 16px;
+  margin-bottom: 2px;
+  opacity: 0.9;
+}
+.fc-source-link:hover { opacity: 1; text-decoration: underline; }
 
 /* ===== SCORE LEGEND ===== */
 .score-legend {
