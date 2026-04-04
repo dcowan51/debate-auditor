@@ -113,6 +113,19 @@
   <div style="display:grid;gap:12px" id="youtube-flags"></div>
 </section>
 
+<section style="max-width:860px;margin:0 auto;padding:0 24px 56px">
+  <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:24px 28px;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap">
+    <div>
+      <div style="font-size:0.95rem;font-weight:700;margin-bottom:4px">See a mistake?</div>
+      <div style="font-size:0.85rem;color:var(--text-muted);line-height:1.6">If a source is wrong, a claim was misread, or something doesn't add up — let us know. Every correction is reviewed and applied.</div>
+    </div>
+    <a id="correction-link" href="suggest.html" style="display:inline-flex;align-items:center;gap:8px;background:transparent;border:1px solid var(--border);border-radius:20px;padding:10px 20px;font-size:0.85rem;font-weight:600;color:var(--text);text-decoration:none;white-space:nowrap;transition:background .2s,border-color .2s" onmouseover="this.style.background='var(--bg-card-hover)';this.style.borderColor='var(--accent-light)'" onmouseout="this.style.background='transparent';this.style.borderColor='var(--border)'">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+      Submit a Correction
+    </a>
+  </div>
+</section>
+
 <footer>
   <p>Act17:11 — Independent accuracy analysis for YouTube content creators. "They examined the Scriptures daily to see if what was said was true." — Acts 17:11</p>
   <p style="margin-top:8px">Not affiliated with YouTube or any creator. All analyses are based on verifiable sources.</p>
@@ -122,6 +135,14 @@
 <button class="back-to-top" id="back-to-top" title="Back to top">&#8593;</button>
 
 <script src="app.js"></script>
-<script>renderAnalysis();</script>
+<script>
+  renderAnalysis();
+  // Pre-fill correction link with analysis ID
+  const _id = getParam('id');
+  if (_id) {
+    const _link = document.getElementById('correction-link');
+    if (_link) _link.href = 'suggest.html?correction=' + encodeURIComponent(_id);
+  }
+</script>
 </body>
 </html>

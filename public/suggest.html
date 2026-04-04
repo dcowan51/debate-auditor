@@ -166,6 +166,15 @@
   form.querySelectorAll('.form-input').forEach(el => {
     el.addEventListener('input', () => el.classList.remove('form-input--error'));
   });
+
+  // Pre-fill if arriving from an analysis correction link
+  const correctionId = new URLSearchParams(window.location.search).get('correction');
+  if (correctionId) {
+    document.getElementById('reason').value = 'Correction for analysis: ' + correctionId + '\n\n';
+    document.getElementById('reason').focus();
+    document.querySelector('.hero h1').textContent = 'Submit a Correction';
+    document.querySelector('.hero p').textContent = 'Tell us which claim is wrong and what the correct information is. Include a source if you have one.';
+  }
 </script>
 </body>
 </html>
