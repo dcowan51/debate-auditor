@@ -1,0 +1,163 @@
+{
+  "id": "dallas-cowan-abke-paul-vs-jesus",
+  "creatorId": "dallas-cowan",
+  "creatorName": "Dallas Cowan",
+  "channel": "YouTube",
+  "videoTitle": "Aaron Abke is Wrong About Paul vs Jesus",
+  "videoUrl": "https://youtu.be/pW9m9BUZJhg",
+  "contentType": "video",
+  "datePublished": "2026-01-01",
+  "dateAnalyzed": "2026-04-06",
+  "sessionNumber": 2,
+  "analyzedRange": "0:00–16:40",
+  "reportFile": "Dallas_Cowan_AaronAbke_Wrong_PaulVsJesus_Debate_Audit.md",
+  "thesis": "Aaron Abke's four-part case against Paul — Acts 1 disqualifies Paul as an apostle; Jesus already sent the Eleven so Paul is redundant; Paul never quoted Jesus; Paul contradicts Jesus on the law — fails on each count when the relevant passages are read in full context. Paul and Jesus teach the same salvation logic: the law exposes sin, Christ fulfills it, works flow from grace.",
+  "dashboard": {
+    "sessionScore": 93,
+    "cumulativeScore": 89,
+    "cumulativeSessions": 2,
+    "trueClaims": 40,
+    "falseMisleading": 1,
+    "disputed": 2,
+    "totalChecked": 43,
+    "confidence": "High",
+    "verdict": "Reliable",
+    "stratagems": 1,
+    "weaselWords": 1,
+    "errorImpact": 9
+  },
+  "steelman": "The speaker's strongest case: every individual plank in Abke's four-part argument against Paul collapses under primary-text scrutiny — Acts 1 is transparently a Judas replacement, Luke himself calls Paul a chosen instrument in Acts 9, Paul explicitly cites the Lord on divorce in 1 Corinthians 7, and Paul's own statement that 'the law is holy and just and good' (Romans 7:12) rules out any reading of 2 Corinthians 3 as Torah-rejection — making the Paul-versus-Jesus frame a category error rather than a textual discovery.",
+  "argumentType": "Historical / Textual",
+  "structuralVerdict": {
+    "status": "INTACT",
+    "explanation": "The thesis refutes Abke's four-part case against Paul on textual grounds. All four counter-arguments (Acts 1 as Judas replacement, Lucan same-authorship, Paul's explicit Lord-citation on divorce, Paul's high view of Torah in Romans 7:12) are verified and carry near-zero false weighted points. The single false claim is a citation slip — Acts 11:15 cited instead of Acts 1:15 — which the speaker immediately corrects by citing the right content in the same breath. The argument itself is untouched by this error."
+  },
+  "thesisCriticalErrors": {
+    "count": "0 of 1",
+    "description": "Acts 11:15 cited instead of Acts 1:15 [Background] is a verbal slip corrected in context; it does not undermine any of the four arguments being made against Abke's thesis."
+  },
+  "falseClaims": [
+    {
+      "claim": "Acts 1:15 cited as 'Acts 11:15'",
+      "rating": "Misleading · Citation Error · High Confidence",
+      "confidence": "High",
+      "timestamp": "2:50",
+      "evidence": "Acts 1:15 (NRSVUE): 'In those days Peter stood up among the believers.' Acts 11:15 (NRSVUE): 'And as I began to speak, the Holy Spirit fell upon them just as it had upon us at the beginning.' Acts 11:15 has nothing to do with Peter standing among the brothers. The speaker immediately cites Acts 1:16-17 in the same breath, suggesting a verbal slip rather than a content error — the argument itself is untouched.",
+      "settle": "Reading Acts 1:15 and Acts 11:15 side by side in any translation.",
+      "sources": [],
+      "category": "Background"
+    }
+  ],
+  "stratagems": [
+    {
+      "number": 28,
+      "name": "Argumentum ad Auditores / Appeal to the Audience",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "A lot of what's online right now isn't Bible study. It's Bible suspicion. It starts with what did they hide from us? Not what did God say. Those are two totally different starting points. One says, 'I trust God. Help me understand.' The other says, 'I trust myself. Prove it.'",
+          "timestamp": "0:44",
+          "explanation": "Before any evidence is examined, the speaker pre-frames the audience's epistemic options as a binary: God-trusting careful study vs. self-trusting suspicion. This structurally positions anyone sympathetic to the anti-Paul view as the 'prove it' camp without engaging the substance of the position. Denying this framing risks appearing to choose self-trust over God. The argument that follows is strong enough to stand without this pre-framing; removing it would allow sympathizers of the opposing view to be heard more charitably."
+        }
+      ]
+    }
+  ],
+  "scholarlySplits": [
+    {
+      "claim": "Telos in Romans 10:4 means 'goal/fulfillment,' not 'termination'",
+      "nature": "Majority of recent commentators (Badenas 1985, Wright, Moo's later work) favor 'goal' or a double meaning; significant minority (Cranfield, some Reformed commentators) defend 'termination' or both meanings simultaneously.",
+      "timestamp": "9:29"
+    },
+    {
+      "claim": "Galatians 1:19 calls James an apostle",
+      "nature": "Majority reading: εἰ μὴ Ἰάκωβον includes James among the apostles Paul saw (Longenecker, Martyn, BDAG); minority reading: the exception clause excludes James from the apostle category.",
+      "timestamp": "3:42"
+    },
+    {
+      "claim": "Whether the Jerusalem handshake (Gal 2:9) indicates theological unity or territorial division",
+      "nature": "Many scholars (Dunn) read it as genuine theological recognition; some in the Baur tradition read it as a pragmatic division that masked ongoing tension.",
+      "timestamp": "6:09"
+    }
+  ],
+  "trueClaims": [
+    "Acts 1:21-22 sets criteria for a Judas replacement, not a permanent apostle standard — Peter's speech explicitly concerns Judas's betrayal (vv.15-20) and the need to fill the vacancy",
+    "Acts 14:14 calls Barnabas and Paul apostles — NRSVUE: 'But when the apostles Barnabas and Paul heard of it...' Unambiguous.",
+    "1 Corinthians 7:10-11 contains an explicit 'not I but the Lord' marker — one of Paul's clearest self-citations of Jesus tradition",
+    "Paul's divorce command matches Mark 10 and Matthew 19 in content — Mark 10:9: 'What God has joined together, let no one separate.' Content alignment confirmed.",
+    "1 Corinthians 11 is earlier than Luke's Gospel — standard scholarly dating: 1 Corinthians ~54-55 CE; Luke ~80-85 CE",
+    "Luke authored both Acts 1 and Acts 9 — mainstream critical consensus; the 'we' passages support Lucan authorship throughout Acts",
+    "Acts 9:15 commissions Paul to the Gentiles explicitly — NRSVUE: 'he is an instrument whom I have chosen to bring my name before Gentiles and kings'",
+    "2 Corinthians 3:7 is an a fortiori argument, not a Torah-rejection — 2 Cor 3:9-11 makes the 'how much more' logic explicit; Romans 7:12 confirms Paul's high view of Torah",
+    "Romans 7:12: 'The law is holy, and the commandment is holy and righteous and good' — NRSVUE: 'holy and just and good' (minor translation-variant paraphrase)",
+    "Matthew 19:26 ('with man this is impossible, but with God all things are possible') is the climax of the Rich Young Ruler passage — accurately identified as the structural point of the pericope",
+    "James 2:17: 'Faith by itself, if it does not have works, is dead' — NRSVUE: 'So faith by itself, if it has no works, is dead.' Accurate.",
+    "Hebrews 9:22: 'Without the shedding of blood there is no forgiveness of sins' — NRSVUE confirmed",
+    "Hebrews is anonymous and not among Paul's undisputed letters — rejected by Origen (3rd c.) and modern scholarship universally",
+    "Matthew 26:28 ties Jesus's death to 'forgiveness of sins' — NRSVUE: 'for this is my blood of the covenant, which is poured out for many for the forgiveness of sins'; directly undermines the blood-atonement-as-Pauline-invention claim",
+    "Galatians 2:9: James, Cephas, and John gave the right hand of fellowship — NRSVUE confirmed",
+    "Acts 10-11: Peter required a vision to go to a Gentile household — the Cornelius narrative (Acts 10:9-23) is precisely this",
+    "Ephesians 2:8-10 links grace, faith, and good works sequentially — NRSVUE: grace-then-works sequence is structurally present",
+    "Aaron Abke attributed 'without blood, no forgiveness' to Romans 9:22; the correct reference is Hebrews 9:22 — confirmed by reading both verses",
+    "Matthias was chosen as Judas's replacement because he met the Acts 1 criteria — confirmed; Acts 1:23-26",
+    "Acts 1:20 cites Psalm 109:8 ('Let another take his office') in reference to Judas's position — NRSVUE Acts 1:20 confirmed",
+    "Matthew 28 commissioned the eleven to make disciples of all nations — confirmed; Matt 28:19-20",
+    "Acts 1-7 records the disciples remaining largely in Jerusalem and not immediately fulfilling the Gentile commission — confirmed; Acts 6-7 in Jerusalem",
+    "Acts 8: Philip went to Samaria — confirmed; Acts 8:5",
+    "Acts 11:19-20 records when some believers began sharing the gospel with Greeks as unexpected and noteworthy — confirmed; NRSVUE Acts 11:20",
+    "Romans 10:4: 'For Christ is the end of the law for righteousness to everyone who believes' — NRSVUE confirmed",
+    "Matthew 5:17: Jesus says 'I have not come to abolish [the law] but to fulfill' — NRSVUE confirmed",
+    "Romans 8:3-4: God sent his Son so that 'the righteous requirement of the law might be fulfilled in us' — NRSVUE confirmed",
+    "2 Corinthians 3:7: 'If the ministry of death, carved in letters on stone, came with such glory...' — NRSVUE confirmed",
+    "1 Corinthians 15:56: 'The sting of death is sin, and the power of sin is the law' — NRSVUE confirmed",
+    "Matthew 19 Rich Young Ruler: Jesus says 'If you would enter life, keep the commandments' — NRSVUE confirmed",
+    "Mark 10:45: 'The Son of Man came to give his life as a ransom for many' — NRSVUE confirmed",
+    "Galatians 6:7: 'Whatever one sows, one will reap' — NRSVUE confirmed",
+    "Colossians 3:13: 'As the Lord has forgiven you, so you also must forgive' — NRSVUE confirmed",
+    "Ephesians 4:32: 'Be kind to one another, forgiving one another as God in Christ forgave you' — NRSVUE confirmed",
+    "John 15 contains 'Abide in me and you will bear much fruit' — NRSVUE confirmed",
+    "Acts 1-7 Jerusalem restriction; Acts 8 Samaria (Philip); Acts 10-11 Cornelius (Peter) sequence is accurate — confirmed in canonical order",
+    "Paul's Lord's Supper account (1 Corinthians 11) predates the written Gospels in date of composition — standard scholarly dating",
+    "The early church used 'apostle' in two overlapping senses: the Twelve eyewitnesses and commissioned 'sent ones' — grounded in Acts 14:14 and Gal 1:19",
+    "Peter's speech in Acts 1 constitutes a situational Judas replacement, not a universal policy governing all future apostolic appointments — confirmed by full-chapter context (Acts 1:15-20)",
+    "The rich young man claims to have kept the commandments; Jesus then commands 'Sell everything and follow me' — confirmed; Matt 19:20-21"
+  ],
+  "youtubeFlags": [
+    {
+      "type": "Title Accuracy",
+      "severity": "info",
+      "text": "The title 'Aaron Abke is Wrong About Paul vs Jesus' accurately describes the video's content: a structured rebuttal of specific Abke claims on the Acts 1 disqualification, redundant mission, quoting, and law-contradiction arguments. No mismatch detected."
+    },
+    {
+      "type": "Implied Claims",
+      "severity": "info",
+      "text": "Implies the anti-Paul theological trend on YouTube represents epistemically deficient suspicion rather than legitimate scholarly inquiry. The speaker does not engage the academic two-Christianity tradition (F.C. Baur, certain historical-critical scholars) and implies the case is entirely a product of platform-driven sensationalism. Also implies that because James, Peter, and John did not reject Paul, the theological unity of Paul and Jesus is therefore demonstrated — the fellowship of hands (Gal 2:9) establishes early church recognition but does not by itself resolve every interpretive tension."
+    }
+  ],
+  "weightedAnalysis": {
+    "categories": [
+      {
+        "name": "Core",
+        "claims": 9,
+        "weight": 3,
+        "trueWeighted": 25,
+        "falseWeighted": 1
+      },
+      {
+        "name": "Support",
+        "claims": 6,
+        "weight": 2,
+        "trueWeighted": 11,
+        "falseWeighted": 1
+      },
+      {
+        "name": "Background",
+        "claims": 4,
+        "weight": 1,
+        "trueWeighted": 3,
+        "falseWeighted": 1
+      }
+    ],
+    "errorImpact": 9,
+    "interpretation": "Session score 93% (40/43) — Reliable. Cumulative score across 2 sessions: 89% (56/63). Error impact of ~9% is dominated by the two disputed claims (telos and Gal 1:19 apostle status) split-scored, plus one citation slip (Acts 11:15 for 1:15). The core exegetical arguments — Acts 1 as Judas replacement, Lucan same-authorship, Paul's explicit Lord-citation on divorce, Matthew 26:28 on atonement, Romans 7:12 on Torah — carry near-zero false weighted points. Citation slips are the recurring weak point across both sessions."
+  }
+}

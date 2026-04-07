@@ -26,6 +26,15 @@
     "errorImpact": 2
   },
   "steelman": "The strongest charitable reading of Ortlund's argument is that Justin Martyr's description of second-century worship — its simplicity, communal participation, centrality of the Eucharist, integration of giving with worship, and restriction of communion to the baptized — represents a normative pattern that all Christian traditions, including evangelicalism, should take seriously as a benchmark for evaluating their own practices.",
+  "argumentType": "Historical / Liturgical",
+  "structuralVerdict": {
+    "status": "INTACT",
+    "explanation": "The thesis rests on accurately describing Justin Martyr's First Apology ch. 67 and drawing implications for contemporary practice. No core-level errors were detected; the single misleading claim (Dura Europos icon veneration framing) is an inferential overreach at the Support level and does not undermine the central historical description."
+  },
+  "thesisCriticalErrors": {
+    "count": "0 of 1",
+    "description": "No thesis-critical errors. The one misleading claim (Dura Europos icon veneration) is Support-level and does not affect the main argument about 2nd-century worship structure."
+  },
   "falseClaims": [
     {
       "claim": "Having images on walls (like the Dura Europos paintings) is not evidence of icon veneration; there are no candles, incense, prayer gestures directed toward images, or devotional setup.",

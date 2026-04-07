@@ -27,8 +27,18 @@
     "errorImpact": 23
   },
   "steelman": "The strongest charitable reading of this episode's thesis is that Jesus's ethical teaching centered on inner transformation (the heart conditions that produce sin) rather than ritual compliance or doctrinal assent, and that his confrontation of the Jerusalem temple system was rooted in authentic prophetic tradition (Hosea, Amos, Jeremiah) that prioritized justice and covenant faithfulness over sacrificial performance — a position with genuine mainstream scholarly support.",
+  "argumentType": "Theological / Ethical — Anti-Atonement, Esoteric Polarity Framework",
+  "structuralVerdict": {
+    "status": "COLLAPSED",
+    "explanation": "All four core exegetical proof texts for the anti-sacrifice thesis are false or misleading: Jeremiah 7:11 is directly misquoted, Hosea 6:6 is misread as an abolition decree rather than a priority claim, Matthew 12:7 is decontextualized from a Sabbath pericope into an anti-sacrifice argument, and Acts 15:29 'no blood' is misread as a prohibition on killing animals rather than a dietary restriction. Without these proof texts the scriptural case for Jesus categorically opposing blood sacrifice collapses. The polarity-inversion metaphysics for atonement are an unsupported assertion, not an argued conclusion. The seven deadly sins discussion (the majority of the episode) is largely accurate but does not reconstruct the collapsed atonement thesis."
+  },
+  "thesisCriticalErrors": {
+    "count": "4 of 9",
+    "description": "Jeremiah 7:11 misquoted as active murder/slaughter rather than 'den of robbers' [Core], Hosea 6:6 misread as blanket anti-sacrifice decree [Core], Matthew 12:7 decontextualized from Sabbath pericope [Core], Acts 15:29 'no blood' misread as anti-killing prohibition [Core]"
+  },
   "falseClaims": [
     {
+      "thesisCritical": true,
       "claim": "Jeremiah 7:11 describes 'murder, violent ones, shredders of flesh'",
       "rating": "False · High Confidence",
       "confidence": "High",
@@ -39,6 +49,7 @@
       "category": "Core"
     },
     {
+      "thesisCritical": true,
       "claim": "Hosea 6:6 is a blanket condemnation of animal sacrifice as pagan blood magic",
       "rating": "Misleading · High Confidence",
       "confidence": "High",
@@ -49,6 +60,7 @@
       "category": "Core"
     },
     {
+      "thesisCritical": true,
       "claim": "Matthew 12:7 context = Jesus condemning animal sacrifice",
       "rating": "Misleading · High Confidence",
       "confidence": "High",
@@ -59,6 +71,7 @@
       "category": "Core"
     },
     {
+      "thesisCritical": true,
       "claim": "Acts 15:29 'no blood' = prohibition on killing and eating animals",
       "rating": "Misleading · High Confidence",
       "confidence": "High",

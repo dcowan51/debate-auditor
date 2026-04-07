@@ -24,6 +24,15 @@
     "errorImpact": 12
   },
   "steelman": "Dr. Tabor presents a well-organized, generally accurate survey of Dead Sea Scrolls scholarship that serves as a solid introductory overview for non-specialists. His command of primary texts, manuscript history, and scholarly bibliography is strong. The lecture provides genuine educational value in explaining how the DSS challenge assumptions about a single, fixed biblical text. The weakness is not in the central thesis — which is well-supported — but in peripheral factual imprecisions (rounding dates, inflating numbers, omitting co-editors) and one unsubstantiated claim about the Book of Esther.",
+  "argumentType": "Historical / Textual",
+  "structuralVerdict": {
+    "status": "INTACT",
+    "explanation": "The central thesis — that the Dead Sea Scrolls reveal meaningful textual plurality in Second Temple Judaism and that the DSS biblical text differs from the Masoretic tradition in significant ways — is well-supported by 40 true claims and is the scholarly mainstream position. The single Core false claim (Esther identification) does not touch the textual-plurality argument; it is an isolated overclaim about one unattested book. All other errors are peripheral imprecisions in dates, numbers, and attribution. The thesis stands."
+  },
+  "thesisCriticalErrors": {
+    "count": "0 of 7",
+    "description": "No false claims are load-bearing to the central thesis about DSS textual plurality. The Esther identification claim is the most substantive error but concerns a peripheral illustration, not the argument's foundation. Dating imprecisions (Isaiah scroll, Leningrad Codex) and the co-editor omission are factual slips that do not affect the thesis."
+  },
   "falseClaims": [
     {
       "claim": "15,000 fragments representing 'about 600 works'",

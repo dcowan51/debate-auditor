@@ -25,8 +25,18 @@
     "errorImpact": 22
   },
   "steelman": "Abke's strongest argument is that the ego is not monolithic but composed of multiple conditioned identity patterns that activate automatically in response to perceived threats or lack. This aligns with established models in psychology — Internal Family Systems (Schwartz), schema therapy (Young), and subpersonality theory (Assagioli) — all of which treat the self as a multiplicity of parts rather than a single unified entity. The practical observation that people behave differently in different contexts, often in ways that contradict their conscious intentions, is well-supported by social psychology research on contextual identity shifting.",
+  "argumentType": "Psychological / Therapeutic",
+  "structuralVerdict": {
+    "status": "COMPROMISED",
+    "explanation": "The core framework — ego as multiple subconscious identity programs born from perceived lack — aligns meaningfully with Internal Family Systems, schema therapy, and subpersonality theory. The conceptual model survives. However, the practical diagnostic tool (muscle testing / applied kinesiology) is pseudoscience with no systematic validation, and the consciousness binary (either fully present or fully run by programs) is contradicted by dual-process theory. The framework is intact as a metaphor and therapeutic model; it is compromised as a scientifically validated system."
+  },
+  "thesisCriticalErrors": {
+    "count": "1 of 3",
+    "description": "Applied kinesiology as scientifically validated access to subconscious beliefs [Core] — without a valid diagnostic tool the practical rewriting mechanism has no verified entry point"
+  },
   "falseClaims": [
     {
+      "thesisCritical": true,
       "claim": "Applied kinesiology or muscle testing is a scientifically validated method for detecting subconscious beliefs and emotional states.",
       "rating": "Likely False",
       "confidence": "High",

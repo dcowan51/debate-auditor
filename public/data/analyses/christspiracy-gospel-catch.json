@@ -26,8 +26,18 @@
     "errorImpact": 29
   },
   "steelman": "The strongest charitable reading: some Greek words translated uniformly as 'fish' in English (prosphagion, opsarion) do have broader semantic ranges than their English translations suggest; textual criticism of Luke 24 and John 21 raises legitimate questions about editorial layers; and the earliest Jewish-Christian communities (Ebionites, Nazarenes) appear to have practiced vegetarianism, suggesting this was at least one strand of early Christian practice. The speaker raises genuinely interesting questions about how confidently we can treat the 'fish breakfast' of John 21 as straightforward history.",
+  "argumentType": "Historical / Textual",
+  "structuralVerdict": {
+    "status": "COLLAPSED",
+    "explanation": "The thesis rests on three load-bearing claims: (1) the Greek words don't mean fish, (2) the fish-eating passages are later editorial additions, and (3) the earliest manuscript record lacks fish. All three are directly contradicted by primary evidence. Opsarion appears in John 6:9 and 6:11 — not only John 21. Fish appears in all four canonical feeding narratives from their earliest manuscript attestation. The unsubstantiated stylometric study cannot bear the weight placed on it. Without these claims, the vegetarian-Jesus thesis has no textual foundation."
+  },
+  "thesisCriticalErrors": {
+    "count": "5 of 12",
+    "description": "opsarion only in John 21 [Core], fish not in manuscripts before 200 CE [Core], stylometric analysis at 96–98% accuracy [Core], prosphagion in LXX Lev 2:1 [Core], Nazarene = sectarian label not geographic [Core]"
+  },
   "falseClaims": [
     {
+      "thesisCritical": true,
       "claim": "Opsarion only shows up in John 21.",
       "rating": "False",
       "confidence": "High",
@@ -43,6 +53,7 @@
       "category": "Core"
     },
     {
+      "thesisCritical": true,
       "claim": "Fish doesn't even splash onto the manuscript record until 200 CE. No papyrus earlier.",
       "rating": "Misleading",
       "confidence": "High",
@@ -58,6 +69,7 @@
       "category": "Core"
     },
     {
+      "thesisCritical": true,
       "claim": "Stylometric analysis shows Luke 24 clusters closer to Acts at 96–98% accuracy.",
       "rating": "Misleading · Unsubstantiated",
       "confidence": "High",
@@ -68,6 +80,7 @@
       "category": "Core"
     },
     {
+      "thesisCritical": true,
       "claim": "Our earliest manuscripts read Jesus the Nazarene, not of Nazareth, but of the Nazarene sect.",
       "rating": "Misleading to False",
       "confidence": "High",
@@ -83,6 +96,7 @@
       "category": "Core"
     },
     {
+      "thesisCritical": true,
       "claim": "In the Septuagint, Leviticus 2:1, prosphagion refers to oil or side offerings presented with bread.",
       "rating": "Likely False",
       "confidence": "Medium",

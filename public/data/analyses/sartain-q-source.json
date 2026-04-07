@@ -27,6 +27,15 @@
     "errorImpact": 19
   },
   "steelman": "If we grant Q's existence as a written document predating Mark (the dominant Two-Source hypothesis position), Kloppenborg's stratification model placing Stage 1 in a sapiential, non-apocalyptic tradition, and the Didache's preservation of pre-Pauline community practice, then there is a coherent case that a strand of early Jesus tradition emphasized wisdom and works rather than atonement. The paper's genuine engagement with peer-reviewed Q scholarship (Kloppenborg, Koester, Wenham) and consistent Chicago footnote discipline meaningfully distinguish it from popular theology. The core observation — that Paul's letters rarely quote Jesus's wisdom sayings and emphasize crucifixion-atonement — is factually correct; the disputed question is interpretation, not data.",
+  "argumentType": "Historical / Source-Critical",
+  "structuralVerdict": {
+    "status": "COMPROMISED",
+    "explanation": "The paper's central Q-predates-Paul thesis is not defeated outright — Q scholarship is a legitimate field and the Two-Source Hypothesis is mainstream. However, two of the three false claims are structurally load-bearing: the Nazareth nonexistence claim underpins the entire Nazoraios-as-sectarian argument (roughly five pages of the paper), and the Paul-intentionally-suppressed-wisdom claim is the paper's narrative climax. Remove those and the paper becomes a competent if one-sided survey of Q scholarship rather than a demonstration that Paul invented Christianity. The thesis survives in weakened form but loses its most dramatic supporting pillars."
+  },
+  "thesisCriticalErrors": {
+    "count": "2 of 3",
+    "description": "Two false claims are thesis-critical: the Nazareth nonexistence claim (Core — collapses the Nazoraios-as-sectarian argument) and Paul's intentional suppression of wisdom teachings (Core — the paper's narrative climax and the only direct evidence offered for Paul's bad faith). The Mark-copied-from-Paul claim (Support) damages the Q-predating-Mark chronology but does not alone collapse the thesis."
+  },
   "falseClaims": [
     {
       "claim": "Mark copied the Eucharist account nearly word for word from 1 Corinthians 11 (ca. 50 CE)",
@@ -39,6 +48,7 @@
       "category": "Support"
     },
     {
+      "thesisCritical": true,
       "claim": "No historical or textual evidence exists for a town called Nazaret or Nazareth during Jesus's lifetime",
       "rating": "False · High Confidence",
       "confidence": "High",
@@ -49,6 +59,7 @@
       "category": "Core"
     },
     {
+      "thesisCritical": true,
       "claim": "Paul intentionally chose not to emphasize Jesus's wisdom teachings because they contradicted his own theology",
       "rating": "False · High Confidence",
       "confidence": "High",

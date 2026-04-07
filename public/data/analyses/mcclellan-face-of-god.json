@@ -25,6 +25,15 @@
     "errorImpact": null
   },
   "steelman": "The strongest version of McClellan's argument: The consonantal Hebrew text of the pilgrimage commandment in Exodus 23:17, 34:23-24, and Deuteronomy 16:16 preserves grammatical features (direct object marker 'et, the noun 'face,' and in Exodus 34:24 consonants that can only be qal) demonstrating that the original verb was active 'see the face of YHWH,' not passive 'appear before YHWH.' The Masoretic vocalization and the Septuagint translation both reflect a later theological correction motivated by the developing belief that seeing God is fatal. This is well established in critical scholarship. The Arad temple with its standing stone in the holy of holies provides archaeological evidence that Israelites had material representations of YHWH that could be physically 'seen.'",
+  "argumentType": "Historical / Textual",
+  "structuralVerdict": {
+    "status": "INTACT",
+    "explanation": "The core linguistic argument — that the consonantal Hebrew text supports an active qal reading of 'see the face of YHWH' and that the passive niphal vocalization is a later theological correction — is well-supported by critical scholarship and survives the two misleading claims identified. Neither false claim (the anachronistic 'beatific vision' label, nor the loaded 'knowingly mistranslated' framing) undercuts the grammatical and textual evidence. The thesis is rhetorical overstatement at the fringes, not a collapsed core."
+  },
+  "thesisCriticalErrors": {
+    "count": "1 of 2",
+    "description": "'Knowingly mistranslated' framing [Core] — imputes deceptive intent to translators following a received text tradition, which is not empirically demonstrable and undermines the credibility of an otherwise sound linguistic argument"
+  },
   "falseClaims": [
     {
       "claim": "The aspiration to see the face of God is known as 'the beatific vision'",
@@ -50,6 +59,7 @@
       ]
     },
     {
+      "thesisCritical": true,
       "claim": "This is a 'knowing mistranslation' — translators knowingly mistranslate the commandment as 'appear before'",
       "rating": "Misleading",
       "confidence": "High",

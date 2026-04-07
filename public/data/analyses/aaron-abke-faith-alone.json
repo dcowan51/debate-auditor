@@ -25,6 +25,15 @@
     "errorImpact": 42
   },
   "steelman": "The strongest charitable reading of Abke's argument is that the Protestant sola fide doctrine, when detached from ethical practice, risks producing a morally complacent Christianity that contradicts Jesus's emphasis on loving action — and that James 2:14-26 represents an early corrective to exactly this tendency, whether directed at Paul or at a misuse of Paul.",
+  "argumentType": "Biblical / Textual — Reformation History",
+  "structuralVerdict": {
+    "status": "COMPROMISED",
+    "explanation": "The underlying James-Paul tension is real and has genuine scholarly support. However, the historical backbone is severely weakened by the fabricated Luther deathbed reversal to 'double justification' and the false claim that Calvin wished to exclude James — both of which are load-bearing to the argument that even Reformers recognized James as a rebuke of Paul. The Thomistic act/potency section stands on its own merits but maps onto a faith/works dichotomy Aquinas himself would reject. The thesis survives in weaker form: James-Paul tension exists and is documented, but Abke's specific historical claims about how Reformers responded to it are false."
+  },
+  "thesisCriticalErrors": {
+    "count": "3 of 9",
+    "description": "dysnoetos mistranslated as 'nonsense/unintelligible' to discredit Paul [Core], Paul's Romans 4:4-5 framed as endorsing antinomianism [Core], early church fathers unaware James targeted Paul [Core]"
+  },
   "falseClaims": [
     {
       "claim": "Martin Luther changed to 'double justification' at the end of his life",
@@ -137,6 +146,7 @@
       "category": "Background"
     },
     {
+      "thesisCritical": true,
       "claim": "Dysnoetos means 'nonsense or unintelligible'",
       "rating": "Misleading",
       "confidence": "Very High",
@@ -156,6 +166,7 @@
       "category": "Core"
     },
     {
+      "thesisCritical": true,
       "claim": "Paul's Romans 4:4-5 means righteous deeds are unnecessary",
       "rating": "Misleading",
       "confidence": "High",
@@ -175,6 +186,7 @@
       "category": "Core"
     },
     {
+      "thesisCritical": true,
       "claim": "The early church fathers 'did not realize' James was directly calling out Paul",
       "rating": "Likely False",
       "confidence": "High",

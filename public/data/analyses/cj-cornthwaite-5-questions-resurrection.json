@@ -1,0 +1,224 @@
+{
+  "id": "cj-cornthwaite-5-questions-resurrection",
+  "creatorId": "cj-cornthwaite",
+  "creatorName": "C.J. Cornthwaite",
+  "channel": "YouTube",
+  "videoTitle": "5 Hard Questions About the Resurrection (Nobody Asks)",
+  "videoUrl": "https://youtu.be/nerFEXosJx0",
+  "contentType": "video",
+  "datePublished": "2026-04-01",
+  "dateAnalyzed": "2026-04-06",
+  "sessionNumber": 1,
+  "analyzedRange": "0:00–13:01",
+  "reportFile": "CJCornthwaite_5HardQuestions_Resurrection_Debate_Audit.md",
+  "thesis": "Paul believed in a visionary/spiritual rather than physical resurrection; resurrection was not central to all early Christianity but spread via Pauline/Marcionite influence; resurrection meant different things in the ancient world; gospel accounts contradict each other; theology shaped the resurrection texts through scribal interference.",
+  "dashboard": {
+    "sessionScore": 72,
+    "cumulativeScore": 72,
+    "cumulativeSessions": 1,
+    "trueClaims": 21,
+    "falseMisleading": 2,
+    "disputed": 6,
+    "totalChecked": 29,
+    "confidence": "Medium",
+    "verdict": "Caution",
+    "stratagems": 5,
+    "weaselWords": 5,
+    "errorImpact": 14
+  },
+  "steelman": "The strongest charitable reading of Cornthwaite's argument is this: popular resurrection debates are often conducted without adequate attention to the internal diversity of early Christian resurrection language, the semantic range of key Greek terms, or the distinctive theological agendas that shaped the gospel accounts — and correcting this would produce more rigorous and honest conversations about the historical question.",
+  "argumentType": "Historical / Evidential",
+  "structuralVerdict": {
+    "status": "COMPROMISED",
+    "explanation": "The video contains real scholarly content and raises legitimate questions about early Christian diversity and resurrection language. However, both confirmed false claims are core-level premises: ōphthē as 'almost always' visionary overstates the lexical evidence, and 'split down the middle' misrepresents the scholarly consensus on Paul's resurrection framework. These distortions consistently tilt minority positions toward apparent consensus, weakening the credibility of the overall argument without fully destroying it."
+  },
+  "thesisCriticalErrors": {
+    "count": "2 of 2",
+    "description": "ōphthē 'almost always' refers to a visionary experience [Core] — the primary lexical pillar for the spiritual-resurrection reading; scholars 'split down the middle' on Paul's resurrection [Core] — misrepresents the scholarly weight behind the bodily resurrection reading"
+  },
+  "falseClaims": [
+    {
+      "thesisCritical": true,
+      "claim": "ōphthē 'almost always' refers to a visionary experience in the Septuagint",
+      "rating": "Misleading · High Confidence",
+      "confidence": "High",
+      "timestamp": "1:37",
+      "evidence": "ōphthē (aorist passive of horaō) is used throughout the LXX for theophanies (Gen 12:7, 17:1, 18:1, 26:2), ordinary appearances, and dream-visions. Scholarly analysis confirms it 'covers a whole range of visual phenomena' and that normal vision 'is not ruled out.' Wilhelm Michaelis and Willi Marxsen argued the term signals that something objectively visible was present — the opposite of Cornthwaite's reading. The word does not function as a technical term for visions.",
+      "settle": "A systematic corpus analysis of all LXX occurrences of ōphthē categorized by context (theophany, dream, ordinary sight, prophetic vision) with percentage breakdowns.",
+      "sources": [],
+      "category": "Core"
+    },
+    {
+      "thesisCritical": true,
+      "claim": "Scholars are 'split down the middle' on whether Paul meant a spiritual or bodily resurrection",
+      "rating": "Misleading · High Confidence",
+      "confidence": "High",
+      "timestamp": "3:27",
+      "evidence": "The majority of critical New Testament scholars — including those who are not confessional apologists — hold that Paul envisioned some form of transformed bodily resurrection. N.T. Wright's The Resurrection of the Son of God (2003), Dale Allison's Resurrecting Jesus (2005), and Larry Hurtado's work all affirm a bodily framework for Paul. The minority position (Lüdemann, Goulder) is a genuine scholarly option but represents a significantly smaller share of critical scholarship than 'split down the middle' implies.",
+      "settle": "A survey of critical NT scholars' published positions on 1 Corinthians 15 pneumatikos specifically.",
+      "sources": [],
+      "category": "Core"
+    }
+  ],
+  "stratagems": [
+    {
+      "number": 1,
+      "name": "Extension / Widening the Dispute Beyond Its Natural Scope",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "When you actually get this word in the Septuagint, it almost always refers to some sort of visionary experience... when you read this chapter in its entirety, it really sounds like Paul is not that interested in physical bodies.",
+          "timestamp": "1:20",
+          "explanation": "Paul's use of ōphthē is extended from 'this word can indicate visionary or theophanic contexts in the LXX' (defensible) to 'Paul's resurrection appearances were visionary, not physical' (contested). Neither step is fully supported. Michaelis and Marxsen argued the opposite: that ōphthē signals precisely that there was something objectively there to be seen. Cornthwaite presents only the Lüdemann/Goulder reading as if it were the consensus."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Homonymy / Equivocation on Key Terms",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "Paul in 1 Corinthians 15 says that the resurrection is a spiritual body, a pneumaticose body. And in Luke, Jesus says, 'Touch me and say that I'm not a pneuma.'",
+          "timestamp": "2:27",
+          "explanation": "The word 'spiritual' (pneumatikos / pneuma) is used in two distinct senses without distinguishing them. In 1 Corinthians 15:44, pneumatikos soma means a body animated by or transformed through the Holy Spirit — N.T. Wright, Anthony Thiselton, and others argue this does NOT mean 'immaterial.' In Luke 24:39, pneuma means a disembodied ghost. Treating these as equivalent constructs a contradiction between Paul and Luke that does not survive close reading."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "name": "Induction with Concealed Counterexamples",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "When you start to look through the early Christian texts... he argues that the resurrection was not a central belief among all early Christians.",
+          "timestamp": "4:30",
+          "explanation": "Vinzent's argument is presented as what you discover when you 'actually stop and read.' The counterevidence is not disclosed: (a) Paul's own letters place the resurrection at the center of his theology (1 Cor 15:14: 'if Christ has not been raised, your faith is futile'); (b) 1 Clement (ca. 96 CE) explicitly uses the resurrection as a theological anchor before any Marcionite influence; (c) scholarly reception of Vinzent's thesis has been skeptical, with reviewers noting his late datings are 'not simply the forthcoming consensus.'"
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "name": "Appeal to Authority",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "So, as somebody with some training in biblical scholarship, these are my questions about the resurrection.",
+          "timestamp": "12:03",
+          "explanation": "Scholarly credentials are asserted at the video's conclusion to lend authority to the preceding analysis, but no specific qualifications, institutional affiliation, published peer-reviewed work, or scholarly name-checks are provided beyond citing Vinzent and Richard C. Miller. The credential is vague and functions rhetorically to foreclose challenge rather than to demonstrate engagement with the peer literature."
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "name": "Odious Association",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "I hear all this nonsense about Bayesian analysis and eyewitness testimonies. And really, I don't think enough people just stop to pay attention to even what we have in the sources.",
+          "timestamp": "12:26",
+          "explanation": "Rather than engaging the actual arguments of resurrection apologists (Habermas, Licona, Craig, Allison), Cornthwaite dismisses their methodologies ('nonsense') and implies they haven't read their sources. Both Habermas and N.T. Wright engage extensively with precisely the Pauline texts and LXX background that Cornthwaite discusses. The mockery forecloses engagement rather than addressing the opposing literature."
+        }
+      ]
+    }
+  ],
+  "scholarlySplits": [
+    {
+      "claim": "Paul envisioned a spiritual/visionary resurrection, not a bodily one",
+      "nature": "Majority: transformed bodily resurrection in Paul (Wright, Hurtado, Thiselton); Minority: purely visionary (Lüdemann, Goulder). The ōphthē and pneumatikos soma debates are real but do not resolve as definitively as the speaker implies.",
+      "timestamp": "1:20"
+    },
+    {
+      "claim": "Resurrection was not central to all early Christianity until Marcion circulated Paul",
+      "nature": "Majority: resurrection central from very early (1 Clement, Ignatius); Minority: Vinzent's Marcionite-spread thesis (Ashgate, 2011), received skeptically by Bryn Mawr Classical Review and Oxford Patristics reviewers.",
+      "timestamp": "4:30"
+    },
+    {
+      "claim": "Philo and Josephus both held Moses ascended without dying",
+      "nature": "Philo (Life of Moses II.288–291): supports ascent-without-death reading; Josephus (Ant. 4.8.48): records the tradition but expresses personal skepticism — a genuinely divided picture.",
+      "timestamp": "7:26"
+    },
+    {
+      "claim": "Roman emperor apotheosis is a meaningful parallel to Christian resurrection claims",
+      "nature": "Those favoring Greco-Roman parallel (Miller, MacDonald); those arguing the category distinction is fundamental (Hurtado, Bockmuehl).",
+      "timestamp": "8:07"
+    },
+    {
+      "claim": "Luke 24:42–43 (fish-eating) is a later anti-docetic interpolation",
+      "nature": "Majority of manuscripts and UBS committee: retain (p75, Sinaiticus, Vaticanus); Codex Bezae and minority committee position: omit or query. A text can be original and still serve an anti-docetic purpose.",
+      "timestamp": "10:46"
+    },
+    {
+      "claim": "Paul's resurrection appearances in 1 Corinthians 15 were purely visionary/spiritual",
+      "nature": "Lüdemann/Goulder: read ōphthē as visionary; Wright/Hurtado/Thiselton: seed analogy and burial language (15:4) imply transformation of the same body. Neither position has achieved consensus.",
+      "timestamp": "2:02"
+    }
+  ],
+  "trueClaims": [
+    "ōphthē is used in the LXX for theophanies, dreams, and appearances — confirmed; Gen 12:7, 17:1, 31:13 LXX, among many others",
+    "Paul never explicitly mentions the empty tomb — confirmed; no Pauline letter contains a reference; uncontested by Ehrman, Wright, Hurtado",
+    "Paul discusses a pneumatikos (spiritual) resurrection body in 1 Corinthians 15 — confirmed; 1 Cor 15:44 NRSVUE",
+    "Acts was written significantly later than Paul's letters — confirmed; Paul's letters ca. 50–60 CE, Acts typically dated 80–90s CE",
+    "Markus Vinzent authored a book arguing resurrection was not central to all early Christianity — confirmed; Christ's Resurrection in Early Christianity (Ashgate, 2011)",
+    "Marcion of Sinope was a wealthy shipowner who came to Rome in the second century — confirmed; Tertullian (Adv. Marc. 1.1) and Epiphanius (Pan. 42) record his Pontic merchant background; Rome ca. 140 CE",
+    "Codex Sinaiticus includes the Epistle of Barnabas and Shepherd of Hermas in its New Testament section — confirmed; 4th-century manuscript (British Library) appends both texts",
+    "Enoch and Elijah went to heaven without dying — confirmed; Genesis 5:24 (Enoch); 2 Kings 2:11 (Elijah: chariot of fire)",
+    "The Jewish tradition included posthumous vindication for unjustly killed prophets — confirmed; 2 Maccabees 7, Wisdom of Solomon 2–5, Second Temple martyr texts (Nickelsburg, 1972)",
+    "Roman emperors were formally divinized (consecratio) after death — confirmed; Julius Caesar deified 42 BCE; standard practice for most emperors",
+    "Roman emperors were given the title divi filius (son of the deified/divine) — confirmed; Augustus as divi filius (son of the deified Julius) is the paradigm case",
+    "Julius Caesar's deification and divi filius titulature predate Christianity — confirmed; Caesar deified 42 BCE, Augustus's title from ca. 38 BCE",
+    "Mark 16:7 has the young man tell the women the disciples should go to Galilee — confirmed; NRSVUE Mark 16:7",
+    "Matthew 28:16–17 has the eleven go to a mountain in Galilee and some doubted — confirmed; NRSVUE Matt 28:17",
+    "Luke 24 places all resurrection appearances in or near Jerusalem — confirmed; Emmaus road, Jerusalem upper room, Acts 1:4",
+    "Luke 24:39 has Jesus say 'Touch me and see; for a ghost (pneuma) does not have flesh and bones as you see that I have' — confirmed; NRSVUE Luke 24:39",
+    "1 Corinthians 15:44 describes the resurrection body as pneumatikon (spiritual) — confirmed; NRSVUE",
+    "Early Christians disagreed about the nature of Jesus's resurrection body — confirmed; Docetism, proto-orthodox physicalism, and Gnostic forms are well-documented from Ignatius onward",
+    "Scribes modified biblical texts to bolster theological positions — confirmed; Ehrman, The Orthodox Corruption of Scripture (1993)",
+    "The Shepherd of Hermas and Epistle of Barnabas circulated at the margins of the eventual NT canon — confirmed; Eusebius HE 3.25 places both in the antilegomena",
+    "The fish-eating scene in Luke 24 serves an anti-docetic function — confirmed; mainstream scholarly position regardless of whether the passage is original"
+  ],
+  "youtubeFlags": [
+    {
+      "type": "Title Accuracy",
+      "severity": "info",
+      "text": "The title '5 Hard Questions About the Resurrection (Nobody Asks)' is mildly misleading. These questions are regularly asked in academic biblical studies and are a staple of skeptical resurrection literature (Gerd Lüdemann, Dale Allison, Bart Ehrman). The framing that 'nobody asks' them understates the existing scholarly debate and overstates the video's contribution."
+    },
+    {
+      "type": "Implied Claims",
+      "severity": "warning",
+      "text": "Implies resurrection apologists either don't know about these questions or are deliberately avoiding them — not supported by the evidence (Habermas, Wright, Allison engage all five topics extensively). Also implies the differences between Matthew and Luke on resurrection appearance location constitute a severe problem, when many critical scholars regard them as reflecting distinct traditions rather than direct contradiction."
+    },
+    {
+      "type": "Monetization",
+      "severity": "info",
+      "text": "The speaker promotes a paid community in the closing segment. The promotional content is appropriately separated from the analysis and no health claims or product endorsements appear alongside factual claims."
+    }
+  ],
+  "weightedAnalysis": {
+    "categories": [
+      {
+        "name": "Core",
+        "claims": 5,
+        "weight": 3,
+        "trueWeighted": 9,
+        "falseWeighted": 6
+      },
+      {
+        "name": "Support",
+        "claims": 4,
+        "weight": 2,
+        "trueWeighted": 8,
+        "falseWeighted": 0
+      },
+      {
+        "name": "Background",
+        "claims": 20,
+        "weight": 1,
+        "trueWeighted": 20,
+        "falseWeighted": 0
+      }
+    ],
+    "errorImpact": 14,
+    "interpretation": "Session score 72.4% (21/29) places Cornthwaite in the Caution range. Background and contextual claims are highly accurate. Both confirmed misleading claims are core-level premises that bear most heavily on his thesis — the semantic scope of ōphthē and the state of scholarly opinion on Paul. Error impact of 14% reflects concentration of false weighting on core claims. Five rhetorical stratagems reinforce the direction of those errors. The video contains real scholarly content and legitimate questions, but the framing consistently overstates minority positions as settled findings."
+  }
+}

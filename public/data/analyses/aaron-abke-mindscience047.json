@@ -1,0 +1,239 @@
+{
+  "id": "aaron-abke-mindscience047",
+  "creatorId": "aaron-abke",
+  "creatorName": "Aaron Abke",
+  "channel": "@AaronAbke",
+  "videoTitle": "Lower Codes vs. Christ Codes (How To Rewrite Them INSTANTLY) | MindScience 047",
+  "videoUrl": "",
+  "contentType": "video",
+  "datePublished": "2026-01-01",
+  "dateAnalyzed": "2026-04-04",
+  "sessionNumber": 8,
+  "analyzedRange": "0:00–31:11",
+  "reportFile": "Aaron_Abke_MindScience047_LowerCodes_ChristCodes_Debate_Audit.md",
+  "thesis": "The subconscious mind runs 'lower codes' — ego-based belief programs that perpetuate lack-attachment-control loops. Muscle testing is presented as the indispensable tool for identifying and rewriting these programs with 'Christ codes,' higher-frequency modes of perception centered on love, oneness, and service to others.",
+  "dashboard": {
+    "sessionScore": 50,
+    "cumulativeScore": 53,
+    "cumulativeSessions": 8,
+    "trueClaims": 8,
+    "falseMisleading": 5,
+    "disputed": 3,
+    "totalChecked": 16,
+    "confidence": "Medium",
+    "verdict": "Unreliable",
+    "stratagems": 5,
+    "weaselWords": 3,
+    "errorImpact": 50
+  },
+  "argumentType": "Psychological / Therapeutic",
+  "structuralVerdict": {
+    "status": "COLLAPSED",
+    "explanation": "The entire practical framework (identifying and rewriting lower codes) depends on muscle testing working. The evidence says it doesn't. Without it there is no rewriting mechanism, the paid course has no validated tool, and the lower codes / Christ codes framework has no diagnostic pathway — only an unfalsifiable vocabulary."
+  },
+  "thesisCriticalErrors": {
+    "count": "3 of 5",
+    "description": "muscle testing as subconscious access [Core], 11M bits figure misapplied to validate AK [Support], subconscious 'never lies' claim [Support] — all three are load-bearing to the rewriting mechanism presented in the video and withheld in the paid course"
+  },
+  "steelman": "The strongest charitable reading of this video is that it offers an accessible metacognitive framework, translating genuine psychological insights — schemas, implicit memory, self-reinforcing behavioral loops, the value of awareness-based intervention — into language that resonates with spiritually-oriented audiences. The three-emotion diagnostic heuristic, while not scientifically established in Abke's specific formulation, may function as a useful mnemonic for orienting self-inquiry. The observation that behavior change without addressing underlying beliefs tends not to stick is well-supported in schema therapy and ACT literature.",
+  "falseClaims": [
+    {
+      "thesisCritical": true,
+      "claim": "Muscle testing (applied kinesiology) enables direct yes/no inquiries into the subconscious mind",
+      "rating": "False · High Confidence",
+      "confidence": "High",
+      "timestamp": "23:27",
+      "evidence": "Multiple systematic reviews find applied kinesiology performs at or below chance. Ernst (2007), systematic review in International Journal of Clinical Practice, found no credible evidence that AK muscle tests can diagnose organic conditions or access internal psychological states. The mechanism proposed — subconscious querying — is not physiologically coherent and has no peer-reviewed support.",
+      "settle": "A double-blind RCT demonstrating that muscle testing responses for psychological states exceed chance accuracy and correlate with independently verified subconscious content.",
+      "sources": [
+        {
+          "label": "Ernst (2007) — Applied kinesiology: A systematic review",
+          "url": "https://doi.org/10.1111/j.1742-1241.2007.01359.x"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "\"You have not because you ask not\" — attributed to Jesus",
+      "rating": "Misleading · High Confidence",
+      "confidence": "High",
+      "timestamp": "24:02",
+      "evidence": "James 4:2 (NRSVUE): 'You do not have because you do not ask.' This statement appears in the Letter of James, not in any Gospel. The preceding quotation — 'Ask and it shall be given; seek and you will find; knock and the door will be opened' — is correctly attributed to Jesus (Matthew 7:7). The James quotation is appended without any attribution shift, making it appear a continuation of the Jesus quotation.",
+      "settle": "Checking both passages against primary Gospel and epistle texts.",
+      "sources": [],
+      "category": "Support"
+    },
+    {
+      "thesisCritical": true,
+      "claim": "The subconscious processes 11 million bits per second as a self-contained 'quantum database'",
+      "rating": "Misleading · High Confidence",
+      "confidence": "High",
+      "timestamp": "21:07",
+      "evidence": "The figure originates with Manfred Zimmermann's estimate of total sensory nerve bandwidth, popularized in Tor Nørretranders, The User Illusion (1998, pp. 143–145). It measures the maximum rate of sensory input arriving at the CNS — not the output of a discrete subconscious processing unit, and not a figure that implies the subconscious can be externally queried. No neuroscience source supports the 'quantum computer database' framing or its application to muscle testing validation.",
+      "settle": "Citation of the original Zimmermann source and clarification that the figure describes sensory bandwidth, not a queryable subconscious module.",
+      "sources": [],
+      "category": "Support"
+    },
+    {
+      "thesisCritical": true,
+      "claim": "The subconscious mind 'never lies' and 'always tells you the truth'",
+      "rating": "Misleading · Medium Confidence",
+      "confidence": "Medium",
+      "timestamp": "24:49",
+      "evidence": "Implicit memory systems are reconstructive and subject to confirmation bias, motivated reasoning, and post-hoc confabulation (Nisbett & Wilson, 1977, 'Telling More Than We Can Know,' Psychological Review, 84[3], 231–259). Implicit memory is not a neutral archive; it is shaped by prior beliefs, emotional state, and expectation. Framing it as categorically never lying overstates both its accuracy and its status as a coherent, intentional agent.",
+      "settle": "Engagement with the implicit memory, confabulation, and motivated cognition literature.",
+      "sources": [],
+      "category": "Support"
+    },
+    {
+      "claim": "The higher self is literally you from the future who has turned back in time to guide previous incarnations",
+      "rating": "Misleading · Medium Confidence",
+      "confidence": "Medium",
+      "timestamp": "25:03",
+      "evidence": "No empirical evidence exists for retroactive causation through personal time-travel as a spiritual mechanism. The claim is presented not as theological metaphor or philosophical speculation but as a functional explanation of why the subconscious contains relevant information. Offering an unfalsifiable mechanism as if it were an explanation is epistemically misleading.",
+      "settle": "Honest framing as speculative metaphysics rather than mechanistic description.",
+      "sources": [],
+      "category": "Background"
+    }
+  ],
+  "stratagems": [
+    {
+      "number": 30,
+      "name": "Appeal to Authority",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "That 11 million bit per second supercomputer running beneath your conscious awareness.",
+          "timestamp": "21:07",
+          "explanation": "Abke invokes a specific neuroscience-adjacent figure to frame the subconscious as a 'quantum database' that muscle testing can query. The 11-million-bits figure derives from Manfred Zimmermann's estimate of total sensory nerve bandwidth and describes the maximum rate of sensory input arriving at the CNS — not a discrete subconscious processing unit and not a figure that implies external queryability. Zimmermann is never credited. The authority of a real number is borrowed to validate an unrelated pseudoscientific claim."
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "name": "Ad Personam / Identity Appeal",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "When you start seeing these codes in real time, you are truly stepping into your destiny to become the one in your own self-made matrix.",
+          "timestamp": "30:39",
+          "explanation": "Acceptance of the framework is cast as spiritual destiny; those who internalize it are 'the one.' The inverse follows: skeptics are still inside the matrix, running lower codes. This pattern makes disagreement with the system structurally equivalent to being asleep. Questioning the model becomes evidence that one needs the model."
+        }
+      ]
+    },
+    {
+      "number": 1,
+      "name": "Extension / Widening the Dispute Beyond Its Natural Scope",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "Every time you become aware of how a program is acting itself out through you and you choose not to act it out, you unplug one more cord from the matrix and you liberate one more piece of the corrupted data from the collective unconscious of humanity.",
+          "timestamp": "28:02",
+          "explanation": "A defensible psychological claim — that self-awareness can interrupt automatic behavioral patterns — is extended into a cosmic assertion: that individual inner work literally weakens the architecture of a collective ego matrix and liberates humanity's corrupted data. No evidence is offered for the metaphysical extension. By inflating personal stakes to civilizational scale, skepticism becomes irresponsible toward future generations."
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "name": "Choosing Analogies Favorable to One's Position",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "Software is like the binary code that creates a website, the ones and zeros that you don't see when you punch it into your browser... sequences are like that. They're the front end of the website.",
+          "timestamp": "2:12",
+          "explanation": "The software/code analogy is presented not as a pedagogical metaphor but as a literal description of how the subconscious operates. Once the audience accepts the terminology — lower codes, software programs, sequences — the vocabulary pre-structures all subsequent evaluation. The analogy does the argumentative work that empirical evidence would otherwise need to do. Muscle testing is then sold as the tool that reads the code."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "name": "Induction with Concealed Counterexamples",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "Our negative emotions, which are really just three negative core feelings — sadness, anger, and fear — these three negative emotions are actually reflections of the ego's three specific functions.",
+          "timestamp": "17:44",
+          "explanation": "Three emotions are presented as exhaustively mapping to three and only three program types. No counterexamples are considered: emotions frequently co-occur, are ambiguous, and resist clean mapping to a single source. The triadic structure feels complete and precise, but the induction rests entirely on the proprietary framework rather than evidence. The map is asserted as proof of the territory."
+        }
+      ]
+    }
+  ],
+  "scholarlySplits": [
+    {
+      "claim": "Negative emotions reduce to exactly three core types: sadness, anger, and fear",
+      "nature": "Basic emotion theory (Ekman — 6 discrete universal categories) vs. constructivist theory (Barrett — emotions are constructed, not discrete natural kinds). Neither framework endorses a neat triadic schema mapped to ego program types.",
+      "timestamp": "17:44"
+    },
+    {
+      "claim": "Implicit memory drives behavior in ways invisible to conscious awareness",
+      "nature": "Strong consensus that implicit processes influence behavior outside awareness (Kihlstrom, 1987; Bargh & Chartrand, 1999). Minority dispute concerns how dissociable implicit and explicit systems truly are.",
+      "timestamp": "21:07"
+    },
+    {
+      "claim": "Awareness and mindfulness practices reduce the automaticity of mental patterns",
+      "nature": "Majority: mindfulness-based interventions show measurable effects on rumination and automatic responding. Minority: effect sizes are debated, publication bias present, mechanisms remain unclear (Van Dam et al., 2018).",
+      "timestamp": "16:12"
+    },
+    {
+      "claim": "Repeated minor interpersonal upsets create lasting subconscious programs analogous to trauma",
+      "nature": "Complex and cumulative trauma are recognized in clinical literature (Herman, 1992; Courtois & Ford, 2009). 'Every small upset' creating indefinitely running programs is not supported by the trauma literature as a universal mechanism.",
+      "timestamp": "21:44"
+    }
+  ],
+  "trueClaims": [
+    "All beliefs are acted out behaviorally in some form — consistent with cognitive-behavioral frameworks (Beck, 1979)",
+    "Self-reinforcing feedback loops exist in attachment-seeking behavior — confirmed in attachment theory (Bowlby, 1969; Coyne, 1976)",
+    "Awareness of automatic behavioral patterns can reduce their grip — supported by metacognitive therapy (Wells, 2009) and MBCT research",
+    "Naming and labeling emotional states aids recognition — affect labeling research (Lieberman et al., 2007, Psychological Science)",
+    "Behavior change that does not address underlying beliefs tends not to sustain — foundational to schema therapy (Young et al., 2003) and ACT",
+    "\"Ask and it shall be given; seek and you will find; knock and the door will be opened\" — correctly attributed to Jesus, Matthew 7:7 (NRSVUE)",
+    "A Course in Miracles teaches 'all minds are joined' — consistent with ACIM core metaphysics (T-13.VI; W-pI.137)",
+    "The subconscious processes information outside conscious awareness at a higher capacity than conscious awareness — true as a general principle (Reber, 1993, Implicit Learning and Tacit Knowledge)",
+    "Defense mechanisms, avoidance, and people-pleasing are behavioral sequences reflecting underlying beliefs — foundational to psychodynamic, cognitive, and schema-based formulations",
+    "Social situations tend to activate ego patterns more readily than solitary contexts — consistent with interpersonal psychology and social comparison theory (Goffman, 1959)"
+  ],
+  "youtubeFlags": [
+    {
+      "type": "Title Accuracy",
+      "severity": "warning",
+      "text": "The title promises to show how to rewrite lower codes 'INSTANTLY.' The video does not deliver an instant rewriting method. The practical protocol (muscle testing) is explicitly withheld and available only in the paid course. Viewers receive the diagnostic framework but not the remedy in free content. The 'INSTANTLY' in the title is not supported by what is actually taught in this episode."
+    },
+    {
+      "type": "Monetization",
+      "severity": "warning",
+      "text": "An 8-week course ('4D University') is promoted at 27:12–27:24, priced at $7 with 600 enrolled students. The full muscle testing protocol — presented throughout the video as the essential tool for everything discussed — is explicitly withheld and available only to paying students. The architecture of the free video is: (1) establish the problem (lower codes); (2) generate urgency (you're being drained like a dead phone battery); (3) gate the solution behind the paywall."
+    },
+    {
+      "type": "Implied Claims",
+      "severity": "info",
+      "text": "Implies muscle testing is a scientifically validated diagnostic method without qualification or acknowledgment of its contested status. Implies the 11 million bits/second figure is why muscle testing works — the two claims are placed in close sequential proximity to imply a mechanistic connection without stating one. Implies skepticism about the framework is itself a lower code running in the skeptic — making the system self-sealing against critique."
+    }
+  ],
+  "weightedAnalysis": {
+    "categories": [
+      {
+        "name": "Core",
+        "claims": 3,
+        "weight": 3,
+        "trueWeighted": 6,
+        "falseWeighted": 3
+      },
+      {
+        "name": "Support",
+        "claims": 5,
+        "weight": 2,
+        "trueWeighted": 6,
+        "falseWeighted": 6
+      },
+      {
+        "name": "Background",
+        "claims": 5,
+        "weight": 1,
+        "trueWeighted": 2,
+        "falseWeighted": 3
+      }
+    ],
+    "errorImpact": 50,
+    "interpretation": "Session score 50% (8/16) reflects a narrow checkable claim base due to heavy reliance on proprietary unfalsifiable framework (lower codes, Christ codes, selves, sequences). Error impact of 50% is driven primarily by the pseudoscientific core tool (muscle testing, weight ×3) and the cluster of Misleading support-level claims. The scriptural misattribution of James 4:2 to Jesus — placed immediately after a correct Jesus citation — is the most consequential single error in terms of audience deception. MindScience track cumulative: 18/32 = 56% after 2 sessions. Site cumulative: 225/425 = 53% Unreliable."
+  }
+}

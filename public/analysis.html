@@ -18,6 +18,7 @@
       <li><a href="index.html">Home</a></li>
       <li><a href="videos.html">Analyses</a></li>
       <li><a href="leaderboard.html">Leaderboard</a></li>
+      <li><a href="patterns.html">Patterns</a></li>
       <li><a href="methodology.html">Methodology</a></li>
       <li><a href="about.html">About</a></li>
       <li><a href="suggest.html">Suggest</a></li>
@@ -41,7 +42,13 @@
     <div class="meta-item" id="creator-link"></div>
     <div class="meta-item" id="analyzed-range"></div>
   </div>
-  <!-- Video + TL;DR side by side -->
+</div>
+
+<!-- Structural verdict — primary signal, first after title -->
+<div id="structural-verdict-panel" style="display:none;max-width:860px;margin:0 auto;padding:0 24px 20px"></div>
+
+<!-- Media + thesis/tldr -->
+<div class="analysis-header" style="padding-top:0">
   <div class="media-summary-row">
     <div class="media-col" id="youtube-link"></div>
     <div class="summary-col">
@@ -54,38 +61,47 @@
   </div>
 </div>
 
+<!-- Dashboard — simplified, no ring -->
 <div class="dashboard-panel">
-  <div class="dashboard">
-    <div class="dashboard-score">
-      <div class="score-ring" id="score-ring">
-        <div class="pct" id="session-pct">—</div>
-        <div class="verdict-label" id="session-verdict"></div>
-      </div>
-      <div style="font-size:0.75rem;color:var(--text-muted);text-align:center;margin-top:4px">Session Score</div>
-      <div style="margin-top:12px;padding-top:12px;border-top:1px solid var(--border);text-align:center">
-        <div style="font-size:1.3rem;font-weight:700" id="cumulative-pct">—</div>
-        <div style="font-size:0.7rem;color:var(--text-muted)" id="cumulative-label"></div>
-      </div>
+  <div class="dash-primary-row">
+    <div class="dash-big-stat">
+      <div class="dash-big-val true-val" id="dash-true">—</div>
+      <div class="dash-big-label">True Claims</div>
     </div>
-    <div class="dashboard-details">
-      <div class="dash-item"><span class="dash-label">True Claims</span><span class="dash-value true-val" id="dash-true">—</span></div>
-      <div class="dash-item"><span class="dash-label">False / Misleading</span><span class="dash-value false-val" id="dash-false">—</span></div>
-      <div class="dash-item"><span class="dash-label">Disputed</span><span class="dash-value disputed-val" id="dash-disputed">—</span></div>
-      <div class="dash-item"><span class="dash-label">Total Checked</span><span class="dash-value" id="dash-total">—</span></div>
-      <div class="dash-item"><span class="dash-label">Confidence</span><span class="dash-value" id="dash-confidence">—</span></div>
-      <div class="dash-item"><span class="dash-label">Stratagems Detected</span><span class="dash-value false-val" id="dash-stratagems">—</span></div>
-      <div class="dash-item"><span class="dash-label">Weasel-Word Flags</span><span class="dash-value disputed-val" id="dash-weasel">—</span></div>
-      <div class="dash-item"><span class="dash-label">Error Impact (Weighted)</span><span class="dash-value false-val" id="dash-error">—</span></div>
+    <div class="dash-big-stat">
+      <div class="dash-big-val false-val" id="dash-false">—</div>
+      <div class="dash-big-label">False / Misleading</div>
     </div>
+    <div class="dash-big-stat">
+      <div class="dash-big-val disputed-val" id="dash-disputed">—</div>
+      <div class="dash-big-label">Disputed</div>
+    </div>
+    <div class="dash-big-stat">
+      <div class="dash-big-val" id="dash-total">—</div>
+      <div class="dash-big-label">Total Checked</div>
+    </div>
+  </div>
+  <div class="dash-secondary-row">
+    <span class="dash-sec-item">Session: <strong id="session-pct">—</strong> <span id="session-verdict" class="dash-verdict-txt"></span></span>
+    <span class="dash-sec-sep">·</span>
+    <span class="dash-sec-item">Cumulative: <strong id="cumulative-pct">—</strong> <span id="cumulative-label" style="color:var(--text-muted)"></span></span>
+    <span class="dash-sec-sep">·</span>
+    <span class="dash-sec-item">Confidence: <strong id="dash-confidence">—</strong></span>
+    <span class="dash-sec-sep">·</span>
+    <span class="dash-sec-item">Rhetorical Tricks: <strong id="dash-stratagems" class="false-val">—</strong></span>
+    <span class="dash-sec-sep">·</span>
+    <span class="dash-sec-item">Weighted Error: <strong id="dash-error" class="false-val">—</strong></span>
+    <span class="dash-sec-sep">·</span>
+    <span class="dash-sec-item">Vague Language: <strong id="dash-weasel" class="disputed-val">—</strong></span>
   </div>
 </div>
 
 <div class="tabs-container">
   <div class="tab-buttons">
     <button class="tab-btn active" data-tab="false-claims-tab">Top False Claims</button>
-    <button class="tab-btn" data-tab="stratagems-tab">Stratagems</button>
+    <button class="tab-btn" data-tab="stratagems-tab">Rhetorical Tricks</button>
     <button class="tab-btn" data-tab="all-claims-tab" id="tab-claims-count">All Claims</button>
-    <button class="tab-btn" data-tab="scholarly-tab">Scholarly Splits</button>
+    <button class="tab-btn" data-tab="scholarly-tab">Debated by Scholars</button>
     <button class="tab-btn" data-tab="true-claims-tab">True Claims</button>
   </div>
 
@@ -97,12 +113,12 @@
 </div>
 
 <section class="section" id="weighted-section">
-  <div class="section-header"><h2>Weighted Error Analysis</h2></div>
+  <div class="section-header"><h2>How Much Do the Errors Matter?</h2></div>
   <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:24px;overflow-x:auto" id="weighted-analysis"></div>
 </section>
 
 <section class="section" id="steelman-section">
-  <div class="section-header"><h2>Steelman</h2></div>
+  <div class="section-header"><h2>Strongest Counterargument</h2></div>
   <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:24px;border-left:4px solid var(--green)">
     <p style="font-size:0.9rem;line-height:1.7;color:var(--text-muted)" id="steelman-text"></p>
   </div>

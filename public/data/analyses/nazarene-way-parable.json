@@ -25,8 +25,18 @@
     "errorImpact": 51
   },
   "steelman": "The strongest charitable reading of the overall argument is that the historical Jesus's message of radical compassion, humility, and non-transactional faith has been obscured by centuries of institutional theology, and that recovering the Jewish roots of Jesus's movement — including its emphasis on care for the poor and critique of religious legalism — is a worthwhile spiritual project.",
+  "argumentType": "Historical / Theological",
+  "structuralVerdict": {
+    "status": "COLLAPSED",
+    "explanation": "The sermon's theological framework rests on three interdependent Core claims — that Jesus was vegetarian, that he observed Passover without a lamb, and that he never called himself the Son of God — all of which are false or highly misleading at high confidence. The Nazarene/Ebionite restorationism depends on the Ebionites representing the original movement (also misleading). Without these load-bearing claims, the distinctive theological program of the video has no foundation in the sources it cites. The parable itself (Matt 20:1-16) is read fairly, but the surrounding framework collapses."
+  },
+  "thesisCriticalErrors": {
+    "count": "5 of 8",
+    "description": "Five of the eight false/misleading claims are Core category and directly undermine the thesis: the vegetarian-Jesus claim, the Passover-without-lamb claim, the son-of-God denial, the Ebionites-as-original-movement claim, and the Jesus-never-followed-Pharisaic-laws claim. Together these demolish the Nazarene restorationist and vegetarian-Jesus frameworks that the parable interpretation is built upon."
+  },
   "falseClaims": [
     {
+      "thesisCritical": true,
       "claim": "Jesus never called himself the son of God",
       "rating": "Likely False",
       "confidence": "High",
@@ -46,6 +56,7 @@
       "category": "Core"
     },
     {
+      "thesisCritical": true,
       "claim": "Jesus celebrated Passover by eating only unleavened bread (no lamb)",
       "rating": "Misleading",
       "confidence": "High",
@@ -65,6 +76,7 @@
       "category": "Core"
     },
     {
+      "thesisCritical": true,
       "claim": "Jesus taught his followers not to eat flesh",
       "rating": "Likely False",
       "confidence": "High",
@@ -103,6 +115,7 @@
       "category": "Support"
     },
     {
+      "thesisCritical": true,
       "claim": "The Ebionites were Jesus's first group / original movement",
       "rating": "Misleading",
       "confidence": "Medium",
@@ -152,6 +165,7 @@
       "category": "Support"
     },
     {
+      "thesisCritical": true,
       "claim": "Jesus never followed the 'doctrinary legalistic laws and ways of the Pharisees'",
       "rating": "Misleading",
       "confidence": "Medium",

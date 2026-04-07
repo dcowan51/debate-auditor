@@ -8,6 +8,39 @@
   "contentType": "video",
   "dateAnalyzed": "2026-04-03",
   "sessionNumber": 1,
+  "dashboard": {
+    "sessionScore": 74,
+    "cumulativeScore": 74,
+    "cumulativeSessions": 1,
+    "trueClaims": 28,
+    "falseMisleading": 6,
+    "disputed": 4,
+    "totalChecked": 38,
+    "confidence": "High",
+    "verdict": "Caution",
+    "stratagems": [
+      {
+        "number": 2,
+        "name": "Generalization",
+        "severity": "Moderate",
+        "description": "Infers from documented narrative embellishment that McDowell's entire apologetic output is unreliable \u2014 eliding the distinction between personal testimony and the scholarly argument structure of ETDAV."
+      },
+      {
+        "number": 12,
+        "name": "Framing Through Loaded Metaphor",
+        "severity": "Mild",
+        "description": "Title uses 'mythmaking' \u2014 implying deliberate fabrication \u2014 where the evidence supports embellishment and reconstructive memory, not necessarily intentional deception."
+      },
+      {
+        "number": 35,
+        "name": "Appeal to Own Authority",
+        "severity": "Mild",
+        "description": "Repeatedly invokes his PhD, DSS specialty, and personal relationships with key figures as implicit warrants, functioning rhetorically to short-circuit scrutiny."
+      }
+    ],
+    "weaselWords": 0,
+    "errorImpact": 21
+  },
   "sessionScore": 74,
   "cumulativeScore": 74,
   "cumulativeSessions": 1,
@@ -18,18 +51,27 @@
   "totalChecked": 38,
   "confidence": "High",
   "errorImpact": 21,
+  "argumentType": "Textual / Historical",
+  "structuralVerdict": {
+    "status": "COMPROMISED",
+    "explanation": "The core thesis \u2014 that McDowell progressively embellished his conversion-through-manuscript-research narrative \u2014 is well-documented across multiple editions of his own writings and is not refuted by any of the six false claims. However, Davis's conflation of two distinct 'first-century Mark' provenance chains (P137/EES vs. Carroll's 2013 event) introduces an unverified assertion that directly implicates McDowell's involvement and, if wrong, weakens the most damaging specific accusation in the video."
+  },
+  "thesisCriticalErrors": {
+    "count": "1 of 6",
+    "description": "The conflation of P137 with McDowell's 2013 discovery claim [Support] is the only false claim that directly implicates the thesis argument about McDowell's manuscript activities; the other five are factual imprecisions that do not affect the core embellishment narrative."
+  },
   "stratagems": [
     {
       "number": 2,
       "name": "Generalization",
       "severity": "Moderate",
-      "description": "Infers from documented narrative embellishment that McDowell's entire apologetic output is unreliable — eliding the distinction between personal testimony and the scholarly argument structure of ETDAV."
+      "description": "Infers from documented narrative embellishment that McDowell's entire apologetic output is unreliable \u2014 eliding the distinction between personal testimony and the scholarly argument structure of ETDAV."
     },
     {
       "number": 12,
       "name": "Framing Through Loaded Metaphor",
       "severity": "Mild",
-      "description": "Title uses 'mythmaking' — implying deliberate fabrication — where the evidence supports embellishment and reconstructive memory, not necessarily intentional deception."
+      "description": "Title uses 'mythmaking' \u2014 implying deliberate fabrication \u2014 where the evidence supports embellishment and reconstructive memory, not necessarily intentional deception."
     },
     {
       "number": 35,
@@ -64,6 +106,7 @@
       "timestamp": "47:35"
     },
     {
+      "thesisCritical": true,
       "claim": "This was the same fragment that McDowell had claimed to discover in his 2013 talk",
       "verdict": "Potentially misleading",
       "confidence": "Medium",
@@ -101,7 +144,7 @@
       "url": "https://wng.org/articles/the-centurys-top-100-books-1617636488"
     },
     {
-      "claim": "SWBTS fragment contents — Leviticus 18/20, not 21",
+      "claim": "SWBTS fragment contents \u2014 Leviticus 18/20, not 21",
       "source": "Brent Nongbri, Variant Readings",
       "url": "https://brentnongbri.com/2020/04/08/statement-on-the-so-called-dead-sea-scrolls-of-southwestern-baptist-theological-seminary/"
     },
@@ -131,7 +174,7 @@
       "url": "https://en.wikipedia.org/wiki/Gospel_of_Jesus%27_Wife"
     },
     {
-      "claim": "Schøyen Collection DSS forgeries confirmed",
+      "claim": "Sch\u00f8yen Collection DSS forgeries confirmed",
       "source": "Elgvin & Langlois, Revue de Qumran 113 (2019)",
       "url": "https://michaellanglois.org/medias/elgvin-langlois-2019-looking-back-more-dead-sea-scrolls-forgeries-in-the-schoyen-collection-rq-113-pp111-133.pdf"
     },

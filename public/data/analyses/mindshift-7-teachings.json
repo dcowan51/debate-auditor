@@ -26,8 +26,18 @@
     "errorImpact": 21.5
   },
   "steelman": "If Jesus is claimed to be a morally perfect divine being whose teachings are the apex of human ethics, then even minor ethical problems in those teachings become significant, and several of the passages cited do present genuine interpretive and ethical challenges that Christian theology has struggled with for centuries.",
+  "argumentType": "Philosophical / Ethical",
+  "structuralVerdict": {
+    "status": "COMPROMISED",
+    "explanation": "The thesis — that Jesus's teachings contain ethical problems undermining claims of his moral perfection — raises legitimate concerns that have genuine theological traction (slavery non-condemnation, eternal punishment, exclusionary parables). However, the logical superstructure collapses: the closing claim that even one correct critique causes 'the entire structure of the claims of Jesus Christ to fade entirely' is a non sequitur that weakens the argument's force. Two of the four Core false claims (epithumeo, lex talionis) rest on misreading Greek and Hebrew context in ways that undercut the speaker's credibility on textual analysis. The thesis stands partially but is structurally weakened."
+  },
+  "thesisCriticalErrors": {
+    "count": "2 of 7",
+    "description": "Matt 5:27-28 does not distinguish fleeting thought from deliberate fantasizing [Core — epithumeo denotes purposeful desire, not indiscriminate glancing]; if even one critique is correct the entire structure of Jesus's claims fades [Core — non sequitur that overreaches the thesis's own logic]"
+  },
   "falseClaims": [
     {
+      "thesisCritical": true,
       "claim": "Matt 5:27-28 does not distinguish fleeting thought from deliberate fantasizing",
       "rating": "Misleading",
       "confidence": "High",
@@ -105,6 +115,7 @@
       "category": "Support"
     },
     {
+      "thesisCritical": true,
       "claim": "If even one critique is correct, 'the entire structure of the claims of Jesus Christ fade entirely'",
       "rating": "Likely False",
       "confidence": "High",

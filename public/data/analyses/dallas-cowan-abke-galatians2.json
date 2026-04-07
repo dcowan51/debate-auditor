@@ -1,0 +1,166 @@
+{
+  "id": "dallas-cowan-abke-galatians2",
+  "creatorId": "dallas-cowan",
+  "creatorName": "Dallas Cowan",
+  "channel": "YouTube",
+  "videoTitle": "Fact-Checking Aaron Abke's Galatians 2 Claims (Exposing Paul)",
+  "videoUrl": "https://youtu.be/ik9JSnS7D60",
+  "contentType": "video",
+  "datePublished": "2026-01-01",
+  "dateAnalyzed": "2026-04-06",
+  "sessionNumber": 1,
+  "analyzedRange": "0:07–9:22",
+  "reportFile": "Dallas_Cowan_AaronAbke_Wrong_About_Paul_Galatians2_Debate_Audit.md",
+  "thesis": "Aaron Abke's presentation of Galatians 2:6–14 in 'Exposing Paul' misrepresents the passage in four ways: the meeting was not Paul's first with the Jerusalem pillars; the disciples had not been introduced to Paul's gospel for the first time; Abke's on-screen quotation omits vv. 7–8, 10, and 14 suppressing mutual recognition and Paul's actual argument; and Abke's alternative reading of Peter's motivation is not in the text.",
+  "dashboard": {
+    "sessionScore": 80,
+    "cumulativeScore": 80,
+    "cumulativeSessions": 1,
+    "trueClaims": 16,
+    "falseMisleading": 3,
+    "disputed": 1,
+    "totalChecked": 20,
+    "confidence": "Medium-High",
+    "verdict": "Reliable",
+    "stratagems": 2,
+    "weaselWords": 1,
+    "errorImpact": 17
+  },
+  "steelman": "The speaker raises a textually substantive and well-targeted critique. If Aaron Abke displayed a slide of Galatians 2:6–14 that omitted vv. 7–8, 10, and 14, the effect would be significant: removing the Jerusalem pillars' recognition of Paul's apostleship, evidence of mutual goodwill, and Paul's actual theological argument to Peter. The observation that Galatians 1:18–19 places Paul's first meeting with Peter and James three years prior to the Galatians 2 meeting is a decisive textual rebuttal of the 'first meeting' claim.",
+  "argumentType": "Historical / Textual",
+  "structuralVerdict": {
+    "status": "INTACT",
+    "explanation": "The four core arguments — Galatians 2:1 uses 'again' confirming a prior visit, Gal 1:18–19 records the earlier meeting, the omitted verses (vv. 7–8, 10, 14) change the passage's character substantially, and Gal 2:12 gives fear as Peter's stated motivation — are all textually verified and carry zero false weighted points. The three false claims are rhetorical overreach (ad hominem narcissist label), a minor overstatement about Peter alone being rebuked, and an overstatement about the closeness of their relationship. None of these undermine the core exegetical case."
+  },
+  "thesisCriticalErrors": {
+    "count": "0 of 3",
+    "description": "No false claims directly undermine the thesis. The ad hominem narcissist label [Support] weakens credibility without touching the exegetical argument; 'only goes to Peter' [Support] is an overstatement of a correct observation; 'been around these guys for years' [Background] overstates closeness but the underlying point — they were not strangers — remains intact."
+  },
+  "falseClaims": [
+    {
+      "claim": "Paul's opposition at Antioch was limited to Peter alone — 'He only goes to Peter'",
+      "rating": "Mostly False · High Confidence",
+      "confidence": "High",
+      "timestamp": "7:16",
+      "evidence": "Galatians 2:13 (NRSVUE): 'And the other Jews joined him in this hypocrisy, so that even Barnabas was led astray by their hypocrisy.' Paul's direct rebuke in v.14 is addressed to Cephas, but the hypocrisy label in v.13 explicitly covers 'the other Jews' at Antioch and Barnabas. The speaker's larger point — that James was not present and the Jerusalem Twelve were not implicated — is correct. This specific claim overstates the correction.",
+      "settle": "Reading Galatians 2:13 alongside 2:14 in any translation.",
+      "sources": [],
+      "category": "Support"
+    },
+    {
+      "claim": "Aaron Abke is a narcissist / 'classic overt narcissism'",
+      "rating": "Misleading · High Confidence",
+      "confidence": "High",
+      "timestamp": "5:39",
+      "evidence": "The speaker's video description explicitly states 'My goal isn't name-calling — it's accuracy.' Selective omission of verses can reflect motivated reasoning, theological bias, rhetorical strategy, or poor scholarship — none of which constitute NPD diagnostic criteria. This label mirrors the exact rhetorical move the speaker criticizes Abke for making against Paul. The verse omission argument is independently strong and is weakened, not strengthened, by the diagnosis.",
+      "settle": "Removing the label. The side-by-side comparison makes the point without it.",
+      "sources": [],
+      "category": "Support"
+    },
+    {
+      "claim": "Paul had 'been around these guys for years'",
+      "rating": "Mostly False · Medium Confidence",
+      "confidence": "Medium",
+      "timestamp": "2:39",
+      "evidence": "The speaker correctly establishes Paul had prior contact with Peter and James (Gal 1:18–19). But Galatians 1:22 (NRSVUE) states Paul 'was still unknown by sight to the churches of Judea' following that first visit. Two short visits separated by fourteen years does not constitute 'years around these guys.' The speaker's core point — they were not strangers — holds; the phrasing oversells the closeness of the relationship.",
+      "settle": "Reading Galatians 1:17–24 in full, noting Paul's explicit emphasis on independence from Jerusalem during this period.",
+      "sources": [],
+      "category": "Background"
+    }
+  ],
+  "stratagems": [
+    {
+      "number": 38,
+      "name": "Become Personal / Ad Hominem",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "This is a narcissist, you guys. This is classic overt narcissism.",
+          "timestamp": "5:39",
+          "explanation": "The speaker's own video description states: 'My goal isn't name-calling — it's accuracy.' That stated intent is undermined by this passage. The evidence presented — a side-by-side comparison showing omitted verses — is independently strong. The diagnosis also requires more than selective citation: NPD criteria involve a consistent pattern of entitlement, grandiosity, and empathy deficit — none of which can be established from a single editorial decision about a Bible passage. The critique stands without the label."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "name": "Induction with Concealed Counterexamples",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "He he just goes to to Peter. He only goes there. In fact, if you look, he says when Peter came to Antioch... there's no part of this that's saying that he's doing it to the other disciples. He's only doing it to Peter.",
+          "timestamp": "7:01",
+          "explanation": "The speaker correctly notes that James was not at Antioch and that Paul's direct rebuke (v.14) was addressed to Peter. However, Galatians 2:13 (NRSVUE) states: 'And the other Jews joined him in this hypocrisy, so that even Barnabas was led astray by their hypocrisy.' The hypocrisy charge is explicitly extended to 'the other Jews' — not just Peter. The speaker's correction of Abke's framing is legitimate in substance; 'He only goes to Peter' overstates the correction."
+        }
+      ]
+    }
+  ],
+  "scholarlySplits": [
+    {
+      "claim": "The Galatians 2 visit corresponds to Acts 15 (Jerusalem Council) vs. Acts 11 (famine visit)",
+      "nature": "Most scholars identify Galatians 2 with Acts 15; a significant minority (Lightfoot, Ramsay, Bruce) identify it with the Acts 11 famine visit, which would alter the chronology of the Antioch incident.",
+      "timestamp": "not addressed"
+    },
+    {
+      "claim": "Whether Paul's rebuke of Peter succeeded or was a political failure",
+      "nature": "Catholic tradition (Augustine) holds Peter accepted the rebuke; L. Michael White and others argue Paul left Antioch as 'persona non grata' — a reading that complicates any simple picture of the relationship.",
+      "timestamp": "not addressed"
+    }
+  ],
+  "trueClaims": [
+    "Galatians 2:1 uses πάλιν ('again'), confirming a prior Jerusalem visit — NRSVUE: 'Then after fourteen years I went up again to Jerusalem.' Unambiguous.",
+    "Galatians 1:18–19 records Paul meeting Peter and James on a prior visit — directly refutes the 'first meeting' claim",
+    "Galatians 2:2 records Paul going to compare his gospel, not for introduction — purpose clause confirms ongoing ministry review",
+    "Galatians 2:7–8 records the pillars recognizing Paul's apostolic commission as parallel to Peter's — omission of these verses would change the meeting's character substantially",
+    "Galatians 2:10 — only request was to remember the poor; Paul was eager — NRSVUE: 'which was actually what I was eager to do'; omission suppresses the clearest evidence of mutual goodwill",
+    "Galatians 2:12 gives fear as Peter's explicit motivation for withdrawing — NRSVUE: 'for fear of the circumcision faction'; Abke's pastoral-love alternative overrides the text's own stated reason",
+    "James was not stated to be present at Antioch — Gal 2:12: 'certain people came from James'; the distinction between 'came from James' and 'James came' is correct and precise",
+    "Antioch (on the Orontes) is approximately 300 miles from Jerusalem — Modern Antakya to Jerusalem approximately 480–500 km, approximately 300 miles",
+    "Barnabas was led astray by the hypocrisy at Antioch — Galatians 2:13 NRSVUE",
+    "Galatians argues Gentiles should be accepted without circumcision — structural thesis of the entire epistle (1:6–9; 2:1–14; 3:1–29; 5:1–12)",
+    "Galatians 2:14 contains Paul's actual theological argument to Peter — NRSVUE: 'how can you compel the Gentiles to live like Jews?'; omission removes the substantive content of the rebuke",
+    "Abke's slide allegedly presented the passage without verse numbers — confirmed by speaker's own description",
+    "The verse omissions (vv. 7–8, 10, 14) are confirmed by the speaker's video description",
+    "Paul's framing of his rebuke was about gospel consistency — Gal 2:14: 'when I saw that they were not acting consistently with the truth of the gospel'",
+    "Abke's 'first time' claim contradicts the fourteen-year preaching timeline — well-supported inference from the Galatians chronology, confirmed by 'again' in 2:1",
+    "Aaron Abke describes Galatians 2 as Paul meeting James, Peter, and John 'for the first time' — accurately represents Abke's stated framing"
+  ],
+  "youtubeFlags": [
+    {
+      "type": "Title Accuracy",
+      "severity": "info",
+      "text": "No title was provided in the transcript. Based on the video description, the content is accurately framed as a fact-check of a specific segment of Abke's video, with a stated goal of accuracy over advocacy."
+    },
+    {
+      "type": "Implied Claims",
+      "severity": "info",
+      "text": "Implies Abke's omission of vv. 7–8, 10, and 14 was intentional rather than the result of poor scholarship or selective emphasis. The visual evidence (side-by-side slide) is presented but does not address the possibility of inadvertent selection. The narcissist characterization implies intentionality."
+    }
+  ],
+  "weightedAnalysis": {
+    "categories": [
+      {
+        "name": "Core",
+        "claims": 4,
+        "weight": 3,
+        "trueWeighted": 12,
+        "falseWeighted": 0
+      },
+      {
+        "name": "Support",
+        "claims": 6,
+        "weight": 2,
+        "trueWeighted": 10,
+        "falseWeighted": 4
+      },
+      {
+        "name": "Background",
+        "claims": 3,
+        "weight": 1,
+        "trueWeighted": 2,
+        "falseWeighted": 1
+      }
+    ],
+    "errorImpact": 17,
+    "interpretation": "Session score 80% (16/20) — Reliable. Error impact of 17% is disproportionately inflated by two rhetorical/minor overstatement errors rather than substantive factual failures. The core exegetical argument (four omitted verses, prior meeting established by Gal 1:18, fear as Peter's motivation, James not at Antioch) carries zero false weighted points and is the content viewers will primarily engage. Removing the ad hominem label would reduce the error impact to ~3% and sharpen the critique."
+  }
+}

@@ -24,6 +24,15 @@
     "errorImpact": 11.1
   },
   "steelman": "The strongest charitable reading of Huff's overall argument: The New Testament manuscript tradition is exceptionally well-attested relative to other ancient documents, modern translations derive from original-language manuscripts rather than from translations of translations, and internal details in the Gospels and Acts exhibit patterns consistent with genuine first-century Palestinian provenance — all of which provides a reasonable evidential basis for trusting the text's preservation and historical grounding.",
+  "argumentType": "Historical / Textual",
+  "structuralVerdict": {
+    "status": "INTACT",
+    "explanation": "The core thesis — that the NT is the most accurately transmitted collection of ancient documents and that internal evidence supports its historical grounding — survives intact. The weighted analysis shows zero false points in the Core category. All six false/misleading claims fall in Support or Background, and most are peripheral: the Aramaic verse count, the Lysanias inscription timeline, and the early Christian demographics claims do not touch the manuscript transmission argument or the onomastic evidence. The thesis holds."
+  },
+  "thesisCriticalErrors": {
+    "count": "0 of 6",
+    "description": "No false claims are load-bearing to the central thesis. The two most substantive errors (Lysanias inscription timeline and Erasmus/Luther sparring-partner claim) are historical background details. The manuscript transmission argument and onomastic evidence — the actual pillars of the thesis — are unaffected by any of the six false/misleading claims."
+  },
   "falseClaims": [
     {
       "claim": "There are about 12 verses in the entirety of the Bible that are translated from Aramaic.",

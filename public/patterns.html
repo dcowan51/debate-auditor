@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patterns — Act17:11</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <div class="logo-icon">17</div>
+      Act17:11
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="videos.html">Analyses</a></li>
+      <li><a href="leaderboard.html">Leaderboard</a></li>
+      <li><a href="patterns.html" class="active">Patterns</a></li>
+      <li><a href="methodology.html">Methodology</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="suggest.html">Suggest</a></li>
+    </ul>
+    <button class="nav-hamburger" aria-label="Menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+    <div class="nav-search">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+      <input type="text" placeholder="Search creators or analyses...">
+    </div>
+  </div>
+</nav>
+
+<div class="patterns-hero">
+  <h1>What the Patterns Show</h1>
+  <p>Good teachers have a signature. So do bad ones. As we analyze more content, those signatures get clearer. This page shows what we've found — and what to look for yourself.</p>
+  <div class="patterns-meta" id="patterns-meta"></div>
+</div>
+
+<div class="patterns-body">
+
+  <div class="patterns-section">
+    <div class="patterns-section-label good-label">Signs of a Reliable Teacher</div>
+    <div class="pattern-cards" id="good-patterns"></div>
+  </div>
+
+  <div class="patterns-divider"></div>
+
+  <div class="patterns-section">
+    <div class="patterns-section-label bad-label">Why We Flag Content</div>
+    <div class="pattern-cards" id="bad-patterns"></div>
+  </div>
+
+</div>
+
+<footer>
+  <p>Act17:11 — Independent accuracy analysis for YouTube content creators. "They examined the Scriptures daily to see if what was said was true." — Acts 17:11</p>
+  <p style="margin-top:8px">Not affiliated with YouTube or any creator. All analyses are based on verifiable sources.</p>
+</footer>
+
+<script src="app.js"></script>
+<script>renderPatterns();</script>
+</body>
+</html>

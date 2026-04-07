@@ -26,8 +26,18 @@
     "errorImpact": 46
   },
   "steelman": "Abke's strongest argument is that many Protestant churches functionally center Pauline soteriology — justification by faith, substitutionary atonement, imputed righteousness — while underemphasizing the synoptic Jesus's direct teachings on ethics, forgiveness, and the kingdom of God. This tension is real and has been noted by scholars from Schweitzer to Sanders. The observation that a new convert might hear more sermons on Romans than on the Sermon on the Mount in many evangelical churches is an empirically defensible claim, even if Abke's framing as a deliberate 'bait and switch' and his specific textual arguments are frequently inaccurate.",
+  "argumentType": "Biblical / Theological — Paul vs. Jesus Discontinuity",
+  "structuralVerdict": {
+    "status": "COLLAPSED",
+    "explanation": "The thesis requires that Paul invented blood atonement, that Jesus never used sacrificial language, and that Paul never engaged with Jesus's ethical teachings. All three are false. Mark 10:45 and Mark 14:24 place explicit sacrificial language in Jesus's own mouth in the synoptic Gospels — the very sources Abke appeals to as authoritative. The pre-Pauline creed in 1 Corinthians 15:3-5 places sacrificial atonement theology before Paul. Romans 12:14-21 and 1 Corinthians 7:10-11 show Paul directly citing and echoing Jesus's ethical teachings. Without these pillars the bait-and-switch thesis has no textual foundation. The observable real-world tendency to preach more Paul than Jesus in some churches survives as a sociological observation, but this does not reconstruct the collapsed theological argument."
+  },
+  "thesisCriticalErrors": {
+    "count": "4 of 8",
+    "description": "Jesus never taught blood atonement [Core — false: Mark 10:45, Mark 14:24], Paul invented atonement concept [Core — false: pre-Pauline 1 Cor 15 creed], Paul never quotes Jesus's ethical teachings [Core — false: Romans 12:14-21], early church had no atonement concept before Paul [Core — false: pre-Pauline creed]"
+  },
   "falseClaims": [
     {
+      "thesisCritical": true,
       "claim": "Jesus never taught that his death was a sacrifice for sins or that believing in his death and resurrection is the path to salvation.",
       "rating": "Likely False",
       "confidence": "Very High",
@@ -51,6 +61,7 @@
       "category": "Core"
     },
     {
+      "thesisCritical": true,
       "claim": "Paul invented the concept of atonement through blood sacrifice — this idea is absent from Jesus's teaching.",
       "rating": "Likely False",
       "confidence": "Very High",
@@ -70,6 +81,7 @@
       "category": "Core"
     },
     {
+      "thesisCritical": true,
       "claim": "Paul never quotes or references Jesus's ethical teachings — he only cares about the death and resurrection.",
       "rating": "Likely False",
       "confidence": "Very High",
@@ -116,6 +128,7 @@
       "category": "Core"
     },
     {
+      "thesisCritical": true,
       "claim": "The early church before Paul had no concept of Jesus as a sacrifice — this was Paul's theological invention.",
       "rating": "Likely False",
       "confidence": "High",

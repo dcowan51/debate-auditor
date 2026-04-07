@@ -26,6 +26,15 @@
     "errorImpact": 0
   },
   "steelman": "Sola scriptura, properly understood, is not a radical rejection of tradition but a carefully articulated hierarchy of authority in which Scripture serves as the final and highest — though not the sole — norm for Christian doctrine, a position that has historical roots in the church fathers' own practice of appealing to Scripture as the ultimate standard even while valuing tradition.",
+  "argumentType": "Theological / Doctrinal",
+  "structuralVerdict": {
+    "status": "INTACT",
+    "explanation": "The thesis — that sola scriptura is defensible against five common objections — is built on accurately stated definitions, confessional claims, and historical data, with zero false or misleading claims detected. Three disputed claims reflect genuine scholarly uncertainty and do not damage the core doctrinal argument."
+  },
+  "thesisCriticalErrors": {
+    "count": "0 of 0",
+    "description": "No false or misleading claims detected. No thesis-critical errors."
+  },
   "falseClaims": [],
   "stratagems": [
     {

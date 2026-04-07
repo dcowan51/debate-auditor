@@ -18,6 +18,7 @@
       <li><a href="index.html" class="active">Home</a></li>
       <li><a href="videos.html">Analyses</a></li>
       <li><a href="leaderboard.html">Leaderboard</a></li>
+      <li><a href="patterns.html">Patterns</a></li>
       <li><a href="methodology.html">Methodology</a></li>
       <li><a href="about.html">About</a></li>
       <li><a href="suggest.html">Suggest</a></li>
@@ -33,8 +34,19 @@
 </nav>
 
 <section class="hero">
-  <h1>Know the truth score<br>before you watch.</h1>
-  <p>Independent fact-check analysis of YouTube videos, books, and papers. We score creators on historical, biblical, and logical accuracy so audiences can engage informed.</p>
+  <h1>Know the accuracy score<br>before you watch.</h1>
+  <p>Independent fact-check analysis of YouTube videos, books, and papers. We score creators on historical, biblical, and logical accuracy so you can make informed decisions before you watch.</p>
+  <div class="hero-creator-section" id="hero-creator-section">
+    <button class="hero-creator-toggle" id="hero-creator-toggle" onclick="document.getElementById('hero-creator-section').classList.toggle('open')">
+      Find your favorite creator
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+    </button>
+    <div class="hero-creator-pills" id="hero-creator-pills"></div>
+    <div class="hero-creator-footer">
+      <a href="methodology.html" class="hero-method-link">Don't trust us? Check the method →</a>
+      <a href="suggest.html" class="hero-suggest-btn">+ Want to add someone? Suggest a creator</a>
+    </div>
+  </div>
   <div class="hero-stats">
     <div class="hero-stat">
       <div class="num" id="stat-videos">—</div>
@@ -48,50 +60,31 @@
       <div class="num" id="stat-claims">—</div>
       <div class="label">Claims Checked</div>
     </div>
-  </div>
-  <div class="score-legend">
-    <div class="legend-item"><div class="legend-dot" style="background:var(--green)"></div> 80%+ Reliable</div>
-    <div class="legend-item"><div class="legend-dot" style="background:var(--yellow)"></div> 60-79% Caution</div>
-    <div class="legend-item"><div class="legend-dot" style="background:var(--red-light)"></div> &lt;60% Unreliable</div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="section-header"><h2>How It Works</h2></div>
-  <div class="how-grid">
-    <div class="how-card">
-      <div class="step-num">1</div>
-      <h3>We Analyze the Video</h3>
-      <p>Every factual claim is extracted from the transcript and checked against scholarly sources, primary texts, and historical records.</p>
-    </div>
-    <div class="how-card">
-      <div class="step-num">2</div>
-      <h3>Claims Get Scored</h3>
-      <p>Each claim is rated true, false, misleading, or disputed. We also flag rhetorical tricks and logical fallacies.</p>
-    </div>
-    <div class="how-card">
-      <div class="step-num">3</div>
-      <h3>Creators Get a Truth Score</h3>
-      <p>Cumulative scores track a creator's accuracy over time. Watch with context, not just vibes.</p>
+    <div class="hero-stat">
+      <div class="num" id="stat-latest">—</div>
+      <div class="label">Last Updated</div>
     </div>
   </div>
 </section>
 
 <section class="section">
   <div class="section-header">
-    <h2>Creators</h2>
+    <div>
+      <h2>Creators</h2>
+      <div class="creators-legend">
+        <span><span class="legend-dot" style="background:var(--green);display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:5px;vertical-align:middle"></span>INTACT</span>
+        <span><span class="legend-dot" style="background:var(--orange);display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:5px;vertical-align:middle"></span>COMPROMISED</span>
+        <span><span class="legend-dot" style="background:var(--red-light);display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:5px;vertical-align:middle"></span>COLLAPSED</span>
+      </div>
+    </div>
     <div class="sort-toggle">
-      <button class="sort-btn active" data-sort="score-asc">Lowest First</button>
-      <button class="sort-btn" data-sort="score-desc">Highest First</button>
+      <button class="sort-btn active" data-sort="thesis-track">Thesis Track</button>
+      <button class="sort-btn" data-sort="score-desc">Score ↑</button>
+      <button class="sort-btn" data-sort="score-asc">Score ↓</button>
       <button class="sort-btn" data-sort="sessions">Most Analyzed</button>
     </div>
   </div>
-  <div class="creators-grid" id="creators-grid"></div>
-</section>
-
-<section class="section">
-  <div class="section-header"><h2>Recent Analyses</h2></div>
-  <div class="analyses-list" id="analyses-list"></div>
+  <div class="creators-list" id="creators-list"></div>
 </section>
 
 <footer>

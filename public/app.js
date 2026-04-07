@@ -9,7 +9,7 @@ function getParam(key) {
 // Utility: fetch JSON using relative paths (works on any host/subdirectory)
 async function loadJSON(path) {
   const relativePath = path.startsWith('/') ? path.slice(1) : path;
-  const res = await fetch(relativePath);
+  const res = await fetch(relativePath, { cache: 'no-cache' });
   if (!res.ok) throw new Error(`Failed to load ${relativePath}: ${res.status}`);
   return res.json();
 }
@@ -25,6 +25,39 @@ function scoreColor(score) {
   if (score >= 80) return 'var(--green)';
   if (score >= 60) return 'var(--yellow)';
   return 'var(--red-light)';
+}
+
+// Utility: thesis track record strip
+function verdictStripHTML(c) {
+  const d = c.verdictDistribution || { intact: 0, compromised: 0, collapsed: 0 };
+  const total = d.intact + d.compromised + d.collapsed;
+  if (total === 0) return '';
+
+  const segments = [
+    { count: d.intact,     color: 'var(--green)',     label: 'INTACT' },
+    { count: d.compromised,color: 'var(--orange)',    label: 'COMPROMISED' },
+    { count: d.collapsed,  color: 'var(--red-light)', label: 'COLLAPSED' },
+  ].filter(s => s.count > 0);
+
+  const holds = d.intact === total ? 'All arguments hold' :
+                d.intact === 0    ? 'No arguments hold' :
+                `${d.intact} of ${total} arguments hold`;
+
+  return `
+    <div class="thesis-track">
+      <div class="thesis-track-label">
+        <span>Thesis Track Record</span>
+        <span class="thesis-summary">${holds}</span>
+      </div>
+      <div class="verdict-strip">
+        ${segments.map(s => `<div class="verdict-segment" style="flex:${s.count};background:${s.color}" title="${s.count} ${s.label}"></div>`).join('')}
+      </div>
+      <div class="verdict-strip-counts">
+        ${d.intact     > 0 ? `<span style="color:var(--green)">&#9632; ${d.intact} INTACT</span>` : ''}
+        ${d.compromised> 0 ? `<span style="color:var(--orange)">&#9632; ${d.compromised} COMPROMISED</span>` : ''}
+        ${d.collapsed  > 0 ? `<span style="color:var(--red-light)">&#9632; ${d.collapsed} COLLAPSED</span>` : ''}
+      </div>
+    </div>`;
 }
 
 function verdictLabel(score) {
@@ -111,45 +144,150 @@ function initSearch(creators, allAnalyses) {
 async function renderHomepage() {
   const creators = await loadJSON('/data/creators.json');
 
-  // Stats
-  const totalSessions = creators.reduce((s, c) => s + c.sessions, 0);
-  const totalClaims = creators.reduce((s, c) => s + c.totalClaims, 0);
-  document.getElementById('stat-videos').textContent = totalSessions;
-  document.getElementById('stat-creators').textContent = creators.length;
-  document.getElementById('stat-claims').textContent = totalClaims.toLocaleString() + '+';
-
-  // Sort state
-  let sortMode = 'score-asc'; // worst first (most interesting)
-
-  function renderCreatorGrid(mode) {
-    const sorted = [...creators];
-    if (mode === 'score-asc') sorted.sort((a, b) => a.cumulativeScore - b.cumulativeScore);
-    else if (mode === 'score-desc') sorted.sort((a, b) => b.cumulativeScore - a.cumulativeScore);
-    else sorted.sort((a, b) => b.sessions - a.sessions); // most analyzed
-
-    const grid = document.getElementById('creators-grid');
-    grid.innerHTML = sorted.map(c => `
-      <a href="creator.html?id=${c.id}" class="creator-card" style="text-decoration:none;color:inherit">
-        <div class="creator-card-top">
-          <div class="creator-avatar" style="background:${c.avatarColor}">${c.initials}</div>
-          <div class="creator-info">
-            <h3>${c.name}</h3>
-            <div class="channel">${c.channel}</div>
-          </div>
-          <div class="score-badge ${scoreClass(c.cumulativeScore)}" style="margin-left:auto;flex-shrink:0"><span class="dot"></span>${c.cumulativeScore}% <span class="badge-verdict">${c.verdict}</span></div>
-        </div>
-        <div class="creator-meta">
-          <span>${c.sessions} session${c.sessions > 1 ? 's' : ''}</span>
-          <span>${c.totalClaims} claims checked</span>
-        </div>
-        <div class="creator-topics">
-          ${c.topics.map(t => `<span class="topic-tag">${t}</span>`).join('')}
-        </div>
-      </a>
-    `).join('');
+  // Hero creator pills
+  const pillsEl = document.getElementById('hero-creator-pills');
+  if (pillsEl) {
+    pillsEl.innerHTML = creators.filter(c => c.sessions >= 2).map(c =>
+      `<a href="creator.html?id=${c.id}" class="hero-creator-pill">
+        <span class="hero-pill-avatar" style="background:${c.avatarColor}">${c.initials}</span>
+        ${c.name}
+      </a>`
+    ).join('');
   }
 
-  renderCreatorGrid(sortMode);
+  // Stats — only count creators with 2+ sessions
+  const visibleCreators = creators.filter(c => c.sessions >= 2);
+  const totalClaims = visibleCreators.reduce((s, c) => s + c.totalClaims, 0);
+  document.getElementById('stat-videos').textContent = visibleCreators.reduce((s, c) => s + c.sessions, 0);
+  document.getElementById('stat-creators').textContent = visibleCreators.length;
+  document.getElementById('stat-claims').textContent = totalClaims.toLocaleString() + '+';
+
+
+  // Pre-load all analyses in parallel so expand is instant
+  const analysesMap = {};
+  await Promise.all(
+    creators.flatMap(c => c.analyses.map(aId =>
+      loadJSON(`/data/analyses/${aId}.json`)
+        .then(a => { analysesMap[aId] = a; })
+        .catch(() => {})
+    ))
+  );
+
+  // Set latest analysis date from loaded data
+  const latestDate = Object.values(analysesMap)
+    .map(a => a && a.dateAnalyzed)
+    .filter(Boolean)
+    .sort()
+    .pop();
+  if (latestDate) {
+    const d = new Date(latestDate);
+    document.getElementById('stat-latest').textContent =
+      d.toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
+  }
+
+  // Sort helpers
+  let sortMode = 'thesis-track';
+
+  function thesisSortKey(c) {
+    const d = c.verdictDistribution || { intact: 0, compromised: 0, collapsed: 0 };
+    const total = d.intact + d.compromised + d.collapsed;
+    return total ? d.intact / total : 0;
+  }
+
+  function renderCreatorRows(mode) {
+    const sorted = [...creators].filter(c => c.sessions >= 2);
+    if (mode === 'thesis-track') {
+      sorted.sort((a, b) => {
+        const diff = thesisSortKey(b) - thesisSortKey(a);
+        if (diff !== 0) return diff;
+        const da = a.verdictDistribution || {}; const db = b.verdictDistribution || {};
+        return (db.intact || 0) - (da.intact || 0);
+      });
+    } else if (mode === 'score-asc') sorted.sort((a, b) => a.cumulativeScore - b.cumulativeScore);
+    else if (mode === 'score-desc') sorted.sort((a, b) => b.cumulativeScore - a.cumulativeScore);
+    else sorted.sort((a, b) => b.sessions - a.sessions);
+
+    // Preserve open state across re-renders
+    const openIds = new Set([...document.querySelectorAll('.creator-row.open')].map(el => el.dataset.id));
+
+    const list = document.getElementById('creators-list');
+    list.innerHTML = sorted.map(c => {
+      const d = c.verdictDistribution || { intact: 0, compromised: 0, collapsed: 0 };
+      const total = d.intact + d.compromised + d.collapsed;
+      const holdText = d.intact === total ? 'All theses hold' :
+                       d.intact === 0     ? 'No theses hold' :
+                       `${d.intact} of ${total} theses hold`;
+
+      const dotsHTML = `<div class="rd-dots">${c.analyses.map(aId => {
+        const a = analysesMap[aId];
+        if (!a || !a.structuralVerdict) return '<div class="rd-dot" style="background:var(--border)" title="No verdict"></div>';
+        const status = a.structuralVerdict.status.toLowerCase();
+        const color = status === 'intact' ? 'var(--green)' : status === 'compromised' ? 'var(--orange)' : 'var(--red-light)';
+        return `<div class="rd-dot" style="background:${color}" title="${a.structuralVerdict.status}"></div>`;
+      }).join('')}</div>`;
+
+      const analysisRows = c.analyses.map(aId => {
+        const a = analysesMap[aId];
+        if (!a || !a.dashboard) return '';
+        const sv = a.structuralVerdict;
+        const svChip = sv ? `<span class="rd-verdict-chip rd-${sv.status.toLowerCase()}">${sv.status}</span>` : '';
+        return `
+          <a href="analysis.html?id=${aId}" class="rd-analysis-item">
+            <span class="rd-score ${scoreClass(a.dashboard.sessionScore)}">${a.dashboard.sessionScore}%</span>
+            <span class="rd-title">${a.videoTitle}</span>
+            ${svChip}
+            <svg class="rd-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>`;
+      }).join('');
+
+      const isOpen = openIds.has(c.id) ? ' open' : '';
+      return `
+        <div class="creator-row${isOpen}" data-id="${c.id}">
+          <div class="creator-row-header">
+            <div class="creator-avatar" style="background:${c.avatarColor};width:40px;height:40px;font-size:0.85rem;flex-shrink:0">${c.initials}</div>
+            <div class="creator-row-info">
+              <div class="creator-row-name">${c.name}${c.sessions === 1 ? ' <span class="early-badge">EARLY DATA</span>' : ''}</div>
+              <div class="creator-row-channel">${c.channel}</div>
+            </div>
+            <div class="creator-row-track">
+              <div class="rd-track-label">Thesis Track Record</div>
+              ${dotsHTML}
+              <div class="rd-hold-text">${holdText}</div>
+            </div>
+            <div class="creator-row-right">
+              <span class="score-badge ${scoreClass(c.cumulativeScore)}" style="font-size:0.8rem;padding:4px 12px"><span class="dot"></span>${c.cumulativeScore}% accuracy score</span>
+              <div class="creator-row-sessions">${c.sessions} session${c.sessions > 1 ? 's' : ''} analyzed</div>
+            </div>
+            <svg class="creator-row-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+          </div>
+          <div class="creator-row-expand">
+            <div class="rd-col-header">
+              <span class="rd-col-score">Session Score</span>
+              <span class="rd-col-title">Video</span>
+              <span class="rd-col-verdict">Thesis</span>
+            </div>
+            ${analysisRows}
+            <div class="rd-expand-footer">
+              <div class="rd-cumulative">
+                <span class="score-badge ${scoreClass(c.cumulativeScore)}" style="font-size:0.72rem;padding:3px 12px"><span class="dot"></span>${c.cumulativeScore}% cumulative</span>
+                <span class="rd-cumulative-label">${c.sessions} session${c.sessions > 1 ? 's' : ''} analyzed</span>
+              </div>
+              <a href="creator.html?id=${c.id}" class="rd-profile-link-btn">View full profile →</a>
+            </div>
+          </div>
+        </div>`;
+    }).join('');
+
+    // Click handlers
+    list.querySelectorAll('.creator-row-header').forEach(header => {
+      header.addEventListener('click', () => {
+        const row = header.closest('.creator-row');
+        row.classList.toggle('open');
+      });
+    });
+  }
+
+  renderCreatorRows(sortMode);
 
   // Sort buttons
   document.querySelectorAll('.sort-btn').forEach(btn => {
@@ -157,41 +295,13 @@ async function renderHomepage() {
       document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       sortMode = btn.dataset.sort;
-      renderCreatorGrid(sortMode);
+      renderCreatorRows(sortMode);
     });
   });
 
-  // Recent analyses — load all
-  const allAnalyses = [];
-  for (const c of creators) {
-    for (const aId of c.analyses) {
-      try {
-        const a = await loadJSON(`/data/analyses/${aId}.json`);
-        a._creator = c;
-        allAnalyses.push(a);
-      } catch (e) { /* skip missing */ }
-    }
-  }
-  allAnalyses.sort((a, b) => new Date(b.dateAnalyzed) - new Date(a.dateAnalyzed));
 
-  const list = document.getElementById('analyses-list');
-  list.innerHTML = allAnalyses.map(a => `
-    <a href="analysis.html?id=${a.id}" class="analysis-row" style="text-decoration:none;color:inherit">
-      <div class="analysis-score-mini ${scoreClass(a.dashboard.sessionScore)}">${a.dashboard.sessionScore}%</div>
-      <div class="analysis-info">
-        <h4>${a.videoTitle}</h4>
-        <div class="subtitle">${a.creatorName} &middot; ${a._creator.channel}</div>
-      </div>
-      <div class="analysis-claims">
-        <span style="color:var(--green)">${a.dashboard.trueClaims} true</span>
-        <span style="color:var(--red-light)">${a.dashboard.falseMisleading} false</span>
-        <span style="color:var(--yellow)">${a.dashboard.disputed} disputed</span>
-      </div>
-      <div class="analysis-date">${formatDate(a.dateAnalyzed)}</div>
-    </a>
-  `).join('');
-
-  // Init search
+  // Init search using pre-loaded analyses
+  const allAnalyses = Object.values(analysesMap);
   initSearch(creators, allAnalyses);
 }
 
@@ -209,13 +319,10 @@ async function renderCreator() {
   document.getElementById('creator-name').textContent = creator.name;
   document.getElementById('creator-channel').textContent = `${creator.channel} · ${creator.platform}`;
   document.getElementById('stat-sessions').textContent = creator.sessions;
-  document.getElementById('stat-claims').textContent = creator.totalClaims;
-  document.getElementById('stat-true').textContent = creator.trueClaims;
+  document.getElementById('stat-claims').textContent = creator.totalClaims.toLocaleString();
+  document.getElementById('stat-true').textContent = creator.trueClaims.toLocaleString();
 
-  const ring = document.getElementById('score-ring');
-  ring.className = `score-ring ${scoreClass(creator.cumulativeScore)}`;
-  document.getElementById('score-pct').textContent = `${creator.cumulativeScore}%`;
-  document.getElementById('score-verdict').textContent = creator.verdict;
+  // score ring removed from creator header — score shown as text in thesis block
 
   document.getElementById('creator-topics').innerHTML = creator.topics.map(t => `<span class="topic-tag">${t}</span>`).join('');
 
@@ -239,6 +346,37 @@ async function renderCreator() {
     } catch (e) { /* skip */ }
   }
 
+  // Thesis track panel — primary signal
+  const trackEl = document.getElementById('profile-thesis-track');
+  if (trackEl) {
+    const d = creator.verdictDistribution || {};
+    const total = (d.intact||0) + (d.compromised||0) + (d.collapsed||0);
+    const holdText = d.intact === total ? 'All theses hold' :
+                     d.intact === 0     ? 'No theses hold' :
+                     `${d.intact} of ${total} theses hold`;
+    const dots = analyses.map(a => {
+      if (!a.structuralVerdict) return `<div style="width:14px;height:14px;border-radius:50%;background:var(--border);flex-shrink:0"></div>`;
+      const status = a.structuralVerdict.status.toLowerCase();
+      const color = status === 'intact' ? 'var(--green)' : status === 'compromised' ? 'var(--orange)' : 'var(--red-light)';
+      return `<div title="${a.structuralVerdict.status}" style="width:14px;height:14px;border-radius:50%;background:${color};flex-shrink:0"></div>`;
+    }).join('');
+    const dist = [
+      d.intact     > 0 ? `<span style="color:var(--green);font-weight:600">${d.intact} INTACT</span>` : '',
+      d.compromised> 0 ? `<span style="color:var(--orange);font-weight:600">${d.compromised} COMPROMISED</span>` : '',
+      d.collapsed  > 0 ? `<span style="color:var(--red-light);font-weight:600">${d.collapsed} COLLAPSED</span>` : '',
+    ].filter(Boolean).join('<span style="color:var(--border);margin:0 8px">·</span>');
+    trackEl.innerHTML = `
+      <div class="profile-track-label">Thesis Track Record</div>
+      <div class="profile-track-hold">${holdText}</div>
+      <div class="profile-track-dots">${dots}</div>
+      <div class="profile-track-dist">${dist}</div>
+      <div class="profile-track-score">
+        <span style="color:${scoreColor(creator.cumulativeScore)};font-weight:700">${creator.cumulativeScore}%</span>
+        <span style="color:var(--text-muted)"> · ${creator.verdict}</span>
+      </div>
+    `;
+  }
+
   const trendContainer = document.getElementById('trend-sessions');
   trendContainer.innerHTML = analyses.map(a => {
     const color = scoreColor(a.dashboard.sessionScore);
@@ -252,21 +390,31 @@ async function renderCreator() {
     `;
   }).join('');
 
-  document.getElementById('analyses-list').innerHTML = analyses.map(a => `
-    <a href="analysis.html?id=${a.id}" class="analysis-row" style="text-decoration:none;color:inherit">
-      <div class="analysis-score-mini ${scoreClass(a.dashboard.sessionScore)}">${a.dashboard.sessionScore}%</div>
-      <div class="analysis-info">
-        <h4>${a.videoTitle}</h4>
-        <div class="subtitle">Session ${a.sessionNumber} &middot; ${a.dashboard.totalChecked} claims</div>
+  document.getElementById('analyses-list').innerHTML = analyses.map(a => {
+    const sv = a.structuralVerdict;
+    const svStatus = sv ? sv.status.toLowerCase() : null;
+    const svColor = svStatus === 'intact' ? 'var(--green)' : svStatus === 'compromised' ? 'var(--orange)' : svStatus === 'collapsed' ? 'var(--red-light)' : 'var(--text-muted)';
+    const svBg = svStatus === 'intact' ? 'rgba(0,206,201,0.1)' : svStatus === 'compromised' ? 'rgba(225,112,85,0.1)' : svStatus === 'collapsed' ? 'rgba(214,48,49,0.1)' : 'rgba(255,255,255,0.04)';
+    const svLabel = sv ? sv.status : '—';
+    const argType = a.argumentType || '';
+    const tcCount = a.thesisCriticalErrors ? a.thesisCriticalErrors.count : null;
+    return `
+    <a href="analysis.html?id=${a.id}" class="analysis-row-v2" style="text-decoration:none;color:inherit">
+      <div class="arv2-verdict" style="background:${svBg};border-color:${svColor}40;color:${svColor}">${svLabel}</div>
+      <div class="arv2-info">
+        <div class="arv2-title">${a.videoTitle}</div>
+        <div class="arv2-meta">
+          <span>Session ${a.sessionNumber}</span>
+          ${argType ? `<span class="arv2-argtype">${argType}</span>` : ''}
+          ${tcCount ? `<span style="color:var(--red-light);font-size:0.7rem">⚠ ${tcCount} thesis-critical error${tcCount !== '1' ? 's' : ''}</span>` : ''}
+        </div>
       </div>
-      <div class="analysis-claims">
-        <span style="color:var(--green)">${a.dashboard.trueClaims} true</span>
-        <span style="color:var(--red-light)">${a.dashboard.falseMisleading} false</span>
-        <span style="color:var(--yellow)">${a.dashboard.disputed} disputed</span>
+      <div class="arv2-score">
+        <span class="score-badge ${scoreClass(a.dashboard.sessionScore)}" style="font-size:0.75rem;padding:3px 10px"><span class="dot"></span>${a.dashboard.sessionScore}%</span>
+        <span class="arv2-score-label">accuracy</span>
       </div>
-      <div class="analysis-date">Analyzed<br>${formatDate(a.dateAnalyzed)}</div>
     </a>
-  `).join('');
+  `}).join('');
 
   // Init search
   initSearch(creators, []);
@@ -328,44 +476,45 @@ async function renderAnalysis() {
     if (ytLink) ytLink.appendChild(reportBtn);
   }
 
-  // TL;DR Summary Card
+  // TL;DR Summary Card — verdict leads
   const d = a.dashboard;
+  const svForTldr = a.structuralVerdict;
+  const svTldrStatus = svForTldr ? svForTldr.status.toLowerCase() : null;
+  const svTldrColor = svTldrStatus === 'intact' ? 'var(--green)' : svTldrStatus === 'compromised' ? 'var(--orange)' : svTldrStatus === 'collapsed' ? 'var(--red-light)' : 'var(--text-muted)';
+  const svTldrBg = svTldrStatus === 'intact' ? 'rgba(0,206,201,0.1)' : svTldrStatus === 'compromised' ? 'rgba(225,112,85,0.1)' : svTldrStatus === 'collapsed' ? 'rgba(214,48,49,0.1)' : 'rgba(255,255,255,0.04)';
   document.getElementById('tldr-card').innerHTML = `
-    <div class="tldr-item">
-      <div class="tldr-val" style="color:${scoreColor(d.sessionScore)}">${d.sessionScore}%</div>
-      <div class="tldr-label">Truth Score</div>
+    <div class="tldr-item tldr-verdict" style="border-right:1px solid var(--border);padding-right:16px;margin-right:4px">
+      <div style="font-size:1rem;font-weight:800;letter-spacing:0.05em;color:${svTldrColor};padding:6px 14px;background:${svTldrBg};border:1px solid ${svTldrColor}40;border-radius:8px">${svForTldr ? svForTldr.status : '—'}</div>
+      <div class="tldr-label">Thesis Verdict</div>
     </div>
     <div class="tldr-item">
       <div class="tldr-val" style="color:var(--green)">${d.trueClaims}</div>
-      <div class="tldr-label">True Claims</div>
+      <div class="tldr-label">True</div>
     </div>
     <div class="tldr-item">
       <div class="tldr-val" style="color:var(--red-light)">${d.falseMisleading}</div>
-      <div class="tldr-label">False / Misleading</div>
+      <div class="tldr-label">False</div>
     </div>
     <div class="tldr-item">
-      <div class="tldr-val" style="color:var(--orange)">${d.stratagems}</div>
-      <div class="tldr-label">Rhetorical Tricks</div>
+      <div class="tldr-val" style="color:${scoreColor(d.sessionScore)}">${d.sessionScore}%</div>
+      <div class="tldr-label">Accuracy</div>
     </div>
   `;
 
   document.getElementById('thesis-text').textContent = a.thesis;
 
-  // Dashboard
-  const ring = document.getElementById('score-ring');
-  ring.className = `score-ring ${scoreClass(d.sessionScore)}`;
-  document.getElementById('session-pct').textContent = `${d.sessionScore}%`;
-  document.getElementById('session-verdict').textContent = verdictLabel(d.sessionScore);
-
-  // Fix: cumulative score color
-  const cumEl = document.getElementById('cumulative-pct');
+  // Dashboard secondary row
   const cumScore = d.cumulativeScore || d.sessionScore;
+  document.getElementById('session-pct').textContent = `${d.sessionScore}%`;
+  document.getElementById('session-pct').style.color = scoreColor(d.sessionScore);
+  document.getElementById('session-verdict').textContent = verdictLabel(d.sessionScore);
+  document.getElementById('session-verdict').style.color = scoreColor(d.sessionScore);
+  const cumEl = document.getElementById('cumulative-pct');
   cumEl.textContent = `${cumScore}%`;
   cumEl.style.color = scoreColor(cumScore);
-
   document.getElementById('cumulative-label').textContent = d.cumulativeScore
-    ? `Cumulative (${d.cumulativeSessions} session${d.cumulativeSessions > 1 ? 's' : ''})`
-    : 'First session';
+    ? `(${d.cumulativeSessions} session${d.cumulativeSessions > 1 ? 's' : ''})`
+    : '(first session)';
 
   document.getElementById('dash-true').textContent = d.trueClaims;
   document.getElementById('dash-false').textContent = d.falseMisleading;
@@ -377,6 +526,36 @@ async function renderAnalysis() {
   document.getElementById('dash-error').textContent = d.errorImpact ? `${d.errorImpact}%` : 'N/A';
 
   document.getElementById('tab-claims-count').textContent = `All Claims (${d.totalChecked})`;
+
+  // Structural Verdict panel
+  const svPanel = document.getElementById('structural-verdict-panel');
+  if (svPanel && a.structuralVerdict) {
+    const sv = a.structuralVerdict;
+    const statusColors = {
+      'COLLAPSED':   { border: '#d63031', bg: 'rgba(214,48,49,0.07)',   text: 'var(--red-light)',   dot: '#d63031' },
+      'COMPROMISED': { border: '#e17055', bg: 'rgba(225,112,85,0.07)',  text: 'var(--orange)',      dot: '#e17055' },
+      'INTACT':      { border: '#00b894', bg: 'rgba(0,184,148,0.07)',   text: 'var(--green)',       dot: '#00b894' },
+    };
+    const sc = statusColors[sv.status] || statusColors['COMPROMISED'];
+    const tcErr = a.thesisCriticalErrors;
+    const argType = a.argumentType ? `<span style="display:inline-block;padding:2px 10px;background:rgba(255,255,255,0.06);border:1px solid var(--border);border-radius:20px;font-size:0.75rem;color:var(--text-muted);margin-left:10px">${a.argumentType}</span>` : '';
+    svPanel.style.display = 'block';
+    svPanel.innerHTML = `
+      <div style="border:1px solid ${sc.border};background:${sc.bg};border-radius:var(--radius);padding:20px 24px;border-left:4px solid ${sc.border}">
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:10px;flex-wrap:wrap">
+          <span style="width:8px;height:8px;border-radius:50%;background:${sc.dot};display:inline-block;flex-shrink:0"></span>
+          <span style="font-size:0.8rem;font-weight:800;letter-spacing:0.08em;text-transform:uppercase;color:${sc.text}">Structural Verdict: ${sv.status}</span>
+          ${argType}
+        </div>
+        <p style="font-size:0.875rem;color:var(--text-muted);line-height:1.6;margin-bottom:${tcErr ? '14px' : '0'}">${sv.explanation}</p>
+        ${tcErr ? `
+        <div style="padding-top:12px;border-top:1px solid rgba(255,255,255,0.08)">
+          <span style="font-size:0.75rem;font-weight:700;text-transform:uppercase;letter-spacing:0.07em;color:${sc.text}">Load-Bearing Errors: ${tcErr.count}</span>
+          <p style="font-size:0.8rem;color:var(--text-muted);margin-top:4px;line-height:1.5">${tcErr.description} — <em>marked ⚠ in the Top False Claims tab</em></p>
+        </div>` : ''}
+      </div>
+    `;
+  }
 
   // False claims — with filters
   const fcCategories = [...new Set(a.falseClaims.map(fc => fc.category).filter(Boolean))];
@@ -410,6 +589,7 @@ async function renderAnalysis() {
             <span class="rating">${fc.rating}</span>
             <span class="fc-confidence">${fc.confidence} Confidence</span>
             ${fc.category ? `<span class="fc-weight-tag" style="color:${catColor}">${fc.category} · ${fc.category === 'Core' ? '3×' : fc.category === 'Support' ? '2×' : '1×'} weight</span>` : ''}
+            ${fc.thesisCritical ? `<span style="display:inline-flex;align-items:center;gap:3px;padding:2px 8px;background:rgba(214,48,49,0.15);border:1px solid rgba(214,48,49,0.35);border-radius:20px;font-size:0.7rem;font-weight:700;color:var(--red-light);letter-spacing:0.04em">⚠ Load-Bearing</span>` : ''}
             <span class="fc-timestamp">${fc.timestamp}</span>
           </div>
           <h4>"${fc.claim}"</h4>
@@ -439,10 +619,10 @@ async function renderAnalysis() {
   // Stratagems
   document.getElementById('stratagems-tab').innerHTML = `
     <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:20px 24px;margin-bottom:20px;border-left:4px solid var(--orange)">
-      <div style="font-size:0.95rem;font-weight:700;margin-bottom:8px;color:var(--orange)">What are Stratagems?</div>
-      <p style="font-size:0.85rem;color:var(--text-muted);line-height:1.6;margin-bottom:10px">Stratagems are rhetorical tricks and logical fallacies used to win an argument regardless of whether the position is true. We identify them using Arthur Schopenhauer's <em>The Art of Being Right</em> (1831), which cataloged 38 dishonest debate tactics that are still widely used today.</p>
-      <p style="font-size:0.85rem;color:var(--text-muted);line-height:1.6;margin-bottom:10px">Detecting stratagems doesn't mean the speaker is lying — it means they're using persuasion techniques that bypass evidence. A speaker can be right about a claim and still use a stratagem to argue for it.</p>
-      <a href="https://en.wikipedia.org/wiki/The_Art_of_Being_Right" target="_blank" rel="noopener" style="font-size:0.8rem;color:var(--accent-light);text-decoration:none">Learn more about Schopenhauer's 38 Stratagems &rarr;</a>
+      <div style="font-size:0.95rem;font-weight:700;margin-bottom:8px;color:var(--orange)">What are Rhetorical Tricks?</div>
+      <p style="font-size:0.85rem;color:var(--text-muted);line-height:1.6;margin-bottom:10px">Rhetorical tricks are argument tactics used to win a debate regardless of whether the position is actually true. We identify them using Arthur Schopenhauer's <em>The Art of Being Right</em> (1831), which cataloged 38 dishonest debate moves still widely used today.</p>
+      <p style="font-size:0.85rem;color:var(--text-muted);line-height:1.6;margin-bottom:10px">Finding these tricks doesn't mean the speaker is lying. It means they used persuasion techniques that skip past the evidence. A speaker can be right about something and still use a rhetorical trick to argue for it.</p>
+      <a href="https://en.wikipedia.org/wiki/The_Art_of_Being_Right" target="_blank" rel="noopener" style="font-size:0.8rem;color:var(--accent-light);text-decoration:none">Learn more about Schopenhauer's 38 tactics &rarr;</a>
     </div>
   ` + a.stratagems.map(s => `
     <div class="stratagem-card">
@@ -581,7 +761,7 @@ async function renderAnalysis() {
         </tbody>
       </table>
       <div style="margin-top:16px;padding:16px;background:rgba(214,48,49,0.08);border-radius:var(--radius-sm);border:1px solid rgba(214,48,49,0.2)">
-        <div style="font-size:0.8rem;font-weight:700;color:var(--red-light);margin-bottom:6px">Error Impact: ${wa.errorImpact}% — ${wa.interpretation.split('.')[0]}</div>
+        <div style="font-size:0.8rem;font-weight:700;color:var(--red-light);margin-bottom:6px">Weighted Error: ${wa.errorImpact}% — ${wa.interpretation.split('.')[0]}</div>
         <p style="font-size:0.8rem;color:var(--text-muted);line-height:1.5">${wa.interpretation}</p>
       </div>
     `;
@@ -613,17 +793,17 @@ async function renderAnalysis() {
 async function renderVideosPage() {
   const creators = await loadJSON('/data/creators.json');
 
-  // Load all analyses
+  // Load all analyses in parallel
   const allVideos = [];
-  for (const c of creators) {
-    for (const aId of c.analyses) {
-      try {
-        const a = await loadJSON(`/data/analyses/${aId}.json`);
-        a._creator = c;
-        allVideos.push(a);
-      } catch (e) { /* skip missing */ }
-    }
-  }
+  const allIds = creators.flatMap(c => c.analyses.map(aId => ({ aId, c })));
+  const results = await Promise.all(
+    allIds.map(({ aId, c }) =>
+      loadJSON(`/data/analyses/${aId}.json`)
+        .then(a => { a._creator = c; return a; })
+        .catch(() => null)
+    )
+  );
+  allVideos.push(...results.filter(Boolean));
 
   // Stats bar
   const totalClaims = allVideos.reduce((s, a) => s + a.dashboard.totalChecked, 0);
@@ -782,4 +962,192 @@ async function renderVideosPage() {
 
   // Init search
   initSearch(creators, allVideos);
+}
+
+// ===== PATTERNS PAGE =====
+async function renderPatterns() {
+  const creators = await loadJSON('/data/creators.json');
+
+  const analysesMap = {};
+  await Promise.all(
+    creators.flatMap(c => c.analyses.map(aId =>
+      loadJSON(`/data/analyses/${aId}.json`)
+        .then(a => { analysesMap[aId] = a; })
+        .catch(() => {})
+    ))
+  );
+
+  const allAnalyses = Object.values(analysesMap).filter(Boolean);
+  const visibleCreators = creators.filter(c => c.sessions >= 2);
+
+  // Meta line
+  const metaEl = document.getElementById('patterns-meta');
+  if (metaEl) {
+    metaEl.innerHTML = `<strong>${allAnalyses.length}</strong> analyses across <strong>${visibleCreators.length}</strong> creators — patterns update automatically as data grows`;
+  }
+
+  // Lookup maps
+  const creatorMap = {};
+  creators.forEach(c => { creatorMap[c.id] = c; });
+
+  // ── Chip helpers ──────────────────────────────────────────────
+
+  function creatorChip(c) {
+    return `<a href="creator.html?id=${c.id}" class="pattern-chip">
+      <span class="pattern-chip-avatar" style="background:${c.avatarColor}">${c.initials}</span>
+      <span>${c.name}</span>
+      <span class="pattern-chip-score" style="color:${scoreColor(c.cumulativeScore)}">${c.cumulativeScore}%</span>
+    </a>`;
+  }
+
+  function analysisChip(a, sublabel) {
+    const creator = creatorMap[a.creatorId];
+    const bg = creator ? creator.avatarColor : 'var(--border)';
+    const init = creator ? creator.initials : '??';
+    const title = a.videoTitle.length > 38 ? a.videoTitle.slice(0, 35) + '…' : a.videoTitle;
+    const sub = sublabel || a.creatorName;
+    return `<a href="analysis.html?id=${a.id}" class="pattern-chip">
+      <span class="pattern-chip-avatar" style="background:${bg}">${init}</span>
+      <span>${title}</span>
+      <span class="pattern-chip-label">${sub}</span>
+    </a>`;
+  }
+
+  // ── Good pattern computations ─────────────────────────────────
+
+  // 1. Every thesis holds — all verdicts INTACT across all sessions
+  const allIntactCreators = visibleCreators.filter(c => {
+    const d = c.verdictDistribution || {};
+    const total = (d.intact || 0) + (d.compromised || 0) + (d.collapsed || 0);
+    return total > 0 && (d.intact || 0) === total;
+  });
+
+  // 2. Errors stay on the edges — no thesisCritical false claims
+  const noLoadBearingAnalyses = allAnalyses.filter(a =>
+    !a.falseClaims?.some(fc => fc.thesisCritical)
+  );
+  const noLoadBearingCreatorIds = [...new Set(noLoadBearingAnalyses.map(a => a.creatorId))];
+  const noLoadBearingCreators = noLoadBearingCreatorIds.map(id => creatorMap[id]).filter(Boolean);
+
+  // 3. Clean argumentation — zero rhetorical tricks
+  const noTricksAnalyses = allAnalyses
+    .filter(a => (a.dashboard?.stratagems || 0) === 0)
+    .sort((a, b) => (b.dashboard?.sessionScore || 0) - (a.dashboard?.sessionScore || 0));
+
+  // 4. Score and weight agree — high session score AND low error impact
+  const scoreHonestAnalyses = allAnalyses
+    .filter(a => (a.dashboard?.sessionScore || 0) >= 80 && (a.dashboard?.errorImpact || 100) < 20)
+    .sort((a, b) => (b.dashboard?.sessionScore || 0) - (a.dashboard?.sessionScore || 0));
+
+  // ── Bad pattern computations ──────────────────────────────────
+
+  // 1. Main argument fails — COLLAPSED verdict
+  const collapsedAnalyses = allAnalyses.filter(a =>
+    a.structuralVerdict?.status === 'COLLAPSED'
+  );
+
+  // 2. Core claim is wrong — at least one thesisCritical false claim
+  const loadBearingAnalyses = allAnalyses.filter(a =>
+    a.falseClaims?.some(fc => fc.thesisCritical)
+  );
+
+  // 3. Persuasion over evidence — 3+ rhetorical tricks
+  const trickClusterAnalyses = allAnalyses
+    .filter(a => (a.dashboard?.stratagems || 0) >= 3)
+    .sort((a, b) => (b.dashboard?.stratagems || 0) - (a.dashboard?.stratagems || 0));
+
+  // 4. Score flatters — decent session score but high weighted error
+  const scoreFlatterAnalyses = allAnalyses.filter(a =>
+    (a.dashboard?.sessionScore || 0) >= 65 && (a.dashboard?.errorImpact || 0) >= 30
+  );
+
+  // ── Pattern definitions ────────────────────────────────────────
+
+  const goodPatterns = [
+    {
+      name: 'Every Thesis Holds',
+      desc: 'When a creator\'s main argument survives fact-checking across every session we\'ve analyzed, that\'s the clearest signal of reliability we track. One INTACT verdict could be luck. A consistent record is a pattern.',
+      stat: `${allIntactCreators.length} of ${visibleCreators.length} creators`,
+      examples: allIntactCreators.slice(0, 4).map(c => creatorChip(c)).join(''),
+      emptyMsg: 'No creators with 2+ sessions yet — grows as data is added.',
+    },
+    {
+      name: 'Errors Stay on the Edges',
+      desc: 'Every teacher gets something wrong. What matters is where the errors land. When false claims are peripheral — background details that don\'t affect the main point — the core argument remains honest even when imperfect.',
+      stat: `${noLoadBearingAnalyses.length} of ${allAnalyses.length} analyses`,
+      examples: noLoadBearingCreators.slice(0, 4).map(c => creatorChip(c)).join(''),
+      emptyMsg: 'Growing as analyses are added.',
+    },
+    {
+      name: 'No Rhetorical Tricks',
+      desc: 'Some sessions have zero rhetorical tricks. The argument stands on evidence alone — no false dilemmas, no emotional pressure, no bait-and-switch. When we find this, the listener is being informed, not moved.',
+      stat: `${noTricksAnalyses.length} of ${allAnalyses.length} analyses`,
+      examples: noTricksAnalyses.slice(0, 4).map(a => analysisChip(a)).join(''),
+      emptyMsg: 'Growing as analyses are added.',
+    },
+    {
+      name: 'The Score Is Honest',
+      desc: 'A high accuracy score means more when the weighted error analysis agrees. These are sessions where the creator scored well and their false claims didn\'t damage the core argument. The number reflects the reality.',
+      stat: `${scoreHonestAnalyses.length} of ${allAnalyses.length} analyses`,
+      examples: scoreHonestAnalyses.slice(0, 4).map(a =>
+        analysisChip(a, `${a.dashboard.sessionScore}% · ${a.dashboard.errorImpact}% weighted error`)
+      ).join(''),
+      emptyMsg: 'Growing as analyses are added.',
+    },
+  ];
+
+  const badPatterns = [
+    {
+      name: 'The Main Argument Fails',
+      desc: 'A COLLAPSED verdict means the central thesis — the main point of the video — depends on claims that don\'t hold up. It\'s not a few wrong details. The argument itself breaks down when the evidence is checked.',
+      stat: `${collapsedAnalyses.length} of ${allAnalyses.length} analyses`,
+      examples: collapsedAnalyses.slice(0, 4).map(a => analysisChip(a)).join(''),
+      emptyMsg: 'None found yet.',
+    },
+    {
+      name: 'The Core Claim Is Wrong',
+      desc: 'Load-bearing errors are false claims the main argument cannot survive without. Remove the error and the thesis collapses. These are the most serious findings in any analysis — the argument is built on a false foundation.',
+      stat: `${loadBearingAnalyses.length} of ${allAnalyses.length} analyses`,
+      examples: loadBearingAnalyses.slice(0, 4).map(a => analysisChip(a)).join(''),
+      emptyMsg: 'None found yet.',
+    },
+    {
+      name: 'Persuasion Over Evidence',
+      desc: 'Three or more rhetorical tricks in a single session is a pattern, not a slip. The argument is built to win, not to be true. The listener is being moved toward a conclusion rather than shown evidence for it.',
+      stat: `${trickClusterAnalyses.length} of ${allAnalyses.length} analyses`,
+      examples: trickClusterAnalyses.slice(0, 4).map(a =>
+        analysisChip(a, `${a.dashboard.stratagems} rhetorical tricks`)
+      ).join(''),
+      emptyMsg: 'None found yet.',
+    },
+    {
+      name: 'The Score Flatters',
+      desc: 'A 70% accuracy score sounds reasonable — until the weighted error analysis shows those false claims hit the core argument hard. The raw number masks the real problem. This pattern flags the gap between what the score shows and what the errors actually cost.',
+      stat: `${scoreFlatterAnalyses.length} of ${allAnalyses.length} analyses`,
+      examples: scoreFlatterAnalyses.slice(0, 4).map(a =>
+        analysisChip(a, `${a.dashboard.sessionScore}% score · ${a.dashboard.errorImpact}% weighted error`)
+      ).join(''),
+      emptyMsg: 'None found yet.',
+    },
+  ];
+
+  // ── Render ────────────────────────────────────────────────────
+
+  function renderPatternCard(p, type) {
+    return `
+      <div class="pattern-card ${type}">
+        <div class="pattern-name">${p.name}</div>
+        <div class="pattern-desc">${p.desc}</div>
+        <div class="pattern-stat">${p.stat}</div>
+        <div class="pattern-examples">${p.examples || `<span class="pattern-empty">${p.emptyMsg}</span>`}</div>
+      </div>
+    `;
+  }
+
+  const goodEl = document.getElementById('good-patterns');
+  const badEl = document.getElementById('bad-patterns');
+  if (goodEl) goodEl.innerHTML = goodPatterns.map(p => renderPatternCard(p, 'good')).join('');
+  if (badEl) badEl.innerHTML = badPatterns.map(p => renderPatternCard(p, 'bad')).join('');
+
+  initSearch(creators, allAnalyses);
 }

@@ -26,6 +26,15 @@
     "errorImpact": 10.7
   },
   "steelman": "The popular-culture narrative of Nicaea (Constantine invented Christianity, the council picked the Bible, the divinity of Jesus was fabricated from scratch) is historically indefensible, and the Orthodox position on Christ's divinity predates 325 AD by centuries — which is true and well-supported by scholarship.",
+  "argumentType": "Historical / Apologetical",
+  "structuralVerdict": {
+    "status": "INTACT",
+    "explanation": "All three misleading claims concern peripheral Support-level details (Constantine's exact level of theological neutrality, the scope of the council's formal decrees, and the precise legal status of non-Christian religions after 380 AD). None of these touches the core thesis that the divinity of Christ predates Nicaea and that the council confirmed rather than invented Orthodox belief."
+  },
+  "thesisCriticalErrors": {
+    "count": "0 of 3",
+    "description": "All three misleading claims are Support-level overstatements. None undermines the central historical thesis about what Nicaea did and did not do."
+  },
   "falseClaims": [
     {
       "claim": "Constantine did not push any particular theological view at the council",

@@ -25,8 +25,18 @@
     "errorImpact": 35
   },
   "steelman": "Abke's strongest argument is that Jesus's synoptic teachings on love, forgiveness, and repentance are underemphasized in churches that center Pauline theology, and that the historical Marcionite crisis demonstrates the theological dangers of reading Paul without Jesus. This observation has genuine scholarly support (Harnack, Bauer) and represents a defensible theological position even if Abke's supporting arguments are frequently inaccurate.",
+  "argumentType": "Historical / Theological — Heresy Comparison",
+  "structuralVerdict": {
+    "status": "COLLAPSED",
+    "explanation": "Both planks of the central thesis are false. Gnosticism predates Marcion — the chronology is reversed, not merely overstated — and Harnack (the leading Marcion scholar) explicitly argued Marcion was NOT a Gnostic. The second core claim, that Protestantism teaches docetism (Jesus purely divine, no human element), directly contradicts the Chalcedonian Definition affirmed by every major Protestant confession. Without a valid founder-lineage for gnosticism and without a credible structural identity between Protestantism and gnosticism, the thesis has no remaining foundation. The video's biblical citations are largely accurate but belong to a separate layer of content that does not reconstruct the collapsed thesis."
+  },
+  "thesisCriticalErrors": {
+    "count": "3 of 6",
+    "description": "Gnosticism founded via Paul through Marcion — chronology reversed [Core], Protestantism teaches docetism/pure divinity [Core], devil = demiurge is 'the same concept' [Core]"
+  },
   "falseClaims": [
     {
+      "thesisCritical": true,
       "claim": "Gnosticism is founded or was founded upon Paul's teachings through a man named Marcion of Sinope.",
       "rating": "Likely False",
       "confidence": "High",
@@ -50,6 +60,7 @@
       "category": "Core"
     },
     {
+      "thesisCritical": true,
       "claim": "This is also what essentially Protestantism teaches today — that Jesus is purely divine.",
       "rating": "Likely False",
       "confidence": "Very High",
@@ -73,6 +84,7 @@
       "category": "Core"
     },
     {
+      "thesisCritical": true,
       "claim": "Rather than calling it the demiurge, they call it the devil. But it's the same concept.",
       "rating": "Likely False",
       "confidence": "High",

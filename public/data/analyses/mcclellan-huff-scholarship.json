@@ -25,6 +25,15 @@
     "errorImpact": null
   },
   "steelman": "The strongest version of Huff's position that McClellan does not adequately engage: (1) The Greco-Roman biography genre classification IS the mainstream scholarly consensus (Burridge 1992, widely accepted). Huff is not wrong to invoke it; the question is what conclusions follow from it. McClellan treats the genre appeal as if it were itself an apologetic invention. (2) Some serious scholars (Bauckham, Keener, Hengel) do argue for eyewitness-based tradition behind the gospels, even if they are in the minority. Huff's position is not academically isolated to the degree McClellan implies. (3) Huff's comparison of the chronological gap between Jesus's death and the gospels with the gap for other ancient figures is a legitimate methodological point in ancient history, even if the comparison to Tiberius specifically is strained because of the vast difference in corroborating evidence. (4) Textual criticism and historical reliability are not as hermetically sealed from each other as McClellan suggests. Textual critics do develop expertise in evaluating the transmission and reliability of sources, which is relevant (though not sufficient) to historical questions.",
+  "argumentType": "Scholarly / Academic",
+  "structuralVerdict": {
+    "status": "COMPROMISED",
+    "explanation": "McClellan's thesis — that Huff misrepresents his expertise and the scholarly consensus — is substantially correct on Huff's key factual errors (99% dating claim, 'word for word' Isaiah Scroll claim, undesigned coincidences literature). However, McClellan's own misrepresentation of the Greco-Roman biography consensus and his overstated 'wildly fallacious' characterization of the Tiberius comparison undercut his credibility as a neutral arbiter of scholarly consensus. The thesis survives in outline but is wounded by the very pattern of overstatement it attributes to Huff."
+  },
+  "thesisCriticalErrors": {
+    "count": "2 of 5",
+    "description": "Greco-Roman biography classification dismissed as apologetics [Core] — actually mainstream consensus post-Burridge 1992; Tiberius comparison called 'wildly fallacious' [Core] — overstated, as the comparison is a recognized pedagogical tool in ancient history even if Huff misuses it"
+  },
   "falseClaims": [
     {
       "claim": "James Barr's Fundamentalism was published 'in the mid-80s'",
@@ -46,6 +55,7 @@
       ]
     },
     {
+      "thesisCritical": true,
       "claim": "The Greco-Roman biography genre classification is merely an apologetic ploy",
       "rating": "Misleading",
       "confidence": "High",
@@ -65,6 +75,7 @@
       ]
     },
     {
+      "thesisCritical": true,
       "claim": "The Tiberius/Jesus comparison is 'wildly fallacious' and 'just ludicrous'",
       "rating": "Overstated",
       "confidence": "Medium",

@@ -24,6 +24,15 @@
     "errorImpact": 21
   },
   "steelman": "Huff's strongest argument is that the convergence of multiple independent lines of evidence — manuscript evidence, onomastic data, inscriptional finds, and hostile witness testimony (Alexamenos graffito) — creates a cumulative case for the historical rootedness of the NT documents in first-century Palestine, even if individual pieces of evidence have limitations.",
+  "argumentType": "Historical / Archaeological",
+  "structuralVerdict": {
+    "status": "INTACT",
+    "explanation": "The central thesis — that archaeological artifacts corroborate the historical reliability of the New Testament — survives cleanly. All seven false/misleading claims are Background category: incidental details about sheep count, exact excavation dates, Pilate's removal timeline, and Tacitus's classification. None of these touch the Pilate Stone, Alexamenos graffito, onomastic data, or manuscript evidence that constitute the actual argument. The cumulative evidential case is unaffected by the peripheral errors."
+  },
+  "thesisCriticalErrors": {
+    "count": "0 of 7",
+    "description": "No false claims are load-bearing to the central thesis. All errors are Background category peripheral details (animal count for Sinaiticus, P1 dig date, Pilate's removal emperor, Tacitus's classification) that do not affect the artifacts-corroborate-NT argument. The one Support-category error (P52 paleographic unanimity) overstates scholarly consensus but does not collapse the manuscript evidence argument."
+  },
   "falseClaims": [
     {
       "claim": "Codex Sinaiticus required 260 sheep.",

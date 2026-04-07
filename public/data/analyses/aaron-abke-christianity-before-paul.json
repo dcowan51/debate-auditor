@@ -26,9 +26,19 @@
     "weaselWords": 5,
     "errorImpact": 37
   },
+  "argumentType": "Historical / Textual",
+  "structuralVerdict": {
+    "status": "COMPROMISED",
+    "explanation": "The documented parallels (Isaiah 40:3, communal property, Ebionim self-designation) are real and noted by mainstream scholars. But the load-bearing 'exclusive lineage' argument collapses when the Hebrew prophetic tradition — which Abke himself cites — shares the same practices. Essene connection is plausible; genealogical uniqueness is not established. Credential flag: the paper lists no institution, department, course number, or professor despite being described as a master's class submission."
+  },
+  "thesisCriticalErrors": {
+    "count": "2 of 4",
+    "description": "the 'four practices shared exclusively by Essenes and early Christianity' claim and 'anti-sacrifice theology unique to Essenes' claim are the load-bearing pillars of the genealogical argument — Abke's own paper cites the Hebrew prophets as counterevidence against both"
+  },
   "steelman": "The Essene-origin thesis has genuine scholarly backing. Parallels between Qumran and early Christianity — Isaiah 40:3, communal property structures, atonement baptism theology, anti-sacrifice sentiment — are noted by mainstream scholars including Frank Moore Cross, James VanderKam, and John Meier. The historical phylogeny framework is legitimate in religious studies. The paper is significantly more careful than Abke's video content and several evidentiary building blocks are sound. The Ebionim self-designation parallel and the Isaiah 40:3 double-application are among the more compelling connections in the scholarly literature.",
   "falseClaims": [
     {
+      "thesisCritical": true,
       "claim": "Four practices (atonement baptism, communal poverty, anti-sacrifice, vegetarianism) are shared 'exclusively' by Essene-type Judaism and the early Jesus movement",
       "rating": "Likely False · High Confidence",
       "confidence": "High",
@@ -54,6 +64,7 @@
       "category": "Support"
     },
     {
+      "thesisCritical": true,
       "claim": "Anti-sacrificial theology was 'shared by no other known Jewish sectarian group in history'",
       "rating": "Likely False · High Confidence",
       "confidence": "High",

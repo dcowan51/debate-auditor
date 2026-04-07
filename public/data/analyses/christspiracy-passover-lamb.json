@@ -26,8 +26,18 @@
     "errorImpact": 51
   },
   "steelman": "The strongest charitable reading: the canonical gospels' institution narratives do not explicitly describe Jesus eating lamb at the table; some prophetic texts prioritize mercy over sacrifice; certain early Jewish-Christian communities rejected animal sacrifice; and legitimate scholarly debate exists about the pre-Israelite origins of the Passover ritual. A more careful, qualified version of this argument — that the Last Supper traditions emphasize bread and wine while the role of the lamb is theologically reinterpreted — would be defensible within academic discourse.",
+  "argumentType": "Historical / Textual",
+  "structuralVerdict": {
+    "status": "COLLAPSED",
+    "explanation": "The entire thesis pivots on the opening claim that 'not in Matthew, not in Mark, not in Luke, not in John' is any lamb mentioned. This is directly contradicted by Luke 22:7 and Mark 14:12, both of which explicitly describe the Passover lamb being sacrificed in preparation for this very meal. Once the foundational claim collapses, the subsequent argument — that Jesus deliberately excluded lamb as an anti-sacrifice protest — loses its textual basis entirely."
+  },
+  "thesisCriticalErrors": {
+    "count": "2 of 10",
+    "description": "no lamb in any gospel at the Last Supper [Core] — directly refuted by Luke 22:7 and Mark 14:12; Jeremiah 7:22 as blanket rejection of sacrifice [Core] — severe decontextualization of the primary prophetic proof text"
+  },
   "falseClaims": [
     {
+      "thesisCritical": true,
       "claim": "At Jesus's Last Supper, no lamb was present — 'not in Matthew, not in Mark, not in Luke, not in John.'",
       "rating": "False",
       "confidence": "High",
@@ -47,6 +57,7 @@
       "category": "Core"
     },
     {
+      "thesisCritical": true,
       "claim": "Jeremiah 7:22 states: 'I did not command your ancestors concerning burnt offerings or sacrifices.'",
       "rating": "Misleading",
       "confidence": "High",

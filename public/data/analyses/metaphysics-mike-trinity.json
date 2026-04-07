@@ -24,8 +24,18 @@
     "errorImpact": 56
   },
   "steelman": "The strongest version of this argument is that textual variants do exist in Christologically significant passages, and that scribal tendencies toward theological harmonization are well-documented in the scholarly literature (Ehrman, The Orthodox Corruption of Scripture, 1993). Several of the seven examples cited — particularly 1 Timothy 3:16 and the Johannine Comma — are genuine text-critical problems where Trinitarian influence on transmission is plausible and widely discussed by scholars.",
+  "argumentType": "Historical / Textual",
+  "structuralVerdict": {
+    "status": "COLLAPSED",
+    "explanation": "The thesis that Trinitarian scribes systematically altered biblical manuscripts is built on 7 specific examples, of which 5 are Core claims. Of those 5, multiple are factually false: Codex Vaticanus does not contain 1 Timothy at all; Clement of Alexandria quoted John 1:18 as 'theos' not 'huios'; the 'theos' reading in John 1:18 is the consensus original, not a corruption; and three claimed variants (Titus 3:6, Hebrews 13:20, John 19:40) are unattested in standard critical apparatuses. With more than half the seven examples either false or inverted, the 'systematic corruption' thesis loses its evidential foundation entirely."
+  },
+  "thesisCriticalErrors": {
+    "count": "5 of 10",
+    "description": "Codex Vaticanus reads 'who' in 1 Timothy 3:16 [Core — Vaticanus doesn't contain 1 Timothy], Clement quoted John 1:18 as 'son' [Core — inverted], 'theos' in John 1:18 is a Trinitarian corruption [Core — inverts consensus], Jude 5 'Jesus' is Trinitarian alteration [Core — inverts NA28 direction], Titus 3:6 late manuscripts add 'God' [Core — unattested], Hebrews 13:20 'our God Jesus' variant [Core — unattested], Codex Alexandrinus 'body of God' in John 19:40 [Core — unattested]"
+  },
   "falseClaims": [
     {
+      "thesisCritical": true,
       "claim": "Codex Vaticanus reads 'who' in 1 Timothy 3:16",
       "rating": "False",
       "confidence": "Very High",
@@ -60,6 +70,7 @@
       "category": "Support"
     },
     {
+      "thesisCritical": true,
       "claim": "Clement of Alexandria quoted John 1:18 as 'son'",
       "rating": "False",
       "confidence": "High",
@@ -75,6 +86,7 @@
       "category": "Core"
     },
     {
+      "thesisCritical": true,
       "claim": "'Theos' in John 1:18 is a Trinitarian corruption of the original 'huios'",
       "rating": "Misleading",
       "confidence": "High",
@@ -94,6 +106,7 @@
       "category": "Core"
     },
     {
+      "thesisCritical": true,
       "claim": "'Many scholars believe' that 'Jesus' in Jude 5 is a Trinitarian alteration",
       "rating": "Misleading",
       "confidence": "High",
@@ -113,6 +126,7 @@
       "category": "Core"
     },
     {
+      "thesisCritical": true,
       "claim": "Late manuscripts of Titus 3:6 add 'God' to create a Trinitarian reading",
       "rating": "False",
       "confidence": "High",
@@ -128,6 +142,7 @@
       "category": "Core"
     },
     {
+      "thesisCritical": true,
       "claim": "Hebrews 13:20 has a variant reading 'our God Jesus'",
       "rating": "False",
       "confidence": "High",
@@ -143,6 +158,7 @@
       "category": "Core"
     },
     {
+      "thesisCritical": true,
       "claim": "Codex Alexandrinus reads 'body of God' in John 19:40",
       "rating": "False",
       "confidence": "High",

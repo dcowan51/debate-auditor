@@ -26,6 +26,15 @@
     "errorImpact": 40
   },
   "steelman": "If God's moral character is truly immutable and he is the source of objective morality, then significant tensions exist between certain divine commands/actions in the Old Testament and the moral principles attributed to God elsewhere in Scripture. These tensions deserve honest engagement rather than dismissal, and they constitute a genuine philosophical challenge to simplistic versions of divine command theory.",
+  "argumentType": "Philosophical / Ethical",
+  "structuralVerdict": {
+    "status": "COMPROMISED",
+    "explanation": "The thesis — that God violates 20 of his own moral principles, disproving objective morality — depends on demonstrating that God actually commits the violations as described. Several Core examples fail: the Jephthah narrative never states God accepted the sacrifice; Isaiah 13:16 is a prophecy about Babylonian warfare, not a divine command; Proverbs 1:26 is personified Wisdom, not God speaking; and Nehemiah's concern is religious syncretism, not race. These are not peripheral examples — they are the load-bearing cases. The thesis is partially supported by genuine textual tensions (jealousy, vengeance, conditional forgiveness) but is substantially compromised by the pattern of misreading context. The argument does not collapse entirely because some genuine tensions remain even after corrections."
+  },
+  "thesisCriticalErrors": {
+    "count": "6 of 16",
+    "description": "God 'accepted' Jephthah's child sacrifice [Core], God 'tortured' David's infant son [Core], Hebrews 13:8 proves God's moral commands can never change [Core], Isaiah 13:16 as God commanding infant-dashing [Core], Proverbs 1:26 attributed to God directly [Core], Nehemiah 13:23-30 as 'interracial marriage' prohibition [Core]"
+  },
   "falseClaims": [
     {
       "claim": "Mayan sacrifice was 'most likely a lie perpetuated by missionaries'",
@@ -43,6 +52,7 @@
       "category": "Support"
     },
     {
+      "thesisCritical": true,
       "claim": "God 'accepted' Jephthah's child sacrifice and 'made him go through with it'",
       "rating": "Likely False",
       "confidence": "High",
@@ -62,6 +72,7 @@
       "category": "Core"
     },
     {
+      "thesisCritical": true,
       "claim": "God 'tortured' David's infant son for 7 days",
       "rating": "Misleading",
       "confidence": "High",
@@ -122,6 +133,7 @@
       "category": "Support"
     },
     {
+      "thesisCritical": true,
       "claim": "Nehemiah 13:23-30 concerns 'interracial marriage' as a 'great evil'",
       "rating": "Misleading",
       "confidence": "High",
@@ -171,6 +183,7 @@
       "category": "Core"
     },
     {
+      "thesisCritical": true,
       "claim": "Hebrews 13:8 proves God's moral commands can never change",
       "rating": "Misleading",
       "confidence": "High",
@@ -186,6 +199,7 @@
       "category": "Core"
     },
     {
+      "thesisCritical": true,
       "claim": "Isaiah 13:16: God punishes people by having their infants dashed in pieces",
       "rating": "Misleading",
       "confidence": "High",
@@ -216,6 +230,7 @@
       "category": "Support"
     },
     {
+      "thesisCritical": true,
       "claim": "Proverbs 1:26: God says 'I will laugh at your calamity, I will mock you'",
       "rating": "Misleading",
       "confidence": "High",

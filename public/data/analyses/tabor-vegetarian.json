@@ -24,6 +24,15 @@
     "errorImpact": 22
   },
   "steelman": "There is a demonstrable textual thread in the Hebrew Bible — from Genesis 1:29 through the prophetic critiques of sacrifice (Hosea 6:6, Isaiah 11, Micah 6:8) — that prioritizes ethical obedience over sacrificial ritual. This thread was picked up by identifiable first-century Jewish movements (Ebionites, Bannus-type ascetics) and is at least consistent with the practices attributed to John the Baptist and James the brother of Jesus in early sources. Whether Jesus himself was a vegetarian remains inferential, but the theological environment that produced him had ascetic and anti-sacrifice currents that deserve scholarly attention. The weakness of the argument is not in the existence of this thread — it is real — but in the claim that this thread represents the original or intended position of the Torah, rather than one voice in a multi-vocal canonical tradition that also commands sacrificial festivals as covenant obligations.",
+  "argumentType": "Historical / Textual",
+  "structuralVerdict": {
+    "status": "COMPROMISED",
+    "explanation": "The prophetic anti-sacrifice thread (Genesis 1:29, Hosea 6:6, Isaiah 11) is real and well-attested, and the Ebionite/Baptist ascetic data is genuine. However, two Core false claims directly weaken the textual case: the Jeremiah 7:22 decontextualization strips away the actual polemical context (Baal worship, Topheth) to present a blanket divine rejection of all sacrifice — and Tabor never discloses that the same chapter condemns pagan abominations. The Isaiah 56:7 interpolation claim is presented as a scholarly finding with no manuscript support. These two false claims are among the primary textual anchors for the thesis, leaving the argument reliant on genuinely contested inferences rather than the demonstrated textual case it claims to be."
+  },
+  "thesisCriticalErrors": {
+    "count": "2 of 8",
+    "description": "Two Core false claims are thesis-critical: the Jeremiah 7:22 decontextualization (presented as a blanket divine rejection of sacrifice, concealing the chapter's actual subject) and the Isaiah 56:7 interpolation claim (no manuscript support, presented as scholarly consensus). Both are primary textual anchors for the anti-sacrifice argument. The other errors (pigeon/quail confusion, Micah attributed to Amos, Hebrew root conflations) are factual slips but not load-bearing."
+  },
   "falseClaims": [
     {
       "claim": "Pigeons cover the desert floor (Numbers 11)",
@@ -133,6 +142,7 @@
       "category": "Background"
     },
     {
+      "thesisCritical": true,
       "claim": "Isaiah 56:7 burnt offerings line is an interpolation",
       "rating": "Misleading",
       "confidence": "Medium",
@@ -156,6 +166,7 @@
       "category": "Core"
     },
     {
+      "thesisCritical": true,
       "claim": "Jeremiah 7:22 presented as a blanket divine rejection of all sacrifice",
       "rating": "Misleading",
       "confidence": "High",

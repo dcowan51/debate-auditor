@@ -27,8 +27,18 @@
     "errorImpact": 48.7
   },
   "steelman": "The earliest Jesus movement was centered in Jerusalem under James and the Twelve, was Torah-observant, and had a theological character quite different from Pauline Christianity. The dominance of Paul's letters in the canonical New Testament may obscure the diversity of early Christian belief, and texts like the Didache and the Clementine literature preserve traditions from Jewish-Christian communities that deserve serious attention. Grace is indeed present throughout the Hebrew Bible, and dispensationalist theology — as a systematic framework — was a relatively late development (19th century, John Nelson Darby). Believers should take Jesus's own words as the highest authority.",
+  "argumentType": "Theological / Reconstructionist",
+  "structuralVerdict": {
+    "status": "COLLAPSED",
+    "explanation": "The thesis depends on two claims that cannot survive scholarly scrutiny: (1) the Clementine literature as authentic apostolic documents — universally dated to the 3rd–4th century CE; (2) the 'Reconstructed Gospel of the Hebrews' as the original New Covenant scripture — a modern editorial compilation, not a recovered manuscript. The anti-Paul framework is built on an undemonstrated premise (Paul contradicts Jesus) argued through petitio principii. Without these load-bearing claims, the entire alternative canon project collapses."
+  },
+  "thesisCriticalErrors": {
+    "count": "4 of 8",
+    "description": "Clementine literature as apostolic documents [Core], Reconstructed Gospel of Hebrews as original scripture [Core], Paul as false apostle selected by the adversary [Core] — the entire anti-Paul framework asserted without demonstrated contradictions, Matthew 24:11/24 applied to Paul [Core] — misapplication of eschatological texts to establish the anti-Paul premise"
+  },
   "falseClaims": [
     {
+      "thesisCritical": true,
       "claim": "The 'Reconstructed Gospel of the Hebrews' represents the original New Covenant scripture",
       "rating": "Likely False · High Confidence",
       "confidence": "High",
@@ -44,6 +54,7 @@
       "category": "Core"
     },
     {
+      "thesisCritical": true,
       "claim": "The Clementine literature are authentic apostolic documents from the hands of the Apostles",
       "rating": "Likely False · High Confidence",
       "confidence": "High",
@@ -73,6 +84,7 @@
       "category": "Background"
     },
     {
+      "thesisCritical": true,
       "claim": "Paul is implicitly a false apostle selected by the adversary",
       "rating": "Misleading · High Confidence",
       "confidence": "High",
@@ -83,6 +95,7 @@
       "category": "Core"
     },
     {
+      "thesisCritical": true,
       "claim": "Matthew 24:11 and 24:24 ('false prophets/apostles') refer to Paul or Pauline teachers",
       "rating": "Misleading · High Confidence",
       "confidence": "High",

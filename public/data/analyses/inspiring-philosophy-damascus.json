@@ -26,8 +26,18 @@
     "errorImpact": 22
   },
   "steelman": "If we grant the late 36–37 AD dating for Paul's Damascus escape, documented political chaos in the region (Vitellius campaign, Pilate dismissal, Tiberius' death), Caligula's known policy of territorial redistribution, Aretas' past ambitions in the region, and the ethnarch-as-ethnic-leader interpretation, then Paul's reference to 'ethnarch of King Aretas' is historically plausible and does not require attributing error to Paul.",
+  "argumentType": "Historical / Apologetical",
+  "structuralVerdict": {
+    "status": "COMPROMISED",
+    "explanation": "The entire chronological argument depends on a 33 AD death-of-Jesus date that is the minority scholarly position (24% vs. 53% for AD 30), yet it is presented as established fact. This cascades into the Paul conversion date and the Damascus escape window, weakening the precision of the 'chaos window' argument. The core thesis that Paul's reference is plausible remains defensible through alternative datings and the ethnarch-as-ethnic-leader reading, but the chronological scaffolding is compromised."
+  },
+  "thesisCriticalErrors": {
+    "count": "1 of 3",
+    "description": "Jesus died in 33 AD [Core] — directly sets the entire chronological cascade; the other two are Support-level imprecisions."
+  },
   "falseClaims": [
     {
+      "thesisCritical": true,
       "claim": "Jesus died in 33 AD",
       "rating": "Misleading · High Confidence",
       "confidence": "High",

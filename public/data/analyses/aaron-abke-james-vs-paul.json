@@ -35,6 +35,15 @@
   },
   "steelman": "The strongest version of the speakers' argument is that genuine theological tensions existed between Paul and the Jerusalem church (which mainstream scholarship confirms), that James 2:14-26 likely engages and corrects a (mis)application of Pauline faith-language (which many scholars accept), that Paul's letters reveal real conflicts with Jewish Christian authority figures that the book of Acts attempts to smooth over (which is widely acknowledged in critical scholarship), and that the parallels between specific James passages and Pauline formulations are real and noteworthy. The argument from silence regarding Paul's collection is a legitimate (if not conclusive) scholarly observation.",
   "steelmanProPaul": "Paul operated within a complex first-century context of Jewish and Gentile integration, adapting his message for different audiences as a missionary strategy, not deception. His theology of grace and faith was meant to complement, not abolish, ethical living (Galatians 5:6: 'faith working through love'). The apparent contradictions between Paul and James reflect different audiences and rhetorical situations rather than fundamental theological opposition. Paul's own statements affirming the law (Romans 3:31, 7:12, 13:8-10) undermine the one-dimensional reading of Paul as anti-law.",
+  "argumentType": "Textual / Historical — Intra-Canon Conflict",
+  "structuralVerdict": {
+    "status": "COMPROMISED",
+    "explanation": "The underlying claim — that genuine tensions existed between Paul and the Jerusalem church — has real scholarly support and is not falsified. What collapses are the speakers' most aggressive claims: that the schism was irreconcilable, that Acts unanimously covers up Paul's rejection, that Romans 3:7 shows Paul endorsing lying, and that E.P. Sanders called Paul 'completely unintelligible.' The thesis survives in its defensible form (James 2 likely engages a misapplication of Pauline faith-language) but is severely overstated. The 3-hour volume of claims, many misattributed, bloats the argument beyond what the evidence can support."
+  },
+  "thesisCriticalErrors": {
+    "count": "2 of 10",
+    "description": "Romans 3:7 read as Paul endorsing lying rather than rhetorical diatribe [Core], Acts unanimously recognized as pro-Paul apology — misrepresents the scholarly landscape [Core]"
+  },
   "falseClaims": [
     {
       "claim": "\"God is one\" appears only twice in the entire New Testament (Galatians 3:20 and James 2:19)",
@@ -71,6 +80,7 @@
       "category": "Support"
     },
     {
+      "thesisCritical": true,
       "claim": "Romans 3:7 shows Paul admitting to and justifying lying",
       "rating": "Misleading",
       "confidence": "High",
@@ -120,6 +130,7 @@
       "category": "Support"
     },
     {
+      "thesisCritical": true,
       "claim": "Acts is 'unanimously' recognized in scholarship as 'an apology for Paul'",
       "rating": "Misleading",
       "confidence": "Medium",

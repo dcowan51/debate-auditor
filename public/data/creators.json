@@ -12,9 +12,9 @@
       "Theology",
       "Nonduality"
     ],
-    "sessions": 7,
-    "totalClaims": 409,
-    "trueClaims": 217,
+    "sessions": 8,
+    "totalClaims": 425,
+    "trueClaims": 225,
     "cumulativeScore": 53,
     "verdict": "Unreliable",
     "corePositions": [
@@ -27,15 +27,17 @@
       "James rebuked Paul for 'faith alone'",
       "Paul and James are irreconcilable",
       "Paul was a Herodian 'deep state' agent who deceived early Christians",
-      "Jesus categorically opposed blood sacrifice; atonement was a metaphysical inversion of demonic blood ritual"
+      "Jesus categorically opposed blood sacrifice; atonement was a metaphysical inversion of demonic blood ritual",
+      "Lower codes (ego belief programs) are rewritten via muscle testing / Christ codes (MindScience track)"
     ],
     "notablePatterns": [
       "Scripture citations are largely accurate, but interpretive frameworks and doctrinal characterizations carry heavy error loads.",
       "Core thesis claims tend to be historically falsifiable and falsified.",
-      "Frequently employs Stratagem 11 (Induction with Concealed Counterexamples) — cites favorable proof texts while omitting contradicting passages from the same source.",
+      "Frequently employs Stratagem 11 (Induction with Concealed Counterexamples) \u2014 cites favorable proof texts while omitting contradicting passages from the same source.",
       "Multi-speaker conversations amplify conspiratorial framing ('deep state,' 'infiltration,' 'parasite class') absent from solo content.",
       "Commercial supplement claims integrated into theological content flow without evidence-quality distinction.",
-      "Cumulative trajectory: Caution (63%) → Unreliable (50%) → Unreliable (59%) → Unreliable (47%) → Unreliable (44%) → Caution (63%) → Caution (74%). Cumulative: 53%."
+      "MindScience track (separate cumulative chain): Caution (63%) \u2192 Unreliable (50%). MindScience cumulative: 56%.",
+      "Theological chain cumulative trajectory: Caution (63%) \u2192 Unreliable (50%) \u2192 Unreliable (59%) \u2192 Unreliable (47%) \u2192 Unreliable (44%) \u2192 Caution (63%) \u2192 Caution (74%). Site cumulative (8 sessions): 53%."
     ],
     "analyses": [
       "aaron-abke-session1",
@@ -44,8 +46,14 @@
       "aaron-abke-faith-alone",
       "aaron-abke-james-vs-paul",
       "aaron-abke-christianity-before-paul",
-      "aaron-abke-jesus-way-047"
-    ]
+      "aaron-abke-jesus-way-047",
+      "aaron-abke-mindscience047"
+    ],
+    "verdictDistribution": {
+      "intact": 0,
+      "compromised": 4,
+      "collapsed": 4
+    }
   },
   {
     "id": "wes-huff",
@@ -79,7 +87,12 @@
     "analyses": [
       "wes-huff-artifacts",
       "wes-huff-historicity"
-    ]
+    ],
+    "verdictDistribution": {
+      "intact": 2,
+      "compromised": 0,
+      "collapsed": 0
+    }
   },
   {
     "id": "james-tabor",
@@ -122,7 +135,12 @@
     "analyses": [
       "tabor-vegetarian",
       "tabor-dead-sea-scrolls"
-    ]
+    ],
+    "verdictDistribution": {
+      "intact": 1,
+      "compromised": 1,
+      "collapsed": 0
+    }
   },
   {
     "id": "dan-mcclellan",
@@ -155,12 +173,17 @@
       "Strong command of scholarly consensus on NT dating, genre, and manuscript evidence.",
       "Occasionally overstates the degree of scholarly unanimity on positions that favor his argument.",
       "Editorial opinions and characterizations of motive sometimes presented as factual claims.",
-      "Accurately distinguishes textual criticism from historical criticism — a key methodological point."
+      "Accurately distinguishes textual criticism from historical criticism \u2014 a key methodological point."
     ],
     "analyses": [
       "mcclellan-huff-scholarship",
       "mcclellan-face-of-god"
-    ]
+    ],
+    "verdictDistribution": {
+      "intact": 1,
+      "compromised": 1,
+      "collapsed": 0
+    }
   },
   {
     "id": "metaphysics-mike",
@@ -181,26 +204,31 @@
     "cumulativeScore": 47,
     "verdict": "Unreliable",
     "corePositions": [
-      "Biblical Unitarian / Oneness — God is strictly one person",
+      "Biblical Unitarian / Oneness \u2014 God is strictly one person",
       "Holy Spirit and Logos are extensions/modes of the Father, not distinct persons",
       "NT creation texts teach instrumental divine speech, not a personal pre-existent Christ",
       "Trinitarian readings are historically conditioned eisegesis",
-      "Trinitarian conspiracy thesis — manuscript variants deliberately altered"
+      "Trinitarian conspiracy thesis \u2014 manuscript variants deliberately altered"
     ],
     "notablePatterns": [
-      "Stratagem 11 (Concealed Counterexamples) repeated across both sessions — structural habit, not a one-time error.",
+      "Stratagem 11 (Concealed Counterexamples) repeated across both sessions \u2014 structural habit, not a one-time error.",
       "Sessions 1 and 2 produce identical Truth Scores (47%), confirming a stable pattern rather than an anomaly.",
       "NT Greek grammar claims asserted without citation, contradicting standard reference grammars (GKC, Wallace).",
       "Second Temple Jewish diversity consistently erased to present a falsely uniform messianic backdrop.",
       "Core errors cluster around claims unverifiable quickly by a lay audience (linguistics, Greek grammar, Jewish history).",
       "Inverts scholarly consensus on John 1:18; three of seven claimed variants unverifiable from standard critical apparatus.",
-      "Methodologically inconsistent — appeals to oldest manuscripts when convenient but argues against them when inconvenient.",
-      "Cumulative trajectory: Unreliable (47%) → Unreliable (47%). Cumulative: 47%."
+      "Methodologically inconsistent \u2014 appeals to oldest manuscripts when convenient but argues against them when inconvenient.",
+      "Cumulative trajectory: Unreliable (47%) \u2192 Unreliable (47%). Cumulative: 47%."
     ],
     "analyses": [
       "metaphysics-mike-trinity",
       "metaphysics-mike-7000-reasons"
-    ]
+    ],
+    "verdictDistribution": {
+      "intact": 0,
+      "compromised": 0,
+      "collapsed": 2
+    }
   },
   {
     "id": "nazarene-way",
@@ -232,12 +260,17 @@
     "notablePatterns": [
       "Consistent omission of counterevidence from cited sources (Passover lamb, fish miracles, 'son of God' affirmation).",
       "Repeated pejorative labeling of proto-orthodox Christianity ('pagan cult,' 'meth message').",
-      "Conflation of distinct scholarly categories (Gospel of Hebrews ≠ Gospel of Nazarenes ≠ Gospel of Ebionites).",
+      "Conflation of distinct scholarly categories (Gospel of Hebrews \u2260 Gospel of Nazarenes \u2260 Gospel of Ebionites).",
       "Hebrew/Aramaic linguistic errors presented with confidence."
     ],
     "analyses": [
       "nazarene-way-parable"
-    ]
+    ],
+    "verdictDistribution": {
+      "intact": 0,
+      "compromised": 0,
+      "collapsed": 1
+    }
   },
   {
     "id": "gavin-ortlund",
@@ -265,22 +298,27 @@
       "Church fathers show mixed but supportive evidence for scriptural primacy",
       "The church recognized the canon; it did not create it",
       "Early Christian worship was structurally simple: scripture, sermon, prayer, eucharist, giving",
-      "The Eucharist was central, weekly, and sacred — restricted to the baptized",
+      "The Eucharist was central, weekly, and sacred \u2014 restricted to the baptized",
       "Contemporary evangelicalism has drifted from historical norms on eucharistic frequency and sacredness"
     ],
     "notablePatterns": [
       "Exceptionally irenic tone; repeatedly steelmans opponents.",
       "Acknowledges weaknesses in own position (rare in this genre).",
-      "Consistently names and cites secondary sources (Ferguson, McGowan, Gonzalez) — unusual transparency for YouTube.",
+      "Consistently names and cites secondary sources (Ferguson, McGowan, Gonzalez) \u2014 unusual transparency for YouTube.",
       "High factual accuracy on textual and historical claims.",
       "Turns critique inward on his own tradition (evangelicalism).",
       "Very low stratagem count; primarily descriptive/pastoral rather than adversarial.",
-      "Cumulative trajectory: Reliable (89%) → Reliable (91%). Cumulative: 90%."
+      "Cumulative trajectory: Reliable (89%) \u2192 Reliable (91%). Cumulative: 90%."
     ],
     "analyses": [
       "gavin-ortlund-sola-scriptura",
       "gavin-ortlund-justin-martyr"
-    ]
+    ],
+    "verdictDistribution": {
+      "intact": 2,
+      "compromised": 0,
+      "collapsed": 0
+    }
   },
   {
     "id": "christspiracy",
@@ -315,14 +353,19 @@
       "Systematic omission of counterevidence from cited sources (gospels mention Passover lamb sacrifice in Last Supper preparation).",
       "Severe decontextualization of prophetic texts (Jeremiah 7:22).",
       "Garbled but real source citation (Phrynichus Arabius cited as 'Finicius Arabius') with selective omission of the source's own concession that opsarion meant fish in common usage.",
-      "Documentary promotion (Seaspiracy, Christspiracy) embedded in factual claims — financial incentive noted.",
+      "Documentary promotion (Seaspiracy, Christspiracy) embedded in factual claims \u2014 financial incentive noted.",
       "Core thesis claims carry the highest error load; background factual claims are largely accurate.",
-      "Cumulative trajectory: Unreliable (59%) → Unreliable (48%). Cumulative: 55%."
+      "Cumulative trajectory: Unreliable (59%) \u2192 Unreliable (48%). Cumulative: 55%."
     ],
     "analyses": [
       "christspiracy-gospel-catch",
       "christspiracy-passover-lamb"
-    ]
+    ],
+    "verdictDistribution": {
+      "intact": 0,
+      "compromised": 0,
+      "collapsed": 2
+    }
   },
   {
     "id": "mindshift",
@@ -354,18 +397,23 @@
       "Jesus endorsed slavery by analogy"
     ],
     "notablePatterns": [
-      "Strong pattern of decontextualization — stripping covenant-conditional language from judgment passages.",
+      "Strong pattern of decontextualization \u2014 stripping covenant-conditional language from judgment passages.",
       "Consistent use of emotionally charged language substitutions ('torture' for illness, 'sexual slavery' for captive marriage law).",
       "Generally accurate biblical citations with inaccurate contextual framing.",
       "Selective omission of Greek-language evidence that would complicate the argument.",
       "Reads texts at maximum literalness when it serves the critique, while dismissing contextual/scholarly nuance as 'excuses.'",
       "Preemptively dismisses counterarguments (e.g., Copan) without engaging them.",
-      "Cumulative trajectory: Unreliable (52%) → Caution (69%). Cumulative: 59%."
+      "Cumulative trajectory: Unreliable (52%) \u2192 Caution (69%). Cumulative: 59%."
     ],
     "analyses": [
       "mindshift-obj-morality",
       "mindshift-7-teachings"
-    ]
+    ],
+    "verdictDistribution": {
+      "intact": 0,
+      "compromised": 2,
+      "collapsed": 0
+    }
   },
   {
     "id": "david-hnotsari",
@@ -404,7 +452,12 @@
     ],
     "analyses": [
       "david-hnotsari-the-rock"
-    ]
+    ],
+    "verdictDistribution": {
+      "intact": 0,
+      "compromised": 0,
+      "collapsed": 1
+    }
   },
   {
     "id": "inspiring-philosophy",
@@ -440,13 +493,18 @@
       "Repeated use of 'plausible' without quantifying probability against alternatives.",
       "Dismissive framing of opposing views ('fable,' 'myth,' 'fairy tale').",
       "Acknowledges scholarly counterarguments fairly when directly engaged.",
-      "Cumulative trajectory: Reliable (87%) → Caution (64%) → Reliable (91%). Cumulative: 80%."
+      "Cumulative trajectory: Reliable (87%) \u2192 Caution (64%) \u2192 Reliable (91%). Cumulative: 80%."
     ],
     "analyses": [
       "inspiring-philosophy-nicaea",
       "inspiring-philosophy-damascus",
       "inspiring-philosophy-paul-conversion"
-    ]
+    ],
+    "verdictDistribution": {
+      "intact": 2,
+      "compromised": 1,
+      "collapsed": 0
+    }
   },
   {
     "id": "christopher-sartain",
@@ -475,16 +533,21 @@
     ],
     "notablePatterns": [
       "Heavy reliance on Kloppenborg as singular authority; circular reasoning in Q dating argument.",
-      "Factual overclaiming on Nazareth archaeology — directly contradicted by Ken Dark's 2006–2021 excavations.",
-      "Decontextualized reading of 1 Cor 11:23's paralambanō formula, which is standard received-tradition vocabulary.",
+      "Factual overclaiming on Nazareth archaeology \u2014 directly contradicted by Ken Dark's 2006\u20132021 excavations.",
+      "Decontextualized reading of 1 Cor 11:23's paralamban\u014d formula, which is standard received-tradition vocabulary.",
       "Consistent Chicago footnote discipline and genuine engagement with peer-reviewed sources distinguish this paper from popular-level theology.",
       "Counter-position engagement is present (Goodacre mentioned) but systematically insufficient.",
-      "Academic Standards Modifier of −8.5% applied: missing institutional affiliation, instructor, abstract, and formal literature review.",
+      "Academic Standards Modifier of \u22128.5% applied: missing institutional affiliation, instructor, abstract, and formal literature review.",
       "Cumulative trajectory: Unreliable (57%). Cumulative: 57%."
     ],
     "analyses": [
       "sartain-q-source"
-    ]
+    ],
+    "verdictDistribution": {
+      "intact": 0,
+      "compromised": 1,
+      "collapsed": 0
+    }
   },
   {
     "id": "kipp-davis",
@@ -515,11 +578,102 @@
       "Notable irony: cites Leviticus 21 instead of 18/20 in a video critiquing McDowell's textual precision.",
       "'Same fragment' claim connecting P137 to McDowell's 2013 mask event is the most under-evidenced claim in the video.",
       "Minor lapses into loaded language ('hoax,' 'mythmaking') where evidence supports only 'embellishment.'",
-      "Positions himself as a personal witness (attended same conferences, knows the scholars) — adds credibility but introduces advocacy framing.",
+      "Positions himself as a personal witness (attended same conferences, knows the scholars) \u2014 adds credibility but introduces advocacy framing.",
       "Cumulative trajectory: Caution (74%). Cumulative: 74%."
     ],
     "analyses": [
       "kipp-davis-mcdowell-manuscript"
-    ]
+    ],
+    "verdictDistribution": {
+      "intact": 0,
+      "compromised": 1,
+      "collapsed": 0
+    }
+  },
+  {
+    "id": "cj-cornthwaite",
+    "name": "C.J. Cornthwaite",
+    "channel": "YouTube",
+    "platform": "YouTube",
+    "avatarColor": "#a29bfe",
+    "initials": "CJ",
+    "topics": [
+      "Pauline Studies",
+      "Resurrection",
+      "Early Christianity",
+      "New Testament Criticism",
+      "Septuagint"
+    ],
+    "sessions": 1,
+    "totalClaims": 29,
+    "trueClaims": 21,
+    "cumulativeScore": 72,
+    "verdict": "Caution",
+    "corePositions": [
+      "\u014dphth\u0113 in 1 Corinthians 15 indicates Paul meant visionary, not physical resurrection appearances",
+      "Pneumatikos body in Paul \u2260 physicalism; scholars are split on this",
+      "Resurrection was not central to all early Christianity \u2014 it was Pauline and spread via Marcion",
+      "Gospel resurrection accounts are irreconcilable",
+      "Scribal interference shaped resurrection texts over time"
+    ],
+    "notablePatterns": [
+      "Minority scholarly positions (L\u00fcdemann, Vinzent) presented with high confidence as if mainstream; majority positions (Wright, Hurtado, Thiselton) not disclosed.",
+      "Repeated homonymy on pneuma-language \u2014 pneumatikos soma in Paul treated as equivalent to pneuma (ghost) in Luke 24, which does not survive close reading.",
+      "Dismissal of resurrection apologetics by mockery ('nonsense') rather than engagement; both Habermas and Wright engage precisely the LXX and Pauline texts Cornthwaite discusses.",
+      "Background and contextual claims are highly accurate; both confirmed errors are core-level premises bearing most heavily on his thesis.",
+      "Cumulative trajectory: Caution (72%). Cumulative: 72%."
+    ],
+    "analyses": [
+      "cj-cornthwaite-5-questions-resurrection"
+    ],
+    "verdictDistribution": {
+      "intact": 0,
+      "compromised": 1,
+      "collapsed": 0
+    }
+  },
+  {
+    "id": "dallas-cowan",
+    "name": "Dallas Cowan",
+    "channel": "YouTube",
+    "platform": "YouTube",
+    "avatarColor": "#00b894",
+    "initials": "DC",
+    "topics": [
+      "Pauline Studies",
+      "Anti-Paulinism Critique",
+      "Galatians",
+      "New Testament Exegesis",
+      "Acts"
+    ],
+    "sessions": 2,
+    "totalClaims": 63,
+    "trueClaims": 56,
+    "cumulativeScore": 89,
+    "verdict": "Reliable",
+    "corePositions": [
+      "Acts 1 criteria are a Judas replacement, not a universal standard disqualifying Paul",
+      "Luke's authorship of both Acts 1 and Acts 9 makes the disqualification argument self-defeating",
+      "Paul explicitly cites Jesus on divorce (1 Corinthians 7:10-11, 'not I but the Lord')",
+      "Abke omitted Galatians 2:7-8, 10, and 14 \u2014 suppressing mutual recognition and Paul's actual argument",
+      "Paul and Jesus teach the same salvation logic: law exposes sin, Christ fulfills it, works flow from grace",
+      "Matthew 26:28 places blood atonement on Jesus's own lips \u2014 ruling out the Pauline-invention framing"
+    ],
+    "notablePatterns": [
+      "Consistent strength in primary-text exegesis \u2014 claims checked against the biblical text are almost uniformly accurate across both sessions.",
+      "Citation slips are the recurring weak point: Session 1 ('years around these guys' overstates the relationship with Jerusalem leaders); Session 2 ('Acts 11:15' for Acts 1:15).",
+      "Rhetorical pre-framing appears at the start of each video before the argument begins: Session 1 narcissism label; Session 2 God-trust vs. self-trust binary. Both directly contradict the speaker's stated goal of accuracy over advocacy.",
+      "Core exegetical arguments carry near-zero false weighted points; error impact is dominated by rhetorical moves, not factual failures.",
+      "Cumulative trajectory: Reliable (80%) \u2192 Reliable (93%). Cumulative: 89%."
+    ],
+    "analyses": [
+      "dallas-cowan-abke-galatians2",
+      "dallas-cowan-abke-paul-vs-jesus"
+    ],
+    "verdictDistribution": {
+      "intact": 2,
+      "compromised": 0,
+      "collapsed": 0
+    }
   }
 ]
