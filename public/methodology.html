@@ -211,6 +211,7 @@
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
       <li><a href="videos.html">Analyses</a></li>
+      <li><a href="patterns.html">Patterns</a></li>
       <li><a href="methodology.html" class="active">Methodology</a></li>
       <li><a href="suggest.html">Suggest</a></li>
     </ul>
@@ -237,7 +238,7 @@
   <a href="#scoring">Scoring Formula</a>
   <a href="#verdicts">Verdicts</a>
   <a href="#weighting">Claim Weighting</a>
-  <a href="#stratagems">Stratagems</a>
+  <a href="#rhetorical-tricks">Rhetorical Tricks</a>
   <a href="#threshold">Threshold Rules</a>
   <a href="#sources">Source Hierarchy</a>
   <a href="#not-scored">What We Don't Score</a>
@@ -282,15 +283,15 @@
     <div class="step">
       <div class="step-num">5</div>
       <div class="step-body">
-        <h4>Stratagem Detection</h4>
-        <p>We identify rhetorical techniques that mislead without technically lying — cherry-picking, false dilemmas, loaded framing, equivocation. These are mapped to Schopenhauer's 38 stratagems, a documented taxonomy of argumentative misdirection.</p>
+        <h4>Rhetorical Trick Detection</h4>
+        <p>We identify persuasion techniques that mislead without technically lying — cherry-picking, false dilemmas, loaded framing, equivocation. These are mapped to Schopenhauer's 38 documented debate tactics. A speaker can use these even when their claims are true.</p>
       </div>
     </div>
     <div class="step">
       <div class="step-num">6</div>
       <div class="step-body">
-        <h4>Steelman Construction</h4>
-        <p>We write the strongest possible version of the speaker's argument — the version a fair and knowledgeable advocate would make. This protects against strawmanning and is published alongside every analysis.</p>
+        <h4>Strongest Counterargument</h4>
+        <p>We write the strongest possible version of the speaker's argument — the version a fair and knowledgeable supporter would make. This keeps us honest and is published with every analysis so you can see we engaged the best case, not a weak version of it.</p>
       </div>
     </div>
     <div class="step">
@@ -344,7 +345,7 @@
 <section class="method-section" id="scoring">
   <div class="method-label">The Math</div>
   <h2>Scoring Formula</h2>
-  <p>The Truth Score is calculated from checkable claims only. Disputed claims and non-checkable claims are set aside. The formula is straightforward and applied the same way to every video.</p>
+  <p>The Accuracy Score is calculated from checkable claims only. Disputed claims and non-checkable claims are set aside. The formula is straightforward and applied the same way to every video.</p>
 
   <div class="formula-box" style="margin-bottom:20px">
     <div class="formula"><span>True Claims</span> ÷ <span>Total Checkable Claims</span> × 100 = <span>Session Score</span></div>
@@ -384,8 +385,27 @@
 <section class="method-section" id="verdicts">
   <div class="method-label">Score Bands</div>
   <h2>Verdicts</h2>
-  <p>Every session score and cumulative score maps to one of three verdicts. These thresholds are fixed and apply to every creator and every video without exception.</p>
+  <p>Every analysis produces two types of verdict. The structural verdict comes first because it answers the most important question: does the main argument survive? The accuracy score gives you the supporting detail.</p>
 
+  <div class="m-card" style="border-left:3px solid var(--accent-light);margin-bottom:24px">
+    <h3 style="margin-bottom:16px">Structural Verdict — The Primary Signal</h3>
+    <div style="display:grid;gap:12px">
+      <div style="display:flex;align-items:start;gap:14px">
+        <span style="padding:4px 14px;border-radius:6px;font-size:0.72rem;font-weight:800;letter-spacing:0.06em;background:rgba(0,206,201,0.15);color:var(--green);white-space:nowrap;margin-top:2px">INTACT</span>
+        <p style="font-size:0.85rem;color:var(--text-muted);margin:0;line-height:1.6">The main argument holds up. Even if there are errors, none of them damage the central thesis. The speaker's core point survived fact-checking.</p>
+      </div>
+      <div style="display:flex;align-items:start;gap:14px">
+        <span style="padding:4px 14px;border-radius:6px;font-size:0.72rem;font-weight:800;letter-spacing:0.06em;background:rgba(225,112,85,0.15);color:var(--orange);white-space:nowrap;margin-top:2px">COMPROMISED</span>
+        <p style="font-size:0.85rem;color:var(--text-muted);margin:0;line-height:1.6">The argument has real problems. Some errors touch the core claim, weakening the thesis — but not fully collapsing it. Engage with caution.</p>
+      </div>
+      <div style="display:flex;align-items:start;gap:14px">
+        <span style="padding:4px 14px;border-radius:6px;font-size:0.72rem;font-weight:800;letter-spacing:0.06em;background:rgba(255,118,117,0.15);color:var(--red-light);white-space:nowrap;margin-top:2px">COLLAPSED</span>
+        <p style="font-size:0.85rem;color:var(--text-muted);margin:0;line-height:1.6">The main argument fails. The central thesis depends on claims that don't hold up. A decent accuracy score can coexist with a COLLAPSED verdict — which is why we show both.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="method-label" style="margin-bottom:12px">Accuracy Score Bands</div>
   <div class="m-grid-3" style="margin-bottom:20px">
     <div class="verdict-card reliable">
       <div class="verdict-score">80%+</div>
@@ -416,7 +436,7 @@
 <section class="method-section" id="weighting">
   <div class="method-label">Not All Claims Are Equal</div>
   <h2>Claim Weighting</h2>
-  <p>The session score is based on simple true ÷ total arithmetic. But we also run a separate <strong>Error Impact</strong> calculation — a weighted analysis that assesses how much the errors damage the video's core argument. This appears in every full report but does not replace the primary score.</p>
+  <p>The session score is based on simple true ÷ total arithmetic. But we also run a separate <strong>Weighted Error</strong> calculation — a weighted analysis that shows how much the errors damage the video's core argument. This appears in every full report but does not replace the primary score. Errors on core claims count more than errors on background details.</p>
 
   <div class="m-card" style="margin-bottom:16px">
     <div class="weight-row">
@@ -436,19 +456,24 @@
   </div>
 
   <div class="formula-box">
-    <div class="formula" style="font-size:1rem">Error Impact = <span>Weighted False Points</span> ÷ <span>Total Weighted Points</span> × 100</div>
-    <p style="font-size:0.82rem;color:var(--text-muted);margin:0">Error Impact ≥ 35% flags the content as misleading overall, even if the raw claim count looks better.</p>
+    <div class="formula" style="font-size:1rem">Weighted Error = <span>Weighted False Points</span> ÷ <span>Total Weighted Points</span> × 100</div>
+    <p style="font-size:0.82rem;color:var(--text-muted);margin:0">Weighted Error ≥ 35% flags the content as misleading overall, even if the raw accuracy score looks acceptable.</p>
+  </div>
+
+  <div class="m-card" style="margin-top:16px;border-left:3px solid var(--red-light)">
+    <h3 style="color:var(--red-light)">Load-Bearing Errors</h3>
+    <p>A load-bearing error is a false claim the main argument cannot survive without. Remove it, and the thesis collapses. These are flagged separately in every analysis — they're the most serious finding we can make, regardless of what the accuracy score shows.</p>
   </div>
 </section>
 
 <hr class="method-divider">
 
-<!-- 6. Stratagems -->
-<section class="method-section" id="stratagems">
+<!-- 6. Rhetorical Tricks -->
+<section class="method-section" id="rhetorical-tricks">
   <div class="method-label">Rhetorical Techniques</div>
-  <h2>Schopenhauer's 38 Stratagems</h2>
-  <p>Factual accuracy is only part of the picture. A speaker can be technically accurate while constructing a deeply misleading argument through selective framing, false dilemmas, or equivocation. We track these using Arthur Schopenhauer's <em>The Art of Being Right</em> — a 19th-century taxonomy of argumentative misdirection that maps cleanly onto modern online rhetoric.</p>
-  <p>Stratagems are noted and explained in every full report. They are not factored into the numerical score but are disclosed so audiences can evaluate the argument's structure, not just its data.</p>
+  <h2>Rhetorical Tricks</h2>
+  <p>Factual accuracy is only part of the picture. A speaker can be technically accurate and still build a misleading argument through selective framing, false dilemmas, or equivocation. We track these using Arthur Schopenhauer's <em>The Art of Being Right</em> — a 19th-century catalog of 38 argumentative tactics that map directly onto how online content misleads today.</p>
+  <p>Rhetorical tricks are noted and explained in every full report. They don't factor into the numerical score, but they're disclosed so you can evaluate the argument's structure — not just its data. A speaker can be right about the facts and still use tricks to argue for them.</p>
 
   <div class="stratagem-grid">
     <div class="stratagem-item">
@@ -603,7 +628,7 @@
     </div>
     <div class="not-scored-item">
       <div class="x-icon">✕</div>
-      <p><strong style="color:var(--text)">Editorial opinions and rhetorical framing.</strong> A speaker calling a position "absurd" or "obvious" is expressing an opinion, not a factual claim. These are flagged as weasel-words or stratagems where relevant, but they don't count in the score.</p>
+      <p><strong style="color:var(--text)">Editorial opinions and rhetorical framing.</strong> A speaker calling a position "absurd" or "obvious" is expressing an opinion, not a factual claim. These are flagged as vague language or rhetorical tricks where relevant, but they don't count in the score.</p>
     </div>
   </div>
 
@@ -634,8 +659,8 @@
         <li>Reads the full transcript and extracts every checkable claim</li>
         <li>Checks claims against documented sources in a consistent order</li>
         <li>Applies the scoring protocol identically regardless of the speaker's position</li>
-        <li>Identifies rhetorical stratagems using Schopenhauer's taxonomy</li>
-        <li>Writes a steelman of the speaker's best argument</li>
+        <li>Identifies rhetorical tricks using Schopenhauer's 38-tactic taxonomy</li>
+        <li>Writes the strongest counterargument for the speaker's position</li>
         <li>Documents every source used for every verdict</li>
       </ul>
     </div>
