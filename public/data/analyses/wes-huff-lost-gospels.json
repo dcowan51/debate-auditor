@@ -1,0 +1,213 @@
+{
+  "id": "wes-huff-lost-gospels",
+  "creatorId": "wes-huff",
+  "creatorName": "Wes Huff",
+  "channel": "@WesHuff",
+  "videoTitle": "Why Were the Lost Gospels Missing from the Bible?",
+  "datePublished": "Unknown (church/conference talk)",
+  "dateAnalyzed": "2026-04-07",
+  "sessionNumber": 4,
+  "analyzedRange": "0:00–39:13",
+  "thesis": "The 'Lost Gospels' (Gnostic and other apocryphal texts) were never credible candidates for the biblical canon; the four canonical gospels are the only documents that reliably connect to the historical Jesus and were recognized as authoritative by the earliest Christian communities.",
+  "dashboard": {
+    "sessionScore": 77,
+    "cumulativeScore": 83,
+    "cumulativeSessions": 4,
+    "trueClaims": 23,
+    "falseMisleading": 2,
+    "disputed": 5,
+    "totalChecked": 30,
+    "confidence": "Medium",
+    "verdict": "Caution",
+    "stratagems": 4,
+    "weaselWords": 5,
+    "errorImpact": 13.0
+  },
+  "steelman": "Mainstream historiography supports the priority of the four canonical gospels. Matthew, Mark, Luke, and John demonstrably pre-date the Gnostic texts by at least a century, are closer in time and geography to the historical Jesus, and were consistently identified as authoritative by independent early church witnesses across different regions. Even secular historians of early Christianity generally acknowledge that the Gnostic gospels reflect later theological developments rather than first-century Palestinian tradition. Huff's onomastic argument (drawing on Bauckham) adds a concrete, data-driven layer to this case.",
+  "argumentType": "Apologetic / Historical-Critical Hybrid",
+  "structuralVerdict": {
+    "status": "INTACT",
+    "explanation": "Neither false claim functions as the single load-bearing premise that, if removed, collapses the entire argument. The teacher-withering misattribution is an illustrative example (wrong apocryphal text cited, not wrong genre); the Gnostic-origins characterization is background framing, not the thesis-critical pillar. The core argument — apostolicity, orthodoxy, catholicity criteria; onomastic evidence; patristic testimony — survives fact-check and aligns with mainstream conservative NT scholarship."
+  },
+  "thesisCriticalErrors": {
+    "count": "0 of 2",
+    "description": "Both errors are illustrative or framing material, not load-bearing to the central canonical argument. The teacher-withering story is cited from the wrong apocryphal text (Infancy Gospel of Thomas, not Protevangelium of James), but the illustrative point about fantastical Gnostic content stands. The 'Eastern Pagan Mystics' framing is inaccurate background characterization but does not affect the apostolicity, orthodoxy, catholicity argument."
+  },
+  "falseClaims": [
+    {
+      "claim": "The Infancy Narrative of James contains a story where a child Jesus caused his teacher to wither on the spot for reprimanding him in class.",
+      "rating": "Likely False",
+      "confidence": "High",
+      "timestamp": "0:02:18",
+      "evidence": "The teacher-withering story is found in the Infancy Gospel of Thomas (chapters 14–15), not in the Protevangelium of James. These are two completely distinct apocryphal texts. The Protevangelium of James focuses on Mary's birth, childhood, and the nativity; it contains no such episode.",
+      "settle": "A direct page citation from the Protevangelium of James demonstrating this story exists there. No such citation is possible; the story is absent.",
+      "sources": [
+        {
+          "label": "Infancy Gospel of Thomas — New Advent",
+          "url": "https://www.newadvent.org/fathers/0846.htm"
+        },
+        {
+          "label": "Infancy Gospel of Thomas — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Infancy_Gospel_of_Thomas"
+        },
+        {
+          "label": "Protevangelium of James — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gospel_of_James"
+        }
+      ],
+      "category": "Support"
+    },
+    {
+      "claim": "Gnostics were 'Eastern Pagan Mystics who came into the Christian areas in the 2nd century.'",
+      "rating": "Misleading",
+      "confidence": "Medium-High",
+      "timestamp": "0:22:06",
+      "evidence": "Current scholarly consensus (Pearson, DeConick, King, Layton) emphasizes that Gnosticism likely developed within Jewish and early Christian contexts, drawing on Jewish mystical traditions, Platonic philosophy, and Christian theological reflection — not from an external Eastern pagan source. No clearly pre-Christian Gnostic texts have been identified. The 'Eastern pagan outsiders' framing misrepresents the scholarly landscape.",
+      "settle": "A peer-reviewed monograph demonstrating Gnosticism's origins as external Eastern paganism independent of Jewish or Christian soil. This does not currently exist.",
+      "sources": [
+        {
+          "label": "Gnosticism — Internet Encyclopedia of Philosophy",
+          "url": "https://iep.utm.edu/gnostic/"
+        },
+        {
+          "label": "Gnosticism — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gnosticism"
+        }
+      ],
+      "category": "Core"
+    }
+  ],
+  "stratagems": [
+    {
+      "number": 28,
+      "name": "Argumentum ad Auditores",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "I want you to think about how you would react to that if someone came to you and they relayed that type of information how would you give an apologetic how would you give an answer for the reason for the hope you have.",
+          "timestamp": "0:02:47",
+          "explanation": "Before offering any counter-evidence, Huff frames the audience as personally vulnerable to the BBC documentary's claims. By positioning the viewer as a defender who needs an answer, he creates emotional investment in his rebuttal before any critical analysis has occurred. This primes the audience to receive his arguments as protective rather than to weigh them neutrally."
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "name": "Motive / Source Dismissal by Association",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "chief of which is that scholarly piece of work — like I said this morning, maybe a piece of something else — not scholarly — called the Da Vinci Code, because it highlights this idea right, that there were these other gospels.",
+          "timestamp": "0:03:36",
+          "explanation": "Huff places the BBC documentary's narrative in rhetorical proximity to The Da Vinci Code (a pop fiction novel). He signals his view that the BBC's position is no more credible than Brown's novel without directly engaging the strongest version of the historical argument the documentary makes. This discredits the position by association rather than by refutation."
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "name": "Argumentum ad Verecundiam / One-Sided Authority",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "FF Bruce a new testament scholar and historian put it this way... New Testament scholar Michael Krueger puts it this way...",
+          "timestamp": "0:15:28",
+          "explanation": "Huff cites exclusively sympathetic scholars — Bruce, Kruger, Irenaeus, Theophilus of Antioch — without engaging or acknowledging major scholars who challenge aspects of his narrative (Elaine Pagels, Bart Ehrman, James Robinson, Helmut Koester). The omission is structurally important: audiences unfamiliar with the field would not know that significant peer-reviewed scholarship disputes the 'no confusion about the canon' narrative Huff presents."
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "name": "Retorsion / Reframing the Question",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "he's asking the wrong question... what are the books that get us to Jesus because they aren't those — the only books that get you to Jesus are Matthew Mark Luke and John full stop.",
+          "timestamp": "0:38:40",
+          "explanation": "Huff closes by declaring the BBC documentary's central question ('were there other books about Jesus?') to be categorically the wrong question and substitutes his own ('what books get us to Jesus?'). This forecloses engagement with the genuine historiographical question — how did the canon come to be recognized — by replacing it with a question he has already answered on his own terms."
+        }
+      ]
+    }
+  ],
+  "scholarlySplits": [
+    {
+      "claim": "Simon is the single most popular Jewish male name in 1st-century Palestine",
+      "nature": "Bauckham (drawing on Ilan) places Simon and Joseph as the two most common names — calling Simon alone '#1' simplifies the data. Both are jointly the most common names depending on counting method.",
+      "timestamp": "0:31:25"
+    },
+    {
+      "claim": "The extra-canonical gospels reflect '4th-century Egypt' naming conventions",
+      "nature": "Most Gnostic texts are dated 2nd–3rd century, not exclusively 4th century. The onomastic argument (Bauckham) is valid in principle; assigning all to '4th-century Egypt' overstates the temporal and geographical uniformity.",
+      "timestamp": "0:32:28"
+    },
+    {
+      "claim": "God was 'silent' for approximately 400 years between Malachi and John the Baptist",
+      "nature": "'400 years' is a conventional evangelical approximation; Malachi is dated ~430–450 BC, giving a ~460-year gap. Scholars also debate whether intertestamental texts constitute a 'silence.'",
+      "timestamp": "0:08:55"
+    },
+    {
+      "claim": "More than 20 gospels, 15 apocalypses, and nearly 50 other texts about Jesus existed in the first 400 years",
+      "nature": "Counts depend heavily on how one defines 'gospel,' 'apocalypse,' and 'text about Jesus.' Numbers are plausible approximations sourced from the BBC documentary, not a single definitive scholarly inventory.",
+      "timestamp": "0:01:07"
+    },
+    {
+      "claim": "The early church was 'not confused' about which gospels belonged in the canon",
+      "nature": "Mainstream conservative scholarship (Kruger, Metzger) supports this; scholars like Ehrman and Pagels point to genuine diversity and debate in early Christianity. There were documented debates (Eusebius records disputed books), though these debates did not typically involve the four gospels themselves.",
+      "timestamp": "0:12:34"
+    }
+  ],
+  "trueClaims": [
+    "The Nag Hammadi discovery occurred in 1945 in Upper Egypt, by locals searching for fertilizer",
+    "'Canon' derives from Greek, meaning 'rule' or 'list'",
+    "'Apocrypha' derives from Greek meaning 'hidden, obscure, or secret'",
+    "Irenaeus argued for exactly four gospels based on four zones, four winds, and the four-faced cherubim",
+    "Irenaeus named Matthew, Mark, Luke, and John as the four canonical gospels",
+    "Theophilus of Antioch stated prophets and gospel authors both spoke inspired by one Spirit of God",
+    "Theophilus of Antioch explicitly names John as a gospel author",
+    "Irenaeus condemned the Gospel of Thomas as heretical and without credibility",
+    "The FF Bruce quote on canonical authority preceding formal canonization is accurately rendered",
+    "The three canonicity criteria — Apostolicity, Orthodoxy, Catholicity — are the standard scholarly formulation",
+    "The Gospel of Thomas is a collection of 114 sayings, not a narrative gospel",
+    "Gospel of Thomas Saying 114 is accurately quoted",
+    "The Gospel of Thomas fails the apostolicity criterion — dated mid–late 2nd century, after Thomas's death",
+    "The Gospel of Peter contains a docetic resurrection narrative with an oversized Jesus, talking cross, and angelic escort",
+    "Docetism derives from the Greek word for 'to seem'",
+    "Women as first witnesses supports resurrection historicity via the criterion of embarrassment",
+    "The name-distribution study of Palestinian Jews (330 BC–200 AD) is Richard Bauckham's onomastic argument",
+    "The disambiguator pattern in the Gospels reflects the real need to distinguish common names",
+    "The biblical gospels exhibit 'formal anonymity' — they do not emphasize the author's personal credibility",
+    "Luke states in his preface that he is not an eyewitness but is interviewing eyewitnesses",
+    "First-century Judaism was fundamentally covenantal",
+    "The Gnostic gospels used pseudepigraphy — attaching apostles' names to gain credibility",
+    "Huff's rebuttal of Ariel Sabar's Constantine-canon narrative is largely correct — canon recognition predated Constantine"
+  ],
+  "weightedAnalysis": {
+    "categories": [
+      {
+        "name": "Core",
+        "claims": 8,
+        "weight": 3,
+        "trueWeighted": 21,
+        "falseWeighted": 3,
+        "disputedWeighted": 0
+      },
+      {
+        "name": "Support",
+        "claims": 9,
+        "weight": 2,
+        "trueWeighted": 16,
+        "falseWeighted": 2,
+        "disputedWeighted": 0
+      },
+      {
+        "name": "Background",
+        "claims": 13,
+        "weight": 1,
+        "trueWeighted": 11,
+        "falseWeighted": 2,
+        "disputedWeighted": 0
+      }
+    ],
+    "errorImpact": 13.0,
+    "interpretation": "At ~13%, this session places above the 10% threshold — usable with verification; approaching secondary-use territory. Errors cluster in illustrative and framing material rather than in Huff's core historical-canonicity argument. The central thesis survives the factual errors intact."
+  },
+  "videoUrl": null
+}

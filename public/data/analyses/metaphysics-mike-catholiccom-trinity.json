@@ -1,0 +1,197 @@
+{
+  "id": "metaphysics-mike-catholiccom-trinity",
+  "creatorId": "metaphysics-mike",
+  "creatorName": "Metaphysics Mike",
+  "channel": "@metaphysicsmike",
+  "videoTitle": "Catholic.com Thinks All Early Christians Had The \"Same\" Trinity!",
+  "datePublished": "Unknown",
+  "dateAnalyzed": "2026-04-07",
+  "sessionNumber": 3,
+  "analyzedRange": "0:00–10:45",
+  "thesis": "Catholic.com's claim that earliest Christians understood the Father, Son, and Holy Spirit in the same sense as today is false; the patristic writers it cites actually held subordinationist positions at variance with post-Nicene Trinitarian orthodoxy.",
+  "dashboard": {
+    "sessionScore": 88,
+    "cumulativeScore": 61,
+    "cumulativeSessions": 3,
+    "trueClaims": 28,
+    "falseMisleading": 2,
+    "disputed": 2,
+    "totalChecked": 32,
+    "confidence": "Medium",
+    "verdict": "Reliable",
+    "stratagems": 4,
+    "weaselWords": 3,
+    "errorImpact": 5.0
+  },
+  "steelman": "The most charitable reading of Mike's argument: The Catholic.com article relies on patristic writers who, when their full theological context is examined, held that the Father is the source and supreme deity and the Son is derivative or subordinate — a position inconsistent with the co-equal, co-eternal, consubstantial formulation of post-Nicene orthodoxy. Using those writers as evidence that 'all early Christians understood the Trinity as we do today' therefore constitutes anachronism, and the quotes the article provides actually demonstrate the opposite of its thesis.",
+  "argumentType": "Historical / Patristic",
+  "structuralVerdict": {
+    "status": "INTACT",
+    "explanation": "The subordinationist characterizations of Justin, Irenaeus, Tertullian, and Origen are largely supported by genuine primary source quotations. The Catholic.com approach is demonstrably anachronistic. The two errors — a misidentification of the Eusebian variant and an overclaim about Justin's position on the Logos — do not affect the central argument. All 8 core claims are true; 0 core false claims detected."
+  },
+  "thesisCriticalErrors": {
+    "count": "0 of 2",
+    "description": "Both false/misleading claims are support or background level. The Eusebius variant error (claiming it reads 'in the name of the Son' when it actually reads 'in my name') is peripheral to whether the patristic writers held subordinationist views. The Justin Martyr Logos claim is an overstatement but does not change that Justin's explicit quotations support the subordinationist argument."
+  },
+  "falseClaims": [
+    {
+      "claim": "Eusebius (a church historian who signed the Nicene Creed) quotes Matthew 28:19 as being 'only in the name of the Son.'",
+      "rating": "Misleading",
+      "confidence": "Medium",
+      "timestamp": "1:35",
+      "evidence": "The Eusebian variant documented by scholars (especially Conybeare, 1901) is 'in my name' (first person, referring to Jesus), not 'in the name of the Son.' Mike misidentifies the specific variant. Additionally, Eusebius cited the full triadic formula in other writings, and all extant Greek manuscripts of Matthew 28:19 contain the traditional triadic reading.",
+      "settle": "Direct comparison of Mike's claim against the Eusebian passages in Historia Ecclesiastica and the Demonstration of the Gospel.",
+      "sources": [
+        {
+          "label": "Matthew 28:19 textual criticism — BiblicalUnitarian.com",
+          "url": "https://en.wikipedia.org/wiki/Matthew_28:19"
+        },
+        {
+          "label": "Eusebius of Caesarea — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Eusebius"
+        }
+      ],
+      "category": "Support"
+    },
+    {
+      "claim": "For Justin it was imperative that the Logos was not God, because that defeats the whole purpose of the Logos to mediate between God and the world.",
+      "rating": "Misleading",
+      "confidence": "Medium",
+      "timestamp": "5:50",
+      "evidence": "Justin Martyr explicitly calls the Logos 'another God' (Dialogue with Trypho 56) and attributes genuine divinity to him. Justin's subordinationism concerns the Logos's derivative and secondary rank relative to the Father, not a denial of divine status. Justin's Logos is divine and mediates precisely because of that divine status, not in spite of it.",
+      "settle": "A direct reading of Justin's First Apology 13 and Dialogue with Trypho 56–62 in full context.",
+      "sources": [
+        {
+          "label": "Justin Martyr, Dialogue with Trypho 56 — CCEL",
+          "url": "https://www.ccel.org/ccel/schaff/anf01.viii.iv.lvi.html"
+        },
+        {
+          "label": "Justin Martyr — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Justin_Martyr"
+        }
+      ],
+      "category": "Background"
+    }
+  ],
+  "stratagems": [
+    {
+      "number": 12,
+      "name": "Extension / Straw Man",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "they argue that the earliest Christians understood the father Son and Holy Spirit in the same sense that we do today",
+          "timestamp": "0:15 / 10:07",
+          "explanation": "Mike frames Catholic.com's argument as claiming full doctrinal identity between pre-Nicene and post-Nicene Trinitarian theology. Without access to the actual article, it is plausible that Catholic.com was making a more modest claim: that the same three persons are invoked and the basic relational structure is continuous, not that the patristic writers anticipated every Nicene and Chalcedonian formulation. By inflating the claim to 'exactly the same sense,' Mike creates a version of the argument that is easier to defeat."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "name": "Induction with Concealed Counterexamples",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "Tertullian was the first to use the word Trinity he does say that they are three but not in being... aka the guy who first used the word Trinity was not an orthodox trinitarian",
+          "timestamp": "6:54 / 7:23",
+          "explanation": "Mike correctly quotes Tertullian's subordinationist language from Against Praxeas but omits a structurally important fact: Against Praxeas was written precisely to defend a proto-Trinitarian position against modalism (the view that Father, Son, and Spirit are mere modes of one person). Tertullian's document is an argument FOR the real distinction of Father, Son, and Spirit. Similarly, Mike notes Irenaeus's subordinationist-sounding language without disclosing that patristic scholars dispute the subordinationist label for Irenaeus."
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "name": "Ridicule / Contempt",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "[Laughter for approximately 7 seconds] ... congratulations you played yourself",
+          "timestamp": "0:24–0:31 / 10:07",
+          "explanation": "Mike's extended laughter at Catholic.com's thesis, followed by 'congratulations you played yourself,' deploys contempt in place of engagement. The laughter precedes any actual analysis, priming the audience to view the opposing argument as obviously absurd before evidence is examined. This is consistent with the rhetorical strategy documented in Sessions 1 and 2."
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "name": "Ad Hominem",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "I'm not sure these people are even ready to have an honest conversation about what these texts do or do not reveal about what the writers believed",
+          "timestamp": "10:22",
+          "explanation": "Rather than identifying a specific logical or factual failure in Catholic.com's reasoning, Mike attacks the intellectual readiness and honesty of its authors. This is a personal attack on capacity, not a refutation of argument."
+        }
+      ]
+    }
+  ],
+  "scholarlySplits": [
+    {
+      "claim": "Irenaeus is properly classified as a 'subordinationist'",
+      "nature": "Most scholars acknowledge subordinationist tendencies in Irenaeus; Émile Mersch and others dispute the label, preferring 'proto-orthodox with underdeveloped pneumatology.'",
+      "timestamp": "6:36"
+    },
+    {
+      "claim": "Justin Martyr's position is incompatible with later Trinitarian orthodoxy",
+      "nature": "Majority acknowledge ontological subordinationist elements in Justin; minority argue his Logos theology is compatible with developed Nicene categories.",
+      "timestamp": "5:03"
+    },
+    {
+      "claim": "Tertullian is 'not an orthodox Trinitarian'",
+      "nature": "Most scholars credit Tertullian as foundational to Latin Trinitarian theology; his subordinationist passages are acknowledged but not treated as disqualifying.",
+      "timestamp": "7:23"
+    },
+    {
+      "claim": "The Eusebian Matthew 28:19 variant represents an earlier textual tradition",
+      "nature": "Mainstream NT textual criticism holds the triadic formula as original; a minority view (Conybeare, Schaff) treats the Eusebian citations as evidence of a shorter original.",
+      "timestamp": "1:35"
+    }
+  ],
+  "trueClaims": [
+    "The triadic formula in Matthew 28:19 is unique among the four Gospels",
+    "Acts baptismal formulas consistently use 'the name of Jesus/Lord Jesus/Jesus Christ,' not the triadic form",
+    "Justin Martyr says the Son holds 'second place' and the Spirit 'the third rank' (First Apology 13)",
+    "Justin Martyr calls the Logos 'another God and Lord subject to the maker of all things' (Dialogue with Trypho 56)",
+    "Justin Martyr's theology shows significant Middle Platonic influence",
+    "Irenaeus articulates 'one God the Father Almighty and one Jesus Christ the Son of God'",
+    "Irenaeus makes explicit statements that the only God is the Father of our Lord Jesus Christ",
+    "Tertullian was the first writer to use the Latin term trinitas (Trinity)",
+    "Tertullian wrote: 'the Father is the entire substance, but the Son is a derivation and portion of the whole' (Against Praxeas 9)",
+    "Tertullian cites John 14:28 ('the Father is greater than I') in support of his position",
+    "Origen holds that the Father is superior to the Son and that the Son is less than the Father",
+    "Origen states there was not a time when the Son did not exist",
+    "Augustine clearly articulates co-equal, co-eternal, consubstantial Trinitarian doctrine (De Trinitate)",
+    "'Elohim' has a semantic range in Hebrew that includes beings other than the supreme deity",
+    "Jesus cites Psalm 82:6 ('you are gods') in John 10:34",
+    "The direct comparison between Augustine's co-equality formulation and the subordinationist language of Justin, Irenaeus, Tertullian, and Origen reveals a genuine theological development"
+  ],
+  "weightedAnalysis": {
+    "categories": [
+      {
+        "name": "Core",
+        "claims": 8,
+        "weight": 3,
+        "trueWeighted": 24,
+        "falseWeighted": 0,
+        "disputedWeighted": 0
+      },
+      {
+        "name": "Support",
+        "claims": 12,
+        "weight": 2,
+        "trueWeighted": 24,
+        "falseWeighted": 2,
+        "disputedWeighted": 0
+      },
+      {
+        "name": "Background",
+        "claims": 12,
+        "weight": 1,
+        "trueWeighted": 12,
+        "falseWeighted": 1,
+        "disputedWeighted": 0
+      }
+    ],
+    "errorImpact": 5.0,
+    "interpretation": "At 5%, this session is well below the 10% threshold — usable with verification. All core claims are true. This is Metaphysics Mike's most factually accurate video in the tracked corpus by a wide margin. Errors are peripheral; his central thesis that pre-Nicene patristic writers held subordinationist positions is supported by genuine primary source quotations."
+  },
+  "videoUrl": null
+}

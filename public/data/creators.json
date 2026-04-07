@@ -66,30 +66,38 @@
       "NT Manuscripts",
       "Apologetics",
       "Archaeology",
-      "Textual Criticism"
+      "Textual Criticism",
+      "Canon History"
     ],
-    "sessions": 2,
-    "totalClaims": 73,
-    "trueClaims": 58,
-    "cumulativeScore": 79,
-    "verdict": "Caution",
+    "sessions": 4,
+    "totalClaims": 157,
+    "trueClaims": 130,
+    "cumulativeScore": 83,
+    "verdict": "Reliable",
     "corePositions": [
       "NT is the most accurately transmitted ancient document collection",
       "Archaeological artifacts corroborate the New Testament",
-      "Manuscript evidence supports biblical reliability"
+      "Manuscript evidence supports biblical reliability",
+      "The Council of Nicaea did not choose the biblical canon or invent the divinity of Jesus",
+      "The four canonical gospels are the only documents reliably connecting to the historical Jesus",
+      "Canon formation was organic and apostolically driven, not politically imposed"
     ],
     "notablePatterns": [
-      "Core claims about manuscript evidence are well-supported and within academic expertise.",
-      "Peripheral factual details (dates, attributions) carry most errors.",
-      "Uses cherry-picking of confirming archaeological evidence without addressing complications.",
-      "Popular-level lecture format leads to imprecise but not malicious claims."
+      "Core claims about manuscript evidence, canon history, and patristics are well-supported and within academic expertise.",
+      "Peripheral factual details (dates, attributions, attendance figures) carry most errors — a consistent pattern across all four sessions.",
+      "Session 3 (Nicaea) is his strongest performance at 91%; Session 4 (Lost Gospels) drops to 77% due to one text misattribution and one outdated framing of Gnostic origins.",
+      "Consistently accurate on patristic quotations — no misquotation detected across any session.",
+      "Engages only sympathetic scholars (Bruce, Kruger, Bauckham, Irenaeus); Pagels, Ehrman, and Robinson are consistently absent.",
+      "Cumulative trajectory: Reliable (80%) \u2192 Caution (78%) \u2192 Reliable (91%) \u2192 Caution (77%). Cumulative: 83%."
     ],
     "analyses": [
       "wes-huff-artifacts",
-      "wes-huff-historicity"
+      "wes-huff-historicity",
+      "wes-huff-nicaea",
+      "wes-huff-lost-gospels"
     ],
     "verdictDistribution": {
-      "intact": 2,
+      "intact": 4,
       "compromised": 0,
       "collapsed": 0
     }
@@ -196,36 +204,37 @@
       "New Testament textual criticism",
       "Biblical Unitarianism",
       "Anti-Trinitarianism",
-      "Manuscript variants"
+      "Manuscript variants",
+      "Patristics"
     ],
-    "sessions": 2,
-    "totalClaims": 47,
-    "trueClaims": 22,
-    "cumulativeScore": 47,
-    "verdict": "Unreliable",
+    "sessions": 3,
+    "totalClaims": 79,
+    "trueClaims": 50,
+    "cumulativeScore": 61,
+    "verdict": "Caution",
     "corePositions": [
       "Biblical Unitarian / Oneness \u2014 God is strictly one person",
       "Holy Spirit and Logos are extensions/modes of the Father, not distinct persons",
       "NT creation texts teach instrumental divine speech, not a personal pre-existent Christ",
       "Trinitarian readings are historically conditioned eisegesis",
-      "Trinitarian conspiracy thesis \u2014 manuscript variants deliberately altered"
+      "Trinitarian conspiracy thesis \u2014 manuscript variants deliberately altered",
+      "Pre-Nicene patristic writers (Justin, Irenaeus, Tertullian, Origen) held subordinationist positions inconsistent with post-Nicene Trinitarian orthodoxy"
     ],
     "notablePatterns": [
-      "Stratagem 11 (Concealed Counterexamples) repeated across both sessions \u2014 structural habit, not a one-time error.",
-      "Sessions 1 and 2 produce identical Truth Scores (47%), confirming a stable pattern rather than an anomaly.",
-      "NT Greek grammar claims asserted without citation, contradicting standard reference grammars (GKC, Wallace).",
-      "Second Temple Jewish diversity consistently erased to present a falsely uniform messianic backdrop.",
-      "Core errors cluster around claims unverifiable quickly by a lay audience (linguistics, Greek grammar, Jewish history).",
-      "Inverts scholarly consensus on John 1:18; three of seven claimed variants unverifiable from standard critical apparatus.",
-      "Methodologically inconsistent \u2014 appeals to oldest manuscripts when convenient but argues against them when inconvenient.",
-      "Cumulative trajectory: Unreliable (47%) \u2192 Unreliable (47%). Cumulative: 47%."
+      "SIGNIFICANT ACCURACY LIFT in Session 3: 88% vs. prior 47% average \u2014 Mike performs far better analyzing real patristic quotes than making original exegetical or numerical arguments.",
+      "Stratagem 11 (Concealed Counterexamples) appears for the third consecutive session \u2014 a structural rhetorical habit.",
+      "The Eusebius Matthew 28:19 variant is consistently mischaracterized as 'in the name of the Son' when it is actually 'in my name' \u2014 a recurring error.",
+      "Ad hominem targeting opponents' intellectual integrity appears in all three sessions.",
+      "Cumulative score crosses from Unreliable to Caution for the first time in Session 3.",
+      "Cumulative trajectory: Unreliable (47%) \u2192 Unreliable (47%) \u2192 Reliable (88%). Cumulative: 61%."
     ],
     "analyses": [
       "metaphysics-mike-trinity",
-      "metaphysics-mike-7000-reasons"
+      "metaphysics-mike-7000-reasons",
+      "metaphysics-mike-catholiccom-trinity"
     ],
     "verdictDistribution": {
-      "intact": 0,
+      "intact": 1,
       "compromised": 0,
       "collapsed": 2
     }
@@ -244,10 +253,10 @@
       "Jewish-Christian Origins",
       "Restorationism"
     ],
-    "sessions": 1,
-    "totalClaims": 27,
-    "trueClaims": 10,
-    "cumulativeScore": 37,
+    "sessions": 2,
+    "totalClaims": 60,
+    "trueClaims": 31,
+    "cumulativeScore": 51,
     "verdict": "Unreliable",
     "corePositions": [
       "Jesus was a vegetarian; his movement prohibited flesh consumption",
@@ -255,20 +264,23 @@
       "Jesus never claimed divinity or divine sonship",
       "The Ebionites/Nazarenes represent Jesus's original movement",
       "Paul's theology is a departure from Jesus's actual teaching",
+      "Revelation 2:9's 'synagogue of Satan' refers to Gentile/Pauline Christians who abandoned Torah",
       "Modern Judaism and Christianity both distort the original message"
     ],
     "notablePatterns": [
-      "Consistent omission of counterevidence from cited sources (Passover lamb, fish miracles, 'son of God' affirmation).",
-      "Repeated pejorative labeling of proto-orthodox Christianity ('pagan cult,' 'meth message').",
-      "Conflation of distinct scholarly categories (Gospel of Hebrews \u2260 Gospel of Nazarenes \u2260 Gospel of Ebionites).",
-      "Hebrew/Aramaic linguistic errors presented with confidence."
+      "Consistent omission of counterevidence from cited sources — Gospels showing Jesus eating fish and participating in Passover are never addressed when arguing vegetarianism.",
+      "Confirmed scriptural misquote: James is reversed (speaker says 'works without faith is worthless'; James says 'faith without works is dead').",
+      "Heavy use of personal insult as argument (Stratagem 38) — Paul, Wes Huff, and Catholic Church labeled 'psychopathic.'",
+      "Real scholarly citations (Marshall, Frankfurter on Rev 2:9) used as scaffolding for claims that go beyond what those citations support.",
+      "Cumulative trajectory: Unreliable (37%) \u2192 Caution (64%). Cumulative: 51%."
     ],
     "analyses": [
-      "nazarene-way-parable"
+      "nazarene-way-parable",
+      "nazarene-way-synagogue-of-satan"
     ],
     "verdictDistribution": {
       "intact": 0,
-      "compromised": 0,
+      "compromised": 1,
       "collapsed": 1
     }
   },
@@ -472,12 +484,13 @@
       "Apologetics",
       "Early Christianity",
       "Pauline Chronology",
-      "Biblical Contradictions"
+      "Biblical Contradictions",
+      "Islamic Apologetics"
     ],
-    "sessions": 3,
-    "totalClaims": 80,
-    "trueClaims": 64,
-    "cumulativeScore": 80,
+    "sessions": 4,
+    "totalClaims": 100,
+    "trueClaims": 80,
+    "cumulativeScore": 81,
     "verdict": "Reliable",
     "corePositions": [
       "Christ's divinity was believed before Nicaea",
@@ -485,24 +498,26 @@
       "Arians gained political power post-Nicaea",
       "Popular skeptical narrative about Nicaea is a myth",
       "Paul's Damascus account is historically defensible",
-      "Acts' three conversion accounts reflect 'functional redundancy,' not contradiction"
+      "Acts' three conversion accounts reflect 'functional redundancy,' not contradiction",
+      "The Quran's clarity claims generate an internal dilemma when applied to commands about prior scriptures"
     ],
     "notablePatterns": [
       "Strong on broad historical narrative; minor imprecisions on background details (dates, figures).",
-      "Tendency to present minority scholarly views (e.g., Campbell's Damascus theory) as more mainstream than consensus warrants.",
-      "Repeated use of 'plausible' without quantifying probability against alternatives.",
-      "Dismissive framing of opposing views ('fable,' 'myth,' 'fairy tale').",
-      "Acknowledges scholarly counterarguments fairly when directly engaged.",
-      "Cumulative trajectory: Reliable (87%) \u2192 Caution (64%) \u2192 Reliable (91%). Cumulative: 80%."
+      "Tendency to present minority scholarly views as more mainstream than consensus warrants.",
+      "Recurring pattern across sessions: citation accuracy is high; errors cluster in interpretive extrapolations and characterizations.",
+      "Session 4 (Clear Quran Dilemma) contains a structural logical flaw (question-begging on the definition of 'clarity') that is not a factual error but materially weakens the argument.",
+      "Engages popular-level apologetics rather than classical scholarship when critiquing opposing traditions.",
+      "Cumulative trajectory: Reliable (87%) \u2192 Caution (64%) \u2192 Reliable (91%) \u2192 Reliable (80%). Cumulative: 81%."
     ],
     "analyses": [
       "inspiring-philosophy-nicaea",
       "inspiring-philosophy-damascus",
-      "inspiring-philosophy-paul-conversion"
+      "inspiring-philosophy-paul-conversion",
+      "inspiring-philosophy-clear-quran"
     ],
     "verdictDistribution": {
       "intact": 2,
-      "compromised": 1,
+      "compromised": 2,
       "collapsed": 0
     }
   },

@@ -1,0 +1,200 @@
+{
+  "id": "inspiring-philosophy-clear-quran",
+  "creatorId": "inspiring-philosophy",
+  "creatorName": "InspiringPhilosophy (Michael Jones)",
+  "channel": "@InspiringPhilosophy",
+  "videoTitle": "An Even DEADLIER Islamic Dilemma - Introducing: The Clear Quran Dilemma",
+  "datePublished": "Unknown",
+  "dateAnalyzed": "2026-04-07",
+  "sessionNumber": 4,
+  "analyzedRange": "0:00–8:26",
+  "thesis": "The Quran's own claims of clarity generate an inescapable meta-dilemma: if the Quran is not clear, Islam is false (internal contradiction); if it is clear, the standard Islamic Dilemma applies (Quran commands observance of Torah and Gospel — either those scriptures are uncorrupted, making Islam false, or corrupted, making the Quran's commands absurd). Any Muslim apologetic response requires adding meaning absent from the Quran, which proves the Quran is not clear.",
+  "dashboard": {
+    "sessionScore": 80,
+    "cumulativeScore": 81,
+    "cumulativeSessions": 4,
+    "trueClaims": 16,
+    "falseMisleading": 3,
+    "disputed": 1,
+    "totalChecked": 20,
+    "confidence": "Medium-High",
+    "verdict": "Reliable",
+    "stratagems": 4,
+    "weaselWords": 1,
+    "errorImpact": 15.6
+  },
+  "steelman": "The Quran does make explicit and repeated claims to clarity and completeness. If those claims mean what they say, then the Quran should not require external scholarly apparatus to resolve ambiguities that bear directly on core commands regarding Jewish and Christian scriptures. The observation that Muslim apologists offer multiple, mutually inconsistent responses to the Islamic Dilemma is an empirical fact — and that inconsistency is at least prima facie evidence that the relevant Quranic passages are not self-interpreting.",
+  "argumentType": "Philosophical / Theological (Meta-argument over logical structure)",
+  "structuralVerdict": {
+    "status": "COMPROMISED",
+    "explanation": "The Quranic citations are mostly accurate and the observation that Muslim apologists give inconsistent responses is fair. However, the dilemma's central premise — that clarity means no interpretive commentary is needed — is question-begging and never derived from the Quran's own usage of mubīn. The same standard applied to the Bible would equally 'falsify' Christianity. Additionally, the claim that Quranic commands extend to the full Old and New Testament canon (claim 20) is a load-bearing premise that is unsupported by classical Islamic exegesis. The dilemma has rhetorical force but does not function as a sound deductive argument."
+  },
+  "thesisCriticalErrors": {
+    "count": "1–2",
+    "description": "Claim 20 — equating 'Torah, Gospel, and revelation from your Lord' with 'all of the Old and New Testament' — is load-bearing. The Quranic Tawrat and Injil refer to original divine revelations to Moses and Jesus, not the Jewish or Christian canonical collections as compiled. This is standard Islamic and academic consensus on Quranic vocabulary. Claim 14's misuse of Surah 2:285 is a supporting premise. The logical flaw in Stratagem 6 (begging the question on the definition of 'clear') is structural, not a factual error, but is materially damaging to the argument's soundness."
+  },
+  "falseClaims": [
+    {
+      "claim": "Surah 2:285 'tells us to believe in all of our scriptures, not just parts.'",
+      "rating": "Misleading",
+      "confidence": "Medium",
+      "timestamp": "3:12",
+      "evidence": "Surah 2:285 records the Prophet's creedal affirmation ('the Messenger has believed in what was revealed to him from his Lord, and so have the believers'). It affirms faith in all divine books as part of the Muslim confession. It does not issue a command to Christians or Jews to believe in 'all' their scriptures; the phrase 'not just parts' is Jones's own addition with no basis in the verse.",
+      "settle": "Direct examination of 2:285 in Arabic alongside classical tafsir; comparison with verses that actually address commands to People of the Book (e.g., 5:68).",
+      "sources": [
+        {
+          "label": "Surah 2:285 — Sahih International",
+          "url": "https://quran.com/2/285"
+        },
+        {
+          "label": "Tafsir Ibn Kathir on Surah 2:285",
+          "url": "https://www.islamicstudies.info/tafheem.php?sura=2&verse=285"
+        }
+      ],
+      "category": "Support"
+    },
+    {
+      "claim": "The Quran's guidance to observe 'the Torah, the Gospel, and what has been revealed to you from your Lord' encompasses 'all of the Old and New Testament.'",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "3:06",
+      "evidence": "The Quranic Tawrat and Injil refer in Islamic exegesis to the original divine revelations to Moses and Jesus, not the Jewish or Christian canonical collections as compiled. The New Testament canon was not finalized until well after the Quranic period; 'Gospel' (Injil) in the Quran consistently denotes the revelation given to Jesus, not the four canonical Gospels. This is standard Islamic and academic consensus.",
+      "settle": "Survey of classical tafsir definitions of Tawrat and Injil; comparison with how the Quran uses kitab in relation to earlier scriptures.",
+      "sources": [
+        {
+          "label": "Tafsir al-Tabari on Surah 5:46",
+          "url": "https://en.wikipedia.org/wiki/Tafsir_al-Tabari"
+        },
+        {
+          "label": "Neal Robinson, Discovering the Qur'an — Georgetown University Press",
+          "url": "https://en.wikipedia.org/wiki/Injil"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "The standard Islamic understanding of Surah 3:7 is that clear verses = matters of belief and practice; elusive verses = only the strange letter combinations (huroof muqattaat) at the beginning of some suras.",
+      "rating": "Misleading (Oversimplified)",
+      "confidence": "Medium",
+      "timestamp": "7:47",
+      "evidence": "Classical Islamic scholarship extends the mutashabihat category significantly beyond huroof muqattaat. Al-Raghib al-Asfahani, al-Zamakhshari, and Fakhr al-Din al-Razi all treat mutashabihat as a broader category including anthropomorphic descriptions of God, eschatological details, abrogated rulings, and ambiguous legal passages. Jones's summary makes it appear the ambiguous portion is only a handful of letter combinations.",
+      "settle": "Survey of four or more classical mufassirun on the scope of mutashabihat; comparison of what al-Tabari, Ibn Kathir, al-Razi, and al-Zamakhshari categorize beyond the huroof.",
+      "sources": [
+        {
+          "label": "Fakhr al-Din al-Razi on Surah 3:7",
+          "url": "https://en.wikipedia.org/wiki/Fakhr_al-Din_al-Razi"
+        },
+        {
+          "label": "Mutashabihat — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Muhkam_and_mutashabih"
+        }
+      ],
+      "category": "Support"
+    }
+  ],
+  "stratagems": [
+    {
+      "number": 1,
+      "name": "Extension",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "For the sake of argument, let's just pretend one of these solutions is correct. That still means Islam is false because none of these solutions are clearly stated or fully explained by the Quran. Modern Muslim apologists have to add them to the Quran.",
+          "timestamp": "6:02–6:34",
+          "explanation": "Jones extends the dilemma so that any Muslim apologetic solution — correct or not — automatically proves Islam false, because offering a solution requires commentary not explicit in the Quran. This maneuver renders the dilemma unfalsifiable: there is no possible Muslim response that could succeed, since every response (by definition) involves interpretive reasoning beyond bare Quranic text."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "name": "Begging the Question",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "Muslim apologists have to add meaning and explain the Quran for us. Therefore, Islam is false because the Quran is not clear.",
+          "timestamp": "6:17–6:34",
+          "explanation": "The argument presupposes that a 'clear' and 'fully explained' sacred text requires no interpretive commentary whatsoever. This definition of clarity is never derived from what the Quranic term mubīn actually denotes — nor is it a standard Jones applies to the Bible, which has generated centuries of patristic commentary, creeds, councils, and denominational splits. The circular move: Jones defines 'clear' as 'needing no commentary,' then condemns the Quran for needing commentary, without establishing that definition is what the Quran's own clarity claims entail."
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "name": "Choose a Favorable Designation",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "Muslim apologists have to add meaning and explain the Quran for us because it can't do it itself.",
+          "timestamp": "6:23–6:34",
+          "explanation": "Jones characterizes standard Islamic hermeneutics — tafsir, the classical tradition of Quranic interpretation practiced for 1,400 years — as 'adding meaning' the Quran lacks. The same activity is called 'theology' or 'biblical scholarship' when Christians do it. The loaded designation frames Islamic interpretive tradition as evidence of the Quran's failure rather than as normal religious hermeneutics."
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "name": "Ad Auditores",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "So Muslims, there is no way out of the Islamic dilemma. You either accept one of its horns or you end up in a different dilemma which still leads to the conclusion that Islam is false. And so this means it's time to leave Islam.",
+          "timestamp": "8:12–8:26",
+          "explanation": "Jones addresses the Muslim audience directly rather than engaging the most sophisticated available Islamic responses (classical tafsir on the muhkam/mutashabihat distinction, Ibn Taymiyyah's framework for Quranic clarity, or contemporary Islamic philosophical theology). The rhetorical close is an appeal to the broader YouTube audience rather than a sustained engagement with the strongest scholarly form of the opposing position."
+        }
+      ]
+    }
+  ],
+  "scholarlySplits": [
+    {
+      "claim": "Surah 3:7's acknowledgment of mutashabihat 'clearly contradicts' Surah 12:111's 'detailed explanation of all things'",
+      "nature": "Consensus (Islamic scholars): the two verses are complementary — the Quran is overwhelmingly muhkam (clear), with a limited mutashabihat component. Minority (some Christian apologists): genuine internal tension.",
+      "timestamp": "7:22"
+    }
+  ],
+  "trueClaims": [
+    "Surah 12:1 contains the phrase 'the clear book' (al-kitāb al-mubīn)",
+    "Surah 15:1 uses 'the clear Quran' (al-Qurān al-mubīn)",
+    "Surah 24:46: 'We have indeed revealed signs/verses that make things clear'",
+    "Surah 26:2, 27:1, 28:2 all use 'verses of the clear book'",
+    "Surah 57:9: 'He sends down clear signs/revelations upon His servant'",
+    "Surah 11:1: verses described as 'perfected' and 'explained in detail'",
+    "Surah 12:111: 'detailed explanation of all things, a guide and mercy for people of faith'",
+    "The Quran claims to be guidance for all humanity (Surah 2:185, 3:4, 14:52)",
+    "Surah 3:3–4: Quran confirms the Torah and Gospel revealed as earlier guidance",
+    "Surah 5:46–47: Jesus confirmed the Torah; people of the Gospel commanded to judge by it",
+    "Surah 5:68: People of the Book have 'nothing to stand on' unless they observe Torah, Gospel, and revelation from their Lord",
+    "Surah 29:46: Muslims commanded not to argue with People of the Book 'except in the best manner'",
+    "Surah 10:94: Prophet directed to ask 'those who were reading the Scripture before you' if in doubt",
+    "Surah 3:7 introduces the distinction between muhkam and mutashabihat verses",
+    "Multiple Muslim apologists have offered different and sometimes inconsistent responses to the Islamic Dilemma"
+  ],
+  "weightedAnalysis": {
+    "categories": [
+      {
+        "name": "Core",
+        "claims": 7,
+        "weight": 3,
+        "trueWeighted": 18,
+        "falseWeighted": 3,
+        "disputedWeighted": 0
+      },
+      {
+        "name": "Support",
+        "claims": 12,
+        "weight": 2,
+        "trueWeighted": 20,
+        "falseWeighted": 4,
+        "disputedWeighted": 0
+      },
+      {
+        "name": "Background",
+        "claims": 0,
+        "weight": 1,
+        "trueWeighted": 0,
+        "falseWeighted": 0,
+        "disputedWeighted": 0
+      }
+    ],
+    "errorImpact": 15.6,
+    "interpretation": "At 15.6%, this session is in the secondary-use-only range. Errors are interpretive overstatements, not factual fabrications. Core argument survives with qualification; individual claims used as premises require verification against classical Islamic scholarship. The argument's primary vulnerability is structural (question-begging on the definition of 'clarity') rather than purely factual."
+  },
+  "videoUrl": null
+}

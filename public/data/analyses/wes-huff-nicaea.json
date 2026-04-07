@@ -1,0 +1,188 @@
+{
+  "id": "wes-huff-nicaea",
+  "creatorId": "wes-huff",
+  "creatorName": "Wes Huff",
+  "channel": "@WesHuff",
+  "videoTitle": "Can I Trust the Bible - Episode 3: The Council of Nicaea",
+  "datePublished": "Not specified (2024–2025 series)",
+  "dateAnalyzed": "2026-04-07",
+  "sessionNumber": 3,
+  "analyzedRange": "0:00–33:12",
+  "thesis": "The Council of Nicaea did not choose the biblical canon, did not invent the divinity of Jesus, and is not the conspiracy it is often made out to be; both the canon and Christ's divinity were settled by the early church long before 325 AD.",
+  "dashboard": {
+    "sessionScore": 91,
+    "cumulativeScore": 84,
+    "cumulativeSessions": 3,
+    "trueClaims": 49,
+    "falseMisleading": 2,
+    "disputed": 3,
+    "totalChecked": 54,
+    "confidence": "High",
+    "verdict": "Reliable",
+    "stratagems": 3,
+    "weaselWords": 2,
+    "errorImpact": 6.1
+  },
+  "steelman": "The Council of Nicaea has been consistently misrepresented in popular culture as the moment Christianity was invented by committee. The historical record clearly shows that (a) scripture was already treated as authoritative by both sides of the Arian debate, (b) belief in Christ's divinity is attested in patristic literature, mosaic art, and hostile graffiti well before 325 AD, (c) the council's actual agenda was a specific theological dispute about the Son's relationship to the Father within a Trinitarian framework that already existed, and (d) canon formation was an organic process driven by apostolic provenance, not a fourth-century political vote. These points are historically mainstream and well-supported.",
+  "argumentType": "Historical / Theological / Archaeological",
+  "structuralVerdict": {
+    "status": "INTACT",
+    "explanation": "No false or misleading claim strikes at the heart of the argument. The two misleading claims (bishop attendance upper bound of 400, NT unity framing) are peripheral to the central thesis. The thesis pillars — scripture's pre-Nicaean authority, early divine Christology, and Nicaea's actual agenda — stand without qualification. All core claims are true; 0 core false claims detected."
+  },
+  "thesisCriticalErrors": {
+    "count": "0 of 2",
+    "description": "Neither false/misleading claim is load-bearing to the central argument. The bishop count upper bound (400 vs. attested 250–318) is a peripheral attendance detail. The 'remarkable unity' framing conceals the disputed status of the antilegomena, but does not affect the core argument that Nicaea neither invented the Bible nor the divinity of Jesus."
+  },
+  "falseClaims": [
+    {
+      "claim": "As many as 3 to 400 bishops traveled to ancient Nicaea.",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "17:11",
+      "evidence": "The upper bound of 400 bishops is not attested in any primary source. Contemporary accounts give: Eusebius of Caesarea — 250; Athanasius of Alexandria — the traditional 318 (symbolically linked to Abraham's 318 servants in Gen 14:14); Eustathius of Antioch — 270; the signature list contains 200–220 names. No credible ancient source cites 400.",
+      "settle": "A comprehensive review of all patristic accounts of the council's attendance.",
+      "sources": [
+        {
+          "label": "First Council of Nicaea — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/First_Council_of_Nicaea"
+        },
+        {
+          "label": "Catholic Encyclopedia: First Council of Nicaea",
+          "url": "https://www.newadvent.org/cathen/11044a.htm"
+        }
+      ],
+      "category": "Support"
+    },
+    {
+      "claim": "The New Testament books were settled early with remarkable unity regarding their contents.",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "31:53",
+      "evidence": "Eusebius, Ecclesiastical History 3.25 (c. 313 AD), explicitly catalogued ἀντιλεγόμενα (disputed books): James, Jude, 2 Peter, 2 John, and 3 John. Revelation was rejected by most Eastern churches for centuries. Athanasius's 39th Festal Letter (367 AD) — forty-two years after Nicaea — is the first surviving document to list all 27 NT books as canonical. 'Remarkable unity' accurately describes the undisputed core (~20 books) but misrepresents the full picture.",
+      "settle": "Comparison of canonical lists from major early Christian communities across the 1st–4th centuries (Muratorian Canon, Eusebius HE 3.25, Athanasius 39th Festal Letter, Council of Carthage).",
+      "sources": [
+        {
+          "label": "Eusebius, Ecclesiastical History 3.25",
+          "url": "https://www.newadvent.org/fathers/250103.htm"
+        },
+        {
+          "label": "Athanasius 39th Festal Letter",
+          "url": "https://www.newadvent.org/fathers/2806039.htm"
+        }
+      ],
+      "category": "Support"
+    }
+  ],
+  "stratagems": [
+    {
+      "number": 23,
+      "name": "Extension / Caricature of the Opponent's Proposition",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "If you go online or you read the Da Vinci Code, you're going to hear these stories that this was the place that the books of the Bible were chosen. You know, that couldn't be any further from the truth.",
+          "timestamp": "3:33–3:43",
+          "explanation": "The video accurately refutes the extreme, Da Vinci Code version of the 'Nicaea invented Christianity' claim. However, by targeting this popular but easily dismantled form, the argument sidesteps the more nuanced scholarly discussion about the gradual, contested development of the biblical canon. More rigorous versions of the historical challenge — the role of regional synods, disputes over the antilegomena, the politics of Athanasius's 39th Festal Letter in 367 AD — receive no engagement."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "name": "Induction with Concealed Counterexamples",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "The New Testament books were settled early with remarkable unity regarding their contents.",
+          "timestamp": "31:53–32:00",
+          "explanation": "Conceals a well-documented counterexample: approximately seven NT books — Revelation, Hebrews, James, Jude, 2 Peter, 2 John, and 3 John — had disputed canonical status well into the fourth century and beyond. Eusebius (c. 313 AD), writing twelve years before Nicaea, explicitly catalogued a class of disputed books. 'Remarkable unity' applies accurately to the undisputed core (~20 books) but misrepresents the full historical picture."
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "name": "Argumentum ad Verecundiam / Appeal to Authority",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "As many as 3 to 400 bishops travel all the way out here to ancient Nika.",
+          "timestamp": "17:11–17:18",
+          "explanation": "The upper bound of 400 bishops is not attested in any primary source. Presenting 400 as within the credible range implicitly appeals to the impression of a massive, authoritative assembly without sourcing the high-end figure. The error is mild and does not affect the central argument."
+        }
+      ]
+    }
+  ],
+  "scholarlySplits": [
+    {
+      "claim": "Derinkuyu descends 18 levels below the surface",
+      "nature": "Excavation is ongoing; only 8 floors are currently open to the public. Archaeological estimates range from 8 to 18 total levels. The '18 level' figure appears in tourism literature; the confirmed accessible figure is 8.",
+      "timestamp": "9:14"
+    },
+    {
+      "claim": "Constantine was the underdog at the Battle of Milvian Bridge",
+      "nature": "Ancient sources disagree on army sizes. Modern historians typically estimate Constantine at 40,000–50,000 vs. Maxentius's 75,000–100,000, making Constantine the smaller force. Whether this qualifies as 'underdog' is interpretive given Maxentius's positional disadvantage.",
+      "timestamp": "6:08"
+    },
+    {
+      "claim": "The Megiddo Mosaic predates Nicaea by about 100 years",
+      "nature": "Primary dating is c. 230 CE (roughly 95 years before Nicaea). However, archaeological evidence also permits a later date of c. 275–305 CE (20–50 years before Nicaea, not 100). Both dating frameworks are defended by scholars.",
+      "timestamp": "20:08–21:21"
+    }
+  ],
+  "trueClaims": [
+    "The Tetrarchy divided imperial authority among four rulers",
+    "Constantius Chlorus died in Britain in 306 AD",
+    "Constantine's army proclaimed him emperor following his father's death",
+    "Maxentius was son of the former emperor Maximian",
+    "The Battle of Milvian Bridge occurred on October 28, 312 AD",
+    "Lactantius recorded Constantine's Chi-Rho dream in De Mortibus Persecutorum",
+    "Eusebius recorded the cross-vision and 'In this sign, conquer'",
+    "The Edict of Milan (313 AD) decriminalized Christianity",
+    "Diocletian's empire-wide persecution began February 23, 303 AD",
+    "Constantine defeated Licinius in 324, becoming sole emperor",
+    "Nicaea 325 was the first ecumenical council of the church",
+    "The central dispute at Nicaea was whether Jesus was a created being",
+    "Arius composed his ideas in the form of songs — the Thalia",
+    "Both Arius and Athanasius appealed to scripture as their authority",
+    "The Nicene Creed: 'true God from true God, begotten not made, of one essence with the Father'",
+    "Ignatius of Antioch (d. c. 108 AD) referred to Jesus as 'our God' and 'God existing in flesh'",
+    "The Megiddo Mosaic inscription dedicates a table 'to God Jesus Christ'",
+    "The Alexamenos graffito was discovered on Palatine Hill in 1857",
+    "The Alexamenos graffito is one of the earliest depictions of the crucified Jesus",
+    "2 Timothy 3:16 uses the Greek word theopneustos ('God-breathed')",
+    "2 Peter 1:21 says men spoke as they were carried along by the Holy Spirit",
+    "2 Peter 3:15–16 refers to Paul's letters as 'scripture'",
+    "Apostolic connection was the primary criterion for canonical recognition",
+    "Different Christian traditions have different Old Testament canons"
+  ],
+  "weightedAnalysis": {
+    "categories": [
+      {
+        "name": "Core",
+        "claims": 9,
+        "weight": 3,
+        "trueWeighted": 27,
+        "falseWeighted": 0,
+        "disputedWeighted": 0
+      },
+      {
+        "name": "Support",
+        "claims": 27,
+        "weight": 2,
+        "trueWeighted": 50,
+        "falseWeighted": 4,
+        "disputedWeighted": 0
+      },
+      {
+        "name": "Background",
+        "claims": 18,
+        "weight": 1,
+        "trueWeighted": 15,
+        "falseWeighted": 2,
+        "disputedWeighted": 0
+      }
+    ],
+    "errorImpact": 6.1,
+    "interpretation": "At 6.1%, this session is well below the 10% threshold — usable with verification. All core claims are true. Errors concentrate in support and background details (bishop count, NT unity framing); none affect the central thesis that Nicaea neither invented the biblical canon nor the divinity of Jesus."
+  },
+  "videoUrl": "https://youtu.be/lpsKNd8tqHI"
+}

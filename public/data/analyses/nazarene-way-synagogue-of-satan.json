@@ -1,0 +1,254 @@
+{
+  "id": "nazarene-way-synagogue-of-satan",
+  "creatorId": "nazarene-way",
+  "creatorName": "Nazarene Way Church",
+  "channel": "@NazareneWay",
+  "videoTitle": "The Synagogue of Satan = Christians?",
+  "datePublished": "Unknown",
+  "dateAnalyzed": "2026-04-07",
+  "sessionNumber": 2,
+  "analyzedRange": "0:01–32:24",
+  "thesis": "Revelation 2:9's 'synagogue of Satan' refers not to Jews but to Gentile/Pauline Christians who abandoned Torah observance — making mainstream Christianity the spiritual counterfeit and the Nazarene movement the authentic religion of Jesus.",
+  "dashboard": {
+    "sessionScore": 64,
+    "cumulativeScore": 51,
+    "cumulativeSessions": 2,
+    "trueClaims": 21,
+    "falseMisleading": 4,
+    "disputed": 8,
+    "totalChecked": 33,
+    "confidence": "Medium",
+    "verdict": "Caution",
+    "stratagems": 5,
+    "weaselWords": 4,
+    "errorImpact": 20.0
+  },
+  "steelman": "Revelation was written by a Jewish Christian who saw himself as an heir of Torah-observant practice, and when read within that first-century intra-movement context rather than through later Nicene categories, the 'synagogue of Satan' passage is plausibly aimed at Gentile assemblies claiming Israelite identity while rejecting Jewish law — a reading supported by real scholars (Marshall, Frankfurter) and consistent with what we know about Jewish-Christian diversity before 135 CE. This is a legitimate and underexplored interpretive lens that deserves serious engagement.",
+  "argumentType": "Historical-Theological Reinterpretation with Advocacy",
+  "structuralVerdict": {
+    "status": "COMPROMISED",
+    "explanation": "The scholarly argument about Revelation 2:9 (Marshall, Frankfurter) is legitimate and deserves engagement. However, it is embedded in a broader narrative that contains a confirmed misquote of James (subject and predicate reversed), a significantly false historical claim (Old Testament coinage attributed to a 4th-century council), Gospel-level counterevidence for the vegetarianism thesis, and rhetorical attacks that crowd out substantive engagement with objections. The central scholarly argument survives; the full movement-building framework around it does not."
+  },
+  "thesisCriticalErrors": {
+    "count": "2 of 4",
+    "description": "Two errors are load-bearing: (1) The James misquote undermines the Paul/James contrast that is central to the speaker's Pauline-vs-authentic-Christianity argument. James says 'faith without works is dead' — not 'works without faith is worthless' as stated. (2) The vegetarianism claim is central to the Nazarene identity argument and is directly contradicted by Gospels the speaker treats as authoritative (Luke 24:42–43, John 21:9–13, Luke 22:7–15)."
+  },
+  "falseClaims": [
+    {
+      "claim": "The term 'Old Testament' was invented in the 4th century at a church council.",
+      "rating": "Likely False",
+      "confidence": "High",
+      "timestamp": "2:34",
+      "evidence": "The term Vetus Testamentum ('Old Testament') was coined by Melito of Sardis around 170 CE — approximately 130–160 years before the 4th century. The speaker's own hedge ('I actually don't think it was even at Nicaea, it was some other council') signals uncertainty, but the error stands.",
+      "settle": "A primary source citation showing any 4th-century council coining the phrase 'Old Testament.' None exists.",
+      "sources": [
+        {
+          "label": "Melito of Sardis — World History Encyclopedia",
+          "url": "https://www.worldhistory.org/Melito_of_Sardis/"
+        },
+        {
+          "label": "Melito's Canon — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Melito_of_Sardis"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "James (brother of Jesus) says 'Works without faith is worthless.'",
+      "rating": "Likely False (Misquote)",
+      "confidence": "High",
+      "timestamp": "24:51",
+      "evidence": "James 2:17 reads: 'So also faith, if it has no works, is dead, being by itself.' James 2:26: 'For just as the body without the spirit is dead, so also faith without works is dead.' The speaker's rendition inverts subject and predicate — James condemns workless faith, not faithless works.",
+      "settle": "Any translation of James 2 that says 'works without faith is worthless.' None exists.",
+      "sources": [
+        {
+          "label": "James 2:17 — BibleGateway NRSVUE",
+          "url": "https://www.biblegateway.com/passage/?search=James+2%3A17&version=NRSVUE"
+        }
+      ],
+      "category": "Support"
+    },
+    {
+      "claim": "Jesus 'stood against' blood sacrifice and 'died for' opposing it.",
+      "rating": "Misleading",
+      "confidence": "High",
+      "timestamp": "12:21–12:42",
+      "evidence": "No canonical Gospel presents Jesus's death as motivated by opposition to animal sacrifice. The Temple Cleansing incident (Mark 11:15–17) is interpreted by most scholars as prophetic critique of commercial exploitation, not a campaign against sacrifice per se. The claim that Jesus died specifically for this cause is not supported by any scholarly consensus source.",
+      "settle": "A peer-reviewed historical argument establishing anti-sacrifice activism as the primary cause of Jesus's execution.",
+      "sources": [
+        {
+          "label": "Mark 11:15–17 — BibleGateway NRSVUE",
+          "url": "https://www.biblegateway.com/passage/?search=Mark+11%3A15-17&version=NRSVUE"
+        }
+      ],
+      "category": "Core"
+    },
+    {
+      "claim": "Sunday Christian worship is a pagan 'day of the sun' holiday.",
+      "rating": "Mostly Misleading",
+      "confidence": "Moderate",
+      "timestamp": "19:29–19:47",
+      "evidence": "Sunday worship among early Christians is independently attested before any pagan solar influence could plausibly have entered. Ignatius of Antioch (c. 107 CE) references 'the Lord's Day' in his Letter to the Magnesians (9:1). Pliny the Younger (c. 112 CE) describes Christians gathering before dawn on a 'fixed day.' Early Christians called it dies dominica (Lord's Day) — not 'day of the sun.' The pagan solar connection is a folk etymology, not a causal historical link.",
+      "settle": "Evidence that early Christian Sunday worship was adopted from Roman solar cult practice rather than emerging independently from Jewish first-day resurrection theology.",
+      "sources": [
+        {
+          "label": "Ignatius, Letter to the Magnesians 9:1",
+          "url": "https://www.newadvent.org/fathers/0105.htm"
+        },
+        {
+          "label": "Pliny, Epistulae 10.96",
+          "url": "https://en.wikipedia.org/wiki/Pliny_the_Younger_on_Christians"
+        }
+      ],
+      "category": "Support"
+    }
+  ],
+  "stratagems": [
+    {
+      "number": 11,
+      "name": "Induction with Concealed Counterexamples",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "All of these entities were vegetarian… who would clash with vegetarians over food laws? Oh well let's see. the Roman pagan cult of Pauline Gentile Christianity in which flesh is almost savored.",
+          "timestamp": "14:30–15:24",
+          "explanation": "The speaker constructs a significant argument that Jesus, James, John the Baptist, and the original Nazarene movement were vegetarians, but never addresses Gospel counterevidence: the risen Jesus eats broiled fish (Luke 24:42–43), Jesus cooks and serves fish (John 21:9–13), multiplies fish for the 5,000 and 4,000, and participates in the Passover meal (Luke 22:7–15) — a ceremony the Torah commands with a roasted lamb. The speaker never addresses any of this counterevidence from his own cited sources."
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "name": "Personal Insult / Argumentum ad Personam",
+      "instances": 4,
+      "entries": [
+        {
+          "quote": "the psychopathic character named Paul",
+          "timestamp": "0:45, 3:27",
+          "explanation": "Repeated personal attacks on Paul, opponents, and the broader Christian tradition substitute emotional charge for argument. The characterization of Paul as 'psychopathic' is a clinical-sounding epithet with zero evidential support. Using it repeatedly normalizes dismissal of the opposing tradition without engagement."
+        },
+        {
+          "quote": "psychopathic individuals like Wes Huff",
+          "timestamp": "27:41",
+          "explanation": "Personal attack on a named individual without substantive engagement with his arguments."
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "name": "Begging the Question / Petitio Principii",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "We need to read Revelation through the eyes of the Nazarenes, through the eyes of the early Jewish Christians… He was likely a Torah faithful follower of Jesus, who is a Nazarene.",
+          "timestamp": "10:03–10:36",
+          "explanation": "To establish that John of Patmos was a Nazarene, the speaker uses the interpretation of Revelation that already assumes John was a Nazarene. The conclusion is embedded in the premise. This circularity does not make the interpretation wrong — it simply is not established by the argument as given."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "name": "Eroteme / Rhetorical Question Deployed as Assertion",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "Could it be possible? How do you know? You weren't there. How do you know? You've always read it through the eyes of the priest.",
+          "timestamp": "9:09–9:50",
+          "explanation": "A series of rhetorical questions carry the weight of an argument never actually made. 'You weren't there' applies equally to the speaker. The Eroteme converts the listener's uncertainty into implicit assent without requiring the speaker to demonstrate the alternative reading is more credible."
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "name": "False Concomitance / Post Hoc Association",
+      "instances": 1,
+      "entries": [
+        {
+          "quote": "Joel Osteen… flying around with his, you know, two private jets and seven exotic cars and his mansion",
+          "timestamp": "6:34, 19:29, 27:53",
+          "explanation": "The speaker treats contemporary excesses and scandals of Christian institutions as evidence that Pauline theology is the 'synagogue of Satan' — conflating the failures of individual practitioners with the logical content of a theological system. Paul's letters nowhere command private jets or sexual abuse. This is an association fallacy."
+        }
+      ]
+    }
+  ],
+  "scholarlySplits": [
+    {
+      "claim": "Revelation 2:9 refers to intra-Jesus-movement conflict over food laws (Nazarene vs. Pauline Gentile)",
+      "nature": "Majority read as Jewish community vs. Jesus community; Marshall/Frankfurter read as internal Jesus-follower conflict between Torah-observant and Pauline assemblies.",
+      "timestamp": "14:16"
+    },
+    {
+      "claim": "Jesus never called himself God",
+      "nature": "Synoptic tradition generally avoids explicit God-claims; Johannine tradition includes 'I am' statements (John 8:58, 10:30) read as implicit divinity claims by many scholars.",
+      "timestamp": "18:37"
+    },
+    {
+      "claim": "Gospel of the Hebrews = Matthew minus chapters 1–2",
+      "nature": "Some scholars see a relationship; others treat it as independent. The GoH/Matthew relationship is unresolved in scholarship.",
+      "timestamp": "4:02"
+    },
+    {
+      "claim": "John of Patmos was a Torah-observant Jewish Christian (Nazarene)",
+      "nature": "Many scholars view Revelation as Jewish apocalyptic; some argue the author was Gentile-Christian. The specific 'Nazarene' designation is a minority reading.",
+      "timestamp": "10:30"
+    },
+    {
+      "claim": "Ebionites and James were definitively vegetarian",
+      "nature": "Attested by Epiphanius (widely considered unreliable) and Hegesippus via Eusebius (single chain of transmission). Not corroborated by independent evidence.",
+      "timestamp": "14:30"
+    }
+  ],
+  "trueClaims": [
+    "Paul is called 'ringleader of the Nazarenes' in Acts 24:5",
+    "The name 'Christian' was first used at Antioch (Acts 11:26)",
+    "The Tanakh consists of Torah, Prophets, and Writings (Ketuvim)",
+    "Epiphanius wrote against the Nazarenes and Ebionites in his Panarion",
+    "E. Leigh Gibson contributed a chapter on Jews and Christians in the Martyrdom of Polycarp to 'The Ways That Never Parted'",
+    "David Frankfurter identifies John's opponents as Gentile Jesus followers critical of purity laws",
+    "The Ebionim / Ebionites means 'the poor ones' in Hebrew",
+    "Jude is listed as a brother of Jesus in Mark 6:3",
+    "Jerome preserved the 'bread of tomorrow' variant from the Gospel of the Hebrews",
+    "Hebrew 'shamayim' (heaven) is grammatically dual/plural",
+    "The Gospel of Thomas (Logion 12) places James in leadership of the movement",
+    "Paul did not walk with Jesus",
+    "Acts refers to early Jesus followers as 'the Way'",
+    "Jesus's brothers listed in Mark 6:3 include James, Joses, Judas, and Simon",
+    "Simeon/Simon succeeded James as leader of the Jerusalem community",
+    "Orthodox Jews observe 613 commandments (mitzvot)",
+    "The Messiah means 'anointed one'",
+    "The Pseudo-Clementine literature (Homilies and Recognitions) exists",
+    "The Nazarene movement appears distinct from 'Christianity' as named at Antioch",
+    "James the brother of Jesus is quoted in the canonical New Testament",
+    "'The Ways That Never Parted' is a real scholarly volume (Mohr Siebeck, 2003)"
+  ],
+  "weightedAnalysis": {
+    "categories": [
+      {
+        "name": "Core",
+        "claims": 8,
+        "weight": 3,
+        "trueWeighted": 18,
+        "falseWeighted": 6,
+        "disputedWeighted": 0
+      },
+      {
+        "name": "Support",
+        "claims": 10,
+        "weight": 2,
+        "trueWeighted": 14,
+        "falseWeighted": 6,
+        "disputedWeighted": 0
+      },
+      {
+        "name": "Background",
+        "claims": 15,
+        "weight": 1,
+        "trueWeighted": 15,
+        "falseWeighted": 0,
+        "disputedWeighted": 0
+      }
+    ],
+    "errorImpact": 20.0,
+    "interpretation": "At 20%, this session is at the secondary-use-only threshold. The Revelation 2:9 scholarly core (Marshall, Frankfurter) is defensible; the surrounding framework is not. Verify all supporting claims before citing. The confirmed misquote of James and Gospel-level counterevidence for the vegetarianism thesis are the primary reliability concerns."
+  },
+  "videoUrl": null
+}
