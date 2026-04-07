@@ -990,6 +990,39 @@ async function renderPatterns() {
   const creatorMap = {};
   creators.forEach(c => { creatorMap[c.id] = c; });
 
+  // ── Featured example block ────────────────────────────────────
+
+  function featuredAnalysis(a, type, highlightStat) {
+    if (!a) return '';
+    const creator = creatorMap[a.creatorId];
+    const bg = creator ? creator.avatarColor : 'var(--border)';
+    const init = creator ? creator.initials : '??';
+    const sv = a.structuralVerdict?.status || '';
+    const svColor = sv === 'INTACT' ? 'var(--green)' : sv === 'COMPROMISED' ? 'var(--orange)' : 'var(--red-light)';
+    const title = a.videoTitle.length > 65 ? a.videoTitle.slice(0, 62) + '…' : a.videoTitle;
+    return `<a href="analysis.html?id=${a.id}" class="pattern-featured ${type}">
+      <div class="pf-header">
+        <span class="pf-avatar" style="background:${bg}">${init}</span>
+        <span class="pf-creator">${a.creatorName}</span>
+        ${sv ? `<span class="pf-verdict" style="color:${svColor}">${sv}</span>` : ''}
+      </div>
+      <div class="pf-title">${title}</div>
+      <div class="pf-stat">${highlightStat}</div>
+    </a>`;
+  }
+
+  function featuredCreator(c, type, highlightStat) {
+    if (!c) return '';
+    return `<a href="creator.html?id=${c.id}" class="pattern-featured ${type}">
+      <div class="pf-header">
+        <span class="pf-avatar" style="background:${c.avatarColor}">${c.initials}</span>
+        <span class="pf-creator">${c.name}</span>
+        <span class="pf-verdict" style="color:${scoreColor(c.cumulativeScore)}">${c.cumulativeScore}%</span>
+      </div>
+      <div class="pf-stat">${highlightStat}</div>
+    </a>`;
+  }
+
   // ── Chip helpers ──────────────────────────────────────────────
 
   function creatorChip(c) {
@@ -1061,6 +1094,42 @@ async function renderPatterns() {
     (a.dashboard?.sessionScore || 0) >= 65 && (a.dashboard?.errorImpact || 0) >= 30
   );
 
+  // ── Pick best featured examples ───────────────────────────────
+
+  // Good: creator with highest cumulative score among all-INTACT
+  const featuredIntactCreator = [...allIntactCreators].sort((a, b) => b.cumulativeScore - a.cumulativeScore)[0];
+
+  // Good: highest-scoring analysis with no load-bearing errors
+  const featuredEdgeAnalysis = [...noLoadBearingAnalyses].sort((a, b) =>
+    (b.dashboard?.sessionScore || 0) - (a.dashboard?.sessionScore || 0)
+  )[0];
+
+  // Good: highest-scoring analysis with 0 tricks (already sorted)
+  const featuredNoTricksAnalysis = noTricksAnalyses[0];
+
+  // Good: highest score, lowest error impact (already sorted)
+  const featuredHonestAnalysis = scoreHonestAnalyses[0];
+
+  // Bad: COLLAPSED with most false claims
+  const featuredCollapsed = [...collapsedAnalyses].sort((a, b) =>
+    (b.dashboard?.falseMisleading || 0) - (a.dashboard?.falseMisleading || 0)
+  )[0];
+
+  // Bad: most thesisCritical errors
+  const featuredLoadBearing = [...loadBearingAnalyses].sort((a, b) =>
+    (b.falseClaims?.filter(fc => fc.thesisCritical).length || 0) -
+    (a.falseClaims?.filter(fc => fc.thesisCritical).length || 0)
+  )[0];
+
+  // Bad: most rhetorical tricks (already sorted)
+  const featuredTrickCluster = trickClusterAnalyses[0];
+
+  // Bad: biggest gap between session score and error impact
+  const featuredFlatter = [...scoreFlatterAnalyses].sort((a, b) =>
+    ((b.dashboard?.errorImpact || 0) - (b.dashboard?.sessionScore || 0)) -
+    ((a.dashboard?.errorImpact || 0) - (a.dashboard?.sessionScore || 0))
+  )[0];
+
   // ── Pattern definitions ────────────────────────────────────────
 
   const goodPatterns = [
@@ -1068,6 +1137,9 @@ async function renderPatterns() {
       name: 'Every Thesis Holds',
       desc: 'When a creator\'s main argument survives fact-checking across every session we\'ve analyzed, that\'s the clearest signal of reliability we track. One INTACT verdict could be luck. A consistent record is a pattern.',
       stat: `${allIntactCreators.length} of ${visibleCreators.length} creators`,
+      featured: featuredCreator(featuredIntactCreator, 'good',
+        (() => { const d = featuredIntactCreator?.verdictDistribution || {}; const t = (d.intact||0)+(d.compromised||0)+(d.collapsed||0); return `${d.intact || 0} of ${t} sessions INTACT`; })()
+      ),
       examples: allIntactCreators.slice(0, 4).map(c => creatorChip(c)).join(''),
       emptyMsg: 'No creators with 2+ sessions yet — grows as data is added.',
     },
@@ -1075,6 +1147,9 @@ async function renderPatterns() {
       name: 'Errors Stay on the Edges',
       desc: 'Every teacher gets something wrong. What matters is where the errors land. When false claims are peripheral — background details that don\'t affect the main point — the core argument remains honest even when imperfect.',
       stat: `${noLoadBearingAnalyses.length} of ${allAnalyses.length} analyses`,
+      featured: featuredAnalysis(featuredEdgeAnalysis, 'good',
+        `${featuredEdgeAnalysis?.dashboard?.sessionScore || 0}% accuracy · 0 load-bearing errors`
+      ),
       examples: noLoadBearingCreators.slice(0, 4).map(c => creatorChip(c)).join(''),
       emptyMsg: 'Growing as analyses are added.',
     },
@@ -1082,6 +1157,9 @@ async function renderPatterns() {
       name: 'No Rhetorical Tricks',
       desc: 'Some sessions have zero rhetorical tricks. The argument stands on evidence alone — no false dilemmas, no emotional pressure, no bait-and-switch. When we find this, the listener is being informed, not moved.',
       stat: `${noTricksAnalyses.length} of ${allAnalyses.length} analyses`,
+      featured: featuredAnalysis(featuredNoTricksAnalysis, 'good',
+        `0 rhetorical tricks · ${featuredNoTricksAnalysis?.dashboard?.sessionScore || 0}% accuracy`
+      ),
       examples: noTricksAnalyses.slice(0, 4).map(a => analysisChip(a)).join(''),
       emptyMsg: 'Growing as analyses are added.',
     },
@@ -1089,6 +1167,9 @@ async function renderPatterns() {
       name: 'The Score Is Honest',
       desc: 'A high accuracy score means more when the weighted error analysis agrees. These are sessions where the creator scored well and their false claims didn\'t damage the core argument. The number reflects the reality.',
       stat: `${scoreHonestAnalyses.length} of ${allAnalyses.length} analyses`,
+      featured: featuredAnalysis(featuredHonestAnalysis, 'good',
+        `${featuredHonestAnalysis?.dashboard?.sessionScore || 0}% accuracy · ${featuredHonestAnalysis?.dashboard?.errorImpact || 0}% weighted error`
+      ),
       examples: scoreHonestAnalyses.slice(0, 4).map(a =>
         analysisChip(a, `${a.dashboard.sessionScore}% · ${a.dashboard.errorImpact}% weighted error`)
       ).join(''),
@@ -1101,6 +1182,9 @@ async function renderPatterns() {
       name: 'The Main Argument Fails',
       desc: 'A COLLAPSED verdict means the central thesis — the main point of the video — depends on claims that don\'t hold up. It\'s not a few wrong details. The argument itself breaks down when the evidence is checked.',
       stat: `${collapsedAnalyses.length} of ${allAnalyses.length} analyses`,
+      featured: featuredAnalysis(featuredCollapsed, 'bad',
+        `${featuredCollapsed?.dashboard?.falseMisleading || 0} false claims · thesis does not survive`
+      ),
       examples: collapsedAnalyses.slice(0, 4).map(a => analysisChip(a)).join(''),
       emptyMsg: 'None found yet.',
     },
@@ -1108,6 +1192,12 @@ async function renderPatterns() {
       name: 'The Core Claim Is Wrong',
       desc: 'Load-bearing errors are false claims the main argument cannot survive without. Remove the error and the thesis collapses. These are the most serious findings in any analysis — the argument is built on a false foundation.',
       stat: `${loadBearingAnalyses.length} of ${allAnalyses.length} analyses`,
+      featured: featuredAnalysis(featuredLoadBearing, 'bad',
+        (() => {
+          const n = featuredLoadBearing?.falseClaims?.filter(fc => fc.thesisCritical).length || 0;
+          return `${n} load-bearing error${n !== 1 ? 's' : ''} — thesis depends on false claims`;
+        })()
+      ),
       examples: loadBearingAnalyses.slice(0, 4).map(a => analysisChip(a)).join(''),
       emptyMsg: 'None found yet.',
     },
@@ -1115,6 +1205,9 @@ async function renderPatterns() {
       name: 'Persuasion Over Evidence',
       desc: 'Three or more rhetorical tricks in a single session is a pattern, not a slip. The argument is built to win, not to be true. The listener is being moved toward a conclusion rather than shown evidence for it.',
       stat: `${trickClusterAnalyses.length} of ${allAnalyses.length} analyses`,
+      featured: featuredAnalysis(featuredTrickCluster, 'bad',
+        `${featuredTrickCluster?.dashboard?.stratagems || 0} rhetorical tricks in one session`
+      ),
       examples: trickClusterAnalyses.slice(0, 4).map(a =>
         analysisChip(a, `${a.dashboard.stratagems} rhetorical tricks`)
       ).join(''),
@@ -1124,6 +1217,9 @@ async function renderPatterns() {
       name: 'The Score Flatters',
       desc: 'A 70% accuracy score sounds reasonable — until the weighted error analysis shows those false claims hit the core argument hard. The raw number masks the real problem. This pattern flags the gap between what the score shows and what the errors actually cost.',
       stat: `${scoreFlatterAnalyses.length} of ${allAnalyses.length} analyses`,
+      featured: featuredAnalysis(featuredFlatter, 'bad',
+        `${featuredFlatter?.dashboard?.sessionScore || 0}% accuracy score · ${featuredFlatter?.dashboard?.errorImpact || 0}% weighted error`
+      ),
       examples: scoreFlatterAnalyses.slice(0, 4).map(a =>
         analysisChip(a, `${a.dashboard.sessionScore}% score · ${a.dashboard.errorImpact}% weighted error`)
       ).join(''),
@@ -1139,7 +1235,8 @@ async function renderPatterns() {
         <div class="pattern-name">${p.name}</div>
         <div class="pattern-desc">${p.desc}</div>
         <div class="pattern-stat">${p.stat}</div>
-        <div class="pattern-examples">${p.examples || `<span class="pattern-empty">${p.emptyMsg}</span>`}</div>
+        ${p.featured || ''}
+        ${p.examples ? `<div class="pattern-examples">${p.examples}</div>` : `<span class="pattern-empty">${p.emptyMsg}</span>`}
       </div>
     `;
   }

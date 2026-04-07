@@ -2240,6 +2240,58 @@ footer {
 .pattern-chip-score { font-weight: 700; }
 .pattern-chip-label { color: var(--text-muted); }
 
+.pattern-featured {
+  display: block;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 12px 14px;
+  text-decoration: none;
+  color: var(--text);
+  margin-bottom: 14px;
+  transition: border-color 0.15s;
+}
+.pattern-featured:hover { border-color: var(--accent-light); color: var(--text); }
+.pattern-featured.good { border-left: 3px solid var(--green); }
+.pattern-featured.bad { border-left: 3px solid var(--red-light); }
+.pf-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+.pf-avatar {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.58rem;
+  font-weight: 800;
+  color: #fff;
+  flex-shrink: 0;
+}
+.pf-creator { font-size: 0.8rem; font-weight: 700; }
+.pf-verdict {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-left: auto;
+}
+.pf-title {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  line-height: 1.4;
+  margin-bottom: 8px;
+}
+.pf-stat {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--accent-light);
+}
+
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
   /* --- Nav: hamburger menu --- */
