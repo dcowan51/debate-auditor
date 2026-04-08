@@ -2499,4 +2499,75 @@ footer {
   .patterns-divider { margin: 32px 0; }
   .email-capture-row { flex-direction: column; }
   .email-capture-btn { width: 100%; }
+
+  /* --- Prevent horizontal scroll --- */
+  body { overflow-x: hidden; }
+
+  /* --- Hero stats: allow wrap on narrow screens --- */
+  .hero-stats { flex-wrap: wrap; gap: 20px; }
+  .hero-stat { min-width: 110px; }
+
+  /* --- Profile right col: release min-width constraint --- */
+  .profile-right-col { min-width: 0; width: 100%; text-align: center; }
+
+  /* --- Stats bar: wrap gracefully --- */
+  .profile-stats-bar { flex-wrap: wrap; gap: 16px 40px; }
+
+  /* --- Bump tiny font sizes for readability --- */
+  .tldr-item .tldr-label { font-size: 0.75rem; }
+  .score-ring .verdict-label { font-size: 0.72rem; }
+  .dash-label { font-size: 0.75rem; }
+
+  /* --- Analysis row v2 (verdict-first layout) --- */
+  .analysis-row-v2 { gap: 12px; padding: 14px 16px; }
+
+  /* --- Touch targets: 44px minimum height --- */
+  .tab-btn { min-height: 44px; }
+  .form-submit { min-height: 48px; }
+  .nav-hamburger { min-height: 44px; min-width: 44px; }
+}
+
+/* ===== NARROW PHONES (≤ 480px) ===== */
+@media (max-width: 480px) {
+  /* --- Hero --- */
+  .hero { padding: 36px 16px 32px; }
+  .hero h1 { font-size: 1.7rem; }
+  .hero-stats { gap: 16px; }
+  .hero-stat .num { font-size: 1.6rem; }
+  .hero-stat .label { font-size: 0.75rem; }
+
+  /* --- TLDR card: single column --- */
+  .tldr-card { grid-template-columns: 1fr; gap: 8px; padding: 14px; }
+  .summary-col .tldr-card { grid-template-columns: 1fr; }
+  .tldr-item .tldr-val { font-size: 1.3rem; }
+
+  /* --- Overall stats: single column --- */
+  .overall-stats-grid { grid-template-columns: 1fr; }
+
+  /* --- Score ring: slightly smaller so it fits inline --- */
+  .score-ring { width: 96px; height: 96px; }
+  .score-ring .pct { font-size: 1.7rem; }
+
+  /* --- Profile --- */
+  .profile-header { padding: 24px 12px 20px; }
+  .profile-info h1 { font-size: 1.3rem; }
+  .profile-stat .val { font-size: 1.2rem; }
+  .profile-stats { gap: 12px; }
+
+  /* --- Section padding: tighter on very narrow screens --- */
+  .section { padding: 0 12px 40px; }
+  .tabs-container { padding: 0 12px 40px; }
+  .dashboard-panel { padding: 0 12px 24px; }
+  .email-capture { padding: 36px 16px; }
+  .analysis-header { padding: 24px 12px 12px; }
+
+  /* --- Tab buttons: tighter --- */
+  .tab-btn { padding: 10px 12px; font-size: 0.78rem; }
+
+  /* --- Claims list --- */
+  .claim-item { padding: 12px; }
+
+  /* --- Footer --- */
+  footer { padding: 24px 16px; }
+  footer p { font-size: 0.8rem; line-height: 1.6; }
 }
