@@ -179,11 +179,7 @@ async function renderHomepage() {
     .filter(Boolean)
     .sort()
     .pop();
-  if (latestDate) {
-    const d = new Date(latestDate);
-    document.getElementById('stat-latest').textContent =
-      d.toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
-  }
+  // stat-latest removed from homepage UI
 
   // Sort helpers
   let sortMode = 'thesis-track';
