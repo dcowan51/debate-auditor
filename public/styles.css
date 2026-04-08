@@ -2300,7 +2300,7 @@ footer {
   padding: 52px 24px;
 }
 .explainer-inner {
-  max-width: var(--max-width);
+  max-width: 960px;
   margin: 0 auto;
 }
 .explainer-mission {
