@@ -70,6 +70,47 @@
   <div style="display:flex;flex-wrap:wrap;gap:8px" id="core-positions"></div>
 </section>
 
+<section class="email-capture">
+  <div class="email-capture-inner">
+    <h3 class="email-capture-heading">Stay in the Loop</h3>
+    <p class="email-capture-sub">New analyses added weekly. Get notified when creators you follow are audited.</p>
+    <form class="email-capture-form" name="subscribers" netlify netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="subscribers">
+      <p style="display:none"><input name="bot-field"></p>
+      <div class="email-capture-row">
+        <input class="form-input email-capture-input" type="email" name="email" placeholder="your@email.com" required autocomplete="email">
+        <button class="form-submit email-capture-btn" type="submit">Subscribe</button>
+      </div>
+      <p class="email-capture-fine">No spam. Unsubscribe any time.</p>
+    </form>
+    <div class="email-capture-success" hidden>
+      <p>✓ You're on the list. We'll notify you when new analyses drop.</p>
+    </div>
+  </div>
+</section>
+<script>
+(function(){
+  var form = document.querySelector('.email-capture-form');
+  if (!form) return;
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    var btn = form.querySelector('button[type="submit"]');
+    btn.disabled = true;
+    btn.textContent = 'Subscribing…';
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams(new FormData(form)).toString()
+    }).then(function() {
+      form.hidden = true;
+      document.querySelector('.email-capture-success').hidden = false;
+    }).catch(function() {
+      btn.disabled = false;
+      btn.textContent = 'Subscribe';
+    });
+  });
+})();
+</script>
 <footer>
   <p>Act17:11 — Independent accuracy analysis for biblical content creators. "They examined the Scriptures daily to see if what was said was true." — Acts 17:11</p>
   <p style="margin-top:8px">Not affiliated with YouTube or any creator. All analyses are based on verifiable sources. · <a href="about.html" style="color:var(--text-muted)">About</a></p>
