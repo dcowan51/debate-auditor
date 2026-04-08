@@ -680,12 +680,12 @@ nav {
   .rd-verdict-chip { display: none; }
 }
 
-/* ===== VERDICT STRIP (Thesis Track Record) ===== */
-.thesis-track {
+/* ===== VERDICT STRIP (Argument Record) ===== */
+.argument-record {
   margin: 14px 0 12px;
 }
 
-.thesis-track-label {
+.argument-record-label {
   font-size: 0.68rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;

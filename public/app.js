@@ -27,7 +27,7 @@ function scoreColor(score) {
   return 'var(--red-light)';
 }
 
-// Utility: thesis track record strip
+// Utility: argument record record strip
 function verdictStripHTML(c) {
   const d = c.verdictDistribution || { intact: 0, compromised: 0, collapsed: 0 };
   const total = d.intact + d.compromised + d.collapsed;
@@ -44,9 +44,9 @@ function verdictStripHTML(c) {
                 `${d.intact} of ${total} arguments hold`;
 
   return `
-    <div class="thesis-track">
-      <div class="thesis-track-label">
-        <span>Thesis Track Record</span>
+    <div class="argument-record">
+      <div class="argument-record-label">
+        <span>Argument Record</span>
         <span class="thesis-summary">${holds}</span>
       </div>
       <div class="verdict-strip">
@@ -182,7 +182,7 @@ async function renderHomepage() {
   // stat-latest removed from homepage UI
 
   // Sort helpers
-  let sortMode = 'thesis-track';
+  let sortMode = 'argument-record';
 
   function thesisSortKey(c) {
     const d = c.verdictDistribution || { intact: 0, compromised: 0, collapsed: 0 };
@@ -192,7 +192,7 @@ async function renderHomepage() {
 
   function renderCreatorRows(mode) {
     const sorted = [...creators].filter(c => c.sessions >= 2);
-    if (mode === 'thesis-track') {
+    if (mode === 'argument-record') {
       sorted.sort((a, b) => {
         const diff = thesisSortKey(b) - thesisSortKey(a);
         if (diff !== 0) return diff;
@@ -246,7 +246,7 @@ async function renderHomepage() {
               <div class="creator-row-channel">${c.channel}</div>
             </div>
             <div class="creator-row-track">
-              <div class="rd-track-label">Thesis Track Record</div>
+              <div class="rd-track-label">Argument Record</div>
               ${dotsHTML}
               <div class="rd-hold-text">${holdText}</div>
             </div>
@@ -343,7 +343,7 @@ async function renderCreator() {
   }
 
   // Thesis track panel — primary signal
-  const trackEl = document.getElementById('profile-thesis-track');
+  const trackEl = document.getElementById('profile-argument-record');
   if (trackEl) {
     const d = creator.verdictDistribution || {};
     const total = (d.intact||0) + (d.compromised||0) + (d.collapsed||0);
@@ -362,7 +362,7 @@ async function renderCreator() {
       d.collapsed  > 0 ? `<span style="color:var(--red-light);font-weight:600">${d.collapsed} COLLAPSED</span>` : '',
     ].filter(Boolean).join('<span style="color:var(--border);margin:0 8px">·</span>');
     trackEl.innerHTML = `
-      <div class="profile-track-label">Thesis Track Record</div>
+      <div class="profile-track-label">Argument Record</div>
       <div class="profile-track-hold">${holdText}</div>
       <div class="profile-track-dots">${dots}</div>
       <div class="profile-track-dist">${dist}</div>
