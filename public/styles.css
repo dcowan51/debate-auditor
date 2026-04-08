@@ -289,7 +289,7 @@ nav {
 .section {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 0 24px 64px;
+  padding: 52px 24px 64px;
 }
 
 .section-header {
@@ -2303,6 +2303,48 @@ footer {
   max-width: var(--max-width);
   margin: 0 auto;
 }
+.explainer-mission {
+  max-width: 640px;
+  margin-bottom: 48px;
+}
+.explainer-mission-tag {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--accent-light);
+  background: rgba(162, 155, 254, 0.1);
+  border: 1px solid rgba(162, 155, 254, 0.2);
+  border-radius: 20px;
+  padding: 3px 10px;
+  margin-bottom: 16px;
+}
+.explainer-mission-heading {
+  font-size: 1.6rem;
+  font-weight: 800;
+  line-height: 1.25;
+  margin-bottom: 18px;
+  color: var(--text);
+}
+.explainer-mission-body {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  line-height: 1.75;
+  margin-bottom: 12px;
+}
+.explainer-mission-divider {
+  width: 40px;
+  height: 2px;
+  background: var(--border);
+  margin: 24px 0 16px;
+}
+.explainer-lede-sub {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  letter-spacing: 0.02em;
+}
 .explainer-lede {
   max-width: 560px;
   margin-bottom: 36px;
@@ -2479,7 +2521,7 @@ footer {
   .hero { padding: 48px 20px 40px; }
 
   /* --- Sections --- */
-  .section { padding: 0 16px 48px; }
+  .section { padding: 36px 16px 48px; }
   .section-header { flex-direction: column; align-items: flex-start; gap: 12px; }
 
   /* --- Creator cards grid --- */
@@ -2664,7 +2706,7 @@ footer {
   .profile-stats { gap: 12px; }
 
   /* --- Section padding: tighter on very narrow screens --- */
-  .section { padding: 0 12px 40px; }
+  .section { padding: 28px 12px 40px; }
   .tabs-container { padding: 0 12px 40px; }
   .dashboard-panel { padding: 0 12px 24px; }
   .email-capture { padding: 36px 16px; }
